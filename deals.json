@@ -1,0 +1,122 @@
+{
+  "ntfy": {
+    "base_url": "https://ntfy.sh",
+    "priority": "4",
+    "tags": "moneybag"
+  },
+  "codex": {
+    "bin": "/home/intimatik/.nvm/versions/node/v24.13.0/bin/codex",
+    "timeout_seconds": 900,
+    "max_results_per_target": 5
+  },
+  "targets": [
+    {
+      "id": "nzxt-h1-v2",
+      "name": "NZXT H1 V2 mini-ITX case bundle",
+      "max_price_usd": 200,
+      "usual_market_price_usd": 220,
+      "search_intent": "Find currently available used, open-box, or discounted NZXT H1 V2 mini-ITX case listings under $200 total. The listing must include the original PSU and AIO liquid cooler. Prefer complete bundles with riser cable. Reject NZXT H1 V1, case shells missing PSU/AIO, broken PSU/AIO, sold listings, out-of-stock listings, local-pickup-only listings, listings that do not ship directly to the United States, links that do not open as active listing pages, and listings where item price plus shipping is $200 or more.",
+      "acceptance_criteria": [
+        "It is NZXT H1 V2, not H1 V1. Treat the common typo NXZT as NZXT only if the listing clearly means NZXT.",
+        "It includes the PSU.",
+        "It includes the AIO cooler.",
+        "The total price including shipping is less than 200 USD.",
+        "It is currently available to buy.",
+        "The listing URL opens as an active listing page.",
+        "It ships directly to the United States; local pickup only is not acceptable."
+      ],
+      "search_queries": [
+        "NZXT H1 V2 case PSU AIO under $200",
+        "NXZT H1 V2 used case PSU AIO under $200",
+        "NZXT H1 V2 750W AIO eBay under 200",
+        "NZXT H1 V2 open box case PSU cooler"
+      ]
+    },
+    {
+      "id": "bang-olufsen-charging-case",
+      "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
+      "max_price_usd": 100,
+      "usual_market_price_usd": 120,
+      "search_intent": "Find currently available charging case deals under $100 total ONLY for these models: Bang & Olufsen Eleven, B&O Eleven, Bang & Olufsen Beoplay EX, B&O Beoplay EX, or Cisco 950. Only the charging case is needed; earbuds may be missing, broken, or included as broken parts. Reject every other B&O model, including Beoplay EQ, Beoplay E8, E8 2.0, E8 3rd Gen, E6, EX generic protective covers, Portal, H95, HX, A8, and any listing where the model is unclear. Reject generic silicone protective covers, skins, pouches, non-charging cases, sold listings, out-of-stock listings, listings that do not ship directly to the United States, listings requiring a proxy/forwarder such as Mercari Japan, links that do not open as active listing pages, and listings where item price plus shipping is $100 or more.",
+      "acceptance_criteria": [
+        "The listing clearly says the charging case is for B&O Eleven, Bang & Olufsen Eleven, Beoplay EX, Bang & Olufsen Beoplay EX, B&O Beoplay EX, or Cisco 950.",
+        "Reject all other B&O models, especially Beoplay EQ and Beoplay E8.",
+        "A real compatible charging case is included.",
+        "It is not just a silicone cover, skin, sleeve, or pouch.",
+        "Earbuds can be missing, included, or broken.",
+        "The total price including shipping is less than 100 USD.",
+        "It is currently available to buy.",
+        "The listing URL opens as an active listing page.",
+        "It ships directly to the United States; proxy/forwarder-only marketplaces such as Mercari Japan are not acceptable."
+      ],
+      "required_any_patterns": [
+        "\\b(b&o|bang\\s*&?\\s*olufsen)\\s+eleven\\b",
+        "\\beleven\\s+(earbuds?|charging\\s+case|case)\\b",
+        "\\bbeoplay\\s+ex\\b",
+        "\\b(b&o|bang\\s*&?\\s*olufsen)\\s+ex\\b",
+        "\\bcisco\\s+950\\b"
+      ],
+      "reject_patterns": [
+        "\\bbeoplay\\s+eq\\b",
+        "\\bbeoplay\\s+e8\\b",
+        "\\be8\\s*(2\\.0|3rd|third|gen|generation)?\\b",
+        "\\bbeoplay\\s+e6\\b",
+        "\\bportal\\b",
+        "\\bh95\\b",
+        "\\bhx\\b",
+        "\\ba8\\b",
+        "\\bsilicone\\b",
+        "\\bprotective\\s+(cover|case|skin)\\b"
+      ],
+      "search_queries": [
+        "B&O Eleven charging case only under $100",
+        "Bang Olufsen Eleven charging case eBay under 100",
+        "B&O Beoplay EX charging case only under $100",
+        "Bang Olufsen Beoplay EX charging case replacement under 100",
+        "Cisco 950 charging case under $100",
+        "Cisco 950 earbuds broken charging case"
+      ]
+    },
+    {
+      "id": "macbook-13-apple-silicon-16-24gb",
+      "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
+      "max_price_usd": 650,
+      "usual_market_price_usd": 750,
+      "search_intent": "Find currently available used, refurbished, open-box, or discounted 13-inch Apple Silicon MacBook Air or 13-inch MacBook Pro listings under $650 total. The laptop must have an M2, M3, M4, M5, or newer Apple Silicon chip, and must have either 16GB or 24GB RAM/unified memory. Reject M1 MacBooks, Intel MacBooks, 14-inch, 15-inch, and 16-inch MacBooks, 8GB RAM models, models with less than 16GB RAM, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings, listings that do not ship directly to the United States, links that do not open as active listing pages, and listings where item price plus shipping is $650 or more.",
+      "acceptance_criteria": [
+        "It is a 13-inch MacBook Air or 13-inch MacBook Pro.",
+        "It has an Apple Silicon chip: M2, M3, M4, M5, or newer. M1 models are not acceptable.",
+        "It has either 16GB or 24GB RAM/unified memory.",
+        "Reject all M1 MacBooks.",
+        "Reject all Intel MacBooks.",
+        "Reject 14-inch, 15-inch, and 16-inch MacBooks.",
+        "Reject 8GB RAM models and any listing where RAM is missing or unclear.",
+        "The total price including shipping is less than 650 USD.",
+        "It is currently available to buy.",
+        "The listing URL opens as an active listing page.",
+        "It ships directly to the United States; local pickup only is not acceptable."
+      ],
+      "required_any_patterns": [
+        "(?=.*\\bmacbook\\b)(?=.*\\b13(?:\\.3)?\\s*(?:-|\\s)?(?:inch|in\\.?|\")?\\b)(?=.*\\bm(?:[2-9]|[1-9][0-9]+)\\b)(?=.*\\b(?:16|24)\\s*gb\\b)"
+      ],
+      "reject_patterns": [
+        "\\bm1\\b",
+        "\\bintel\\b",
+        "\\bcore\\s+i[3579]\\b",
+        "\\b14(?:\\.2)?\\s*(?:-|\\s)?(?:inch|in\\.?|\")\\b",
+        "\\b15(?:\\.3)?\\s*(?:-|\\s)?(?:inch|in\\.?|\")\\b",
+        "\\b16(?:\\.2)?\\s*(?:-|\\s)?(?:inch|in\\.?|\")\\b",
+        "\\b(?:4|8|32|36|48|64|96|128)\\s*gb\\s*(?:ram|unified\\s+memory|memory)\\b",
+        "\\b(?:ram|memory)\\s*[:/-]?\\s*(?:4|8|32|36|48|64|96|128)\\s*gb\\b"
+      ],
+      "search_queries": [
+        "13-inch MacBook Air M2 16GB RAM under $650 used",
+        "13-inch MacBook Pro M2 16GB RAM under $650 used",
+        "13-inch MacBook Air M2 24GB unified memory under $650",
+        "13-inch MacBook Air M3 16GB RAM under $650 used",
+        "13-inch MacBook Air M3 24GB unified memory under $650 used",
+        "13-inch MacBook Air M4 16GB RAM under $650 used"
+      ]
+    }
+  ]
+}
