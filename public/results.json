@@ -1,24 +1,7 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-12T20:19:48.462941+00:00",
+  "finished_at": "2026-05-12T21:19:23.975691+00:00",
   "logs": [
-    "2026-05-12 02:19:01,350 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-12 02:19:01,351 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-12 02:20:44,868 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/198174535036",
-    "2026-05-12 02:20:44,940 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/297589078577",
-    "2026-05-12 02:20:45,172 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=3",
-    "2026-05-12 02:20:45,173 INFO already notified target=macbook-13-apple-silicon-16-24gb total=593.74 url=https://www.ebay.com/itm/198174535036",
-    "2026-05-12 02:20:45,173 INFO new deal target=macbook-13-apple-silicon-16-24gb total=629.99 url=https://www.ebay.com/itm/297589078577",
-    "2026-05-12 02:20:45,308 INFO already notified target=macbook-13-apple-silicon-16-24gb total=649.00 url=https://swappa.com/listing/view/LADY61014",
-    "[main c417663] Update scalper results 2026-05-12 06:20 UTC",
-    " 3 files changed, 102 insertions(+), 81 deletions(-)",
-    "To github.com:mkoltsov/scalper.git",
-    "   1dafc21..c417663  main -> main",
-    "To github.com:mkoltsov/scalper.git",
-    " + e6703f2...245e7b3 gh-pages -> gh-pages (forced update)",
-    "2026-05-12 02:20:47,605 INFO cron job finished service=scalper exit_code=0 duration_ms=241043.034",
-    "2026-05-12 03:17:02,235 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages",
-    "2026-05-12 03:17:02,993 INFO checking target=nzxt-h1-v2 with Codex web_search",
     "2026-05-12 03:19:11,732 INFO target=nzxt-h1-v2 qualifying_deals=0",
     "2026-05-12 03:19:11,733 INFO checking target=bang-olufsen-charging-case with Codex web_search",
     "2026-05-12 03:21:17,144 INFO target=bang-olufsen-charging-case qualifying_deals=0",
@@ -241,9 +224,26 @@
     "To github.com:mkoltsov/scalper.git",
     " + 96f30be...33b82ff gh-pages -> gh-pages (forced update)",
     "2026-05-12 15:21:55,463 INFO cron job finished service=scalper exit_code=0 duration_ms=293741.816",
-    "2026-05-12 16:17:02,210 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages"
+    "2026-05-12 16:17:02,210 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages",
+    "2026-05-12 16:17:02,629 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-12 16:17:57,194 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-12 16:17:57,195 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-12 16:18:47,764 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-12 16:18:47,764 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-12 16:19:48,264 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/277916037803",
+    "2026-05-12 16:19:48,462 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2",
+    "2026-05-12 16:19:48,462 INFO already notified target=macbook-13-apple-silicon-16-24gb total=619.99 url=https://www.ebay.com/itm/277916037803",
+    "2026-05-12 16:19:48,462 INFO already notified target=macbook-13-apple-silicon-16-24gb total=649.00 url=https://swappa.com/listing/view/LADY61014",
+    "[main 0415ae5] Update scalper results 2026-05-12 20:19 UTC",
+    " 3 files changed, 90 insertions(+), 111 deletions(-)",
+    "To github.com:mkoltsov/scalper.git",
+    "   cbcf858..0415ae5  main -> main",
+    "To github.com:mkoltsov/scalper.git",
+    " + 33b82ff...4657a88 gh-pages -> gh-pages (forced update)",
+    "2026-05-12 16:19:50,639 INFO cron job finished service=scalper exit_code=0 duration_ms=168429.196",
+    "2026-05-12 17:17:01,408 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages"
   ],
-  "started_at": "2026-05-12T20:17:02.627951+00:00",
+  "started_at": "2026-05-12T21:17:01.831011+00:00",
   "targets": [
     {
       "deals": [],
@@ -261,20 +261,6 @@
       "deals": [
         {
           "availability": "available",
-          "condition": "Good - Refurbished",
-          "confidence": 0.96,
-          "price_usd": 619.99,
-          "seller": "ItsWorthMore",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 13 Space Gray 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 256GB SSD",
-          "total_usd": 619.99,
-          "url": "https://www.ebay.com/itm/277916037803",
-          "why_good": "Active Buy It Now listing for 13-inch MacBook Air with Apple M2, 16GB RAM, and free US shipping under $650 total."
-        },
-        {
-          "availability": "available",
           "condition": "Good condition",
           "confidence": 0.92,
           "price_usd": 649.0,
@@ -285,7 +271,7 @@
           "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
           "total_usd": 649.0,
           "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "Approved Swappa listing with Login to Buy for 13-inch MacBook Air M2, 16GB RAM, 512GB SSD, and free US shipping under $650 total."
+          "why_good": "13-inch MacBook Air with Apple M2, 16GB RAM, 512GB SSD, free US shipping, active Login to Buy listing under $650 total."
         }
       ],
       "id": "macbook-13-apple-silicon-16-24gb",
