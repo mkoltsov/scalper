@@ -7,7 +7,7 @@ Deal monitor that asks Codex web search for configured targets, filters the retu
 - `scalper.py` - monitor, filters, notifier, and static page generator.
 - `deals.json` - public target configuration.
 - `secrets.json` - local-only secrets, currently the ntfy topic.
-- `public/` - generated GitHub Pages output.
+- `public/` - generated GitHub Pages output, including results, recent logs, and the target builder UI.
 
 ## Run
 
@@ -36,3 +36,11 @@ The public page is:
 ```text
 https://mkoltsov.github.io/scalper/
 ```
+
+The page includes:
+
+- current qualifying listings,
+- a sanitized tail of `cron.log`,
+- a browser-only form that builds a new target JSON object and opens a prefilled GitHub issue.
+
+The UI does not write directly to the repo because that would require exposing a GitHub write token in a public page.

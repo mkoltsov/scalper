@@ -28,6 +28,7 @@ DEFAULT_CONFIG = BASE_DIR / "deals.json"
 DEFAULT_SECRETS = BASE_DIR / "secrets.json"
 DEFAULT_STATE = BASE_DIR / "state.json"
 DEFAULT_PUBLIC_DIR = BASE_DIR / "public"
+DEFAULT_LOG_FILE = BASE_DIR / "cron.log"
 LOGGER = logging.getLogger("scalper")
 USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -672,12 +673,34 @@ def deal_to_json(deal: Deal) -> dict[str, Any]:
     }
 
 
+def sanitize_log_text(text: str) -> str:
+    text = re.sub(r"cfut_[A-Za-z0-9_=-]+", "cfut_[redacted]", text)
+    text = re.sub(r"(https://ntfy\.sh/)[A-Za-z0-9_.-]+", r"\1[redacted]", text)
+    text = re.sub(r"(Authorization:\s*(?:Bearer|token)\s+)[A-Za-z0-9_.=-]+", r"\1[redacted]", text, flags=re.IGNORECASE)
+    return text
+
+
+def read_log_tail(log_path: Path, lines: int = 240) -> list[str]:
+    if not log_path.exists():
+        return []
+    try:
+        raw_lines = log_path.read_text(encoding="utf-8", errors="replace").splitlines()
+    except OSError as exc:
+        return [f"Could not read log file: {exc}"]
+    return [sanitize_log_text(line) for line in raw_lines[-lines:]]
+
+
 def write_pages(public_dir: Path, payload: dict[str, Any]) -> None:
     public_dir.mkdir(parents=True, exist_ok=True)
     (public_dir / "results.json").write_text(
         json.dumps(payload, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
+    (public_dir / "logs.txt").write_text(
+        "\n".join(payload.get("logs", [])) + "\n",
+        encoding="utf-8",
+    )
+    write_app_js(public_dir)
 
     generated_at = payload.get("finished_at") or payload.get("started_at")
     cards = []
@@ -708,6 +731,12 @@ def write_pages(public_dir: Path, payload: dict[str, Any]) -> None:
             """
         )
 
+    log_lines = payload.get("logs", [])
+    if log_lines:
+        logs_html = html.escape("\n".join(log_lines[-120:]))
+    else:
+        logs_html = "No logs available yet."
+
     page = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -715,7 +744,7 @@ def write_pages(public_dir: Path, payload: dict[str, Any]) -> None:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Scalper Results</title>
   <style>
-    :root {{ color-scheme: dark; --bg:#090b10; --panel:#111722; --line:#253044; --text:#eef3ff; --muted:#97a3b8; --accent:#74d3ff; }}
+    :root {{ color-scheme: dark; --bg:#090b10; --panel:#111722; --line:#253044; --text:#eef3ff; --muted:#97a3b8; --accent:#74d3ff; --danger:#ff8b8b; }}
     * {{ box-sizing: border-box; }}
     body {{ margin:0; font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif; background:radial-gradient(circle at 20% 0,#172236 0,#090b10 42rem); color:var(--text); }}
     main {{ width:min(1040px, calc(100% - 32px)); margin:0 auto; padding:48px 0 72px; }}
@@ -724,15 +753,27 @@ def write_pages(public_dir: Path, payload: dict[str, Any]) -> None:
     h1,h2,p {{ margin-top:0; }}
     header h1 {{ font-size:clamp(34px,6vw,68px); line-height:1; margin:10px 0 16px; }}
     header p,.empty,.meta,.target-head span {{ color:var(--muted); }}
+    nav {{ display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }}
+    nav a,.button,button {{ border:1px solid var(--line); background:#162033; color:var(--text); border-radius:6px; padding:9px 12px; font:inherit; text-decoration:none; cursor:pointer; }}
+    nav a:hover,.button:hover,button:hover {{ border-color:var(--accent); color:var(--accent); }}
     .target {{ border:1px solid var(--line); background:color-mix(in srgb, var(--panel) 86%, transparent); border-radius:8px; padding:22px; margin:18px 0; box-shadow:0 24px 60px rgba(0,0,0,.24); }}
     .target-head {{ display:flex; gap:16px; align-items:baseline; justify-content:space-between; border-bottom:1px solid var(--line); padding-bottom:14px; margin-bottom:14px; }}
     .target-head h1 {{ font-size:22px; line-height:1.2; margin:0; }}
     .deal {{ padding:16px 0; border-top:1px solid rgba(255,255,255,.07); }}
     .deal:first-of-type {{ border-top:0; }}
     .deal h2 {{ font-size:20px; line-height:1.25; margin:4px 0 8px; }}
+    .tool-grid {{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }}
+    label {{ display:block; color:var(--muted); font-size:13px; margin-bottom:5px; }}
+    input,textarea {{ width:100%; border:1px solid var(--line); background:#090f19; color:var(--text); border-radius:6px; padding:10px 11px; font:inherit; }}
+    textarea {{ min-height:92px; resize:vertical; }}
+    .wide {{ grid-column:1 / -1; }}
+    .actions {{ display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }}
+    pre {{ margin:0; white-space:pre-wrap; overflow:auto; border:1px solid var(--line); background:#070b12; color:#dbe7ff; border-radius:8px; padding:16px; max-height:440px; }}
+    .output {{ margin-top:16px; }}
+    .error {{ color:var(--danger); }}
     a {{ color:var(--text); text-decoration-color:var(--accent); text-underline-offset:4px; }}
     a:hover {{ color:var(--accent); }}
-    @media (max-width:640px) {{ main {{ width:min(100% - 20px, 1040px); padding-top:28px; }} .target {{ padding:16px; }} .target-head {{ display:block; }} }}
+    @media (max-width:640px) {{ main {{ width:min(100% - 20px, 1040px); padding-top:28px; }} .target {{ padding:16px; }} .target-head {{ display:block; }} .tool-grid {{ grid-template-columns:1fr; }} }}
   </style>
 </head>
 <body>
@@ -741,13 +782,163 @@ def write_pages(public_dir: Path, payload: dict[str, Any]) -> None:
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
       <p>Latest run: {html.escape(str(generated_at or "unknown"))}. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <nav>
+        <a href="#results">Results</a>
+        <a href="#add-target">Add target</a>
+        <a href="#logs">Logs</a>
+        <a href="results.json">JSON</a>
+        <a href="logs.txt">Raw logs</a>
+      </nav>
     </header>
-    {''.join(cards)}
+    <section id="results">
+      {''.join(cards)}
+    </section>
+    <section class="target" id="add-target">
+      <div class="target-head">
+        <h1>Add target</h1>
+        <span>builds JSON for deals.json</span>
+      </div>
+      <form id="target-form" class="tool-grid">
+        <div>
+          <label for="target-id">ID</label>
+          <input id="target-id" name="id" placeholder="sony-wh-1000xm6" required>
+        </div>
+        <div>
+          <label for="target-price">Max total price USD</label>
+          <input id="target-price" name="max_price_usd" type="number" min="1" step="1" placeholder="150" required>
+        </div>
+        <div class="wide">
+          <label for="target-name">Name</label>
+          <input id="target-name" name="name" placeholder="Sony WH-1000XM6 headphones" required>
+        </div>
+        <div class="wide">
+          <label for="target-intent">Search intent</label>
+          <textarea id="target-intent" name="search_intent" placeholder="Find currently available used or open-box..." required></textarea>
+        </div>
+        <div>
+          <label for="target-required">Required regex patterns, one per line</label>
+          <textarea id="target-required" name="required_any_patterns"></textarea>
+        </div>
+        <div>
+          <label for="target-reject">Reject regex patterns, one per line</label>
+          <textarea id="target-reject" name="reject_patterns"></textarea>
+        </div>
+        <div class="wide">
+          <label for="target-queries">Search queries, one per line</label>
+          <textarea id="target-queries" name="search_queries" required></textarea>
+        </div>
+      </form>
+      <div class="actions">
+        <button type="button" id="build-target">Build JSON</button>
+        <button type="button" id="copy-target">Copy JSON</button>
+        <a class="button" id="issue-link" href="https://github.com/mkoltsov/scalper/issues/new" rel="noopener">Open GitHub issue</a>
+      </div>
+      <p id="target-message" class="empty"></p>
+      <pre class="output" id="target-output"></pre>
+    </section>
+    <section class="target" id="logs">
+      <div class="target-head">
+        <h1>Logs</h1>
+        <span>{len(log_lines)} lines published</span>
+      </div>
+      <pre>{logs_html}</pre>
+    </section>
   </main>
+  <script src="app.js"></script>
 </body>
 </html>
 """
     (public_dir / "index.html").write_text(page, encoding="utf-8")
+
+
+def write_app_js(public_dir: Path) -> None:
+    script = r"""const form = document.querySelector("#target-form");
+const buildButton = document.querySelector("#build-target");
+const copyButton = document.querySelector("#copy-target");
+const output = document.querySelector("#target-output");
+const message = document.querySelector("#target-message");
+const issueLink = document.querySelector("#issue-link");
+
+function lines(value) {
+  return value.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
+}
+
+function slug(value) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+function buildTarget() {
+  const data = new FormData(form);
+  const name = String(data.get("name") || "").trim();
+  const id = slug(String(data.get("id") || name));
+  const price = Number(data.get("max_price_usd"));
+  const queries = lines(String(data.get("search_queries") || ""));
+  const intent = String(data.get("search_intent") || "").trim();
+
+  if (!id || !name || !price || !intent || queries.length === 0) {
+    throw new Error("Fill ID, name, max price, search intent, and at least one search query.");
+  }
+
+  const target = {
+    id,
+    name,
+    max_price_usd: price,
+    search_intent: intent,
+    acceptance_criteria: [
+      "The listing clearly matches the requested item.",
+      `The total price including shipping is less than ${price} USD.`,
+      "It is currently available to buy.",
+      "The listing URL opens as an active listing page.",
+      "It ships directly to the United States; local pickup only is not acceptable."
+    ],
+    search_queries: queries
+  };
+
+  const required = lines(String(data.get("required_any_patterns") || ""));
+  const reject = lines(String(data.get("reject_patterns") || ""));
+  if (required.length) target.required_any_patterns = required;
+  if (reject.length) target.reject_patterns = reject;
+  return target;
+}
+
+function refresh() {
+  try {
+    const target = buildTarget();
+    const json = JSON.stringify(target, null, 2);
+    output.textContent = json;
+    message.textContent = "Add this object to deals.json under targets.";
+    message.className = "empty";
+    const body = [
+      "Please add this scalper target to deals.json:",
+      "",
+      "```json",
+      json,
+      "```"
+    ].join("\n");
+    issueLink.href = "https://github.com/mkoltsov/scalper/issues/new?title=" +
+      encodeURIComponent("Add scalper target: " + target.name) +
+      "&body=" + encodeURIComponent(body);
+  } catch (error) {
+    output.textContent = "";
+    message.textContent = error.message;
+    message.className = "error";
+    issueLink.href = "https://github.com/mkoltsov/scalper/issues/new";
+  }
+}
+
+buildButton?.addEventListener("click", refresh);
+form?.addEventListener("input", () => {
+  if (output.textContent) refresh();
+});
+copyButton?.addEventListener("click", async () => {
+  refresh();
+  if (!output.textContent) return;
+  await navigator.clipboard.writeText(output.textContent);
+  message.textContent = "Copied target JSON.";
+  message.className = "empty";
+});
+"""
+    (public_dir / "app.js").write_text(script, encoding="utf-8")
 
 
 def publish_pages(public_dir: Path) -> None:
@@ -780,6 +971,7 @@ def run(
     secrets_path: Path | None,
     state_path: Path,
     public_dir: Path,
+    log_file: Path,
     dry_run: bool,
     publish: bool,
     targets_filter: set[str] | None,
@@ -798,6 +990,7 @@ def run(
         "started_at": started_at,
         "finished_at": None,
         "targets": [],
+        "logs": read_log_tail(log_file),
     }
     exit_code = 0
 
@@ -895,6 +1088,7 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--secrets", type=Path, default=DEFAULT_SECRETS)
     parser.add_argument("--state", type=Path, default=DEFAULT_STATE)
     parser.add_argument("--public-dir", type=Path, default=DEFAULT_PUBLIC_DIR)
+    parser.add_argument("--log-file", type=Path, default=DEFAULT_LOG_FILE)
     parser.add_argument("--target", action="append", help="Only run one target id. Can be repeated.")
     parser.add_argument("--dry-run", action="store_true", help="Run searches but do not send ntfy or persist state.")
     parser.add_argument("--publish-pages", action="store_true", help="Commit and push generated public results.")
@@ -919,6 +1113,7 @@ def main(argv: list[str]) -> int:
         args.secrets,
         args.state,
         args.public_dir,
+        args.log_file,
         args.dry_run,
         args.publish_pages,
         set(args.target) if args.target else None,
