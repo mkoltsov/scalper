@@ -1,8 +1,7 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-12T01:26:12.408177+00:00",
+  "finished_at": "2026-05-12T02:19:38.862573+00:00",
   "logs": [
-    "2026-05-11 01:19:15,671 INFO already notified target=macbook-13-apple-silicon-16-24gb total=649.00 url=https://swappa.com/listing/view/LADY61014",
     "2026-05-11 01:19:15,743 INFO cron job finished service=scalper exit_code=0 duration_ms=142157.199",
     "2026-05-11 02:17:02,522 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py",
     "2026-05-11 02:17:03,152 INFO checking target=nzxt-h1-v2 with Codex web_search",
@@ -241,9 +240,10 @@
     "   6f4df9e..6441bf7  main -> main",
     "To github.com:mkoltsov/scalper.git",
     " + 45a73bf...f3ea061 gh-pages -> gh-pages (forced update)",
-    "2026-05-11 21:20:46,703 INFO cron job finished service=scalper exit_code=0 duration_ms=239394.145"
+    "2026-05-11 21:20:46,703 INFO cron job finished service=scalper exit_code=0 duration_ms=239394.145",
+    "2026-05-11 22:17:02,391 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages"
   ],
-  "started_at": "2026-05-12T01:26:12.408177+00:00",
+  "started_at": "2026-05-12T02:17:03.035125+00:00",
   "targets": [
     {
       "deals": [],
@@ -258,7 +258,22 @@
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case"
     },
     {
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Good condition",
+          "confidence": 0.93,
+          "price_usd": 649.0,
+          "seller": "Leonard",
+          "shipping_usd": 0.0,
+          "source": "Swappa",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+          "total_usd": 649.0,
+          "url": "https://swappa.com/listing/view/LADY61014",
+          "why_good": "13-inch MacBook Air with Apple M2, 16GB memory, 512GB SSD, active approved listing with free US shipping under $650 total."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM"
