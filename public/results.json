@@ -1,11 +1,25 @@
 {
-  "finished_at": "2026-05-11T00:01:00+00:00",
-  "started_at": "2026-05-11T00:00:00+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-05-12T01:08:50.491967+00:00",
+  "started_at": "2026-05-12T01:08:50.491967+00:00",
   "targets": [
     {
       "deals": [],
-      "id": "sample",
-      "name": "Sample Target"
+      "id": "nzxt-h1-v2",
+      "max_price_usd": 200,
+      "name": "NZXT H1 V2 mini-ITX case bundle"
+    },
+    {
+      "deals": [],
+      "id": "bang-olufsen-charging-case",
+      "max_price_usd": 100,
+      "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case"
+    },
+    {
+      "deals": [],
+      "id": "macbook-13-apple-silicon-16-24gb",
+      "max_price_usd": 650,
+      "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM"
     }
   ]
 }
