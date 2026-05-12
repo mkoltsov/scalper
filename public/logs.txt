@@ -1,21 +1,3 @@
-2026-05-11 05:20:21,436 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-11 05:20:21,436 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-11 05:21:26,198 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2
-2026-05-11 05:21:26,198 INFO already notified target=macbook-13-apple-silicon-16-24gb total=600.00 url=https://swappa.com/listing/view/LAET69724
-2026-05-11 05:21:26,198 INFO new deal target=macbook-13-apple-silicon-16-24gb total=644.00 url=https://swappa.com/listing/view/LAEH12455
-2026-05-11 05:21:26,392 INFO cron job finished service=scalper exit_code=0 duration_ms=277039.801
-2026-05-11 06:17:01,429 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py
-2026-05-11 06:17:01,938 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-11 06:17:46,165 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-11 06:17:46,165 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-11 06:18:49,729 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-11 06:18:49,729 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-11 06:20:02,532 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-11 06:20:02,532 INFO new deal target=macbook-13-apple-silicon-16-24gb total=595.00 url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-10-core-gpu-16gb-ram-ssd-512gb/c6a3fe11-669f-4a68-a053-ae3ce896508a
-2026-05-11 06:20:02,932 INFO cron job finished service=scalper exit_code=0 duration_ms=190919.701
-2026-05-11 07:17:01,552 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py
-2026-05-11 07:17:02,053 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-11 07:17:45,348 INFO target=nzxt-h1-v2 qualifying_deals=0
 2026-05-11 07:17:45,348 INFO checking target=bang-olufsen-charging-case with Codex web_search
 2026-05-11 07:18:25,167 INFO target=bang-olufsen-charging-case qualifying_deals=0
 2026-05-11 07:18:25,167 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
@@ -238,3 +220,21 @@ To github.com:mkoltsov/scalper.git
  + bc4c51d...31e17ba gh-pages -> gh-pages (forced update)
 2026-05-12 00:20:21,333 INFO cron job finished service=scalper exit_code=0 duration_ms=210115.954
 2026-05-12 01:17:02,868 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
+2026-05-12 01:17:03,749 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-12 01:17:56,267 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-12 01:17:56,267 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-12 01:18:19,797 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-12 01:18:19,797 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-12 01:19:42,975 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/277916037803
+2026-05-12 01:19:43,058 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/388940381019
+2026-05-12 01:19:43,058 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2
+2026-05-12 01:19:43,060 INFO already notified target=macbook-13-apple-silicon-16-24gb total=619.99 url=https://www.ebay.com/itm/277916037803
+2026-05-12 01:19:43,060 INFO already notified target=macbook-13-apple-silicon-16-24gb total=625.21 url=https://www.ebay.com/itm/388940381019
+[main 1dafc21] Update scalper results 2026-05-12 05:19 UTC
+ 3 files changed, 85 insertions(+), 64 deletions(-)
+To github.com:mkoltsov/scalper.git
+   ff42d39..1dafc21  main -> main
+To github.com:mkoltsov/scalper.git
+ + 31e17ba...e6703f2 gh-pages -> gh-pages (forced update)
+2026-05-12 01:19:45,628 INFO cron job finished service=scalper exit_code=0 duration_ms=173981.682
+2026-05-12 02:17:01,712 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
