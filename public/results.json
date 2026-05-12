@@ -1,21 +1,7 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-12T07:25:13.825570+00:00",
+  "finished_at": "2026-05-12T08:22:47.738033+00:00",
   "logs": [
-    "2026-05-11 09:17:01,583 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py",
-    "2026-05-11 09:17:02,015 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-11 09:17:39,766 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-11 09:17:39,766 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-11 09:18:16,877 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-11 09:18:16,877 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-11 09:19:37,814 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/198174535036",
-    "2026-05-11 09:19:37,881 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/358368548571",
-    "2026-05-11 09:19:37,968 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/277916037803",
-    "2026-05-11 09:19:38,200 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=4",
-    "2026-05-11 09:19:38,201 INFO already notified target=macbook-13-apple-silicon-16-24gb total=593.74 url=https://www.ebay.com/itm/198174535036",
-    "2026-05-11 09:19:38,201 INFO already notified target=macbook-13-apple-silicon-16-24gb total=579.99 url=https://www.ebay.com/itm/358368548571",
-    "2026-05-11 09:19:38,201 INFO already notified target=macbook-13-apple-silicon-16-24gb total=619.99 url=https://www.ebay.com/itm/277916037803",
-    "2026-05-11 09:19:38,201 INFO already notified target=macbook-13-apple-silicon-16-24gb total=649.00 url=https://swappa.com/listing/view/LADY61014",
     "2026-05-11 09:19:38,256 INFO cron job finished service=scalper exit_code=0 duration_ms=166495.058",
     "2026-05-11 10:17:02,161 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py",
     "2026-05-11 10:17:02,613 INFO checking target=nzxt-h1-v2 with Codex web_search",
@@ -241,9 +227,23 @@
     "To github.com:mkoltsov/scalper.git",
     " + e6703f2...245e7b3 gh-pages -> gh-pages (forced update)",
     "2026-05-12 02:20:47,605 INFO cron job finished service=scalper exit_code=0 duration_ms=241043.034",
-    "2026-05-12 03:17:02,235 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages"
+    "2026-05-12 03:17:02,235 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages",
+    "2026-05-12 03:17:02,993 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-12 03:19:11,732 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-12 03:19:11,733 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-12 03:21:17,144 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-12 03:21:17,144 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-12 03:25:13,825 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "[main 50c9c93] Update scalper results 2026-05-12 07:25 UTC",
+    " 3 files changed, 66 insertions(+), 129 deletions(-)",
+    "To github.com:mkoltsov/scalper.git",
+    "   c417663..50c9c93  main -> main",
+    "To github.com:mkoltsov/scalper.git",
+    " + 245e7b3...112cdc4 gh-pages -> gh-pages (forced update)",
+    "2026-05-12 03:25:16,333 INFO cron job finished service=scalper exit_code=0 duration_ms=524816.513",
+    "2026-05-12 04:17:02,138 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages"
   ],
-  "started_at": "2026-05-12T07:17:02.989831+00:00",
+  "started_at": "2026-05-12T08:17:02.677476+00:00",
   "targets": [
     {
       "deals": [],
@@ -258,7 +258,50 @@
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case"
     },
     {
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; tested, scratches/scuffs from normal use, no adapter included",
+          "confidence": 0.95,
+          "price_usd": 598.95,
+          "seller": "buybest26",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "Apple MacBook Air 13.6\" M2 3.49GHz 1TB NVME 16GB MC7U4LL/A Space Gray NO AC",
+          "total_usd": 598.95,
+          "url": "https://www.ebay.com/itm/277774831152",
+          "why_good": "13.6-inch MacBook Air with Apple M2, 16GB RAM, 1TB SSD, Buy It Now, 11 available, free US delivery under $650."
+        },
+        {
+          "availability": "available",
+          "condition": "Good - Refurbished; screen grade B, physical condition B, no AC adapter",
+          "confidence": 0.96,
+          "price_usd": 593.74,
+          "seller": "RBD Electronics",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "Apple MacBook Pro 13\" M2 2022 16GB 256 10C Tahoe NO AC - Space Gray",
+          "total_usd": 593.74,
+          "url": "https://www.ebay.com/itm/198174535036",
+          "why_good": "13-inch MacBook Pro with Apple M2, 16GB RAM, Buy It Now, free UPS Ground shipping, under $650 before coupon."
+        },
+        {
+          "availability": "available",
+          "condition": "Used; actual unit pictured, battery at least 84% health, listed screen-border defect not affecting LCD",
+          "confidence": 0.88,
+          "price_usd": 599.0,
+          "seller": "northbaysell",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "Apple MacBook Pro 2022 13\" - M2 8 CPU / 10 GPU | 16GB RAM 256GB SSD \uf8ff^ 84%",
+          "total_usd": 599.0,
+          "url": "https://www.ebay.com/itm/147223769305",
+          "why_good": "13-inch MacBook Pro with Apple M2, 16GB RAM, Buy It Now, last one available, free US delivery shown, under $650."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM"
