@@ -1,7 +1,7 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-12T01:08:50.491967+00:00",
-  "started_at": "2026-05-12T01:08:50.491967+00:00",
+  "finished_at": "2026-05-12T01:20:44.025513+00:00",
+  "started_at": "2026-05-12T01:17:00.680598+00:00",
   "targets": [
     {
       "deals": [],
@@ -16,7 +16,22 @@
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case"
     },
     {
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Good condition",
+          "confidence": 0.93,
+          "price_usd": 649.0,
+          "seller": "Leonard",
+          "shipping_usd": 0.0,
+          "source": "Swappa",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+          "total_usd": 649.0,
+          "url": "https://swappa.com/listing/view/LADY61014",
+          "why_good": "13-inch MacBook Air with Apple M2, 16GB memory, 512GB SSD, approved active listing with free US shipping under $650 total."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM"
