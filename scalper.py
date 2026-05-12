@@ -7,6 +7,7 @@ import json
 import logging
 import os
 import re
+import shutil
 import socket
 import subprocess
 import sys
@@ -758,6 +759,20 @@ def publish_pages(public_dir: Path) -> None:
     message = f"Update scalper results {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
     subprocess.run(["git", "commit", "-m", message], cwd=BASE_DIR, check=True)
     subprocess.run(["git", "push"], cwd=BASE_DIR, check=True)
+
+    with tempfile.TemporaryDirectory(prefix="scalper-pages-") as tmp_dir:
+        pages_repo = Path(tmp_dir)
+        for path in public_dir.iterdir():
+            target = pages_repo / path.name
+            if path.is_dir():
+                shutil.copytree(path, target)
+            else:
+                shutil.copy2(path, target)
+        subprocess.run(["git", "init", "-b", "gh-pages"], cwd=pages_repo, check=True, stdout=subprocess.DEVNULL)
+        subprocess.run(["git", "add", "."], cwd=pages_repo, check=True)
+        subprocess.run(["git", "commit", "-m", message], cwd=pages_repo, check=True, stdout=subprocess.DEVNULL)
+        subprocess.run(["git", "remote", "add", "origin", "git@github.com:mkoltsov/scalper.git"], cwd=pages_repo, check=True)
+        subprocess.run(["git", "push", "-f", "origin", "gh-pages"], cwd=pages_repo, check=True)
 
 
 def run(
