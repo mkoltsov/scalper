@@ -1,20 +1,3 @@
- + a2b6629...43cbd59 gh-pages -> gh-pages (forced update)
-2026-05-11 22:19:40,907 INFO cron job finished service=scalper exit_code=0 duration_ms=162953.565
-2026-05-11 23:17:02,099 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
-2026-05-11 23:17:02,730 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-11 23:17:50,744 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-11 23:17:50,744 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-11 23:18:18,621 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-11 23:18:18,622 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-11 23:19:34,630 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-11 23:19:34,631 INFO already notified target=macbook-13-apple-silicon-16-24gb total=649.00 url=https://swappa.com/listing/view/LADY61014
-[main 36f0f97] Update scalper results 2026-05-12 03:19 UTC
- 3 files changed, 54 insertions(+), 54 deletions(-)
-To github.com:mkoltsov/scalper.git
-   31fb447..36f0f97  main -> main
-To github.com:mkoltsov/scalper.git
- + 43cbd59...bc4c51d gh-pages -> gh-pages (forced update)
-2026-05-11 23:19:36,756 INFO cron job finished service=scalper exit_code=0 duration_ms=163240.027
 2026-05-12 00:17:02,048 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
 2026-05-12 00:17:02,778 INFO checking target=nzxt-h1-v2 with Codex web_search
 2026-05-12 00:17:43,027 INFO target=nzxt-h1-v2 qualifying_deals=0
@@ -238,3 +221,20 @@ To github.com:mkoltsov/scalper.git
  + b07480e...1cdc69b gh-pages -> gh-pages (forced update)
 2026-05-12 12:21:25,675 INFO cron job finished service=scalper exit_code=0 duration_ms=264202.357
 2026-05-12 13:17:01,479 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
+2026-05-12 13:17:01,898 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-12 13:18:23,723 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-12 13:18:23,723 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-12 13:19:35,711 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-12 13:19:35,711 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-12 13:22:01,629 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/277916037803
+2026-05-12 13:22:01,952 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2
+2026-05-12 13:22:01,952 INFO already notified target=macbook-13-apple-silicon-16-24gb total=619.99 url=https://www.ebay.com/itm/277916037803
+2026-05-12 13:22:01,952 INFO already notified target=macbook-13-apple-silicon-16-24gb total=649.00 url=https://swappa.com/listing/view/LADY61014
+[main f97a544] Update scalper results 2026-05-12 17:22 UTC
+ 3 files changed, 81 insertions(+), 144 deletions(-)
+To github.com:mkoltsov/scalper.git
+   4d2dad5..f97a544  main -> main
+To github.com:mkoltsov/scalper.git
+ + 1cdc69b...ea89ae3 gh-pages -> gh-pages (forced update)
+2026-05-12 13:22:04,310 INFO cron job finished service=scalper exit_code=0 duration_ms=302831.295
+2026-05-12 14:17:02,059 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
