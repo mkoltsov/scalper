@@ -29,7 +29,10 @@ python scalper.py --dry-run
 
 ## GitHub Pages
 
-The repository publishes `public/` through `.github/workflows/pages.yml`. Cron runs with `--publish-pages`, so changed results are committed and pushed automatically.
+The repository publishes generated `public/` output to the `gh-pages` branch. Cron runs with `--publish-pages`, so changed results are committed to `main` and the rendered site is pushed to `gh-pages` automatically.
 
-In GitHub, set Pages source to **GitHub Actions** for `mkoltsov/scalper`.
+The public page is:
 
+```text
+https://mkoltsov.github.io/scalper/
+```
