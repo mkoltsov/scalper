@@ -42,7 +42,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-05-13T07:24:07.788440+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-05-13T08:25:45.761687+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -53,6 +53,14 @@
     </header>
     <section id="results">
       
+            <section class="target">
+              <div class="target-head">
+                <h1>NZXT H1 V2 mini-ITX case bundle</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
             <section class="target">
               <div class="target-head">
                 <h1>B&amp;O Eleven / Beoplay EX / Cisco 950 charging case</h1>
@@ -68,9 +76,9 @@
               </div>
               
                 <article class="deal">
-                  <div class="meta">eBay · $619.99</div>
-                  <h2><a href="https://www.ebay.com/itm/277916037803" rel="nofollow noopener">MacBook Air 13 Space Gray 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 256GB SSD</a></h2>
-                  <p>Active Buy It Now listing for a 13-inch MacBook Air with Apple M2, 16GB RAM, and free US shipping under $650 total.</p>
+                  <div class="meta">Swappa · $649.00</div>
+                  <h2><a href="https://swappa.com/listing/view/LADY61014" rel="nofollow noopener">MacBook Air 2022 (M2) - 13&quot; - 512GB, Midnight, 16GB, Apple M2</a></h2>
+                  <p>13-inch MacBook Air with Apple M2, 16GB memory, 512GB SSD, free US shipping, and total under $650.</p>
                 </article>
                 
             </section>
@@ -86,9 +94,15 @@
             <section class="target">
               <div class="target-head">
                 <h1>M2-or-newer Mac mini with 16GB+ RAM</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+                <article class="deal">
+                  <div class="meta">eBay · $522.58</div>
+                  <h2><a href="https://www.ebay.com/itm/326760011807" rel="nofollow noopener">Apple Mac Mini (M4 Chip, 256GB SSD, 16GB RAM) Desktop (Excellent Mint Cond)</a></h2>
+                  <p>Apple M4 Mac mini desktop with 16GB RAM, Buy It Now checkout available, and item plus shipping totals under $550.</p>
+                </article>
+                
             </section>
             
     </section>
@@ -140,126 +154,126 @@
         <h1>Logs</h1>
         <span>240 lines published</span>
       </div>
-      <pre>2026-05-12 22:19:46,434 INFO already notified target=macbook-13-apple-silicon-16-24gb total=649.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-12 22:19:46,434 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-12 22:21:10,672 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-12 22:21:10,672 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-12 22:22:46,273 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/326760011807?chn=ps&amp;google_free_listing_action=view_item&amp;mkcid=28&amp;mkevt=1
-2026-05-12 22:22:47,339 INFO rejected deal target=mac-mini-m2-newer-16gb reason=ended title=2024 Apple Mac Mini M4 10 Core 4.5GHz 16GB RAM 256GB SSD MU9D3LL/A url=https://www.ebay.com/p/27073133017?iid=389664976315
-2026-05-12 22:22:47,339 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1
-2026-05-12 22:22:47,339 INFO already notified target=mac-mini-m2-newer-16gb total=522.58 url=https://www.ebay.com/itm/326760011807?chn=ps&amp;google_free_listing_action=view_item&amp;mkcid=28&amp;mkevt=1
-[main 6197219] Update scalper results 2026-05-13 02:22 UTC
- 3 files changed, 128 insertions(+), 107 deletions(-)
+      <pre>        f&quot;Codex failed for {target[&#x27;id&#x27;]} with exit code {process.returncode}: {process.stderr.strip()}&quot;
+    )
+RuntimeError: Codex failed for nzxt-h1-v2 with exit code 1: Reading additional input from stdin...
+OpenAI Codex v0.130.0
+--------
+workdir: /home/intimatik/dev/scalper
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: medium
+reasoning summaries: none
+session id: 019e2032-4057-7bb2-b981-b069b4818e3f
+--------
+user
+You are a precise deal-finding automation. Use live web_search.
+
+Current UTC date: 2026-05-13
+Target id: nzxt-h1-v2
+Target name: NZXT H1 V2 mini-ITX case bundle
+Maximum total price: $200 USD, including shipping.
+Usual market price estimate: $220 USD.
+Search intent:
+Find currently available used, open-box, or discounted NZXT H1 V2 mini-ITX case listings under $200 total. The listing must include the original PSU and AIO liquid cooler. Prefer complete bundles with riser cable. Reject NZXT H1 V1, case shells missing PSU/AIO, broken PSU/AIO, sold listings, out-of-stock listings, local-pickup-only listings, listings that do not ship directly to the United States, links that do not open as active listing pages, and listings where item price plus shipping is $200 or more.
+
+Acceptance criteria:
+[
+  &quot;It is NZXT H1 V2, not H1 V1. Treat the common typo NXZT as NZXT only if the listing clearly means NZXT.&quot;,
+  &quot;It includes the PSU.&quot;,
+  &quot;It includes the AIO cooler.&quot;,
+  &quot;The total price including shipping is less than 200 USD.&quot;,
+  &quot;It is currently available to buy.&quot;,
+  &quot;The listing URL opens as an active listing page.&quot;,
+  &quot;It ships directly to the United States; local pickup only is not acceptable.&quot;
+]
+
+Required model/text patterns. A listing must match at least one if this list is not empty:
+[]
+
+Reject text patterns. Exclude a listing if it matches any of these:
+[]
+
+Suggested search queries:
+[
+  &quot;NZXT H1 V2 case PSU AIO under $200&quot;,
+  &quot;NXZT H1 V2 used case PSU AIO under $200&quot;,
+  &quot;NZXT H1 V2 750W AIO eBay under 200&quot;,
+  &quot;NZXT H1 V2 open box case PSU cooler&quot;
+]
+
+Return only strict JSON. Do not wrap it in Markdown. Do not include prose.
+Schema:
+{
+  &quot;target_id&quot;: &quot;nzxt-h1-v2&quot;,
+  &quot;checked_at&quot;: &quot;ISO-8601 timestamp&quot;,
+      &quot;deals&quot;: [
+    {
+      &quot;title&quot;: &quot;listing title&quot;,
+      &quot;url&quot;: &quot;direct listing URL&quot;,
+      &quot;source&quot;: &quot;marketplace or site name&quot;,
+      &quot;seller&quot;: &quot;seller if visible, otherwise empty string&quot;,
+      &quot;price_usd&quot;: 0.0,
+      &quot;shipping_usd&quot;: 0.0,
+      &quot;total_usd&quot;: 0.0,
+      &quot;condition&quot;: &quot;condition text&quot;,
+      &quot;availability&quot;: &quot;available&quot;,
+      &quot;listing_status&quot;: &quot;available&quot;,
+      &quot;ships_to_us&quot;: true,
+      &quot;shipping_destination&quot;: &quot;United States&quot;,
+      &quot;why_good&quot;: &quot;short reason this matches the criteria&quot;,
+      &quot;confidence&quot;: 0.0
+    }
+  ]
+}
+
+Rules:
+- Include at most 5 deals.
+- Include only listings that satisfy every acceptance criterion.
+- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
+- Use total_usd = item price plus shipping. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal US shipping still keeps it below the limit.
+- Include only listings that ship directly to the United States. Exclude local-pickup-only listings, Craigslist/Facebook Marketplace local listings, and listings that require a proxy/forwarder.
+- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
+- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
+- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
+- If there are no qualifying deals, return &quot;deals&quot;: [].
+warning: Codex could not find bubblewrap on PATH. Install bubblewrap with your OS package manager. See the sandbox prerequisites: https://developers.openai.com/codex/concepts/sandboxing#prerequisites. Codex will use the bundled bubblewrap in the meantime.
+web search: 
+web search: NZXT H1 V2 case PSU AIO under $200
+web search: 
+web search: site:ebay.com/itm NZXT H1 V2 750W AIO -sold -completed
+web search: 
+web search: https://www.ebay.com/itm/327073512869
+web search: 
+web search: &quot;NZXT H1 V2 Case (W/ Riser Cable)&quot; ebay
+web search: 
+web search: &quot;NZXT H1 V2&quot; &quot;$&quot; &quot;PSU&quot; &quot;AIO&quot; &quot;in stock&quot;
+web search: 
+ERROR: Selected model is at capacity. Please try a different model.
+ERROR: Selected model is at capacity. Please try a different model.
+2026-05-13 03:18:11,572 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-13 03:19:13,884 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-13 03:19:13,884 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-13 03:20:47,377 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/277916037803
+2026-05-13 03:20:47,377 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-13 03:20:47,377 INFO already notified target=macbook-13-apple-silicon-16-24gb total=619.99 url=https://www.ebay.com/itm/277916037803
+2026-05-13 03:20:47,377 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-13 03:22:27,943 INFO rejected deal target=mac-mini-m1-16gb reason=http_403 title=Apple Mac Mini - M1, 16GB RAM, 1TB SSD - Excellent Condition url=https://www.trinitylansdale.com/products/mac-condition-16gb-m1-1tb-ssd-excellent-apple-mini-ram/53370883/
+2026-05-13 03:22:30,275 INFO rejected deal target=mac-mini-m1-16gb reason=http_404 title=2020 Apple Mac mini with M1 chip, 16GB RAM, 256GB SSD url=https://www.datson360.com/products/2020-apple-mac-mini-with-m1-chip-16gb-ram-256gb-ssd/22268745/
+2026-05-13 03:22:30,275 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-13 03:22:30,275 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-13 03:24:07,788 INFO rejected deal target=mac-mini-m2-newer-16gb reason=unavailable title=Apple Mac mini with M4 Chip, 16GB Unified RAM, 256GB SSD url=https://www.bhphotovideo.com/c/product/1859258-REG/apple_mu9d3ll_a_mac_mini_m4_10c_10cgpu_16gb_256gb.html/accessories?BI=20811&amp;KBID=16572&amp;SID=tomsguide-us-6592756816437799391
+2026-05-13 03:24:07,788 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+[main 646a7ff] Update scalper results 2026-05-13 07:24 UTC
+ 3 files changed, 91 insertions(+), 147 deletions(-)
 To github.com:mkoltsov/scalper.git
-   b5d0c7f..6197219  main -&gt; main
+   18a8672..646a7ff  main -&gt; main
 To github.com:mkoltsov/scalper.git
- + da49ca5...b3e250a gh-pages -&gt; gh-pages (forced update)
-2026-05-12 22:22:49,380 INFO cron job finished service=scalper exit_code=0 duration_ms=347179.496
-2026-05-12 23:17:02,767 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
-2026-05-12 23:17:03,686 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-12 23:17:32,632 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-12 23:17:32,633 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-12 23:18:12,351 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-12 23:18:12,352 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-12 23:19:33,979 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/277916037803
-2026-05-12 23:19:33,979 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-12 23:19:33,980 INFO already notified target=macbook-13-apple-silicon-16-24gb total=619.99 url=https://www.ebay.com/itm/277916037803
-2026-05-12 23:19:33,980 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-12 23:20:42,269 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-12 23:20:42,269 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-12 23:22:08,757 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/326760011807
-2026-05-12 23:22:08,757 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1
-2026-05-12 23:22:08,757 INFO already notified target=mac-mini-m2-newer-16gb total=522.58 url=https://www.ebay.com/itm/326760011807
-[main 6421d1d] Update scalper results 2026-05-13 03:22 UTC
- 3 files changed, 96 insertions(+), 117 deletions(-)
-To github.com:mkoltsov/scalper.git
-   6197219..6421d1d  main -&gt; main
-To github.com:mkoltsov/scalper.git
- + b3e250a...79fdb4b gh-pages -&gt; gh-pages (forced update)
-2026-05-12 23:22:10,716 INFO cron job finished service=scalper exit_code=0 duration_ms=307947.776
-2026-05-13 00:17:02,231 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
-2026-05-13 00:17:02,977 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-13 00:17:49,232 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-13 00:17:49,233 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-13 00:18:28,242 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-13 00:18:28,242 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-13 00:20:14,710 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/277774831152
-2026-05-13 00:20:14,775 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/147262434573
-2026-05-13 00:20:14,990 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=3
-2026-05-13 00:20:14,991 INFO already notified target=macbook-13-apple-silicon-16-24gb total=598.95 url=https://www.ebay.com/itm/277774831152
-2026-05-13 00:20:14,991 INFO already notified target=macbook-13-apple-silicon-16-24gb total=629.00 url=https://www.ebay.com/itm/147262434573
-2026-05-13 00:20:14,991 INFO already notified target=macbook-13-apple-silicon-16-24gb total=649.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-13 00:20:14,991 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-13 00:21:41,380 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-13 00:21:41,381 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-13 00:22:49,323 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/146932065869
-2026-05-13 00:22:49,392 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/326760011807
-2026-05-13 00:22:49,393 INFO target=mac-mini-m2-newer-16gb qualifying_deals=2
-2026-05-13 00:22:49,393 INFO new deal target=mac-mini-m2-newer-16gb total=474.99 url=https://www.ebay.com/itm/146932065869
-2026-05-13 00:22:49,521 INFO already notified target=mac-mini-m2-newer-16gb total=522.58 url=https://www.ebay.com/itm/326760011807
-[main 0a35a08] Update scalper results 2026-05-13 04:22 UTC
- 3 files changed, 151 insertions(+), 88 deletions(-)
-To github.com:mkoltsov/scalper.git
-   6421d1d..0a35a08  main -&gt; main
-To github.com:mkoltsov/scalper.git
- + 79fdb4b...426fd9c gh-pages -&gt; gh-pages (forced update)
-2026-05-13 00:22:51,849 INFO cron job finished service=scalper exit_code=0 duration_ms=349613.797
-2026-05-13 01:17:02,265 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
-2026-05-13 01:17:03,268 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-13 01:18:03,559 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-13 01:18:03,564 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-13 01:18:55,993 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-13 01:18:56,004 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-13 01:20:09,379 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/147223769305
-2026-05-13 01:20:09,442 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/388940381019
-2026-05-13 01:20:09,506 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/147262434573
-2026-05-13 01:20:09,565 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/147238227179
-2026-05-13 01:20:09,628 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/147262401258
-2026-05-13 01:20:09,628 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=5
-2026-05-13 01:20:09,630 INFO already notified target=macbook-13-apple-silicon-16-24gb total=599.00 url=https://www.ebay.com/itm/147223769305
-2026-05-13 01:20:09,630 INFO already notified target=macbook-13-apple-silicon-16-24gb total=625.21 url=https://www.ebay.com/itm/388940381019
-2026-05-13 01:20:09,630 INFO already notified target=macbook-13-apple-silicon-16-24gb total=629.00 url=https://www.ebay.com/itm/147262434573
-2026-05-13 01:20:09,631 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://www.ebay.com/itm/147238227179
-2026-05-13 01:20:09,631 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://www.ebay.com/itm/147262401258
-2026-05-13 01:20:09,632 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-13 01:21:20,038 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-13 01:21:20,048 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-13 01:22:17,762 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/146932065869
-2026-05-13 01:22:17,820 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/326760011807
-2026-05-13 01:22:17,820 INFO target=mac-mini-m2-newer-16gb qualifying_deals=2
-2026-05-13 01:22:17,822 INFO already notified target=mac-mini-m2-newer-16gb total=474.99 url=https://www.ebay.com/itm/146932065869
-2026-05-13 01:22:17,822 INFO already notified target=mac-mini-m2-newer-16gb total=522.58 url=https://www.ebay.com/itm/326760011807
-[main ae75a3f] Update scalper results 2026-05-13 05:22 UTC
- 3 files changed, 161 insertions(+), 119 deletions(-)
-To github.com:mkoltsov/scalper.git
-   0a35a08..ae75a3f  main -&gt; main
-To github.com:mkoltsov/scalper.git
- + 426fd9c...b0839cb gh-pages -&gt; gh-pages (forced update)
-2026-05-13 01:22:20,074 INFO cron job finished service=scalper exit_code=0 duration_ms=317800.405
-2026-05-13 02:17:02,941 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
-2026-05-13 02:17:04,014 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-13 02:18:02,911 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-13 02:18:02,912 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-13 02:19:11,015 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-13 02:19:11,016 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-13 02:20:06,427 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-13 02:20:06,437 INFO already notified target=macbook-13-apple-silicon-16-24gb total=595.00 url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-10-core-gpu-16gb-ram-ssd-512gb/c6a3fe11-669f-4a68-a053-ae3ce896508a
-2026-05-13 02:20:06,438 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-13 02:21:24,149 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-13 02:21:24,162 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-13 02:22:44,414 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/326760011807
-2026-05-13 02:22:44,480 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/306874612202
-2026-05-13 02:22:44,481 INFO target=mac-mini-m2-newer-16gb qualifying_deals=2
-2026-05-13 02:22:44,482 INFO already notified target=mac-mini-m2-newer-16gb total=522.58 url=https://www.ebay.com/itm/326760011807
-2026-05-13 02:22:44,483 INFO new deal target=mac-mini-m2-newer-16gb total=539.99 url=https://www.ebay.com/itm/306874612202
-[main 18a8672] Update scalper results 2026-05-13 06:22 UTC
- 3 files changed, 138 insertions(+), 222 deletions(-)
-To github.com:mkoltsov/scalper.git
-   ae75a3f..18a8672  main -&gt; main
-To github.com:mkoltsov/scalper.git
- + b0839cb...4910b68 gh-pages -&gt; gh-pages (forced update)
-2026-05-13 02:22:46,980 INFO cron job finished service=scalper exit_code=0 duration_ms=344033.732
-2026-05-13 03:17:02,445 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages</pre>
+ + 4910b68...8708061 gh-pages -&gt; gh-pages (forced update)
+2026-05-13 03:24:09,774 ERROR cron job finished service=scalper exit_code=1 duration_ms=427329.157
+2026-05-13 04:17:01,621 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages</pre>
     </section>
   </main>
   <script src="app.js"></script>
