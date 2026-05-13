@@ -1,23 +1,3 @@
-2026-05-13 02:22:44,414 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/326760011807
-2026-05-13 02:22:44,480 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/306874612202
-2026-05-13 02:22:44,481 INFO target=mac-mini-m2-newer-16gb qualifying_deals=2
-2026-05-13 02:22:44,482 INFO already notified target=mac-mini-m2-newer-16gb total=522.58 url=https://www.ebay.com/itm/326760011807
-2026-05-13 02:22:44,483 INFO new deal target=mac-mini-m2-newer-16gb total=539.99 url=https://www.ebay.com/itm/306874612202
-[main 18a8672] Update scalper results 2026-05-13 06:22 UTC
- 3 files changed, 138 insertions(+), 222 deletions(-)
-To github.com:mkoltsov/scalper.git
-   ae75a3f..18a8672  main -> main
-To github.com:mkoltsov/scalper.git
- + b0839cb...4910b68 gh-pages -> gh-pages (forced update)
-2026-05-13 02:22:46,980 INFO cron job finished service=scalper exit_code=0 duration_ms=344033.732
-2026-05-13 03:17:02,445 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
-2026-05-13 03:17:03,173 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-13 03:18:11,570 ERROR Codex search failed for target=nzxt-h1-v2
-Traceback (most recent call last):
-  File "/home/intimatik/dev/scalper/scalper.py", line 1003, in run
-    result = run_codex(target, config, metrics)
-  File "/home/intimatik/dev/scalper/scalper.py", line 311, in run_codex
-    raise RuntimeError(
         f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
     )
 RuntimeError: Codex failed for nzxt-h1-v2 with exit code 1: Reading additional input from stdin...
@@ -238,3 +218,23 @@ To github.com:mkoltsov/scalper.git
  + 58130c7...fae39bb gh-pages -> gh-pages (forced update)
 2026-05-13 07:21:51,806 INFO cron job finished service=scalper exit_code=0 duration_ms=289720.582
 2026-05-13 08:17:01,852 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
+2026-05-13 08:17:02,269 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-13 08:18:20,814 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-13 08:18:20,814 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-13 08:18:55,645 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-13 08:18:55,645 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-13 08:20:31,993 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/277916037803
+2026-05-13 08:20:31,993 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-13 08:20:31,993 INFO already notified target=macbook-13-apple-silicon-16-24gb total=619.99 url=https://www.ebay.com/itm/277916037803
+2026-05-13 08:20:31,993 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-13 08:22:10,653 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-13 08:22:10,654 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-13 08:23:13,726 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+[main 574f3f5] Update scalper results 2026-05-13 12:23 UTC
+ 3 files changed, 108 insertions(+), 213 deletions(-)
+To github.com:mkoltsov/scalper.git
+   01d495e..574f3f5  main -> main
+To github.com:mkoltsov/scalper.git
+ + fae39bb...8907a08 gh-pages -> gh-pages (forced update)
+2026-05-13 08:23:15,835 INFO cron job finished service=scalper exit_code=0 duration_ms=373983.143
+2026-05-13 09:17:01,635 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
