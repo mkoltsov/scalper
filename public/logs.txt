@@ -1,33 +1,3 @@
-      "deals": [
-    {
-      "title": "listing title",
-      "url": "direct listing URL",
-      "source": "marketplace or site name",
-      "seller": "seller if visible, otherwise empty string",
-      "price_usd": 0.0,
-      "shipping_usd": 0.0,
-      "total_usd": 0.0,
-      "condition": "condition text",
-      "availability": "available",
-      "listing_status": "available",
-      "ships_to_us": true,
-      "shipping_destination": "United States",
-      "why_good": "short reason this matches the criteria",
-      "confidence": 0.0
-    }
-  ]
-}
-
-Rules:
-- Include at most 5 deals.
-- Include only listings that satisfy every acceptance criterion.
-- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
-- Use total_usd = item price plus shipping. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal US shipping still keeps it below the limit.
-- Include only listings that ship directly to the United States. Exclude local-pickup-only listings, Craigslist/Facebook Marketplace local listings, and listings that require a proxy/forwarder.
-- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
-- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
-- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
-- If there are no qualifying deals, return "deals": [].
 warning: Codex could not find bubblewrap on PATH. Install bubblewrap with your OS package manager. See the sandbox prerequisites: https://developers.openai.com/codex/concepts/sandboxing#prerequisites. Codex will use the bundled bubblewrap in the meantime.
 web search: 
 web search: NZXT H1 V2 case PSU AIO under $200
@@ -238,3 +208,33 @@ To github.com:mkoltsov/scalper.git
  + c8159a2...c20585a gh-pages -> gh-pages (forced update)
 2026-05-13 10:24:01,068 INFO cron job finished service=scalper exit_code=0 duration_ms=419314.816
 2026-05-13 11:17:01,354 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
+2026-05-13 11:17:01,779 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-13 11:17:50,892 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-13 11:17:50,892 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-13 11:18:51,925 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-13 11:18:51,926 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-13 11:20:06,577 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/147262434573
+2026-05-13 11:20:06,666 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/147262429210
+2026-05-13 11:20:06,952 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/147238227179
+2026-05-13 11:20:07,020 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/147262401258
+2026-05-13 11:20:07,020 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=4
+2026-05-13 11:20:07,020 INFO already notified target=macbook-13-apple-silicon-16-24gb total=629.00 url=https://www.ebay.com/itm/147262434573
+2026-05-13 11:20:07,020 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://www.ebay.com/itm/147262429210
+2026-05-13 11:20:07,020 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://www.ebay.com/itm/147238227179
+2026-05-13 11:20:07,020 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://www.ebay.com/itm/147262401258
+2026-05-13 11:20:07,020 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-13 11:21:26,657 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-13 11:21:26,657 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-13 11:22:37,001 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/176846737978
+2026-05-13 11:22:37,060 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/176841970435
+2026-05-13 11:22:37,060 INFO target=mac-mini-m2-newer-16gb qualifying_deals=2
+2026-05-13 11:22:37,060 INFO new deal target=mac-mini-m2-newer-16gb total=499.00 url=https://www.ebay.com/itm/176846737978
+2026-05-13 11:22:37,155 INFO new deal target=mac-mini-m2-newer-16gb total=499.00 url=https://www.ebay.com/itm/176841970435
+[main 90d1aca] Update scalper results 2026-05-13 15:22 UTC
+ 3 files changed, 156 insertions(+), 156 deletions(-)
+To github.com:mkoltsov/scalper.git
+   f958969..90d1aca  main -> main
+To github.com:mkoltsov/scalper.git
+ + c20585a...e6e5d96 gh-pages -> gh-pages (forced update)
+2026-05-13 11:22:39,586 INFO cron job finished service=scalper exit_code=0 duration_ms=338232.052
+2026-05-13 12:17:01,296 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
