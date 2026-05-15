@@ -1,35 +1,7 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-15T01:23:46.142133+00:00",
+  "finished_at": "2026-05-15T02:25:05.935903+00:00",
   "logs": [
-    "2026-05-14 11:21:20,047 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://www.ebay.com/itm/147238227179",
-    "2026-05-14 11:21:20,047 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-14 11:23:41,065 INFO rejected deal target=mac-mini-m1-16gb reason=unavailable title=Apple Mac Mini 2020 MGNR3LL/A Apple M1 3.2GHz 16GB RAM 256GB SSD Mini CPU url=https://www.pawnamerica.com/Product/Apple_Mac_Mini_2020_MGNR3LL_A_Apple_M1_3_2GHz_16GB_RAM_256GB_SSD_Mini_CPU_24222029181",
-    "2026-05-14 11:23:41,065 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-14 11:23:41,066 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-14 11:25:00,411 INFO rejected deal target=mac-mini-m2-newer-16gb reason=unavailable title=Refurbished Mac mini Apple M4 Chip with 10-Core CPU and 10-Core GPU, Gigabit Ethernet url=https://www.apple.com/shop/product/fu9d3ll/a/Refurbished-Mac-mini-Apple-M4-Chip-with-10-Core-CPU-and-10-Core-GPU-Gigabit-Ethernet-",
-    "2026-05-14 11:25:00,491 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/176846737978",
-    "2026-05-14 11:25:00,492 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1",
-    "2026-05-14 11:25:00,492 INFO already notified target=mac-mini-m2-newer-16gb total=499.00 url=https://www.ebay.com/itm/176846737978",
-    "[main 21b5180] Update scalper results 2026-05-14 15:25 UTC",
-    " 3 files changed, 171 insertions(+), 87 deletions(-)",
-    "To github.com:mkoltsov/scalper.git",
-    "   ab25e45..21b5180  main -> main",
-    "To github.com:mkoltsov/scalper.git",
-    " + 0bcddaf...86b59ab gh-pages -> gh-pages (forced update)",
-    "2026-05-14 11:25:02,487 INFO cron job finished service=scalper exit_code=0 duration_ms=492257.773",
-    "2026-05-14 12:17:01,742 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages",
-    "2026-05-14 12:17:02,246 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-14 12:18:16,984 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-14 12:18:16,985 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-14 12:19:12,177 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-14 12:19:12,178 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-14 12:20:33,537 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-14 12:20:33,547 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-05-14 12:20:33,550 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-14 12:22:33,776 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-14 12:22:33,777 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-14 12:24:34,567 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/127365670823",
     "2026-05-14 12:24:34,568 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1",
     "2026-05-14 12:24:34,568 INFO new deal target=mac-mini-m2-newer-16gb total=500.00 url=https://www.ebay.com/itm/127365670823",
     "[main 8a3a7ef] Update scalper results 2026-05-14 16:24 UTC",
@@ -241,9 +213,37 @@
     "To github.com:mkoltsov/scalper.git",
     " + a19a7e6...b478784 gh-pages -> gh-pages (forced update)",
     "2026-05-14 20:23:04,856 INFO cron job finished service=scalper exit_code=0 duration_ms=374458.086",
-    "2026-05-14 21:17:02,806 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages"
+    "2026-05-14 21:17:02,806 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages",
+    "2026-05-14 21:17:03,816 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-14 21:18:30,401 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-14 21:18:30,401 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-14 21:19:46,521 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-14 21:19:46,522 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-14 21:20:43,176 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=3",
+    "2026-05-14 21:20:43,179 INFO already notified target=macbook-13-apple-silicon-16-24gb total=546.00 url=https://swappa.com/listing/view/LAEU26557",
+    "2026-05-14 21:20:43,179 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LAFB19328",
+    "2026-05-14 21:20:43,179 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
+    "2026-05-14 21:20:43,180 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-14 21:21:56,641 INFO listing URL validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot url=https://www.ebay.com/itm/297856213297?campid=5336844578&customid=newlinks&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&toolid=10001&var=0",
+    "2026-05-14 21:21:56,641 INFO target=mac-mini-m1-16gb qualifying_deals=1",
+    "2026-05-14 21:21:56,641 INFO new deal target=mac-mini-m1-16gb total=329.00 url=https://www.ebay.com/itm/297856213297?campid=5336844578&customid=newlinks&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&toolid=10001&var=0",
+    "2026-05-14 21:21:56,749 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-14 21:23:45,082 INFO rejected deal target=mac-mini-m2-newer-16gb reason=unavailable title=Refurbished Mac mini Apple M4 Chip with 10-Core CPU and 10-Core GPU, Gigabit Ethernet url=https://www.apple.com/shop/product/fu9d3ll/a/Refurbished-Mac-mini-Apple-M4-Chip-with-10-Core-CPU-and-10-Core-GPU-Gigabit-Ethernet-",
+    "2026-05-14 21:23:45,202 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/326760011807",
+    "2026-05-14 21:23:45,695 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac Mini Apple m4 pc computer 16gb ram url=https://www.mercari.com/us/item/m84725377927/",
+    "2026-05-14 21:23:46,139 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Apple Mac Mini M4 16GB 256SSD url=https://www.mercari.com/us/item/m93669847609/",
+    "2026-05-14 21:23:46,139 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1",
+    "2026-05-14 21:23:46,141 INFO already notified target=mac-mini-m2-newer-16gb total=522.58 url=https://www.ebay.com/itm/326760011807",
+    "[main 35b9440] Update scalper results 2026-05-15 01:23 UTC",
+    " 3 files changed, 140 insertions(+), 161 deletions(-)",
+    "To github.com:mkoltsov/scalper.git",
+    "   ba27fbc..35b9440  main -> main",
+    "To github.com:mkoltsov/scalper.git",
+    " + b478784...12bce00 gh-pages -> gh-pages (forced update)",
+    "2026-05-14 21:23:49,195 INFO cron job finished service=scalper exit_code=0 duration_ms=417917.765",
+    "2026-05-14 22:17:02,292 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages"
   ],
-  "started_at": "2026-05-15T01:17:03.809479+00:00",
+  "started_at": "2026-05-15T02:17:03.014003+00:00",
   "targets": [
     {
       "deals": [],
@@ -252,7 +252,22 @@
       "name": "NZXT H1 V2 mini-ITX case bundle"
     },
     {
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; seller note: READ and CHECK all photos please",
+          "confidence": 0.88,
+          "price_usd": 95.95,
+          "seller": "EGLaptopParts",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "bang-olufsen-charging-case",
+          "title": "Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite",
+          "total_usd": 95.95,
+          "url": "https://www.ebay.com/itm/137160733788",
+          "why_good": "Active eBay listing opened directly; title and model identify Beoplay EX charging case, with free USPS shipping from California under $100 total."
+        }
+      ],
       "id": "bang-olufsen-charging-case",
       "max_price_usd": 100,
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case"
@@ -261,45 +276,17 @@
       "deals": [
         {
           "availability": "available",
-          "condition": "Good condition",
-          "confidence": 0.83,
-          "price_usd": 546.0,
-          "seller": "Joshua",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 2022 (M2) - 13\" - 256GB, Midnight, 16GB, Apple M2",
-          "total_usd": 546.0,
-          "url": "https://swappa.com/listing/view/LAEU26557",
-          "why_good": "13-inch MacBook Air with Apple M2, 16GB memory, active Approved listing, free US shipping, total under $650."
-        },
-        {
-          "availability": "available",
-          "condition": "Mint condition",
+          "condition": "Good - Refurbished",
           "confidence": 0.91,
           "price_usd": 639.0,
-          "seller": "Mohammed K.",
+          "seller": "northbaysell",
           "shipping_usd": 0.0,
-          "source": "Swappa",
+          "source": "eBay",
           "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 2022 (M2) - 13\" - 256GB, Silver, 16GB, Apple M2",
+          "title": "2022 MacBook Air 13\u201d | Apple M2 8C/8C 16GB 256GB A2681 | 87% 149 cyclesBattery |",
           "total_usd": 639.0,
-          "url": "https://swappa.com/listing/view/LAFB19328",
-          "why_good": "13-inch MacBook Air with Apple M2, 16GB memory, active Approved listing, free US shipping, total under $650."
-        },
-        {
-          "availability": "available",
-          "condition": "Good condition",
-          "confidence": 0.91,
-          "price_usd": 639.0,
-          "seller": "Leonard",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
-          "total_usd": 639.0,
-          "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "13-inch MacBook Air with Apple M2, 16GB memory, 512GB storage, active Approved listing, free US shipping, total under $650."
+          "url": "https://www.ebay.com/itm/147238227179",
+          "why_good": "Active Buy It Now listing for a 13-inch 2022 MacBook Air with Apple M2, 16GB RAM, 256GB SSD, free US shipping, total under $650."
         }
       ],
       "id": "macbook-13-apple-silicon-16-24gb",
@@ -307,22 +294,7 @@
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM"
     },
     {
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Good - Refurbished",
-          "confidence": 0.88,
-          "price_usd": 329.0,
-          "seller": "GoRoostr",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "mac-mini-m1-16gb",
-          "title": "Apple Mac mini M1 Chip 8-Core CPU 8-Core GPU 16GB RAM 256GB 2020 1GbE \u2022 Good",
-          "total_usd": 329.0,
-          "url": "https://www.ebay.com/itm/297856213297?campid=5336844578&customid=newlinks&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&toolid=10001&var=0",
-          "why_good": "Active eBay refurbished listing for a 2020 Apple Mac mini with M1, 16GB RAM, 256GB SSD, free US shipping, under $400 total."
-        }
-      ],
+      "deals": [],
       "id": "mac-mini-m1-16gb",
       "max_price_usd": 400,
       "name": "M1 Mac mini with 16GB RAM"
@@ -331,7 +303,7 @@
       "deals": [
         {
           "availability": "available",
-          "condition": "Used",
+          "condition": "Used; Excellent Condition. Barely Used. Comes in box with the ac adapter. A Bonus HDMI Cable is included.",
           "confidence": 0.93,
           "price_usd": 507.59,
           "seller": "The Coco Store",
@@ -341,7 +313,7 @@
           "title": "Apple Mac Mini (M4 Chip, 256GB SSD, 16GB RAM) Desktop (Excellent Mint Cond)",
           "total_usd": 522.58,
           "url": "https://www.ebay.com/itm/326760011807",
-          "why_good": "Buy It Now M4 Mac mini with 16GB RAM and 256GB SSD, total is below $550 shipped."
+          "why_good": "Active Buy It Now eBay listing for an Apple Mac mini desktop with M4 chip and 16GB RAM; total including shipping is under $550."
         }
       ],
       "id": "mac-mini-m2-newer-16gb",
