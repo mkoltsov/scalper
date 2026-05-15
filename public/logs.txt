@@ -1,25 +1,3 @@
-2026-05-14 19:21:24,815 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-14 19:21:24,815 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-14 19:22:49,178 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-14 19:22:49,197 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-14 19:24:35,720 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/146932065869
-2026-05-14 19:24:35,793 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/326760011807
-2026-05-14 19:24:36,024 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_404 title=Pre-owned Mac mini M2 16GB Memory / 256GB Storage url=https://expercom.com/products/pre-owned-mac-mini-m2-16gb-memory-256gb-storage
-2026-05-14 19:24:36,115 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/177545629964
-2026-05-14 19:24:36,115 INFO target=mac-mini-m2-newer-16gb qualifying_deals=3
-2026-05-14 19:24:36,117 INFO already notified target=mac-mini-m2-newer-16gb total=474.99 url=https://www.ebay.com/itm/146932065869
-2026-05-14 19:24:36,117 INFO already notified target=mac-mini-m2-newer-16gb total=522.58 url=https://www.ebay.com/itm/326760011807
-2026-05-14 19:24:36,117 INFO already notified target=mac-mini-m2-newer-16gb total=500.00 url=https://www.ebay.com/itm/177545629964
-[main 90270b2] Update scalper results 2026-05-14 23:24 UTC
- 3 files changed, 154 insertions(+), 112 deletions(-)
-To github.com:mkoltsov/scalper.git
-   46c3450..90270b2  main -> main
-To github.com:mkoltsov/scalper.git
- + b8a3f1b...a19a7e6 gh-pages -> gh-pages (forced update)
-Exception ignored while finalizing file <http.client.HTTPResponse object at 0x7f1bdc111a50>:
-Traceback (most recent call last):
-  File "/home/intimatik/.pyenv/versions/3.14.0/lib/python3.14/http/client.py", line 432, in close
-    super().close() # set "closed" flag
   File "/home/intimatik/.pyenv/versions/3.14.0/lib/python3.14/http/client.py", line 445, in flush
     self.fp.flush()
 ValueError: I/O operation on closed file.
@@ -238,3 +216,25 @@ To github.com:mkoltsov/scalper.git
  + 1b20ffb...ffe169a gh-pages -> gh-pages (forced update)
 2026-05-15 03:23:13,475 INFO cron job finished service=scalper exit_code=0 duration_ms=383079.972
 2026-05-15 04:17:01,594 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
+2026-05-15 04:17:02,115 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-15 04:17:55,076 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-15 04:17:55,077 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-15 04:18:45,486 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-15 04:18:45,486 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-15 04:19:39,987 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=3
+2026-05-15 04:19:39,987 INFO already notified target=macbook-13-apple-silicon-16-24gb total=546.00 url=https://swappa.com/listing/view/LAEU26557
+2026-05-15 04:19:39,987 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LAFB19328
+2026-05-15 04:19:39,987 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-15 04:19:39,987 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-15 04:21:03,846 INFO target=mac-mini-m1-16gb qualifying_deals=1
+2026-05-15 04:21:03,846 INFO already notified target=mac-mini-m1-16gb total=324.20 url=https://reebelo.com/products/apple-mac-mini-2020-m-1-apple-m-1-chip-8-core-cpu-256-gb-silver-16-gb-ram-excellent-0ozrc
+2026-05-15 04:21:03,846 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-15 04:22:10,389 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+[main c4b687e] Update scalper results 2026-05-15 08:22 UTC
+ 3 files changed, 108 insertions(+), 150 deletions(-)
+To github.com:mkoltsov/scalper.git
+   b3191ac..c4b687e  main -> main
+To github.com:mkoltsov/scalper.git
+ + ffe169a...d2faad3 gh-pages -> gh-pages (forced update)
+2026-05-15 04:22:12,613 INFO cron job finished service=scalper exit_code=0 duration_ms=320637.207
+2026-05-15 05:17:02,177 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
