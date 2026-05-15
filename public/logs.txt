@@ -1,30 +1,3 @@
-2026-05-14 10:21:27,945 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-14 10:23:14,331 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-14 10:23:14,331 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-14 10:25:50,550 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_404 title=Apple Mac mini (M4, 2024) – 16GB RAM, 256GB SSD url=https://myworky.com/products/apple-mac-mini-m4-2024-16gb-ram-256gb-ssd/9587725/
-2026-05-14 10:25:50,713 INFO rejected deal target=mac-mini-m2-newer-16gb reason=url_error:[Errno 111] Connection refused title=Apple Mac mini (M4, 2024) – 16GB RAM, 256GB SSD url=https://www.makartechnologies.com/products/apple-mac-mini-m4-2024-16gb-ram-256gb-ssd/12583366/
-2026-05-14 10:25:50,714 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-[main ab25e45] Update scalper results 2026-05-14 14:25 UTC
- 3 files changed, 105 insertions(+), 189 deletions(-)
-To github.com:mkoltsov/scalper.git
-   d92b1b8..ab25e45  main -> main
-To github.com:mkoltsov/scalper.git
- + 7c8a70e...0bcddaf gh-pages -> gh-pages (forced update)
-2026-05-14 10:25:52,862 INFO cron job finished service=scalper exit_code=0 duration_ms=543784.592
-2026-05-14 11:17:02,006 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
-2026-05-14 11:17:02,510 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-14 11:18:08,366 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-14 11:18:08,366 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-14 11:19:26,595 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-14 11:19:26,595 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-14 11:21:19,742 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/297328700715
-2026-05-14 11:21:19,803 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/267425122317
-2026-05-14 11:21:19,866 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/388940381019
-2026-05-14 11:21:19,942 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/147238227179
-2026-05-14 11:21:19,942 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=4
-2026-05-14 11:21:19,942 INFO new deal target=macbook-13-apple-silicon-16-24gb total=584.99 url=https://www.ebay.com/itm/297328700715
-2026-05-14 11:21:20,047 INFO already notified target=macbook-13-apple-silicon-16-24gb total=599.99 url=https://www.ebay.com/itm/267425122317
-2026-05-14 11:21:20,047 INFO already notified target=macbook-13-apple-silicon-16-24gb total=625.21 url=https://www.ebay.com/itm/388940381019
 2026-05-14 11:21:20,047 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://www.ebay.com/itm/147238227179
 2026-05-14 11:21:20,047 INFO checking target=mac-mini-m1-16gb with Codex web_search
 2026-05-14 11:23:41,065 INFO rejected deal target=mac-mini-m1-16gb reason=unavailable title=Apple Mac Mini 2020 MGNR3LL/A Apple M1 3.2GHz 16GB RAM 256GB SSD Mini CPU url=https://www.pawnamerica.com/Product/Apple_Mac_Mini_2020_MGNR3LL_A_Apple_M1_3_2GHz_16GB_RAM_256GB_SSD_Mini_CPU_24222029181
@@ -238,3 +211,30 @@ Traceback (most recent call last):
 ValueError: I/O operation on closed file.
 2026-05-14 19:24:38,639 INFO cron job finished service=scalper exit_code=0 duration_ms=469222.98
 2026-05-14 20:17:01,001 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
+2026-05-14 20:17:02,060 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-14 20:18:19,716 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-14 20:18:19,718 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-14 20:19:01,791 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-14 20:19:01,792 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-14 20:20:23,616 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/157795580304
+2026-05-14 20:20:23,678 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/227282769615
+2026-05-14 20:20:23,678 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=5
+2026-05-14 20:20:23,681 INFO already notified target=macbook-13-apple-silicon-16-24gb total=546.00 url=https://swappa.com/listing/view/LAEU26557
+2026-05-14 20:20:23,681 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LAFB19328
+2026-05-14 20:20:23,681 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-14 20:20:23,681 INFO already notified target=macbook-13-apple-silicon-16-24gb total=634.99 url=https://www.ebay.com/itm/157795580304
+2026-05-14 20:20:23,681 INFO already notified target=macbook-13-apple-silicon-16-24gb total=649.99 url=https://www.ebay.com/itm/227282769615
+2026-05-14 20:20:23,681 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-14 20:21:38,757 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-14 20:21:38,767 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-14 20:23:01,560 INFO rejected deal target=mac-mini-m2-newer-16gb reason=unavailable title=Refurbished Mac mini Apple M4 Chip with 10-Core CPU and 10-Core GPU, Gigabit Ethernet url=https://www.apple.com/shop/product/fu9d3ll/a/Refurbished-Mac-mini-Apple-M4-Chip-with-10-Core-CPU-and-10-Core-GPU-Gigabit-Ethernet-
+2026-05-14 20:23:02,298 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1
+2026-05-14 20:23:02,300 INFO new deal target=mac-mini-m2-newer-16gb total=499.00 url=https://www.svacampusstore.com/products/mac-mini-m4-10cpu-10gpu-16gb-256gb-silver-late-2024
+[main ba27fbc] Update scalper results 2026-05-15 00:23 UTC
+ 3 files changed, 185 insertions(+), 185 deletions(-)
+To github.com:mkoltsov/scalper.git
+   90270b2..ba27fbc  main -> main
+To github.com:mkoltsov/scalper.git
+ + a19a7e6...b478784 gh-pages -> gh-pages (forced update)
+2026-05-14 20:23:04,856 INFO cron job finished service=scalper exit_code=0 duration_ms=374458.086
+2026-05-14 21:17:02,806 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
