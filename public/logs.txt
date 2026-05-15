@@ -1,28 +1,3 @@
-2026-05-15 05:21:39,926 INFO target=mac-mini-m1-16gb qualifying_deals=1
-2026-05-15 05:21:39,927 INFO new deal target=mac-mini-m1-16gb total=350.00 url=https://www.ebay.com/itm/389723490882
-2026-05-15 05:21:40,025 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-15 05:22:53,147 INFO rejected deal target=mac-mini-m2-newer-16gb reason=unavailable title=Refurbished Mac mini Apple M4 Chip with 10-Core CPU and 10-Core GPU, Gigabit Ethernet url=https://www.apple.com/shop/product/fu9d3ll/a/Refurbished-Mac-mini-Apple-M4-Chip-with-10-Core-CPU-and-10-Core-GPU-Gigabit-Ethernet-
-2026-05-15 05:22:53,147 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-[main 775d448] Update scalper results 2026-05-15 09:22 UTC
- 3 files changed, 132 insertions(+), 132 deletions(-)
-To github.com:mkoltsov/scalper.git
-   c4b687e..775d448  main -> main
-To github.com:mkoltsov/scalper.git
- + d2faad3...a5e6791 gh-pages -> gh-pages (forced update)
-2026-05-15 05:22:54,271 INFO cron job finished service=scalper exit_code=0 duration_ms=363939.931
-2026-05-15 06:17:01,558 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
-2026-05-15 06:17:02,182 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-15 06:18:04,167 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-15 06:18:04,168 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-15 06:18:46,522 INFO listing URL validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot url=https://www.ebay.com/itm/137160733788
-2026-05-15 06:18:46,522 INFO target=bang-olufsen-charging-case qualifying_deals=1
-2026-05-15 06:18:46,522 INFO already notified target=bang-olufsen-charging-case total=95.95 url=https://www.ebay.com/itm/137160733788
-2026-05-15 06:18:46,523 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-15 06:21:05,429 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
-2026-05-15 06:21:05,430 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2
-2026-05-15 06:21:05,430 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-15 06:21:05,430 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LAFB19328
-2026-05-15 06:21:05,430 INFO checking target=mac-mini-m1-16gb with Codex web_search
 2026-05-15 06:22:17,983 INFO listing URL validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot url=https://www.ebay.com/itm/146906611934
 2026-05-15 06:22:17,983 INFO target=mac-mini-m1-16gb qualifying_deals=1
 2026-05-15 06:22:17,983 INFO already notified target=mac-mini-m1-16gb total=302.95 url=https://www.ebay.com/itm/146906611934
@@ -238,3 +213,28 @@ To github.com:mkoltsov/scalper.git
  + cccad2d...caea3a7 gh-pages -> gh-pages (forced update)
 2026-05-15 14:23:46,082 INFO cron job finished service=scalper exit_code=0 duration_ms=415428.972
 2026-05-15 15:17:02,149 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
+2026-05-15 15:17:03,234 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-15 15:18:15,734 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-15 15:18:15,735 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-15 15:19:01,121 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-15 15:19:01,121 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-15 15:20:41,684 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=3
+2026-05-15 15:20:41,685 INFO already notified target=macbook-13-apple-silicon-16-24gb total=546.00 url=https://swappa.com/listing/view/LAEU26557
+2026-05-15 15:20:41,685 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-15 15:20:41,686 INFO already notified target=macbook-13-apple-silicon-16-24gb total=571.00 url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-8-core-gpu-16gb-ram-ssd-256gb/c9b3dbf0-abf2-4ccb-a534-4d4152e7469e
+2026-05-15 15:20:41,686 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-15 15:22:21,839 INFO target=mac-mini-m1-16gb qualifying_deals=1
+2026-05-15 15:22:21,839 INFO already notified target=mac-mini-m1-16gb total=324.20 url=https://reebelo.com/products/apple-mac-mini-2020-m-1-apple-m-1-chip-8-core-cpu-256-gb-silver-16-gb-ram-excellent-0ozrc
+2026-05-15 15:22:21,839 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-15 15:24:26,323 INFO rejected deal target=mac-mini-m2-newer-16gb reason=unavailable title=Refurbished Mac mini Apple M4 Chip with 10-Core CPU and 10-Core GPU, Gigabit Ethernet url=https://www.apple.com/shop/product/fu9d3ll/a/Refurbished-Mac-mini-Apple-M4-Chip-with-10-Core-CPU-and-10-Core-GPU-Gigabit-Ethernet-
+2026-05-15 15:24:26,413 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/326760011807?chn=ps&google_free_listing_action=view_item&mkcid=28&mkevt=1
+2026-05-15 15:24:26,413 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1
+2026-05-15 15:24:26,413 INFO already notified target=mac-mini-m2-newer-16gb total=522.58 url=https://www.ebay.com/itm/326760011807?chn=ps&google_free_listing_action=view_item&mkcid=28&mkevt=1
+[main ee9ea99] Update scalper results 2026-05-15 19:24 UTC
+ 3 files changed, 143 insertions(+), 101 deletions(-)
+To github.com:mkoltsov/scalper.git
+   046f6c0..ee9ea99  main -> main
+To github.com:mkoltsov/scalper.git
+ + caea3a7...5d89d7f gh-pages -> gh-pages (forced update)
+2026-05-15 15:24:28,684 INFO cron job finished service=scalper exit_code=0 duration_ms=463739.682
+2026-05-15 16:17:01,810 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
