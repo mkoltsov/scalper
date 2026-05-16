@@ -1,26 +1,4 @@
 To github.com:mkoltsov/scalper.git
-   5b5ba56..9e07574  main -> main
-To github.com:mkoltsov/scalper.git
- + b8a4e42...cccad2d gh-pages -> gh-pages (forced update)
-2026-05-15 13:23:11,626 INFO cron job finished service=scalper exit_code=0 duration_ms=382581.995
-2026-05-15 14:17:02,466 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
-2026-05-15 14:17:03,134 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-15 14:18:19,374 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-15 14:18:19,405 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-15 14:19:07,925 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-15 14:19:07,942 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-15 14:20:13,274 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=3
-2026-05-15 14:20:13,277 INFO already notified target=macbook-13-apple-silicon-16-24gb total=546.00 url=https://swappa.com/listing/view/LAEU26557
-2026-05-15 14:20:13,277 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LAFB19328
-2026-05-15 14:20:13,278 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-15 14:20:13,278 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-15 14:21:23,158 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-15 14:21:23,158 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-15 14:23:43,151 INFO rejected deal target=mac-mini-m2-newer-16gb reason=url_error:[Errno 111] Connection refused title=Apple Mac mini (M4, 2024) – 16GB RAM, 256GB SSD url=https://www.makartechnologies.com/products/apple-mac-mini-m4-2024-16gb-ram-256gb-ssd/12583366/
-2026-05-15 14:23:43,151 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-[main 046f6c0] Update scalper results 2026-05-15 18:23 UTC
- 3 files changed, 123 insertions(+), 123 deletions(-)
-To github.com:mkoltsov/scalper.git
    9e07574..046f6c0  main -> main
 To github.com:mkoltsov/scalper.git
  + cccad2d...caea3a7 gh-pages -> gh-pages (forced update)
@@ -238,3 +216,25 @@ To github.com:mkoltsov/scalper.git
  + 4df693c...753bdf5 gh-pages -> gh-pages (forced update)
 2026-05-15 22:23:22,994 INFO cron job finished service=scalper exit_code=0 duration_ms=394816.007
 2026-05-15 23:17:02,688 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
+2026-05-15 23:17:03,740 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-15 23:17:42,592 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-15 23:17:42,593 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-15 23:19:12,858 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-15 23:19:12,858 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-15 23:20:07,793 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2
+2026-05-15 23:20:07,794 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LAFB19328
+2026-05-15 23:20:07,794 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-15 23:20:07,794 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-15 23:21:16,987 INFO target=mac-mini-m1-16gb qualifying_deals=1
+2026-05-15 23:21:16,996 INFO already notified target=mac-mini-m1-16gb total=323.16 url=https://reebelo.com/collections/apple-mac-mini-2020-m1?storage=256GB&color=Silver&cpu=Apple%20M1%20chip%208-core%20CPU&ram=16GB&condition=Excellent&deliveryBy=undefined
+2026-05-15 23:21:16,998 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-15 23:22:28,406 INFO rejected deal target=mac-mini-m2-newer-16gb reason=unavailable title=Refurbished Mac mini Apple M4 Chip with 10-Core CPU and 10-Core GPU, Gigabit Ethernet url=https://www.apple.com/shop/product/FU9D3LL/A/refurbished-mac-mini-apple-m4-chip-with-10-core-cpu-and-10-core-gpu-gigabit-ethernet
+2026-05-15 23:22:28,411 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+[main 9a92e62] Update scalper results 2026-05-16 03:22 UTC
+ 3 files changed, 135 insertions(+), 261 deletions(-)
+To github.com:mkoltsov/scalper.git
+   668cee5..9a92e62  main -> main
+To github.com:mkoltsov/scalper.git
+ + 753bdf5...efeb061 gh-pages -> gh-pages (forced update)
+2026-05-15 23:22:30,783 INFO cron job finished service=scalper exit_code=0 duration_ms=342440.053
+2026-05-16 00:17:01,240 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
