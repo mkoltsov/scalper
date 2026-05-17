@@ -518,12 +518,12 @@ def validate_listing_url(deal: Deal, timeout: int = 20) -> str | None:
     except HTTPError as exc:
         if exc.code in {403, 429} and _domain_matches(host, ANTI_BOT_HTTP_ERROR_DOMAINS):
             LOGGER.info(
-                "listing URL validation inconclusive target=%s reason=http_%s_antibot url=%s",
+                "listing URL validation rejected target=%s reason=http_%s_antibot_unverified url=%s",
                 deal.target_id,
                 exc.code,
                 deal.url,
             )
-            return None
+            return f"http_{exc.code}_antibot_unverified"
         return f"http_{exc.code}"
     except URLError as exc:
         return f"url_error:{exc.reason}"
