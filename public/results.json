@@ -1,22 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-17T18:16:27.621258+00:00",
+  "finished_at": "2026-05-17T18:24:45.892895+00:00",
   "logs": [
-    "2026-05-17 14:10:29,579 INFO scalper run started 2026-05-17T18:10:29.579645+00:00",
-    "2026-05-17 14:10:29,580 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-17 14:11:10,295 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-17 14:11:10,296 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-17 14:11:56,980 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-17 14:11:56,981 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-17 14:12:40,984 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-17 14:12:40,985 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-05-17 14:12:40,985 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-17 14:15:00,113 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-17 14:15:00,114 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-17 14:16:27,620 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_404 title=Restored Apple Mac Mini (2023) Apple M2 Chip, 16GB 512GB SSD, Silver (Refurbished) url=https://www.walmart.com/ip/18301324171?conditionGroupCode=2",
-    "2026-05-17 14:16:27,621 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-17 14:17:01,483 INFO scalper run started 2026-05-17T18:17:01.483807+00:00",
+    "2026-05-17 14:17:01,484 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-17 14:18:20,954 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-17 14:18:20,955 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-17 14:19:54,174 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-17 14:19:54,174 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-17 14:21:31,878 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=http_403 title=MacBook Air (2022) 13-inch - Apple M2 8-core and 8-core GPU - 16GB RAM - SSD 512GB - Standard display url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-8-core-gpu-16gb-ram-ssd-512gb/b7782e73-f7ce-410e-8198-b216f2016701",
+    "2026-05-17 14:21:32,095 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-17 14:21:32,096 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
+    "2026-05-17 14:21:32,096 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-17 14:22:57,255 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-17 14:22:57,256 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-17 14:24:45,892 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_403 title=Apple 2023 Mac Mini Desktop Apple M2 Pro chip 16GB, 512GB url=https://thefurbearers.com/products/apple-2023-mac-mini-desktop-apple-m2-pro-chip-16gb-512gb/?ctgItemCd=22557745",
+    "2026-05-17 14:24:45,892 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-17T18:10:29.579645+00:00",
+  "started_at": "2026-05-17T18:17:01.483807+00:00",
   "targets": [
     {
       "deals": [],
@@ -35,16 +36,16 @@
         {
           "availability": "available",
           "condition": "Good condition",
-          "confidence": 0.93,
+          "confidence": 0.9,
           "price_usd": 639.0,
           "seller": "Leonard",
           "shipping_usd": 0.0,
           "source": "Swappa",
           "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2 - LADY61014",
           "total_usd": 639.0,
           "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "Approved active Swappa listing for 13-inch MacBook Air M2 with 16GB RAM and 512GB SSD; free US shipping keeps total under $650."
+          "why_good": "13-inch 2022 MacBook Air with Apple M2, 16GB RAM, 512GB SSD, approved active Swappa listing with free US shipping under $650."
         }
       ],
       "id": "macbook-13-apple-silicon-16-24gb",
