@@ -42,7 +42,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-05-17T11:23:48.991189+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-05-17T12:23:13.103281+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -78,7 +78,7 @@
                 <article class="deal">
                   <div class="meta">Swappa · $639.00</div>
                   <h2><a href="https://swappa.com/listing/view/LADY61014" rel="nofollow noopener">MacBook Air 2022 (M2) - 13&quot; - 512GB, Midnight, 16GB, Apple M2</a></h2>
-                  <p>Active Swappa listing for a 13-inch M2 MacBook Air with 16GB RAM, 512GB SSD, and free US shipping under $650 total.</p>
+                  <p>Active Swappa listing for a 13-inch M2 MacBook Air with 16GB RAM and 512GB SSD; free US shipping keeps total under $650.</p>
                 </article>
                 
             </section>
@@ -148,49 +148,7 @@
         <h1>Logs</h1>
         <span>240 lines published</span>
       </div>
-      <pre>2026-05-17 04:22:29,081 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-[main 7b8596a] Update scalper results 2026-05-17 08:22 UTC
- 3 files changed, 148 insertions(+), 148 deletions(-)
-To github.com:mkoltsov/scalper.git
- ! [rejected]        main -&gt; main (fetch first)
-error: failed to push some refs to &#x27;github.com:mkoltsov/scalper.git&#x27;
-hint: Updates were rejected because the remote contains work that you do not
-hint: have locally. This is usually caused by another repository pushing to
-hint: the same ref. If you want to integrate the remote changes, use
-hint: &#x27;git pull&#x27; before pushing again.
-hint: See the &#x27;Note about fast-forwards&#x27; in &#x27;git push --help&#x27; for details.
-Traceback (most recent call last):
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1128, in &lt;module&gt;
-    raise SystemExit(main(sys.argv[1:]))
-                     ~~~~^^^^^^^^^^^^^^
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1115, in main
-    return run(
-        args.config,
-    ...&lt;6 lines&gt;...
-        set(args.target) if args.target else None,
-    )
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1082, in run
-    publish_pages(public_dir)
-    ~~~~~~~~~~~~~^^^^^^^^^^^^
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 956, in publish_pages
-    subprocess.run([&quot;git&quot;, &quot;push&quot;], cwd=BASE_DIR, check=True)
-    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 577, in run
-    raise CalledProcessError(retcode, process.args,
-                             output=stdout, stderr=stderr)
-subprocess.CalledProcessError: Command &#x27;[&#x27;git&#x27;, &#x27;push&#x27;]&#x27; returned non-zero exit status 1.
-2026-05-17 05:17:01,975 INFO OpenTelemetry metrics disabled by DISABLE_OTEL
-2026-05-17 05:17:01,993 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-17 05:18:31,908 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-17 05:18:31,909 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-17 05:19:34,300 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-17 05:19:34,301 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-17 05:20:54,738 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-17 05:20:54,739 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-17 05:20:54,739 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-17 05:22:15,523 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-17 05:22:15,524 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-17 05:23:25,773 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+      <pre>2026-05-17 05:23:25,773 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
 [main 2e24143] Update scalper results 2026-05-17 09:23 UTC
  3 files changed, 146 insertions(+), 167 deletions(-)
 To github.com:mkoltsov/scalper.git
@@ -267,7 +225,49 @@ Traceback (most recent call last):
     raise CalledProcessError(retcode, process.args,
                              output=stdout, stderr=stderr)
 subprocess.CalledProcessError: Command &#x27;[&#x27;git&#x27;, &#x27;push&#x27;]&#x27; returned non-zero exit status 1.
-2026-05-17 07:17:01,575 INFO OpenTelemetry metrics disabled by DISABLE_OTEL</pre>
+2026-05-17 07:17:01,575 INFO OpenTelemetry metrics disabled by DISABLE_OTEL
+2026-05-17 07:17:01,593 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-17 07:18:24,316 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-17 07:18:24,317 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-17 07:19:50,010 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-17 07:19:50,011 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-17 07:21:10,933 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-17 07:21:10,934 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-17 07:21:10,934 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-17 07:22:25,168 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-17 07:22:25,168 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-17 07:23:48,990 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+[main 1f0adc9] Update scalper results 2026-05-17 11:23 UTC
+ 3 files changed, 140 insertions(+), 182 deletions(-)
+To github.com:mkoltsov/scalper.git
+ ! [rejected]        main -&gt; main (fetch first)
+error: failed to push some refs to &#x27;github.com:mkoltsov/scalper.git&#x27;
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: &#x27;git pull&#x27; before pushing again.
+hint: See the &#x27;Note about fast-forwards&#x27; in &#x27;git push --help&#x27; for details.
+Traceback (most recent call last):
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1128, in &lt;module&gt;
+    raise SystemExit(main(sys.argv[1:]))
+                     ~~~~^^^^^^^^^^^^^^
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1115, in main
+    return run(
+        args.config,
+    ...&lt;6 lines&gt;...
+        set(args.target) if args.target else None,
+    )
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1082, in run
+    publish_pages(public_dir)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 956, in publish_pages
+    subprocess.run([&quot;git&quot;, &quot;push&quot;], cwd=BASE_DIR, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command &#x27;[&#x27;git&#x27;, &#x27;push&#x27;]&#x27; returned non-zero exit status 1.
+2026-05-17 08:17:02,089 INFO OpenTelemetry metrics disabled by DISABLE_OTEL</pre>
     </section>
   </main>
   <script src="app.js"></script>
