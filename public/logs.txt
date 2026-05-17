@@ -1,49 +1,3 @@
-2026-05-17 02:15:57,215 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 3.39s.
-2026-05-17 02:15:59,556 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting span batch, retrying in 0.83s.
-2026-05-17 02:16:00,399 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting span batch, retrying in 1.65s.
-2026-05-17 02:16:00,611 ERROR Failed to export metrics batch due to timeout, max retries or shutdown.
-2026-05-17 02:16:00,620 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 0.86s.
-2026-05-17 02:16:01,486 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 1.83s.
-2026-05-17 02:16:02,061 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting span batch, retrying in 3.62s.
-2026-05-17 02:16:03,321 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 4.23s.
-2026-05-17 02:16:05,692 ERROR Failed to export span batch due to timeout, max retries or shutdown.
-2026-05-17 02:16:06,875 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-17 02:16:07,558 ERROR Failed to export metrics batch due to timeout, max retries or shutdown.
-2026-05-17 02:16:08,565 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 1.05s.
-2026-05-17 02:16:09,623 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 1.80s.
-2026-05-17 02:16:11,432 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 3.72s.
-2026-05-17 02:16:15,157 ERROR Failed to export metrics batch due to timeout, max retries or shutdown.
-2026-05-17 02:16:16,167 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 0.92s.
-2026-05-17 02:16:17,093 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 2.33s.
-2026-05-17 02:16:19,431 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 3.31s.
-2026-05-17 02:16:22,743 ERROR Failed to export metrics batch due to timeout, max retries or shutdown.
-2026-05-17 02:16:23,747 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 1.10s.
-2026-05-17 02:16:24,854 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 2.23s.
-2026-05-17 02:16:27,089 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 3.24s.
-2026-05-17 02:16:30,335 ERROR Failed to export metrics batch due to timeout, max retries or shutdown.
-2026-05-17 02:16:31,340 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 1.09s.
-2026-05-17 02:16:32,441 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 2.26s.
-2026-05-17 02:16:34,713 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 4.03s.
-2026-05-17 02:16:38,751 ERROR Failed to export metrics batch due to timeout, max retries or shutdown.
-2026-05-17 02:16:39,767 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 1.01s.
-2026-05-17 02:16:40,784 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 1.64s.
-2026-05-17 02:16:42,425 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 3.25s.
-2026-05-17 02:16:45,680 ERROR Failed to export metrics batch due to timeout, max retries or shutdown.
-2026-05-17 02:16:46,685 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 0.90s.
-2026-05-17 02:16:47,587 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 2.00s.
-2026-05-17 02:16:49,588 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 4.48s.
-2026-05-17 02:16:54,074 ERROR Failed to export metrics batch due to timeout, max retries or shutdown.
-2026-05-17 02:16:55,084 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 1.12s.
-2026-05-17 02:16:56,209 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 1.70s.
-2026-05-17 02:16:57,914 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 3.64s.
-2026-05-17 02:17:01,564 ERROR Failed to export metrics batch due to timeout, max retries or shutdown.
-2026-05-17 02:17:02,574 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 1.07s.
-2026-05-17 02:17:03,652 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 1.93s.
-2026-05-17 02:17:05,590 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 3.33s.
-2026-05-17 02:17:06,161 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-17 02:17:06,162 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-17 02:17:06,838 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 1.01s.
-2026-05-17 02:17:06,869 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 0.93s.
 2026-05-17 02:17:07,806 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 1.62s.
 2026-05-17 02:17:07,855 WARNING Transient error HTTPConnectionPool(host='127.0.0.1', port=4318): Max retries exceeded with url: /v1/metrics (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=4318): Failed to establish a new connection: [Errno 111] Connection refused")) encountered while exporting metrics batch, retrying in 2.32s.
 2026-05-17 02:17:08,926 ERROR Failed to export metrics batch due to timeout, max retries or shutdown.
@@ -238,3 +192,49 @@ Traceback (most recent call last):
                              output=stdout, stderr=stderr)
 subprocess.CalledProcessError: Command '['git', 'push']' returned non-zero exit status 1.
 2026-05-17 06:17:01,661 INFO OpenTelemetry metrics disabled by DISABLE_OTEL
+2026-05-17 06:17:01,679 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-17 06:18:02,515 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-17 06:18:02,516 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-17 06:18:46,669 INFO listing URL validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot url=https://www.ebay.com/itm/137160733788
+2026-05-17 06:18:46,670 INFO target=bang-olufsen-charging-case qualifying_deals=1
+2026-05-17 06:18:46,670 INFO already notified target=bang-olufsen-charging-case total=95.95 url=https://www.ebay.com/itm/137160733788
+2026-05-17 06:18:46,670 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-17 06:20:00,988 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-17 06:20:00,988 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-17 06:20:00,989 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-17 06:21:38,248 INFO listing URL validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot url=https://www.ebay.com/itm/187921738769?campid=5336844578&customid=newlinks&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&toolid=10001&var=0
+2026-05-17 06:21:38,248 INFO target=mac-mini-m1-16gb qualifying_deals=1
+2026-05-17 06:21:38,249 INFO already notified target=mac-mini-m1-16gb total=330.00 url=https://www.ebay.com/itm/187921738769?campid=5336844578&customid=newlinks&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&toolid=10001&var=0
+2026-05-17 06:21:38,249 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-17 06:23:03,907 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+[main 9bd4674] Update scalper results 2026-05-17 10:23 UTC
+ 3 files changed, 183 insertions(+), 141 deletions(-)
+To github.com:mkoltsov/scalper.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:mkoltsov/scalper.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1128, in <module>
+    raise SystemExit(main(sys.argv[1:]))
+                     ~~~~^^^^^^^^^^^^^^
+  File "/home/intimatik/dev/scalper/scalper.py", line 1115, in main
+    return run(
+        args.config,
+    ...<6 lines>...
+        set(args.target) if args.target else None,
+    )
+  File "/home/intimatik/dev/scalper/scalper.py", line 1082, in run
+    publish_pages(public_dir)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/intimatik/dev/scalper/scalper.py", line 956, in publish_pages
+    subprocess.run(["git", "push"], cwd=BASE_DIR, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'push']' returned non-zero exit status 1.
+2026-05-17 07:17:01,575 INFO OpenTelemetry metrics disabled by DISABLE_OTEL
