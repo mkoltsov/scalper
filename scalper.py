@@ -694,6 +694,20 @@ def read_log_tail(log_path: Path, lines: int = 240) -> list[str]:
     return [sanitize_log_text(line) for line in raw_lines[-lines:]]
 
 
+def read_log_since_marker(log_path: Path, marker: str) -> list[str]:
+    if not log_path.exists():
+        return []
+    try:
+        raw_lines = log_path.read_text(encoding="utf-8", errors="replace").splitlines()
+    except OSError as exc:
+        return [f"Could not read log file: {exc}"]
+    start = 0
+    for index, line in enumerate(raw_lines):
+        if marker in line:
+            start = index
+    return [sanitize_log_text(line) for line in raw_lines[start:]]
+
+
 def write_pages(public_dir: Path, payload: dict[str, Any]) -> None:
     public_dir.mkdir(parents=True, exist_ok=True)
     (public_dir / "results.json").write_text(
@@ -992,11 +1006,13 @@ def run(
     state = load_state(state_path)
     metrics = Metrics()
     started_at = datetime.now(timezone.utc).isoformat()
+    log_marker = f"scalper run started {started_at}"
+    LOGGER.info(log_marker)
     pages_payload: dict[str, Any] = {
         "started_at": started_at,
         "finished_at": None,
         "targets": [],
-        "logs": read_log_tail(log_file),
+        "logs": [],
     }
     exit_code = 0
 
@@ -1076,6 +1092,7 @@ def run(
         }
         pages_payload["finished_at"] = state["last_run"]["finished_at"]
         pages_payload["exit_code"] = exit_code
+        pages_payload["logs"] = read_log_since_marker(log_file, log_marker)
         write_pages(public_dir, pages_payload)
         prune_state(state)
         if not dry_run:
