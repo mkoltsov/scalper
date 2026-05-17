@@ -2,8 +2,8 @@
 set -euo pipefail
 
 BASE_DIR="/home/intimatik/dev/scalper"
-PYTHON_BIN="/home/intimatik/.pyenv/shims/python"
-OTEL_INSTRUMENT_BIN="/home/intimatik/.pyenv/shims/opentelemetry-instrument"
+PYTHON_BIN="/home/intimatik/dev/.venvs/cron/bin/python"
+OTEL_INSTRUMENT_BIN="/home/intimatik/dev/.venvs/cron/bin/opentelemetry-instrument"
 OTEL_WRAPPER="/home/intimatik/.local/bin/otel-python-cron.sh"
 LOCK_PATH="/tmp/scalper.lock"
 

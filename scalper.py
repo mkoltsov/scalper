@@ -86,6 +86,10 @@ class Metrics:
         self._codex_duration = None
         self.enabled = False
 
+        if os.environ.get("DISABLE_OTEL", "").strip().lower() in {"1", "true", "yes"}:
+            LOGGER.info("OpenTelemetry metrics disabled by DISABLE_OTEL")
+            return
+
         try:
             from opentelemetry.exporter.otlp.proto.http.metric_exporter import OTLPMetricExporter
             from opentelemetry.sdk.metrics import MeterProvider
@@ -942,6 +946,8 @@ copyButton?.addEventListener("click", async () => {
 
 
 def publish_pages(public_dir: Path) -> None:
+    subprocess.run(["git", "fetch", "origin", "main"], cwd=BASE_DIR, check=True)
+    subprocess.run(["git", "rebase", "--autostash", "origin/main"], cwd=BASE_DIR, check=True)
     subprocess.run(["git", "add", str(public_dir)], cwd=BASE_DIR, check=True)
     diff = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=BASE_DIR)
     if diff.returncode == 0:
@@ -949,7 +955,7 @@ def publish_pages(public_dir: Path) -> None:
         return
     message = f"Update scalper results {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
     subprocess.run(["git", "commit", "-m", message], cwd=BASE_DIR, check=True)
-    subprocess.run(["git", "push"], cwd=BASE_DIR, check=True)
+    subprocess.run(["git", "push", "origin", "HEAD:main"], cwd=BASE_DIR, check=True)
 
     with tempfile.TemporaryDirectory(prefix="scalper-pages-") as tmp_dir:
         pages_repo = Path(tmp_dir)
