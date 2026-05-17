@@ -1,26 +1,3 @@
-2026-05-16 08:22:50,574 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-16 08:24:06,058 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-[main 42d7574] Update scalper results 2026-05-16 12:24 UTC
- 3 files changed, 112 insertions(+), 154 deletions(-)
-To github.com:mkoltsov/scalper.git
-   9a1913d..42d7574  main -> main
-To github.com:mkoltsov/scalper.git
- + a8e5a49...fa1ee40 gh-pages -> gh-pages (forced update)
-2026-05-16 08:24:08,019 INFO cron job finished service=scalper exit_code=0 duration_ms=445566.261
-2026-05-16 09:17:01,449 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
-2026-05-16 09:17:02,113 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-16 09:17:45,256 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-16 09:17:45,257 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-16 09:18:55,277 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-16 09:18:55,277 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-16 09:20:13,448 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-16 09:20:13,449 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-16 09:20:13,449 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-16 09:21:58,905 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-16 09:21:58,905 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-16 09:23:29,445 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-[main a67430e] Update scalper results 2026-05-16 13:23 UTC
- 3 files changed, 82 insertions(+), 103 deletions(-)
 To github.com:mkoltsov/scalper.git
    42d7574..a67430e  main -> main
 To github.com:mkoltsov/scalper.git
@@ -238,3 +215,26 @@ To github.com:mkoltsov/scalper.git
  + 6ae7301...b71d48c gh-pages -> gh-pages (forced update)
 2026-05-16 19:22:25,764 INFO cron job finished service=scalper exit_code=0 duration_ms=340051.428
 2026-05-16 20:17:02,031 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
+2026-05-16 20:17:02,568 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-16 20:18:08,965 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-16 20:18:08,965 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-16 20:18:37,120 INFO listing URL validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot url=https://www.ebay.com/itm/137160733788
+2026-05-16 20:18:37,120 INFO target=bang-olufsen-charging-case qualifying_deals=1
+2026-05-16 20:18:37,120 INFO already notified target=bang-olufsen-charging-case total=95.95 url=https://www.ebay.com/itm/137160733788
+2026-05-16 20:18:37,120 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-16 20:20:23,521 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/hardwareswap/comments/1tbfpzq/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
+2026-05-16 20:20:23,521 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-16 20:20:23,521 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-16 20:20:23,522 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-16 20:21:29,125 INFO rejected deal target=mac-mini-m1-16gb reason=http_403 title=Apple Mac Mini - M1, 16GB RAM, 1TB SSD - Excellent Condition url=https://www.trinitylansdale.com/products/mac-condition-16gb-m1-1tb-ssd-excellent-apple-mini-ram/53370883/
+2026-05-16 20:21:29,125 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-16 20:21:29,125 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-16 20:22:49,855 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+[main cc0329b] Update scalper results 2026-05-17 00:22 UTC
+ 3 files changed, 103 insertions(+), 103 deletions(-)
+To github.com:mkoltsov/scalper.git
+   f5a1850..cc0329b  main -> main
+To github.com:mkoltsov/scalper.git
+ + b71d48c...a9bb9d0 gh-pages -> gh-pages (forced update)
+2026-05-16 20:22:51,785 INFO cron job finished service=scalper exit_code=0 duration_ms=367985.706
+2026-05-16 21:17:00,469 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/.pyenv/shims/python /home/intimatik/dev/scalper/scalper.py --publish-pages
