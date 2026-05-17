@@ -42,7 +42,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-05-17T13:23:42.546370+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-05-17T14:30:12.478943+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -76,9 +76,9 @@
               </div>
               
                 <article class="deal">
-                  <div class="meta">eBay · $629.99</div>
-                  <h2><a href="https://www.ebay.com/itm/236770750635" rel="nofollow noopener">2022 Apple MacBook Air 13.6&quot; M2 10C GPU 3.5GHz 16GB RAM 512GB SSD A2681</a></h2>
-                  <p>13.6-inch 2022 MacBook Air with M2, 16GB RAM, 512GB SSD, Buy It Now, free US shipping, under $650 total.</p>
+                  <div class="meta">Swappa · $639.00</div>
+                  <h2><a href="https://swappa.com/listing/view/LADY61014" rel="nofollow noopener">MacBook Air 2022 (M2) - 13&quot; - 512GB, Midnight, 16GB, Apple M2</a></h2>
+                  <p>Active Swappa listing for a 13-inch MacBook Air M2 with 16GB RAM and 512GB SSD, free US shipping, under $650 total.</p>
                 </article>
                 
             </section>
@@ -90,9 +90,9 @@
               </div>
               
                 <article class="deal">
-                  <div class="meta">eBay · $330.00</div>
-                  <h2><a href="https://www.ebay.com/itm/187921738769" rel="nofollow noopener">Apple Mac Mini 2020 A2348 M1 8 Core 16GB DDR4 512GB SSD Silver -FAIR/SEE</a></h2>
-                  <p>M1 Mac mini desktop with 16GB RAM and 512GB SSD; free US shipping keeps total under $400.</p>
+                  <div class="meta">eBay · $325.00</div>
+                  <h2><a href="https://www.ebay.com/itm/197571318869" rel="nofollow noopener">2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348</a></h2>
+                  <p>Buy It Now used Mac mini listing states M1, 16GB RAM, 512GB SSD, and free shipping under $400 total.</p>
                 </article>
                 
             </section>
@@ -100,22 +100,9 @@
             <section class="target">
               <div class="target-head">
                 <h1>M2-or-newer Mac mini with 16GB+ RAM</h1>
-                <span>2 live matches</span>
+                <span>0 live matches</span>
               </div>
-              
-                <article class="deal">
-                  <div class="meta">eBay · $539.99</div>
-                  <h2><a href="https://www.ebay.com/itm/306874612202" rel="nofollow noopener">New Apple Mac mini M4 16GB RAM 512GB SSD 10-Core GPU Mini Desktop Computer</a></h2>
-                  <p>M4 Mac mini with 16GB RAM and 512GB SSD, Buy It Now, free US shipping, under $550 total.</p>
-                </article>
-                
-
-                <article class="deal">
-                  <div class="meta">eBay · $520.00</div>
-                  <h2><a href="https://www.ebay.com/itm/306448583906" rel="nofollow noopener">Mac Mini M2Pro 16Gb 512Gb with Bonus USBC Powered Hub, Excellent condition.</a></h2>
-                  <p>M2 Pro Mac mini with 16GB RAM and 512GB SSD, Buy It Now, free USPS Priority shipping, under $550 total.</p>
-                </article>
-                
+              <p class="empty">No available qualifying listings found in the latest run.</p>
             </section>
             
     </section>
@@ -167,56 +154,7 @@
         <h1>Logs</h1>
         <span>240 lines published</span>
       </div>
-      <pre>2026-05-17 06:21:38,248 INFO listing URL validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot url=https://www.ebay.com/itm/187921738769?campid=5336844578&amp;customid=newlinks&amp;mkcid=1&amp;mkevt=1&amp;mkrid=711-53200-19255-0&amp;toolid=10001&amp;var=0
-2026-05-17 06:21:38,248 INFO target=mac-mini-m1-16gb qualifying_deals=1
-2026-05-17 06:21:38,249 INFO already notified target=mac-mini-m1-16gb total=330.00 url=https://www.ebay.com/itm/187921738769?campid=5336844578&amp;customid=newlinks&amp;mkcid=1&amp;mkevt=1&amp;mkrid=711-53200-19255-0&amp;toolid=10001&amp;var=0
-2026-05-17 06:21:38,249 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-17 06:23:03,907 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-[main 9bd4674] Update scalper results 2026-05-17 10:23 UTC
- 3 files changed, 183 insertions(+), 141 deletions(-)
-To github.com:mkoltsov/scalper.git
- ! [rejected]        main -&gt; main (fetch first)
-error: failed to push some refs to &#x27;github.com:mkoltsov/scalper.git&#x27;
-hint: Updates were rejected because the remote contains work that you do not
-hint: have locally. This is usually caused by another repository pushing to
-hint: the same ref. If you want to integrate the remote changes, use
-hint: &#x27;git pull&#x27; before pushing again.
-hint: See the &#x27;Note about fast-forwards&#x27; in &#x27;git push --help&#x27; for details.
-Traceback (most recent call last):
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1128, in &lt;module&gt;
-    raise SystemExit(main(sys.argv[1:]))
-                     ~~~~^^^^^^^^^^^^^^
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1115, in main
-    return run(
-        args.config,
-    ...&lt;6 lines&gt;...
-        set(args.target) if args.target else None,
-    )
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1082, in run
-    publish_pages(public_dir)
-    ~~~~~~~~~~~~~^^^^^^^^^^^^
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 956, in publish_pages
-    subprocess.run([&quot;git&quot;, &quot;push&quot;], cwd=BASE_DIR, check=True)
-    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 577, in run
-    raise CalledProcessError(retcode, process.args,
-                             output=stdout, stderr=stderr)
-subprocess.CalledProcessError: Command &#x27;[&#x27;git&#x27;, &#x27;push&#x27;]&#x27; returned non-zero exit status 1.
-2026-05-17 07:17:01,575 INFO OpenTelemetry metrics disabled by DISABLE_OTEL
-2026-05-17 07:17:01,593 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-17 07:18:24,316 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-17 07:18:24,317 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-17 07:19:50,010 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-17 07:19:50,011 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-17 07:21:10,933 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-17 07:21:10,934 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-17 07:21:10,934 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-17 07:22:25,168 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-17 07:22:25,168 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-17 07:23:48,990 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-[main 1f0adc9] Update scalper results 2026-05-17 11:23 UTC
- 3 files changed, 140 insertions(+), 182 deletions(-)
-To github.com:mkoltsov/scalper.git
+      <pre>To github.com:mkoltsov/scalper.git
  ! [rejected]        main -&gt; main (fetch first)
 error: failed to push some refs to &#x27;github.com:mkoltsov/scalper.git&#x27;
 hint: Updates were rejected because the remote contains work that you do not
@@ -286,7 +224,56 @@ Traceback (most recent call last):
     raise CalledProcessError(retcode, process.args,
                              output=stdout, stderr=stderr)
 subprocess.CalledProcessError: Command &#x27;[&#x27;git&#x27;, &#x27;push&#x27;]&#x27; returned non-zero exit status 1.
-2026-05-17 09:17:01,398 INFO OpenTelemetry metrics disabled by DISABLE_OTEL</pre>
+2026-05-17 09:17:01,398 INFO OpenTelemetry metrics disabled by DISABLE_OTEL
+2026-05-17 09:17:01,415 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-17 09:18:46,104 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-17 09:18:46,104 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-17 09:19:58,620 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-17 09:19:58,621 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-17 09:21:13,186 INFO listing URL validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot url=https://www.ebay.com/itm/236770750635
+2026-05-17 09:21:13,186 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-17 09:21:13,187 INFO new deal target=macbook-13-apple-silicon-16-24gb total=629.99 url=https://www.ebay.com/itm/236770750635
+2026-05-17 09:21:13,309 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-17 09:22:34,498 INFO listing URL validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot url=https://www.ebay.com/itm/187921738769
+2026-05-17 09:22:34,498 INFO target=mac-mini-m1-16gb qualifying_deals=1
+2026-05-17 09:22:34,499 INFO already notified target=mac-mini-m1-16gb total=330.00 url=https://www.ebay.com/itm/187921738769
+2026-05-17 09:22:34,499 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-17 09:23:42,370 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/306874612202
+2026-05-17 09:23:42,442 INFO listing URL validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot url=https://www.ebay.com/itm/306448583906
+2026-05-17 09:23:42,443 INFO target=mac-mini-m2-newer-16gb qualifying_deals=2
+2026-05-17 09:23:42,443 INFO already notified target=mac-mini-m2-newer-16gb total=539.99 url=https://www.ebay.com/itm/306874612202
+2026-05-17 09:23:42,443 INFO new deal target=mac-mini-m2-newer-16gb total=520.00 url=https://www.ebay.com/itm/306448583906
+[main 001b580] Update scalper results 2026-05-17 13:23 UTC
+ 3 files changed, 204 insertions(+), 141 deletions(-)
+To github.com:mkoltsov/scalper.git
+ ! [rejected]        main -&gt; main (fetch first)
+error: failed to push some refs to &#x27;github.com:mkoltsov/scalper.git&#x27;
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: &#x27;git pull&#x27; before pushing again.
+hint: See the &#x27;Note about fast-forwards&#x27; in &#x27;git push --help&#x27; for details.
+Traceback (most recent call last):
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1128, in &lt;module&gt;
+    raise SystemExit(main(sys.argv[1:]))
+                     ~~~~^^^^^^^^^^^^^^
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1115, in main
+    return run(
+        args.config,
+    ...&lt;6 lines&gt;...
+        set(args.target) if args.target else None,
+    )
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1082, in run
+    publish_pages(public_dir)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 956, in publish_pages
+    subprocess.run([&quot;git&quot;, &quot;push&quot;], cwd=BASE_DIR, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command &#x27;[&#x27;git&#x27;, &#x27;push&#x27;]&#x27; returned non-zero exit status 1.
+2026-05-17 10:17:01,538 INFO OpenTelemetry metrics disabled by DISABLE_OTEL</pre>
     </section>
   </main>
   <script src="app.js"></script>
