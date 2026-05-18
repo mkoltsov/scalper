@@ -42,7 +42,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-05-18T19:24:30.975958+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-05-18T20:25:24.751981+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -72,9 +72,15 @@
             <section class="target">
               <div class="target-head">
                 <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+                <article class="deal">
+                  <div class="meta">Swappa · $639.00</div>
+                  <h2><a href="https://swappa.com/listing/view/LADY61014" rel="nofollow noopener">MacBook Air M2 (Midnight) - With original packaging. High spec: 16 GB RAM / 512 GB SSD</a></h2>
+                  <p>13-inch MacBook Air 2022 with Apple M2, 16GB RAM, 512GB SSD, free US shipping, and active buy/login-to-buy listing under $650 total.</p>
+                </article>
+                
             </section>
             
             <section class="target">
@@ -140,22 +146,21 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>14 lines published</span>
+        <span>13 lines published</span>
       </div>
-      <pre>2026-05-18 15:17:03,494 INFO scalper run started 2026-05-18T19:17:03.494508+00:00
-2026-05-18 15:17:03,496 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-18 15:19:17,274 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-18 15:19:17,275 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-18 15:20:15,770 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-18 15:20:15,770 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-18 15:21:34,460 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306627013511
-2026-05-18 15:21:34,461 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13&quot; M2 Chip 8-Core 16GB RAM 512GB SSD 2022 Silver Very Good url=https://www.ebay.com/itm/306627013511
-2026-05-18 15:21:47,393 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple MacBook Air 13&quot; M2 Chip 8-Core 16GB RAM 512GB SSD 2022 Silver Very Good url=https://www.ebay.com/itm/306627013511
-2026-05-18 15:21:47,394 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-18 15:21:47,395 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-18 15:23:10,030 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-18 15:23:10,030 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-18 15:24:30,975 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
+      <pre>2026-05-18 16:17:02,900 INFO scalper run started 2026-05-18T20:17:02.900623+00:00
+2026-05-18 16:17:02,902 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-18 16:18:30,791 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-18 16:18:30,792 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-18 16:19:47,582 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-18 16:19:47,583 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-18 16:21:31,352 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
+2026-05-18 16:21:31,353 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-18 16:21:31,354 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-18 16:21:31,354 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-18 16:23:18,234 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-18 16:23:18,234 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-18 16:25:24,751 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
