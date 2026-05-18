@@ -1,21 +1,21 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-17T23:22:22.506820+00:00",
+  "finished_at": "2026-05-18T00:26:26.116300+00:00",
   "logs": [
-    "2026-05-17 19:17:01,932 INFO scalper run started 2026-05-17T23:17:01.932673+00:00",
-    "2026-05-17 19:17:01,933 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-17 19:18:10,808 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-17 19:18:10,809 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-17 19:18:51,840 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-17 19:18:51,840 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-17 19:19:51,254 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-17 19:19:51,254 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-05-17 19:19:51,254 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-17 19:21:12,433 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-17 19:21:12,433 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-17 19:22:22,506 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-17 20:17:03,148 INFO scalper run started 2026-05-18T00:17:03.148358+00:00",
+    "2026-05-17 20:17:03,150 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-17 20:19:28,073 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-17 20:19:28,073 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-17 20:20:27,251 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-17 20:20:27,251 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-17 20:22:23,448 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-17 20:22:23,449 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
+    "2026-05-17 20:22:23,449 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-17 20:23:52,648 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-17 20:23:52,649 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-17 20:26:26,116 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-17T23:17:01.932673+00:00",
+  "started_at": "2026-05-18T00:17:03.148358+00:00",
   "targets": [
     {
       "deals": [],
@@ -34,16 +34,16 @@
         {
           "availability": "available",
           "condition": "Good condition",
-          "confidence": 0.96,
+          "confidence": 0.94,
           "price_usd": 639.0,
           "seller": "Leonard",
           "shipping_usd": 0.0,
           "source": "Swappa",
           "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2 - LADY61014",
           "total_usd": 639.0,
           "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "13-inch MacBook Air with Apple M2, 16GB RAM, 512GB SSD, approved active listing with free US shipping under $650 total."
+          "why_good": "13-inch 2022 MacBook Air with Apple M2, 16GB RAM, 512GB SSD, approved active listing, free US shipping, under $650 total."
         }
       ],
       "id": "macbook-13-apple-silicon-16-24gb",
