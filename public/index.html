@@ -42,7 +42,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-05-18T05:23:51.418742+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-05-18T06:11:51.548221+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -72,9 +72,15 @@
             <section class="target">
               <div class="target-head">
                 <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+                <article class="deal">
+                  <div class="meta">Swappa · $639.00</div>
+                  <h2><a href="https://swappa.com/listing/view/LADY61014" rel="nofollow noopener">MacBook Air 2022 (M2) - 13&quot; - 512GB, Midnight, 16GB, Apple M2 - LADY61014</a></h2>
+                  <p>13-inch MacBook Air with Apple M2, 16GB RAM, 512GB SSD, approved active listing, free US shipping, total under $650.</p>
+                </article>
+                
             </section>
             
             <section class="target">
@@ -140,9 +146,104 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>13 lines published</span>
+        <span>6802 lines published</span>
       </div>
-      <pre>2026-05-18 01:17:03,873 INFO scalper run started 2026-05-18T05:17:03.873879+00:00
+      <pre>    subprocess.run([&quot;git&quot;, &quot;push&quot;, &quot;origin&quot;, &quot;HEAD:main&quot;], cwd=BASE_DIR, check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command &#x27;[&#x27;git&#x27;, &#x27;push&#x27;, &#x27;origin&#x27;, &#x27;HEAD:main&#x27;]&#x27; returned non-zero exit status 128.
+2026-05-17 21:23:15,030 ERROR cron job finished service=scalper exit_code=1 duration_ms=372322.442
+2026-05-17 22:17:02,756 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/dev/.venvs/cron/bin/python /home/intimatik/dev/scalper/scalper.py --publish-pages
+2026-05-17 22:17:04,317 INFO OpenTelemetry metrics disabled by DISABLE_OTEL
+2026-05-17 22:17:04,318 INFO scalper run started 2026-05-18T02:17:04.318101+00:00
+2026-05-17 22:17:04,318 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-17 22:18:29,757 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-17 22:18:29,757 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-17 22:19:19,605 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-17 22:19:19,605 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-17 22:20:49,392 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
+2026-05-17 22:20:49,392 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-17 22:20:49,392 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-17 22:20:49,392 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-17 22:22:03,311 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/187921738769
+2026-05-17 22:22:03,311 INFO rejected deal target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=Apple Mac Mini 2020 A2348 M1 8 Core 16GB DDR4 512GB SSD Silver -FAIR/SEE url=https://www.ebay.com/itm/187921738769
+2026-05-17 22:22:03,312 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-17 22:22:03,312 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-17 22:23:35,895 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+From github.com:mkoltsov/scalper
+ * branch            main       -&gt; FETCH_HEAD
+Created autostash: ecdd931
+Current branch main is up to date.
+Applied autostash.
+[main c5e3bd1] Update scalper results 2026-05-18 02:23 UTC
+ 3 files changed, 73 insertions(+), 46 deletions(-)
+To github.com:mkoltsov/scalper.git
+   7cb7510..c5e3bd1  HEAD -&gt; main
+To github.com:mkoltsov/scalper.git
+ + 6e8e8f0...f084c60 gh-pages -&gt; gh-pages (forced update)
+2026-05-17 22:23:44,152 INFO cron job finished service=scalper exit_code=0 duration_ms=401396.212
+2026-05-17 23:17:02,727 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/dev/.venvs/cron/bin/python /home/intimatik/dev/scalper/scalper.py --publish-pages
+2026-05-17 23:17:03,848 INFO OpenTelemetry metrics disabled by DISABLE_OTEL
+2026-05-17 23:17:03,849 INFO scalper run started 2026-05-18T03:17:03.848962+00:00
+2026-05-17 23:17:03,849 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-17 23:18:13,973 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-17 23:18:13,974 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-17 23:19:09,991 INFO rejected deal target=bang-olufsen-charging-case reason=reject_pattern pattern=\bprotective\s+(cover|case|skin)\b title=Bang &amp; Olufsen BEOPlay EX Charging Case - Black Anthracite
+2026-05-17 23:19:09,991 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-17 23:19:09,992 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-17 23:20:02,765 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-17 23:20:02,766 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-17 23:20:02,766 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-17 23:21:57,520 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-17 23:21:57,520 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-17 23:24:18,249 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+From github.com:mkoltsov/scalper
+ * branch            main       -&gt; FETCH_HEAD
+Created autostash: 62c6d03
+Current branch main is up to date.
+Applied autostash.
+[main 43bcdfd] Update scalper results 2026-05-18 03:24 UTC
+ 3 files changed, 48 insertions(+), 54 deletions(-)
+To github.com:mkoltsov/scalper.git
+   c5e3bd1..43bcdfd  HEAD -&gt; main
+To github.com:mkoltsov/scalper.git
+ + f084c60...59b621a gh-pages -&gt; gh-pages (forced update)
+2026-05-17 23:24:21,243 INFO cron job finished service=scalper exit_code=0 duration_ms=438516.279
+2026-05-18 00:17:01,885 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/dev/.venvs/cron/bin/python /home/intimatik/dev/scalper/scalper.py --publish-pages
+2026-05-18 00:17:03,028 INFO OpenTelemetry metrics disabled by DISABLE_OTEL
+2026-05-18 00:17:03,028 INFO scalper run started 2026-05-18T04:17:03.028643+00:00
+2026-05-18 00:17:03,029 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-18 00:18:13,649 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-18 00:18:13,650 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-18 00:19:51,910 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-18 00:19:51,910 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-18 00:21:12,064 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-18 00:21:12,065 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-18 00:21:12,065 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-18 00:22:41,350 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/187921738769
+2026-05-18 00:22:41,351 INFO rejected deal target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=Apple Mac Mini 2020 A2348 M1 8 Core 16GB DDR4 512GB SSD Silver -FAIR/SEE url=https://www.ebay.com/itm/187921738769
+2026-05-18 00:22:41,423 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/297733224323
+2026-05-18 00:22:41,423 INFO rejected deal target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=Apple Mac mini M1 Chip 8-Core CPU 8-Core GPU 16GB RAM 512GB 2020 1GbE • Fair url=https://www.ebay.com/itm/297733224323
+2026-05-18 00:22:41,424 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-18 00:22:41,424 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-18 00:24:24,094 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+From github.com:mkoltsov/scalper
+ * branch            main       -&gt; FETCH_HEAD
+Created autostash: 55337e8
+Current branch main is up to date.
+Applied autostash.
+[main 9ba1195] Update scalper results 2026-05-18 04:24 UTC
+ 3 files changed, 57 insertions(+), 48 deletions(-)
+To github.com:mkoltsov/scalper.git
+   43bcdfd..9ba1195  HEAD -&gt; main
+To github.com:mkoltsov/scalper.git
+ + 59b621a...fab299f gh-pages -&gt; gh-pages (forced update)
+2026-05-18 00:24:27,193 INFO cron job finished service=scalper exit_code=0 duration_ms=445307.537
+2026-05-18 01:17:02,744 INFO cron job started service=scalper cwd=/home/intimatik/dev/scalper command=/home/intimatik/dev/.venvs/cron/bin/python /home/intimatik/dev/scalper/scalper.py --publish-pages
+2026-05-18 01:17:03,873 INFO OpenTelemetry metrics disabled by DISABLE_OTEL
+2026-05-18 01:17:03,873 INFO scalper run started 2026-05-18T05:17:03.873879+00:00
 2026-05-18 01:17:03,874 INFO checking target=nzxt-h1-v2 with Codex web_search
 2026-05-18 01:17:59,745 INFO target=nzxt-h1-v2 qualifying_deals=0
 2026-05-18 01:17:59,746 INFO checking target=bang-olufsen-charging-case with Codex web_search
@@ -154,7 +255,19 @@
 2026-05-18 01:20:22,501 INFO checking target=mac-mini-m1-16gb with Codex web_search
 2026-05-18 01:21:52,602 INFO target=mac-mini-m1-16gb qualifying_deals=0
 2026-05-18 01:21:52,602 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-18 01:23:51,418 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
+2026-05-18 01:23:51,418 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+From github.com:mkoltsov/scalper
+ * branch            main       -&gt; FETCH_HEAD
+Created autostash: f0de1ef
+Current branch main is up to date.
+Applied autostash.
+[main 0a694df] Update scalper results 2026-05-18 05:23 UTC
+ 3 files changed, 46 insertions(+), 76 deletions(-)
+To github.com:mkoltsov/scalper.git
+   9ba1195..0a694df  HEAD -&gt; main
+To github.com:mkoltsov/scalper.git
+ + fab299f...3059fbe gh-pages -&gt; gh-pages (forced update)
+2026-05-18 01:23:54,412 INFO cron job finished service=scalper exit_code=0 duration_ms=411668.049</pre>
     </section>
   </main>
   <script src="app.js"></script>
