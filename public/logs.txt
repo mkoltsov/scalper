@@ -1,11 +1,14 @@
-2026-05-18 17:17:02,953 INFO scalper run started 2026-05-18T21:17:02.952986+00:00
-2026-05-18 17:17:02,955 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-18 17:18:27,088 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-18 17:18:27,089 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-18 17:19:21,980 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-18 17:19:21,981 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-18 17:20:50,112 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-18 17:20:50,113 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-18 17:22:04,964 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-18 17:22:04,964 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-18 17:23:24,055 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-18 18:17:03,380 INFO scalper run started 2026-05-18T22:17:03.379859+00:00
+2026-05-18 18:17:03,381 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-18 18:18:52,717 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-18 18:18:52,717 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-18 18:19:34,335 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-18 18:19:34,335 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-18 18:21:09,518 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
+2026-05-18 18:21:09,519 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2
+2026-05-18 18:21:09,519 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-18 18:21:09,519 INFO already notified target=macbook-13-apple-silicon-16-24gb total=549.00 url=https://swappa.com/listing/view/LZKV53541
+2026-05-18 18:21:09,520 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-18 18:22:51,066 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-18 18:22:51,067 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-18 18:24:14,893 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
