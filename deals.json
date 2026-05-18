@@ -5,9 +5,23 @@
     "tags": "moneybag"
   },
   "codex": {
-    "bin": "/home/intimatik/.nvm/versions/node/v24.13.0/bin/codex",
+    "bin": "/home/intimatik/.npm-global/bin/codex",
     "timeout_seconds": 900,
     "max_results_per_target": 5
+  },
+  "browser": {
+    "enabled": true,
+    "chromium_bin": "/usr/bin/chromium",
+    "profile_dir": "/home/intimatik/.cache/scalper_browser",
+    "timeout_seconds": 45
+  },
+  "local_marketplaces": {
+    "offerup": {
+      "enabled": true,
+      "city": "Cary, NC",
+      "zip": "27519",
+      "radius_miles": 25
+    }
   },
   "targets": [
     {
@@ -15,7 +29,7 @@
       "name": "NZXT H1 V2 mini-ITX case bundle",
       "max_price_usd": 200,
       "usual_market_price_usd": 220,
-      "search_intent": "Find currently available used, open-box, or discounted NZXT H1 V2 mini-ITX case listings under $200 total. The listing must include the original PSU and AIO liquid cooler. Prefer complete bundles with riser cable. Reject NZXT H1 V1, case shells missing PSU/AIO, broken PSU/AIO, sold listings, out-of-stock listings, local-pickup-only listings, listings that do not ship directly to the United States, links that do not open as active listing pages, and listings where item price plus shipping is $200 or more.",
+      "search_intent": "Find currently available used, open-box, or discounted NZXT H1 V2 mini-ITX case listings under $200 total. The listing must include the original PSU and AIO liquid cooler. Prefer complete bundles with riser cable. Reject NZXT H1 V1, case shells missing PSU/AIO, broken PSU/AIO, sold listings, out-of-stock listings, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $200 or more.",
       "acceptance_criteria": [
         "It is NZXT H1 V2, not H1 V1. Treat the common typo NXZT as NZXT only if the listing clearly means NZXT.",
         "It includes the PSU.",
@@ -23,13 +37,15 @@
         "The total price including shipping is less than 200 USD.",
         "It is currently available to buy.",
         "The listing URL opens as an active listing page.",
-        "It ships directly to the United States; local pickup only is not acceptable."
+        "It ships directly to the United States, or it is an OfferUp local-pickup listing in or near Cary, NC 27519."
       ],
       "search_queries": [
         "NZXT H1 V2 case PSU AIO under $200",
         "NXZT H1 V2 used case PSU AIO under $200",
         "NZXT H1 V2 750W AIO eBay under 200",
-        "NZXT H1 V2 open box case PSU cooler"
+        "NZXT H1 V2 open box case PSU cooler",
+        "site:offerup.com NZXT H1 V2 Cary NC 27519",
+        "site:offerup.com NZXT H1 V2 Raleigh Durham Cary"
       ]
     },
     {
@@ -37,7 +53,7 @@
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
       "max_price_usd": 100,
       "usual_market_price_usd": 120,
-      "search_intent": "Find currently available charging case deals under $100 total ONLY for these models: Bang & Olufsen Eleven, B&O Eleven, Bang & Olufsen Beoplay EX, B&O Beoplay EX, or Cisco 950. Only the charging case is needed; earbuds may be missing, broken, or included as broken parts. Reject every other B&O model, including Beoplay EQ, Beoplay E8, E8 2.0, E8 3rd Gen, E6, EX generic protective covers, Portal, H95, HX, A8, and any listing where the model is unclear. Reject generic silicone protective covers, skins, pouches, non-charging cases, sold listings, out-of-stock listings, listings that do not ship directly to the United States, listings requiring a proxy/forwarder such as Mercari Japan, links that do not open as active listing pages, and listings where item price plus shipping is $100 or more.",
+      "search_intent": "Find currently available charging case deals under $100 total ONLY for these models: Bang & Olufsen Eleven, B&O Eleven, Bang & Olufsen Beoplay EX, B&O Beoplay EX, or Cisco 950. Only the charging case is needed; earbuds may be missing, broken, or included as broken parts. Reject every other B&O model, including Beoplay EQ, Beoplay E8, E8 2.0, E8 3rd Gen, E6, EX generic protective covers, Portal, H95, HX, A8, and any listing where the model is unclear. Reject generic silicone protective covers, skins, pouches, non-charging cases, sold listings, out-of-stock listings, listings that do not ship directly to the United States unless they are qualifying local OfferUp listings near Cary NC, listings requiring a proxy/forwarder such as Mercari Japan, links that do not open as active listing pages, and listings where item price plus shipping is $100 or more.",
       "acceptance_criteria": [
         "The listing clearly says the charging case is for B&O Eleven, Bang & Olufsen Eleven, Beoplay EX, Bang & Olufsen Beoplay EX, B&O Beoplay EX, or Cisco 950.",
         "Reject all other B&O models, especially Beoplay EQ and Beoplay E8.",
@@ -47,7 +63,7 @@
         "The total price including shipping is less than 100 USD.",
         "It is currently available to buy.",
         "The listing URL opens as an active listing page.",
-        "It ships directly to the United States; proxy/forwarder-only marketplaces such as Mercari Japan are not acceptable."
+        "It ships directly to the United States, or it is an OfferUp local-pickup listing in or near Cary, NC 27519; proxy/forwarder-only marketplaces such as Mercari Japan are not acceptable."
       ],
       "required_any_patterns": [
         "\\b(b&o|bang\\s*&?\\s*olufsen)\\s+eleven\\b",
@@ -74,7 +90,10 @@
         "B&O Beoplay EX charging case only under $100",
         "Bang Olufsen Beoplay EX charging case replacement under 100",
         "Cisco 950 charging case under $100",
-        "Cisco 950 earbuds broken charging case"
+        "Cisco 950 earbuds broken charging case",
+        "site:offerup.com Beoplay EX charging case Cary NC 27519",
+        "site:offerup.com B&O Eleven charging case Raleigh Durham Cary",
+        "site:offerup.com Cisco 950 charging case Cary NC"
       ]
     },
     {
@@ -82,11 +101,12 @@
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
       "max_price_usd": 650,
       "usual_market_price_usd": 750,
-      "search_intent": "Find currently available used, refurbished, open-box, or discounted 13-inch Apple Silicon MacBook Air or 13-inch MacBook Pro listings under $650 total. The laptop must have an M2, M3, M4, M5, or newer Apple Silicon chip, and must have either 16GB or 24GB RAM/unified memory. Reject M1 MacBooks, Intel MacBooks, 14-inch, 15-inch, and 16-inch MacBooks, 8GB RAM models, models with less than 16GB RAM, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings, listings that do not ship directly to the United States, links that do not open as active listing pages, and listings where item price plus shipping is $650 or more.",
+      "search_intent": "Find currently available used, refurbished, open-box, or discounted 13-inch Apple Silicon MacBook Air or 13-inch MacBook Pro listings under $650 total. The laptop must have an M2, M3, M4, M5, or newer Apple Silicon chip, must have either 16GB or 24GB RAM/unified memory, and must have more than 256GB storage. Reject 256GB storage models, M1 MacBooks, Intel MacBooks, 14-inch, 15-inch, and 16-inch MacBooks, 8GB RAM models, models with less than 16GB RAM, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $650 or more.",
       "acceptance_criteria": [
         "It is a 13-inch MacBook Air or 13-inch MacBook Pro.",
         "It has an Apple Silicon chip: M2, M3, M4, M5, or newer. M1 models are not acceptable.",
         "It has either 16GB or 24GB RAM/unified memory.",
+        "Reject 256GB storage models; storage must be 512GB or larger if stated.",
         "Reject all M1 MacBooks.",
         "Reject all Intel MacBooks.",
         "Reject 14-inch, 15-inch, and 16-inch MacBooks.",
@@ -94,7 +114,7 @@
         "The total price including shipping is less than 650 USD.",
         "It is currently available to buy.",
         "The listing URL opens as an active listing page.",
-        "It ships directly to the United States; local pickup only is not acceptable."
+        "It ships directly to the United States, or it is an OfferUp local-pickup listing in or near Cary, NC 27519."
       ],
       "required_any_patterns": [
         "(?=.*\\bmacbook\\b)(?=.*\\b13(?:\\.3)?\\s*(?:-|\\s)?(?:inch|in\\.?|\")?\\b)(?=.*\\bm(?:[2-9]|[1-9][0-9]+)\\b)(?=.*\\b(?:16|24)\\s*gb\\b)"
@@ -106,16 +126,115 @@
         "\\b14(?:\\.2)?\\s*(?:-|\\s)?(?:inch|in\\.?|\")\\b",
         "\\b15(?:\\.3)?\\s*(?:-|\\s)?(?:inch|in\\.?|\")\\b",
         "\\b16(?:\\.2)?\\s*(?:-|\\s)?(?:inch|in\\.?|\")\\b",
+        "\\b256\\s*(?:gb|g)\\b",
         "\\b(?:4|8|32|36|48|64|96|128)\\s*gb\\s*(?:ram|unified\\s+memory|memory)\\b",
         "\\b(?:ram|memory)\\s*[:/-]?\\s*(?:4|8|32|36|48|64|96|128)\\s*gb\\b"
       ],
       "search_queries": [
-        "13-inch MacBook Air M2 16GB RAM under $650 used",
-        "13-inch MacBook Pro M2 16GB RAM under $650 used",
-        "13-inch MacBook Air M2 24GB unified memory under $650",
-        "13-inch MacBook Air M3 16GB RAM under $650 used",
-        "13-inch MacBook Air M3 24GB unified memory under $650 used",
-        "13-inch MacBook Air M4 16GB RAM under $650 used"
+        "13-inch MacBook Air M2 16GB 512GB under $650 used",
+        "13-inch MacBook Pro M2 16GB 512GB under $650 used",
+        "13-inch MacBook Air M2 24GB 512GB unified memory under $650",
+        "13-inch MacBook Air M3 16GB 512GB under $650 used",
+        "13-inch MacBook Air M3 24GB 512GB unified memory under $650 used",
+        "13-inch MacBook Air M4 16GB 512GB under $650 used",
+        "site:offerup.com MacBook Air M2 16GB 512GB Cary NC 27519",
+        "site:offerup.com MacBook Pro M2 16GB 512GB Raleigh Durham Cary"
+      ]
+    },
+    {
+      "id": "mac-mini-m1-16gb",
+      "name": "M1 Mac mini with 16GB RAM",
+      "max_price_usd": 400,
+      "usual_market_price_usd": 450,
+      "search_intent": "Find currently available used, refurbished, open-box, or discounted Apple Mac mini listings under $400 total. The Mac mini must have an Apple M1 chip, 16GB RAM/unified memory, and more than 256GB storage. Reject 256GB storage models, Intel Mac minis, M2/M3/M4/M5 Mac minis, 8GB RAM models, models with RAM missing or unclear, MacBooks, iMacs, Mac Studios, logic boards, parts-only machines, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $400 or more.",
+      "acceptance_criteria": [
+        "It is an Apple Mac mini desktop, not a MacBook, iMac, Mac Studio, or parts listing.",
+        "It has an Apple M1 chip.",
+        "It has 16GB RAM/unified memory.",
+        "Reject 256GB storage models; storage must be 512GB or larger if stated.",
+        "Reject 8GB RAM models and any listing where RAM is missing or unclear.",
+        "Reject Intel Mac minis.",
+        "Reject M2, M3, M4, M5, or newer Mac minis for this target because they have a different price ceiling.",
+        "The total price including shipping is less than 400 USD.",
+        "It is currently available to buy.",
+        "The listing URL opens as an active listing page.",
+        "It ships directly to the United States, or it is an OfferUp local-pickup listing in or near Cary, NC 27519."
+      ],
+      "required_any_patterns": [
+        "(?=.*\\bmac\\s*mini\\b)(?=.*\\bm1\\b)(?=.*\\b16\\s*gb\\b)"
+      ],
+      "reject_patterns": [
+        "\\bintel\\b",
+        "\\bcore\\s+i[3579]\\b",
+        "\\bm(?:[2-9]|[1-9][0-9]+)\\b",
+        "\\b256\\s*(?:gb|g)\\b",
+        "\\b(?:4|8|24|32|36|48|64|96|128)\\s*gb\\s*(?:ram|unified\\s+memory|memory)\\b",
+        "\\b(?:ram|memory)\\s*[:/-]?\\s*(?:4|8|24|32|36|48|64|96|128)\\s*gb\\b",
+        "\\bmacbook\\b",
+        "\\bimac\\b",
+        "\\bmac\\s*studio\\b",
+        "\\blogic\\s*board\\b",
+        "\\bfor\\s+parts\\b",
+        "\\bparts\\s+only\\b",
+        "\\bnot\\s+working\\b"
+      ],
+      "search_queries": [
+        "Mac mini M1 16GB RAM under $400 used",
+        "Apple Mac mini M1 16GB 512GB used under 400",
+        "Apple Mac mini M1 16GB 1TB used under 400",
+        "Mac mini M1 16GB unified memory eBay under 400",
+        "Mac mini M1 16GB refurbished under 400",
+        "site:offerup.com Mac mini M1 16GB 512GB Cary NC 27519",
+        "site:offerup.com Mac mini M1 16GB Raleigh Durham Cary"
+      ]
+    },
+    {
+      "id": "mac-mini-m2-newer-16gb",
+      "name": "M2-or-newer Mac mini with 16GB+ RAM",
+      "max_price_usd": 550,
+      "usual_market_price_usd": 650,
+      "search_intent": "Find currently available used, refurbished, open-box, or discounted Apple Mac mini listings under $550 total. The Mac mini must have an Apple M2, M3, M4, M5, or newer Apple Silicon chip, at least 16GB RAM/unified memory, and more than 256GB storage. Accept 16GB, 24GB, 32GB, or larger memory if the total price is under the limit. Reject 256GB storage models, M1 Mac minis, Intel Mac minis, 8GB RAM models, models with RAM missing or unclear, MacBooks, iMacs, Mac Studios, logic boards, parts-only machines, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $550 or more.",
+      "acceptance_criteria": [
+        "It is an Apple Mac mini desktop, not a MacBook, iMac, Mac Studio, or parts listing.",
+        "It has an Apple Silicon chip: M2, M3, M4, M5, or newer.",
+        "It has at least 16GB RAM/unified memory.",
+        "Reject 256GB storage models; storage must be 512GB or larger if stated.",
+        "Reject M1 Mac minis for this target because they have a lower price ceiling.",
+        "Reject 8GB RAM models and any listing where RAM is missing or unclear.",
+        "Reject Intel Mac minis.",
+        "The total price including shipping is less than 550 USD.",
+        "It is currently available to buy.",
+        "The listing URL opens as an active listing page.",
+        "It ships directly to the United States, or it is an OfferUp local-pickup listing in or near Cary, NC 27519."
+      ],
+      "required_any_patterns": [
+        "(?=.*\\bmac\\s*mini\\b)(?=.*\\bm(?:[2-9]|[1-9][0-9]+)\\b)(?=.*\\b(?:16|24|32|36|48|64|96|128)\\s*gb\\b)"
+      ],
+      "reject_patterns": [
+        "\\bm1\\b",
+        "\\bintel\\b",
+        "\\bcore\\s+i[3579]\\b",
+        "\\b256\\s*(?:gb|g)\\b",
+        "\\b(?:4|8)\\s*gb\\s*(?:ram|unified\\s+memory|memory)\\b",
+        "\\b(?:ram|memory)\\s*[:/-]?\\s*(?:4|8)\\s*gb\\b",
+        "\\bmacbook\\b",
+        "\\bimac\\b",
+        "\\bmac\\s*studio\\b",
+        "\\blogic\\s*board\\b",
+        "\\bfor\\s+parts\\b",
+        "\\bparts\\s+only\\b",
+        "\\bnot\\s+working\\b"
+      ],
+      "search_queries": [
+        "Mac mini M2 16GB RAM under $550 used",
+        "Apple Mac mini M2 16GB 512GB used under 550",
+        "Apple Mac mini M2 16GB 1TB used under 550",
+        "Mac mini M4 16GB used under $550",
+        "Mac mini M2 Pro 16GB used under $550",
+        "Mac mini M2 24GB unified memory under $550",
+        "site:offerup.com Mac mini M2 16GB 512GB Cary NC 27519",
+        "site:offerup.com Mac mini M2 16GB Raleigh Durham Cary",
+        "site:offerup.com Mac mini M4 16GB Cary NC"
       ]
     }
   ]

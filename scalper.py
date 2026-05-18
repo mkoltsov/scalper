@@ -43,6 +43,9 @@ LOCAL_ONLY_DOMAINS = {
 NO_US_SHIPPING_DOMAINS = {
     "jp.mercari.com",
 }
+LOCAL_MARKETPLACE_DOMAINS = {
+    "offerup.com",
+}
 ANTI_BOT_HTTP_ERROR_DOMAINS = {
     "ebay.com",
     "ebay.co.uk",
@@ -72,6 +75,20 @@ NO_US_SHIPPING_PATTERNS = [
         r"(?:to|for)\s+(?:the\s+)?(?:us|u\.s\.|usa|united\s+states)\b",
         "no_us_shipping",
     ),
+]
+BROWSER_BLOCKED_PATTERNS = [
+    (r"\baccess\s+denied\b", "browser_access_denied"),
+    (r"\bverify\s+you(?:'re| are)\s+(?:a\s+)?human\b", "browser_human_verification"),
+    (r"\bcomplete\s+the\s+security\s+check\b", "browser_security_check"),
+    (r"\bcaptcha\b|\brecaptcha\b", "browser_captcha"),
+    (r"\benable\s+javascript\b", "browser_javascript_required"),
+    (r"\btemporarily\s+blocked\b|\brequest\s+blocked\b", "browser_blocked"),
+]
+NON_LISTING_PAGE_PATTERNS = [
+    (r"\bpage\s+not\s+found\b|\b404\b", "browser_not_found"),
+    (r"\bthis\s+page\s+isn't\s+available\b", "browser_not_found"),
+    (r"\bwe\s+looked\s+everywhere\b", "browser_not_found"),
+    (r"\bsearch\s+results\s+for\b", "browser_search_results"),
 ]
 
 
@@ -139,6 +156,15 @@ class Metrics:
             self._meter_provider.shutdown()
 
 
+class RunLogHandler(logging.Handler):
+    def __init__(self) -> None:
+        super().__init__(level=logging.INFO)
+        self.lines: list[str] = []
+
+    def emit(self, record: logging.LogRecord) -> None:
+        self.lines.append(sanitize_log_text(self.format(record)))
+
+
 @dataclass
 class Deal:
     target_id: str
@@ -204,8 +230,26 @@ def save_state(path: Path, state: dict[str, Any]) -> None:
     tmp_path.replace(path)
 
 
-def build_prompt(target: dict[str, Any], max_results: int) -> str:
+def local_marketplace_settings(config: dict[str, Any]) -> dict[str, Any] | None:
+    local = config.get("local_marketplaces", {})
+    offerup = local.get("offerup", {})
+    if not offerup.get("enabled"):
+        return None
+    return offerup
+
+
+def build_prompt(target: dict[str, Any], max_results: int, config: dict[str, Any]) -> str:
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    offerup = local_marketplace_settings(config)
+    local_rule = ""
+    if offerup:
+        local_rule = (
+            "\nLocal marketplace exception:\n"
+            f"- OfferUp listings are acceptable if they are in or near {offerup.get('city', 'Cary, NC')} "
+            f"{offerup.get('zip', '27519')} within about {offerup.get('radius_miles', 25)} miles.\n"
+            "- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.\n"
+            "- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.\n"
+        )
     return f"""
 You are a precise deal-finding automation. Use live web_search.
 
@@ -228,6 +272,7 @@ Reject text patterns. Exclude a listing if it matches any of these:
 
 Suggested search queries:
 {json.dumps(target.get("search_queries", []), indent=2)}
+{local_rule}
 
 Return only strict JSON. Do not wrap it in Markdown. Do not include prose.
 Schema:
@@ -259,7 +304,7 @@ Rules:
 - Include only listings that satisfy every acceptance criterion.
 - Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
 - Use total_usd = item price plus shipping. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal US shipping still keeps it below the limit.
-- Include only listings that ship directly to the United States. Exclude local-pickup-only listings, Craigslist/Facebook Marketplace local listings, and listings that require a proxy/forwarder.
+- Include only listings that ship directly to the United States, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.
 - Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
 - Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
 - Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
@@ -291,7 +336,7 @@ def run_codex(target: dict[str, Any], config: dict[str, Any], metrics: Metrics) 
     codex_bin = codex_config.get("bin", "codex")
     timeout = int(codex_config.get("timeout_seconds", 900))
     max_results = int(codex_config.get("max_results_per_target", 5))
-    prompt = build_prompt(target, max_results)
+    prompt = build_prompt(target, max_results, config)
     attrs = {"scalper.target_id": target["id"]}
     start = time.monotonic()
 
@@ -405,6 +450,12 @@ def _domain_matches(host: str, domains: set[str]) -> bool:
     return any(host == domain or host.endswith(f".{domain}") for domain in domains)
 
 
+def _local_pickup_allowed(url: str, config: dict[str, Any] | None = None) -> bool:
+    if not config or not local_marketplace_settings(config):
+        return False
+    return _domain_matches(_host_from_url(url), LOCAL_MARKETPLACE_DOMAINS)
+
+
 def _truthy_shipping_to_us(value: Any) -> bool | None:
     if value is None or value == "":
         return None
@@ -430,7 +481,7 @@ def _pattern_reason(patterns: list[tuple[str, str]], text: str) -> str | None:
     return None
 
 
-def _static_rejection_reason(target: dict[str, Any], raw: dict[str, Any]) -> str | None:
+def _static_rejection_reason(target: dict[str, Any], raw: dict[str, Any], config: dict[str, Any] | None = None) -> str | None:
     url = str(raw.get("url") or "")
     host = _host_from_url(url)
     source = str(raw.get("source") or "").lower()
@@ -469,7 +520,8 @@ def _static_rejection_reason(target: dict[str, Any], raw: dict[str, Any]) -> str
         return status_reason
 
     ships_to_us = _truthy_shipping_to_us(raw.get("ships_to_us"))
-    if ships_to_us is False:
+    local_pickup_allowed = _local_pickup_allowed(url, config)
+    if ships_to_us is False and not local_pickup_allowed:
         return "no_us_shipping"
 
     shipping_reason = _pattern_reason(
@@ -486,7 +538,7 @@ def _static_rejection_reason(target: dict[str, Any], raw: dict[str, Any]) -> str
             )
         ),
     )
-    if shipping_reason:
+    if shipping_reason and not local_pickup_allowed:
         return shipping_reason
 
     return None
@@ -548,14 +600,100 @@ def validate_listing_url(deal: Deal, timeout: int = 20) -> str | None:
     return None
 
 
-def normalize_deal(target: dict[str, Any], raw: dict[str, Any]) -> Deal | None:
+def chromium_bin(config: dict[str, Any]) -> str | None:
+    configured = str(config.get("browser", {}).get("chromium_bin", "")).strip()
+    if configured:
+        return configured
+    return (
+        shutil.which("chromium")
+        or shutil.which("chromium-browser")
+        or shutil.which("google-chrome")
+        or shutil.which("brave-browser")
+    )
+
+
+def validate_listing_in_browser(deal: Deal, config: dict[str, Any]) -> str | None:
+    browser_config = config.get("browser", {})
+    if browser_config.get("enabled", True) is False:
+        return None
+
+    executable = chromium_bin(config)
+    if not executable:
+        return "browser_unavailable"
+
+    timeout = int(browser_config.get("timeout_seconds", 35))
+    configured_profile = str(browser_config.get("profile_dir", "")).strip()
+    temp_profile: tempfile.TemporaryDirectory[str] | None = None
+    if configured_profile:
+        profile_dir = configured_profile
+        Path(profile_dir).expanduser().mkdir(parents=True, exist_ok=True)
+    else:
+        temp_profile = tempfile.TemporaryDirectory(prefix="scalper-browser-")
+        profile_dir = temp_profile.name
+    try:
+        process = subprocess.run(
+            [
+                executable,
+                "--headless=new",
+                "--disable-gpu",
+                "--disable-dev-shm-usage",
+                "--no-first-run",
+                "--no-default-browser-check",
+                "--no-sandbox",
+                "--disable-blink-features=AutomationControlled",
+                f"--user-data-dir={profile_dir}",
+                f"--user-agent={USER_AGENT}",
+                "--virtual-time-budget=10000",
+                "--dump-dom",
+                deal.url,
+            ],
+            text=True,
+            capture_output=True,
+            timeout=timeout,
+        )
+    finally:
+        if temp_profile is not None:
+            temp_profile.cleanup()
+
+    if process.returncode != 0:
+        stderr = process.stderr.strip().splitlines()
+        detail = stderr[-1] if stderr else f"exit_{process.returncode}"
+        return f"browser_error:{detail[:160]}"
+
+    text = _page_text(process.stdout)
+    for patterns in (BROWSER_BLOCKED_PATTERNS, NON_LISTING_PAGE_PATTERNS, BAD_STATUS_PATTERNS):
+        reason = _pattern_reason(patterns, text)
+        if reason:
+            return reason
+    if not _local_pickup_allowed(deal.url, config):
+        shipping_reason = _pattern_reason(NO_US_SHIPPING_PATTERNS, text)
+        if shipping_reason:
+            return shipping_reason
+
+    if len(text) < 120:
+        return "browser_empty_or_too_short"
+
+    title_terms = [
+        term.lower()
+        for term in re.findall(r"[A-Za-z0-9]+", deal.title)
+        if len(term) >= 4 and term.lower() not in {"with", "from", "apple", "used", "good", "excellent"}
+    ]
+    if title_terms:
+        matched = sum(1 for term in title_terms[:8] if term in text.lower())
+        if matched == 0:
+            return "browser_title_mismatch"
+
+    return None
+
+
+def normalize_deal(target: dict[str, Any], raw: dict[str, Any], config: dict[str, Any] | None = None) -> Deal | None:
     url = str(raw.get("url") or "").strip()
     title = str(raw.get("title") or "").strip()
     if not url or not title:
         return None
     if not _matches_text_filters(target, raw):
         return None
-    static_rejection = _static_rejection_reason(target, raw)
+    static_rejection = _static_rejection_reason(target, raw, config)
     if static_rejection:
         LOGGER.info(
             "rejected deal target=%s reason=%s title=%s url=%s",
@@ -1007,6 +1145,9 @@ def run(
     metrics = Metrics()
     started_at = datetime.now(timezone.utc).isoformat()
     log_marker = f"scalper run started {started_at}"
+    run_log_handler = RunLogHandler()
+    run_log_handler.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
+    LOGGER.addHandler(run_log_handler)
     LOGGER.info(log_marker)
     pages_payload: dict[str, Any] = {
         "started_at": started_at,
@@ -1036,16 +1177,35 @@ def run(
 
             raw_deals = result.get("deals", [])
             candidate_deals = [
-                deal for deal in (normalize_deal(target, raw) for raw in raw_deals) if deal is not None
+                deal for deal in (normalize_deal(target, raw, config) for raw in raw_deals) if deal is not None
             ]
             deals: list[Deal] = []
             for deal in candidate_deals:
                 link_rejection = validate_listing_url(deal)
                 if link_rejection:
+                    if link_rejection.endswith("_antibot_unverified"):
+                        LOGGER.info(
+                            "HTTP validation inconclusive target=%s reason=%s title=%s url=%s",
+                            deal.target_id,
+                            link_rejection,
+                            deal.title,
+                            deal.url,
+                        )
+                    else:
+                        LOGGER.info(
+                            "rejected deal target=%s reason=%s title=%s url=%s",
+                            deal.target_id,
+                            link_rejection,
+                            deal.title,
+                            deal.url,
+                        )
+                        continue
+                browser_rejection = validate_listing_in_browser(deal, config)
+                if browser_rejection:
                     LOGGER.info(
-                        "rejected deal target=%s reason=%s title=%s url=%s",
+                        "browser validation rejected target=%s reason=%s title=%s url=%s",
                         deal.target_id,
-                        link_rejection,
+                        browser_rejection,
                         deal.title,
                         deal.url,
                     )
@@ -1092,7 +1252,7 @@ def run(
         }
         pages_payload["finished_at"] = state["last_run"]["finished_at"]
         pages_payload["exit_code"] = exit_code
-        pages_payload["logs"] = read_log_since_marker(log_file, log_marker)
+        pages_payload["logs"] = run_log_handler.lines or read_log_since_marker(log_file, log_marker)
         write_pages(public_dir, pages_payload)
         prune_state(state)
         if not dry_run:
@@ -1102,6 +1262,7 @@ def run(
         metrics.add("runs", attrs={"scalper.status": "ok" if exit_code == 0 else "error"})
         return exit_code
     finally:
+        LOGGER.removeHandler(run_log_handler)
         metrics.shutdown()
 
 
