@@ -1,22 +1,20 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-18T20:25:24.751981+00:00",
+  "finished_at": "2026-05-18T21:23:24.055638+00:00",
   "logs": [
-    "2026-05-18 16:17:02,900 INFO scalper run started 2026-05-18T20:17:02.900623+00:00",
-    "2026-05-18 16:17:02,902 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-18 16:18:30,791 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-18 16:18:30,792 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-18 16:19:47,582 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-18 16:19:47,583 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-18 16:21:31,352 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/",
-    "2026-05-18 16:21:31,353 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-18 16:21:31,354 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-05-18 16:21:31,354 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-18 16:23:18,234 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-18 16:23:18,234 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-18 16:25:24,751 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-18 17:17:02,953 INFO scalper run started 2026-05-18T21:17:02.952986+00:00",
+    "2026-05-18 17:17:02,955 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-18 17:18:27,088 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-18 17:18:27,089 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-18 17:19:21,980 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-18 17:19:21,981 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-18 17:20:50,112 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-18 17:20:50,113 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-18 17:22:04,964 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-18 17:22:04,964 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-18 17:23:24,055 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-18T20:17:02.900623+00:00",
+  "started_at": "2026-05-18T21:17:02.952986+00:00",
   "targets": [
     {
       "deals": [],
@@ -31,22 +29,7 @@
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case"
     },
     {
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Good condition; minor nicks and faint display coating wear; 84% battery health",
-          "confidence": 0.95,
-          "price_usd": 639.0,
-          "seller": "Leonard",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air M2 (Midnight) - With original packaging. High spec: 16 GB RAM / 512 GB SSD",
-          "total_usd": 639.0,
-          "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "13-inch MacBook Air 2022 with Apple M2, 16GB RAM, 512GB SSD, free US shipping, and active buy/login-to-buy listing under $650 total."
-        }
-      ],
+      "deals": [],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM"
