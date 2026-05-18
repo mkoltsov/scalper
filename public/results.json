@@ -1,23 +1,21 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-18T11:24:54.571396+00:00",
+  "finished_at": "2026-05-18T12:26:16.862474+00:00",
   "logs": [
-    "2026-05-18 07:17:03,843 INFO scalper run started 2026-05-18T11:17:03.843607+00:00",
-    "2026-05-18 07:17:03,845 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-18 07:18:14,789 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-18 07:18:14,789 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-18 07:19:01,243 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-18 07:19:01,243 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-18 07:21:13,955 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-05-18 07:21:13,955 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-18 07:23:26,849 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/297733224323",
-    "2026-05-18 07:23:26,849 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=Apple Mac mini M1 Chip 8-Core CPU 8-Core GPU 16GB RAM 512GB 2020 1GbE \u2022 Fair url=https://www.ebay.com/itm/297733224323",
-    "2026-05-18 07:23:39,314 INFO browser validation rejected target=mac-mini-m1-16gb reason=unavailable title=Apple Mac mini M1 Chip 8-Core CPU 8-Core GPU 16GB RAM 512GB 2020 1GbE \u2022 Fair url=https://www.ebay.com/itm/297733224323",
-    "2026-05-18 07:23:39,315 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-18 07:23:39,315 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-18 07:24:54,571 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-18 08:17:03,203 INFO scalper run started 2026-05-18T12:17:03.202983+00:00",
+    "2026-05-18 08:17:03,204 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-18 08:18:12,813 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-18 08:18:12,813 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-18 08:20:05,280 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-18 08:20:05,280 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-18 08:22:06,641 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-18 08:22:06,641 INFO already notified target=macbook-13-apple-silicon-16-24gb total=549.00 url=https://swappa.com/listing/view/LZKV53541",
+    "2026-05-18 08:22:06,642 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-18 08:23:35,488 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-18 08:23:35,488 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-18 08:26:16,862 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-18T11:17:03.843607+00:00",
+  "started_at": "2026-05-18T12:17:03.202983+00:00",
   "targets": [
     {
       "deals": [],
@@ -32,7 +30,22 @@
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case"
     },
     {
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Fair; noticeable wear and tear; fully functional; charger included",
+          "confidence": 0.95,
+          "price_usd": 549.0,
+          "seller": "GadgetPickup",
+          "shipping_usd": 0.0,
+          "source": "Swappa",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "MacBook Air 2022 - 13\" - Apple M2, Midnight, 512GB, 16GB",
+          "total_usd": 549.0,
+          "url": "https://swappa.com/listing/view/LZKV53541",
+          "why_good": "13-inch MacBook Air with Apple M2, 16GB memory, 512GB storage, Buy Now active, free US shipping, total under $650."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM"
