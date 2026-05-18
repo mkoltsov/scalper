@@ -1,21 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-18T08:24:10.067761+00:00",
+  "finished_at": "2026-05-18T09:22:55.090732+00:00",
   "logs": [
-    "2026-05-18 04:17:03,020 INFO scalper run started 2026-05-18T08:17:03.020657+00:00",
-    "2026-05-18 04:17:03,022 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-18 04:18:06,889 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-18 04:18:06,890 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-18 04:19:11,442 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-18 04:19:11,443 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-18 04:20:30,651 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-18 04:20:30,652 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-05-18 04:20:30,652 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-18 04:22:26,909 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-18 04:22:26,910 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-18 04:24:10,067 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-18 05:17:02,984 INFO scalper run started 2026-05-18T09:17:02.984130+00:00",
+    "2026-05-18 05:17:02,986 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-18 05:17:53,686 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-18 05:17:53,687 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-18 05:18:46,485 INFO rejected deal target=bang-olufsen-charging-case reason=reject_pattern pattern=\\bprotective\\s+(cover|case|skin)\\b title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite",
+    "2026-05-18 05:18:46,485 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-18 05:18:46,486 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-18 05:19:48,356 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/",
+    "2026-05-18 05:19:48,357 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-18 05:19:48,357 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
+    "2026-05-18 05:19:48,357 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-18 05:20:50,174 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-18 05:20:50,175 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-18 05:22:55,090 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-18T08:17:03.020657+00:00",
+  "started_at": "2026-05-18T09:17:02.984130+00:00",
   "targets": [
     {
       "deals": [],
@@ -34,7 +36,7 @@
         {
           "availability": "available",
           "condition": "Good condition",
-          "confidence": 0.95,
+          "confidence": 0.93,
           "price_usd": 639.0,
           "seller": "Leonard",
           "shipping_usd": 0.0,
@@ -43,7 +45,7 @@
           "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2 - LADY61014",
           "total_usd": 639.0,
           "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "Active Swappa listing with Login to Buy; 13-inch MacBook Air M2, 16GB memory, 512GB SSD, free US shipping, total under $650."
+          "why_good": "13-inch MacBook Air with Apple M2, 16GB RAM, 512GB storage, approved active listing with free US shipping under $650 total."
         }
       ],
       "id": "macbook-13-apple-silicon-16-24gb",
