@@ -1,22 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-19T05:24:01.445608+00:00",
+  "finished_at": "2026-05-19T06:24:08.840619+00:00",
   "logs": [
-    "2026-05-19 01:17:03,782 INFO scalper run started 2026-05-19T05:17:03.782720+00:00",
-    "2026-05-19 01:17:03,784 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-19 01:18:08,212 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-19 01:18:08,213 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-19 01:19:21,510 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-19 01:19:21,510 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-19 01:20:58,055 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=browser_captcha title=MacBook Air (2022) 13.6-inch - Apple M2 Chip: 8-Core CPU/8-Core GPU - 16GB RAM - SSD 512GB url=https://reebelo.com/products/apple-mac-book-air-13-6-inch-2022-apple-m-2-chip-8-core-cpu-8-core-gpu-512-gb-space-grey-16-gb-ram-acceptable-plij2?batteryHealth=80&color=Space+Grey&condition=Acceptable&cpu=Apple+M2+Chip%3A+8-Core+CPU%2F8-Core+GPU&deliveryBy=&ram=16GB&storage=512GB",
-    "2026-05-19 01:20:58,055 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-05-19 01:20:58,056 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-19 01:22:41,059 INFO rejected deal target=mac-mini-m1-16gb reason=unavailable title=Apple 2020 Mac Mini M1 3.2GHz (8-Core GPU) 16GB RAM 512GB SSD - Very good url=https://www.ebay.com/p/8063503094?iid=376604684921",
-    "2026-05-19 01:22:41,059 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-19 01:22:41,060 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-19 01:24:01,445 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-19 02:17:03,600 INFO scalper run started 2026-05-19T06:17:03.600380+00:00",
+    "2026-05-19 02:17:03,602 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-19 02:18:11,494 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-19 02:18:11,495 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-19 02:19:22,347 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-19 02:19:22,348 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-19 02:21:28,446 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-19 02:21:28,446 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-19 02:23:03,935 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/157403357335",
+    "2026-05-19 02:23:03,935 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=2020 Apple Mac Mini M1 8-Core CPU 8-Core GPU 16GB RAM 512GB SSD Silver A2348 url=https://www.ebay.com/itm/157403357335",
+    "2026-05-19 02:23:13,057 INFO target=mac-mini-m1-16gb qualifying_deals=1",
+    "2026-05-19 02:23:13,057 INFO new deal target=mac-mini-m1-16gb total=325.00 url=https://www.ebay.com/itm/157403357335",
+    "2026-05-19 02:23:13,185 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-19 02:24:08,840 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-19T05:17:03.782720+00:00",
+  "started_at": "2026-05-19T06:17:03.600380+00:00",
   "targets": [
     {
       "deals": [],
@@ -37,7 +38,22 @@
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM"
     },
     {
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used",
+          "confidence": 0.73,
+          "price_usd": 325.0,
+          "seller": "frodo2k",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "mac-mini-m1-16gb",
+          "title": "2020 Apple Mac Mini M1 8-Core CPU 8-Core GPU 16GB RAM 512GB SSD Silver A2348",
+          "total_usd": 325.0,
+          "url": "https://www.ebay.com/itm/157403357335",
+          "why_good": "Buy It Now listing with Apple M1, 16GB RAM, 512GB SSD, used condition, and free US shipping under $400 total."
+        }
+      ],
       "id": "mac-mini-m1-16gb",
       "max_price_usd": 400,
       "name": "M1 Mac mini with 16GB RAM"
