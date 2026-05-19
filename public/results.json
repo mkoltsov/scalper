@@ -1,24 +1,21 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-19T09:25:51.550422+00:00",
+  "finished_at": "2026-05-19T10:24:41.491458+00:00",
   "logs": [
-    "2026-05-19 05:17:03,401 INFO scalper run started 2026-05-19T09:17:03.401769+00:00",
-    "2026-05-19 05:17:03,403 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-19 05:18:41,647 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-19 05:18:41,648 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-19 05:19:47,202 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137160733788",
-    "2026-05-19 05:19:47,202 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
-    "2026-05-19 05:20:01,324 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
-    "2026-05-19 05:20:01,324 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-19 05:20:01,325 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-19 05:21:55,175 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-19 05:21:55,176 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-05-19 05:21:55,176 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-19 05:23:34,780 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-19 05:23:34,780 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-19 05:25:51,550 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-19 06:17:03,731 INFO scalper run started 2026-05-19T10:17:03.731024+00:00",
+    "2026-05-19 06:17:03,732 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-19 06:17:52,845 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-19 06:17:52,846 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-19 06:19:10,702 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-19 06:19:10,702 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-19 06:21:32,952 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-19 06:21:32,953 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
+    "2026-05-19 06:21:32,953 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-19 06:23:22,933 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-19 06:23:22,934 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-19 06:24:41,491 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-19T09:17:03.401769+00:00",
+  "started_at": "2026-05-19T10:17:03.731024+00:00",
   "targets": [
     {
       "deals": [],
@@ -37,16 +34,16 @@
         {
           "availability": "available",
           "condition": "Good condition",
-          "confidence": 0.96,
+          "confidence": 0.94,
           "price_usd": 639.0,
           "seller": "Leonard",
           "shipping_usd": 0.0,
           "source": "Swappa",
           "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2 - LADY61014",
+          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
           "total_usd": 639.0,
           "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "13-inch MacBook Air M2 with 16GB RAM and 512GB SSD; approved active listing with free US shipping under $650 total."
+          "why_good": "13-inch M2 MacBook Air with 16GB RAM and 512GB SSD, active Login to Buy listing with free US shipping."
         }
       ],
       "id": "macbook-13-apple-silicon-16-24gb",
