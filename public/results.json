@@ -1,21 +1,31 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-19T17:23:05.267702+00:00",
+  "finished_at": "2026-05-19T18:26:48.402183+00:00",
   "logs": [
-    "2026-05-19 13:17:03,920 INFO scalper run started 2026-05-19T17:17:03.920279+00:00",
-    "2026-05-19 13:17:03,922 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-19 13:18:03,499 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-19 13:18:03,499 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-19 13:19:05,756 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-19 13:19:05,757 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-19 13:20:35,617 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/",
-    "2026-05-19 13:20:35,617 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-05-19 13:20:35,618 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-19 13:21:54,946 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-19 13:21:54,947 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-19 13:23:05,267 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-19 14:17:03,524 INFO scalper run started 2026-05-19T18:17:03.523886+00:00",
+    "2026-05-19 14:17:03,525 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-19 14:18:04,521 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-19 14:18:04,522 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-19 14:19:04,038 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-19 14:19:04,039 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-19 14:21:05,308 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-19 14:21:05,308 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
+    "2026-05-19 14:21:05,309 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-19 14:25:02,904 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/297459586982",
+    "2026-05-19 14:25:02,905 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=Apple Mac Mini A2348 (2020) M1 3.2GHz 16GB RAM 512GB SSD Grade B url=https://www.ebay.com/itm/297459586982",
+    "2026-05-19 14:25:15,396 INFO browser validation rejected target=mac-mini-m1-16gb reason=unavailable title=Apple Mac Mini A2348 (2020) M1 3.2GHz 16GB RAM 512GB SSD Grade B url=https://www.ebay.com/itm/297459586982",
+    "2026-05-19 14:25:15,474 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/167638055356",
+    "2026-05-19 14:25:15,474 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=Apple Mac Mini 2020 - M1 Chip - 512 GB SSD - 16 GB RAM - A2348 - Desktop Computer url=https://www.ebay.com/itm/167638055356",
+    "2026-05-19 14:25:26,251 INFO browser validation rejected target=mac-mini-m1-16gb reason=ended title=Apple Mac Mini 2020 - M1 Chip - 512 GB SSD - 16 GB RAM - A2348 - Desktop Computer url=https://www.ebay.com/itm/167638055356",
+    "2026-05-19 14:25:27,221 INFO rejected deal target=mac-mini-m1-16gb reason=unavailable title=Apple Mac mini M1 - 512GB SSD 16GB Silver - MGNT3LL/A (November, 2020) url=https://www.ebay.com/p/13042413618?iid=116685874377",
+    "2026-05-19 14:25:27,303 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306390478542",
+    "2026-05-19 14:25:27,303 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=Apple Mac Mini M1 CPU 8-core / 16GB RAM / SSD 1TB url=https://www.ebay.com/itm/306390478542",
+    "2026-05-19 14:25:38,557 INFO browser validation rejected target=mac-mini-m1-16gb reason=ended title=Apple Mac Mini M1 CPU 8-core / 16GB RAM / SSD 1TB url=https://www.ebay.com/itm/306390478542",
+    "2026-05-19 14:25:38,558 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-19 14:25:38,558 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-19 14:26:48,401 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-19T17:17:03.920279+00:00",
+  "started_at": "2026-05-19T18:17:03.523886+00:00",
   "targets": [
     {
       "deals": [],
@@ -30,7 +40,22 @@
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case"
     },
     {
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Good condition",
+          "confidence": 0.95,
+          "price_usd": 639.0,
+          "seller": "Leonard",
+          "shipping_usd": 0.0,
+          "source": "Swappa",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+          "total_usd": 639.0,
+          "url": "https://swappa.com/listing/view/LADY61014",
+          "why_good": "13-inch MacBook Air with M2, 16GB RAM, 512GB SSD, active Swappa buy page, and free US shipping under $650 total."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM"
