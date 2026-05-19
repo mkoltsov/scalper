@@ -1,17 +1,15 @@
-2026-05-18 19:17:03,373 INFO scalper run started 2026-05-18T23:17:03.372887+00:00
-2026-05-18 19:17:03,377 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-18 19:18:17,825 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-18 19:18:17,825 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-18 19:19:16,639 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-18 19:19:16,640 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-18 19:20:25,409 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/267425122317
-2026-05-18 19:20:25,409 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 2022 13.6" M2 Chip 16GB RAM 512GB SSD 90 Cycles url=https://www.ebay.com/itm/267425122317
-2026-05-18 19:20:36,486 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=ended title=Apple MacBook Air 2022 13.6" M2 Chip 16GB RAM 512GB SSD 90 Cycles url=https://www.ebay.com/itm/267425122317
-2026-05-18 19:20:36,556 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/327105153050
-2026-05-18 19:20:36,557 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air A2681 13.6" 2022 M2 16GB RAM 512GB SSD STARLIGHT url=https://www.ebay.com/itm/327105153050
-2026-05-18 19:20:47,552 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=sold title=Apple MacBook Air A2681 13.6" 2022 M2 16GB RAM 512GB SSD STARLIGHT url=https://www.ebay.com/itm/327105153050
-2026-05-18 19:20:47,552 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-18 19:20:47,553 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-18 19:22:14,262 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-18 19:22:14,262 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-18 19:23:52,312 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-18 20:17:03,729 INFO scalper run started 2026-05-19T00:17:03.729386+00:00
+2026-05-18 20:17:03,731 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-18 20:18:45,688 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-18 20:18:45,688 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-18 20:19:43,805 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-18 20:19:43,805 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-18 20:21:46,807 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=browser_captcha title=MacBook Air (2022) 13.6-inch - Apple M2 Chip: 8-Core CPU/8-Core GPU - 16GB RAM - SSD 512GB url=https://reebelo.com/products/apple-mac-book-air-13-6-inch-2022-apple-m-2-chip-8-core-cpu-8-core-gpu-512-gb-space-grey-16-gb-ram-acceptable-plij2?batteryHealth=80&color=Space+Grey&condition=Acceptable&cpu=Apple+M2+Chip%3A+8-Core+CPU%2F8-Core+GPU&deliveryBy=&ram=16GB&storage=512GB
+2026-05-18 20:21:50,151 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
+2026-05-18 20:21:50,151 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2
+2026-05-18 20:21:50,151 INFO already notified target=macbook-13-apple-silicon-16-24gb total=549.00 url=https://swappa.com/listing/view/LZKV53541
+2026-05-18 20:21:50,151 INFO already notified target=macbook-13-apple-silicon-16-24gb total=618.00 url=https://swappa.com/listing/view/LZMT66254
+2026-05-18 20:21:50,152 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-18 20:23:27,566 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-18 20:23:27,566 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-18 20:24:29,964 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
