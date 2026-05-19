@@ -1,20 +1,22 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-19T04:23:19.213235+00:00",
+  "finished_at": "2026-05-19T05:24:01.445608+00:00",
   "logs": [
-    "2026-05-19 00:17:03,506 INFO scalper run started 2026-05-19T04:17:03.506395+00:00",
-    "2026-05-19 00:17:03,508 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-19 00:18:10,695 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-19 00:18:10,696 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-19 00:19:18,425 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-19 00:19:18,426 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-19 00:20:51,162 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-05-19 00:20:51,162 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-19 00:22:16,137 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-19 00:22:16,137 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-19 00:23:19,212 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-19 01:17:03,782 INFO scalper run started 2026-05-19T05:17:03.782720+00:00",
+    "2026-05-19 01:17:03,784 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-19 01:18:08,212 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-19 01:18:08,213 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-19 01:19:21,510 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-19 01:19:21,510 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-19 01:20:58,055 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=browser_captcha title=MacBook Air (2022) 13.6-inch - Apple M2 Chip: 8-Core CPU/8-Core GPU - 16GB RAM - SSD 512GB url=https://reebelo.com/products/apple-mac-book-air-13-6-inch-2022-apple-m-2-chip-8-core-cpu-8-core-gpu-512-gb-space-grey-16-gb-ram-acceptable-plij2?batteryHealth=80&color=Space+Grey&condition=Acceptable&cpu=Apple+M2+Chip%3A+8-Core+CPU%2F8-Core+GPU&deliveryBy=&ram=16GB&storage=512GB",
+    "2026-05-19 01:20:58,055 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-19 01:20:58,056 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-19 01:22:41,059 INFO rejected deal target=mac-mini-m1-16gb reason=unavailable title=Apple 2020 Mac Mini M1 3.2GHz (8-Core GPU) 16GB RAM 512GB SSD - Very good url=https://www.ebay.com/p/8063503094?iid=376604684921",
+    "2026-05-19 01:22:41,059 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-19 01:22:41,060 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-19 01:24:01,445 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-19T04:17:03.506395+00:00",
+  "started_at": "2026-05-19T05:17:03.782720+00:00",
   "targets": [
     {
       "deals": [],
