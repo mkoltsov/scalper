@@ -1,21 +1,21 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-19T12:23:28.304716+00:00",
+  "finished_at": "2026-05-19T13:25:37.691647+00:00",
   "logs": [
-    "2026-05-19 08:17:03,570 INFO scalper run started 2026-05-19T12:17:03.570295+00:00",
-    "2026-05-19 08:17:03,572 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-19 08:18:28,487 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-19 08:18:28,488 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-19 08:19:25,617 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-19 08:19:25,617 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-19 08:21:01,474 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/hardwareswap/comments/1tbfpzq/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/",
-    "2026-05-19 08:21:01,474 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-05-19 08:21:01,474 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-19 08:21:56,591 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-19 08:21:56,592 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-19 08:23:28,304 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-19 09:17:03,086 INFO scalper run started 2026-05-19T13:17:03.086791+00:00",
+    "2026-05-19 09:17:03,088 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-19 09:18:06,780 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-19 09:18:06,780 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-19 09:19:30,450 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-19 09:19:30,451 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-19 09:22:12,082 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-19 09:22:12,082 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-19 09:23:47,170 INFO browser validation rejected target=mac-mini-m1-16gb reason=browser_captcha title=Apple Mac Mini (2020) M1 - Apple M1 chip 8-core CPU - 512GB - Silver - 16GB RAM url=https://reebelo.com/collections/apple-mac-mini-2020-m1?storage=512GB&color=Silver&cpu=Apple%20M1%20chip%208-core%20CPU&ram=16GB&condition=Excellent&deliveryBy=undefined",
+    "2026-05-19 09:23:47,170 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-19 09:23:47,170 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-19 09:25:37,691 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-19T12:17:03.570295+00:00",
+  "started_at": "2026-05-19T13:17:03.086791+00:00",
   "targets": [
     {
       "deals": [],
