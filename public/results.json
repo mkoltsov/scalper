@@ -1,21 +1,21 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-19T14:25:52.735563+00:00",
+  "finished_at": "2026-05-19T15:25:12.137017+00:00",
   "logs": [
-    "2026-05-19 10:17:03,975 INFO scalper run started 2026-05-19T14:17:03.975685+00:00",
-    "2026-05-19 10:17:03,977 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-19 10:18:36,307 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-19 10:18:36,308 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-19 10:20:36,448 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-19 10:20:36,449 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-19 10:22:10,052 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-19 10:22:10,053 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-05-19 10:22:10,053 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-19 10:24:04,123 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-19 10:24:04,124 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-19 10:25:52,735 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-19 11:17:03,076 INFO scalper run started 2026-05-19T15:17:03.076049+00:00",
+    "2026-05-19 11:17:03,079 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-19 11:18:41,328 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-19 11:18:41,328 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-19 11:19:32,547 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-19 11:19:32,547 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-19 11:21:47,915 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=browser_captcha title=MacBook Air (2022) 13.6-inch - Apple M2 Chip: 8-Core CPU/8-Core GPU - 16GB RAM - SSD 512GB url=https://reebelo.com/products/apple-mac-book-air-13-6-inch-2022-apple-m-2-chip-8-core-cpu-8-core-gpu-512-gb-space-grey-16-gb-ram-acceptable-plij2?batteryHealth=80&color=Space+Grey&condition=Acceptable&cpu=Apple+M2+Chip%3A+8-Core+CPU%2F8-Core+GPU&deliveryBy=&ram=16GB&storage=512GB",
+    "2026-05-19 11:21:47,915 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-19 11:21:47,915 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-19 11:23:32,675 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-19 11:23:32,676 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-19 11:25:12,136 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-19T14:17:03.975685+00:00",
+  "started_at": "2026-05-19T15:17:03.076049+00:00",
   "targets": [
     {
       "deals": [],
@@ -30,22 +30,7 @@
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case"
     },
     {
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Good condition",
-          "confidence": 0.95,
-          "price_usd": 639.0,
-          "seller": "Leonard",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
-          "total_usd": 639.0,
-          "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "13-inch MacBook Air with Apple M2, 16GB RAM, 512GB SSD, active buyable listing, free US shipping, under $650 total."
-        }
-      ],
+      "deals": [],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM"
