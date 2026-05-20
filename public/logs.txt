@@ -1,13 +1,12 @@
-2026-05-19 18:17:03,836 INFO scalper run started 2026-05-19T22:17:03.835890+00:00
-2026-05-19 18:17:03,837 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-19 18:18:05,201 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-19 18:18:05,201 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-19 18:19:05,384 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-19 18:19:05,384 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-19 18:20:05,918 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-19 18:20:05,919 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-19 18:20:05,919 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-19 18:21:25,431 INFO rejected deal target=mac-mini-m1-16gb reason=http_403 title=Apple Mac Mini - M1, 16GB RAM, 1TB SSD - Excellent Condition url=https://www.trinitylansdale.com/products/mac-condition-16gb-m1-1tb-ssd-excellent-apple-mini-ram/53370883/
-2026-05-19 18:21:25,432 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-19 18:21:25,432 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-19 18:22:44,557 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-19 20:17:14,756 INFO scalper run started 2026-05-20T00:17:14.756293+00:00
+2026-05-19 20:17:14,758 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-19 20:18:09,136 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-19 20:18:09,136 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-19 20:19:46,468 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-19 20:19:46,468 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-19 20:22:03,430 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
+2026-05-19 20:22:03,430 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-05-19 20:22:03,430 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-19 20:23:22,682 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-19 20:23:22,682 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-19 20:24:53,764 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
