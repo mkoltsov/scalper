@@ -42,7 +42,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-05-20T19:23:39.534425+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-05-20T20:23:35.673923+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -72,9 +72,15 @@
             <section class="target">
               <div class="target-head">
                 <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+                <article class="deal">
+                  <div class="meta">Swappa · $639.00</div>
+                  <h2><a href="https://swappa.com/listing/view/LADY61014" rel="nofollow noopener">MacBook Air 2022 (M2) - 13&quot; - 512GB, Midnight, 16GB, Apple M2 - LADY61014</a></h2>
+                  <p>13-inch MacBook Air with M2, 16GB RAM, 512GB SSD, approved active listing, free US shipping, under $650 total.</p>
+                </article>
+                
             </section>
             
             <section class="target">
@@ -140,19 +146,21 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>11 lines published</span>
+        <span>13 lines published</span>
       </div>
-      <pre>2026-05-20 15:17:16,459 INFO scalper run started 2026-05-20T19:17:16.458942+00:00
-2026-05-20 15:17:16,460 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-20 15:18:10,377 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-20 15:18:10,378 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-20 15:18:59,090 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-20 15:18:59,090 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-20 15:20:26,877 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-20 15:20:26,877 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-20 15:21:46,474 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-20 15:21:46,475 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-20 15:23:39,533 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
+      <pre>2026-05-20 16:17:15,815 INFO scalper run started 2026-05-20T20:17:15.814881+00:00
+2026-05-20 16:17:15,816 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-20 16:18:20,095 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-20 16:18:20,096 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-20 16:19:05,493 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-20 16:19:05,494 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-20 16:20:14,261 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-20 16:20:14,261 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-20 16:20:14,262 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-20 16:22:10,282 INFO browser validation rejected target=mac-mini-m1-16gb reason=browser_captcha title=Apple Mac Mini (2020) M1 - 512GB - Silver - Apple M1 chip 8-core CPU - 16GB url=https://reebelo.com/products/apple-mac-mini-2020-m-1-apple-m-1-chip-8-core-cpu-512-gb-silver-16-gb-ram-as-new-_hi1o
+2026-05-20 16:22:10,282 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-20 16:22:10,282 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-20 16:23:35,673 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>

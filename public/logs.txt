@@ -1,11 +1,13 @@
-2026-05-20 15:17:16,459 INFO scalper run started 2026-05-20T19:17:16.458942+00:00
-2026-05-20 15:17:16,460 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-20 15:18:10,377 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-20 15:18:10,378 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-20 15:18:59,090 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-20 15:18:59,090 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-20 15:20:26,877 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-20 15:20:26,877 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-20 15:21:46,474 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-20 15:21:46,475 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-20 15:23:39,533 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-20 16:17:15,815 INFO scalper run started 2026-05-20T20:17:15.814881+00:00
+2026-05-20 16:17:15,816 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-20 16:18:20,095 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-20 16:18:20,096 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-20 16:19:05,493 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-20 16:19:05,494 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-20 16:20:14,261 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-20 16:20:14,261 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-20 16:20:14,262 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-20 16:22:10,282 INFO browser validation rejected target=mac-mini-m1-16gb reason=browser_captcha title=Apple Mac Mini (2020) M1 - 512GB - Silver - Apple M1 chip 8-core CPU - 16GB url=https://reebelo.com/products/apple-mac-mini-2020-m-1-apple-m-1-chip-8-core-cpu-512-gb-silver-16-gb-ram-as-new-_hi1o
+2026-05-20 16:22:10,282 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-20 16:22:10,282 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-20 16:23:35,673 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
