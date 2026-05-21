@@ -1,12 +1,13 @@
-2026-05-21 14:17:15,069 INFO scalper run started 2026-05-21T18:17:15.069743+00:00
-2026-05-21 14:17:15,072 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-21 14:18:30,749 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-21 14:18:30,750 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-21 14:19:14,623 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-21 14:19:14,623 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-21 14:20:10,965 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-21 14:20:10,965 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-21 14:21:57,543 INFO browser validation rejected target=mac-mini-m1-16gb reason=browser_captcha title=Apple Mac Mini (2020) M1 - 512GB - Silver - Apple M1 chip 8-core CPU - 16GB url=https://reebelo.com/collections/apple-mac-mini-2020-m1?storage=512GB&color=Silver&cpu=Apple%20M1%20chip%208-core%20CPU&ram=16GB&condition=Excellent&deliveryBy=undefined
-2026-05-21 14:21:57,543 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-21 14:21:57,544 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-21 14:23:06,857 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-21 15:17:16,142 INFO scalper run started 2026-05-21T19:17:16.142805+00:00
+2026-05-21 15:17:16,144 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-21 15:18:03,446 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-21 15:18:03,446 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-21 15:18:56,025 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-21 15:18:56,026 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-21 15:21:03,476 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-21 15:21:03,476 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-21 15:21:03,477 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-21 15:22:55,415 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-21 15:22:55,415 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-21 15:24:01,802 INFO rejected deal target=mac-mini-m2-newer-16gb reason=unavailable title=M4 Mac Mini 10/10 Cpu-Gpu 16Gb 512Gb url=https://www.jawa.gg/product/121048/m4-mac-mini-1010-cpu-gpu-16gb-512gb
+2026-05-21 15:24:01,802 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
