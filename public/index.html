@@ -42,7 +42,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-05-21T05:23:54.219296+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-05-21T06:23:34.449194+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -78,7 +78,7 @@
                 <article class="deal">
                   <div class="meta">Swappa · $639.00</div>
                   <h2><a href="https://swappa.com/listing/view/LADY61014" rel="nofollow noopener">MacBook Air 2022 (M2) - 13&quot; - 512GB, Midnight, 16GB, Apple M2</a></h2>
-                  <p>13-inch MacBook Air with Apple M2, 16GB RAM, 512GB SSD, free US shipping, and total under $650.</p>
+                  <p>13-inch MacBook Air with Apple M2, 16GB RAM, 512GB SSD, approved active listing with free US shipping under $650 total.</p>
                 </article>
                 
             </section>
@@ -146,20 +146,22 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>12 lines published</span>
+        <span>14 lines published</span>
       </div>
-      <pre>2026-05-21 01:17:16,143 INFO scalper run started 2026-05-21T05:17:16.143179+00:00
-2026-05-21 01:17:16,145 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-21 01:18:17,203 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-21 01:18:17,204 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-21 01:19:55,507 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-21 01:19:55,507 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-21 01:21:21,174 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-21 01:21:21,175 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-21 01:21:21,175 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-21 01:22:53,264 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-21 01:22:53,265 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-21 01:23:54,219 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
+      <pre>2026-05-21 02:17:15,351 INFO scalper run started 2026-05-21T06:17:15.351198+00:00
+2026-05-21 02:17:15,353 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-21 02:17:55,839 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-21 02:17:55,839 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-21 02:19:43,336 INFO rejected deal target=bang-olufsen-charging-case reason=http_404 title=Bang and Olufsen Beoplay EX Wireless Earbuds url=https://www.dutyfreeglobal.com/products/bang-and-olufsen-beoplay-ex-wireless-earbuds/27816675/
+2026-05-21 02:19:43,336 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-21 02:19:43,336 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-21 02:20:54,577 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-21 02:20:54,577 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-21 02:20:54,578 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-21 02:22:32,227 INFO rejected deal target=mac-mini-m1-16gb reason=http_403 title=Apple Mac Mini - M1, 16GB RAM, 1TB SSD - Excellent Condition url=https://www.trinitylansdale.com/products/mac-condition-16gb-m1-1tb-ssd-excellent-apple-mini-ram/53370883/
+2026-05-21 02:22:32,228 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-21 02:22:32,228 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-21 02:23:34,448 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
