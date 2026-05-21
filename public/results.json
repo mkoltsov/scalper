@@ -1,22 +1,21 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-21T03:24:59.077524+00:00",
+  "finished_at": "2026-05-21T04:25:02.014267+00:00",
   "logs": [
-    "2026-05-20 23:17:15,175 INFO scalper run started 2026-05-21T03:17:15.175644+00:00",
-    "2026-05-20 23:17:15,177 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-20 23:18:29,162 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-20 23:18:29,163 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-20 23:19:59,111 INFO rejected deal target=bang-olufsen-charging-case reason=http_404 title=Bang and Olufsen Beoplay EX Wireless Earbuds url=https://www.dutyfreeglobal.com/products/bang-and-olufsen-beoplay-ex-wireless-earbuds/27816675/",
-    "2026-05-20 23:19:59,112 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-20 23:19:59,112 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-20 23:21:50,728 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-20 23:21:50,728 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-05-20 23:21:50,729 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-20 23:23:42,177 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-20 23:23:42,177 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-20 23:24:59,077 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-21 00:17:15,664 INFO scalper run started 2026-05-21T04:17:15.663939+00:00",
+    "2026-05-21 00:17:15,665 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-21 00:18:29,527 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-21 00:18:29,527 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-21 00:19:42,579 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-21 00:19:42,579 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-21 00:21:54,178 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-21 00:21:54,179 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014",
+    "2026-05-21 00:21:54,179 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-21 00:23:36,459 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-21 00:23:36,459 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-21 00:25:02,013 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-21T03:17:15.175644+00:00",
+  "started_at": "2026-05-21T04:17:15.663939+00:00",
   "targets": [
     {
       "deals": [],
@@ -35,7 +34,7 @@
         {
           "availability": "available",
           "condition": "Good condition",
-          "confidence": 0.91,
+          "confidence": 0.94,
           "price_usd": 639.0,
           "seller": "Leonard",
           "shipping_usd": 0.0,
@@ -44,7 +43,7 @@
           "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
           "total_usd": 639.0,
           "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "13-inch MacBook Air M2 with 16GB RAM and 512GB SSD; active Swappa listing with free US shipping under $650 total."
+          "why_good": "Active approved Swappa listing for a 13-inch M2 MacBook Air with 16GB RAM, 512GB storage, and free US shipping under $650 total."
         }
       ],
       "id": "macbook-13-apple-silicon-16-24gb",
