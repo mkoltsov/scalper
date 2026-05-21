@@ -1,15 +1,12 @@
-2026-05-21 05:17:16,513 INFO scalper run started 2026-05-21T09:17:16.513141+00:00
-2026-05-21 05:17:16,515 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-21 05:18:23,165 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-21 05:18:23,165 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-21 05:18:52,830 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-21 05:18:52,831 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-21 05:20:08,045 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507
-2026-05-21 05:20:08,046 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
-2026-05-21 05:20:20,542 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
-2026-05-21 05:20:20,543 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-21 05:20:20,544 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-21 05:20:20,544 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-21 05:21:16,416 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-21 05:21:16,417 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-21 05:23:08,744 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-21 06:17:15,166 INFO scalper run started 2026-05-21T10:17:15.166667+00:00
+2026-05-21 06:17:15,168 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-21 06:18:12,027 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-21 06:18:12,028 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-21 06:19:06,532 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-21 06:19:06,533 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-21 06:20:50,798 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-21 06:20:50,798 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-21 06:20:50,798 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-21 06:21:51,207 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-21 06:21:51,208 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-21 06:22:56,605 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
