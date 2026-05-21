@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scalper Results</title>
+  <style>
+    :root { color-scheme: dark; --bg:#090b10; --panel:#111722; --line:#253044; --text:#eef3ff; --muted:#97a3b8; --accent:#74d3ff; --danger:#ff8b8b; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif; background:radial-gradient(circle at 20% 0,#172236 0,#090b10 42rem); color:var(--text); }
+    main { width:min(1040px, calc(100% - 32px)); margin:0 auto; padding:48px 0 72px; }
+    header { margin-bottom:32px; }
+    .eyebrow { color:var(--accent); font-size:13px; text-transform:uppercase; letter-spacing:.08em; }
+    h1,h2,p { margin-top:0; }
+    header h1 { font-size:clamp(34px,6vw,68px); line-height:1; margin:10px 0 16px; }
+    header p,.empty,.meta,.target-head span { color:var(--muted); }
+    nav { display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }
+    nav a,.button,button { border:1px solid var(--line); background:#162033; color:var(--text); border-radius:6px; padding:9px 12px; font:inherit; text-decoration:none; cursor:pointer; }
+    nav a:hover,.button:hover,button:hover { border-color:var(--accent); color:var(--accent); }
+    .target { border:1px solid var(--line); background:color-mix(in srgb, var(--panel) 86%, transparent); border-radius:8px; padding:22px; margin:18px 0; box-shadow:0 24px 60px rgba(0,0,0,.24); }
+    .target-head { display:flex; gap:16px; align-items:baseline; justify-content:space-between; border-bottom:1px solid var(--line); padding-bottom:14px; margin-bottom:14px; }
+    .target-head h1 { font-size:22px; line-height:1.2; margin:0; }
+    .deal { padding:16px 0; border-top:1px solid rgba(255,255,255,.07); }
+    .deal:first-of-type { border-top:0; }
+    .deal h2 { font-size:20px; line-height:1.25; margin:4px 0 8px; }
+    .tool-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    label { display:block; color:var(--muted); font-size:13px; margin-bottom:5px; }
+    input,textarea { width:100%; border:1px solid var(--line); background:#090f19; color:var(--text); border-radius:6px; padding:10px 11px; font:inherit; }
+    textarea { min-height:92px; resize:vertical; }
+    .wide { grid-column:1 / -1; }
+    .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
+    pre { margin:0; white-space:pre-wrap; overflow:auto; border:1px solid var(--line); background:#070b12; color:#dbe7ff; border-radius:8px; padding:16px; max-height:440px; }
+    .output { margin-top:16px; }
+    .error { color:var(--danger); }
+    a { color:var(--text); text-decoration-color:var(--accent); text-underline-offset:4px; }
+    a:hover { color:var(--accent); }
+    @media (max-width:640px) { main { width:min(100% - 20px, 1040px); padding-top:28px; } .target { padding:16px; } .target-head { display:block; } .tool-grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Live deal monitor</div>
+      <h1>Scalper Results</h1>
+      <p>Latest run: 2026-05-21T22:24:07.959242+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <nav>
+        <a href="#results">Results</a>
+        <a href="#add-target">Add target</a>
+        <a href="#logs">Logs</a>
+        <a href="results.json">JSON</a>
+        <a href="logs.txt">Raw logs</a>
+      </nav>
+    </header>
+    <section id="results">
+      
+            <section class="target">
+              <div class="target-head">
+                <h1>NZXT H1 V2 mini-ITX case bundle</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>B&amp;O Eleven / Beoplay EX / Cisco 950 charging case</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
+                <span>1 live match</span>
+              </div>
+              
+                <article class="deal">
+                  <div class="meta">Swappa · $618.00</div>
+                  <h2><a href="https://swappa.com/listing/view/LZMT66254" rel="nofollow noopener">MacBook Air 2022 - 13&quot; - Apple M2, Gray, 512GB, 16GB</a></h2>
+                  <p>13-inch MacBook Air with Apple M2, 16GB memory, 512GB storage, approved listing with Buy Now and free US shipping under $650 total.</p>
+                </article>
+                
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>M1 Mac mini with 16GB RAM</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>M2-or-newer Mac mini with 16GB+ RAM</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+    </section>
+    <section class="target" id="add-target">
+      <div class="target-head">
+        <h1>Add target</h1>
+        <span>builds JSON for deals.json</span>
+      </div>
+      <form id="target-form" class="tool-grid">
+        <div>
+          <label for="target-id">ID</label>
+          <input id="target-id" name="id" placeholder="sony-wh-1000xm6" required>
+        </div>
+        <div>
+          <label for="target-price">Max total price USD</label>
+          <input id="target-price" name="max_price_usd" type="number" min="1" step="1" placeholder="150" required>
+        </div>
+        <div class="wide">
+          <label for="target-name">Name</label>
+          <input id="target-name" name="name" placeholder="Sony WH-1000XM6 headphones" required>
+        </div>
+        <div class="wide">
+          <label for="target-intent">Search intent</label>
+          <textarea id="target-intent" name="search_intent" placeholder="Find currently available used or open-box..." required></textarea>
+        </div>
+        <div>
+          <label for="target-required">Required regex patterns, one per line</label>
+          <textarea id="target-required" name="required_any_patterns"></textarea>
+        </div>
+        <div>
+          <label for="target-reject">Reject regex patterns, one per line</label>
+          <textarea id="target-reject" name="reject_patterns"></textarea>
+        </div>
+        <div class="wide">
+          <label for="target-queries">Search queries, one per line</label>
+          <textarea id="target-queries" name="search_queries" required></textarea>
+        </div>
+      </form>
+      <div class="actions">
+        <button type="button" id="build-target">Build JSON</button>
+        <button type="button" id="copy-target">Copy JSON</button>
+        <a class="button" id="issue-link" href="https://github.com/mkoltsov/scalper/issues/new" rel="noopener">Open GitHub issue</a>
+      </div>
+      <p id="target-message" class="empty"></p>
+      <pre class="output" id="target-output"></pre>
+    </section>
+    <section class="target" id="logs">
+      <div class="target-head">
+        <h1>Logs</h1>
+        <span>12 lines published</span>
+      </div>
+      <pre>2026-05-21 18:17:16,079 INFO scalper run started 2026-05-21T22:17:16.079784+00:00
+2026-05-21 18:17:16,081 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-21 18:18:18,496 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-21 18:18:18,497 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-21 18:20:10,190 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-21 18:20:10,191 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-21 18:21:30,579 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-21 18:21:30,579 INFO already notified target=macbook-13-apple-silicon-16-24gb total=618.00 url=https://swappa.com/listing/view/LZMT66254
+2026-05-21 18:21:30,580 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-21 18:22:58,401 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-21 18:22:58,401 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-21 18:24:07,958 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
