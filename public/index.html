@@ -42,7 +42,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-05-21T20:24:06.973177+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-05-21T21:25:13.494640+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -72,15 +72,9 @@
             <section class="target">
               <div class="target-head">
                 <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
-                <span>1 live match</span>
+                <span>0 live matches</span>
               </div>
-              
-                <article class="deal">
-                  <div class="meta">Swappa · $639.00</div>
-                  <h2><a href="https://swappa.com/listing/view/LADY61014" rel="nofollow noopener">MacBook Air M2 (Midnight) - With original packaging. High spec: 16 GB RAM / 512 GB SSD</a></h2>
-                  <p>Active approved Swappa listing for a 13-inch 2022 MacBook Air M2 with 16GB RAM, 512GB storage, and free US shipping under $650 total.</p>
-                </article>
-                
+              <p class="empty">No available qualifying listings found in the latest run.</p>
             </section>
             
             <section class="target">
@@ -146,20 +140,21 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>12 lines published</span>
+        <span>13 lines published</span>
       </div>
-      <pre>2026-05-21 16:17:16,587 INFO scalper run started 2026-05-21T20:17:16.587499+00:00
-2026-05-21 16:17:16,589 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-21 16:18:36,163 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-21 16:18:36,164 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-21 16:19:46,842 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-21 16:19:46,842 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-21 16:21:02,442 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-21 16:21:02,443 INFO already notified target=macbook-13-apple-silicon-16-24gb total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-21 16:21:02,443 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-21 16:22:45,364 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-21 16:22:45,365 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-21 16:24:06,972 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
+      <pre>2026-05-21 17:17:15,151 INFO scalper run started 2026-05-21T21:17:15.151547+00:00
+2026-05-21 17:17:15,153 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-21 17:18:20,785 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-21 17:18:20,786 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-21 17:20:00,729 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-21 17:20:00,729 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-21 17:22:17,515 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/hardwareswap/comments/1tbfpzq/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
+2026-05-21 17:22:17,516 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-05-21 17:22:17,516 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-21 17:24:03,734 INFO browser validation rejected target=mac-mini-m1-16gb reason=browser_captcha title=Apple Mac Mini (2020) M1 - 512GB - Silver - Apple M1 chip 8-core CPU - 16GB url=https://reebelo.com/collections/apple-mac-mini-2020-m1?storage=512GB&amp;color=Silver&amp;cpu=Apple%20M1%20chip%208-core%20CPU&amp;ram=16GB&amp;condition=Excellent&amp;deliveryBy=undefined
+2026-05-21 17:24:03,734 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-21 17:24:03,735 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-21 17:25:13,494 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
