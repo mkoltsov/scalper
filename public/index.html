@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-05-22T19:28:17.682518+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-05-22T20:30:15.747766+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -79,9 +79,49 @@
             <section class="target">
               <div class="target-head">
                 <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>$639.00</strong>
+                  <small>Swappa</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> Swappa · $639.00 · United States</div>
+                  <h2><a href="https://swappa.com/listing/view/LADY61014" rel="nofollow noopener">MacBook Air 2022 (M2) - 13&quot; - 512GB, Midnight, 16GB, Apple M2</a></h2>
+                  <p>Active Swappa listing for a 13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD; free US shipping.</p>
+                </article>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
             </section>
             
             <section class="target">
@@ -147,22 +187,24 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>14 lines published</span>
+        <span>16 lines published</span>
       </div>
-      <pre>2026-05-22 15:17:15,288 INFO scalper run started 2026-05-22T19:17:15.288817+00:00
-2026-05-22 15:17:15,290 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-22 15:19:27,396 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-22 15:19:27,397 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-22 15:21:41,539 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137160733788
-2026-05-22 15:21:41,540 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang &amp; Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788
-2026-05-22 15:21:53,978 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang &amp; Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788
-2026-05-22 15:21:53,978 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-22 15:21:53,979 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-22 15:24:05,203 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-22 15:24:05,203 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-22 15:26:14,451 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-22 15:26:14,452 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-22 15:28:17,682 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
+      <pre>2026-05-22 16:17:15,110 INFO scalper run started 2026-05-22T20:17:15.110608+00:00
+2026-05-22 16:17:15,112 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-22 16:20:31,344 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-22 16:20:31,344 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-22 16:22:29,627 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-22 16:22:29,627 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-22 16:25:12,403 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507
+2026-05-22 16:25:12,403 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
+2026-05-22 16:25:25,273 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
+2026-05-22 16:25:28,785 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-22 16:25:28,786 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-22 16:25:28,786 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-22 16:28:11,837 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-22 16:28:11,837 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-22 16:30:15,746 INFO rejected deal target=mac-mini-m2-newer-16gb reason=unavailable title=2023 Apple Mac Mini M2 Pro 3.5GHz 16GB RAM 512GB SSD Silver MNH73LL/A url=https://www.ebay.com/p/5058546582?iid=177726259846
+2026-05-22 16:30:15,747 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
