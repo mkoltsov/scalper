@@ -1,11 +1,13 @@
-2026-05-21 19:17:15,910 INFO scalper run started 2026-05-21T23:17:15.910758+00:00
-2026-05-21 19:17:15,912 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-21 19:18:20,239 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-21 19:18:20,239 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-21 19:19:41,957 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-21 19:19:41,958 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-21 19:21:22,117 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-21 19:21:22,118 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-21 19:22:48,946 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-21 19:22:48,946 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-21 19:24:35,951 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-21 20:17:16,033 INFO scalper run started 2026-05-22T00:17:16.033114+00:00
+2026-05-21 20:17:16,035 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-21 20:18:08,695 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-21 20:18:08,695 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-21 20:18:42,089 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-21 20:18:42,089 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-21 20:20:17,968 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-05-21 20:20:17,969 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-21 20:21:09,048 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-21 20:21:09,049 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-21 20:23:17,723 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_404 title=Restored Apple Mac Mini (2023) Apple M2 Chip, 16GB 512GB SSD, Silver (Refurbished) url=https://www.walmart.com/ip/18301324171?conditionGroupCode=2
+2026-05-21 20:23:26,287 INFO browser validation rejected target=mac-mini-m2-newer-16gb reason=browser_title_mismatch title=Restored Apple Mac Mini MNH73LL/A 16GB 512GB SSD Apple M2 Pro 10-core 3.50GHz, Silver (Refurbished) url=https://www.walmart.com/ip/Restored-Apple-Mac-Mini-MNH73LL-A-16GB-512GB-SSD-Apple-M2-Pro-10-core-3-50GHz-Silver-Refurbished/16314423351
+2026-05-21 20:23:26,287 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
