@@ -1,15 +1,11 @@
-2026-05-22 06:17:15,203 INFO scalper run started 2026-05-22T10:17:15.203794+00:00
-2026-05-22 06:17:15,205 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-22 06:18:23,993 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-22 06:18:23,993 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-22 06:19:46,060 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-22 06:19:46,061 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-22 06:21:34,514 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/327105153050
-2026-05-22 06:21:34,515 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air A2681 13.6" 2022 M2 16GB RAM 512GB SSD STARLIGHT url=https://www.ebay.com/itm/327105153050
-2026-05-22 06:21:43,442 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple MacBook Air A2681 13.6" 2022 M2 16GB RAM 512GB SSD STARLIGHT url=https://www.ebay.com/itm/327105153050
-2026-05-22 06:21:43,771 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=http_403 title=MacBook Air (2022) 13-inch - Apple M2 8-core and 8-core GPU - 16GB RAM - SSD 512GB - Standard display url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-8-core-gpu-16gb-ram-ssd-512gb/bc33cac9-327f-4861-b88a-c55eb30fe414
-2026-05-22 06:21:43,771 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-22 06:21:43,772 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-22 06:23:30,508 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-22 06:23:30,509 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-22 06:24:41,802 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-22 07:17:15,943 INFO scalper run started 2026-05-22T11:17:15.943858+00:00
+2026-05-22 07:17:15,945 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-22 07:18:15,965 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-22 07:18:15,966 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-22 07:19:49,454 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-22 07:19:49,454 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-22 07:21:04,810 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-05-22 07:21:04,811 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-22 07:22:30,943 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-22 07:22:30,944 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-22 07:24:07,991 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
