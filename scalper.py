@@ -76,6 +76,40 @@ ANTI_BOT_HTTP_ERROR_DOMAINS = {
     "subito.it",
     "wallapop.com",
 }
+US_MARKETPLACE_DOMAINS = {
+    "ebay.com",
+    "swappa.com",
+    "backmarket.com",
+    "offerup.com",
+}
+EU_MARKETPLACE_DOMAINS = {
+    "ebay.co.uk",
+    "ebay.de",
+    "ebay.pl",
+    "ebay.fr",
+    "ebay.it",
+    "ebay.es",
+    "ebay.nl",
+    "ebay.ie",
+    "ebay.at",
+    "ebay.be",
+    "ebay.ch",
+    "allegro.pl",
+    "allegrolokalnie.pl",
+    "olx.pl",
+    "catawiki.com",
+    "kleinanzeigen.de",
+    "marktplaats.nl",
+    "leboncoin.fr",
+    "subito.it",
+    "wallapop.com",
+}
+REGION_ORDER = ("us", "eu", "other")
+REGION_LABELS = {
+    "us": "US",
+    "eu": "EU/Europe",
+    "other": "Other",
+}
 BAD_STATUS_PATTERNS = [
     (r"\b(?:sold out|out of stock|currently unavailable|no longer available|not available|unavailable)\b", "unavailable"),
     (r"\b(?:listing|posting|item)\s+(?:has\s+been\s+)?(?:deleted|removed|expired|ended)\b", "expired"),
@@ -199,6 +233,9 @@ class Deal:
     availability: str
     why_good: str
     confidence: float
+    market_region: str
+    market_label: str
+    delivery_country: str
 
 
 def configure_logging() -> None:
@@ -383,6 +420,7 @@ Schema:
       "ships_to_destination": true,
       "shipping_destination": "{destination_label}",
       "delivery_country": "{destinations[0]}",
+      "market_region": "us",
       "why_good": "short reason this matches the criteria",
       "confidence": 0.0
     }}
@@ -391,6 +429,7 @@ Schema:
 
 Rules:
 - Include at most {max_results} deals.
+- Set market_region to "us" for US marketplace/listing-location deals, "eu" for European/UK/Polish marketplace/listing-location deals, and "other" only if the listing cannot be classified.
 - Include only listings that satisfy every acceptance criterion.
 - If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: {destination_label}.
 - Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
@@ -555,6 +594,75 @@ def _destination_slug(destination: str) -> str:
     if slug in {"pl", "polska"}:
         return "poland"
     return slug
+
+
+def _normalize_market_region(value: Any) -> str | None:
+    text = re.sub(r"[^a-z0-9]+", "_", str(value or "").strip().lower()).strip("_")
+    if not text:
+        return None
+    if text in {"us", "u_s", "usa", "u_s_a", "united_states", "united_states_of_america", "america"}:
+        return "us"
+    if text in {
+        "eu",
+        "e_u",
+        "europe",
+        "european",
+        "european_union",
+        "poland",
+        "polska",
+        "pl",
+        "uk",
+        "u_k",
+        "united_kingdom",
+        "great_britain",
+    }:
+        return "eu"
+    if text in {"other", "unknown", "unclear"}:
+        return "other"
+    return None
+
+
+def market_label(region: str) -> str:
+    return REGION_LABELS.get(region, REGION_LABELS["other"])
+
+
+def classify_market_region(raw: dict[str, Any]) -> str:
+    for field in ("market_region", "region", "market", "listing_region"):
+        region = _normalize_market_region(raw.get(field))
+        if region:
+            return region
+
+    url = str(raw.get("url") or "")
+    host = _host_from_url(url)
+    if _domain_matches(host, EU_MARKETPLACE_DOMAINS):
+        return "eu"
+    if _domain_matches(host, US_MARKETPLACE_DOMAINS):
+        return "us"
+
+    source = str(raw.get("source") or "").lower()
+    if any(name in source for name in ("allegro", "olx", "catawiki", "kleinanzeigen", "marktplaats", "leboncoin", "subito", "wallapop")):
+        return "eu"
+    if any(name in source for name in ("swappa", "offerup", "back market us")):
+        return "us"
+
+    text = _deal_search_text(raw).lower()
+    if re.search(r"\b(pln|zl|zloty|zlotych|poland|polska|allegro|olx\.pl|eur|euro|europe|eu)\b", text):
+        return "eu"
+    if re.search(r"\b(usd|united\s+states|u\.s\.|usa|ships\s+to\s+us)\b", text):
+        return "us"
+    return "other"
+
+
+def delivery_country(raw: dict[str, Any], region: str) -> str:
+    for field in ("delivery_country", "shipping_destination", "delivery_destination"):
+        value = str(raw.get(field) or "").strip()
+        if value:
+            return value
+    if region == "us":
+        return "United States"
+    if region == "eu":
+        return "Poland/Europe"
+    return ""
 
 
 def _destination_name_pattern(destination: str) -> str:
@@ -947,6 +1055,7 @@ def normalize_deal(target: dict[str, Any], raw: dict[str, Any], config: dict[str
         return None
 
     confidence = to_float(raw.get("confidence"))
+    region = classify_market_region(raw)
     return Deal(
         target_id=target["id"],
         title=title,
@@ -960,6 +1069,9 @@ def normalize_deal(target: dict[str, Any], raw: dict[str, Any], config: dict[str
         availability=availability,
         why_good=str(raw.get("why_good") or "").strip(),
         confidence=confidence if confidence is not None else 0.0,
+        market_region=region,
+        market_label=market_label(region),
+        delivery_country=delivery_country(raw, region),
     )
 
 
@@ -987,10 +1099,12 @@ def http_header_value(value: Any) -> str:
 
 def send_ntfy(config: dict[str, Any], deal: Deal) -> None:
     ntfy = config.get("ntfy", {})
-    title = f"Scalper deal: {deal.title[:80]}"
+    title = f"Scalper {deal.market_label} deal: {deal.title[:80]}"
     lines = [
         f"{deal.title}",
         f"Total: ${deal.total_usd:.2f}",
+        f"Market: {deal.market_label}",
+        f"Delivery: {deal.delivery_country or 'configured destination'}",
         f"Source: {deal.source or 'unknown'}",
         f"Condition: {deal.condition or 'unknown'}",
         f"Why: {deal.why_good or 'matches configured deal criteria'}",
@@ -1038,6 +1152,61 @@ def deal_to_json(deal: Deal) -> dict[str, Any]:
         "availability": deal.availability,
         "why_good": deal.why_good,
         "confidence": deal.confidence,
+        "market_region": deal.market_region,
+        "market_label": deal.market_label,
+        "delivery_country": deal.delivery_country,
+    }
+
+
+def group_deal_json_by_region(deals: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
+    groups = {region: [] for region in REGION_ORDER}
+    for deal in deals:
+        region = str(deal.get("market_region") or "other")
+        if region not in groups:
+            region = "other"
+        groups[region].append(deal)
+    return groups
+
+
+def regional_summary(deals: list[Deal]) -> dict[str, Any]:
+    ordered = sorted(deals, key=lambda deal: deal.total_usd)
+    best: dict[str, dict[str, Any] | None] = {region: None for region in REGION_ORDER}
+    counts = {region: 0 for region in REGION_ORDER}
+    for deal in ordered:
+        region = deal.market_region if deal.market_region in REGION_ORDER else "other"
+        counts[region] += 1
+        if best[region] is None:
+            best[region] = deal_to_json(deal)
+
+    us_best = best["us"]
+    eu_best = best["eu"]
+    eu_premium_usd: float | None = None
+    eu_premium_percent: float | None = None
+    if us_best and eu_best:
+        us_total = float(us_best.get("total_usd") or 0)
+        eu_total = float(eu_best.get("total_usd") or 0)
+        if us_total > 0:
+            eu_premium_usd = eu_total - us_total
+            eu_premium_percent = (eu_premium_usd / us_total) * 100
+
+    return {
+        "best": best,
+        "counts": counts,
+        "eu_premium_usd": eu_premium_usd,
+        "eu_premium_percent": eu_premium_percent,
+    }
+
+
+def target_result_payload(target: dict[str, Any], deals: list[Deal]) -> dict[str, Any]:
+    ordered_deals = sorted(deals, key=lambda deal: deal.total_usd)
+    deal_json = [deal_to_json(deal) for deal in ordered_deals]
+    return {
+        "id": target["id"],
+        "name": target.get("name", target["id"]),
+        "max_price_usd": target.get("max_price_usd"),
+        "deals": deal_json,
+        "deal_groups": group_deal_json_by_region(deal_json),
+        "regional_summary": regional_summary(ordered_deals),
     }
 
 
@@ -1072,6 +1241,89 @@ def read_log_since_marker(log_path: Path, marker: str) -> list[str]:
     return [sanitize_log_text(line) for line in raw_lines[start:]]
 
 
+def _format_usd(value: Any) -> str:
+    try:
+        return f"${float(value):.2f}"
+    except (TypeError, ValueError):
+        return "$0.00"
+
+
+def _deal_html(deal: dict[str, Any]) -> str:
+    delivery = str(deal.get("delivery_country") or "").strip()
+    delivery_label = f" · {html.escape(delivery)}" if delivery else ""
+    return f"""
+                <article class="deal">
+                  <div class="meta"><span class="badge">{html.escape(deal.get("market_label") or market_label("other"))}</span> {html.escape(deal.get("source") or "unknown")} · {_format_usd(deal.get("total_usd"))}{delivery_label}</div>
+                  <h2><a href="{html.escape(deal.get("url") or "#")}" rel="nofollow noopener">{html.escape(deal.get("title") or "Untitled listing")}</a></h2>
+                  <p>{html.escape(deal.get("why_good") or "Matches configured criteria.")}</p>
+                </article>
+    """
+
+
+def _region_deals_html(region: str, deals: list[dict[str, Any]], always_show: bool = False) -> str:
+    if not deals and not always_show:
+        return ""
+    label = market_label(region)
+    if deals:
+        body = "\n".join(_deal_html(deal) for deal in deals)
+    else:
+        body = '<p class="empty">No qualifying listings in this market.</p>'
+    return f"""
+              <div class="region-group">
+                <h2>{html.escape(label)}</h2>
+                {body}
+              </div>
+    """
+
+
+def _best_summary_item(label: str, deal: dict[str, Any] | None) -> str:
+    if not deal:
+        return f"""
+                <div class="metric">
+                  <span>{html.escape(label)}</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        """
+    return f"""
+                <div class="metric">
+                  <span>{html.escape(label)}</span>
+                  <strong>{_format_usd(deal.get("total_usd"))}</strong>
+                  <small>{html.escape(deal.get("source") or "unknown")}</small>
+                </div>
+    """
+
+
+def _premium_summary_item(summary: dict[str, Any]) -> str:
+    premium = summary.get("eu_premium_usd")
+    percent = summary.get("eu_premium_percent")
+    if premium is None or percent is None:
+        value = "Needs both"
+        detail = "US and EU match required"
+    else:
+        sign = "+" if float(premium) >= 0 else "-"
+        value = f"{sign}${abs(float(premium)):.2f}"
+        detail = f"{sign}{abs(float(percent)):.1f}% vs US"
+    return f"""
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>{html.escape(value)}</strong>
+                  <small>{html.escape(detail)}</small>
+                </div>
+    """
+
+
+def _regional_summary_html(summary: dict[str, Any]) -> str:
+    best = summary.get("best") or {}
+    return f"""
+              <div class="market-summary">
+                {_best_summary_item("US best", best.get("us"))}
+                {_best_summary_item("EU best", best.get("eu"))}
+                {_premium_summary_item(summary)}
+              </div>
+    """
+
+
 def write_pages(public_dir: Path, payload: dict[str, Any]) -> None:
     public_dir.mkdir(parents=True, exist_ok=True)
     (public_dir / "results.json").write_text(
@@ -1089,15 +1341,12 @@ def write_pages(public_dir: Path, payload: dict[str, Any]) -> None:
     for target in payload.get("targets", []):
         deals = target.get("deals", [])
         if deals:
-            items = "\n".join(
-                f"""
-                <article class="deal">
-                  <div class="meta">{html.escape(deal.get("source") or "unknown")} · ${float(deal.get("total_usd") or 0):.2f}</div>
-                  <h2><a href="{html.escape(deal.get("url") or "#")}" rel="nofollow noopener">{html.escape(deal.get("title") or "Untitled listing")}</a></h2>
-                  <p>{html.escape(deal.get("why_good") or "Matches configured criteria.")}</p>
-                </article>
-                """
-                for deal in deals
+            groups = target.get("deal_groups") or group_deal_json_by_region(deals)
+            items = (
+                _regional_summary_html(target.get("regional_summary") or {})
+                + _region_deals_html("us", groups.get("us", []), always_show=True)
+                + _region_deals_html("eu", groups.get("eu", []), always_show=True)
+                + _region_deals_html("other", groups.get("other", []))
             )
         else:
             items = '<p class="empty">No available qualifying listings found in the latest run.</p>'
@@ -1141,6 +1390,13 @@ def write_pages(public_dir: Path, payload: dict[str, Any]) -> None:
     .target {{ border:1px solid var(--line); background:color-mix(in srgb, var(--panel) 86%, transparent); border-radius:8px; padding:22px; margin:18px 0; box-shadow:0 24px 60px rgba(0,0,0,.24); }}
     .target-head {{ display:flex; gap:16px; align-items:baseline; justify-content:space-between; border-bottom:1px solid var(--line); padding-bottom:14px; margin-bottom:14px; }}
     .target-head h1 {{ font-size:22px; line-height:1.2; margin:0; }}
+    .market-summary {{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:0 0 18px; }}
+    .metric {{ border:1px solid var(--line); border-radius:6px; padding:12px; background:#0c121d; }}
+    .metric span,.metric small,.region-group h2 {{ display:block; color:var(--muted); font-size:13px; }}
+    .metric strong {{ display:block; margin:4px 0; font-size:24px; line-height:1.1; }}
+    .region-group {{ border-top:1px solid var(--line); padding-top:14px; margin-top:14px; }}
+    .region-group h2 {{ margin:0 0 4px; text-transform:uppercase; letter-spacing:.08em; }}
+    .badge {{ display:inline-block; border:1px solid var(--line); border-radius:4px; color:var(--accent); font-size:12px; line-height:1; padding:3px 5px; margin-right:6px; }}
     .deal {{ padding:16px 0; border-top:1px solid rgba(255,255,255,.07); }}
     .deal:first-of-type {{ border-top:0; }}
     .deal h2 {{ font-size:20px; line-height:1.25; margin:4px 0 8px; }}
@@ -1155,7 +1411,7 @@ def write_pages(public_dir: Path, payload: dict[str, Any]) -> None:
     .error {{ color:var(--danger); }}
     a {{ color:var(--text); text-decoration-color:var(--accent); text-underline-offset:4px; }}
     a:hover {{ color:var(--accent); }}
-    @media (max-width:640px) {{ main {{ width:min(100% - 20px, 1040px); padding-top:28px; }} .target {{ padding:16px; }} .target-head {{ display:block; }} .tool-grid {{ grid-template-columns:1fr; }} }}
+    @media (max-width:640px) {{ main {{ width:min(100% - 20px, 1040px); padding-top:28px; }} .target {{ padding:16px; }} .target-head {{ display:block; }} .market-summary,.tool-grid {{ grid-template-columns:1fr; }} }}
   </style>
 </head>
 <body>
@@ -1439,21 +1695,26 @@ def run(
                 deals.append(deal)
             LOGGER.info("target=%s qualifying_deals=%s", target["id"], len(deals))
             metrics.add("deals_found", len(deals), target_attrs)
-            pages_payload["targets"].append(
-                {
-                    "id": target["id"],
-                    "name": target.get("name", target["id"]),
-                    "max_price_usd": target.get("max_price_usd"),
-                    "deals": [deal_to_json(deal) for deal in deals],
-                }
-            )
+            pages_payload["targets"].append(target_result_payload(target, deals))
 
             for deal in deals:
                 key = deal_key(deal)
                 if key in state.setdefault("notified", {}):
-                    LOGGER.info("already notified target=%s total=%.2f url=%s", deal.target_id, deal.total_usd, deal.url)
+                    LOGGER.info(
+                        "already notified target=%s market=%s total=%.2f url=%s",
+                        deal.target_id,
+                        deal.market_region,
+                        deal.total_usd,
+                        deal.url,
+                    )
                     continue
-                LOGGER.info("new deal target=%s total=%.2f url=%s", deal.target_id, deal.total_usd, deal.url)
+                LOGGER.info(
+                    "new deal target=%s market=%s total=%.2f url=%s",
+                    deal.target_id,
+                    deal.market_region,
+                    deal.total_usd,
+                    deal.url,
+                )
                 if not dry_run:
                     if notifications_enabled(config):
                         send_ntfy(config, deal)
@@ -1465,6 +1726,7 @@ def run(
                         "title": deal.title,
                         "url": deal.url,
                         "total_usd": deal.total_usd,
+                        "market_region": deal.market_region,
                         "notified_at": datetime.now(timezone.utc).isoformat(),
                     }
                 else:

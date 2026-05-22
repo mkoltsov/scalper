@@ -95,6 +95,68 @@ class ScalperFilterTests(unittest.TestCase):
             )
         )
 
+    def test_classifies_us_marketplace_deal(self) -> None:
+        deal = scalper.normalize_deal(
+            TARGET,
+            raw_deal(
+                url="https://swappa.com/listing/view/example",
+                source="Swappa",
+                shipping_destination="United States",
+            ),
+        )
+        self.assertIsNotNone(deal)
+        self.assertEqual(deal.market_region, "us")
+        self.assertEqual(deal.market_label, "US")
+
+    def test_classifies_european_marketplace_deal(self) -> None:
+        deal = scalper.normalize_deal(
+            TARGET,
+            raw_deal(
+                url="https://allegro.pl/oferta/example",
+                source="Allegro",
+                ships_to_us=False,
+                ships_to_destination=True,
+                shipping_destination="Delivery to Poland",
+            ),
+            POLAND_CONFIG,
+        )
+        self.assertIsNotNone(deal)
+        self.assertEqual(deal.market_region, "eu")
+        self.assertEqual(deal.market_label, "EU/Europe")
+
+    def test_target_payload_separates_us_and_eu_best_prices(self) -> None:
+        us_deal = scalper.normalize_deal(
+            TARGET,
+            raw_deal(
+                url="https://swappa.com/listing/view/example",
+                source="Swappa",
+                total_usd=50,
+                shipping_destination="United States",
+            ),
+        )
+        eu_deal = scalper.normalize_deal(
+            TARGET,
+            raw_deal(
+                url="https://allegro.pl/oferta/example",
+                source="Allegro",
+                ships_to_us=False,
+                ships_to_destination=True,
+                shipping_destination="Delivery to Poland",
+                total_usd=60,
+            ),
+            POLAND_CONFIG,
+        )
+        self.assertIsNotNone(us_deal)
+        self.assertIsNotNone(eu_deal)
+
+        payload = scalper.target_result_payload(TARGET, [eu_deal, us_deal])
+
+        self.assertEqual(len(payload["deal_groups"]["us"]), 1)
+        self.assertEqual(len(payload["deal_groups"]["eu"]), 1)
+        self.assertEqual(payload["regional_summary"]["best"]["us"]["total_usd"], 50)
+        self.assertEqual(payload["regional_summary"]["best"]["eu"]["total_usd"], 60)
+        self.assertEqual(payload["regional_summary"]["eu_premium_usd"], 10)
+
     def test_accepts_poland_delivery_when_no_us_shipping_text_is_present(self) -> None:
         self.assertIsNotNone(
             scalper.normalize_deal(
@@ -365,6 +427,7 @@ class ScalperFilterTests(unittest.TestCase):
         self.assertIn("Allegro", prompt)
         self.assertIn("OLX.pl", prompt)
         self.assertIn("eBay Europe delivery to Poland", prompt)
+        self.assertIn('"market_region": "us"', prompt)
 
     def test_ebay_antibot_http_result_is_inconclusive_reason(self) -> None:
         self.assertTrue("http_403_antibot_unverified".endswith("_antibot_unverified"))
