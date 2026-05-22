@@ -1,11 +1,12 @@
-2026-05-22 02:17:15,677 INFO scalper run started 2026-05-22T06:17:15.676933+00:00
-2026-05-22 02:17:15,679 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-22 02:18:40,976 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-22 02:18:40,977 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-22 02:19:55,571 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-22 02:19:55,571 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-22 02:21:29,506 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-22 02:21:29,507 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-22 02:22:56,904 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-22 02:22:56,905 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-22 02:24:54,114 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-22 03:17:15,590 INFO scalper run started 2026-05-22T07:17:15.589978+00:00
+2026-05-22 03:17:15,592 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-22 03:18:21,937 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-22 03:18:21,938 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-22 03:20:36,942 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-22 03:20:36,942 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-22 03:21:46,415 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
+2026-05-22 03:21:46,415 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-05-22 03:21:46,416 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-22 03:23:16,324 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-22 03:23:16,325 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-22 03:25:31,790 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
