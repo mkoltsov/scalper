@@ -1,21 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-22T17:29:14.349919+00:00",
+  "finished_at": "2026-05-22T18:29:54.584553+00:00",
   "logs": [
-    "2026-05-22 13:17:14,481 INFO scalper run started 2026-05-22T17:17:14.481402+00:00",
-    "2026-05-22 13:17:14,483 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-22 13:19:04,612 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-22 13:19:04,612 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-22 13:21:42,504 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-22 13:21:42,504 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-22 13:24:07,175 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-22 13:24:07,175 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-05-22 13:24:07,176 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-22 13:26:38,195 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-22 13:26:38,196 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-22 13:29:14,349 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-22 14:17:14,671 INFO scalper run started 2026-05-22T18:17:14.671656+00:00",
+    "2026-05-22 14:17:14,673 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-22 14:19:30,777 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-22 14:19:30,778 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-22 14:22:05,249 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-22 14:22:05,249 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-22 14:24:32,369 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306867229406",
+    "2026-05-22 14:24:32,370 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13\" M2 8-Core 24GB 512GB - Good READ DESC url=https://www.ebay.com/itm/306867229406",
+    "2026-05-22 14:24:45,442 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple Macbook Air 13\" M2 8-Core 24GB 512GB - Good READ DESC url=https://www.ebay.com/itm/306867229406",
+    "2026-05-22 14:24:45,443 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-22 14:24:45,444 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-22 14:27:25,468 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-22 14:27:25,468 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-22 14:29:54,584 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-22T17:17:14.481402+00:00",
+  "started_at": "2026-05-22T18:17:14.671656+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -71,45 +73,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Good condition; minor nicks/faint display coating wear; 84% battery health",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 639.0,
-            "seller": "Leonard",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
-            "total_usd": 639.0,
-            "url": "https://swappa.com/listing/view/LADY61014",
-            "why_good": "Active Swappa listing with Login to Buy; 13-inch MacBook Air M2, 16GB RAM, 512GB SSD, free US shipping, total $639."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Good condition; minor nicks/faint display coating wear; 84% battery health",
-          "confidence": 0.93,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 639.0,
-          "seller": "Leonard",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
-          "total_usd": 639.0,
-          "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "Active Swappa listing with Login to Buy; 13-inch MacBook Air M2, 16GB RAM, 512GB SSD, free US shipping, total $639."
-        }
-      ],
+      "deals": [],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -117,28 +83,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Good condition; minor nicks/faint display coating wear; 84% battery health",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 639.0,
-            "seller": "Leonard",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
-            "total_usd": 639.0,
-            "url": "https://swappa.com/listing/view/LADY61014",
-            "why_good": "Active Swappa listing with Login to Buy; 13-inch MacBook Air M2, 16GB RAM, 512GB SSD, free US shipping, total $639."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
