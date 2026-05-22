@@ -1,53 +1,148 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-22T04:24:16.776427+00:00",
+  "finished_at": "2026-05-22T05:24:34.224117+00:00",
   "logs": [
-    "2026-05-22 00:17:15,635 INFO scalper run started 2026-05-22T04:17:15.634918+00:00",
-    "2026-05-22 00:17:15,636 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-22 00:18:47,349 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-22 00:18:47,349 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-22 00:20:05,241 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-22 00:20:05,241 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-22 00:21:02,988 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507",
-    "2026-05-22 00:21:02,988 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507",
-    "2026-05-22 00:21:15,047 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507",
-    "2026-05-22 00:21:15,048 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-05-22 00:21:15,048 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-22 00:22:46,071 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-22 00:22:46,072 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-22 00:24:16,776 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-22 01:17:16,260 INFO scalper run started 2026-05-22T05:17:16.259925+00:00",
+    "2026-05-22 01:17:16,262 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-22 01:18:11,164 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-22 01:18:11,165 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-22 01:19:54,534 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-22 01:19:54,534 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-22 01:21:33,561 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306505336564",
+    "2026-05-22 01:21:33,562 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Mac14,2 A2681 13 M2 8-Core 16GB 512GB Gray 2022 url=https://www.ebay.com/itm/306505336564",
+    "2026-05-22 01:21:46,708 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple Mac14,2 A2681 13 M2 8-Core 16GB 512GB Gray 2022 url=https://www.ebay.com/itm/306505336564",
+    "2026-05-22 01:21:46,708 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-22 01:21:46,709 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-22 01:23:03,374 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-22 01:23:03,375 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-22 01:24:34,223 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-22T04:17:15.634918+00:00",
+  "started_at": "2026-05-22T05:17:16.259925+00:00",
   "targets": [
     {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
       "deals": [],
       "id": "nzxt-h1-v2",
       "max_price_usd": 200,
-      "name": "NZXT H1 V2 mini-ITX case bundle"
+      "name": "NZXT H1 V2 mini-ITX case bundle",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
     },
     {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
       "deals": [],
       "id": "bang-olufsen-charging-case",
       "max_price_usd": 100,
-      "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case"
+      "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
     },
     {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
       "deals": [],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
-      "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM"
+      "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
     },
     {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
       "deals": [],
       "id": "mac-mini-m1-16gb",
       "max_price_usd": 400,
-      "name": "M1 Mac mini with 16GB RAM"
+      "name": "M1 Mac mini with 16GB RAM",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
     },
     {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
       "deals": [],
       "id": "mac-mini-m2-newer-16gb",
       "max_price_usd": 550,
-      "name": "M2-or-newer Mac mini with 16GB+ RAM"
+      "name": "M2-or-newer Mac mini with 16GB+ RAM",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
     }
   ]
 }

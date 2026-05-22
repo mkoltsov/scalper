@@ -35,7 +35,7 @@ function buildTarget() {
       `The total price including shipping is less than ${price} USD.`,
       "It is currently available to buy.",
       "The listing URL opens as an active listing page.",
-      "It ships directly to the United States; local pickup only is not acceptable."
+      "It ships directly to at least one configured destination; local pickup only is not acceptable unless a configured local-marketplace exception applies."
     ],
     search_queries: queries
   };
