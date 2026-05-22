@@ -34,13 +34,19 @@ USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "Chrome/124.0 Safari/537.36"
 )
+DEFAULT_SHIPPING_DESTINATIONS = ["United States"]
+POLAND_MARKETPLACE_HINTS = [
+    "European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.",
+    "Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.",
+    "Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options.",
+]
 LOCAL_ONLY_DOMAINS = {
     "craigslist.org",
     "facebook.com",
     "marketplace.facebook.com",
     "nextdoor.com",
 }
-NO_US_SHIPPING_DOMAINS = {
+NO_DIRECT_SHIPPING_DOMAINS = {
     "jp.mercari.com",
 }
 LOCAL_MARKETPLACE_DOMAINS = {
@@ -51,6 +57,24 @@ ANTI_BOT_HTTP_ERROR_DOMAINS = {
     "ebay.co.uk",
     "ebay.de",
     "ebay.ca",
+    "ebay.pl",
+    "ebay.fr",
+    "ebay.it",
+    "ebay.es",
+    "ebay.nl",
+    "ebay.ie",
+    "ebay.at",
+    "ebay.be",
+    "ebay.ch",
+    "allegro.pl",
+    "allegrolokalnie.pl",
+    "olx.pl",
+    "catawiki.com",
+    "kleinanzeigen.de",
+    "marktplaats.nl",
+    "leboncoin.fr",
+    "subito.it",
+    "wallapop.com",
 }
 BAD_STATUS_PATTERNS = [
     (r"\b(?:sold out|out of stock|currently unavailable|no longer available|not available|unavailable)\b", "unavailable"),
@@ -62,19 +86,15 @@ BAD_STATUS_PATTERNS = [
     (r"\btemporarily\s+out\s+of\s+stock\b", "unavailable"),
     (r"\b404\s+error\b|\bpage\s+not\s+found\b", "not_found"),
 ]
-NO_US_SHIPPING_PATTERNS = [
+NO_DIRECT_SHIPPING_PATTERNS = [
     (r"\blocal\s+pickup\s+only\b|\bpickup\s+only\b", "local_pickup_only"),
-    (r"\bno\s+shipping\b", "no_shipping"),
-    (
-        r"\b(?:does\s+not|doesn't|will\s+not|won't|may\s+not)\s+ship\s+to\s+"
-        r"(?:the\s+)?(?:us|u\.s\.|usa|united\s+states)\b",
-        "no_us_shipping",
-    ),
-    (
-        r"\bshipping\s+(?:is\s+)?(?:not\s+available|unavailable)\s+"
-        r"(?:to|for)\s+(?:the\s+)?(?:us|u\.s\.|usa|united\s+states)\b",
-        "no_us_shipping",
-    ),
+    (r"\bcollection\s+only\b|\blocal\s+collection\s+only\b", "local_pickup_only"),
+    (r"\bno\s+(?:shipping|delivery)\b(?!\s+to\b)", "no_shipping"),
+    (r"\btylko\s+odbi[oó]r\s+osobisty\b|\bodbi[oó]r\s+osobisty\s+tylko\b", "local_pickup_only"),
+    (r"\bnur\s+abholung\b|\babholung\s+nur\b", "local_pickup_only"),
+    (r"\bretrait\s+uniquement\b|\bremise\s+en\s+main\s+propre\s+uniquement\b", "local_pickup_only"),
+    (r"\bsolo\s+ritiro\b|\britiro\s+solo\b", "local_pickup_only"),
+    (r"\bsolo\s+recogida\b|\brecogida\s+local\s+solamente\b", "local_pickup_only"),
 ]
 BROWSER_BLOCKED_PATTERNS = [
     (r"\baccess\s+denied\b", "browser_access_denied"),
@@ -230,6 +250,64 @@ def save_state(path: Path, state: dict[str, Any]) -> None:
     tmp_path.replace(path)
 
 
+def _list_config_value(value: Any) -> list[str]:
+    if value is None:
+        return []
+    if isinstance(value, str):
+        return [part.strip() for part in re.split(r"[,;]", value) if part.strip()]
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    return [str(value).strip()] if str(value).strip() else []
+
+
+def shipping_destinations(target: dict[str, Any], config: dict[str, Any] | None = None) -> list[str]:
+    raw = target.get("shipping_destinations")
+    if raw is None and config is not None:
+        raw = config.get("shipping_destinations")
+    destinations = _list_config_value(raw)
+    return destinations or list(DEFAULT_SHIPPING_DESTINATIONS)
+
+
+def _human_list(items: list[str]) -> str:
+    if not items:
+        return ""
+    if len(items) == 1:
+        return items[0]
+    if len(items) == 2:
+        return f"{items[0]} or {items[1]}"
+    return f"{', '.join(items[:-1])}, or {items[-1]}"
+
+
+def _destination_enabled(destinations: list[str], destination: str) -> bool:
+    target = _destination_slug(destination)
+    return any(_destination_slug(item) == target for item in destinations)
+
+
+def marketplace_search_hints(target: dict[str, Any], config: dict[str, Any]) -> list[str]:
+    hints = _list_config_value(config.get("marketplace_search_hints"))
+    hints.extend(_list_config_value(target.get("marketplace_search_hints")))
+    if _destination_enabled(shipping_destinations(target, config), "Poland"):
+        hints.extend(POLAND_MARKETPLACE_HINTS)
+    return list(dict.fromkeys(hints))
+
+
+def expanded_search_queries(target: dict[str, Any], config: dict[str, Any]) -> list[str]:
+    queries = _list_config_value(target.get("search_queries"))
+    if _destination_enabled(shipping_destinations(target, config), "Poland"):
+        name = str(target.get("name") or target.get("id") or "").strip()
+        if name:
+            queries.extend(
+                [
+                    f"{name} Allegro dostawa",
+                    f"{name} OLX wysylka",
+                    f"{name} eBay Europe delivery to Poland",
+                    f"{name} eBay Germany ships to Poland",
+                    f"{name} Catawiki delivery Poland",
+                ]
+            )
+    return list(dict.fromkeys(queries))
+
+
 def local_marketplace_settings(config: dict[str, Any]) -> dict[str, Any] | None:
     local = config.get("local_marketplaces", {})
     offerup = local.get("offerup", {})
@@ -241,6 +319,10 @@ def local_marketplace_settings(config: dict[str, Any]) -> dict[str, Any] | None:
 def build_prompt(target: dict[str, Any], max_results: int, config: dict[str, Any]) -> str:
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     offerup = local_marketplace_settings(config)
+    destinations = shipping_destinations(target, config)
+    destination_label = _human_list(destinations)
+    search_queries = expanded_search_queries(target, config)
+    marketplace_hints = marketplace_search_hints(target, config)
     local_rule = ""
     if offerup:
         local_rule = (
@@ -256,8 +338,11 @@ You are a precise deal-finding automation. Use live web_search.
 Current UTC date: {today}
 Target id: {target["id"]}
 Target name: {target["name"]}
-Maximum total price: ${target["max_price_usd"]} USD, including shipping.
+Maximum total price: ${target["max_price_usd"]} USD, including shipping or delivery to {destination_label}.
 Usual market price estimate: ${target.get("usual_market_price_usd", "unknown")} USD.
+Configured shipping destinations:
+{json.dumps(destinations, indent=2)}
+
 Search intent:
 {target["search_intent"]}
 
@@ -271,7 +356,10 @@ Reject text patterns. Exclude a listing if it matches any of these:
 {json.dumps(target.get("reject_patterns", []), indent=2)}
 
 Suggested search queries:
-{json.dumps(target.get("search_queries", []), indent=2)}
+{json.dumps(search_queries, indent=2)}
+
+Marketplace search coverage:
+{json.dumps(marketplace_hints, indent=2)}
 {local_rule}
 
 Return only strict JSON. Do not wrap it in Markdown. Do not include prose.
@@ -292,7 +380,9 @@ Schema:
       "availability": "available",
       "listing_status": "available",
       "ships_to_us": true,
-      "shipping_destination": "United States",
+      "ships_to_destination": true,
+      "shipping_destination": "{destination_label}",
+      "delivery_country": "{destinations[0]}",
       "why_good": "short reason this matches the criteria",
       "confidence": 0.0
     }}
@@ -302,9 +392,11 @@ Schema:
 Rules:
 - Include at most {max_results} deals.
 - Include only listings that satisfy every acceptance criterion.
+- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: {destination_label}.
 - Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
-- Use total_usd = item price plus shipping. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal US shipping still keeps it below the limit.
-- Include only listings that ship directly to the United States, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.
+- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to {destination_label} still keeps it below the limit.
+- Include only listings that ship or deliver directly to at least one configured destination: {destination_label}, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.
+- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.
 - Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
 - Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
 - Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
@@ -456,20 +548,88 @@ def _local_pickup_allowed(url: str, config: dict[str, Any] | None = None) -> boo
     return _domain_matches(_host_from_url(url), LOCAL_MARKETPLACE_DOMAINS)
 
 
-def _truthy_shipping_to_us(value: Any) -> bool | None:
+def _destination_slug(destination: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "_", destination.strip().lower()).strip("_")
+    if slug in {"us", "u_s", "u_s_a", "usa", "united_states_of_america"}:
+        return "united_states"
+    if slug in {"pl", "polska"}:
+        return "poland"
+    return slug
+
+
+def _destination_name_pattern(destination: str) -> str:
+    slug = _destination_slug(destination)
+    if slug == "united_states":
+        return r"(?:us|u\.s\.|u\.s\.a\.|usa|united\s+states|stany\s+zjednoczone)"
+    if slug == "poland":
+        return r"(?:poland|polska|polski|do\s+polski)"
+    return re.escape(destination.strip().lower()).replace(r"\ ", r"\s+")
+
+
+def _destination_shipping_keys(destination: str) -> list[str]:
+    slug = _destination_slug(destination)
+    keys = [f"ships_to_{slug}", f"delivers_to_{slug}", f"delivery_to_{slug}"]
+    if slug == "united_states":
+        keys.extend(["ships_to_us", "delivers_to_us", "delivery_to_us"])
+    if slug == "poland":
+        keys.extend(["ships_to_pl", "delivers_to_pl", "delivery_to_pl"])
+    return keys
+
+
+def _no_shipping_to_destination_patterns(destination: str) -> list[tuple[str, str]]:
+    slug = _destination_slug(destination)
+    name = _destination_name_pattern(destination)
+    patterns = [
+        (
+            rf"\b(?:does\s+not|doesn't|will\s+not|won't|may\s+not|cannot|can't)\s+"
+            rf"(?:ship|deliver|send)\s+to\s+(?:the\s+)?{name}\b",
+            f"no_{slug}_shipping",
+        ),
+        (
+            rf"\b(?:no|without)\s+(?:shipping|delivery)\s+to\s+(?:the\s+)?{name}\b",
+            f"no_{slug}_shipping",
+        ),
+        (
+            rf"\b(?:shipping|delivery)\s+(?:is\s+)?(?:not\s+available|unavailable)\s+"
+            rf"(?:to|for)\s+(?:the\s+)?{name}\b",
+            f"no_{slug}_shipping",
+        ),
+    ]
+    if slug == "poland":
+        patterns.extend(
+            [
+                (r"\b(?:nie\s+wysy(?:l|ł)a(?:m)?|brak\s+wysy(?:l|ł)ki|bez\s+wysy(?:l|ł)ki)\s+do\s+polsk[ai]\b", "no_poland_shipping"),
+                (r"\bdostawa\s+(?:do\s+polski\s+)?(?:niedost[ęe]pna|niemo[żz]liwa)\b", "no_poland_shipping"),
+            ]
+        )
+    return patterns
+
+
+def _truthy_bool_value(value: Any) -> bool | None:
     if value is None or value == "":
         return None
     if isinstance(value, bool):
         return value
 
     text = str(value).strip().lower()
-    if text in {"true", "yes", "y", "1", "ships", "ships to us", "ships to united states"}:
+    if text in {"true", "yes", "y", "1", "ships", "shipping available", "delivery available"}:
         return True
     if text in {"false", "no", "n", "0"}:
         return False
-    if any(re.search(pattern, text, re.IGNORECASE) for pattern, _ in NO_US_SHIPPING_PATTERNS):
+    return None
+
+
+def _truthy_shipping_to_destination(value: Any, destination: str) -> bool | None:
+    simple = _truthy_bool_value(value)
+    if simple is not None:
+        return simple
+
+    text = str(value).strip().lower()
+    if _pattern_reason(NO_DIRECT_SHIPPING_PATTERNS, text):
         return False
-    if re.search(r"\b(?:us|u\.s\.|usa|united states)\b", text, re.IGNORECASE):
+    if _pattern_reason(_no_shipping_to_destination_patterns(destination), text):
+        return False
+    if re.search(rf"\b{_destination_name_pattern(destination)}\b", text, re.IGNORECASE):
         return True
     return None
 
@@ -481,15 +641,69 @@ def _pattern_reason(patterns: list[tuple[str, str]], text: str) -> str | None:
     return None
 
 
+def _shipping_text_rejection_reason(target: dict[str, Any], text: str, config: dict[str, Any] | None = None) -> str | None:
+    generic_reason = _pattern_reason(NO_DIRECT_SHIPPING_PATTERNS, text)
+    if generic_reason:
+        return generic_reason
+
+    destinations = shipping_destinations(target, config)
+    blocked_destinations = [
+        destination
+        for destination in destinations
+        if _pattern_reason(_no_shipping_to_destination_patterns(destination), text)
+    ]
+    if len(blocked_destinations) == len(destinations):
+        return "no_configured_destination_shipping"
+    return None
+
+
+def _shipping_status_for_target(target: dict[str, Any], raw: dict[str, Any], config: dict[str, Any] | None = None) -> bool | None:
+    destinations = shipping_destinations(target, config)
+    generic_false = False
+    explicit_negative_destinations: set[str] = set()
+
+    for field in ("ships_to_destination", "ships_to_configured_destination", "ships_to_allowed_destination"):
+        status = _truthy_bool_value(raw.get(field))
+        if status is True:
+            return True
+        if status is False:
+            generic_false = True
+
+    shipping_fields = (
+        "shipping_destination",
+        "delivery_country",
+        "delivery_destination",
+        "shipping_note",
+        "shipping",
+        "availability",
+        "listing_status",
+        "why_good",
+    )
+    for destination in destinations:
+        destination_key = _destination_slug(destination)
+        values = [raw.get(key) for key in _destination_shipping_keys(destination)]
+        values.extend(raw.get(field) for field in shipping_fields)
+        for value in values:
+            status = _truthy_shipping_to_destination(value, destination)
+            if status is True:
+                return True
+            if status is False:
+                explicit_negative_destinations.add(destination_key)
+
+    if generic_false or len(explicit_negative_destinations) == len(destinations):
+        return False
+    return None
+
+
 def _static_rejection_reason(target: dict[str, Any], raw: dict[str, Any], config: dict[str, Any] | None = None) -> str | None:
     url = str(raw.get("url") or "")
     host = _host_from_url(url)
     source = str(raw.get("source") or "").lower()
 
     if _domain_matches(host, LOCAL_ONLY_DOMAINS) or "craigslist" in source:
-        return "local_only_no_us_shipping"
-    if _domain_matches(host, NO_US_SHIPPING_DOMAINS):
-        return "known_no_us_shipping_domain"
+        return "local_only_no_configured_shipping"
+    if _domain_matches(host, NO_DIRECT_SHIPPING_DOMAINS):
+        return "known_no_direct_shipping_domain"
 
     status_text = " ".join(
         str(raw.get(field) or "")
@@ -519,17 +733,19 @@ def _static_rejection_reason(target: dict[str, Any], raw: dict[str, Any], config
     if status_reason:
         return status_reason
 
-    ships_to_us = _truthy_shipping_to_us(raw.get("ships_to_us"))
     local_pickup_allowed = _local_pickup_allowed(url, config)
-    if ships_to_us is False and not local_pickup_allowed:
-        return "no_us_shipping"
+    shipping_status = _shipping_status_for_target(target, raw, config)
+    if shipping_status is False and not local_pickup_allowed:
+        return "no_configured_destination_shipping"
 
-    shipping_reason = _pattern_reason(
-        NO_US_SHIPPING_PATTERNS,
+    shipping_reason = _shipping_text_rejection_reason(
+        target,
         " ".join(
             str(raw.get(field) or "")
             for field in (
                 "shipping_destination",
+                "delivery_country",
+                "delivery_destination",
                 "shipping_note",
                 "shipping",
                 "availability",
@@ -537,6 +753,7 @@ def _static_rejection_reason(target: dict[str, Any], raw: dict[str, Any], config
                 "why_good",
             )
         ),
+        config,
     )
     if shipping_reason and not local_pickup_allowed:
         return shipping_reason
@@ -550,7 +767,12 @@ def _page_text(html: str) -> str:
     return re.sub(r"\s+", " ", html).strip()
 
 
-def validate_listing_url(deal: Deal, timeout: int = 20) -> str | None:
+def validate_listing_url(
+    deal: Deal,
+    target: dict[str, Any] | None = None,
+    config: dict[str, Any] | None = None,
+    timeout: int = 20,
+) -> str | None:
     host = _host_from_url(deal.url)
     req = request.Request(
         deal.url,
@@ -593,7 +815,7 @@ def validate_listing_url(deal: Deal, timeout: int = 20) -> str | None:
     if status_reason:
         return status_reason
 
-    shipping_reason = _pattern_reason(NO_US_SHIPPING_PATTERNS, text)
+    shipping_reason = _shipping_text_rejection_reason(target or {}, text, config)
     if shipping_reason:
         return shipping_reason
 
@@ -612,7 +834,11 @@ def chromium_bin(config: dict[str, Any]) -> str | None:
     )
 
 
-def validate_listing_in_browser(deal: Deal, config: dict[str, Any]) -> str | None:
+def validate_listing_in_browser(
+    deal: Deal,
+    config: dict[str, Any],
+    target: dict[str, Any] | None = None,
+) -> str | None:
     browser_config = config.get("browser", {})
     if browser_config.get("enabled", True) is False:
         return None
@@ -666,7 +892,7 @@ def validate_listing_in_browser(deal: Deal, config: dict[str, Any]) -> str | Non
         if reason:
             return reason
     if not _local_pickup_allowed(deal.url, config):
-        shipping_reason = _pattern_reason(NO_US_SHIPPING_PATTERNS, text)
+        shipping_reason = _shipping_text_rejection_reason(target or {}, text, config)
         if shipping_reason:
             return shipping_reason
 
@@ -1045,7 +1271,7 @@ function buildTarget() {
       `The total price including shipping is less than ${price} USD.`,
       "It is currently available to buy.",
       "The listing URL opens as an active listing page.",
-      "It ships directly to the United States; local pickup only is not acceptable."
+      "It ships directly to at least one configured destination; local pickup only is not acceptable unless a configured local-marketplace exception applies."
     ],
     search_queries: queries
   };
@@ -1181,7 +1407,7 @@ def run(
             ]
             deals: list[Deal] = []
             for deal in candidate_deals:
-                link_rejection = validate_listing_url(deal)
+                link_rejection = validate_listing_url(deal, target, config)
                 if link_rejection:
                     if link_rejection.endswith("_antibot_unverified"):
                         LOGGER.info(
@@ -1200,7 +1426,7 @@ def run(
                             deal.url,
                         )
                         continue
-                browser_rejection = validate_listing_in_browser(deal, config)
+                browser_rejection = validate_listing_in_browser(deal, config, target)
                 if browser_rejection:
                     LOGGER.info(
                         "browser validation rejected target=%s reason=%s title=%s url=%s",

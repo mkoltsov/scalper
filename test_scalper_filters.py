@@ -9,8 +9,10 @@ import scalper
 
 TARGET = {
     "id": "test-target",
+    "name": "Test target",
     "max_price_usd": 100,
 }
+POLAND_CONFIG = {"shipping_destinations": ["United States", "Poland"]}
 CONFIG = scalper.load_json(scalper.DEFAULT_CONFIG)
 MACBOOK_TARGET = next(
     target for target in CONFIG["targets"] if target["id"] == "macbook-13-apple-silicon-16-24gb"
@@ -75,6 +77,60 @@ class ScalperFilterTests(unittest.TestCase):
             scalper.normalize_deal(
                 TARGET,
                 raw_deal(shipping_destination="Does not ship to United States"),
+            )
+        )
+
+    def test_accepts_poland_delivery_when_us_shipping_is_false(self) -> None:
+        self.assertIsNotNone(
+            scalper.normalize_deal(
+                TARGET,
+                raw_deal(
+                    url="https://allegro.pl/oferta/example",
+                    source="Allegro",
+                    ships_to_us=False,
+                    ships_to_destination=True,
+                    shipping_destination="Delivery to Poland",
+                ),
+                POLAND_CONFIG,
+            )
+        )
+
+    def test_accepts_poland_delivery_when_no_us_shipping_text_is_present(self) -> None:
+        self.assertIsNotNone(
+            scalper.normalize_deal(
+                TARGET,
+                raw_deal(
+                    ships_to_us=False,
+                    shipping_destination="No shipping to United States. Delivery to Poland available.",
+                ),
+                POLAND_CONFIG,
+            )
+        )
+
+    def test_rejects_when_no_configured_destination_shipping(self) -> None:
+        self.assertIsNone(
+            scalper.normalize_deal(
+                TARGET,
+                raw_deal(
+                    ships_to_us=False,
+                    ships_to_poland=False,
+                    shipping_destination="Japan only",
+                ),
+                POLAND_CONFIG,
+            )
+        )
+
+    def test_rejects_polish_local_pickup_only_without_shipping(self) -> None:
+        self.assertIsNone(
+            scalper.normalize_deal(
+                TARGET,
+                raw_deal(
+                    url="https://www.olx.pl/d/oferta/example",
+                    source="OLX",
+                    ships_to_us=False,
+                    shipping_destination="Tylko odbior osobisty w Warszawie",
+                ),
+                POLAND_CONFIG,
             )
         )
 
@@ -270,6 +326,45 @@ class ScalperFilterTests(unittest.TestCase):
             mock.patch.object(scalper.subprocess, "run", return_value=completed),
         ):
             self.assertIsNone(scalper.validate_listing_in_browser(deal, config))
+
+    def test_browser_validation_allows_poland_even_when_us_shipping_unavailable(self) -> None:
+        deal = scalper.normalize_deal(
+            TARGET,
+            raw_deal(
+                title="B&O Beoplay EX charging case",
+                ships_to_us=False,
+                ships_to_destination=True,
+                shipping_destination="Delivery to Poland",
+            ),
+            POLAND_CONFIG,
+        )
+        self.assertIsNotNone(deal)
+        completed = scalper.subprocess.CompletedProcess(
+            args=["chromium"],
+            returncode=0,
+            stdout=(
+                "<html><body><h1>B&O Beoplay EX charging case</h1>"
+                "<p>Does not ship to United States. Delivery to Poland available.</p>"
+                "<p>Original charging case in good condition, active buy now listing.</p>"
+                "</body></html>"
+            ),
+            stderr="",
+        )
+        with (
+            mock.patch.object(scalper, "chromium_bin", return_value="/usr/bin/chromium"),
+            mock.patch.object(scalper.subprocess, "run", return_value=completed),
+        ):
+            self.assertIsNone(scalper.validate_listing_in_browser(deal, POLAND_CONFIG, TARGET))
+
+    def test_prompt_expands_poland_marketplaces(self) -> None:
+        prompt = scalper.build_prompt(
+            {**TARGET, "search_intent": "Find a test item.", "search_queries": ["test item"]},
+            3,
+            POLAND_CONFIG,
+        )
+        self.assertIn("Allegro", prompt)
+        self.assertIn("OLX.pl", prompt)
+        self.assertIn("eBay Europe delivery to Poland", prompt)
 
     def test_ebay_antibot_http_result_is_inconclusive_reason(self) -> None:
         self.assertTrue("http_403_antibot_unverified".endswith("_antibot_unverified"))
