@@ -1,13 +1,16 @@
-2026-05-23 13:17:15,104 INFO scalper run started 2026-05-23T17:17:15.104784+00:00
-2026-05-23 13:17:15,106 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-23 13:19:37,630 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-23 13:19:37,631 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-23 13:22:10,752 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-23 13:22:10,752 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-23 13:24:43,414 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-23 13:24:43,414 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-23 13:24:43,415 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-23 13:27:15,039 INFO rejected deal target=mac-mini-m1-16gb reason=http_403 title=Apple Mac Mini M1 8-Core 3.2Ghz 16GB RAM 512GB SSD A2348 2020 Very Good url=https://www.ebay.com.au/itm/127395277812
-2026-05-23 13:27:15,039 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-23 13:27:15,040 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-23 13:29:21,416 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-23 14:17:14,864 INFO scalper run started 2026-05-23T18:17:14.863977+00:00
+2026-05-23 14:17:14,866 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-23 14:20:30,564 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-23 14:20:30,565 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-23 14:23:24,117 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.co.uk/itm/147270130390
+2026-05-23 14:23:24,118 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen Beoplay EX Wireless Bluetooth ANC In-Ear CHARGER CASE ONLY url=https://www.ebay.co.uk/itm/147270130390
+2026-05-23 14:23:37,501 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen Beoplay EX Wireless Bluetooth ANC In-Ear CHARGER CASE ONLY url=https://www.ebay.co.uk/itm/147270130390
+2026-05-23 14:23:37,501 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-23 14:23:37,502 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-23 14:26:30,997 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-23 14:26:30,997 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-23 14:26:30,998 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-23 14:28:29,004 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-23 14:28:29,005 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-23 14:30:31,612 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_404 title=Apple Mac mini M2 Pro (16GB RAM, 512GB SSD, 16-core GPU) with Bonus Mount url=https://www.oxbridgeic.co.uk/products/apple-mac-mini-m2-pro-16gb-ram-512gb-ssd-16-core-gpu-with-bo/22621136/
+2026-05-23 14:30:31,612 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
