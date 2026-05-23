@@ -1,14 +1,15 @@
-2026-05-22 19:17:15,657 INFO scalper run started 2026-05-22T23:17:15.657323+00:00
-2026-05-22 19:17:15,659 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-22 19:20:03,564 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-22 19:20:03,565 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-22 19:23:40,328 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-22 19:23:40,328 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-22 19:26:54,893 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-22 19:26:54,894 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-22 19:26:54,894 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-22 19:29:02,951 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-22 19:29:02,952 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-22 19:31:39,435 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html
-2026-05-22 19:31:40,071 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
-2026-05-22 19:31:40,071 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-22 20:17:15,590 INFO scalper run started 2026-05-23T00:17:15.590647+00:00
+2026-05-22 20:17:15,592 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-22 20:19:23,928 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-22 20:19:23,928 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-22 20:22:12,650 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-22 20:22:12,650 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-22 20:24:35,086 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507
+2026-05-22 20:24:35,086 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
+2026-05-22 20:24:48,094 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
+2026-05-22 20:24:51,472 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-22 20:24:51,473 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-22 20:24:51,473 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-22 20:28:31,684 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-22 20:28:31,685 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-22 20:31:06,629 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
