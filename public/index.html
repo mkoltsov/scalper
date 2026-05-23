@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-05-23T03:31:20.236941+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-05-23T04:30:20.192924+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -79,6 +79,14 @@
             <section class="target">
               <div class="target-head">
                 <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>M1 Mac mini with 16GB RAM</h1>
                 <span>1 live match</span>
               </div>
               
@@ -86,8 +94,8 @@
                 
                 <div class="metric">
                   <span>US best</span>
-                  <strong>$639.00</strong>
-                  <small>Swappa</small>
+                  <strong>$325.00</strong>
+                  <small>eBay</small>
                 </div>
     
                 
@@ -110,9 +118,9 @@
                 <h2>US</h2>
                 
                 <article class="deal">
-                  <div class="meta"><span class="badge">US</span> Swappa · $639.00 · United States</div>
-                  <h2><a href="https://swappa.com/listing/view/LADY61014" rel="nofollow noopener">MacBook Air 2022 (M2) - 13&quot; - 512GB, Midnight, 16GB, Apple M2</a></h2>
-                  <p>Direct Swappa listing shows 13-inch M2 MacBook Air with 16GB RAM and 512GB SSD, approved listing, PayPal, and free US shipping under $650.</p>
+                  <div class="meta"><span class="badge">US</span> eBay · $325.00 · United States</div>
+                  <h2><a href="https://www.ebay.com/itm/197571318869" rel="nofollow noopener">2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348</a></h2>
+                  <p>M1 Mac mini desktop with 16GB RAM and 512GB SSD; Buy It Now/free shipping keeps total under $400.</p>
                 </article>
     
               </div>
@@ -122,14 +130,6 @@
                 <p class="empty">No qualifying listings in this market.</p>
               </div>
     
-            </section>
-            
-            <section class="target">
-              <div class="target-head">
-                <h1>M1 Mac mini with 16GB RAM</h1>
-                <span>0 live matches</span>
-              </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
             </section>
             
             <section class="target">
@@ -187,21 +187,24 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>13 lines published</span>
+        <span>16 lines published</span>
       </div>
-      <pre>2026-05-22 23:17:16,418 INFO scalper run started 2026-05-23T03:17:16.418267+00:00
-2026-05-22 23:17:16,420 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-22 23:19:32,091 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-22 23:19:32,092 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-22 23:21:58,825 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-22 23:21:58,826 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-22 23:25:03,372 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/hardwareswap/comments/1tbfpzq/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
-2026-05-22 23:25:03,372 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-22 23:25:03,373 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-22 23:25:03,374 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-22 23:27:53,895 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-22 23:27:53,896 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-22 23:31:20,236 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
+      <pre>2026-05-23 00:17:16,940 INFO scalper run started 2026-05-23T04:17:16.940239+00:00
+2026-05-23 00:17:16,942 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-23 00:19:26,030 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-23 00:19:26,031 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-23 00:22:04,229 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-23 00:22:04,230 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-23 00:24:59,517 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-05-23 00:24:59,518 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-23 00:27:42,592 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/197571318869
+2026-05-23 00:27:42,593 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348 url=https://www.ebay.com/itm/197571318869
+2026-05-23 00:27:50,737 INFO target=mac-mini-m1-16gb qualifying_deals=1
+2026-05-23 00:27:50,737 INFO already notified target=mac-mini-m1-16gb market=us total=325.00 url=https://www.ebay.com/itm/197571318869
+2026-05-23 00:27:50,738 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-23 00:30:19,686 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html
+2026-05-23 00:30:20,192 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
+2026-05-23 00:30:20,192 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
