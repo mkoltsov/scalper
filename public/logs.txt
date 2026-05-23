@@ -1,12 +1,15 @@
-2026-05-23 09:17:15,484 INFO scalper run started 2026-05-23T13:17:15.484515+00:00
-2026-05-23 09:17:15,486 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-23 09:19:25,419 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-23 09:19:25,420 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-23 09:23:13,478 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-23 09:23:13,479 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-23 09:26:46,714 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-23 09:26:46,714 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-23 09:26:46,715 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-23 09:28:43,966 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-23 09:28:43,967 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-23 09:31:00,535 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-23 10:17:14,904 INFO scalper run started 2026-05-23T14:17:14.904473+00:00
+2026-05-23 10:17:14,906 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-23 10:19:29,035 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-23 10:19:29,036 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-23 10:21:18,733 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-23 10:21:18,734 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-23 10:25:18,046 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/hardwareswap/comments/1tbfpzq/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
+2026-05-23 10:25:21,427 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-23 10:25:21,428 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-23 10:25:21,428 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-23 10:28:29,866 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-23 10:28:29,867 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-23 10:31:03,518 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html
+2026-05-23 10:31:04,033 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
+2026-05-23 10:31:04,034 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
