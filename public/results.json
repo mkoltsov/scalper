@@ -1,23 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-23T07:31:57.028993+00:00",
+  "finished_at": "2026-05-23T08:29:45.237473+00:00",
   "logs": [
-    "2026-05-23 03:17:16,232 INFO scalper run started 2026-05-23T07:17:16.232032+00:00",
-    "2026-05-23 03:17:16,234 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-23 03:21:01,351 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-23 03:21:01,351 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-23 03:23:30,542 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-23 03:23:30,543 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-23 03:26:27,550 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2",
-    "2026-05-23 03:26:27,551 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=549.00 url=https://swappa.com/listing/view/LZKV53541",
-    "2026-05-23 03:26:27,551 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=618.00 url=https://swappa.com/listing/view/LZMT66254",
-    "2026-05-23 03:26:27,551 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-23 03:28:49,113 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-23 03:28:49,118 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-23 03:31:57,028 INFO browser validation rejected target=mac-mini-m2-newer-16gb reason=unavailable title=Restored Apple Mac mini M2 Pro 10-Core CPU 16GB RAM 512GB SSD - Silver 2023 Like New url=https://www.walmart.com/ip/Restored-Apple-Mac-mini-M2-Pro-10-Core-CPU-16GB-RAM-512GB-SSD-Silver-2023-Like-New-Refurbished/15799704149",
-    "2026-05-23 03:31:57,028 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-23 04:17:14,875 INFO scalper run started 2026-05-23T08:17:14.875024+00:00",
+    "2026-05-23 04:17:14,877 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-23 04:19:48,070 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-23 04:19:48,071 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-23 04:21:43,230 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-23 04:21:43,231 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-23 04:24:56,543 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/298270081707",
+    "2026-05-23 04:24:56,544 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Starlight 2022 M2 8-Core 10-Core GPU 16GB 512GB SSD Hinge Split url=https://www.ebay.com/itm/298270081707",
+    "2026-05-23 04:25:07,775 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Starlight 2022 M2 8-Core 10-Core GPU 16GB 512GB SSD Hinge Split url=https://www.ebay.com/itm/298270081707",
+    "2026-05-23 04:25:07,776 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-23 04:25:07,776 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-23 04:27:49,033 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-23 04:27:49,034 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-23 04:29:45,237 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-23T07:17:16.232032+00:00",
+  "started_at": "2026-05-23T08:17:14.875024+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -73,79 +73,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Fair",
-            "confidence": 0.9,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 549.0,
-            "seller": "GadgetPickup",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Air 2022 - 13\" - Apple M2, Midnight, 512GB, 16GB",
-            "total_usd": 549.0,
-            "url": "https://swappa.com/listing/view/LZKV53541",
-            "why_good": "13-inch M2 MacBook Air with 16GB RAM and 512GB storage; listing page shows Approved/Buy Now and free US shipping."
-          },
-          {
-            "availability": "available",
-            "condition": "Mint",
-            "confidence": 0.88,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 618.0,
-            "seller": "Mark G.",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Air 2022 - 13\" - Apple M2, Gray, 512GB, 16GB",
-            "total_usd": 618.0,
-            "url": "https://swappa.com/listing/view/LZMT66254",
-            "why_good": "13-inch M2 MacBook Air with 16GB RAM and 512GB storage; listing page shows Approved/Buy Now and free US shipping."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Fair",
-          "confidence": 0.9,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 549.0,
-          "seller": "GadgetPickup",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 2022 - 13\" - Apple M2, Midnight, 512GB, 16GB",
-          "total_usd": 549.0,
-          "url": "https://swappa.com/listing/view/LZKV53541",
-          "why_good": "13-inch M2 MacBook Air with 16GB RAM and 512GB storage; listing page shows Approved/Buy Now and free US shipping."
-        },
-        {
-          "availability": "available",
-          "condition": "Mint",
-          "confidence": 0.88,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 618.0,
-          "seller": "Mark G.",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 2022 - 13\" - Apple M2, Gray, 512GB, 16GB",
-          "total_usd": 618.0,
-          "url": "https://swappa.com/listing/view/LZMT66254",
-          "why_good": "13-inch M2 MacBook Air with 16GB RAM and 512GB storage; listing page shows Approved/Buy Now and free US shipping."
-        }
-      ],
+      "deals": [],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -153,28 +83,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Fair",
-            "confidence": 0.9,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 549.0,
-            "seller": "GadgetPickup",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Air 2022 - 13\" - Apple M2, Midnight, 512GB, 16GB",
-            "total_usd": 549.0,
-            "url": "https://swappa.com/listing/view/LZKV53541",
-            "why_good": "13-inch M2 MacBook Air with 16GB RAM and 512GB storage; listing page shows Approved/Buy Now and free US shipping."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
