@@ -1,15 +1,18 @@
-2026-05-22 20:17:15,590 INFO scalper run started 2026-05-23T00:17:15.590647+00:00
-2026-05-22 20:17:15,592 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-22 20:19:23,928 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-22 20:19:23,928 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-22 20:22:12,650 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-22 20:22:12,650 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-22 20:24:35,086 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507
-2026-05-22 20:24:35,086 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
-2026-05-22 20:24:48,094 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
-2026-05-22 20:24:51,472 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-22 20:24:51,473 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-22 20:24:51,473 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-22 20:28:31,684 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-22 20:28:31,685 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-22 20:31:06,629 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-22 21:17:15,448 INFO scalper run started 2026-05-23T01:17:15.447951+00:00
+2026-05-22 21:17:15,450 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-22 21:18:58,202 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-22 21:18:58,203 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-22 21:22:39,056 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.co.uk/itm/147270130390
+2026-05-22 21:22:39,056 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen Beoplay EX Wireless Bluetooth ANC In-Ear CHARGER CASE ONLY url=https://www.ebay.co.uk/itm/147270130390
+2026-05-22 21:22:52,403 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen Beoplay EX Wireless Bluetooth ANC In-Ear CHARGER CASE ONLY url=https://www.ebay.co.uk/itm/147270130390
+2026-05-22 21:22:52,403 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-22 21:22:52,404 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-22 21:26:01,686 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507
+2026-05-22 21:26:01,687 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
+2026-05-22 21:26:14,108 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
+2026-05-22 21:26:14,109 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-05-22 21:26:14,109 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-22 21:28:23,146 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-22 21:28:23,146 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-22 21:30:34,056 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
+2026-05-22 21:30:34,056 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
