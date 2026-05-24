@@ -1,16 +1,13 @@
-2026-05-23 20:17:15,649 INFO scalper run started 2026-05-24T00:17:15.649300+00:00
-2026-05-23 20:17:15,652 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-23 20:20:00,154 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-23 20:20:00,155 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-23 20:22:26,968 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-23 20:22:26,969 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-23 20:26:19,861 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=http_403 title=MacBook Air (M2 series) 13" Apple M2 8-core GPU 16GB RAM 512GB SSD Silver url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-8-core-gpu-16gb-ram-ssd-512gb/bc33cac9-327f-4861-b88a-c55eb30fe414
-2026-05-23 20:26:23,375 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-23 20:26:23,375 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-23 20:26:23,376 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-23 20:29:02,220 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/187921738769
-2026-05-23 20:29:02,221 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=Apple Mac Mini 2020 A2348 M1 8 Core 16GB DDR4 512GB SSD Silver -FAIR/SEE url=https://www.ebay.com/itm/187921738769
-2026-05-23 20:29:14,615 INFO browser validation rejected target=mac-mini-m1-16gb reason=unavailable title=Apple Mac Mini 2020 A2348 M1 8 Core 16GB DDR4 512GB SSD Silver -FAIR/SEE url=https://www.ebay.com/itm/187921738769
-2026-05-23 20:29:14,616 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-23 20:29:14,617 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-23 20:31:59,253 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-23 21:17:16,554 INFO scalper run started 2026-05-24T01:17:16.554740+00:00
+2026-05-23 21:17:16,556 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-23 21:19:28,145 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-23 21:19:28,146 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-23 21:21:59,646 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-23 21:21:59,646 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-23 21:24:58,119 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-23 21:24:58,120 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-23 21:24:58,120 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-23 21:26:49,638 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-23 21:26:49,639 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-23 21:29:55,455 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
+2026-05-23 21:29:55,456 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
