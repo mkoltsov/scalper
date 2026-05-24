@@ -1,32 +1,24 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-24T08:29:57.978813+00:00",
+  "finished_at": "2026-05-24T09:29:04.682452+00:00",
   "logs": [
-    "2026-05-24 04:17:15,258 INFO scalper run started 2026-05-24T08:17:15.258248+00:00",
-    "2026-05-24 04:17:15,260 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-24 04:19:29,146 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-24 04:19:29,147 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-24 04:21:58,707 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137160733788",
-    "2026-05-24 04:21:58,708 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
-    "2026-05-24 04:22:11,547 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
-    "2026-05-24 04:22:11,547 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-24 04:22:11,547 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-24 04:24:57,910 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277774831152",
-    "2026-05-24 04:24:57,911 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13.6\" M2 3.49GHz 1TB NVME 16GB MC7U4LL/A Space Gray NO AC url=https://www.ebay.com/itm/277774831152",
-    "2026-05-24 04:25:09,936 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple MacBook Air 13.6\" M2 3.49GHz 1TB NVME 16GB MC7U4LL/A Space Gray NO AC url=https://www.ebay.com/itm/277774831152",
-    "2026-05-24 04:25:10,014 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507",
-    "2026-05-24 04:25:10,014 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507",
-    "2026-05-24 04:25:22,865 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507",
-    "2026-05-24 04:25:22,865 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-05-24 04:25:22,866 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-24 04:27:59,719 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/197571318869",
-    "2026-05-24 04:27:59,720 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=2020 Apple Mac Mini M1 8-Core CPU 8-Core GPU 16GB RAM 512GB SSD Silver A2348 url=https://www.ebay.com/itm/197571318869",
-    "2026-05-24 04:28:07,021 INFO target=mac-mini-m1-16gb qualifying_deals=1",
-    "2026-05-24 04:28:07,022 INFO already notified target=mac-mini-m1-16gb market=us total=325.00 url=https://www.ebay.com/itm/197571318869",
-    "2026-05-24 04:28:07,022 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-24 04:29:57,978 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-24 05:17:14,575 INFO scalper run started 2026-05-24T09:17:14.575758+00:00",
+    "2026-05-24 05:17:14,577 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-24 05:19:19,197 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-24 05:19:19,198 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-24 05:22:03,380 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-24 05:22:03,380 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-24 05:24:44,179 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306867229406",
+    "2026-05-24 05:24:44,179 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13\" M2 8-Core 24GB 512GB - Good READ DESC url=https://www.ebay.com/itm/306867229406",
+    "2026-05-24 05:24:56,395 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple Macbook Air 13\" M2 8-Core 24GB 512GB - Good READ DESC url=https://www.ebay.com/itm/306867229406",
+    "2026-05-24 05:24:56,395 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-24 05:24:56,396 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-24 05:27:28,169 INFO rejected deal target=mac-mini-m1-16gb reason=http_403 title=Apple Mac Mini M1 8-Core 3.2Ghz 16GB RAM 512GB SSD A2348 2020 Very Good url=https://www.ebay.com.au/itm/127395277812",
+    "2026-05-24 05:27:28,170 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-24 05:27:28,171 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-24 05:29:04,682 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-24T08:17:15.258248+00:00",
+  "started_at": "2026-05-24T09:17:14.575758+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -107,45 +99,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 325.0,
-            "seller": "frodo2k",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "mac-mini-m1-16gb",
-            "title": "2020 Apple Mac Mini M1 8-Core CPU 8-Core GPU 16GB RAM 512GB SSD Silver A2348",
-            "total_usd": 325.0,
-            "url": "https://www.ebay.com/itm/197571318869",
-            "why_good": "Opened eBay item page shows Buy It Now, used condition, Apple M1 Mac mini title with 16GB RAM and 512GB SSD, $325 with free shipping to the United States."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used",
-          "confidence": 0.82,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 325.0,
-          "seller": "frodo2k",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "mac-mini-m1-16gb",
-          "title": "2020 Apple Mac Mini M1 8-Core CPU 8-Core GPU 16GB RAM 512GB SSD Silver A2348",
-          "total_usd": 325.0,
-          "url": "https://www.ebay.com/itm/197571318869",
-          "why_good": "Opened eBay item page shows Buy It Now, used condition, Apple M1 Mac mini title with 16GB RAM and 512GB SSD, $325 with free shipping to the United States."
-        }
-      ],
+      "deals": [],
       "id": "mac-mini-m1-16gb",
       "max_price_usd": 400,
       "name": "M1 Mac mini with 16GB RAM",
@@ -153,28 +109,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 325.0,
-            "seller": "frodo2k",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "mac-mini-m1-16gb",
-            "title": "2020 Apple Mac Mini M1 8-Core CPU 8-Core GPU 16GB RAM 512GB SSD Silver A2348",
-            "total_usd": 325.0,
-            "url": "https://www.ebay.com/itm/197571318869",
-            "why_good": "Opened eBay item page shows Buy It Now, used condition, Apple M1 Mac mini title with 16GB RAM and 512GB SSD, $325 with free shipping to the United States."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
