@@ -1,13 +1,23 @@
-2026-05-24 03:17:16,760 INFO scalper run started 2026-05-24T07:17:16.759795+00:00
-2026-05-24 03:17:16,764 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-24 03:20:39,785 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-24 03:20:39,785 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-24 03:23:34,266 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-24 03:23:34,266 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-24 03:27:08,051 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-24 03:27:08,052 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-24 03:29:14,799 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-24 03:29:14,799 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-24 03:32:54,112 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html
-2026-05-24 03:32:54,512 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
-2026-05-24 03:32:54,513 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-24 04:17:15,258 INFO scalper run started 2026-05-24T08:17:15.258248+00:00
+2026-05-24 04:17:15,260 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-24 04:19:29,146 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-24 04:19:29,147 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-24 04:21:58,707 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137160733788
+2026-05-24 04:21:58,708 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788
+2026-05-24 04:22:11,547 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788
+2026-05-24 04:22:11,547 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-24 04:22:11,547 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-24 04:24:57,910 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277774831152
+2026-05-24 04:24:57,911 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13.6" M2 3.49GHz 1TB NVME 16GB MC7U4LL/A Space Gray NO AC url=https://www.ebay.com/itm/277774831152
+2026-05-24 04:25:09,936 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple MacBook Air 13.6" M2 3.49GHz 1TB NVME 16GB MC7U4LL/A Space Gray NO AC url=https://www.ebay.com/itm/277774831152
+2026-05-24 04:25:10,014 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507
+2026-05-24 04:25:10,014 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
+2026-05-24 04:25:22,865 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
+2026-05-24 04:25:22,865 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-05-24 04:25:22,866 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-24 04:27:59,719 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/197571318869
+2026-05-24 04:27:59,720 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=2020 Apple Mac Mini M1 8-Core CPU 8-Core GPU 16GB RAM 512GB SSD Silver A2348 url=https://www.ebay.com/itm/197571318869
+2026-05-24 04:28:07,021 INFO target=mac-mini-m1-16gb qualifying_deals=1
+2026-05-24 04:28:07,022 INFO already notified target=mac-mini-m1-16gb market=us total=325.00 url=https://www.ebay.com/itm/197571318869
+2026-05-24 04:28:07,022 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-24 04:29:57,978 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
