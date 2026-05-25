@@ -1,25 +1,22 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-25T13:37:18.545368+00:00",
+  "finished_at": "2026-05-25T14:33:11.474371+00:00",
   "logs": [
-    "2026-05-25 09:17:15,247 INFO scalper run started 2026-05-25T13:17:15.247862+00:00",
-    "2026-05-25 09:17:15,249 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-25 09:19:17,569 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-25 09:19:17,570 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-25 09:25:50,738 INFO target=bang-olufsen-charging-case qualifying_deals=1",
-    "2026-05-25 09:25:50,738 INFO new deal target=bang-olufsen-charging-case market=eu total=87.76 url=https://www.ebay.de/p/13057761708",
-    "2026-05-25 09:25:50,911 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-25 09:28:43,151 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=http_403 title=MacBook Air (M2 series) 13-inch Apple M2 8-core/10-core GPU 16GB RAM 512GB SSD Silver url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-10-core-gpu-16gb-ram-ssd-512gb/82e489d6-75f7-4359-8915-99cf72f49150",
-    "2026-05-25 09:28:43,277 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=http_403 title=MacBook Air (M2 series) 13-inch Apple M2 8-core/8-core GPU 16GB RAM 512GB SSD Silver url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-8-core-gpu-16gb-ram-ssd-512gb/bc33cac9-327f-4861-b88a-c55eb30fe414",
-    "2026-05-25 09:28:46,783 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-25 09:28:46,784 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-05-25 09:28:46,784 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-25 09:33:27,841 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-25 09:33:27,842 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-25 09:37:18,544 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB/512GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-512gb-CID99-ID1atUDe.html?search_reason=search%7Corganic",
-    "2026-05-25 09:37:18,545 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-25 10:17:15,458 INFO scalper run started 2026-05-25T14:17:15.458500+00:00",
+    "2026-05-25 10:17:15,460 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-25 10:20:02,272 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-25 10:20:02,273 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-25 10:22:24,282 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-25 10:22:24,284 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-25 10:26:03,517 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-25 10:26:03,517 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014",
+    "2026-05-25 10:26:03,518 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-25 10:29:06,830 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-25 10:29:06,830 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-25 10:33:11,473 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html",
+    "2026-05-25 10:33:11,474 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-25T13:17:15.247862+00:00",
+  "started_at": "2026-05-25T14:17:15.458500+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -48,74 +45,22 @@
     },
     {
       "deal_groups": {
-        "eu": [
-          {
-            "availability": "available",
-            "condition": "Gebraucht",
-            "confidence": 0.78,
-            "delivery_country": "Poland",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 87.76,
-            "seller": "elektronikhandelch_0",
-            "shipping_usd": 0.0,
-            "source": "eBay.de",
-            "target_id": "bang-olufsen-charging-case",
-            "title": "Bang & Olufsen BeoPlay EX Bluetooth - Schwarz, nur Ladecase!",
-            "total_usd": 87.76,
-            "url": "https://www.ebay.de/p/13057761708",
-            "why_good": "my Master: exact BeoPlay EX charging case listing; EUR 74.99 with free international shipping, converted at about 1 EUR = 1.1703 USD."
-          }
-        ],
+        "eu": [],
         "other": [],
         "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Gebraucht",
-          "confidence": 0.78,
-          "delivery_country": "Poland",
-          "market_label": "EU/Europe",
-          "market_region": "eu",
-          "price_usd": 87.76,
-          "seller": "elektronikhandelch_0",
-          "shipping_usd": 0.0,
-          "source": "eBay.de",
-          "target_id": "bang-olufsen-charging-case",
-          "title": "Bang & Olufsen BeoPlay EX Bluetooth - Schwarz, nur Ladecase!",
-          "total_usd": 87.76,
-          "url": "https://www.ebay.de/p/13057761708",
-          "why_good": "my Master: exact BeoPlay EX charging case listing; EUR 74.99 with free international shipping, converted at about 1 EUR = 1.1703 USD."
-        }
-      ],
+      "deals": [],
       "id": "bang-olufsen-charging-case",
       "max_price_usd": 100,
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
       "regional_summary": {
         "best": {
-          "eu": {
-            "availability": "available",
-            "condition": "Gebraucht",
-            "confidence": 0.78,
-            "delivery_country": "Poland",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 87.76,
-            "seller": "elektronikhandelch_0",
-            "shipping_usd": 0.0,
-            "source": "eBay.de",
-            "target_id": "bang-olufsen-charging-case",
-            "title": "Bang & Olufsen BeoPlay EX Bluetooth - Schwarz, nur Ladecase!",
-            "total_usd": 87.76,
-            "url": "https://www.ebay.de/p/13057761708",
-            "why_good": "my Master: exact BeoPlay EX charging case listing; EUR 74.99 with free international shipping, converted at about 1 EUR = 1.1703 USD."
-          },
+          "eu": null,
           "other": null,
           "us": null
         },
         "counts": {
-          "eu": 1,
+          "eu": 0,
           "other": 0,
           "us": 0
         },
@@ -131,7 +76,7 @@
           {
             "availability": "available",
             "condition": "Good condition",
-            "confidence": 0.72,
+            "confidence": 0.74,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -140,10 +85,10 @@
             "shipping_usd": 0.0,
             "source": "Swappa",
             "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Air 2022 (M2) - 13-inch - 512GB, Midnight, 16GB, Apple M2",
+            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
             "total_usd": 639.0,
             "url": "https://swappa.com/listing/view/LADY61014",
-            "why_good": "Direct listing page showed approved 13-inch M2 MacBook Air with 16GB RAM, 512GB SSD, and free US shipping for $639."
+            "why_good": "13-inch MacBook Air with Apple M2, 16GB RAM, 512GB SSD, free US shipping, under $650 total."
           }
         ]
       },
@@ -151,7 +96,7 @@
         {
           "availability": "available",
           "condition": "Good condition",
-          "confidence": 0.72,
+          "confidence": 0.74,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -160,10 +105,10 @@
           "shipping_usd": 0.0,
           "source": "Swappa",
           "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 2022 (M2) - 13-inch - 512GB, Midnight, 16GB, Apple M2",
+          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
           "total_usd": 639.0,
           "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "Direct listing page showed approved 13-inch M2 MacBook Air with 16GB RAM, 512GB SSD, and free US shipping for $639."
+          "why_good": "13-inch MacBook Air with Apple M2, 16GB RAM, 512GB SSD, free US shipping, under $650 total."
         }
       ],
       "id": "macbook-13-apple-silicon-16-24gb",
@@ -176,7 +121,7 @@
           "us": {
             "availability": "available",
             "condition": "Good condition",
-            "confidence": 0.72,
+            "confidence": 0.74,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -185,10 +130,10 @@
             "shipping_usd": 0.0,
             "source": "Swappa",
             "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Air 2022 (M2) - 13-inch - 512GB, Midnight, 16GB, Apple M2",
+            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
             "total_usd": 639.0,
             "url": "https://swappa.com/listing/view/LADY61014",
-            "why_good": "Direct listing page showed approved 13-inch M2 MacBook Air with 16GB RAM, 512GB SSD, and free US shipping for $639."
+            "why_good": "13-inch MacBook Air with Apple M2, 16GB RAM, 512GB SSD, free US shipping, under $650 total."
           }
         },
         "counts": {
