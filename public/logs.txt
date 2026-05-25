@@ -1,14 +1,16 @@
-2026-05-25 17:17:16,611 INFO scalper run started 2026-05-25T21:17:16.611529+00:00
-2026-05-25 17:17:16,613 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-25 17:19:09,927 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-25 17:19:09,927 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-25 17:21:54,923 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-25 17:21:54,923 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-25 17:24:39,442 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-25 17:24:39,443 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-25 17:27:06,838 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-25 17:27:06,839 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-25 17:29:38,006 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
-2026-05-25 17:29:38,006 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-05-25 17:29:38,007 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-05-25 17:31:22,693 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-05-25 18:17:21,257 INFO scalper run started 2026-05-25T22:17:21.256893+00:00
+2026-05-25 18:17:21,291 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-25 18:19:42,721 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-25 18:19:42,724 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-25 18:22:03,201 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-25 18:22:03,201 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-25 18:27:06,803 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-25 18:27:06,804 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-25 18:27:06,805 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-25 18:30:24,309 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-25 18:30:24,310 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-25 18:34:19,796 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html
+2026-05-25 18:34:20,256 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
+2026-05-25 18:34:20,256 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-25 18:34:20,257 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-05-25 18:36:09,592 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
