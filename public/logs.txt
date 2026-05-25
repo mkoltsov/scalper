@@ -1,12 +1,16 @@
-2026-05-25 00:17:14,780 INFO scalper run started 2026-05-25T04:17:14.780150+00:00
-2026-05-25 00:17:14,782 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-25 00:22:52,201 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-25 00:22:52,202 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-25 00:25:13,340 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-25 00:25:13,341 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-25 00:27:59,642 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-25 00:27:59,642 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-25 00:27:59,643 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-25 00:31:17,224 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-25 00:31:17,225 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-25 00:33:53,650 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-25 01:17:16,239 INFO scalper run started 2026-05-25T05:17:16.239479+00:00
+2026-05-25 01:17:16,241 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-25 01:20:15,441 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-25 01:20:15,442 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-25 01:23:13,210 INFO target=bang-olufsen-charging-case qualifying_deals=1
+2026-05-25 01:23:13,210 INFO new deal target=bang-olufsen-charging-case market=eu total=86.95 url=https://www.ebay.de/p/13057761708
+2026-05-25 01:23:13,321 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-25 01:26:57,411 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=http_403 title=MacBook Air (M2 series) 13" • Apple M2 8-core - 8-core GPU • 512 GB • RAM 16GB • Silver url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-8-core-gpu-16gb-ram-ssd-512gb/bc33cac9-327f-4861-b88a-c55eb30fe414
+2026-05-25 01:26:57,412 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-05-25 01:26:57,412 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-25 01:31:29,100 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/267507017164
+2026-05-25 01:31:29,101 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=Apple Mac Mini (M1 Chip, 16GB Ram, 512GB SSD) Upgraded from Base Model url=https://www.ebay.com/itm/267507017164
+2026-05-25 01:31:36,470 INFO browser validation rejected target=mac-mini-m1-16gb reason=unavailable title=Apple Mac Mini (M1 Chip, 16GB Ram, 512GB SSD) Upgraded from Base Model url=https://www.ebay.com/itm/267507017164
+2026-05-25 01:31:36,470 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-25 01:31:36,471 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-25 01:33:54,092 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
