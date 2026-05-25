@@ -1,27 +1,22 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-25T10:31:12.293110+00:00",
+  "finished_at": "2026-05-25T11:31:19.253680+00:00",
   "logs": [
-    "2026-05-25 06:17:14,560 INFO scalper run started 2026-05-25T10:17:14.560023+00:00",
-    "2026-05-25 06:17:14,562 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-25 06:19:41,167 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-25 06:19:41,168 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-25 06:23:51,316 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137160733788",
-    "2026-05-25 06:23:51,317 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
-    "2026-05-25 06:24:03,562 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
-    "2026-05-25 06:24:03,562 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-25 06:24:03,563 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-25 06:26:01,947 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306627013511",
-    "2026-05-25 06:26:01,947 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13\" M2 Chip 8-Core 16GB RAM 512GB SSD 2022 Silver Very Good url=https://www.ebay.com/itm/306627013511",
-    "2026-05-25 06:26:14,505 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple MacBook Air 13\" M2 Chip 8-Core 16GB RAM 512GB SSD 2022 Silver Very Good url=https://www.ebay.com/itm/306627013511",
-    "2026-05-25 06:26:14,506 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-05-25 06:26:14,506 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-25 06:28:27,156 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-25 06:28:27,157 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-25 06:31:12,292 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html",
-    "2026-05-25 06:31:12,292 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
+    "2026-05-25 07:17:15,625 INFO scalper run started 2026-05-25T11:17:15.625856+00:00",
+    "2026-05-25 07:17:15,627 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-25 07:20:48,014 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-25 07:20:48,015 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-25 07:24:05,326 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-25 07:24:05,327 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-25 07:26:28,268 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-25 07:26:28,268 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014",
+    "2026-05-25 07:26:28,269 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-25 07:28:24,705 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-25 07:28:24,706 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-25 07:31:19,252 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB/512GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-512gb-CID99-ID1atUDe.html?search_reason=search%7Corganic",
+    "2026-05-25 07:31:19,253 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0"
   ],
-  "started_at": "2026-05-25T10:17:14.560023+00:00",
+  "started_at": "2026-05-25T11:17:15.625856+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -77,9 +72,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Good condition",
+            "confidence": 0.82,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 639.0,
+            "seller": "Leonard",
+            "shipping_usd": 0.0,
+            "source": "Swappa",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+            "total_usd": 639.0,
+            "url": "https://swappa.com/listing/view/LADY61014",
+            "why_good": "13-inch 2022 MacBook Air with Apple M2, 16GB RAM, 512GB SSD, listed at $639 with free US shipping."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Good condition",
+          "confidence": 0.82,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 639.0,
+          "seller": "Leonard",
+          "shipping_usd": 0.0,
+          "source": "Swappa",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+          "total_usd": 639.0,
+          "url": "https://swappa.com/listing/view/LADY61014",
+          "why_good": "13-inch 2022 MacBook Air with Apple M2, 16GB RAM, 512GB SSD, listed at $639 with free US shipping."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -87,12 +118,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Good condition",
+            "confidence": 0.82,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 639.0,
+            "seller": "Leonard",
+            "shipping_usd": 0.0,
+            "source": "Swappa",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+            "total_usd": 639.0,
+            "url": "https://swappa.com/listing/view/LADY61014",
+            "why_good": "13-inch 2022 MacBook Air with Apple M2, 16GB RAM, 512GB SSD, listed at $639 with free US shipping."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
