@@ -1,25 +1,25 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-26T19:32:22.484272+00:00",
+  "finished_at": "2026-05-26T20:31:43.395151+00:00",
   "logs": [
-    "2026-05-26 15:17:04,369 INFO scalper run started 2026-05-26T19:17:04.369698+00:00",
-    "2026-05-26 15:17:04,377 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-26 15:19:49,405 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-26 15:19:49,406 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-26 15:21:38,957 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-26 15:21:38,958 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-26 15:24:07,655 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507",
-    "2026-05-26 15:24:07,656 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507",
-    "2026-05-26 15:24:27,693 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507",
-    "2026-05-26 15:24:27,693 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-05-26 15:24:27,694 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-26 15:26:54,232 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-26 15:26:54,233 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-26 15:29:53,419 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-05-26 15:29:53,419 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-05-26 15:32:22,483 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-05-26 16:17:03,953 INFO scalper run started 2026-05-26T20:17:03.953588+00:00",
+    "2026-05-26 16:17:03,957 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-26 16:20:28,688 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-26 16:20:28,689 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-26 16:22:33,309 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-26 16:22:33,310 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-26 16:24:56,127 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306788889061",
+    "2026-05-26 16:24:56,128 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022 url=https://www.ebay.com/itm/306788889061",
+    "2026-05-26 16:25:13,270 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-26 16:25:13,270 INFO new deal target=macbook-13-apple-silicon-16-24gb market=us total=636.49 url=https://www.ebay.com/itm/306788889061",
+    "2026-05-26 16:25:13,424 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-26 16:27:19,892 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-26 16:27:19,892 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-26 16:29:58,170 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-05-26 16:29:58,171 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-05-26 16:31:43,394 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-05-26T19:17:04.369698+00:00",
+  "started_at": "2026-05-26T20:17:03.953588+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -75,9 +75,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; seller notes cracked/functionally degraded screen",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 636.49,
+            "seller": "Omaha Blue",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022",
+            "total_usd": 636.49,
+            "url": "https://www.ebay.com/itm/306788889061",
+            "why_good": "13-inch M2 MacBook Pro A2338/Mac14,7 with 16GB RAM and 512GB SSD; Buy It Now page shows free US shipping and auto coupon total $636.49. Screen is cracked."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; seller notes cracked/functionally degraded screen",
+          "confidence": 0.78,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 636.49,
+          "seller": "Omaha Blue",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022",
+          "total_usd": 636.49,
+          "url": "https://www.ebay.com/itm/306788889061",
+          "why_good": "13-inch M2 MacBook Pro A2338/Mac14,7 with 16GB RAM and 512GB SSD; Buy It Now page shows free US shipping and auto coupon total $636.49. Screen is cracked."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -85,12 +121,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; seller notes cracked/functionally degraded screen",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 636.49,
+            "seller": "Omaha Blue",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022",
+            "total_usd": 636.49,
+            "url": "https://www.ebay.com/itm/306788889061",
+            "why_good": "13-inch M2 MacBook Pro A2338/Mac14,7 with 16GB RAM and 512GB SSD; Buy It Now page shows free US shipping and auto coupon total $636.49. Screen is cracked."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
