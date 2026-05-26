@@ -1,30 +1,26 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-26T12:32:20.965961+00:00",
+  "finished_at": "2026-05-26T13:33:29.018609+00:00",
   "logs": [
-    "2026-05-26 08:17:03,678 INFO scalper run started 2026-05-26T12:17:03.678444+00:00",
-    "2026-05-26 08:17:03,680 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-26 08:19:07,247 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-26 08:19:07,248 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-26 08:21:18,976 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137160733788",
-    "2026-05-26 08:21:18,976 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
-    "2026-05-26 08:21:32,639 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
-    "2026-05-26 08:21:32,639 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-26 08:21:32,640 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-26 08:24:00,390 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-26 08:24:00,391 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-05-26 08:24:00,392 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-26 08:27:42,672 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/187921738769?campid=5336844578&customid=newlinks&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&toolid=10001&var=0",
-    "2026-05-26 08:27:42,673 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=Apple Mac Mini 2020 A2348 M1 8 Core 16GB DDR4 512GB SSD Silver -FAIR/SEE url=https://www.ebay.com/itm/187921738769?campid=5336844578&customid=newlinks&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&toolid=10001&var=0",
-    "2026-05-26 08:27:56,112 INFO browser validation rejected target=mac-mini-m1-16gb reason=unavailable title=Apple Mac Mini 2020 A2348 M1 8 Core 16GB DDR4 512GB SSD Silver -FAIR/SEE url=https://www.ebay.com/itm/187921738769?campid=5336844578&customid=newlinks&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&toolid=10001&var=0",
-    "2026-05-26 08:27:56,112 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-26 08:27:56,113 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-26 08:30:28,499 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_403 title=Apple 2023 Mac Mini Desktop Apple M2 Pro chip 16GB, 512GB url=https://thefurbearers.com/products/apple-2023-mac-mini-desktop-apple-m2-pro-chip-16gb-512gb/?ctgItemCd=22557745",
-    "2026-05-26 08:30:28,499 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-05-26 08:30:28,500 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-05-26 08:32:20,965 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-05-26 09:17:03,568 INFO scalper run started 2026-05-26T13:17:03.568268+00:00",
+    "2026-05-26 09:17:03,570 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-26 09:19:54,789 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-26 09:19:54,790 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-26 09:22:34,402 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137160733788",
+    "2026-05-26 09:22:34,403 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
+    "2026-05-26 09:22:49,284 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
+    "2026-05-26 09:22:49,284 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-26 09:22:49,285 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-26 09:26:08,622 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/hardwareswap/comments/1tbfpzq/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/",
+    "2026-05-26 09:26:08,623 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-26 09:26:08,623 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-26 09:28:50,453 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-26 09:28:50,454 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-26 09:31:10,010 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-05-26 09:31:10,010 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-05-26 09:33:29,018 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-05-26T12:17:03.678444+00:00",
+  "started_at": "2026-05-26T13:17:03.568268+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -80,45 +76,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Good condition",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 639.0,
-            "seller": "Leonard",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
-            "total_usd": 639.0,
-            "url": "https://swappa.com/listing/view/LADY61014",
-            "why_good": "13-inch MacBook Air 2022 with Apple M2, 16GB RAM, 512GB SSD; direct listing shows approved listing, Login to Buy, and free US shipping from Miami, FL."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Good condition",
-          "confidence": 0.86,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 639.0,
-          "seller": "Leonard",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
-          "total_usd": 639.0,
-          "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "13-inch MacBook Air 2022 with Apple M2, 16GB RAM, 512GB SSD; direct listing shows approved listing, Login to Buy, and free US shipping from Miami, FL."
-        }
-      ],
+      "deals": [],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -126,28 +86,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Good condition",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 639.0,
-            "seller": "Leonard",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
-            "total_usd": 639.0,
-            "url": "https://swappa.com/listing/view/LADY61014",
-            "why_good": "13-inch MacBook Air 2022 with Apple M2, 16GB RAM, 512GB SSD; direct listing shows approved listing, Login to Buy, and free US shipping from Miami, FL."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
