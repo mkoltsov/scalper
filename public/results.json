@@ -1,25 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-26T20:31:43.395151+00:00",
+  "finished_at": "2026-05-26T21:33:06.134860+00:00",
   "logs": [
-    "2026-05-26 16:17:03,953 INFO scalper run started 2026-05-26T20:17:03.953588+00:00",
-    "2026-05-26 16:17:03,957 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-26 16:20:28,688 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-26 16:20:28,689 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-26 16:22:33,309 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-26 16:22:33,310 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-26 16:24:56,127 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306788889061",
-    "2026-05-26 16:24:56,128 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022 url=https://www.ebay.com/itm/306788889061",
-    "2026-05-26 16:25:13,270 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-26 16:25:13,270 INFO new deal target=macbook-13-apple-silicon-16-24gb market=us total=636.49 url=https://www.ebay.com/itm/306788889061",
-    "2026-05-26 16:25:13,424 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-26 16:27:19,892 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-26 16:27:19,892 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-26 16:29:58,170 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-05-26 16:29:58,171 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-05-26 16:31:43,394 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-05-26 17:17:03,941 INFO scalper run started 2026-05-26T21:17:03.941161+00:00",
+    "2026-05-26 17:17:03,943 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-26 17:19:32,780 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-26 17:19:32,781 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-26 17:23:56,500 INFO target=bang-olufsen-charging-case qualifying_deals=1",
+    "2026-05-26 17:23:56,504 INFO new deal target=bang-olufsen-charging-case market=eu total=86.99 url=https://www.ebay.de/p/13057761708",
+    "2026-05-26 17:23:56,654 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-26 17:26:48,341 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-26 17:26:48,342 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-26 17:29:05,893 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-26 17:29:05,894 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-26 17:31:17,446 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-05-26 17:31:17,447 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-05-26 17:33:06,134 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-05-26T20:17:03.953588+00:00",
+  "started_at": "2026-05-26T21:17:03.941161+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -48,22 +46,74 @@
     },
     {
       "deal_groups": {
-        "eu": [],
+        "eu": [
+          {
+            "availability": "available",
+            "condition": "Gebraucht; nur Ladecase",
+            "confidence": 0.73,
+            "delivery_country": "Poland",
+            "market_label": "EU/Europe",
+            "market_region": "eu",
+            "price_usd": 86.99,
+            "seller": "elektronikhandelch_0",
+            "shipping_usd": 0.0,
+            "source": "eBay.de",
+            "target_id": "bang-olufsen-charging-case",
+            "title": "Bang & Olufsen BeoPlay EX Bluetooth - Schwarz, nur Ladecase!",
+            "total_usd": 86.99,
+            "url": "https://www.ebay.de/p/13057761708",
+            "why_good": "Matches Beoplay EX and says nur Ladecase; EUR 74.99 with kostenloser internationaler Versand, converted at about 1 EUR = 1.16 USD."
+          }
+        ],
         "other": [],
         "us": []
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Gebraucht; nur Ladecase",
+          "confidence": 0.73,
+          "delivery_country": "Poland",
+          "market_label": "EU/Europe",
+          "market_region": "eu",
+          "price_usd": 86.99,
+          "seller": "elektronikhandelch_0",
+          "shipping_usd": 0.0,
+          "source": "eBay.de",
+          "target_id": "bang-olufsen-charging-case",
+          "title": "Bang & Olufsen BeoPlay EX Bluetooth - Schwarz, nur Ladecase!",
+          "total_usd": 86.99,
+          "url": "https://www.ebay.de/p/13057761708",
+          "why_good": "Matches Beoplay EX and says nur Ladecase; EUR 74.99 with kostenloser internationaler Versand, converted at about 1 EUR = 1.16 USD."
+        }
+      ],
       "id": "bang-olufsen-charging-case",
       "max_price_usd": 100,
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
       "regional_summary": {
         "best": {
-          "eu": null,
+          "eu": {
+            "availability": "available",
+            "condition": "Gebraucht; nur Ladecase",
+            "confidence": 0.73,
+            "delivery_country": "Poland",
+            "market_label": "EU/Europe",
+            "market_region": "eu",
+            "price_usd": 86.99,
+            "seller": "elektronikhandelch_0",
+            "shipping_usd": 0.0,
+            "source": "eBay.de",
+            "target_id": "bang-olufsen-charging-case",
+            "title": "Bang & Olufsen BeoPlay EX Bluetooth - Schwarz, nur Ladecase!",
+            "total_usd": 86.99,
+            "url": "https://www.ebay.de/p/13057761708",
+            "why_good": "Matches Beoplay EX and says nur Ladecase; EUR 74.99 with kostenloser internationaler Versand, converted at about 1 EUR = 1.16 USD."
+          },
           "other": null,
           "us": null
         },
         "counts": {
-          "eu": 0,
+          "eu": 1,
           "other": 0,
           "us": 0
         },
@@ -75,45 +125,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; seller notes cracked/functionally degraded screen",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 636.49,
-            "seller": "Omaha Blue",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022",
-            "total_usd": 636.49,
-            "url": "https://www.ebay.com/itm/306788889061",
-            "why_good": "13-inch M2 MacBook Pro A2338/Mac14,7 with 16GB RAM and 512GB SSD; Buy It Now page shows free US shipping and auto coupon total $636.49. Screen is cracked."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; seller notes cracked/functionally degraded screen",
-          "confidence": 0.78,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 636.49,
-          "seller": "Omaha Blue",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022",
-          "total_usd": 636.49,
-          "url": "https://www.ebay.com/itm/306788889061",
-          "why_good": "13-inch M2 MacBook Pro A2338/Mac14,7 with 16GB RAM and 512GB SSD; Buy It Now page shows free US shipping and auto coupon total $636.49. Screen is cracked."
-        }
-      ],
+      "deals": [],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -121,28 +135,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; seller notes cracked/functionally degraded screen",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 636.49,
-            "seller": "Omaha Blue",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022",
-            "total_usd": 636.49,
-            "url": "https://www.ebay.com/itm/306788889061",
-            "why_good": "13-inch M2 MacBook Pro A2338/Mac14,7 with 16GB RAM and 512GB SSD; Buy It Now page shows free US shipping and auto coupon total $636.49. Screen is cracked."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
