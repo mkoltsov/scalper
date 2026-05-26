@@ -1,14 +1,22 @@
-2026-05-26 06:17:03,607 INFO scalper run started 2026-05-26T10:17:03.607343+00:00
-2026-05-26 06:17:03,609 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-26 06:20:27,844 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-26 06:20:27,845 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-26 06:22:47,074 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-26 06:22:47,075 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-26 06:25:23,606 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-05-26 06:25:23,606 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-05-26 06:25:23,607 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-26 06:28:00,694 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-26 06:28:00,695 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-26 06:29:57,288 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-05-26 06:29:57,289 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-05-26 06:31:59,942 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-05-26 07:17:03,466 INFO scalper run started 2026-05-26T11:17:03.466137+00:00
+2026-05-26 07:17:03,468 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-26 07:19:51,590 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-26 07:19:51,591 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-26 07:22:11,873 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-26 07:22:11,874 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-26 07:25:20,939 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277774831152
+2026-05-26 07:25:20,939 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13.6" M2 3.49GHz 1TB NVME 16GB MC7U4LL/A Space Gray NO AC url=https://www.ebay.com/itm/277774831152
+2026-05-26 07:25:34,126 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple MacBook Air 13.6" M2 3.49GHz 1TB NVME 16GB MC7U4LL/A Space Gray NO AC url=https://www.ebay.com/itm/277774831152
+2026-05-26 07:25:37,600 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-26 07:25:37,601 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-26 07:25:37,601 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-26 07:29:01,366 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/197571318869
+2026-05-26 07:29:01,366 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=2020 Apple Mac Mini M1 8-Core CPU 8-Core GPU 16GB RAM 512GB SSD Silver A2348 url=https://www.ebay.com/itm/197571318869
+2026-05-26 07:29:09,545 INFO target=mac-mini-m1-16gb qualifying_deals=1
+2026-05-26 07:29:09,546 INFO already notified target=mac-mini-m1-16gb market=us total=325.00 url=https://www.ebay.com/itm/197571318869
+2026-05-26 07:29:09,546 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-26 07:31:51,285 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html
+2026-05-26 07:31:51,634 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
+2026-05-26 07:31:51,634 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-26 07:31:51,634 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-05-26 07:34:05,662 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
