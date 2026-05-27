@@ -1,28 +1,51 @@
 {
-  "exit_code": 1,
-  "finished_at": "2026-05-27T03:32:35.403737+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-05-27T04:32:39.110404+00:00",
   "logs": [
-    "2026-05-26 23:17:03,523 INFO scalper run started 2026-05-27T03:17:03.523340+00:00",
-    "2026-05-26 23:17:03,525 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-26 23:17:19,987 ERROR Codex search failed for target=nzxt-h1-v2\nTraceback (most recent call last):\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 1663, in run\n    result = run_codex(target, config, metrics)\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 506, in run_codex\n    raise RuntimeError(\n        f\"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}\"\n    )\nRuntimeError: Codex failed for nzxt-h1-v2 with exit code 1: Error: timed out waiting for cloud requirements after 15s",
-    "2026-05-26 23:17:19,993 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-26 23:20:13,189 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137160733788",
-    "2026-05-26 23:20:13,190 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
-    "2026-05-26 23:20:31,956 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
-    "2026-05-26 23:20:31,957 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-26 23:20:31,958 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-26 23:23:55,038 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/",
-    "2026-05-26 23:23:55,039 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-05-26 23:23:55,040 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-26 23:26:59,356 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-26 23:26:59,356 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-26 23:30:15,986 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html",
-    "2026-05-26 23:30:15,986 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-05-26 23:30:15,987 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-05-26 23:32:35,403 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-05-27 00:17:03,374 INFO scalper run started 2026-05-27T04:17:03.374694+00:00",
+    "2026-05-27 00:17:03,376 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-27 00:22:05,938 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-27 00:22:05,939 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-27 00:24:08,121 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-27 00:24:08,122 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-27 00:25:59,360 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/267425122317",
+    "2026-05-27 00:25:59,361 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 2022 13.6\" M2 Chip 16GB RAM 512GB SSD 90 Cycles url=https://www.ebay.com/itm/267425122317",
+    "2026-05-27 00:26:11,539 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=ended title=Apple MacBook Air 2022 13.6\" M2 Chip 16GB RAM 512GB SSD 90 Cycles url=https://www.ebay.com/itm/267425122317",
+    "2026-05-27 00:26:11,539 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-27 00:26:11,540 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-27 00:28:34,856 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-27 00:28:34,856 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-27 00:30:52,915 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-05-27 00:30:52,915 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-05-27 00:32:39,110 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-05-27T03:17:03.523340+00:00",
+  "started_at": "2026-05-27T04:17:03.374694+00:00",
   "targets": [
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "nzxt-h1-v2",
+      "max_price_usd": 200,
+      "name": "NZXT H1 V2 mini-ITX case bundle",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
     {
       "deal_groups": {
         "eu": [],
