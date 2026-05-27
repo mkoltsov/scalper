@@ -1,25 +1,25 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-27T05:33:21.240161+00:00",
+  "finished_at": "2026-05-27T06:32:56.162724+00:00",
   "logs": [
-    "2026-05-27 01:17:03,678 INFO scalper run started 2026-05-27T05:17:03.678235+00:00",
-    "2026-05-27 01:17:03,680 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-27 01:19:47,164 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-27 01:19:47,165 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-27 01:23:25,835 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-27 01:23:25,835 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-27 01:25:52,845 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-05-27 01:25:52,846 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-27 01:27:50,217 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-27 01:27:50,217 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-27 01:31:08,987 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB/512GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-512gb-CID99-ID1atUDe.html",
-    "2026-05-27 01:31:09,819 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html",
-    "2026-05-27 01:31:09,819 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1",
-    "2026-05-27 01:31:09,819 INFO new deal target=mac-mini-m2-newer-16gb market=eu total=465.20 url=https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia",
-    "2026-05-27 01:31:09,976 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-05-27 01:33:21,239 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-05-27 02:17:03,133 INFO scalper run started 2026-05-27T06:17:03.133667+00:00",
+    "2026-05-27 02:17:03,135 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-27 02:18:52,636 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-27 02:18:52,636 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-27 02:21:35,617 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137160733788",
+    "2026-05-27 02:21:35,618 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
+    "2026-05-27 02:21:48,471 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
+    "2026-05-27 02:21:48,472 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-27 02:21:48,473 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-27 02:24:13,820 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-27 02:24:13,821 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-27 02:26:57,369 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-27 02:26:57,370 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-27 02:30:31,606 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-05-27 02:30:31,607 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-05-27 02:32:56,162 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-05-27T05:17:03.678235+00:00",
+  "started_at": "2026-05-27T06:17:03.133667+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -123,74 +123,22 @@
     },
     {
       "deal_groups": {
-        "eu": [
-          {
-            "availability": "available",
-            "condition": "Bardzo dobry / used",
-            "confidence": 0.78,
-            "delivery_country": "Poland",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 462.2,
-            "seller": "osoba prywatna",
-            "shipping_usd": 3.0,
-            "source": "Allegro Lokalnie",
-            "target_id": "mac-mini-m2-newer-16gb",
-            "title": "Apple Mac mini M2 16GB RAM 512GB SSD Kultowy Mac mini + Stojak BDB",
-            "total_usd": 465.2,
-            "url": "https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia",
-            "why_good": "Buy-now Allegro Lokalnie listing opened active; M2 Mac mini with 16GB RAM and 512GB SSD for 1690 PLN, converted at about 0.2735 USD/PLN."
-          }
-        ],
+        "eu": [],
         "other": [],
         "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Bardzo dobry / used",
-          "confidence": 0.78,
-          "delivery_country": "Poland",
-          "market_label": "EU/Europe",
-          "market_region": "eu",
-          "price_usd": 462.2,
-          "seller": "osoba prywatna",
-          "shipping_usd": 3.0,
-          "source": "Allegro Lokalnie",
-          "target_id": "mac-mini-m2-newer-16gb",
-          "title": "Apple Mac mini M2 16GB RAM 512GB SSD Kultowy Mac mini + Stojak BDB",
-          "total_usd": 465.2,
-          "url": "https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia",
-          "why_good": "Buy-now Allegro Lokalnie listing opened active; M2 Mac mini with 16GB RAM and 512GB SSD for 1690 PLN, converted at about 0.2735 USD/PLN."
-        }
-      ],
+      "deals": [],
       "id": "mac-mini-m2-newer-16gb",
       "max_price_usd": 550,
       "name": "M2-or-newer Mac mini with 16GB+ RAM",
       "regional_summary": {
         "best": {
-          "eu": {
-            "availability": "available",
-            "condition": "Bardzo dobry / used",
-            "confidence": 0.78,
-            "delivery_country": "Poland",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 462.2,
-            "seller": "osoba prywatna",
-            "shipping_usd": 3.0,
-            "source": "Allegro Lokalnie",
-            "target_id": "mac-mini-m2-newer-16gb",
-            "title": "Apple Mac mini M2 16GB RAM 512GB SSD Kultowy Mac mini + Stojak BDB",
-            "total_usd": 465.2,
-            "url": "https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia",
-            "why_good": "Buy-now Allegro Lokalnie listing opened active; M2 Mac mini with 16GB RAM and 512GB SSD for 1690 PLN, converted at about 0.2735 USD/PLN."
-          },
+          "eu": null,
           "other": null,
           "us": null
         },
         "counts": {
-          "eu": 1,
+          "eu": 0,
           "other": 0,
           "us": 0
         },
