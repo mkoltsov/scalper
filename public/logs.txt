@@ -1,16 +1,20 @@
-2026-05-28 12:17:03,306 INFO scalper run started 2026-05-28T16:17:03.305951+00:00
-2026-05-28 12:17:03,308 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-28 12:19:06,218 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-28 12:19:06,219 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-28 12:21:30,623 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-28 12:21:30,624 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-28 12:24:48,549 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-28 12:24:48,550 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-28 12:27:04,560 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-28 12:27:04,560 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-28 12:30:26,031 INFO listing URL validation rejected target=mac-mini-m2-newer-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306874612202
-2026-05-28 12:30:26,032 INFO HTTP validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot_unverified title=New Apple Mac mini M4 16GB RAM 512GB SSD 10-Core GPU Mini Desktop Computer url=https://www.ebay.com/itm/306874612202
-2026-05-28 12:30:57,048 INFO browser validation rejected target=mac-mini-m2-newer-16gb reason=browser_not_found title=New Apple Mac mini M4 16GB RAM 512GB SSD 10-Core GPU Mini Desktop Computer url=https://www.ebay.com/itm/306874612202
-2026-05-28 12:30:57,049 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-05-28 12:30:57,050 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-05-28 12:32:35,190 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-05-28 13:17:05,300 INFO scalper run started 2026-05-28T17:17:05.299990+00:00
+2026-05-28 13:17:05,303 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-28 13:19:01,348 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-28 13:19:01,349 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-28 13:21:20,912 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137160733788
+2026-05-28 13:21:20,913 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788
+2026-05-28 13:21:27,894 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788
+2026-05-28 13:21:27,895 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-28 13:21:27,895 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-28 13:24:33,554 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306788889061
+2026-05-28 13:24:33,555 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022 url=https://www.ebay.com/itm/306788889061
+2026-05-28 13:24:45,241 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2
+2026-05-28 13:24:45,243 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-28 13:24:45,243 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=636.49 url=https://www.ebay.com/itm/306788889061
+2026-05-28 13:24:45,244 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-28 13:27:35,385 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-28 13:27:35,386 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-28 13:30:03,474 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-28 13:30:03,475 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-05-28 13:32:01,293 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
