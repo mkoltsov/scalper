@@ -1,22 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-29T20:30:27.516846+00:00",
+  "finished_at": "2026-05-29T21:34:18.913956+00:00",
   "logs": [
-    "2026-05-29 16:17:06,361 INFO scalper run started 2026-05-29T20:17:06.360894+00:00",
-    "2026-05-29 16:17:06,363 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-29 16:19:06,544 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-29 16:19:06,545 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-29 16:22:18,745 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-29 16:22:18,746 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-29 16:24:17,709 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-05-29 16:24:17,709 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-29 16:26:13,027 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-29 16:26:13,027 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-29 16:28:18,522 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-05-29 16:28:18,523 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-05-29 16:30:27,516 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-05-29 17:17:05,145 INFO scalper run started 2026-05-29T21:17:05.144886+00:00",
+    "2026-05-29 17:17:05,147 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-29 17:19:38,165 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-29 17:19:38,165 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-29 17:24:49,922 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-29 17:24:49,923 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-29 17:27:39,934 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-29 17:27:39,935 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014",
+    "2026-05-29 17:27:39,936 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-29 17:29:51,118 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-29 17:29:51,119 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-29 17:32:04,060 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-05-29 17:32:04,061 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-05-29 17:34:18,913 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-05-29T20:17:06.360894+00:00",
+  "started_at": "2026-05-29T21:17:05.144886+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -72,9 +73,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Good condition",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 639.0,
+            "seller": "Leonard",
+            "shipping_usd": 0.0,
+            "source": "Swappa",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+            "total_usd": 639.0,
+            "url": "https://swappa.com/listing/view/LADY61014",
+            "why_good": "Active Swappa listing shows a 13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD for $639 with free US shipping."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Good condition",
+          "confidence": 0.86,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 639.0,
+          "seller": "Leonard",
+          "shipping_usd": 0.0,
+          "source": "Swappa",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+          "total_usd": 639.0,
+          "url": "https://swappa.com/listing/view/LADY61014",
+          "why_good": "Active Swappa listing shows a 13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD for $639 with free US shipping."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -82,12 +119,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Good condition",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 639.0,
+            "seller": "Leonard",
+            "shipping_usd": 0.0,
+            "source": "Swappa",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+            "total_usd": 639.0,
+            "url": "https://swappa.com/listing/view/LADY61014",
+            "why_good": "Active Swappa listing shows a 13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD for $639 with free US shipping."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
