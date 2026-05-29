@@ -1,17 +1,14 @@
-2026-05-29 11:17:05,761 INFO scalper run started 2026-05-29T15:17:05.761407+00:00
-2026-05-29 11:17:05,763 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-29 11:20:33,224 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-29 11:20:33,225 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-29 11:22:53,600 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-29 11:22:53,601 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-29 11:25:30,486 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507
-2026-05-29 11:25:30,487 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
-2026-05-29 11:26:04,943 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
-2026-05-29 11:26:04,943 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-29 11:26:04,944 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-29 11:29:55,968 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-05-29 11:29:55,969 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-29 11:33:09,059 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
-2026-05-29 11:33:09,060 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-05-29 11:33:09,060 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-05-29 11:35:17,386 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-05-29 12:17:05,626 INFO scalper run started 2026-05-29T16:17:05.626477+00:00
+2026-05-29 12:17:05,628 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-29 12:21:46,236 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-29 12:21:46,237 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-29 12:24:22,170 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-29 12:24:22,170 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-29 12:27:32,973 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-05-29 12:27:32,974 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-05-29 12:27:32,975 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-29 12:30:04,472 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-29 12:30:04,472 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-29 12:32:49,486 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-29 12:32:49,487 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-05-29 12:35:03,313 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
