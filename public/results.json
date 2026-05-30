@@ -1,25 +1,26 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-30T12:31:47.639910+00:00",
+  "finished_at": "2026-05-30T13:34:43.978502+00:00",
   "logs": [
-    "2026-05-30 08:17:05,448 INFO scalper run started 2026-05-30T12:17:05.448074+00:00",
-    "2026-05-30 08:17:05,450 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-30 08:19:46,360 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-30 08:19:46,361 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-30 08:22:29,678 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-30 08:22:29,680 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-30 08:25:37,079 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306788889061",
-    "2026-05-30 08:25:37,080 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022 url=https://www.ebay.com/itm/306788889061",
-    "2026-05-30 08:26:11,015 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-30 08:26:11,016 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=636.49 url=https://www.ebay.com/itm/306788889061",
-    "2026-05-30 08:26:11,017 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-30 08:27:56,934 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-30 08:27:56,935 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-30 08:30:06,230 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-05-30 08:30:06,231 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-05-30 08:31:47,639 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-05-30 09:17:05,278 INFO scalper run started 2026-05-30T13:17:05.278597+00:00",
+    "2026-05-30 09:17:05,280 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-30 09:20:29,459 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-30 09:20:29,460 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-30 09:22:45,157 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137160733788",
+    "2026-05-30 09:22:45,157 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
+    "2026-05-30 09:23:17,440 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
+    "2026-05-30 09:23:17,440 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-30 09:23:17,441 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-30 09:26:06,919 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-30 09:26:06,920 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014",
+    "2026-05-30 09:26:06,921 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-30 09:28:24,520 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-30 09:28:24,521 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-30 09:30:31,123 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-05-30 09:30:31,124 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-05-30 09:34:43,978 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-05-30T12:17:05.448074+00:00",
+  "started_at": "2026-05-30T13:17:05.278597+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -78,40 +79,40 @@
         "us": [
           {
             "availability": "available",
-            "condition": "Used; seller notes cracked/functionally degraded screen",
-            "confidence": 0.68,
+            "condition": "Good condition",
+            "confidence": 0.82,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 636.49,
-            "seller": "Omaha Blue",
+            "price_usd": 639.0,
+            "seller": "Leonard",
             "shipping_usd": 0.0,
-            "source": "eBay",
+            "source": "Swappa",
             "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022",
-            "total_usd": 636.49,
-            "url": "https://www.ebay.com/itm/306788889061",
-            "why_good": "A2338/MNEH3LL/A identifies a 13-inch M2 MacBook Pro with 16GB RAM and 512GB SSD; free US shipping and auto-applied coupon total shown as $636.49 before tax."
+            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+            "total_usd": 639.0,
+            "url": "https://swappa.com/listing/view/LADY61014",
+            "why_good": "13-inch M2 MacBook Air with 16GB RAM and 512GB storage; approved listing with free US shipping under $650 total."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "Used; seller notes cracked/functionally degraded screen",
-          "confidence": 0.68,
+          "condition": "Good condition",
+          "confidence": 0.82,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
-          "price_usd": 636.49,
-          "seller": "Omaha Blue",
+          "price_usd": 639.0,
+          "seller": "Leonard",
           "shipping_usd": 0.0,
-          "source": "eBay",
+          "source": "Swappa",
           "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022",
-          "total_usd": 636.49,
-          "url": "https://www.ebay.com/itm/306788889061",
-          "why_good": "A2338/MNEH3LL/A identifies a 13-inch M2 MacBook Pro with 16GB RAM and 512GB SSD; free US shipping and auto-applied coupon total shown as $636.49 before tax."
+          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+          "total_usd": 639.0,
+          "url": "https://swappa.com/listing/view/LADY61014",
+          "why_good": "13-inch M2 MacBook Air with 16GB RAM and 512GB storage; approved listing with free US shipping under $650 total."
         }
       ],
       "id": "macbook-13-apple-silicon-16-24gb",
@@ -123,20 +124,20 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "Used; seller notes cracked/functionally degraded screen",
-            "confidence": 0.68,
+            "condition": "Good condition",
+            "confidence": 0.82,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 636.49,
-            "seller": "Omaha Blue",
+            "price_usd": 639.0,
+            "seller": "Leonard",
             "shipping_usd": 0.0,
-            "source": "eBay",
+            "source": "Swappa",
             "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022",
-            "total_usd": 636.49,
-            "url": "https://www.ebay.com/itm/306788889061",
-            "why_good": "A2338/MNEH3LL/A identifies a 13-inch M2 MacBook Pro with 16GB RAM and 512GB SSD; free US shipping and auto-applied coupon total shown as $636.49 before tax."
+            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
+            "total_usd": 639.0,
+            "url": "https://swappa.com/listing/view/LADY61014",
+            "why_good": "13-inch M2 MacBook Air with 16GB RAM and 512GB storage; approved listing with free US shipping under $650 total."
           }
         },
         "counts": {
