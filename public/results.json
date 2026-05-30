@@ -1,23 +1,24 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-29T23:31:29.402489+00:00",
+  "finished_at": "2026-05-30T00:33:15.723123+00:00",
   "logs": [
-    "2026-05-29 19:17:05,785 INFO scalper run started 2026-05-29T23:17:05.785061+00:00",
-    "2026-05-29 19:17:05,787 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-29 19:19:04,248 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-29 19:19:04,249 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-29 19:21:26,392 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-29 19:21:26,392 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-29 19:24:55,034 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-29 19:24:55,034 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-05-29 19:24:55,035 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-29 19:27:13,910 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-29 19:27:13,911 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-29 19:29:31,112 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-05-29 19:29:31,113 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-05-29 19:31:29,402 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-05-29 20:17:05,184 INFO scalper run started 2026-05-30T00:17:05.184725+00:00",
+    "2026-05-29 20:17:05,186 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-29 20:19:33,997 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-29 20:19:33,998 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-29 20:23:11,032 INFO target=bang-olufsen-charging-case qualifying_deals=1",
+    "2026-05-29 20:23:11,033 INFO new deal target=bang-olufsen-charging-case market=eu total=69.32 url=https://www.olx.pl/d/oferta/sluchawki-bang-olufsen-beoplay-ex-CID99-ID1aGD67.html",
+    "2026-05-29 20:23:11,155 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-29 20:25:40,910 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-29 20:25:40,911 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014",
+    "2026-05-29 20:25:40,911 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-29 20:28:40,104 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-29 20:28:40,105 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-29 20:31:20,481 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-05-29 20:31:20,482 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-05-29 20:33:15,722 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-05-29T23:17:05.785061+00:00",
+  "started_at": "2026-05-30T00:17:05.184725+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -46,22 +47,74 @@
     },
     {
       "deal_groups": {
-        "eu": [],
+        "eu": [
+          {
+            "availability": "available",
+            "condition": "U\u017cywane",
+            "confidence": 0.72,
+            "delivery_country": "Poland",
+            "market_label": "EU/Europe",
+            "market_region": "eu",
+            "price_usd": 69.32,
+            "seller": "Rafa\u0142",
+            "shipping_usd": 0.0,
+            "source": "OLX.pl",
+            "target_id": "bang-olufsen-charging-case",
+            "title": "S\u0142uchawki Bang & Olufsen Beoplay EX",
+            "total_usd": 69.32,
+            "url": "https://www.olx.pl/d/oferta/sluchawki-bang-olufsen-beoplay-ex-CID99-ID1aGD67.html",
+            "why_good": "249 PLN used Beoplay EX listing; description says the case/etui is included and pictured, with OLX delivery/protection shown."
+          }
+        ],
         "other": [],
         "us": []
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "U\u017cywane",
+          "confidence": 0.72,
+          "delivery_country": "Poland",
+          "market_label": "EU/Europe",
+          "market_region": "eu",
+          "price_usd": 69.32,
+          "seller": "Rafa\u0142",
+          "shipping_usd": 0.0,
+          "source": "OLX.pl",
+          "target_id": "bang-olufsen-charging-case",
+          "title": "S\u0142uchawki Bang & Olufsen Beoplay EX",
+          "total_usd": 69.32,
+          "url": "https://www.olx.pl/d/oferta/sluchawki-bang-olufsen-beoplay-ex-CID99-ID1aGD67.html",
+          "why_good": "249 PLN used Beoplay EX listing; description says the case/etui is included and pictured, with OLX delivery/protection shown."
+        }
+      ],
       "id": "bang-olufsen-charging-case",
       "max_price_usd": 100,
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
       "regional_summary": {
         "best": {
-          "eu": null,
+          "eu": {
+            "availability": "available",
+            "condition": "U\u017cywane",
+            "confidence": 0.72,
+            "delivery_country": "Poland",
+            "market_label": "EU/Europe",
+            "market_region": "eu",
+            "price_usd": 69.32,
+            "seller": "Rafa\u0142",
+            "shipping_usd": 0.0,
+            "source": "OLX.pl",
+            "target_id": "bang-olufsen-charging-case",
+            "title": "S\u0142uchawki Bang & Olufsen Beoplay EX",
+            "total_usd": 69.32,
+            "url": "https://www.olx.pl/d/oferta/sluchawki-bang-olufsen-beoplay-ex-CID99-ID1aGD67.html",
+            "why_good": "249 PLN used Beoplay EX listing; description says the case/etui is included and pictured, with OLX delivery/protection shown."
+          },
           "other": null,
           "us": null
         },
         "counts": {
-          "eu": 0,
+          "eu": 1,
           "other": 0,
           "us": 0
         },
@@ -77,7 +130,7 @@
           {
             "availability": "available",
             "condition": "Good condition",
-            "confidence": 0.78,
+            "confidence": 0.82,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -89,7 +142,7 @@
             "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
             "total_usd": 639.0,
             "url": "https://swappa.com/listing/view/LADY61014",
-            "why_good": "13-inch MacBook Air with Apple M2, 16GB memory, 512GB SSD, free US shipping; direct listing page showed Login to Buy."
+            "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB SSD; direct listing page shows $639, Approved, Login to Buy, and free US shipping."
           }
         ]
       },
@@ -97,7 +150,7 @@
         {
           "availability": "available",
           "condition": "Good condition",
-          "confidence": 0.78,
+          "confidence": 0.82,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -109,7 +162,7 @@
           "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
           "total_usd": 639.0,
           "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "13-inch MacBook Air with Apple M2, 16GB memory, 512GB SSD, free US shipping; direct listing page showed Login to Buy."
+          "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB SSD; direct listing page shows $639, Approved, Login to Buy, and free US shipping."
         }
       ],
       "id": "macbook-13-apple-silicon-16-24gb",
@@ -122,7 +175,7 @@
           "us": {
             "availability": "available",
             "condition": "Good condition",
-            "confidence": 0.78,
+            "confidence": 0.82,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -134,7 +187,7 @@
             "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
             "total_usd": 639.0,
             "url": "https://swappa.com/listing/view/LADY61014",
-            "why_good": "13-inch MacBook Air with Apple M2, 16GB memory, 512GB SSD, free US shipping; direct listing page showed Login to Buy."
+            "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB SSD; direct listing page shows $639, Approved, Login to Buy, and free US shipping."
           }
         },
         "counts": {
