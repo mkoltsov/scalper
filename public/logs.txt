@@ -1,17 +1,15 @@
-2026-05-30 17:17:05,517 INFO scalper run started 2026-05-30T21:17:05.517603+00:00
-2026-05-30 17:17:05,519 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-05-30 17:19:32,054 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-05-30 17:19:32,055 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-05-30 17:22:24,164 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-05-30 17:22:24,165 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-05-30 17:26:02,072 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=http_403 title=MacBook Air (M2 series) 13-inch Apple M2 16GB RAM 512GB SSD Midnight - Fair url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-10-core-gpu-16gb-ram-ssd-512gb/b4f21e19-0247-4f99-984b-b8ddd1fbc015
-2026-05-30 17:26:02,201 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=http_403 title=MacBook Air (M2 series) 13-inch Apple M2 16GB RAM 512GB SSD Midnight - Excellent url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-10-core-gpu-16gb-ram-ssd-512gb/b4f21e19-0247-4f99-984b-b8ddd1fbc015
-2026-05-30 17:26:02,201 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-05-30 17:26:02,201 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-05-30 17:29:27,848 INFO target=mac-mini-m1-16gb qualifying_deals=1
-2026-05-30 17:29:27,849 INFO new deal target=mac-mini-m1-16gb market=eu total=399.03 url=https://allegrolokalnie.pl/oferta/apple-mac-mini-m1-ram-16gb-dysk-512gb
-2026-05-30 17:29:27,964 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-05-30 17:32:34,529 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html
-2026-05-30 17:32:34,529 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-05-30 17:32:34,530 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-05-30 17:34:32,700 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-05-30 18:17:05,174 INFO scalper run started 2026-05-30T22:17:05.174272+00:00
+2026-05-30 18:17:05,176 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-05-30 18:20:08,579 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-05-30 18:20:08,579 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-05-30 18:22:11,239 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-05-30 18:22:11,240 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-05-30 18:25:15,749 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
+2026-05-30 18:25:15,749 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-05-30 18:25:15,750 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-05-30 18:27:33,778 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-05-30 18:27:33,779 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-05-30 18:31:10,120 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_404 title=Apple Mac mini M2 Pro (16GB RAM, 512GB SSD, 16-core GPU) with Bonus Mount url=https://solisdepot.com/products/apple-mac-mini-m2-pro-16gb-ram-512gb-ssd-16-core-gpu-with-bo/22621136/
+2026-05-30 18:31:10,120 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-05-30 18:31:10,121 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-05-30 18:33:31,293 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
