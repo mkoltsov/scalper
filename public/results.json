@@ -1,22 +1,31 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-31T13:31:39.914670+00:00",
+  "finished_at": "2026-05-31T14:32:08.699072+00:00",
   "logs": [
-    "2026-05-31 09:17:06,235 INFO scalper run started 2026-05-31T13:17:06.235101+00:00",
-    "2026-05-31 09:17:06,237 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-31 09:20:07,748 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-31 09:20:07,751 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-31 09:21:51,992 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-31 09:21:51,993 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-31 09:24:18,627 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-05-31 09:24:18,628 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-31 09:26:38,351 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-31 09:26:38,352 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-31 09:29:56,549 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-05-31 09:29:56,550 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-05-31 09:31:39,914 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-05-31 10:17:06,396 INFO scalper run started 2026-05-31T14:17:06.396296+00:00",
+    "2026-05-31 10:17:06,398 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-31 10:19:21,538 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-31 10:19:21,539 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-31 10:22:22,958 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-31 10:22:22,959 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-31 10:24:48,212 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277774831152",
+    "2026-05-31 10:24:48,213 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13.6\" M2 3.49GHz 1TB NVME 16GB MC7U4LL/A Space Gray NO AC url=https://www.ebay.com/itm/277774831152",
+    "2026-05-31 10:25:24,731 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple MacBook Air 13.6\" M2 3.49GHz 1TB NVME 16GB MC7U4LL/A Space Gray NO AC url=https://www.ebay.com/itm/277774831152",
+    "2026-05-31 10:25:24,741 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-05-31 10:25:24,743 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-31 10:27:45,750 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/197571318869",
+    "2026-05-31 10:27:45,751 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348 url=https://www.ebay.com/itm/197571318869",
+    "2026-05-31 10:27:51,755 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/146908833380",
+    "2026-05-31 10:27:51,756 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=Apple Mac mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348 Pre-owned Free Shipping url=https://www.ebay.com/itm/146908833380",
+    "2026-05-31 10:27:57,237 INFO target=mac-mini-m1-16gb qualifying_deals=2",
+    "2026-05-31 10:27:57,238 INFO already notified target=mac-mini-m1-16gb market=us total=325.00 url=https://www.ebay.com/itm/197571318869",
+    "2026-05-31 10:27:57,238 INFO already notified target=mac-mini-m1-16gb market=us total=389.99 url=https://www.ebay.com/itm/146908833380",
+    "2026-05-31 10:27:57,239 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-31 10:30:20,441 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-05-31 10:30:20,442 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-05-31 10:32:08,698 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-05-31T13:17:06.235101+00:00",
+  "started_at": "2026-05-31T14:17:06.396296+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -97,9 +106,79 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used",
+            "confidence": 0.74,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 325.0,
+            "seller": "frodo2k",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "mac-mini-m1-16gb",
+            "title": "2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348",
+            "total_usd": 325.0,
+            "url": "https://www.ebay.com/itm/197571318869",
+            "why_good": "Buy It Now listing loaded as active; title states Apple Mac Mini M1, 16GB RAM, 512GB SSD, with free U.S. shipping."
+          },
+          {
+            "availability": "available",
+            "condition": "Used",
+            "confidence": 0.73,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 389.99,
+            "seller": "brsscity",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "mac-mini-m1-16gb",
+            "title": "Apple Mac mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348 Pre-owned Free Shipping",
+            "total_usd": 389.99,
+            "url": "https://www.ebay.com/itm/146908833380",
+            "why_good": "Buy It Now listing loaded as active; listing title states M1 Mac mini with 16GB RAM and 512GB SSD, free U.S. shipping keeps total under $400."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used",
+          "confidence": 0.74,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 325.0,
+          "seller": "frodo2k",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "mac-mini-m1-16gb",
+          "title": "2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348",
+          "total_usd": 325.0,
+          "url": "https://www.ebay.com/itm/197571318869",
+          "why_good": "Buy It Now listing loaded as active; title states Apple Mac Mini M1, 16GB RAM, 512GB SSD, with free U.S. shipping."
+        },
+        {
+          "availability": "available",
+          "condition": "Used",
+          "confidence": 0.73,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 389.99,
+          "seller": "brsscity",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "mac-mini-m1-16gb",
+          "title": "Apple Mac mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348 Pre-owned Free Shipping",
+          "total_usd": 389.99,
+          "url": "https://www.ebay.com/itm/146908833380",
+          "why_good": "Buy It Now listing loaded as active; listing title states M1 Mac mini with 16GB RAM and 512GB SSD, free U.S. shipping keeps total under $400."
+        }
+      ],
       "id": "mac-mini-m1-16gb",
       "max_price_usd": 400,
       "name": "M1 Mac mini with 16GB RAM",
@@ -107,12 +186,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used",
+            "confidence": 0.74,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 325.0,
+            "seller": "frodo2k",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "mac-mini-m1-16gb",
+            "title": "2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348",
+            "total_usd": 325.0,
+            "url": "https://www.ebay.com/itm/197571318869",
+            "why_good": "Buy It Now listing loaded as active; title states Apple Mac Mini M1, 16GB RAM, 512GB SSD, with free U.S. shipping."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
