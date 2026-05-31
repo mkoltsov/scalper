@@ -1,26 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-05-31T11:32:58.469897+00:00",
+  "finished_at": "2026-05-31T12:39:38.444271+00:00",
   "logs": [
-    "2026-05-31 07:17:05,867 INFO scalper run started 2026-05-31T11:17:05.867404+00:00",
-    "2026-05-31 07:17:05,869 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-05-31 07:19:31,549 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-05-31 07:19:31,550 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-05-31 07:22:18,099 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137160733788",
-    "2026-05-31 07:22:18,100 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
-    "2026-05-31 07:22:25,591 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite url=https://www.ebay.com/itm/137160733788",
-    "2026-05-31 07:22:25,592 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-05-31 07:22:25,593 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-05-31 07:24:44,135 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-05-31 07:24:44,136 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-05-31 07:24:44,137 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-05-31 07:28:06,966 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-05-31 07:28:06,967 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-05-31 07:30:24,028 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-05-31 07:30:24,029 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-05-31 07:32:58,469 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-05-31 08:17:06,431 INFO scalper run started 2026-05-31T12:17:06.431454+00:00",
+    "2026-05-31 08:17:06,433 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-05-31 08:19:59,730 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-05-31 08:19:59,731 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-05-31 08:24:46,704 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-05-31 08:24:46,705 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-05-31 08:28:03,709 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-05-31 08:28:03,710 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014",
+    "2026-05-31 08:28:03,711 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-05-31 08:32:59,570 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-05-31 08:32:59,570 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-05-31 08:37:31,720 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-05-31 08:37:31,721 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-05-31 08:39:38,443 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-05-31T11:17:05.867404+00:00",
+  "started_at": "2026-05-31T12:17:06.431454+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -80,7 +77,7 @@
           {
             "availability": "available",
             "condition": "Good condition",
-            "confidence": 0.82,
+            "confidence": 0.87,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -92,7 +89,7 @@
             "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
             "total_usd": 639.0,
             "url": "https://swappa.com/listing/view/LADY61014",
-            "why_good": "13-inch M2 MacBook Air with 16GB RAM and 512GB SSD; page shows approved listing, Login to Buy, and free US shipping."
+            "why_good": "13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD; listing shows Login to Buy and free US shipping."
           }
         ]
       },
@@ -100,7 +97,7 @@
         {
           "availability": "available",
           "condition": "Good condition",
-          "confidence": 0.82,
+          "confidence": 0.87,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -112,7 +109,7 @@
           "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
           "total_usd": 639.0,
           "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "13-inch M2 MacBook Air with 16GB RAM and 512GB SSD; page shows approved listing, Login to Buy, and free US shipping."
+          "why_good": "13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD; listing shows Login to Buy and free US shipping."
         }
       ],
       "id": "macbook-13-apple-silicon-16-24gb",
@@ -125,7 +122,7 @@
           "us": {
             "availability": "available",
             "condition": "Good condition",
-            "confidence": 0.82,
+            "confidence": 0.87,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -137,7 +134,7 @@
             "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2",
             "total_usd": 639.0,
             "url": "https://swappa.com/listing/view/LADY61014",
-            "why_good": "13-inch M2 MacBook Air with 16GB RAM and 512GB SSD; page shows approved listing, Login to Buy, and free US shipping."
+            "why_good": "13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD; listing shows Login to Buy and free US shipping."
           }
         },
         "counts": {
