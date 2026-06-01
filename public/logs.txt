@@ -1,13 +1,329 @@
-2026-06-01 17:17:05,525 INFO scalper run started 2026-06-01T21:17:05.525101+00:00
-2026-06-01 17:17:05,531 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-01 17:19:10,626 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-01 17:19:10,627 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-01 17:21:50,436 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-01 17:21:50,437 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-01 17:25:55,796 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-01 17:25:55,797 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-01 17:28:59,699 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-01 17:28:59,699 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-01 17:32:00,581 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-01 17:32:00,582 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-01 17:34:03,224 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-01 18:17:06,038 INFO scalper run started 2026-06-01T22:17:06.038113+00:00
+2026-06-01 18:17:06,040 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-01 18:19:07,697 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-01 18:19:07,698 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-01 18:21:47,883 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-01 18:21:47,884 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-01 18:24:05,472 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-01 18:24:05,473 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-01 18:25:04,748 ERROR Codex search failed for target=mac-mini-m1-16gb
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1829, in run
+    result = run_codex(target, config, metrics)
+  File "/home/intimatik/dev/scalper/scalper.py", line 510, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
+    )
+RuntimeError: Codex failed for mac-mini-m1-16gb with exit code 1: Reading additional input from stdin...
+OpenAI Codex v0.135.0
+--------
+workdir: /home/intimatik/dev/scalper
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019e8549-7cb9-7a93-99dc-d8b86dbb467d
+--------
+user
+You are a precise deal-finding automation. Use live web_search.
+
+Current UTC date: 2026-06-01
+Target id: mac-mini-m1-16gb
+Target name: M1 Mac mini with 16GB RAM
+Maximum total price: $400 USD, including shipping or delivery to United States or Poland.
+Usual market price estimate: $450 USD.
+Configured shipping destinations:
+[
+  "United States",
+  "Poland"
+]
+
+Search intent:
+Find currently available used, refurbished, open-box, or discounted Apple Mac mini listings under $400 total. The Mac mini must have an Apple M1 chip, 16GB RAM/unified memory, and more than 256GB storage. Reject 256GB storage models, Intel Mac minis, M2/M3/M4/M5 Mac minis, 8GB RAM models, models with RAM missing or unclear, MacBooks, iMacs, Mac Studios, logic boards, parts-only machines, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $400 or more.
+
+Acceptance criteria:
+[
+  "It is an Apple Mac mini desktop, not a MacBook, iMac, Mac Studio, or parts listing.",
+  "It has an Apple M1 chip.",
+  "It has 16GB RAM/unified memory.",
+  "Reject 256GB storage models; storage must be 512GB or larger if stated.",
+  "Reject 8GB RAM models and any listing where RAM is missing or unclear.",
+  "Reject Intel Mac minis.",
+  "Reject M2, M3, M4, M5, or newer Mac minis for this target because they have a different price ceiling.",
+  "The total price including shipping is less than 400 USD.",
+  "It is currently available to buy.",
+  "The listing URL opens as an active listing page.",
+  "It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519."
+]
+
+Required model/text patterns. A listing must match at least one if this list is not empty:
+[
+  "(?=.*\\bmac\\s*mini\\b)(?=.*\\bm1\\b)(?=.*\\b16\\s*gb\\b)"
+]
+
+Reject text patterns. Exclude a listing if it matches any of these:
+[
+  "\\bintel\\b",
+  "\\bcore\\s+i[3579]\\b",
+  "\\bm(?:[2-9]|[1-9][0-9]+)\\b",
+  "\\b256\\s*(?:gb|g)\\b",
+  "\\b(?:4|8|24|32|36|48|64|96|128)\\s*gb\\s*(?:ram|unified\\s+memory|memory)\\b",
+  "\\b(?:ram|memory)\\s*[:/-]?\\s*(?:4|8|24|32|36|48|64|96|128)\\s*gb\\b",
+  "\\bmacbook\\b",
+  "\\bimac\\b",
+  "\\bmac\\s*studio\\b",
+  "\\blogic\\s*board\\b",
+  "\\bfor\\s+parts\\b",
+  "\\bparts\\s+only\\b",
+  "\\bnot\\s+working\\b"
+]
+
+Suggested search queries:
+[
+  "Mac mini M1 16GB RAM under $400 used",
+  "Apple Mac mini M1 16GB 512GB used under 400",
+  "Apple Mac mini M1 16GB 1TB used under 400",
+  "Mac mini M1 16GB unified memory eBay under 400",
+  "Mac mini M1 16GB refurbished under 400",
+  "site:offerup.com Mac mini M1 16GB 512GB Cary NC 27519",
+  "site:offerup.com Mac mini M1 16GB Raleigh Durham Cary",
+  "M1 Mac mini with 16GB RAM Allegro dostawa",
+  "M1 Mac mini with 16GB RAM OLX wysylka",
+  "M1 Mac mini with 16GB RAM eBay Europe delivery to Poland",
+  "M1 Mac mini with 16GB RAM eBay Germany ships to Poland",
+  "M1 Mac mini with 16GB RAM Catawiki delivery Poland"
+]
+
+Marketplace search coverage:
+[
+  "Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.",
+  "Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.",
+  "Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.",
+  "European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.",
+  "Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.",
+  "Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options."
+]
+
+Local marketplace exception:
+- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.
+- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.
+- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.
+
+
+Return only strict JSON. Do not wrap it in Markdown. Do not include prose.
+Schema:
+{
+  "target_id": "mac-mini-m1-16gb",
+  "checked_at": "ISO-8601 timestamp",
+      "deals": [
+    {
+      "title": "listing title",
+      "url": "direct listing URL",
+      "source": "marketplace or site name",
+      "seller": "seller if visible, otherwise empty string",
+      "price_usd": 0.0,
+      "shipping_usd": 0.0,
+      "total_usd": 0.0,
+      "condition": "condition text",
+      "availability": "available",
+      "listing_status": "available",
+      "ships_to_us": true,
+      "ships_to_destination": true,
+      "shipping_destination": "United States or Poland",
+      "delivery_country": "United States",
+      "market_region": "us",
+      "why_good": "short reason this matches the criteria",
+      "confidence": 0.0
+    }
+  ]
+}
+
+Rules:
+- Include at most 5 deals.
+- Set market_region to "us" for US marketplace/listing-location deals, "eu" for European/UK/Polish marketplace/listing-location deals, and "other" only if the listing cannot be classified.
+- Include only listings that satisfy every acceptance criterion.
+- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.
+- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
+- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.
+- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.
+- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.
+- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
+- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
+- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
+- If there are no qualifying deals, return "deals": [].
+ERROR: Reconnecting... 2/5
+ERROR: Reconnecting... 3/5
+ERROR: Reconnecting... 4/5
+ERROR: Reconnecting... 5/5
+ERROR: Reconnecting... 1/5
+ERROR: Reconnecting... 2/5
+ERROR: Reconnecting... 3/5
+ERROR: Reconnecting... 4/5
+ERROR: Reconnecting... 5/5
+ERROR: We're currently experiencing high demand, which may cause temporary errors.
+ERROR: We're currently experiencing high demand, which may cause temporary errors.
+2026-06-01 18:25:04,752 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-01 18:29:13,681 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-01 18:29:13,682 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-01 18:30:14,215 ERROR Codex search failed for target=toyota-matrix-2nd-gen-red-hood
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1829, in run
+    result = run_codex(target, config, metrics)
+  File "/home/intimatik/dev/scalper/scalper.py", line 510, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
+    )
+RuntimeError: Codex failed for toyota-matrix-2nd-gen-red-hood with exit code 1: Reading additional input from stdin...
+OpenAI Codex v0.135.0
+--------
+workdir: /home/intimatik/dev/scalper
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019e854e-30d7-7293-9500-d2f3ea37dafa
+--------
+user
+You are a precise deal-finding automation. Use live web_search.
+
+Current UTC date: 2026-06-01
+Target id: toyota-matrix-2nd-gen-red-hood
+Target name: Used red hood for 2nd-gen Toyota Matrix
+Maximum total price: $450 USD, including shipping or delivery to United States or Poland.
+Usual market price estimate: $550 USD.
+Configured shipping destinations:
+[
+  "United States",
+  "Poland"
+]
+
+Search intent:
+Find currently available used OEM red hood or bonnet listings for a second-generation Toyota Matrix, model years 2009-2014, under $450 total. Also search Pick Your Part / PYP at pyp.com for qualifying yard inventory, especially Raleigh, Durham, Charlotte, Greensboro, and other practical North Carolina yards. The hood must already be red, ideally a factory Toyota red such as Radiant Red, Barcelona Red Metallic, paint code 3L5, or paint code 3R3. Accept normal used wear only if the panel is straight and usable. Reject first-generation 2003-2008 Matrix hoods, Pontiac Vibe hoods, hood latch/hinge/release cable/prop rod/grommet/bumper cushion hardware, primed or unpainted hoods, carbon fiber hoods, aftermarket unpainted panels, damaged/bent/rusted/cracked hoods, sold listings, out-of-stock listings, local-pickup-only listings outside the configured OfferUp Cary NC area, PYP yard inventory outside practical driving range unless the part can ship, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp or practical local PYP listings, links that do not open as active listing pages, and listings where item price plus shipping or local-pull cost estimate is $450 or more.
+
+Acceptance criteria:
+[
+  "It is a hood/bonnet panel for a 2009-2014 Toyota Matrix.",
+  "It is already red, such as red, Radiant Red, Barcelona Red Metallic, 3L5, or 3R3.",
+  "It is used OEM or a used genuine Toyota panel; new primed, unpainted, aftermarket, and carbon-fiber hoods are not acceptable.",
+  "Reject hood hardware/accessories only: latch, lock, hinges, release cable, prop rod, bumpers, cushions, clips, bolts, grommets, or insulation.",
+  "Reject 2003-2008 Toyota Matrix hoods and Pontiac Vibe hoods.",
+  "The panel is not bent, rusted, cracked, collision-damaged, or for parts only.",
+  "For pyp.com / Pick Your Part, include only clear 2009-2014 Toyota Matrix yard inventory where the vehicle is red or the hood is visibly red; mention the yard location and that part availability is first-come, first-served.",
+  "The total price including shipping is less than 450 USD.",
+  "It is currently available to buy.",
+  "The listing URL opens as an active listing page.",
+  "It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519, or it is a practical local PYP yard listing in North Carolina."
+]
+
+Required model/text patterns. A listing must match at least one if this list is not empty:
+[
+  "(?=.*\\bmatrix\\b)(?=.*\\b(?:hood|bonnet)\\b)(?=.*\\b(?:2009|2010|2011|2012|2013|2014|09|10|11|12|13|14)\\b)(?=.*\\b(?:red|radiant\\s+red|barcelona\\s+red|3l5|3r3)\\b)",
+  "(?=.*\\b5330102220\\b)(?=.*\\b(?:hood|bonnet)\\b)(?=.*\\b(?:red|radiant\\s+red|barcelona\\s+red|3l5|3r3)\\b)",
+  "(?=.*\\bto1230212\\b)(?=.*\\b(?:hood|bonnet)\\b)(?=.*\\b(?:red|radiant\\s+red|barcelona\\s+red|3l5|3r3)\\b)"
+]
+
+Reject text patterns. Exclude a listing if it matches any of these:
+[
+  "\\b(?:2003|2004|2005|2006|2007|2008|03|04|05|06|07|08)\\b",
+  "\\bhood\\s+(?:latch|lock|hinge|hinges|release|cable|prop|rod|support|strut|bumper|cushion|clip|clips|bolt|bolts|grommet|insulation|insulator)\\b",
+  "\\b(?:latch|lock|hinge|hinges|release\\s+cable|prop\\s+rod|support\\s+rod|strut|bumper\\s+adjustment|rubber\\s+cushion|grommet|clip|bolt|insulation|insulator)\\b",
+  "\\b(?:primed|unpainted|paint\\s+to\\s+match|carbon\\s+fiber|cf\\s+hood|new\\s+aftermarket|aftermarket)\\b",
+  "\\b(?:dent(?:ed)?|bent|rust(?:y|ed)?|crack(?:ed)?|damaged|collision|repairable|for\\s+parts|parts\\s+only|salvage\\s+damage)\\b",
+  "\\bpontiac\\s+vibe\\b"
+]
+
+Suggested search queries:
+[
+  "2009 2010 2011 2012 2013 2014 Toyota Matrix red hood used",
+  "\"2009-2013 Toyota Matrix Hood\" red",
+  "\"2009-2014 Toyota Matrix\" red hood OEM",
+  "\"Toyota Matrix\" \"Radiant Red\" hood 2009 2010 2011 2012 2013",
+  "\"Toyota Matrix\" \"Barcelona Red\" hood 2009 2010 2011 2012 2013",
+  "\"Toyota Matrix\" hood 3L5 red",
+  "\"Toyota Matrix\" hood 3R3 red",
+  "site:ebay.com Toyota Matrix 2009 2013 hood red used",
+  "site:car-part.com Toyota Matrix hood red 2009 2014",
+  "site:pyp.com Toyota Matrix 2009 2014 red hood",
+  "site:pyp.com/inventory Toyota Matrix red 2009 2014",
+  "site:pyp.com/parts Toyota Matrix hood Raleigh Durham",
+  "site:offerup.com Toyota Matrix red hood Cary NC 27519",
+  "site:offerup.com Toyota Matrix hood red Raleigh Durham Cary",
+  "Used red hood for 2nd-gen Toyota Matrix Allegro dostawa",
+  "Used red hood for 2nd-gen Toyota Matrix OLX wysylka",
+  "Used red hood for 2nd-gen Toyota Matrix eBay Europe delivery to Poland",
+  "Used red hood for 2nd-gen Toyota Matrix eBay Germany ships to Poland",
+  "Used red hood for 2nd-gen Toyota Matrix Catawiki delivery Poland"
+]
+
+Marketplace search coverage:
+[
+  "Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.",
+  "Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.",
+  "Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.",
+  "European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.",
+  "Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.",
+  "Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options."
+]
+
+Local marketplace exception:
+- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.
+- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.
+- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.
+
+
+Return only strict JSON. Do not wrap it in Markdown. Do not include prose.
+Schema:
+{
+  "target_id": "toyota-matrix-2nd-gen-red-hood",
+  "checked_at": "ISO-8601 timestamp",
+      "deals": [
+    {
+      "title": "listing title",
+      "url": "direct listing URL",
+      "source": "marketplace or site name",
+      "seller": "seller if visible, otherwise empty string",
+      "price_usd": 0.0,
+      "shipping_usd": 0.0,
+      "total_usd": 0.0,
+      "condition": "condition text",
+      "availability": "available",
+      "listing_status": "available",
+      "ships_to_us": true,
+      "ships_to_destination": true,
+      "shipping_destination": "United States or Poland",
+      "delivery_country": "United States",
+      "market_region": "us",
+      "why_good": "short reason this matches the criteria",
+      "confidence": 0.0
+    }
+  ]
+}
+
+Rules:
+- Include at most 5 deals.
+- Set market_region to "us" for US marketplace/listing-location deals, "eu" for European/UK/Polish marketplace/listing-location deals, and "other" only if the listing cannot be classified.
+- Include only listings that satisfy every acceptance criterion.
+- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.
+- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
+- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.
+- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.
+- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.
+- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
+- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
+- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
+- If there are no qualifying deals, return "deals": [].
+ERROR: Reconnecting... 2/5
+ERROR: Reconnecting... 3/5
+ERROR: Reconnecting... 4/5
+ERROR: Reconnecting... 5/5
+ERROR: Reconnecting... 1/5
+ERROR: Reconnecting... 2/5
+ERROR: Reconnecting... 3/5
+ERROR: Reconnecting... 4/5
+ERROR: Reconnecting... 5/5
+ERROR: We're currently experiencing high demand, which may cause temporary errors.
+ERROR: We're currently experiencing high demand, which may cause temporary errors.
