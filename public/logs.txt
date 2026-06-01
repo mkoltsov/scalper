@@ -1,19 +1,14 @@
-2026-06-01 06:17:06,123 INFO scalper run started 2026-06-01T10:17:06.123065+00:00
-2026-06-01 06:17:06,125 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-01 06:19:22,395 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-01 06:19:22,396 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-01 06:22:36,529 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-01 06:22:36,530 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-01 06:25:12,132 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507
-2026-06-01 06:25:12,133 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
-2026-06-01 06:25:46,960 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
-2026-06-01 06:25:46,961 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-01 06:25:46,961 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-01 06:27:42,651 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/187921738769?campid=5336844578&customid=newlinks&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&toolid=10001&var=0
-2026-06-01 06:27:42,652 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=Apple Mac Mini 2020 A2348 M1 8 Core 16GB DDR4 512GB SSD Silver -FAIR/SEE url=https://www.ebay.com/itm/187921738769?campid=5336844578&customid=newlinks&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&toolid=10001&var=0
-2026-06-01 06:27:50,623 INFO browser validation rejected target=mac-mini-m1-16gb reason=unavailable title=Apple Mac Mini 2020 A2348 M1 8 Core 16GB DDR4 512GB SSD Silver -FAIR/SEE url=https://www.ebay.com/itm/187921738769?campid=5336844578&customid=newlinks&mkcid=1&mkevt=1&mkrid=711-53200-19255-0&toolid=10001&var=0
-2026-06-01 06:27:50,624 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-01 06:27:50,624 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-01 06:31:07,474 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-01 06:31:07,475 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-01 06:34:26,473 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-01 11:17:05,233 INFO scalper run started 2026-06-01T15:17:05.233113+00:00
+2026-06-01 11:17:05,235 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-01 11:21:14,110 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-01 11:21:14,111 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-01 11:23:22,476 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-01 11:23:22,477 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-01 11:26:32,269 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-06-01 11:26:32,270 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-06-01 11:26:32,272 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-01 11:28:44,418 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-01 11:28:44,419 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-01 11:31:27,468 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-01 11:31:27,469 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-01 11:33:29,590 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
