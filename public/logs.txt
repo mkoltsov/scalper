@@ -1,14 +1,61 @@
-2026-06-01 14:17:05,227 INFO scalper run started 2026-06-01T18:17:05.227684+00:00
-2026-06-01 14:17:05,234 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-01 14:19:24,633 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-01 14:19:24,634 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-01 14:23:52,458 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-01 14:23:52,459 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-01 14:26:52,665 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-01 14:26:52,666 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-01 14:29:05,295 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-01 14:29:05,296 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-01 14:31:57,458 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html
-2026-06-01 14:31:57,459 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-01 14:31:57,459 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-01 14:33:37,090 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-01 15:17:05,259 INFO scalper run started 2026-06-01T19:17:05.259183+00:00
+2026-06-01 15:17:05,265 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-01 15:17:06,395 ERROR Codex search failed for target=nzxt-h1-v2
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1829, in run
+    result = run_codex(target, config, metrics)
+  File "/home/intimatik/dev/scalper/scalper.py", line 510, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
+    )
+RuntimeError: Codex failed for nzxt-h1-v2 with exit code 1: Error: Your access token could not be refreshed because your refresh token was already used. Please log out and sign in again.
+2026-06-01 15:17:06,398 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-01 15:17:07,477 ERROR Codex search failed for target=bang-olufsen-charging-case
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1829, in run
+    result = run_codex(target, config, metrics)
+  File "/home/intimatik/dev/scalper/scalper.py", line 510, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
+    )
+RuntimeError: Codex failed for bang-olufsen-charging-case with exit code 1: Error: Your access token could not be refreshed because your refresh token was already used. Please log out and sign in again.
+2026-06-01 15:17:07,479 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-01 15:17:08,580 ERROR Codex search failed for target=macbook-13-apple-silicon-16-24gb
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1829, in run
+    result = run_codex(target, config, metrics)
+  File "/home/intimatik/dev/scalper/scalper.py", line 510, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
+    )
+RuntimeError: Codex failed for macbook-13-apple-silicon-16-24gb with exit code 1: Error: Your access token could not be refreshed because your refresh token was already used. Please log out and sign in again.
+2026-06-01 15:17:08,583 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-01 15:17:09,715 ERROR Codex search failed for target=mac-mini-m1-16gb
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1829, in run
+    result = run_codex(target, config, metrics)
+  File "/home/intimatik/dev/scalper/scalper.py", line 510, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
+    )
+RuntimeError: Codex failed for mac-mini-m1-16gb with exit code 1: Error: Your access token could not be refreshed because your refresh token was already used. Please log out and sign in again.
+2026-06-01 15:17:09,717 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-01 15:17:10,977 ERROR Codex search failed for target=mac-mini-m2-newer-16gb
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1829, in run
+    result = run_codex(target, config, metrics)
+  File "/home/intimatik/dev/scalper/scalper.py", line 510, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
+    )
+RuntimeError: Codex failed for mac-mini-m2-newer-16gb with exit code 1: Error: Your access token could not be refreshed because your refresh token was already used. Please log out and sign in again.
+2026-06-01 15:17:10,979 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-01 15:17:12,078 ERROR Codex search failed for target=toyota-matrix-2nd-gen-red-hood
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1829, in run
+    result = run_codex(target, config, metrics)
+  File "/home/intimatik/dev/scalper/scalper.py", line 510, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
+    )
+RuntimeError: Codex failed for toyota-matrix-2nd-gen-red-hood with exit code 1: Error: Your access token could not be refreshed because your refresh token was already used. Please log out and sign in again.
