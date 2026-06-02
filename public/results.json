@@ -1,23 +1,25 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-02T15:32:01.895832+00:00",
+  "finished_at": "2026-06-02T16:32:26.925732+00:00",
   "logs": [
-    "2026-06-02 11:17:05,184 INFO scalper run started 2026-06-02T15:17:05.183923+00:00",
-    "2026-06-02 11:17:05,186 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-02 11:19:38,154 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-02 11:19:38,154 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-02 11:22:14,935 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-02 11:22:14,935 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-02 11:24:53,896 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/",
-    "2026-06-02 11:24:53,896 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-06-02 11:24:53,897 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-02 11:27:42,192 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-02 11:27:42,192 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-02 11:30:12,302 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-02 11:30:12,303 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-02 11:32:01,895 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-02 12:17:05,667 INFO scalper run started 2026-06-02T16:17:05.667304+00:00",
+    "2026-06-02 12:17:05,669 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-02 12:19:09,466 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-02 12:19:09,467 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-02 12:21:43,156 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-02 12:21:43,157 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-02 12:25:07,303 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/297910449323",
+    "2026-06-02 12:25:07,303 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Mac14,7 13 M2 8-Core 16GB 512GB Gray 2022 - Used Good BAD BATTERY url=https://www.ebay.com/itm/297910449323",
+    "2026-06-02 12:25:44,291 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-06-02 12:25:44,292 INFO new deal target=macbook-13-apple-silicon-16-24gb market=us total=620.99 url=https://www.ebay.com/itm/297910449323",
+    "2026-06-02 12:25:44,418 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-02 12:27:53,042 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-02 12:27:53,043 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-02 12:30:42,660 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-02 12:30:42,661 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-02 12:32:26,925 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-02T15:17:05.183923+00:00",
+  "started_at": "2026-06-02T16:17:05.667304+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -73,9 +75,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used Good - bad battery; seller notes tested functional",
+            "confidence": 0.62,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 620.99,
+            "seller": "Omaha Blue",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple Mac14,7 13 M2 8-Core 16GB 512GB Gray 2022 - Used Good BAD BATTERY",
+            "total_usd": 620.99,
+            "url": "https://www.ebay.com/itm/297910449323",
+            "why_good": "13-inch 2022 M2 MacBook Pro class model A2338/MNEH3LL/A with 16GB RAM and 512GB SSD; automatic 10% coupon lowers $689.99 to about $620.99. Caveat: listing states bad battery."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used Good - bad battery; seller notes tested functional",
+          "confidence": 0.62,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 620.99,
+          "seller": "Omaha Blue",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "Apple Mac14,7 13 M2 8-Core 16GB 512GB Gray 2022 - Used Good BAD BATTERY",
+          "total_usd": 620.99,
+          "url": "https://www.ebay.com/itm/297910449323",
+          "why_good": "13-inch 2022 M2 MacBook Pro class model A2338/MNEH3LL/A with 16GB RAM and 512GB SSD; automatic 10% coupon lowers $689.99 to about $620.99. Caveat: listing states bad battery."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -83,12 +121,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used Good - bad battery; seller notes tested functional",
+            "confidence": 0.62,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 620.99,
+            "seller": "Omaha Blue",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple Mac14,7 13 M2 8-Core 16GB 512GB Gray 2022 - Used Good BAD BATTERY",
+            "total_usd": 620.99,
+            "url": "https://www.ebay.com/itm/297910449323",
+            "why_good": "13-inch 2022 M2 MacBook Pro class model A2338/MNEH3LL/A with 16GB RAM and 512GB SSD; automatic 10% coupon lowers $689.99 to about $620.99. Caveat: listing states bad battery."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
