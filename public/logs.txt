@@ -1,20 +1,26 @@
-2026-06-03 08:17:06,098 INFO scalper run started 2026-06-03T12:17:06.097983+00:00
-2026-06-03 08:17:06,100 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-03 08:19:29,609 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-03 08:19:29,610 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-03 08:23:14,273 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231
-2026-06-03 08:23:14,273 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
-2026-06-03 08:23:48,000 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961
-2026-06-03 08:23:48,001 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black url=https://www.ebay.com/itm/117216431961
-2026-06-03 08:23:55,883 INFO target=bang-olufsen-charging-case qualifying_deals=2
-2026-06-03 08:23:55,884 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216414231
-2026-06-03 08:23:55,884 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961
-2026-06-03 08:23:55,885 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-03 08:26:36,544 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-06-03 08:26:36,544 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-06-03 08:26:36,546 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-03 08:29:27,843 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-03 08:29:27,843 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-03 08:31:33,496 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-03 08:31:33,496 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-03 08:34:10,180 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-03 09:17:05,460 INFO scalper run started 2026-06-03T13:17:05.459911+00:00
+2026-06-03 09:17:05,466 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-03 09:19:51,559 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-03 09:19:51,560 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-03 09:22:34,247 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231
+2026-06-03 09:22:34,248 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
+2026-06-03 09:23:08,174 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961
+2026-06-03 09:23:08,175 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black url=https://www.ebay.com/itm/117216431961
+2026-06-03 09:23:16,073 INFO target=bang-olufsen-charging-case qualifying_deals=2
+2026-06-03 09:23:16,079 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216414231
+2026-06-03 09:23:16,080 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961
+2026-06-03 09:23:16,082 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-03 09:26:20,833 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=http_403 title=MacBook Air (M2 series) 13" Apple M2 8-core, 16GB RAM, 512GB SSD, Midnight url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-8-core-gpu-16gb-ram-ssd-512gb/ea64267e-2806-4197-8cfd-1d113593118c
+2026-06-03 09:26:20,982 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=http_403 title=MacBook Air (M2 series) 13" Apple M2 8-core/10-core GPU, 16GB RAM, 512GB SSD, Starlight url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-10-core-gpu-16gb-ram-ssd-512gb/937d812b-9bb6-45ae-9e14-de344f45324d
+2026-06-03 09:26:24,177 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-06-03 09:26:24,178 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-06-03 09:26:24,178 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-03 09:29:48,229 INFO rejected deal target=mac-mini-m1-16gb reason=unavailable title=Apple 2020 Mac Mini M1 3.2GHz (8-Core GPU) 16GB RAM 512GB SSD - Very good url=https://www.ebay.com/p/8063503094?iid=376604684921
+2026-06-03 09:29:48,303 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/197571290896
+2026-06-03 09:29:48,304 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348 url=https://www.ebay.com/itm/197571290896
+2026-06-03 09:29:53,301 INFO target=mac-mini-m1-16gb qualifying_deals=1
+2026-06-03 09:29:53,302 INFO already notified target=mac-mini-m1-16gb market=us total=389.99 url=https://www.ebay.com/itm/197571290896
+2026-06-03 09:29:53,303 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-03 09:32:14,576 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-03 09:32:14,576 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-03 09:33:58,464 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
