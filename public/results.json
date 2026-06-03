@@ -1,24 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-03T20:32:14.406794+00:00",
+  "finished_at": "2026-06-03T21:31:22.108946+00:00",
   "logs": [
-    "2026-06-03 16:17:05,560 INFO scalper run started 2026-06-03T20:17:05.560237+00:00",
-    "2026-06-03 16:17:05,562 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-03 16:19:16,515 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-03 16:19:16,516 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-03 16:21:15,300 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-03 16:21:15,301 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-03 16:24:16,178 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-06-03 16:24:16,179 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014",
-    "2026-06-03 16:24:16,180 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-03 16:26:37,789 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-03 16:26:37,790 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-03 16:30:04,226 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html",
-    "2026-06-03 16:30:04,226 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-03 16:30:04,227 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-03 16:32:14,406 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-03 17:17:05,267 INFO scalper run started 2026-06-03T21:17:05.267384+00:00",
+    "2026-06-03 17:17:05,273 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-03 17:19:25,013 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-03 17:19:25,014 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-03 17:21:36,849 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-03 17:21:36,850 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-03 17:24:50,677 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/",
+    "2026-06-03 17:24:50,677 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-03 17:24:50,678 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-03 17:27:01,114 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-03 17:27:01,115 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-03 17:29:24,120 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-03 17:29:24,121 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-03 17:31:22,108 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-03T20:17:05.560237+00:00",
+  "started_at": "2026-06-03T21:17:05.267384+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -74,45 +73,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Good condition",
-            "confidence": 0.84,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 639.0,
-            "seller": "Leonard",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2 - LADY61014",
-            "total_usd": 639.0,
-            "url": "https://swappa.com/listing/view/LADY61014",
-            "why_good": "13-inch MacBook Air 2022 with Apple M2, 16GB RAM, 512GB SSD, and free US shipping keeps item plus shipping under $650."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Good condition",
-          "confidence": 0.84,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 639.0,
-          "seller": "Leonard",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2 - LADY61014",
-          "total_usd": 639.0,
-          "url": "https://swappa.com/listing/view/LADY61014",
-          "why_good": "13-inch MacBook Air 2022 with Apple M2, 16GB RAM, 512GB SSD, and free US shipping keeps item plus shipping under $650."
-        }
-      ],
+      "deals": [],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -120,28 +83,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Good condition",
-            "confidence": 0.84,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 639.0,
-            "seller": "Leonard",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Midnight, 16GB, Apple M2 - LADY61014",
-            "total_usd": 639.0,
-            "url": "https://swappa.com/listing/view/LADY61014",
-            "why_good": "13-inch MacBook Air 2022 with Apple M2, 16GB RAM, 512GB SSD, and free US shipping keeps item plus shipping under $650."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
