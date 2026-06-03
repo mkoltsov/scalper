@@ -1,14 +1,17 @@
-2026-06-03 00:17:05,504 INFO scalper run started 2026-06-03T04:17:05.504392+00:00
-2026-06-03 00:17:05,507 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-03 00:19:15,636 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-03 00:19:15,637 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-03 00:21:45,752 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-03 00:21:45,753 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-03 00:24:43,218 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-06-03 00:24:43,219 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-06-03 00:24:43,221 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-03 00:27:20,052 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-03 00:27:20,053 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-03 00:29:24,432 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-03 00:29:24,433 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-03 00:32:32,466 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-03 01:17:05,959 INFO scalper run started 2026-06-03T05:17:05.959525+00:00
+2026-06-03 01:17:05,962 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-03 01:19:32,634 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-03 01:19:32,635 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-03 01:23:40,758 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-03 01:23:40,758 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-03 01:26:38,030 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-03 01:26:38,031 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-03 01:29:47,591 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/197571290896
+2026-06-03 01:29:47,592 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348 url=https://www.ebay.com/itm/197571290896
+2026-06-03 01:30:19,768 INFO target=mac-mini-m1-16gb qualifying_deals=1
+2026-06-03 01:30:19,774 INFO already notified target=mac-mini-m1-16gb market=us total=389.99 url=https://www.ebay.com/itm/197571290896
+2026-06-03 01:30:19,774 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-03 01:34:27,532 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_403 title=Apple 2023 Mac Mini Desktop Apple M2 Pro chip 16GB, 512GB url=https://thefurbearers.com/products/apple-2023-mac-mini-desktop-apple-m2-pro-chip-16gb-512gb/?ctgItemCd=22557745
+2026-06-03 01:34:27,532 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-03 01:34:27,532 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-03 01:36:13,801 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0

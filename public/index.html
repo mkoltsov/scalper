@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-06-03T04:32:32.466405+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-06-03T05:36:13.802219+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -79,6 +79,14 @@
             <section class="target">
               <div class="target-head">
                 <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>M1 Mac mini with 16GB RAM</h1>
                 <span>1 live match</span>
               </div>
               
@@ -86,8 +94,8 @@
                 
                 <div class="metric">
                   <span>US best</span>
-                  <strong>$639.00</strong>
-                  <small>Swappa</small>
+                  <strong>$389.99</strong>
+                  <small>eBay</small>
                 </div>
     
                 
@@ -110,9 +118,9 @@
                 <h2>US</h2>
                 
                 <article class="deal">
-                  <div class="meta"><span class="badge">US</span> Swappa · $639.00 · United States</div>
-                  <h2><a href="https://swappa.com/listing/view/LADY61014" rel="nofollow noopener">MacBook Air 2022 (M2) - 13&quot; - 512GB, Midnight, 16GB, Apple M2</a></h2>
-                  <p>13-inch MacBook Air M2 with 16GB RAM and 512GB SSD; active Swappa listing at $639 with free US shipping.</p>
+                  <div class="meta"><span class="badge">US</span> eBay · $389.99 · United States</div>
+                  <h2><a href="https://www.ebay.com/itm/197571290896" rel="nofollow noopener">2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348</a></h2>
+                  <p>Active Buy It Now listing; title shows M1 Mac mini with 16GB RAM and 512GB SSD, with free US shipping under $400 total.</p>
                 </article>
     
               </div>
@@ -122,14 +130,6 @@
                 <p class="empty">No qualifying listings in this market.</p>
               </div>
     
-            </section>
-            
-            <section class="target">
-              <div class="target-head">
-                <h1>M1 Mac mini with 16GB RAM</h1>
-                <span>0 live matches</span>
-              </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
             </section>
             
             <section class="target">
@@ -195,22 +195,25 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>14 lines published</span>
+        <span>17 lines published</span>
       </div>
-      <pre>2026-06-03 00:17:05,504 INFO scalper run started 2026-06-03T04:17:05.504392+00:00
-2026-06-03 00:17:05,507 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-03 00:19:15,636 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-03 00:19:15,637 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-03 00:21:45,752 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-03 00:21:45,753 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-03 00:24:43,218 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-06-03 00:24:43,219 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-06-03 00:24:43,221 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-03 00:27:20,052 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-03 00:27:20,053 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-03 00:29:24,432 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-03 00:29:24,433 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-03 00:32:32,466 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
+      <pre>2026-06-03 01:17:05,959 INFO scalper run started 2026-06-03T05:17:05.959525+00:00
+2026-06-03 01:17:05,962 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-03 01:19:32,634 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-03 01:19:32,635 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-03 01:23:40,758 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-03 01:23:40,758 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-03 01:26:38,030 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-03 01:26:38,031 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-03 01:29:47,591 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/197571290896
+2026-06-03 01:29:47,592 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348 url=https://www.ebay.com/itm/197571290896
+2026-06-03 01:30:19,768 INFO target=mac-mini-m1-16gb qualifying_deals=1
+2026-06-03 01:30:19,774 INFO already notified target=mac-mini-m1-16gb market=us total=389.99 url=https://www.ebay.com/itm/197571290896
+2026-06-03 01:30:19,774 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-03 01:34:27,532 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_403 title=Apple 2023 Mac Mini Desktop Apple M2 Pro chip 16GB, 512GB url=https://thefurbearers.com/products/apple-2023-mac-mini-desktop-apple-m2-pro-chip-16gb-512gb/?ctgItemCd=22557745
+2026-06-03 01:34:27,532 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-03 01:34:27,532 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-03 01:36:13,801 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
