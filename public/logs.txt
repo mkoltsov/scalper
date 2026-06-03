@@ -1,14 +1,20 @@
-2026-06-03 07:17:05,763 INFO scalper run started 2026-06-03T11:17:05.763039+00:00
-2026-06-03 07:17:05,765 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-03 07:19:00,303 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-03 07:19:00,304 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-03 07:21:15,043 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-03 07:21:15,044 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-03 07:24:48,877 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-06-03 07:24:48,878 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-06-03 07:24:48,879 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-03 07:27:06,256 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-03 07:27:06,257 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-03 07:29:16,534 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-03 07:29:16,534 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-03 07:31:05,610 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-03 08:17:06,098 INFO scalper run started 2026-06-03T12:17:06.097983+00:00
+2026-06-03 08:17:06,100 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-03 08:19:29,609 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-03 08:19:29,610 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-03 08:23:14,273 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231
+2026-06-03 08:23:14,273 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
+2026-06-03 08:23:48,000 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961
+2026-06-03 08:23:48,001 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black url=https://www.ebay.com/itm/117216431961
+2026-06-03 08:23:55,883 INFO target=bang-olufsen-charging-case qualifying_deals=2
+2026-06-03 08:23:55,884 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216414231
+2026-06-03 08:23:55,884 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961
+2026-06-03 08:23:55,885 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-03 08:26:36,544 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-06-03 08:26:36,544 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-06-03 08:26:36,546 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-03 08:29:27,843 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-03 08:29:27,843 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-03 08:31:33,496 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-03 08:31:33,496 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-03 08:34:10,180 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
