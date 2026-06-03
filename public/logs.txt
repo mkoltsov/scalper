@@ -1,16 +1,17 @@
-2026-06-03 03:17:05,450 INFO scalper run started 2026-06-03T07:17:05.450267+00:00
-2026-06-03 03:17:05,452 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-03 03:19:34,996 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-03 03:19:34,996 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-03 03:21:49,634 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-03 03:21:49,635 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-03 03:24:53,204 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306627013511
-2026-06-03 03:24:53,205 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13" M2 Chip 8-Core 16GB RAM 512GB SSD 2022 Silver Very Good url=https://www.ebay.com/itm/306627013511
-2026-06-03 03:25:27,332 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=expired title=Apple MacBook Air 13" M2 Chip 8-Core 16GB RAM 512GB SSD 2022 Silver Very Good url=https://www.ebay.com/itm/306627013511
-2026-06-03 03:25:27,332 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-03 03:25:27,337 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-03 03:28:20,552 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-03 03:28:20,552 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-03 03:30:45,854 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-03 03:30:45,855 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-03 03:33:06,392 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-03 04:17:07,003 INFO scalper run started 2026-06-03T08:17:07.003379+00:00
+2026-06-03 04:17:07,005 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-03 04:19:28,747 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-03 04:19:28,748 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-03 04:21:56,076 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-03 04:21:56,076 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-03 04:25:35,509 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306788889061
+2026-06-03 04:25:35,509 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022 url=https://www.ebay.com/itm/306788889061
+2026-06-03 04:26:10,198 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-06-03 04:26:10,199 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=636.49 url=https://www.ebay.com/itm/306788889061
+2026-06-03 04:26:10,200 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-03 04:32:15,366 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-03 04:32:15,367 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-03 04:35:21,396 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_404 title=Apple Mac mini M2 Pro (16GB RAM, 512GB SSD, 16-core GPU) with Bonus Mount url=https://www.oxbridgeic.co.uk/products/apple-mac-mini-m2-pro-16gb-ram-512gb-ssd-16-core-gpu-with-bo/22621136/
+2026-06-03 04:35:21,396 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-03 04:35:21,397 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-03 04:37:21,439 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
