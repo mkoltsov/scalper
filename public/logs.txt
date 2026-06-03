@@ -1,14 +1,16 @@
-2026-06-03 02:17:05,775 INFO scalper run started 2026-06-03T06:17:05.775801+00:00
-2026-06-03 02:17:05,777 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-03 02:19:07,836 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-03 02:19:07,837 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-03 02:21:08,443 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-03 02:21:08,444 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-03 02:26:07,791 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-03 02:26:07,792 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-03 02:28:44,072 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-03 02:28:44,072 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-03 02:33:21,877 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1
-2026-06-03 02:33:21,877 INFO new deal target=mac-mini-m2-newer-16gb market=us total=499.99 url=https://www.ebay.com/p/13060097434?iid=389843470718
-2026-06-03 02:33:22,017 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-03 02:35:44,072 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-03 03:17:05,450 INFO scalper run started 2026-06-03T07:17:05.450267+00:00
+2026-06-03 03:17:05,452 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-03 03:19:34,996 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-03 03:19:34,996 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-03 03:21:49,634 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-03 03:21:49,635 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-03 03:24:53,204 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306627013511
+2026-06-03 03:24:53,205 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13" M2 Chip 8-Core 16GB RAM 512GB SSD 2022 Silver Very Good url=https://www.ebay.com/itm/306627013511
+2026-06-03 03:25:27,332 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=expired title=Apple MacBook Air 13" M2 Chip 8-Core 16GB RAM 512GB SSD 2022 Silver Very Good url=https://www.ebay.com/itm/306627013511
+2026-06-03 03:25:27,332 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-03 03:25:27,337 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-03 03:28:20,552 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-03 03:28:20,552 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-03 03:30:45,854 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-03 03:30:45,855 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-03 03:33:06,392 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
