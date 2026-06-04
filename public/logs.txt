@@ -1,15 +1,14 @@
-2026-06-04 16:17:05,782 INFO scalper run started 2026-06-04T20:17:05.782420+00:00
-2026-06-04 16:17:05,784 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-04 16:19:04,492 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-04 16:19:04,492 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-04 16:21:36,474 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-04 16:21:36,475 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-04 16:27:07,256 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-06-04 16:27:07,257 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-06-04 16:27:07,258 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-04 16:29:19,686 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-04 16:29:19,687 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-04 16:32:27,378 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
-2026-06-04 16:32:27,379 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-04 16:32:27,379 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-04 16:34:25,400 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-04 17:17:05,239 INFO scalper run started 2026-06-04T21:17:05.239812+00:00
+2026-06-04 17:17:05,241 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-04 17:19:08,554 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-04 17:19:08,555 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-04 17:21:06,421 INFO rejected deal target=bang-olufsen-charging-case reason=reject_pattern pattern=\bprotective\s+(cover|case|skin)\b title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite
+2026-06-04 17:21:06,421 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-04 17:21:06,422 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-04 17:23:38,350 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-04 17:23:38,351 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-04 17:25:58,463 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-04 17:25:58,464 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-04 17:28:18,415 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-04 17:28:18,416 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-04 17:30:06,368 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
