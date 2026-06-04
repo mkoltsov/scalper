@@ -1,15 +1,16 @@
-2026-06-04 08:17:05,769 INFO scalper run started 2026-06-04T12:17:05.769165+00:00
-2026-06-04 08:17:05,771 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-04 08:19:32,829 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-04 08:19:32,829 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-04 08:22:03,910 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-04 08:22:03,910 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-04 08:25:44,369 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-06-04 08:25:44,370 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
-2026-06-04 08:25:44,370 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-04 08:27:52,103 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-04 08:27:52,104 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-04 08:30:30,434 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB/512GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-512gb-CID99-ID1atUDe.html?search_reason=search%7Corganic
-2026-06-04 08:30:30,435 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-04 08:30:30,435 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-04 08:32:19,020 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-04 09:17:05,547 INFO scalper run started 2026-06-04T13:17:05.547441+00:00
+2026-06-04 09:17:05,553 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-04 09:20:31,759 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-04 09:20:31,760 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-04 09:23:43,136 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-04 09:23:43,138 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-04 09:26:33,983 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507
+2026-06-04 09:26:33,984 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
+2026-06-04 09:27:09,948 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
+2026-06-04 09:27:09,949 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-04 09:27:09,950 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-04 09:29:20,656 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-04 09:29:20,657 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-04 09:32:46,295 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-04 09:32:46,295 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-04 09:35:11,807 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
