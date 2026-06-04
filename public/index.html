@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-06-04T08:35:37.928567+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-06-04T09:32:47.158787+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -95,9 +95,49 @@
             <section class="target">
               <div class="target-head">
                 <h1>M2-or-newer Mac mini with 16GB+ RAM</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>$545.00</strong>
+                  <small>Swappa</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> Swappa · $545.00 · United States</div>
+                  <h2><a href="https://swappa.com/listing/view/LAEI12591" rel="nofollow noopener">Mac mini 2023 - M2, 16GB, 1TB SSD, 1 Gigabit Ethernet - LAEI12591</a></h2>
+                  <p>M2 Mac mini with 16GB memory and 1TB SSD, approved Swappa listing with free US shipping under $550 total.</p>
+                </article>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
             </section>
             
             <section class="target">
@@ -155,22 +195,23 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>14 lines published</span>
+        <span>15 lines published</span>
       </div>
-      <pre>2026-06-04 04:17:05,823 INFO scalper run started 2026-06-04T08:17:05.823321+00:00
-2026-06-04 04:17:05,825 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-04 04:19:29,359 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-04 04:19:29,360 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-04 04:22:19,425 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-04 04:22:19,426 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-04 04:27:01,027 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-04 04:27:01,028 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-04 04:29:22,646 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-04 04:29:22,647 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-04 04:33:21,861 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html
-2026-06-04 04:33:21,862 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-04 04:33:21,862 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-04 04:35:37,928 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
+      <pre>2026-06-04 05:17:05,205 INFO scalper run started 2026-06-04T09:17:05.205067+00:00
+2026-06-04 05:17:05,207 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-04 05:19:38,083 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-04 05:19:38,083 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-04 05:22:13,598 INFO rejected deal target=bang-olufsen-charging-case reason=reject_pattern pattern=\bprotective\s+(cover|case|skin)\b title=Bang &amp; Olufsen BEOPlay EX Charging Case - Black Anthracite
+2026-06-04 05:22:13,598 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-04 05:22:13,599 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-04 05:25:16,477 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-04 05:25:16,478 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-04 05:27:33,513 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-04 05:27:33,514 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-04 05:31:05,014 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1
+2026-06-04 05:31:05,015 INFO already notified target=mac-mini-m2-newer-16gb market=us total=545.00 url=https://swappa.com/listing/view/LAEI12591
+2026-06-04 05:31:05,016 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-04 05:32:47,158 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
