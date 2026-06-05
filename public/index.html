@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-06-05T15:32:37.403224+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-06-05T16:34:15.015506+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -79,9 +79,49 @@
             <section class="target">
               <div class="target-head">
                 <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>$629.99</strong>
+                  <small>eBay</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> eBay · $629.99 · United States</div>
+                  <h2><a href="https://www.ebay.com/itm/306625772926" rel="nofollow noopener">Apple Macbook Air 13&quot; M2 8-Core 16GB 512GB - Very Good</a></h2>
+                  <p>13-inch 2022 MacBook Air with M2, 16GB RAM and 512GB SSD; page shows automatic TENSUMMER discount bringing free-shipping total to $629.99 with multiple units available.</p>
+                </article>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
             </section>
             
             <section class="target">
@@ -95,9 +135,49 @@
             <section class="target">
               <div class="target-head">
                 <h1>M2-or-newer Mac mini with 16GB+ RAM</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>$459.70</strong>
+                  <small>Allegro Lokalnie</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">EU/Europe</span> Allegro Lokalnie · $459.70 · Poland</div>
+                  <h2><a href="https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia" rel="nofollow noopener">Apple Mac mini M2 16GB RAM 512GB SSD Kultowy Mac mini + Stojak BDB</a></h2>
+                  <p>Buy-now Allegro Lokalnie listing in Poland: PLN 1690 plus low domestic delivery, Mac mini M2 with 16GB RAM and 512GB SSD.</p>
+                </article>
+    
+              </div>
+    
             </section>
             
             <section class="target">
@@ -155,22 +235,28 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>14 lines published</span>
+        <span>20 lines published</span>
       </div>
-      <pre>2026-06-05 11:17:05,835 INFO scalper run started 2026-06-05T15:17:05.835208+00:00
-2026-06-05 11:17:05,837 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-05 11:19:07,180 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-05 11:19:07,181 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-05 11:22:25,242 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-05 11:22:25,243 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-05 11:24:46,194 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-05 11:24:46,195 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-05 11:26:54,491 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-05 11:26:54,492 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-05 11:30:07,244 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html
-2026-06-05 11:30:07,244 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-05 11:30:07,245 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-05 11:32:37,402 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
+      <pre>2026-06-05 12:17:05,783 INFO scalper run started 2026-06-05T16:17:05.782875+00:00
+2026-06-05 12:17:05,784 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-05 12:20:01,258 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-05 12:20:01,258 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-05 12:23:12,471 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-05 12:23:12,472 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-05 12:26:03,808 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507
+2026-06-05 12:26:03,809 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
+2026-06-05 12:26:39,768 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507
+2026-06-05 12:26:39,923 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306625772926
+2026-06-05 12:26:39,924 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13&quot; M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926
+2026-06-05 12:26:50,438 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-06-05 12:26:50,439 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=629.99 url=https://www.ebay.com/itm/306625772926
+2026-06-05 12:26:50,440 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-05 12:29:02,438 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-05 12:29:02,438 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-05 12:32:03,024 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1
+2026-06-05 12:32:03,025 INFO new deal target=mac-mini-m2-newer-16gb market=eu total=459.70 url=https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia
+2026-06-05 12:32:03,131 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-05 12:34:15,015 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
