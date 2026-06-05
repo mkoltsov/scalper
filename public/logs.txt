@@ -1,19 +1,15 @@
-2026-06-05 08:17:06,022 INFO scalper run started 2026-06-05T12:17:06.022531+00:00
-2026-06-05 08:17:06,024 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-05 08:18:47,011 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-05 08:18:47,012 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-05 08:24:10,956 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.co.uk/itm/147270130390
-2026-06-05 08:24:10,957 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Bang & Olufsen Beoplay EX Wireless Bluetooth ANC In-Ear CHARGER CASE ONLY url=https://www.ebay.co.uk/itm/147270130390
-2026-06-05 08:24:44,998 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Bang & Olufsen Beoplay EX Wireless Bluetooth ANC In-Ear CHARGER CASE ONLY url=https://www.ebay.co.uk/itm/147270130390
-2026-06-05 08:24:44,999 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-05 08:24:44,999 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-05 08:28:06,415 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306788889061
-2026-06-05 08:28:06,418 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Mac14,7 A2338 13 M2 8-Core 16GB 512GB Gray 2022 url=https://www.ebay.com/itm/306788889061
-2026-06-05 08:28:15,536 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-06-05 08:28:15,537 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=636.49 url=https://www.ebay.com/itm/306788889061
-2026-06-05 08:28:15,538 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-05 08:30:59,531 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-05 08:30:59,532 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-05 08:33:43,784 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-05 08:33:43,785 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-05 08:35:42,649 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-05 09:17:05,896 INFO scalper run started 2026-06-05T13:17:05.896672+00:00
+2026-06-05 09:17:05,898 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-05 09:19:23,769 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-05 09:19:23,769 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-05 09:24:32,220 INFO rejected deal target=bang-olufsen-charging-case reason=reject_pattern pattern=\be8\s*(2\.0|3rd|third|gen|generation)?\b title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite
+2026-06-05 09:24:32,220 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-05 09:24:32,220 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-05 09:27:39,954 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-06-05 09:27:39,955 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://swappa.com/listing/view/LADY61014
+2026-06-05 09:27:39,956 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-05 09:30:39,133 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-05 09:30:39,134 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-05 09:32:49,907 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-05 09:32:49,907 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-05 09:34:45,483 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
