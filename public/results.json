@@ -1,29 +1,22 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-05T16:34:15.015506+00:00",
+  "finished_at": "2026-06-05T17:32:04.336521+00:00",
   "logs": [
-    "2026-06-05 12:17:05,783 INFO scalper run started 2026-06-05T16:17:05.782875+00:00",
-    "2026-06-05 12:17:05,784 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-05 12:20:01,258 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-05 12:20:01,258 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-05 12:23:12,471 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-05 12:23:12,472 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-05 12:26:03,808 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507",
-    "2026-06-05 12:26:03,809 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507",
-    "2026-06-05 12:26:39,768 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507",
-    "2026-06-05 12:26:39,923 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306625772926",
-    "2026-06-05 12:26:39,924 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926",
-    "2026-06-05 12:26:50,438 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-06-05 12:26:50,439 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=629.99 url=https://www.ebay.com/itm/306625772926",
-    "2026-06-05 12:26:50,440 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-05 12:29:02,438 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-05 12:29:02,438 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-05 12:32:03,024 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1",
-    "2026-06-05 12:32:03,025 INFO new deal target=mac-mini-m2-newer-16gb market=eu total=459.70 url=https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia",
-    "2026-06-05 12:32:03,131 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-05 12:34:15,015 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-05 13:17:05,530 INFO scalper run started 2026-06-05T17:17:05.530242+00:00",
+    "2026-06-05 13:17:05,532 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-05 13:19:17,236 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-05 13:19:17,236 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-05 13:22:15,555 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-05 13:22:15,555 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-05 13:24:31,068 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-05 13:24:31,068 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-05 13:27:16,162 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-05 13:27:16,163 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-05 13:29:18,083 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-05 13:29:18,084 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-05 13:32:04,335 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-05T16:17:05.782875+00:00",
+  "started_at": "2026-06-05T17:17:05.530242+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -79,45 +72,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; seller notes 100% functional with moderate body wear, slight dings or scuffs",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 629.99,
-            "seller": "Omaha Blue",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good",
-            "total_usd": 629.99,
-            "url": "https://www.ebay.com/itm/306625772926",
-            "why_good": "13-inch 2022 MacBook Air with M2, 16GB RAM and 512GB SSD; page shows automatic TENSUMMER discount bringing free-shipping total to $629.99 with multiple units available."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; seller notes 100% functional with moderate body wear, slight dings or scuffs",
-          "confidence": 0.86,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 629.99,
-          "seller": "Omaha Blue",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good",
-          "total_usd": 629.99,
-          "url": "https://www.ebay.com/itm/306625772926",
-          "why_good": "13-inch 2022 MacBook Air with M2, 16GB RAM and 512GB SSD; page shows automatic TENSUMMER discount bringing free-shipping total to $629.99 with multiple units available."
-        }
-      ],
+      "deals": [],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -125,28 +82,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; seller notes 100% functional with moderate body wear, slight dings or scuffs",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 629.99,
-            "seller": "Omaha Blue",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good",
-            "total_usd": 629.99,
-            "url": "https://www.ebay.com/itm/306625772926",
-            "why_good": "13-inch 2022 MacBook Air with M2, 16GB RAM and 512GB SSD; page shows automatic TENSUMMER discount bringing free-shipping total to $629.99 with multiple units available."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -179,74 +120,22 @@
     },
     {
       "deal_groups": {
-        "eu": [
-          {
-            "availability": "available",
-            "condition": "BDB / used",
-            "confidence": 0.78,
-            "delivery_country": "Poland",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 456.7,
-            "seller": "osoba prywatna, Wilczyce",
-            "shipping_usd": 3.0,
-            "source": "Allegro Lokalnie",
-            "target_id": "mac-mini-m2-newer-16gb",
-            "title": "Apple Mac mini M2 16GB RAM 512GB SSD Kultowy Mac mini + Stojak BDB",
-            "total_usd": 459.7,
-            "url": "https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia",
-            "why_good": "Buy-now Allegro Lokalnie listing in Poland: PLN 1690 plus low domestic delivery, Mac mini M2 with 16GB RAM and 512GB SSD."
-          }
-        ],
+        "eu": [],
         "other": [],
         "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "BDB / used",
-          "confidence": 0.78,
-          "delivery_country": "Poland",
-          "market_label": "EU/Europe",
-          "market_region": "eu",
-          "price_usd": 456.7,
-          "seller": "osoba prywatna, Wilczyce",
-          "shipping_usd": 3.0,
-          "source": "Allegro Lokalnie",
-          "target_id": "mac-mini-m2-newer-16gb",
-          "title": "Apple Mac mini M2 16GB RAM 512GB SSD Kultowy Mac mini + Stojak BDB",
-          "total_usd": 459.7,
-          "url": "https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia",
-          "why_good": "Buy-now Allegro Lokalnie listing in Poland: PLN 1690 plus low domestic delivery, Mac mini M2 with 16GB RAM and 512GB SSD."
-        }
-      ],
+      "deals": [],
       "id": "mac-mini-m2-newer-16gb",
       "max_price_usd": 550,
       "name": "M2-or-newer Mac mini with 16GB+ RAM",
       "regional_summary": {
         "best": {
-          "eu": {
-            "availability": "available",
-            "condition": "BDB / used",
-            "confidence": 0.78,
-            "delivery_country": "Poland",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 456.7,
-            "seller": "osoba prywatna, Wilczyce",
-            "shipping_usd": 3.0,
-            "source": "Allegro Lokalnie",
-            "target_id": "mac-mini-m2-newer-16gb",
-            "title": "Apple Mac mini M2 16GB RAM 512GB SSD Kultowy Mac mini + Stojak BDB",
-            "total_usd": 459.7,
-            "url": "https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia",
-            "why_good": "Buy-now Allegro Lokalnie listing in Poland: PLN 1690 plus low domestic delivery, Mac mini M2 with 16GB RAM and 512GB SSD."
-          },
+          "eu": null,
           "other": null,
           "us": null
         },
         "counts": {
-          "eu": 1,
+          "eu": 0,
           "other": 0,
           "us": 0
         },
