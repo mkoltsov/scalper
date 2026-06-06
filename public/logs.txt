@@ -1,21 +1,16 @@
-2026-06-06 07:17:06,205 INFO scalper run started 2026-06-06T11:17:06.205562+00:00
-2026-06-06 07:17:06,207 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-06 07:19:38,100 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-06 07:19:38,101 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-06 07:22:36,409 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231
-2026-06-06 07:22:36,410 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
-2026-06-06 07:23:14,366 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961
-2026-06-06 07:23:14,367 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black url=https://www.ebay.com/itm/117216431961
-2026-06-06 07:23:24,485 INFO target=bang-olufsen-charging-case qualifying_deals=2
-2026-06-06 07:23:24,486 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216414231
-2026-06-06 07:23:24,487 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961
-2026-06-06 07:23:24,488 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-06 07:26:07,460 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-06 07:26:07,461 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-06 07:28:20,957 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-06 07:28:20,958 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-06 07:32:34,242 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB/512GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-512gb-CID99-ID1atUDe.html
-2026-06-06 07:32:34,605 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
-2026-06-06 07:32:34,605 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-06 07:32:34,606 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-06 07:35:17,341 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-06 08:17:06,307 INFO scalper run started 2026-06-06T12:17:06.307629+00:00
+2026-06-06 08:17:06,309 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-06 08:19:08,826 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-06 08:19:08,826 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-06 08:22:49,339 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-06 08:22:49,340 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-06 08:25:57,925 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/appleswap/comments/1tbfoxg/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
+2026-06-06 08:25:57,925 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-06 08:25:57,926 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-06 08:28:31,223 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-06 08:28:31,225 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-06 08:31:39,995 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html
+2026-06-06 08:31:40,376 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
+2026-06-06 08:31:40,377 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-06 08:31:40,377 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-06 08:33:34,204 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
