@@ -1,17 +1,16 @@
-2026-06-07 02:17:06,073 INFO scalper run started 2026-06-07T06:17:06.073627+00:00
-2026-06-07 02:17:06,075 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-07 02:18:49,171 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-07 02:18:49,172 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-07 02:21:14,156 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-07 02:21:14,157 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-07 02:23:52,578 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/hardwareswap/comments/1tbfpzq/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/
-2026-06-07 02:23:52,578 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-07 02:23:52,578 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-07 02:26:11,685 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-07 02:26:11,686 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-07 02:29:34,974 INFO listing URL validation rejected target=mac-mini-m2-newer-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/406054656223
-2026-06-07 02:29:34,975 INFO HTTP validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot_unverified title=Apple Mac Mini M2 Pro 10-Core 3.2Ghz 16GB RAM 512GB SSD A2816 2023 Very Good url=https://www.ebay.com/itm/406054656223
-2026-06-07 02:30:10,178 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1
-2026-06-07 02:30:10,180 INFO new deal target=mac-mini-m2-newer-16gb market=us total=494.99 url=https://www.ebay.com/itm/406054656223
-2026-06-07 02:30:10,288 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-07 02:32:05,370 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-07 03:17:05,811 INFO scalper run started 2026-06-07T07:17:05.811696+00:00
+2026-06-07 03:17:05,814 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-07 03:19:18,183 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-07 03:19:18,184 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-07 03:21:43,673 INFO rejected deal target=bang-olufsen-charging-case reason=reject_pattern pattern=\bprotective\s+(cover|case|skin)\b title=Bang & Olufsen BEOPlay EX Charging Case - Black Anthracite
+2026-06-07 03:21:43,674 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-07 03:21:43,674 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-07 03:25:13,254 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-07 03:25:13,255 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-07 03:28:23,728 INFO browser validation rejected target=mac-mini-m1-16gb reason=browser_title_mismatch title=Apple Mac Mini (2020) M1 - 512GB - Silver - Apple M1 chip 8-core CPU - 16GB url=https://reebelo.com/products/apple-mac-mini-2020-m-1-apple-m-1-chip-8-core-cpu-512-gb-silver-16-gb-ram-as-new-_hi1o
+2026-06-07 03:28:23,728 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-07 03:28:23,730 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-07 03:30:54,011 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16GB Ram / 512 GB pamieci url=https://www.olx.pl/d/oferta/mac-mini-m2-16gb-ram-512-gb-pamieci-CID99-ID19ZbAp.html
+2026-06-07 03:30:54,011 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-07 03:30:54,012 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-07 03:32:39,133 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
