@@ -1,22 +1,26 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-07T04:31:31.813621+00:00",
+  "finished_at": "2026-06-07T06:32:05.370855+00:00",
   "logs": [
-    "2026-06-07 00:17:05,666 INFO scalper run started 2026-06-07T04:17:05.666495+00:00",
-    "2026-06-07 00:17:05,668 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-07 00:19:48,841 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-07 00:19:48,841 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-07 00:22:11,646 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-07 00:22:11,647 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-07 00:24:27,200 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-06-07 00:24:27,201 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-07 00:26:58,651 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-07 00:26:58,652 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-07 00:28:55,374 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-07 00:28:55,375 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-07 00:31:31,813 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-07 02:17:06,073 INFO scalper run started 2026-06-07T06:17:06.073627+00:00",
+    "2026-06-07 02:17:06,075 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-07 02:18:49,171 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-07 02:18:49,172 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-07 02:21:14,156 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-07 02:21:14,157 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-07 02:23:52,578 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=url_error:[Errno 111] Connection refused title=[USA-NC][H] 13.6in Apple MacBook Air M2, 16GB, 512GB [W] PayPal url=https://www.reddit.com/r/hardwareswap/comments/1tbfpzq/usanch_136in_apple_macbook_air_m2_16gb_512gb_w/",
+    "2026-06-07 02:23:52,578 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-07 02:23:52,578 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-07 02:26:11,685 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-07 02:26:11,686 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-07 02:29:34,974 INFO listing URL validation rejected target=mac-mini-m2-newer-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/406054656223",
+    "2026-06-07 02:29:34,975 INFO HTTP validation inconclusive target=mac-mini-m2-newer-16gb reason=http_403_antibot_unverified title=Apple Mac Mini M2 Pro 10-Core 3.2Ghz 16GB RAM 512GB SSD A2816 2023 Very Good url=https://www.ebay.com/itm/406054656223",
+    "2026-06-07 02:30:10,178 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1",
+    "2026-06-07 02:30:10,180 INFO new deal target=mac-mini-m2-newer-16gb market=us total=494.99 url=https://www.ebay.com/itm/406054656223",
+    "2026-06-07 02:30:10,288 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-07 02:32:05,370 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-07T04:17:05.666495+00:00",
+  "started_at": "2026-06-07T06:17:06.073627+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -122,9 +126,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Very Good - Refurbished",
+            "confidence": 0.84,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 494.99,
+            "seller": "evalueexpo",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "mac-mini-m2-newer-16gb",
+            "title": "Apple Mac Mini M2 Pro 10-Core 3.2Ghz 16GB RAM 512GB SSD A2816 2023 Very Good",
+            "total_usd": 494.99,
+            "url": "https://www.ebay.com/itm/406054656223",
+            "why_good": "M2 Pro Mac mini with 16GB RAM and 512GB SSD; listing shows $494.99 with free US delivery."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Very Good - Refurbished",
+          "confidence": 0.84,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 494.99,
+          "seller": "evalueexpo",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "mac-mini-m2-newer-16gb",
+          "title": "Apple Mac Mini M2 Pro 10-Core 3.2Ghz 16GB RAM 512GB SSD A2816 2023 Very Good",
+          "total_usd": 494.99,
+          "url": "https://www.ebay.com/itm/406054656223",
+          "why_good": "M2 Pro Mac mini with 16GB RAM and 512GB SSD; listing shows $494.99 with free US delivery."
+        }
+      ],
       "id": "mac-mini-m2-newer-16gb",
       "max_price_usd": 550,
       "name": "M2-or-newer Mac mini with 16GB+ RAM",
@@ -132,12 +172,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Very Good - Refurbished",
+            "confidence": 0.84,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 494.99,
+            "seller": "evalueexpo",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "mac-mini-m2-newer-16gb",
+            "title": "Apple Mac Mini M2 Pro 10-Core 3.2Ghz 16GB RAM 512GB SSD A2816 2023 Very Good",
+            "total_usd": 494.99,
+            "url": "https://www.ebay.com/itm/406054656223",
+            "why_good": "M2 Pro Mac mini with 16GB RAM and 512GB SSD; listing shows $494.99 with free US delivery."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
