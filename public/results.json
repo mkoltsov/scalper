@@ -1,24 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-08T06:33:47.451261+00:00",
+  "finished_at": "2026-06-08T07:36:37.978066+00:00",
   "logs": [
-    "2026-06-08 02:17:06,031 INFO scalper run started 2026-06-08T06:17:06.031758+00:00",
-    "2026-06-08 02:17:06,034 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-08 02:19:35,201 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-08 02:19:35,202 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-08 02:22:05,316 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-08 02:22:05,316 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-08 02:26:54,995 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-06-08 02:26:54,996 INFO new deal target=macbook-13-apple-silicon-16-24gb market=us total=577.82 url=https://reebelo.com/collections/apple-macbook-air-2022-13.6-inch?batteryHealth=80&color=Space%20Grey&condition=Acceptable&cpu=Apple%20M2%20Chip%3A%208-Core%20CPU%2F8-Core%20GPU&ram=16GB&storage=512GB&deliveryBy=undefined",
-    "2026-06-08 02:26:55,109 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-08 02:29:28,631 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-08 02:29:28,632 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-08 02:31:46,726 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1",
-    "2026-06-08 02:31:46,727 INFO new deal target=mac-mini-m2-newer-16gb market=eu total=502.52 url=https://allegrolokalnie.pl/oferta/mac-mini-m2-pro-16gb-512gb-ssd-hub-usb-6z3",
-    "2026-06-08 02:31:46,823 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-08 02:33:47,450 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-08 03:17:05,595 INFO scalper run started 2026-06-08T07:17:05.595222+00:00",
+    "2026-06-08 03:17:05,597 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-08 03:21:53,247 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-08 03:21:53,248 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-08 03:24:34,483 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-08 03:24:34,484 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-08 03:28:49,954 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-06-08 03:28:49,954 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=549.00 url=https://swappa.com/listing/view/LZKV53541",
+    "2026-06-08 03:28:49,955 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-08 03:30:48,796 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-08 03:30:48,797 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-08 03:34:28,032 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-08 03:34:28,033 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-08 03:36:37,977 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-08T06:17:06.031758+00:00",
+  "started_at": "2026-06-08T07:17:05.595222+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -77,40 +76,40 @@
         "us": [
           {
             "availability": "available",
-            "condition": "Excellent refurbished option",
-            "confidence": 0.74,
+            "condition": "Fair",
+            "confidence": 0.78,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 577.82,
-            "seller": "",
+            "price_usd": 549.0,
+            "seller": "GadgetPickup",
             "shipping_usd": 0.0,
-            "source": "Reebelo",
+            "source": "Swappa",
             "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Air (2022) 13.6-inch - Apple M2 Chip - 16GB RAM - SSD 512GB",
-            "total_usd": 577.82,
-            "url": "https://reebelo.com/collections/apple-macbook-air-2022-13.6-inch?batteryHealth=80&color=Space%20Grey&condition=Acceptable&cpu=Apple%20M2%20Chip%3A%208-Core%20CPU%2F8-Core%20GPU&ram=16GB&storage=512GB&deliveryBy=undefined",
-            "why_good": "13.6-inch MacBook Air M2 with 16GB RAM and 512GB SSD; page shows an Excellent refurbished option at $577.82 with free US delivery."
+            "title": "MacBook Air 2022 - 13\" - Apple M2, Midnight, 512GB, 16GB",
+            "total_usd": 549.0,
+            "url": "https://swappa.com/listing/view/LZKV53541",
+            "why_good": "13-inch MacBook Air M2 with 16GB RAM and 512GB SSD; active Buy Now listing with free US shipping."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "Excellent refurbished option",
-          "confidence": 0.74,
+          "condition": "Fair",
+          "confidence": 0.78,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
-          "price_usd": 577.82,
-          "seller": "",
+          "price_usd": 549.0,
+          "seller": "GadgetPickup",
           "shipping_usd": 0.0,
-          "source": "Reebelo",
+          "source": "Swappa",
           "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Air (2022) 13.6-inch - Apple M2 Chip - 16GB RAM - SSD 512GB",
-          "total_usd": 577.82,
-          "url": "https://reebelo.com/collections/apple-macbook-air-2022-13.6-inch?batteryHealth=80&color=Space%20Grey&condition=Acceptable&cpu=Apple%20M2%20Chip%3A%208-Core%20CPU%2F8-Core%20GPU&ram=16GB&storage=512GB&deliveryBy=undefined",
-          "why_good": "13.6-inch MacBook Air M2 with 16GB RAM and 512GB SSD; page shows an Excellent refurbished option at $577.82 with free US delivery."
+          "title": "MacBook Air 2022 - 13\" - Apple M2, Midnight, 512GB, 16GB",
+          "total_usd": 549.0,
+          "url": "https://swappa.com/listing/view/LZKV53541",
+          "why_good": "13-inch MacBook Air M2 with 16GB RAM and 512GB SSD; active Buy Now listing with free US shipping."
         }
       ],
       "id": "macbook-13-apple-silicon-16-24gb",
@@ -122,20 +121,20 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "Excellent refurbished option",
-            "confidence": 0.74,
+            "condition": "Fair",
+            "confidence": 0.78,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 577.82,
-            "seller": "",
+            "price_usd": 549.0,
+            "seller": "GadgetPickup",
             "shipping_usd": 0.0,
-            "source": "Reebelo",
+            "source": "Swappa",
             "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Air (2022) 13.6-inch - Apple M2 Chip - 16GB RAM - SSD 512GB",
-            "total_usd": 577.82,
-            "url": "https://reebelo.com/collections/apple-macbook-air-2022-13.6-inch?batteryHealth=80&color=Space%20Grey&condition=Acceptable&cpu=Apple%20M2%20Chip%3A%208-Core%20CPU%2F8-Core%20GPU&ram=16GB&storage=512GB&deliveryBy=undefined",
-            "why_good": "13.6-inch MacBook Air M2 with 16GB RAM and 512GB SSD; page shows an Excellent refurbished option at $577.82 with free US delivery."
+            "title": "MacBook Air 2022 - 13\" - Apple M2, Midnight, 512GB, 16GB",
+            "total_usd": 549.0,
+            "url": "https://swappa.com/listing/view/LZKV53541",
+            "why_good": "13-inch MacBook Air M2 with 16GB RAM and 512GB SSD; active Buy Now listing with free US shipping."
           }
         },
         "counts": {
@@ -174,74 +173,22 @@
     },
     {
       "deal_groups": {
-        "eu": [
-          {
-            "availability": "available",
-            "condition": "Bardzo dobry",
-            "confidence": 0.87,
-            "delivery_country": "Poland",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 499.55,
-            "seller": "osoba prywatna",
-            "shipping_usd": 2.97,
-            "source": "Allegro Lokalnie",
-            "target_id": "mac-mini-m2-newer-16gb",
-            "title": "Mac mini m2 pro 16gb 512gb ssd + hub usb",
-            "total_usd": 502.52,
-            "url": "https://allegrolokalnie.pl/oferta/mac-mini-m2-pro-16gb-512gb-ssd-hub-usb-6z3",
-            "why_good": "Buy-now Allegro Lokalnie listing at 1840 PLN plus 10.95 PLN delivery; M2 Pro Mac mini with 16GB RAM and 512GB SSD, converted using about 1 USD = 3.6833 PLN."
-          }
-        ],
+        "eu": [],
         "other": [],
         "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Bardzo dobry",
-          "confidence": 0.87,
-          "delivery_country": "Poland",
-          "market_label": "EU/Europe",
-          "market_region": "eu",
-          "price_usd": 499.55,
-          "seller": "osoba prywatna",
-          "shipping_usd": 2.97,
-          "source": "Allegro Lokalnie",
-          "target_id": "mac-mini-m2-newer-16gb",
-          "title": "Mac mini m2 pro 16gb 512gb ssd + hub usb",
-          "total_usd": 502.52,
-          "url": "https://allegrolokalnie.pl/oferta/mac-mini-m2-pro-16gb-512gb-ssd-hub-usb-6z3",
-          "why_good": "Buy-now Allegro Lokalnie listing at 1840 PLN plus 10.95 PLN delivery; M2 Pro Mac mini with 16GB RAM and 512GB SSD, converted using about 1 USD = 3.6833 PLN."
-        }
-      ],
+      "deals": [],
       "id": "mac-mini-m2-newer-16gb",
       "max_price_usd": 550,
       "name": "M2-or-newer Mac mini with 16GB+ RAM",
       "regional_summary": {
         "best": {
-          "eu": {
-            "availability": "available",
-            "condition": "Bardzo dobry",
-            "confidence": 0.87,
-            "delivery_country": "Poland",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 499.55,
-            "seller": "osoba prywatna",
-            "shipping_usd": 2.97,
-            "source": "Allegro Lokalnie",
-            "target_id": "mac-mini-m2-newer-16gb",
-            "title": "Mac mini m2 pro 16gb 512gb ssd + hub usb",
-            "total_usd": 502.52,
-            "url": "https://allegrolokalnie.pl/oferta/mac-mini-m2-pro-16gb-512gb-ssd-hub-usb-6z3",
-            "why_good": "Buy-now Allegro Lokalnie listing at 1840 PLN plus 10.95 PLN delivery; M2 Pro Mac mini with 16GB RAM and 512GB SSD, converted using about 1 USD = 3.6833 PLN."
-          },
+          "eu": null,
           "other": null,
           "us": null
         },
         "counts": {
-          "eu": 1,
+          "eu": 0,
           "other": 0,
           "us": 0
         },
