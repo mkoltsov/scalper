@@ -1,29 +1,29 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-08T22:33:05.086532+00:00",
+  "finished_at": "2026-06-08T23:32:59.405861+00:00",
   "logs": [
-    "2026-06-08 18:17:05,667 INFO scalper run started 2026-06-08T22:17:05.667239+00:00",
-    "2026-06-08 18:17:05,669 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-08 18:19:08,009 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-08 18:19:08,010 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-08 18:21:08,959 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-08 18:21:08,960 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-08 18:23:42,502 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277956672507",
-    "2026-06-08 18:23:42,503 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507",
-    "2026-06-08 18:24:18,581 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/277956672507",
-    "2026-06-08 18:24:18,581 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-06-08 18:24:18,582 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-08 18:26:56,308 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/277476235946",
-    "2026-06-08 18:26:56,309 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=Mac mini 2020 - M1 8core CPU 8core GPU 1TB 16GB - Silver - Good url=https://www.ebay.com/itm/277476235946",
-    "2026-06-08 18:27:03,769 INFO browser validation rejected target=mac-mini-m1-16gb reason=sold title=Mac mini 2020 - M1 8core CPU 8core GPU 1TB 16GB - Silver - Good url=https://www.ebay.com/itm/277476235946",
-    "2026-06-08 18:27:03,769 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-08 18:27:03,770 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-08 18:30:57,411 INFO rejected deal target=mac-mini-m2-newer-16gb reason=http_410 title=Mac mini M2 16 RAM 512 GB url=https://www.olx.pl/d/oferta/mac-mini-m2-16-ram-512-gb-CID99-ID1ax4xD.html",
-    "2026-06-08 18:30:57,412 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-08 18:30:57,412 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-08 18:33:05,086 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-08 19:17:05,330 INFO scalper run started 2026-06-08T23:17:05.329883+00:00",
+    "2026-06-08 19:17:05,331 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-08 19:19:53,139 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-08 19:19:53,140 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-08 19:22:12,699 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231",
+    "2026-06-08 19:22:12,699 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
+    "2026-06-08 19:22:48,028 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961",
+    "2026-06-08 19:22:48,029 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black url=https://www.ebay.com/itm/117216431961",
+    "2026-06-08 19:22:57,148 INFO target=bang-olufsen-charging-case qualifying_deals=2",
+    "2026-06-08 19:22:57,149 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216414231",
+    "2026-06-08 19:22:57,149 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961",
+    "2026-06-08 19:22:57,150 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-08 19:25:24,254 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-06-08 19:25:24,255 INFO new deal target=macbook-13-apple-silicon-16-24gb market=us total=572.00 url=https://swappa.com/listing/view/LAFY59685",
+    "2026-06-08 19:25:24,361 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-08 19:27:25,085 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-08 19:27:25,086 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-08 19:30:17,191 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-08 19:30:17,191 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-08 19:32:59,405 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-08T22:17:05.667239+00:00",
+  "started_at": "2026-06-08T23:17:05.329883+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -52,22 +52,108 @@
     },
     {
       "deal_groups": {
-        "eu": [],
+        "eu": [
+          {
+            "availability": "available",
+            "condition": "Pre-Owned",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "EU/Europe",
+            "market_region": "eu",
+            "price_usd": 67.27,
+            "seller": "drn-deals",
+            "shipping_usd": 15.29,
+            "source": "eBay",
+            "target_id": "bang-olufsen-charging-case",
+            "title": "Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black",
+            "total_usd": 82.56,
+            "url": "https://www.ebay.com/itm/117216414231",
+            "why_good": "Beoplay EX/Cisco 950 charging case only; eBay listing shows UK item with US shipping estimate, total under $100."
+          },
+          {
+            "availability": "available",
+            "condition": "Pre-Owned",
+            "confidence": 0.72,
+            "delivery_country": "United States",
+            "market_label": "EU/Europe",
+            "market_region": "eu",
+            "price_usd": 67.27,
+            "seller": "drn-deals",
+            "shipping_usd": 15.29,
+            "source": "eBay",
+            "target_id": "bang-olufsen-charging-case",
+            "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
+            "total_usd": 82.56,
+            "url": "https://www.ebay.com/itm/117216431961",
+            "why_good": "Beoplay EX charging case listing; eBay listing shows UK item with US shipping estimate, total under $100."
+          }
+        ],
         "other": [],
         "us": []
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Pre-Owned",
+          "confidence": 0.78,
+          "delivery_country": "United States",
+          "market_label": "EU/Europe",
+          "market_region": "eu",
+          "price_usd": 67.27,
+          "seller": "drn-deals",
+          "shipping_usd": 15.29,
+          "source": "eBay",
+          "target_id": "bang-olufsen-charging-case",
+          "title": "Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black",
+          "total_usd": 82.56,
+          "url": "https://www.ebay.com/itm/117216414231",
+          "why_good": "Beoplay EX/Cisco 950 charging case only; eBay listing shows UK item with US shipping estimate, total under $100."
+        },
+        {
+          "availability": "available",
+          "condition": "Pre-Owned",
+          "confidence": 0.72,
+          "delivery_country": "United States",
+          "market_label": "EU/Europe",
+          "market_region": "eu",
+          "price_usd": 67.27,
+          "seller": "drn-deals",
+          "shipping_usd": 15.29,
+          "source": "eBay",
+          "target_id": "bang-olufsen-charging-case",
+          "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
+          "total_usd": 82.56,
+          "url": "https://www.ebay.com/itm/117216431961",
+          "why_good": "Beoplay EX charging case listing; eBay listing shows UK item with US shipping estimate, total under $100."
+        }
+      ],
       "id": "bang-olufsen-charging-case",
       "max_price_usd": 100,
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
       "regional_summary": {
         "best": {
-          "eu": null,
+          "eu": {
+            "availability": "available",
+            "condition": "Pre-Owned",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "EU/Europe",
+            "market_region": "eu",
+            "price_usd": 67.27,
+            "seller": "drn-deals",
+            "shipping_usd": 15.29,
+            "source": "eBay",
+            "target_id": "bang-olufsen-charging-case",
+            "title": "Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black",
+            "total_usd": 82.56,
+            "url": "https://www.ebay.com/itm/117216414231",
+            "why_good": "Beoplay EX/Cisco 950 charging case only; eBay listing shows UK item with US shipping estimate, total under $100."
+          },
           "other": null,
           "us": null
         },
         "counts": {
-          "eu": 0,
+          "eu": 2,
           "other": 0,
           "us": 0
         },
@@ -79,9 +165,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Mint condition",
+            "confidence": 0.82,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 572.0,
+            "seller": "David J.",
+            "shipping_usd": 0.0,
+            "source": "Swappa",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Silver, 16GB, Apple M2",
+            "total_usd": 572.0,
+            "url": "https://swappa.com/listing/view/LAFY59685",
+            "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB storage; Swappa listing shows Login to Buy and free US shipping for $572 total."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Mint condition",
+          "confidence": 0.82,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 572.0,
+          "seller": "David J.",
+          "shipping_usd": 0.0,
+          "source": "Swappa",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Silver, 16GB, Apple M2",
+          "total_usd": 572.0,
+          "url": "https://swappa.com/listing/view/LAFY59685",
+          "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB storage; Swappa listing shows Login to Buy and free US shipping for $572 total."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -89,12 +211,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Mint condition",
+            "confidence": 0.82,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 572.0,
+            "seller": "David J.",
+            "shipping_usd": 0.0,
+            "source": "Swappa",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "MacBook Air 2022 (M2) - 13\" - 512GB, Silver, 16GB, Apple M2",
+            "total_usd": 572.0,
+            "url": "https://swappa.com/listing/view/LAFY59685",
+            "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB storage; Swappa listing shows Login to Buy and free US shipping for $572 total."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
