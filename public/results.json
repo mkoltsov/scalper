@@ -1,28 +1,22 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-10T10:49:02.843584+00:00",
+  "finished_at": "2026-06-10T11:50:27.029333+00:00",
   "logs": [
-    "2026-06-10 06:17:05,172 INFO scalper run started 2026-06-10T10:17:05.171866+00:00",
-    "2026-06-10 06:17:05,174 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-10 06:22:59,763 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-10 06:22:59,764 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-10 06:31:43,445 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231",
-    "2026-06-10 06:31:43,446 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
-    "2026-06-10 06:32:18,733 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961",
-    "2026-06-10 06:32:18,734 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black url=https://www.ebay.com/itm/117216431961",
-    "2026-06-10 06:32:27,852 INFO target=bang-olufsen-charging-case qualifying_deals=2",
-    "2026-06-10 06:32:27,853 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216414231",
-    "2026-06-10 06:32:27,853 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961",
-    "2026-06-10 06:32:27,854 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-10 06:35:37,037 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-06-10 06:35:37,038 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-10 06:38:51,147 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-10 06:38:51,148 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-10 06:42:59,799 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-10 06:42:59,800 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-10 06:49:02,843 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-10 07:17:05,472 INFO scalper run started 2026-06-10T11:17:05.472425+00:00",
+    "2026-06-10 07:17:05,474 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-10 07:21:56,212 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-10 07:21:56,213 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-10 07:29:17,594 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-10 07:29:17,595 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-10 07:32:44,527 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-10 07:32:44,528 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-10 07:36:04,377 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-10 07:36:04,378 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-10 07:40:14,613 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-10 07:40:14,613 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-10 07:50:27,029 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-10T10:17:05.171866+00:00",
+  "started_at": "2026-06-10T11:17:05.472425+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -51,108 +45,22 @@
     },
     {
       "deal_groups": {
-        "eu": [
-          {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 67.27,
-            "seller": "drn-deals",
-            "shipping_usd": 15.29,
-            "source": "eBay",
-            "target_id": "bang-olufsen-charging-case",
-            "title": "Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black",
-            "total_usd": 82.56,
-            "url": "https://www.ebay.com/itm/117216414231",
-            "why_good": "Matches Beoplay EX/Cisco 950 charging case only; Buy It Now listing from UK with international shipping estimate to US, total under $100."
-          },
-          {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 67.27,
-            "seller": "drn-deals",
-            "shipping_usd": 15.29,
-            "source": "eBay",
-            "target_id": "bang-olufsen-charging-case",
-            "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
-            "total_usd": 82.56,
-            "url": "https://www.ebay.com/itm/117216431961",
-            "why_good": "Matches Beoplay EX charging case; Buy It Now listing from UK with international shipping estimate to US, total under $100."
-          }
-        ],
+        "eu": [],
         "other": [],
         "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Pre-Owned",
-          "confidence": 0.82,
-          "delivery_country": "United States",
-          "market_label": "EU/Europe",
-          "market_region": "eu",
-          "price_usd": 67.27,
-          "seller": "drn-deals",
-          "shipping_usd": 15.29,
-          "source": "eBay",
-          "target_id": "bang-olufsen-charging-case",
-          "title": "Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black",
-          "total_usd": 82.56,
-          "url": "https://www.ebay.com/itm/117216414231",
-          "why_good": "Matches Beoplay EX/Cisco 950 charging case only; Buy It Now listing from UK with international shipping estimate to US, total under $100."
-        },
-        {
-          "availability": "available",
-          "condition": "Pre-Owned",
-          "confidence": 0.78,
-          "delivery_country": "United States",
-          "market_label": "EU/Europe",
-          "market_region": "eu",
-          "price_usd": 67.27,
-          "seller": "drn-deals",
-          "shipping_usd": 15.29,
-          "source": "eBay",
-          "target_id": "bang-olufsen-charging-case",
-          "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
-          "total_usd": 82.56,
-          "url": "https://www.ebay.com/itm/117216431961",
-          "why_good": "Matches Beoplay EX charging case; Buy It Now listing from UK with international shipping estimate to US, total under $100."
-        }
-      ],
+      "deals": [],
       "id": "bang-olufsen-charging-case",
       "max_price_usd": 100,
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
       "regional_summary": {
         "best": {
-          "eu": {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 67.27,
-            "seller": "drn-deals",
-            "shipping_usd": 15.29,
-            "source": "eBay",
-            "target_id": "bang-olufsen-charging-case",
-            "title": "Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black",
-            "total_usd": 82.56,
-            "url": "https://www.ebay.com/itm/117216414231",
-            "why_good": "Matches Beoplay EX/Cisco 950 charging case only; Buy It Now listing from UK with international shipping estimate to US, total under $100."
-          },
+          "eu": null,
           "other": null,
           "us": null
         },
         "counts": {
-          "eu": 2,
+          "eu": 0,
           "other": 0,
           "us": 0
         },
