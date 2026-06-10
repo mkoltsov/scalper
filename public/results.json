@@ -1,23 +1,22 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-10T04:49:50.214830+00:00",
+  "finished_at": "2026-06-10T05:49:43.114231+00:00",
   "logs": [
-    "2026-06-10 00:17:05,202 INFO scalper run started 2026-06-10T04:17:05.202840+00:00",
-    "2026-06-10 00:17:05,205 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-10 00:23:27,841 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-10 00:23:27,842 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-10 00:30:38,382 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-10 00:30:38,382 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-10 00:35:22,683 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-06-10 00:35:22,684 INFO new deal target=macbook-13-apple-silicon-16-24gb market=us total=624.00 url=https://swappa.com/listing/view/LAFY59685",
-    "2026-06-10 00:35:22,818 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-10 00:39:10,168 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-10 00:39:10,169 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-10 00:41:49,932 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-10 00:41:49,933 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-10 00:49:50,214 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-10 01:17:05,752 INFO scalper run started 2026-06-10T05:17:05.752334+00:00",
+    "2026-06-10 01:17:05,754 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-10 01:23:51,594 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-10 01:23:51,595 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-10 01:28:18,127 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-10 01:28:18,128 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-10 01:33:44,646 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-10 01:33:44,647 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-10 01:38:30,416 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-10 01:38:30,417 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-10 01:41:42,066 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-10 01:41:42,067 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-10 01:49:43,113 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-10T04:17:05.202840+00:00",
+  "started_at": "2026-06-10T05:17:05.752334+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -73,45 +72,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Mint condition",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 624.0,
-            "seller": "David J.",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "Mint MacBook Air 2022 (M2) - 13 inch - 512 GB, Silver, 16 GB, Apple M2",
-            "total_usd": 624.0,
-            "url": "https://swappa.com/listing/view/LAFY59685",
-            "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB SSD for $624; Swappa shows free US shipping."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Mint condition",
-          "confidence": 0.86,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 624.0,
-          "seller": "David J.",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "Mint MacBook Air 2022 (M2) - 13 inch - 512 GB, Silver, 16 GB, Apple M2",
-          "total_usd": 624.0,
-          "url": "https://swappa.com/listing/view/LAFY59685",
-          "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB SSD for $624; Swappa shows free US shipping."
-        }
-      ],
+      "deals": [],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -119,28 +82,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Mint condition",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 624.0,
-            "seller": "David J.",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "Mint MacBook Air 2022 (M2) - 13 inch - 512 GB, Silver, 16 GB, Apple M2",
-            "total_usd": 624.0,
-            "url": "https://swappa.com/listing/view/LAFY59685",
-            "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB SSD for $624; Swappa shows free US shipping."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
