@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-06-11T20:40:22.320736+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-06-11T21:41:07.576871+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -95,6 +95,14 @@
             <section class="target">
               <div class="target-head">
                 <h1>M2-or-newer Mac mini with 16GB+ RAM</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>Used red hood for 2nd-gen Toyota Matrix</h1>
                 <span>0 live matches</span>
               </div>
               <p class="empty">No available qualifying listings found in the latest run.</p>
@@ -147,376 +155,21 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>14 lines published</span>
+        <span>13 lines published</span>
       </div>
-      <pre>2026-06-11 16:17:05,588 INFO scalper run started 2026-06-11T20:17:05.588160+00:00
-2026-06-11 16:17:05,590 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-11 16:19:54,340 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-11 16:19:54,341 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-11 16:22:54,002 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-11 16:22:54,003 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-11 16:26:21,163 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=http_403 title=MacBook Air (2022) 13-inch - Apple M2 8-core and 8-core GPU - 16GB RAM - SSD 512GB - Standard display url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-8-core-gpu-16gb-ram-ssd-512gb/b7782e73-f7ce-410e-8198-b216f2016701
-2026-06-11 16:26:21,163 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-11 16:26:21,164 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-11 16:29:19,306 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-11 16:29:19,307 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-11 16:31:47,769 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-11 16:31:47,769 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-11 16:40:22,317 ERROR Codex search failed for target=toyota-matrix-2nd-gen-red-hood
-Traceback (most recent call last):
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1829, in run
-    result = run_codex(target, config, metrics)
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 510, in run_codex
-    raise RuntimeError(
-        f&quot;Codex failed for {target[&#x27;id&#x27;]} with exit code {process.returncode}: {process.stderr.strip()}&quot;
-    )
-RuntimeError: Codex failed for toyota-matrix-2nd-gen-red-hood with exit code 1: Reading additional input from stdin...
-OpenAI Codex v0.139.0
---------
-workdir: /home/intimatik/dev/scalper
-model: gpt-5.5
-provider: openai
-approval: never
-sandbox: read-only
-reasoning effort: xhigh
-reasoning summaries: none
-session id: 019eb862-4584-79c3-aa19-f1506231201d
---------
-user
-You are a precise deal-finding automation. Use live web_search.
-
-Current UTC date: 2026-06-11
-Target id: toyota-matrix-2nd-gen-red-hood
-Target name: Used red hood for 2nd-gen Toyota Matrix
-Maximum total price: $450 USD, including shipping or delivery to United States or Poland.
-Usual market price estimate: $550 USD.
-Configured shipping destinations:
-[
-  &quot;United States&quot;,
-  &quot;Poland&quot;
-]
-
-Search intent:
-Find currently available used OEM red hood or bonnet listings for a second-generation Toyota Matrix, model years 2009-2014, under $450 total. Also search Pick Your Part / PYP at pyp.com for qualifying yard inventory, especially Raleigh, Durham, Charlotte, Greensboro, and other practical North Carolina yards. The hood must already be red, ideally a factory Toyota red such as Radiant Red, Barcelona Red Metallic, paint code 3L5, or paint code 3R3. Accept normal used wear only if the panel is straight and usable. Reject first-generation 2003-2008 Matrix hoods, Pontiac Vibe hoods, hood latch/hinge/release cable/prop rod/grommet/bumper cushion hardware, primed or unpainted hoods, carbon fiber hoods, aftermarket unpainted panels, damaged/bent/rusted/cracked hoods, sold listings, out-of-stock listings, local-pickup-only listings outside the configured OfferUp Cary NC area, PYP yard inventory outside practical driving range unless the part can ship, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp or practical local PYP listings, links that do not open as active listing pages, and listings where item price plus shipping or local-pull cost estimate is $450 or more.
-
-Acceptance criteria:
-[
-  &quot;It is a hood/bonnet panel for a 2009-2014 Toyota Matrix.&quot;,
-  &quot;It is already red, such as red, Radiant Red, Barcelona Red Metallic, 3L5, or 3R3.&quot;,
-  &quot;It is used OEM or a used genuine Toyota panel; new primed, unpainted, aftermarket, and carbon-fiber hoods are not acceptable.&quot;,
-  &quot;Reject hood hardware/accessories only: latch, lock, hinges, release cable, prop rod, bumpers, cushions, clips, bolts, grommets, or insulation.&quot;,
-  &quot;Reject 2003-2008 Toyota Matrix hoods and Pontiac Vibe hoods.&quot;,
-  &quot;The panel is not bent, rusted, cracked, collision-damaged, or for parts only.&quot;,
-  &quot;For pyp.com / Pick Your Part, include only clear 2009-2014 Toyota Matrix yard inventory where the vehicle is red or the hood is visibly red; mention the yard location and that part availability is first-come, first-served.&quot;,
-  &quot;The total price including shipping is less than 450 USD.&quot;,
-  &quot;It is currently available to buy.&quot;,
-  &quot;The listing URL opens as an active listing page.&quot;,
-  &quot;It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519, or it is a practical local PYP yard listing in North Carolina.&quot;
-]
-
-Required model/text patterns. A listing must match at least one if this list is not empty:
-[
-  &quot;(?=.*\\bmatrix\\b)(?=.*\\b(?:hood|bonnet)\\b)(?=.*\\b(?:2009|2010|2011|2012|2013|2014|09|10|11|12|13|14)\\b)(?=.*\\b(?:red|radiant\\s+red|barcelona\\s+red|3l5|3r3)\\b)&quot;,
-  &quot;(?=.*\\b5330102220\\b)(?=.*\\b(?:hood|bonnet)\\b)(?=.*\\b(?:red|radiant\\s+red|barcelona\\s+red|3l5|3r3)\\b)&quot;,
-  &quot;(?=.*\\bto1230212\\b)(?=.*\\b(?:hood|bonnet)\\b)(?=.*\\b(?:red|radiant\\s+red|barcelona\\s+red|3l5|3r3)\\b)&quot;
-]
-
-Reject text patterns. Exclude a listing if it matches any of these:
-[
-  &quot;\\b(?:2003|2004|2005|2006|2007|2008|03|04|05|06|07|08)\\b&quot;,
-  &quot;\\bhood\\s+(?:latch|lock|hinge|hinges|release|cable|prop|rod|support|strut|bumper|cushion|clip|clips|bolt|bolts|grommet|insulation|insulator)\\b&quot;,
-  &quot;\\b(?:latch|lock|hinge|hinges|release\\s+cable|prop\\s+rod|support\\s+rod|strut|bumper\\s+adjustment|rubber\\s+cushion|grommet|clip|bolt|insulation|insulator)\\b&quot;,
-  &quot;\\b(?:primed|unpainted|paint\\s+to\\s+match|carbon\\s+fiber|cf\\s+hood|new\\s+aftermarket|aftermarket)\\b&quot;,
-  &quot;\\b(?:dent(?:ed)?|bent|rust(?:y|ed)?|crack(?:ed)?|damaged|collision|repairable|for\\s+parts|parts\\s+only|salvage\\s+damage)\\b&quot;,
-  &quot;\\bpontiac\\s+vibe\\b&quot;
-]
-
-Suggested search queries:
-[
-  &quot;2009 2010 2011 2012 2013 2014 Toyota Matrix red hood used&quot;,
-  &quot;\&quot;2009-2013 Toyota Matrix Hood\&quot; red&quot;,
-  &quot;\&quot;2009-2014 Toyota Matrix\&quot; red hood OEM&quot;,
-  &quot;\&quot;Toyota Matrix\&quot; \&quot;Radiant Red\&quot; hood 2009 2010 2011 2012 2013&quot;,
-  &quot;\&quot;Toyota Matrix\&quot; \&quot;Barcelona Red\&quot; hood 2009 2010 2011 2012 2013&quot;,
-  &quot;\&quot;Toyota Matrix\&quot; hood 3L5 red&quot;,
-  &quot;\&quot;Toyota Matrix\&quot; hood 3R3 red&quot;,
-  &quot;site:ebay.com Toyota Matrix 2009 2013 hood red used&quot;,
-  &quot;site:car-part.com Toyota Matrix hood red 2009 2014&quot;,
-  &quot;site:pyp.com Toyota Matrix 2009 2014 red hood&quot;,
-  &quot;site:pyp.com/inventory Toyota Matrix red 2009 2014&quot;,
-  &quot;site:pyp.com/parts Toyota Matrix hood Raleigh Durham&quot;,
-  &quot;site:offerup.com Toyota Matrix red hood Cary NC 27519&quot;,
-  &quot;site:offerup.com Toyota Matrix hood red Raleigh Durham Cary&quot;,
-  &quot;Used red hood for 2nd-gen Toyota Matrix Allegro dostawa&quot;,
-  &quot;Used red hood for 2nd-gen Toyota Matrix OLX wysylka&quot;,
-  &quot;Used red hood for 2nd-gen Toyota Matrix eBay Europe delivery to Poland&quot;,
-  &quot;Used red hood for 2nd-gen Toyota Matrix eBay Germany ships to Poland&quot;,
-  &quot;Used red hood for 2nd-gen Toyota Matrix Catawiki delivery Poland&quot;
-]
-
-Marketplace search coverage:
-[
-  &quot;Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.&quot;,
-  &quot;Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.&quot;,
-  &quot;Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.&quot;,
-  &quot;European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.&quot;,
-  &quot;Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.&quot;,
-  &quot;Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options.&quot;
-]
-
-Local marketplace exception:
-- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.
-- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.
-- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.
-
-
-Return only strict JSON. Do not wrap it in Markdown. Do not include prose.
-Schema:
-{
-  &quot;target_id&quot;: &quot;toyota-matrix-2nd-gen-red-hood&quot;,
-  &quot;checked_at&quot;: &quot;ISO-8601 timestamp&quot;,
-      &quot;deals&quot;: [
-    {
-      &quot;title&quot;: &quot;listing title&quot;,
-      &quot;url&quot;: &quot;direct listing URL&quot;,
-      &quot;source&quot;: &quot;marketplace or site name&quot;,
-      &quot;seller&quot;: &quot;seller if visible, otherwise empty string&quot;,
-      &quot;price_usd&quot;: 0.0,
-      &quot;shipping_usd&quot;: 0.0,
-      &quot;total_usd&quot;: 0.0,
-      &quot;condition&quot;: &quot;condition text&quot;,
-      &quot;availability&quot;: &quot;available&quot;,
-      &quot;listing_status&quot;: &quot;available&quot;,
-      &quot;ships_to_us&quot;: true,
-      &quot;ships_to_destination&quot;: true,
-      &quot;shipping_destination&quot;: &quot;United States or Poland&quot;,
-      &quot;delivery_country&quot;: &quot;United States&quot;,
-      &quot;market_region&quot;: &quot;us&quot;,
-      &quot;why_good&quot;: &quot;short reason this matches the criteria&quot;,
-      &quot;confidence&quot;: 0.0
-    }
-  ]
-}
-
-Rules:
-- Include at most 5 deals.
-- Set market_region to &quot;us&quot; for US marketplace/listing-location deals, &quot;eu&quot; for European/UK/Polish marketplace/listing-location deals, and &quot;other&quot; only if the listing cannot be classified.
-- Include only listings that satisfy every acceptance criterion.
-- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.
-- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
-- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.
-- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.
-- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.
-- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
-- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
-- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
-- If there are no qualifying deals, return &quot;deals&quot;: [].
-web search: 
-web search: 2009 2010 2011 2012 2013 2014 Toyota Matrix red hood used
-web search: 
-web search: site:ebay.com Toyota Matrix 2009 2013 hood red used
-web search: 
-web search: https://www.ebay.com/sch/i.html?_nkw=2009+2014+Toyota+Matrix+red+hood+used
-web search: 
-web search: &quot;53301-02220&quot; &quot;Red&quot;
-web search: 
-web search: &quot;Toyota Matrix&quot; &quot;Hood&quot; &quot;Red&quot; &quot;eBay&quot;
-web search: 
-web search: site:pyp.com/inventory Toyota Matrix red 2009 2014
-web search: 
-web search: Pick Your Part pyp Toyota Matrix inventory Raleigh Durham Charlotte Greensboro
-web search: 
-web search: Toyota Matrix red hood used 2009 2014 sale
-codex
-I’m going to verify live listings directly rather than relying on indexed snippets, because these part listings often do not show up reliably in general search results. I’ll keep only pages that load as active buyable listings and meet the shipping/local exceptions.
-exec
-/usr/bin/zsh -lc &quot;curl -L --max-time 20 -A &#x27;Mozilla/5.0&#x27; &#x27;https://www.ebay.com/sch/i.html?_nkw=Toyota+Matrix+red+hood+2009+2010+2011+2012+2013&amp;_sop=12&#x27; | sed -n &#x27;1,80p&#x27;&quot; in /home/intimatik/dev/scalper
- succeeded in 0ms:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: www.ebay.com
-
-web search: 
-web search: &quot;Toyota Matrix&quot; &quot;Red&quot; &quot;Hood&quot; &quot;Car-Part.com&quot;
-web search: 
-web search: &quot;Toyota Matrix&quot; &quot;capot&quot; rouge 2009 2014
-web search: 
-web search: https://www.pyp.com/inventory
-web search: 
-web search: https://www.pyp.com/locations
-web search: 
-web search: https://locations.lkqpickyourpart.com/en-us/locations-list/nc/
-web search: 
-web search: https://locations.lkqpickyourpart.com/en-us/locations-list/nc/durham/
-web search: 
-web search: https://locations.lkqpickyourpart.com/en-us/nc/durham/1301-s-miami-blvd/
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/durham-1142/
-web search: 
-web search: https://www.pyp.com/inventory/raleigh-1173/
-web search: 
-web search: site:pyp.com/inventory/raleigh pyp Raleigh inventory
-web search: 
-web search: https://locations.lkqpickyourpart.com/en-us/locations-list/nc/
-web search: 
-web search: https://locations.lkqpickyourpart.com/en-us/locations-list/nc/clayton/
-web search: 
-web search: https://locations.lkqpickyourpart.com/en-us/nc/clayton/2928-us-70/
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/raleigh-1168/
-web search: 
-web search: https://www.pyp.com/inventory/east-nc-1227/
-web search: 
-web search: https://www.pyp.com/inventory/raleigh-1168/
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/raleigh-1168/?page=2
-web search: 
-web search: https://www.pyp.com/inventory/raleigh-1168/?page=2
-web search: 
-web search: https://www.pyp.com/inventory/raleigh-1168/?page=2
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/raleigh-1168/?page=3
-web search: 
-web search: https://www.pyp.com/inventory/raleigh-1168/?page=3
-web search: 
-web search: https://www.pyp.com/inventory/raleigh-1168/?page=3
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/raleigh-1168/?page=4
-web search: 
-web search: https://www.pyp.com/inventory/raleigh-1168/?page=4
-web search: 
-web search: https://www.ebay.com/sch/i.html?_from=R40&amp;_nkw=%22Toyota+Matrix%22+hood+red&amp;_sacat=0&amp;LH_BIN=1
-web search: 
-web search: https://www.ebay.com/sch/i.html?_nkw=Toyota+Matrix+red+hood
-web search: 
-web search: Toyota Matrix hood
-web search: 
-web search: 2009 Toyota Matrix red hood used listing
-web search: 
-web search: &quot;2009 Toyota Matrix&quot; &quot;Hood&quot; &quot;Red&quot; &quot;used&quot;
-web search: 
-web search: &quot;Used 2009 TOYOTA MATRIX HOOD&quot;
-web search: 
-web search: &quot;Toyota Matrix Red Hood Panel&quot;
-web search: 
-web search: &quot;53301-02220&quot;
-web search: 
-web search: site:offerup.com Toyota Matrix hood red Cary NC
-web search: 
-web search: site:ebay.de &quot;Toyota Matrix&quot; Motorhaube rot
-web search: 
-web search: site:olx.pl &quot;Toyota Matrix&quot; maska czerwona
-web search: 
-web search: &quot;Corolla Matrix&quot; red hood used 2009
-web search: 
-web search: time: {&quot;utc_offset&quot;:&quot;+00:00&quot;}
-web search: 
-web search: https://www.pyp.com/inventory/raleigh-1168/?page=4
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/raleigh-1168/?page=5
-web search: 
-web search: https://www.pyp.com/inventory/raleigh-1168/?page=5
-web search: 
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/raleigh-1168/?page=6
-web search: 
-web search: https://www.pyp.com/inventory/raleigh-1168/?page=6
-web search: 
-web search: https://www.pyp.com/inventory/raleigh-1168/?page=6
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/raleigh-1168/?page=7
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/raleigh-1168/?page=8
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/durham-1142/
-web search: 
-web search: https://locations.lkqpickyourpart.com/en-us/locations-list/nc/
-web search: 
-web search: https://locations.lkqpickyourpart.com/en-us/locations-list/nc/
-web search: 
-web search: https://locations.lkqpickyourpart.com/en-us/locations-list/nc/charlotte/
-web search: 
-web search: https://locations.lkqpickyourpart.com/en-us/nc/charlotte/3900-chesapeake-drive/
-web search: 
-web search: https://www.pyp.com/inventory/raleigh-1168/?search=matrix
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/charlotte-1228/
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/charlotte-1228/?page=6
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/charlotte-1228/?page=11
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/charlotte-1228/?page=16
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/durham-1142/?page=2
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/durham-1142/?page=7
-web search: 
-web search: &#x27;MATRIX&#x27; in https://www.pyp.com/inventory/durham-1142/?page=12
-web search: 
-web search: https://www.car-part.com/
-web search: 
-web search: https://www.car-part.com/cgi-bin/search.cgi
-web search: 
-web search: https://www.car-part.com/
-web search: 
-web search: &#x27;Hood&#x27; in https://www.car-part.com/
-web search: 
-web search: https://www.ebay.com/
-web search: 
-web search: https://www.ebay.com/sch/i.html?_nkw=Toyota+Matrix+red+hood+2009+2010+2011+2012+2013&amp;_sop=12&amp;LH_BIN=1
-web search: 
-web search: Toyota Matrix red hood 2009 2010 2011 2012 2013
-web search: 
-web search: &quot;2009 Toyota Matrix&quot; &quot;hood&quot; &quot;red&quot; &quot;used auto parts&quot;
-web search: 
-web search: 2009 Toyota Matrix hood red used auto parts
-web search: 
-web search: Toyota Matrix hood used
-web search: 
-web search: 2009 Toyota Matrix red hood used OEM listing
-ERROR: Reconnecting... 2/5
-web search: 
-web search: 
-web search: 
-web search: https://www.ebay.com/itm/125947344063
-web search: 
-web search: 2009 Toyota Matrix red hood used OEM listing
-web search: 
-web search: Toyota Matrix 2009 red hood ebay used
-web search: 
-web search: 2009 Toyota Matrix red hood used OEM listing
-ERROR: Reconnecting... 3/5
-web search: 
-web search: 2009 Toyota Matrix red hood used OEM listing
-ERROR: Reconnecting... 4/5
-web search: 
-web search: 2009 Toyota Matrix red hood used OEM listing
-ERROR: Reconnecting... 5/5
-web search: 
-web search: 2009 Toyota Matrix red hood used OEM
-web search: 
-web search: 2009 Toyota Matrix red hood used OEM
-ERROR: Reconnecting... 1/5
-web search: 
-web search: 2009 Toyota Matrix red hood used OEM listing
-ERROR: Reconnecting... 2/5
-web search: 
-web search: 2009 Toyota Matrix red hood used OEM listing
-ERROR: Reconnecting... 3/5
-web search: 
-web search: 2009 Toyota Matrix red hood used OEM listing
-ERROR: Reconnecting... 4/5
-web search: 
-web search: 2009 Toyota Matrix red hood used OEM
-ERROR: Reconnecting... 5/5
-web search: 
-web search: 2009 Toyota Matrix red hood used OEM
-ERROR: stream disconnected before completion: An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID a5544942-fb69-4803-a5ca-1d4499b23cb4 in your message.
-ERROR: stream disconnected before completion: An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID a5544942-fb69-4803-a5ca-1d4499b23cb4 in your message.
-tokens used
-15,541</pre>
+      <pre>2026-06-11 17:17:05,605 INFO scalper run started 2026-06-11T21:17:05.605480+00:00
+2026-06-11 17:17:05,607 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-11 17:21:38,309 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-11 17:21:38,310 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-11 17:27:00,484 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-11 17:27:00,484 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-11 17:31:38,263 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-11 17:31:38,264 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-11 17:34:24,054 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-11 17:34:24,055 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-11 17:37:02,137 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-11 17:37:02,138 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-11 17:41:07,576 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
