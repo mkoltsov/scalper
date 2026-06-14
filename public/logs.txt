@@ -1,18 +1,25 @@
-2026-06-14 16:17:05,615 INFO scalper run started 2026-06-14T20:17:05.615639+00:00
-2026-06-14 16:17:05,617 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-14 16:20:58,739 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-14 16:20:58,739 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-14 16:27:21,078 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961
-2026-06-14 16:27:21,079 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black url=https://www.ebay.com/itm/117216431961
-2026-06-14 16:27:56,828 INFO target=bang-olufsen-charging-case qualifying_deals=1
-2026-06-14 16:27:56,829 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961
-2026-06-14 16:27:56,830 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-14 16:32:23,123 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-14 16:32:23,124 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-14 16:36:43,526 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-14 16:36:43,527 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-14 16:41:00,440 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-14 16:41:00,441 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-06-14 16:44:41,969 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-06-14 16:44:41,969 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-14 16:53:51,604 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-14 17:17:04,804 INFO scalper run started 2026-06-14T21:17:04.804383+00:00
+2026-06-14 17:17:04,806 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-14 17:28:06,634 INFO target=nzxt-h1-v2 qualifying_deals=1
+2026-06-14 17:28:06,635 INFO new deal target=nzxt-h1-v2 market=us total=120.00 url=https://www.ebay.com/p/13043330909
+2026-06-14 17:28:06,740 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-14 17:31:50,670 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-14 17:31:50,670 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-14 17:42:59,451 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/287384414058
+2026-06-14 17:42:59,451 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13in - M2 8C CPU / 10C GPU - 16GB RAM 1TB SSD url=https://www.ebay.com/itm/287384414058
+2026-06-14 17:43:32,882 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=sold title=Apple MacBook Air 13in - M2 8C CPU / 10C GPU - 16GB RAM 1TB SSD url=https://www.ebay.com/itm/287384414058
+2026-06-14 17:43:33,077 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/336618173802
+2026-06-14 17:43:33,078 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air M2 2022 A2681, 512GB SSD, 16GB RAM, 8 core GPU url=https://www.ebay.com/itm/336618173802
+2026-06-14 17:43:41,946 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/298387949133
+2026-06-14 17:43:41,947 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 1TB SSD Good url=https://www.ebay.com/itm/298387949133
+2026-06-14 17:43:51,072 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2
+2026-06-14 17:43:51,073 INFO new deal target=macbook-13-apple-silicon-16-24gb market=us total=600.00 url=https://www.ebay.com/itm/336618173802
+2026-06-14 17:43:51,175 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=649.99 url=https://www.ebay.com/itm/298387949133
+2026-06-14 17:43:51,176 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-14 17:47:29,027 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-14 17:47:29,028 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-14 17:52:18,523 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-14 17:52:18,524 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-06-14 17:55:04,997 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-06-14 17:55:04,998 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-14 18:06:51,816 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0

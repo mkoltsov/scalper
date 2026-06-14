@@ -1,35 +1,78 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-14T20:53:51.604620+00:00",
+  "finished_at": "2026-06-14T22:06:51.817043+00:00",
   "logs": [
-    "2026-06-14 16:17:05,615 INFO scalper run started 2026-06-14T20:17:05.615639+00:00",
-    "2026-06-14 16:17:05,617 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-14 16:20:58,739 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-14 16:20:58,739 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-14 16:27:21,078 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961",
-    "2026-06-14 16:27:21,079 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black url=https://www.ebay.com/itm/117216431961",
-    "2026-06-14 16:27:56,828 INFO target=bang-olufsen-charging-case qualifying_deals=1",
-    "2026-06-14 16:27:56,829 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961",
-    "2026-06-14 16:27:56,830 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-14 16:32:23,123 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-06-14 16:32:23,124 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-14 16:36:43,526 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-14 16:36:43,527 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-14 16:41:00,440 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-14 16:41:00,441 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-06-14 16:44:41,969 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-06-14 16:44:41,969 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-14 16:53:51,604 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-14 17:17:04,804 INFO scalper run started 2026-06-14T21:17:04.804383+00:00",
+    "2026-06-14 17:17:04,806 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-14 17:28:06,634 INFO target=nzxt-h1-v2 qualifying_deals=1",
+    "2026-06-14 17:28:06,635 INFO new deal target=nzxt-h1-v2 market=us total=120.00 url=https://www.ebay.com/p/13043330909",
+    "2026-06-14 17:28:06,740 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-14 17:31:50,670 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-14 17:31:50,670 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-14 17:42:59,451 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/287384414058",
+    "2026-06-14 17:42:59,451 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13in - M2 8C CPU / 10C GPU - 16GB RAM 1TB SSD url=https://www.ebay.com/itm/287384414058",
+    "2026-06-14 17:43:32,882 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=sold title=Apple MacBook Air 13in - M2 8C CPU / 10C GPU - 16GB RAM 1TB SSD url=https://www.ebay.com/itm/287384414058",
+    "2026-06-14 17:43:33,077 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/336618173802",
+    "2026-06-14 17:43:33,078 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air M2 2022 A2681, 512GB SSD, 16GB RAM, 8 core GPU url=https://www.ebay.com/itm/336618173802",
+    "2026-06-14 17:43:41,946 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/298387949133",
+    "2026-06-14 17:43:41,947 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 1TB SSD Good url=https://www.ebay.com/itm/298387949133",
+    "2026-06-14 17:43:51,072 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2",
+    "2026-06-14 17:43:51,073 INFO new deal target=macbook-13-apple-silicon-16-24gb market=us total=600.00 url=https://www.ebay.com/itm/336618173802",
+    "2026-06-14 17:43:51,175 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=649.99 url=https://www.ebay.com/itm/298387949133",
+    "2026-06-14 17:43:51,176 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-14 17:47:29,027 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-14 17:47:29,028 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-14 17:52:18,523 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-14 17:52:18,524 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-14 17:55:04,997 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-06-14 17:55:04,998 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-14 18:06:51,816 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-14T20:17:05.615639+00:00",
+  "started_at": "2026-06-14T21:17:04.804383+00:00",
   "targets": [
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; seller note says: First things first, this case is the V2.",
+            "confidence": 0.62,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 60.0,
+            "seller": "wordsmeanthings2",
+            "shipping_usd": 60.0,
+            "source": "eBay",
+            "target_id": "nzxt-h1-v2",
+            "title": "NZXT H1 Mini-ITX Gaming Case - Matte White",
+            "total_usd": 120.0,
+            "url": "https://www.ebay.com/p/13043330909",
+            "why_good": "Buy It Now page is active at $60; seller note identifies it as H1 V2, and the page lists liquid cooler plus PSU included. Parsed shipping was not shown, but a conservative normal US shipping allowance still keeps total under $200."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; seller note says: First things first, this case is the V2.",
+          "confidence": 0.62,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 60.0,
+          "seller": "wordsmeanthings2",
+          "shipping_usd": 60.0,
+          "source": "eBay",
+          "target_id": "nzxt-h1-v2",
+          "title": "NZXT H1 Mini-ITX Gaming Case - Matte White",
+          "total_usd": 120.0,
+          "url": "https://www.ebay.com/p/13043330909",
+          "why_good": "Buy It Now page is active at $60; seller note identifies it as H1 V2, and the page lists liquid cooler plus PSU included. Parsed shipping was not shown, but a conservative normal US shipping allowance still keeps total under $200."
+        }
+      ],
       "id": "nzxt-h1-v2",
       "max_price_usd": 200,
       "name": "NZXT H1 V2 mini-ITX case bundle",
@@ -37,89 +80,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; seller note says: First things first, this case is the V2.",
+            "confidence": 0.62,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 60.0,
+            "seller": "wordsmeanthings2",
+            "shipping_usd": 60.0,
+            "source": "eBay",
+            "target_id": "nzxt-h1-v2",
+            "title": "NZXT H1 Mini-ITX Gaming Case - Matte White",
+            "total_usd": 120.0,
+            "url": "https://www.ebay.com/p/13043330909",
+            "why_good": "Buy It Now page is active at $60; seller note identifies it as H1 V2, and the page lists liquid cooler plus PSU included. Parsed shipping was not shown, but a conservative normal US shipping allowance still keeps total under $200."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      }
-    },
-    {
-      "deal_groups": {
-        "eu": [
-          {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 67.27,
-            "seller": "drn-deals",
-            "shipping_usd": 15.29,
-            "source": "eBay",
-            "target_id": "bang-olufsen-charging-case",
-            "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
-            "total_usd": 82.56,
-            "url": "https://www.ebay.com/itm/117216431961",
-            "why_good": "Clearly listed as a genuine Bang & Olufsen Beoplay EX charging case, not a cover; eBay showed $67.27 plus $15.29 shipping, total under $100."
-          }
-        ],
-        "other": [],
-        "us": []
-      },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Pre-Owned",
-          "confidence": 0.78,
-          "delivery_country": "United States",
-          "market_label": "EU/Europe",
-          "market_region": "eu",
-          "price_usd": 67.27,
-          "seller": "drn-deals",
-          "shipping_usd": 15.29,
-          "source": "eBay",
-          "target_id": "bang-olufsen-charging-case",
-          "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
-          "total_usd": 82.56,
-          "url": "https://www.ebay.com/itm/117216431961",
-          "why_good": "Clearly listed as a genuine Bang & Olufsen Beoplay EX charging case, not a cover; eBay showed $67.27 plus $15.29 shipping, total under $100."
-        }
-      ],
-      "id": "bang-olufsen-charging-case",
-      "max_price_usd": 100,
-      "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
-      "regional_summary": {
-        "best": {
-          "eu": {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 67.27,
-            "seller": "drn-deals",
-            "shipping_usd": 15.29,
-            "source": "eBay",
-            "target_id": "bang-olufsen-charging-case",
-            "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
-            "total_usd": 82.56,
-            "url": "https://www.ebay.com/itm/117216431961",
-            "why_good": "Clearly listed as a genuine Bang & Olufsen Beoplay EX charging case, not a cover; eBay showed $67.27 plus $15.29 shipping, total under $100."
-          },
-          "other": null,
-          "us": null
-        },
-        "counts": {
-          "eu": 1,
-          "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -132,9 +114,9 @@
         "us": []
       },
       "deals": [],
-      "id": "macbook-13-apple-silicon-16-24gb",
-      "max_price_usd": 650,
-      "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
+      "id": "bang-olufsen-charging-case",
+      "max_price_usd": 100,
+      "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
       "regional_summary": {
         "best": {
           "eu": null,
@@ -145,6 +127,117 @@
           "eu": 0,
           "other": 0,
           "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Pre-Owned",
+            "confidence": 0.8,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 600.0,
+            "seller": "phoenixtechrefresh-1",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple MacBook Air M2 2022 A2681, 512GB SSD, 16GB RAM, 8 core GPU",
+            "total_usd": 600.0,
+            "url": "https://www.ebay.com/itm/336618173802",
+            "why_good": "A2681 is the 13.6-inch M2 MacBook Air; listing states 16GB RAM and 512GB SSD with free US delivery."
+          },
+          {
+            "availability": "available",
+            "condition": "Good - Refurbished",
+            "confidence": 0.84,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 649.99,
+            "seller": "itsworthmore",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "MacBook Air 13 Midnight 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 1TB SSD Good",
+            "total_usd": 649.99,
+            "url": "https://www.ebay.com/itm/298387949133",
+            "why_good": "13-inch M2 MacBook Air with 16GB RAM and 1TB SSD; eBay Refurbished listing with free US delivery just under the cap."
+          }
+        ]
+      },
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Pre-Owned",
+          "confidence": 0.8,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 600.0,
+          "seller": "phoenixtechrefresh-1",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "Apple MacBook Air M2 2022 A2681, 512GB SSD, 16GB RAM, 8 core GPU",
+          "total_usd": 600.0,
+          "url": "https://www.ebay.com/itm/336618173802",
+          "why_good": "A2681 is the 13.6-inch M2 MacBook Air; listing states 16GB RAM and 512GB SSD with free US delivery."
+        },
+        {
+          "availability": "available",
+          "condition": "Good - Refurbished",
+          "confidence": 0.84,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 649.99,
+          "seller": "itsworthmore",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "MacBook Air 13 Midnight 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 1TB SSD Good",
+          "total_usd": 649.99,
+          "url": "https://www.ebay.com/itm/298387949133",
+          "why_good": "13-inch M2 MacBook Air with 16GB RAM and 1TB SSD; eBay Refurbished listing with free US delivery just under the cap."
+        }
+      ],
+      "id": "macbook-13-apple-silicon-16-24gb",
+      "max_price_usd": 650,
+      "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": {
+            "availability": "available",
+            "condition": "Pre-Owned",
+            "confidence": 0.8,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 600.0,
+            "seller": "phoenixtechrefresh-1",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple MacBook Air M2 2022 A2681, 512GB SSD, 16GB RAM, 8 core GPU",
+            "total_usd": 600.0,
+            "url": "https://www.ebay.com/itm/336618173802",
+            "why_good": "A2681 is the 13.6-inch M2 MacBook Air; listing states 16GB RAM and 512GB SSD with free US delivery."
+          }
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
