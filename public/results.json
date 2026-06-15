@@ -1,33 +1,30 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-15T19:58:33.203100+00:00",
+  "finished_at": "2026-06-15T20:50:29.567579+00:00",
   "logs": [
-    "2026-06-15 15:17:04,909 INFO scalper run started 2026-06-15T19:17:04.909671+00:00",
-    "2026-06-15 15:17:04,911 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-15 15:27:32,049 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-15 15:27:32,050 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-15 15:33:45,888 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961",
-    "2026-06-15 15:33:45,889 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black url=https://www.ebay.com/itm/117216431961",
-    "2026-06-15 15:34:21,671 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231",
-    "2026-06-15 15:34:21,673 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
-    "2026-06-15 15:34:28,987 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
-    "2026-06-15 15:34:28,988 INFO target=bang-olufsen-charging-case qualifying_deals=1",
-    "2026-06-15 15:34:28,989 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961",
-    "2026-06-15 15:34:28,990 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-15 15:38:36,436 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306625772926",
-    "2026-06-15 15:38:36,437 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926",
-    "2026-06-15 15:38:45,318 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-06-15 15:38:45,318 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=629.99 url=https://www.ebay.com/itm/306625772926",
-    "2026-06-15 15:38:45,319 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-15 15:43:03,749 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-15 15:43:03,750 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-15 15:45:40,126 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-15 15:45:40,127 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-06-15 15:51:01,082 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-06-15 15:51:01,083 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-15 15:58:33,202 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-15 16:17:04,873 INFO scalper run started 2026-06-15T20:17:04.873674+00:00",
+    "2026-06-15 16:17:04,875 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-15 16:20:22,031 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-15 16:20:22,032 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-15 16:29:09,204 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231",
+    "2026-06-15 16:29:09,205 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
+    "2026-06-15 16:29:42,777 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
+    "2026-06-15 16:29:42,950 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961",
+    "2026-06-15 16:29:42,950 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black url=https://www.ebay.com/itm/117216431961",
+    "2026-06-15 16:29:51,695 INFO target=bang-olufsen-charging-case qualifying_deals=1",
+    "2026-06-15 16:29:51,696 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961",
+    "2026-06-15 16:29:51,697 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-15 16:35:32,674 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-15 16:35:32,675 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-15 16:39:02,887 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-15 16:39:02,888 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-15 16:42:10,697 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-15 16:42:10,698 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-15 16:47:20,297 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-06-15 16:47:20,298 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-15 16:50:29,567 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-15T19:17:04.909671+00:00",
+  "started_at": "2026-06-15T20:17:04.873674+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -60,7 +57,7 @@
           {
             "availability": "available",
             "condition": "Pre-Owned",
-            "confidence": 0.82,
+            "confidence": 0.8,
             "delivery_country": "United States",
             "market_label": "EU/Europe",
             "market_region": "eu",
@@ -72,7 +69,7 @@
             "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
             "total_usd": 82.56,
             "url": "https://www.ebay.com/itm/117216431961",
-            "why_good": "Beoplay EX charging case listing; eBay displayed US $67.27 plus $15.29 international shipping estimate from the UK, below $100 total."
+            "why_good": "Title clearly says Beoplay EX charging case; Buy It Now listing from UK with international tracking and total under $100."
           }
         ],
         "other": [],
@@ -82,7 +79,7 @@
         {
           "availability": "available",
           "condition": "Pre-Owned",
-          "confidence": 0.82,
+          "confidence": 0.8,
           "delivery_country": "United States",
           "market_label": "EU/Europe",
           "market_region": "eu",
@@ -94,7 +91,7 @@
           "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
           "total_usd": 82.56,
           "url": "https://www.ebay.com/itm/117216431961",
-          "why_good": "Beoplay EX charging case listing; eBay displayed US $67.27 plus $15.29 international shipping estimate from the UK, below $100 total."
+          "why_good": "Title clearly says Beoplay EX charging case; Buy It Now listing from UK with international tracking and total under $100."
         }
       ],
       "id": "bang-olufsen-charging-case",
@@ -105,7 +102,7 @@
           "eu": {
             "availability": "available",
             "condition": "Pre-Owned",
-            "confidence": 0.82,
+            "confidence": 0.8,
             "delivery_country": "United States",
             "market_label": "EU/Europe",
             "market_region": "eu",
@@ -117,7 +114,7 @@
             "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
             "total_usd": 82.56,
             "url": "https://www.ebay.com/itm/117216431961",
-            "why_good": "Beoplay EX charging case listing; eBay displayed US $67.27 plus $15.29 international shipping estimate from the UK, below $100 total."
+            "why_good": "Title clearly says Beoplay EX charging case; Buy It Now listing from UK with international tracking and total under $100."
           },
           "other": null,
           "us": null
@@ -135,45 +132,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; moderate cosmetic wear, tested 100% functional",
-            "confidence": 0.88,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 629.99,
-            "seller": "Omaha Blue",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good",
-            "total_usd": 629.99,
-            "url": "https://www.ebay.com/itm/306625772926",
-            "why_good": "13-inch 2022 MacBook Air with M2, 16GB RAM, and 512GB SSD; eBay page shows automatic TENSUMMER discount to $629.99 estimated total with free US shipping."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; moderate cosmetic wear, tested 100% functional",
-          "confidence": 0.88,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 629.99,
-          "seller": "Omaha Blue",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good",
-          "total_usd": 629.99,
-          "url": "https://www.ebay.com/itm/306625772926",
-          "why_good": "13-inch 2022 MacBook Air with M2, 16GB RAM, and 512GB SSD; eBay page shows automatic TENSUMMER discount to $629.99 estimated total with free US shipping."
-        }
-      ],
+      "deals": [],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -181,28 +142,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; moderate cosmetic wear, tested 100% functional",
-            "confidence": 0.88,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 629.99,
-            "seller": "Omaha Blue",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good",
-            "total_usd": 629.99,
-            "url": "https://www.ebay.com/itm/306625772926",
-            "why_good": "13-inch 2022 MacBook Air with M2, 16GB RAM, and 512GB SSD; eBay page shows automatic TENSUMMER discount to $629.99 estimated total with free US shipping."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
