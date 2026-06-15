@@ -1,32 +1,75 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-15T13:51:44.672238+00:00",
+  "finished_at": "2026-06-15T14:52:32.647015+00:00",
   "logs": [
-    "2026-06-15 09:17:05,052 INFO scalper run started 2026-06-15T13:17:05.052484+00:00",
-    "2026-06-15 09:17:05,054 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-15 09:19:56,192 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-15 09:19:56,193 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-15 09:23:21,683 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-15 09:23:21,684 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-15 09:29:07,278 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-06-15 09:29:07,279 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-15 09:32:34,624 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-15 09:32:34,625 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-15 09:36:04,703 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-15 09:36:04,703 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-06-15 09:44:32,663 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-06-15 09:44:32,663 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-15 09:51:44,671 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-15 10:17:05,001 INFO scalper run started 2026-06-15T14:17:05.001367+00:00",
+    "2026-06-15 10:17:05,003 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-15 10:23:08,169 INFO target=nzxt-h1-v2 qualifying_deals=1",
+    "2026-06-15 10:23:08,170 INFO new deal target=nzxt-h1-v2 market=us total=60.00 url=https://www.ebay.com/p/13043330909",
+    "2026-06-15 10:23:08,272 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-15 10:30:18,379 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231",
+    "2026-06-15 10:30:18,379 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
+    "2026-06-15 10:30:51,847 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
+    "2026-06-15 10:30:52,043 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961",
+    "2026-06-15 10:30:52,044 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black url=https://www.ebay.com/itm/117216431961",
+    "2026-06-15 10:31:01,647 INFO target=bang-olufsen-charging-case qualifying_deals=1",
+    "2026-06-15 10:31:01,648 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961",
+    "2026-06-15 10:31:01,649 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-15 10:33:45,434 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-15 10:33:45,435 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-15 10:37:48,844 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-15 10:37:48,845 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-15 10:42:07,943 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-15 10:42:07,944 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-15 10:47:08,356 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-06-15 10:47:08,357 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-15 10:52:32,646 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-15T13:17:05.052484+00:00",
+  "started_at": "2026-06-15T14:17:05.001367+00:00",
   "targets": [
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used",
+            "confidence": 0.66,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 60.0,
+            "seller": "wordsmeanthings2",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "nzxt-h1-v2",
+            "title": "NZXT H1 Mini-ITX Gaming Case - Matte White",
+            "total_usd": 60.0,
+            "url": "https://www.ebay.com/p/13043330909",
+            "why_good": "Opened active eBay buy page; seller text says the case is V2, and eBay product details show PSU included, liquid cooler, and riser card. Shipping was not shown in the captured page, but the $60 item price leaves more than $140 headroom for normal US shipping under the $200 ceiling."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used",
+          "confidence": 0.66,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 60.0,
+          "seller": "wordsmeanthings2",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "nzxt-h1-v2",
+          "title": "NZXT H1 Mini-ITX Gaming Case - Matte White",
+          "total_usd": 60.0,
+          "url": "https://www.ebay.com/p/13043330909",
+          "why_good": "Opened active eBay buy page; seller text says the case is V2, and eBay product details show PSU included, liquid cooler, and riser card. Shipping was not shown in the captured page, but the $60 item price leaves more than $140 headroom for normal US shipping under the $200 ceiling."
+        }
+      ],
       "id": "nzxt-h1-v2",
       "max_price_usd": 200,
       "name": "NZXT H1 V2 mini-ITX case bundle",
@@ -34,12 +77,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used",
+            "confidence": 0.66,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 60.0,
+            "seller": "wordsmeanthings2",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "nzxt-h1-v2",
+            "title": "NZXT H1 Mini-ITX Gaming Case - Matte White",
+            "total_usd": 60.0,
+            "url": "https://www.ebay.com/p/13043330909",
+            "why_good": "Opened active eBay buy page; seller text says the case is V2, and eBay product details show PSU included, liquid cooler, and riser card. Shipping was not shown in the captured page, but the $60 item price leaves more than $140 headroom for normal US shipping under the $200 ceiling."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -47,22 +106,74 @@
     },
     {
       "deal_groups": {
-        "eu": [],
+        "eu": [
+          {
+            "availability": "available",
+            "condition": "Pre-Owned",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "EU/Europe",
+            "market_region": "eu",
+            "price_usd": 67.27,
+            "seller": "drn-deals",
+            "shipping_usd": 15.29,
+            "source": "eBay",
+            "target_id": "bang-olufsen-charging-case",
+            "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
+            "total_usd": 82.56,
+            "url": "https://www.ebay.com/itm/117216431961",
+            "why_good": "eBay result clearly identifies a genuine Beoplay EX charging case, located in the UK, with USD item price plus US shipping estimate under $100."
+          }
+        ],
         "other": [],
         "us": []
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Pre-Owned",
+          "confidence": 0.78,
+          "delivery_country": "United States",
+          "market_label": "EU/Europe",
+          "market_region": "eu",
+          "price_usd": 67.27,
+          "seller": "drn-deals",
+          "shipping_usd": 15.29,
+          "source": "eBay",
+          "target_id": "bang-olufsen-charging-case",
+          "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
+          "total_usd": 82.56,
+          "url": "https://www.ebay.com/itm/117216431961",
+          "why_good": "eBay result clearly identifies a genuine Beoplay EX charging case, located in the UK, with USD item price plus US shipping estimate under $100."
+        }
+      ],
       "id": "bang-olufsen-charging-case",
       "max_price_usd": 100,
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
       "regional_summary": {
         "best": {
-          "eu": null,
+          "eu": {
+            "availability": "available",
+            "condition": "Pre-Owned",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "EU/Europe",
+            "market_region": "eu",
+            "price_usd": 67.27,
+            "seller": "drn-deals",
+            "shipping_usd": 15.29,
+            "source": "eBay",
+            "target_id": "bang-olufsen-charging-case",
+            "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
+            "total_usd": 82.56,
+            "url": "https://www.ebay.com/itm/117216431961",
+            "why_good": "eBay result clearly identifies a genuine Beoplay EX charging case, located in the UK, with USD item price plus US shipping estimate under $100."
+          },
           "other": null,
           "us": null
         },
         "counts": {
-          "eu": 0,
+          "eu": 1,
           "other": 0,
           "us": 0
         },
