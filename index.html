@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scalper Results</title>
+  <style>
+    :root { color-scheme: dark; --bg:#090b10; --panel:#111722; --line:#253044; --text:#eef3ff; --muted:#97a3b8; --accent:#74d3ff; --danger:#ff8b8b; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif; background:radial-gradient(circle at 20% 0,#172236 0,#090b10 42rem); color:var(--text); }
+    main { width:min(1040px, calc(100% - 32px)); margin:0 auto; padding:48px 0 72px; }
+    header { margin-bottom:32px; }
+    .eyebrow { color:var(--accent); font-size:13px; text-transform:uppercase; letter-spacing:.08em; }
+    h1,h2,p { margin-top:0; }
+    header h1 { font-size:clamp(34px,6vw,68px); line-height:1; margin:10px 0 16px; }
+    header p,.empty,.meta,.target-head span { color:var(--muted); }
+    nav { display:flex; gap:10px; flex-wrap:wrap; margin-top:22px; }
+    nav a,.button,button { border:1px solid var(--line); background:#162033; color:var(--text); border-radius:6px; padding:9px 12px; font:inherit; text-decoration:none; cursor:pointer; }
+    nav a:hover,.button:hover,button:hover { border-color:var(--accent); color:var(--accent); }
+    .target { border:1px solid var(--line); background:color-mix(in srgb, var(--panel) 86%, transparent); border-radius:8px; padding:22px; margin:18px 0; box-shadow:0 24px 60px rgba(0,0,0,.24); }
+    .target-head { display:flex; gap:16px; align-items:baseline; justify-content:space-between; border-bottom:1px solid var(--line); padding-bottom:14px; margin-bottom:14px; }
+    .target-head h1 { font-size:22px; line-height:1.2; margin:0; }
+    .market-summary { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:0 0 18px; }
+    .metric { border:1px solid var(--line); border-radius:6px; padding:12px; background:#0c121d; }
+    .metric span,.metric small,.region-group h2 { display:block; color:var(--muted); font-size:13px; }
+    .metric strong { display:block; margin:4px 0; font-size:24px; line-height:1.1; }
+    .region-group { border-top:1px solid var(--line); padding-top:14px; margin-top:14px; }
+    .region-group h2 { margin:0 0 4px; text-transform:uppercase; letter-spacing:.08em; }
+    .badge { display:inline-block; border:1px solid var(--line); border-radius:4px; color:var(--accent); font-size:12px; line-height:1; padding:3px 5px; margin-right:6px; }
+    .deal { padding:16px 0; border-top:1px solid rgba(255,255,255,.07); }
+    .deal:first-of-type { border-top:0; }
+    .deal h2 { font-size:20px; line-height:1.25; margin:4px 0 8px; }
+    .tool-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    label { display:block; color:var(--muted); font-size:13px; margin-bottom:5px; }
+    input,textarea { width:100%; border:1px solid var(--line); background:#090f19; color:var(--text); border-radius:6px; padding:10px 11px; font:inherit; }
+    textarea { min-height:92px; resize:vertical; }
+    .wide { grid-column:1 / -1; }
+    .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
+    pre { margin:0; white-space:pre-wrap; overflow:auto; border:1px solid var(--line); background:#070b12; color:#dbe7ff; border-radius:8px; padding:16px; max-height:440px; }
+    .output { margin-top:16px; }
+    .error { color:var(--danger); }
+    a { color:var(--text); text-decoration-color:var(--accent); text-underline-offset:4px; }
+    a:hover { color:var(--accent); }
+    @media (max-width:640px) { main { width:min(100% - 20px, 1040px); padding-top:28px; } .target { padding:16px; } .target-head { display:block; } .market-summary,.tool-grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Live deal monitor</div>
+      <h1>Scalper Results</h1>
+      <p>Latest run: 2026-06-15T04:53:08.392969+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <nav>
+        <a href="#results">Results</a>
+        <a href="#add-target">Add target</a>
+        <a href="#logs">Logs</a>
+        <a href="results.json">JSON</a>
+        <a href="logs.txt">Raw logs</a>
+      </nav>
+    </header>
+    <section id="results">
+      
+            <section class="target">
+              <div class="target-head">
+                <h1>NZXT H1 V2 mini-ITX case bundle</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>B&amp;O Eleven / Beoplay EX / Cisco 950 charging case</h1>
+                <span>1 live match</span>
+              </div>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>$82.56</strong>
+                  <small>eBay</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">EU/Europe</span> eBay · $82.56 · United States</div>
+                  <h2><a href="https://www.ebay.com/itm/117216431961" rel="nofollow noopener">Genuine Bang &amp; Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black</a></h2>
+                  <p>Title names Bang &amp; Olufsen Beoplay EX charging case; Buy It Now listing from UK with US shipping estimate, total $82.56.</p>
+                </article>
+    
+              </div>
+    
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>M1 Mac mini with 16GB RAM</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>M2-or-newer Mac mini with 16GB+ RAM</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>Yamaha NP-12 or NP-15 Piaggero keyboard</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>Used red hood for 2nd-gen Toyota Matrix</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+    </section>
+    <section class="target" id="add-target">
+      <div class="target-head">
+        <h1>Add target</h1>
+        <span>builds JSON for deals.json</span>
+      </div>
+      <form id="target-form" class="tool-grid">
+        <div>
+          <label for="target-id">ID</label>
+          <input id="target-id" name="id" placeholder="sony-wh-1000xm6" required>
+        </div>
+        <div>
+          <label for="target-price">Max total price USD</label>
+          <input id="target-price" name="max_price_usd" type="number" min="1" step="1" placeholder="150" required>
+        </div>
+        <div class="wide">
+          <label for="target-name">Name</label>
+          <input id="target-name" name="name" placeholder="Sony WH-1000XM6 headphones" required>
+        </div>
+        <div class="wide">
+          <label for="target-intent">Search intent</label>
+          <textarea id="target-intent" name="search_intent" placeholder="Find currently available used or open-box..." required></textarea>
+        </div>
+        <div>
+          <label for="target-required">Required regex patterns, one per line</label>
+          <textarea id="target-required" name="required_any_patterns"></textarea>
+        </div>
+        <div>
+          <label for="target-reject">Reject regex patterns, one per line</label>
+          <textarea id="target-reject" name="reject_patterns"></textarea>
+        </div>
+        <div class="wide">
+          <label for="target-queries">Search queries, one per line</label>
+          <textarea id="target-queries" name="search_queries" required></textarea>
+        </div>
+      </form>
+      <div class="actions">
+        <button type="button" id="build-target">Build JSON</button>
+        <button type="button" id="copy-target">Copy JSON</button>
+        <a class="button" id="issue-link" href="https://github.com/mkoltsov/scalper/issues/new" rel="noopener">Open GitHub issue</a>
+      </div>
+      <p id="target-message" class="empty"></p>
+      <pre class="output" id="target-output"></pre>
+    </section>
+    <section class="target" id="logs">
+      <div class="target-head">
+        <h1>Logs</h1>
+        <span>21 lines published</span>
+      </div>
+      <pre>2026-06-15 00:17:04,943 INFO scalper run started 2026-06-15T04:17:04.943184+00:00
+2026-06-15 00:17:04,945 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-15 00:23:21,401 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-15 00:23:21,402 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-15 00:28:02,777 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231
+2026-06-15 00:28:02,778 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang &amp; Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
+2026-06-15 00:28:36,206 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang &amp; Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
+2026-06-15 00:28:36,436 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961
+2026-06-15 00:28:36,437 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang &amp; Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black url=https://www.ebay.com/itm/117216431961
+2026-06-15 00:28:45,192 INFO target=bang-olufsen-charging-case qualifying_deals=1
+2026-06-15 00:28:45,193 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961
+2026-06-15 00:28:45,194 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-15 00:33:33,940 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-15 00:33:33,941 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-15 00:36:36,963 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-15 00:36:36,963 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-15 00:39:54,426 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-15 00:39:54,426 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-06-15 00:46:35,604 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-06-15 00:46:35,604 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-15 00:53:08,392 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

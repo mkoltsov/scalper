@@ -1,0 +1,257 @@
+{
+  "exit_code": 0,
+  "finished_at": "2026-06-15T04:53:08.392969+00:00",
+  "logs": [
+    "2026-06-15 00:17:04,943 INFO scalper run started 2026-06-15T04:17:04.943184+00:00",
+    "2026-06-15 00:17:04,945 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-15 00:23:21,401 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-15 00:23:21,402 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-15 00:28:02,777 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231",
+    "2026-06-15 00:28:02,778 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
+    "2026-06-15 00:28:36,206 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
+    "2026-06-15 00:28:36,436 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961",
+    "2026-06-15 00:28:36,437 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black url=https://www.ebay.com/itm/117216431961",
+    "2026-06-15 00:28:45,192 INFO target=bang-olufsen-charging-case qualifying_deals=1",
+    "2026-06-15 00:28:45,193 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961",
+    "2026-06-15 00:28:45,194 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-15 00:33:33,940 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-15 00:33:33,941 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-15 00:36:36,963 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-15 00:36:36,963 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-15 00:39:54,426 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-15 00:39:54,426 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-15 00:46:35,604 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-06-15 00:46:35,604 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-15 00:53:08,392 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+  ],
+  "started_at": "2026-06-15T04:17:04.943184+00:00",
+  "targets": [
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "nzxt-h1-v2",
+      "max_price_usd": 200,
+      "name": "NZXT H1 V2 mini-ITX case bundle",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [
+          {
+            "availability": "available",
+            "condition": "Pre-Owned",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "EU/Europe",
+            "market_region": "eu",
+            "price_usd": 67.27,
+            "seller": "drn-deals",
+            "shipping_usd": 15.29,
+            "source": "eBay",
+            "target_id": "bang-olufsen-charging-case",
+            "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
+            "total_usd": 82.56,
+            "url": "https://www.ebay.com/itm/117216431961",
+            "why_good": "Title names Bang & Olufsen Beoplay EX charging case; Buy It Now listing from UK with US shipping estimate, total $82.56."
+          }
+        ],
+        "other": [],
+        "us": []
+      },
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Pre-Owned",
+          "confidence": 0.78,
+          "delivery_country": "United States",
+          "market_label": "EU/Europe",
+          "market_region": "eu",
+          "price_usd": 67.27,
+          "seller": "drn-deals",
+          "shipping_usd": 15.29,
+          "source": "eBay",
+          "target_id": "bang-olufsen-charging-case",
+          "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
+          "total_usd": 82.56,
+          "url": "https://www.ebay.com/itm/117216431961",
+          "why_good": "Title names Bang & Olufsen Beoplay EX charging case; Buy It Now listing from UK with US shipping estimate, total $82.56."
+        }
+      ],
+      "id": "bang-olufsen-charging-case",
+      "max_price_usd": 100,
+      "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
+      "regional_summary": {
+        "best": {
+          "eu": {
+            "availability": "available",
+            "condition": "Pre-Owned",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "EU/Europe",
+            "market_region": "eu",
+            "price_usd": 67.27,
+            "seller": "drn-deals",
+            "shipping_usd": 15.29,
+            "source": "eBay",
+            "target_id": "bang-olufsen-charging-case",
+            "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
+            "total_usd": 82.56,
+            "url": "https://www.ebay.com/itm/117216431961",
+            "why_good": "Title names Bang & Olufsen Beoplay EX charging case; Buy It Now listing from UK with US shipping estimate, total $82.56."
+          },
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 1,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "macbook-13-apple-silicon-16-24gb",
+      "max_price_usd": 650,
+      "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "mac-mini-m1-16gb",
+      "max_price_usd": 400,
+      "name": "M1 Mac mini with 16GB RAM",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "mac-mini-m2-newer-16gb",
+      "max_price_usd": 550,
+      "name": "M2-or-newer Mac mini with 16GB+ RAM",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "yamaha-np12-np15-piaggero",
+      "max_price_usd": 180,
+      "name": "Yamaha NP-12 or NP-15 Piaggero keyboard",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "toyota-matrix-2nd-gen-red-hood",
+      "max_price_usd": 450,
+      "name": "Used red hood for 2nd-gen Toyota Matrix",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    }
+  ]
+}
