@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-06-16T03:10:53.759409+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-06-16T03:50:36.205670+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -70,10 +70,58 @@
             
             <section class="target">
               <div class="target-head">
-                <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
+                <h1>B&amp;O Eleven / Beoplay EX / Cisco 950 charging case</h1>
                 <span>0 live matches</span>
               </div>
               <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
+                <span>1 live match</span>
+              </div>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>$649.99</strong>
+                  <small>eBay</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> eBay · $649.99 · United States</div>
+                  <h2><a href="https://www.ebay.com/itm/278074990005" rel="nofollow noopener">MacBook Pro 13 Space Gray 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 512GB Good</a></h2>
+                  <p>13-inch 2022 M2 MacBook Pro with 16GB RAM and 512GB SSD; Good Refurbished condition with free US shipping, total $649.99 under the $650 ceiling.</p>
+                </article>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
             </section>
             
             <section class="target">
@@ -155,46 +203,26 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>15 lines published</span>
+        <span>18 lines published</span>
       </div>
-      <pre>2026-06-15 22:17:05,123 INFO scalper run started 2026-06-16T02:17:05.123855+00:00
-2026-06-15 22:17:05,125 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-15 22:27:01,492 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-15 22:27:01,493 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-15 22:42:01,514 ERROR Codex timed out for target=bang-olufsen-charging-case
-Traceback (most recent call last):
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1829, in run
-    result = run_codex(target, config, metrics)
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 496, in run_codex
-    process = subprocess.run(
-        codex_command(codex_bin, output_path, prompt),
-    ...&lt;4 lines&gt;...
-        timeout=timeout,
-    )
-  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 556, in run
-    stdout, stderr = process.communicate(input, timeout=timeout)
-                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 1222, in communicate
-    stdout, stderr = self._communicate(input, endtime, timeout)
-                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 2129, in _communicate
-    self._check_timeout(endtime, orig_timeout, stdout, stderr)
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 1269, in _check_timeout
-    raise TimeoutExpired(
-    ...&lt;2 lines&gt;...
-            stderr=b&#x27;&#x27;.join(stderr_seq) if stderr_seq else None)
-subprocess.TimeoutExpired: Command &#x27;[&#x27;/home/intimatik/.npm-global/bin/codex&#x27;, &#x27;--search&#x27;, &#x27;--ask-for-approval&#x27;, &#x27;never&#x27;, &#x27;exec&#x27;, &#x27;--skip-git-repo-check&#x27;, &#x27;--sandbox&#x27;, &#x27;read-only&#x27;, &#x27;--color&#x27;, &#x27;never&#x27;, &#x27;--ephemeral&#x27;, &#x27;--output-last-message&#x27;, &#x27;/tmp/scalper-codex-hx7vgbqk/last-message.json&#x27;, &#x27;You are a precise deal-finding automation. Use live web_search.\n\nCurrent UTC date: 2026-06-16\nTarget id: bang-olufsen-charging-case\nTarget name: B&amp;O Eleven / Beoplay EX / Cisco 950 charging case\nMaximum total price: $100 USD, including shipping or delivery to United States or Poland.\nUsual market price estimate: $120 USD.\nConfigured shipping destinations:\n[\n  &quot;United States&quot;,\n  &quot;Poland&quot;\n]\n\nSearch intent:\nFind currently available charging case deals under $100 total ONLY for these models: Bang &amp; Olufsen Eleven, B&amp;O Eleven, Bang &amp; Olufsen Beoplay EX, B&amp;O Beoplay EX, or Cisco 950. Only the charging case is needed; earbuds may be missing, broken, or included as broken parts. Reject every other B&amp;O model, including Beoplay EQ, Beoplay E8, E8 2.0, E8 3rd Gen, E6, EX generic protective covers, Portal, H95, HX, A8, and any listing where the model is unclear. Reject generic silicone protective covers, skins, pouches, non-charging cases, sold listings, out-of-stock listings, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp listings near Cary NC, listings requiring a proxy/forwarder such as Mercari Japan, links that do not open as active listing pages, and listings where item price plus shipping is $100 or more.\n\nAcceptance criteria:\n[\n  &quot;The listing clearly says the charging case is for B&amp;O Eleven, Bang &amp; Olufsen Eleven, Beoplay EX, Bang &amp; Olufsen Beoplay EX, B&amp;O Beoplay EX, or Cisco 950.&quot;,\n  &quot;Reject all other B&amp;O models, especially Beoplay EQ and Beoplay E8.&quot;,\n  &quot;A real compatible charging case is included.&quot;,\n  &quot;It is not just a silicone cover, skin, sleeve, or pouch.&quot;,\n  &quot;Earbuds can be missing, included, or broken.&quot;,\n  &quot;The total price including shipping is less than 100 USD.&quot;,\n  &quot;It is currently available to buy.&quot;,\n  &quot;The listing URL opens as an active listing page.&quot;,\n  &quot;It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519; proxy/forwarder-only marketplaces such as Mercari Japan are not acceptable.&quot;\n]\n\nRequired model/text patterns. A listing must match at least one if this list is not empty:\n[\n  &quot;\\\\b(b&amp;o|bang\\\\s*&amp;?\\\\s*olufsen)\\\\s+eleven\\\\b&quot;,\n  &quot;\\\\beleven\\\\s+(earbuds?|charging\\\\s+case|case)\\\\b&quot;,\n  &quot;\\\\bbeoplay\\\\s+ex\\\\b&quot;,\n  &quot;\\\\b(b&amp;o|bang\\\\s*&amp;?\\\\s*olufsen)\\\\s+ex\\\\b&quot;,\n  &quot;\\\\bcisco\\\\s+950\\\\b&quot;\n]\n\nReject text patterns. Exclude a listing if it matches any of these:\n[\n  &quot;\\\\bbeoplay\\\\s+eq\\\\b&quot;,\n  &quot;\\\\bbeoplay\\\\s+e8\\\\b&quot;,\n  &quot;\\\\be8\\\\s*(2\\\\.0|3rd|third|gen|generation)?\\\\b&quot;,\n  &quot;\\\\bbeoplay\\\\s+e6\\\\b&quot;,\n  &quot;\\\\bportal\\\\b&quot;,\n  &quot;\\\\bh95\\\\b&quot;,\n  &quot;\\\\bhx\\\\b&quot;,\n  &quot;\\\\ba8\\\\b&quot;,\n  &quot;\\\\bsilicone\\\\b&quot;,\n  &quot;\\\\bprotective\\\\s+(cover|case|skin)\\\\b&quot;\n]\n\nSuggested search queries:\n[\n  &quot;B&amp;O Eleven charging case only under $100&quot;,\n  &quot;Bang Olufsen Eleven charging case eBay under 100&quot;,\n  &quot;B&amp;O Beoplay EX charging case only under $100&quot;,\n  &quot;Bang Olufsen Beoplay EX charging case replacement under 100&quot;,\n  &quot;Cisco 950 charging case under $100&quot;,\n  &quot;Cisco 950 earbuds broken charging case&quot;,\n  &quot;site:offerup.com Beoplay EX charging case Cary NC 27519&quot;,\n  &quot;site:offerup.com B&amp;O Eleven charging case Raleigh Durham Cary&quot;,\n  &quot;site:offerup.com Cisco 950 charging case Cary NC&quot;,\n  &quot;B&amp;O Eleven / Beoplay EX / Cisco 950 charging case Allegro dostawa&quot;,\n  &quot;B&amp;O Eleven / Beoplay EX / Cisco 950 charging case OLX wysylka&quot;,\n  &quot;B&amp;O Eleven / Beoplay EX / Cisco 950 charging case eBay Europe delivery to Poland&quot;,\n  &quot;B&amp;O Eleven / Beoplay EX / Cisco 950 charging case eBay Germany ships to Poland&quot;,\n  &quot;B&amp;O Eleven / Beoplay EX / Cisco 950 charging case Catawiki delivery Poland&quot;\n]\n\nMarketplace search coverage:\n[\n  &quot;Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.&quot;,\n  &quot;Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.&quot;,\n  &quot;Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.&quot;,\n  &quot;European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.&quot;,\n  &quot;Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.&quot;,\n  &quot;Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options.&quot;\n]\n\nLocal marketplace exception:\n- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.\n- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.\n- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.\n\n\nReturn only strict JSON. Do not wrap it in Markdown. Do not include prose.\nSchema:\n{\n  &quot;target_id&quot;: &quot;bang-olufsen-charging-case&quot;,\n  &quot;checked_at&quot;: &quot;ISO-8601 timestamp&quot;,\n      &quot;deals&quot;: [\n    {\n      &quot;title&quot;: &quot;listing title&quot;,\n      &quot;url&quot;: &quot;direct listing URL&quot;,\n      &quot;source&quot;: &quot;marketplace or site name&quot;,\n      &quot;seller&quot;: &quot;seller if visible, otherwise empty string&quot;,\n      &quot;price_usd&quot;: 0.0,\n      &quot;shipping_usd&quot;: 0.0,\n      &quot;total_usd&quot;: 0.0,\n      &quot;condition&quot;: &quot;condition text&quot;,\n      &quot;availability&quot;: &quot;available&quot;,\n      &quot;listing_status&quot;: &quot;available&quot;,\n      &quot;ships_to_us&quot;: true,\n      &quot;ships_to_destination&quot;: true,\n      &quot;shipping_destination&quot;: &quot;United States or Poland&quot;,\n      &quot;delivery_country&quot;: &quot;United States&quot;,\n      &quot;market_region&quot;: &quot;us&quot;,\n      &quot;why_good&quot;: &quot;short reason this matches the criteria&quot;,\n      &quot;confidence&quot;: 0.0\n    }\n  ]\n}\n\nRules:\n- Include at most 5 deals.\n- Set market_region to &quot;us&quot; for US marketplace/listing-location deals, &quot;eu&quot; for European/UK/Polish marketplace/listing-location deals, and &quot;other&quot; only if the listing cannot be classified.\n- Include only listings that satisfy every acceptance criterion.\n- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.\n- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.\n- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.\n- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.\n- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.\n- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.\n- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.\n- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.\n- If there are no qualifying deals, return &quot;deals&quot;: [].&#x27;]&#x27; timed out after 900 seconds
-2026-06-15 22:42:01,532 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-15 22:46:19,268 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-15 22:46:19,269 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-15 22:49:13,017 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-15 22:49:13,018 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-15 22:54:04,994 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-15 22:54:04,995 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-06-15 23:02:44,033 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-06-15 23:02:44,033 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-15 23:10:53,759 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
+      <pre>2026-06-15 23:17:04,961 INFO scalper run started 2026-06-16T03:17:04.961564+00:00
+2026-06-15 23:17:04,963 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-15 23:20:41,558 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-15 23:20:41,559 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-15 23:24:31,098 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-15 23:24:31,098 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-15 23:28:35,852 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278074990005
+2026-06-15 23:28:35,853 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Pro 13 Space Gray 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/278074990005
+2026-06-15 23:29:13,309 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-06-15 23:29:13,310 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=649.99 url=https://www.ebay.com/itm/278074990005
+2026-06-15 23:29:13,311 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-15 23:34:14,961 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-15 23:34:14,962 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-15 23:38:39,779 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-15 23:38:39,780 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-06-15 23:45:00,614 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-06-15 23:45:00,614 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-15 23:50:36,205 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
