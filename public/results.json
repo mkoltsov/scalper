@@ -1,27 +1,27 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-16T03:50:36.205670+00:00",
+  "finished_at": "2026-06-16T04:47:54.204747+00:00",
   "logs": [
-    "2026-06-15 23:17:04,961 INFO scalper run started 2026-06-16T03:17:04.961564+00:00",
-    "2026-06-15 23:17:04,963 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-15 23:20:41,558 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-15 23:20:41,559 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-15 23:24:31,098 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-15 23:24:31,098 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-15 23:28:35,852 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278074990005",
-    "2026-06-15 23:28:35,853 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Pro 13 Space Gray 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/278074990005",
-    "2026-06-15 23:29:13,309 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-06-15 23:29:13,310 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=649.99 url=https://www.ebay.com/itm/278074990005",
-    "2026-06-15 23:29:13,311 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-15 23:34:14,961 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-15 23:34:14,962 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-15 23:38:39,779 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-15 23:38:39,780 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-06-15 23:45:00,614 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-06-15 23:45:00,614 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-15 23:50:36,205 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-16 00:17:05,057 INFO scalper run started 2026-06-16T04:17:05.057593+00:00",
+    "2026-06-16 00:17:05,059 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-16 00:20:28,806 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-16 00:20:28,806 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-16 00:24:09,782 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-16 00:24:09,783 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-16 00:28:58,887 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306951134800",
+    "2026-06-16 00:28:58,888 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=New Listing Apple MacBook Air 13\" M2 8-Core 16GB RAM 512GB SSD Space Gray A2681 - Good Cond. url=https://www.ebay.com/itm/306951134800",
+    "2026-06-16 00:29:34,002 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=New Listing Apple MacBook Air 13\" M2 8-Core 16GB RAM 512GB SSD Space Gray A2681 - Good Cond. url=https://www.ebay.com/itm/306951134800",
+    "2026-06-16 00:29:34,002 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-16 00:29:34,003 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-16 00:33:18,163 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-16 00:33:18,165 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-16 00:36:04,291 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-16 00:36:04,292 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-16 00:41:13,361 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-06-16 00:41:13,362 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-16 00:47:54,204 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-16T03:17:04.961564+00:00",
+  "started_at": "2026-06-16T04:17:05.057593+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -77,45 +77,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Good - Refurbished",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 649.99,
-            "seller": "",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Pro 13 Space Gray 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 512GB Good",
-            "total_usd": 649.99,
-            "url": "https://www.ebay.com/itm/278074990005",
-            "why_good": "13-inch 2022 M2 MacBook Pro with 16GB RAM and 512GB SSD; Good Refurbished condition with free US shipping, total $649.99 under the $650 ceiling."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Good - Refurbished",
-          "confidence": 0.82,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 649.99,
-          "seller": "",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "MacBook Pro 13 Space Gray 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 512GB Good",
-          "total_usd": 649.99,
-          "url": "https://www.ebay.com/itm/278074990005",
-          "why_good": "13-inch 2022 M2 MacBook Pro with 16GB RAM and 512GB SSD; Good Refurbished condition with free US shipping, total $649.99 under the $650 ceiling."
-        }
-      ],
+      "deals": [],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -123,28 +87,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Good - Refurbished",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 649.99,
-            "seller": "",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "MacBook Pro 13 Space Gray 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 512GB Good",
-            "total_usd": 649.99,
-            "url": "https://www.ebay.com/itm/278074990005",
-            "why_good": "13-inch 2022 M2 MacBook Pro with 16GB RAM and 512GB SSD; Good Refurbished condition with free US shipping, total $649.99 under the $650 ceiling."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
