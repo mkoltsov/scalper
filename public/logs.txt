@@ -1,15 +1,410 @@
-2026-06-17 17:17:04,984 INFO scalper run started 2026-06-17T21:17:04.984701+00:00
-2026-06-17 17:17:04,986 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-17 17:23:24,445 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-17 17:23:24,446 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-17 17:26:20,914 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-17 17:26:20,915 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-17 17:30:56,408 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-17 17:30:56,409 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-17 17:35:07,772 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-17 17:35:07,773 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-17 17:38:46,352 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-17 17:38:46,353 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-06-17 17:43:25,472 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-06-17 17:43:25,473 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-17 17:47:31,279 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-17 23:17:05,502 INFO scalper run started 2026-06-18T03:17:05.502277+00:00
+2026-06-17 23:17:05,504 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-17 23:24:00,389 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-17 23:24:00,390 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-17 23:28:26,669 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-17 23:28:26,670 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-17 23:31:40,772 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-17 23:31:40,773 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-17 23:34:11,829 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-17 23:34:11,830 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-17 23:38:08,192 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-17 23:38:08,193 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-06-17 23:48:36,623 ERROR Codex search failed for target=yamaha-np12-np15-piaggero
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1829, in run
+    result = run_codex(target, config, metrics)
+  File "/home/intimatik/dev/scalper/scalper.py", line 510, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
+    )
+RuntimeError: Codex failed for yamaha-np12-np15-piaggero with exit code 1: Reading additional input from stdin...
+OpenAI Codex v0.139.0
+--------
+workdir: /home/intimatik/dev/scalper
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019ed8ce-c0c9-7812-b366-9a6f407374d6
+--------
+user
+You are a precise deal-finding automation. Use live web_search.
+
+Current UTC date: 2026-06-18
+Target id: yamaha-np12-np15-piaggero
+Target name: Yamaha NP-12 or NP-15 Piaggero keyboard
+Maximum total price: $180 USD, including shipping or delivery to United States or Poland.
+Usual market price estimate: $240 USD.
+Configured shipping destinations:
+[
+  "United States",
+  "Poland"
+]
+
+Search intent:
+Find currently available used, open-box, or discounted Yamaha Piaggero NP-12 or NP-15 portable keyboard listings under $180 total. Accept Yamaha NP-12, NP12, NP-12B, NP-12WH, NP-15, NP15, NP-15B, and NP-15WH. The listing must include the actual playable keyboard, not just an accessory. Prefer listings that include the power adapter, music rest, sustain pedal, stand, bench, or original box, but accessories are optional if the keyboard itself is included and working. Reject Yamaha NP-11, NP-30, NP-31, NP-32, NP-35, P-series, PSR-series, YPT-series, EZ-series, Casio, Roland, Korg, accessory-only listings, stands, benches, pedals, power adapters, chargers, bags/cases, replacement keys, broken/not-working keyboards, parts-only listings, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $180 or more.
+
+Acceptance criteria:
+[
+  "It is a Yamaha Piaggero NP-12 or NP-15 portable keyboard/digital piano.",
+  "Accept NP-12, NP12, NP-12B, NP-12WH, NP-15, NP15, NP-15B, and NP-15WH.",
+  "The actual playable keyboard is included and is working.",
+  "Reject accessory-only listings such as stand only, bench only, pedal only, power adapter only, bag/case only, music rest only, replacement keys, or other parts.",
+  "Reject Yamaha NP-11, NP-30, NP-31, NP-32, NP-35, P-series, PSR-series, YPT-series, EZ-series, and non-Yamaha keyboards.",
+  "Reject broken, not working, for-parts, repair, or missing-keys listings.",
+  "The total price including shipping is less than 180 USD.",
+  "It is currently available to buy.",
+  "The listing URL opens as an active listing page.",
+  "It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519."
+]
+
+Required model/text patterns. A listing must match at least one if this list is not empty:
+[
+  "(?=.*\\byamaha\\b)(?=.*\\bnp\\s*-?\\s*(?:12|15)(?:\\s*(?:b|wh))?\\b)",
+  "(?=.*\\bpiaggero\\b)(?=.*\\bnp\\s*-?\\s*(?:12|15)(?:\\s*(?:b|wh))?\\b)"
+]
+
+Reject text patterns. Exclude a listing if it matches any of these:
+[
+  "\\bnp\\s*-?\\s*(?:11|30|31|32|35)(?:\\s*(?:b|wh))?\\b",
+  "\\bp\\s*-?\\s*(?:45|71|95|105|115|121|125|143|145|223|225|515|525)\\b",
+  "\\b(?:psr|ypt|ez)\\s*-?\\s*\\d+\\b",
+  "\\b(?:casio|roland|korg|alesis|nord|kawai)\\b",
+  "\\b(?:stand|bench|pedal|sustain\\s+pedal|power\\s+(?:supply|adapter)|ac\\s+adapter|charger|cable|bag|case|cover|music\\s+rest|sheet\\s+stand|replacement\\s+keys?)\\s+only\\b",
+  "\\bonly\\s+(?:stand|bench|pedal|sustain\\s+pedal|power\\s+(?:supply|adapter)|ac\\s+adapter|charger|cable|bag|case|cover|music\\s+rest|sheet\\s+stand|replacement\\s+keys?)\\b",
+  "\\b(?:replacement|spare)\\s+(?:key|keys|part|parts|adapter|pedal|stand)\\b",
+  "\\b(?:for\\s+parts|parts\\s+only|not\\s+working|non\\s*working|broken|repair|damaged|missing\\s+keys?)\\b"
+]
+
+Suggested search queries:
+[
+  "Yamaha NP-12 Piaggero keyboard used under $180",
+  "Yamaha NP12 keyboard used under 180",
+  "Yamaha NP-12B NP-12WH used keyboard",
+  "Yamaha NP-15 Piaggero keyboard used under $180",
+  "Yamaha NP15 keyboard used under 180",
+  "Yamaha NP-15B NP-15WH used keyboard",
+  "site:ebay.com Yamaha NP-12 Piaggero keyboard",
+  "site:ebay.com Yamaha NP-15 Piaggero keyboard",
+  "site:reverb.com Yamaha NP-12 Piaggero",
+  "site:reverb.com Yamaha NP-15 Piaggero",
+  "site:offerup.com Yamaha NP-12 keyboard Cary NC 27519",
+  "site:offerup.com Yamaha NP-15 keyboard Raleigh Durham Cary",
+  "Yamaha NP-12 or NP-15 Piaggero keyboard Allegro dostawa",
+  "Yamaha NP-12 or NP-15 Piaggero keyboard OLX wysylka",
+  "Yamaha NP-12 or NP-15 Piaggero keyboard eBay Europe delivery to Poland",
+  "Yamaha NP-12 or NP-15 Piaggero keyboard eBay Germany ships to Poland",
+  "Yamaha NP-12 or NP-15 Piaggero keyboard Catawiki delivery Poland"
+]
+
+Marketplace search coverage:
+[
+  "Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.",
+  "Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.",
+  "Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.",
+  "European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.",
+  "Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.",
+  "Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options."
+]
+
+Local marketplace exception:
+- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.
+- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.
+- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.
+
+
+Return only strict JSON. Do not wrap it in Markdown. Do not include prose.
+Schema:
+{
+  "target_id": "yamaha-np12-np15-piaggero",
+  "checked_at": "ISO-8601 timestamp",
+      "deals": [
+    {
+      "title": "listing title",
+      "url": "direct listing URL",
+      "source": "marketplace or site name",
+      "seller": "seller if visible, otherwise empty string",
+      "price_usd": 0.0,
+      "shipping_usd": 0.0,
+      "total_usd": 0.0,
+      "condition": "condition text",
+      "availability": "available",
+      "listing_status": "available",
+      "ships_to_us": true,
+      "ships_to_destination": true,
+      "shipping_destination": "United States or Poland",
+      "delivery_country": "United States",
+      "market_region": "us",
+      "why_good": "short reason this matches the criteria",
+      "confidence": 0.0
+    }
+  ]
+}
+
+Rules:
+- Include at most 5 deals.
+- Set market_region to "us" for US marketplace/listing-location deals, "eu" for European/UK/Polish marketplace/listing-location deals, and "other" only if the listing cannot be classified.
+- Include only listings that satisfy every acceptance criterion.
+- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.
+- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
+- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.
+- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.
+- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.
+- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
+- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
+- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
+- If there are no qualifying deals, return "deals": [].
+web search: 
+web search: Yamaha NP-12 Piaggero keyboard used under $180
+web search: 
+web search: site:ebay.com/itm Yamaha NP-12 Piaggero keyboard
+web search: 
+web search: https://www.ebay.com/sch/i.html?_nkw=Yamaha+NP-12+Piaggero+keyboard&_sop=15&LH_BIN=1
+web search: 
+web search: https://www.ebay.com/sch/i.html?_nkw=Yamaha+NP-12+Piaggero+keyboard+LH_BIN
+web search: 
+web search: "Yamaha NP-12" "eBay"
+web search: 
+web search: Yamaha NP-12 eBay
+web search: 
+web search: Yamaha NP-12 Piaggero for sale
+web search: 
+web search: site:reverb.com Yamaha NP-12 Piaggero
+web search: 
+web search: Reverb Yamaha NP-12 Piaggero
+web search: 
+web search: https://www.ebay.com/
+web search: 
+web search: https://www.ebay.com/sch/i.html?_nkw=Yamaha%20NP-12%20Piaggero%20keyboard
+web search: 
+web search: 'Search' in https://www.ebay.com/
+web search: 
+web search: http://www.ebay.com/sch/i.html?_nkw=Yamaha+NP-12+Piaggero+keyboard
+web search: 
+web search: Yamaha NP-12 Piaggero keyboard
+web search: 
+web search: "Yamaha Piaggero NP-12" "$" "Shipping"
+web search: 
+web search: https://reverb.com/
+web search: 
+web search: https://reverb.com/marketplace?query=Yamaha%20NP-12%20Piaggero
+web search: 
+web search: "Yamaha Piaggero NP 12"
+web search: 
+web search: https://reverb.com/
+web search: 
+web search: https://reverb.com/holiday?make=yamaha
+web search: 
+web search: https://reverb.com/
+web search: 
+web search: https://reverb.com/c/keyboards-and-synths/
+web search: 
+web search: reverb.com/marketplace?query=Yamaha%20NP-12%20Piaggero
+web search: 
+web search: site:reverb.com/p/yamaha-piaggero-np-12
+web search: 
+web search: "NP-15B" "open box"
+web search: 
+web search: NP-12B keyboard used
+web search: 
+web search: Yamaha Piaggero NP 12 used 150
+web search: 
+web search: Guitar Center used Yamaha NP-12
+web search: 
+web search: https://www.guitarcenter.com/
+web search: 
+web search: https://www.guitarcenter.com/
+web search: 
+web search: 'YAMAHA' in https://www.guitarcenter.com/Used/Keyboards-MIDI.gc?icid=LP8678
+web search: 
+web search: https://www.guitarcenter.com/Used/Keyboards-MIDI.gc?icid=LP8678
+web search: 
+web search: https://www.guitarcenter.com/Yamaha/Keyboards-MIDI.gc?icid=LP8433
+web search: 
+web search: 'NP-12' in https://www.guitarcenter.com/Yamaha/Keyboards-MIDI.gc?icid=LP8433
+web search: 
+web search: yamaha np12 ebay.com/itm/
+web search: 
+web search: NP12 Piaggero for sale
+web search: 
+web search: Yamaha NP-12 Piaggero OLX
+web search: 
+web search: "Yamaha NP-12" "olx.pl"
+web search: 
+web search: https://www.olx.pl/
+web search: 
+web search: https://www.olx.pl/oferty/q-yamaha-np-12/
+web search: 
+web search: site:olx.pl/oferta Yamaha NP-12
+web search: 
+web search: Yamaha NP-12 keyboard wysyłka
+web search: 
+web search: https://allegro.pl/
+web search: 
+web search: https://allegro.pl/listing?string=Yamaha%20NP-12
+web search: 
+web search: Yamaha NP-12 site:allegro.pl/oferta
+web search: 
+web search: "Yamaha NP-12" Allegro.pl oferta
+web search: 
+web search: site:offerup.com/item Yamaha NP-12 Cary NC
+web search: 
+web search: https://offerup.com/
+web search: 
+web search: https://offerup.com/search?q=yamaha%20np-12
+web search: 
+web search: Yamaha NP-15 used Amazon Warehouse
+web search: 
+web search: Yamaha NP 15 used Amazon Warehouse
+web search: 
+web search: Yamaha NP-12 Piaggero 61-key portable keyboard sale
+web search: 
+web search: https://r.jina.ai/http://r.jina.ai/http://https://www.ebay.com/sch/i.html%3F_nkw%3DYamaha%2520NP-12%2520Piaggero%2520keyboard%26LH_BIN%3D1
+web search: 
+web search: https://r.jina.ai/http://https://www.ebay.com
+web search: 
+web search: https://r.jina.ai/
+web search: 
+web search: https://s.jina.ai/Yamaha%20NP-12%20Piaggero%20keyboard%20used%20under%20180
+web search: 
+web search: https://s.jina.ai/
+codex
+I’m going to check the live marketplace pages directly where the search tool can reach them, then only return entries whose listing pages load and show active availability. If a marketplace blocks listing details or shipping is unclear, I’ll exclude it rather than infer.
+exec
+/usr/bin/zsh -lc "curl -L --max-time 15 -I https://www.ebay.com 2>/dev/null | sed -n '1,12p'" in /home/intimatik/dev/scalper
+ succeeded in 0ms:
+exec
+/usr/bin/zsh -lc "command -v curl; curl --version | sed -n '1p'" in /home/intimatik/dev/scalper
+ succeeded in 131ms:
+curl 8.14.1 (aarch64-unknown-linux-gnu) libcurl/8.14.1 OpenSSL/3.5.6 zlib/1.3.1 brotli/1.1.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.2 libssh2/1.11.1 nghttp2/1.64.0 nghttp3/1.8.0 librtmp/2.3 OpenLDAP/2.6.10
+
+exec
+/usr/bin/zsh -lc 'curl -L --max-time 10 -I https://www.ebay.com' in /home/intimatik/dev/scalper
+ exited 6 in 120ms:
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: www.ebay.com
+
+web search: 
+web search: "Yamaha NP-12" "for sale"
+web search: 
+web search: https://www.guitarcenter.com/search?Ntt=Yamaha%20NP-12
+web search: 
+web search: https://www.guitarcenter.com/search?Ntt=Yamaha%20NP-12
+web search: 
+web search: "Yamaha Piaggero NP-12" "Guitar Center"
+web search: 
+web search: 
+web search: 
+web search: 
+web search: 
+web search: https://www.ebay.com/
+web search: 
+web search: https://www.ebay.com/
+web search: 
+web search: https://www.ebay.co.uk/
+web search: 
+web search: https://www.ebay.co.uk/
+web search: 
+web search: https://www.ebay.co.uk/b/bn_1841127
+web search: 
+web search: 'NP-12' in https://www.ebay.co.uk/b/bn_1839730
+web search: 
+web search: https://www.ebay.co.uk/b/bn_1839730
+web search: 
+web search: https://www.ebay.co.uk/b/bn_9466894
+web search: 
+web search: https://www.ebay.co.uk/b/bn_9466894
+web search: 
+web search: https://www.ebay.co.uk/b/bn_9466894
+web search: 
+web search: Yamaha NP-12 site:ebay.co.uk/b/Yamaha-Keyboards-Pianos
+web search: 
+web search: Yamaha Piaggero ebay.co.uk NP12
+exec
+/usr/bin/zsh -lc 'date -u +%Y-%m-%dT%H:%M:%SZ' in /home/intimatik/dev/scalper
+ succeeded in 0ms:
+2026-06-18T03:44:42Z
+
+web search: 
+web search: "Yamaha Piaggero" "NP-12" "zł"
+web search: 
+web search: "Yamaha NP-12" "€" "shipping"
+web search: 
+web search: Yamaha NP-12 gebraucht Versand Polen
+web search: 
+web search: PicClick Yamaha NP-12 Piaggero
+web search: 
+web search: https://www.bing.com/
+web search: 
+web search: https://www.bing.com/search?q=Yamaha+NP-12+Piaggero+keyboard+eBay
+web search: 
+web search: allintitle: Yamaha NP-12 Piaggero keyboard
+web search: 
+web search: "NP-12B" "Yamaha" "eBay"
+web search: 
+web search: 'Musical'
+web search: 
+web search: https://www.ebay.com/b/Musical-Instruments-Gear/619/bn_1865483
+web search: 
+web search: https://www.ebay.com/
+web search: 
+web search: https://www.musicgoround.com/
+web search: 
+web search: https://www.musicgoround.com/
+web search: 
+web search: https://musicgoround.com/keyboards/
+web search: 
+web search: https://musicgoround.com/keyboards/?page=2
+web search: 
+web search: https://musicgoround.com/keyboards/page/2/
+web search: 
+web search: 'NP-12' in https://musicgoround.com/keyboards/
+web search: 
+web search: site:musicgoround.com "Yamaha NP"
+web search: 
+web search: https://www.sweetwater.com/used
+web search: 
+web search: https://www.sweetwater.com/used
+web search: 
+web search: site:sweetwater.com/used/listings "Yamaha NP"
+web search: 
+web search: site:mercari.com/us/item Yamaha NP-12
+web search: 
+web search: https://www.mercari.com/
+web search: 
+web search: Yamaha NP-12 Piaggero keyboard eBay
+web search: 
+web search: https://www.pawnamerica.com/Product/Yamaha_NP_12_Piaggero_Slimline_Home_Keyboard_23721039161
+web search: 
+web search: Yamaha NP-12 Piaggero used keyboard "$129.99"
+web search: 
+web search: "Yamaha NP-12 Piaggero" "Add to Cart" "$129.99"
+web search: 
+web search: "Yamaha NP-12 Piaggero Slimline Home Keyboard"
+web search: 
+web search: https://www.guitarcenter.com/Blemished/Yamaha/NP12-61-Key-Entry-Level-Piaggero-Ultra-Portable-Digital-Piano-Level-2-Black-190839868688-J31332005001086.gc
+web search: 
+web search: "Open Box Yamaha NP15" "Guitar Center"
+web search: 
+web search: "Open Box Yamaha NP12" "Level 1"
+web search: 
+web search: "Yamaha Keyboard Piaggero NP-12" "eBay" "US $"
+web search: 
+web search: https://www.ebay.co.uk/itm/198026147620
+web search: 
+web search: "Yamaha NP-12" "$100" "eBay"
+web search: 
+web search: Yamaha NP-12 keyboard OfferUp Cary NC
+web search: 
+web search: "Yamaha Piaggero NP-12" "US $" "Buy It Now" -GuitarCenter -PawnAmerica
+ERROR: Codex ran out of room in the model's context window. Start a new thread or clear earlier history before retrying.
+ERROR: Codex ran out of room in the model's context window. Start a new thread or clear earlier history before retrying.
+tokens used
+0
+2026-06-17 23:48:36,627 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-17 23:51:46,568 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
