@@ -1,30 +1,30 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-19T00:46:58.518293+00:00",
+  "finished_at": "2026-06-19T01:56:16.123852+00:00",
   "logs": [
-    "2026-06-18 20:17:04,993 INFO scalper run started 2026-06-19T00:17:04.993615+00:00",
-    "2026-06-18 20:17:04,995 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-18 20:23:27,185 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-18 20:23:27,186 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-18 20:28:46,272 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961",
-    "2026-06-18 20:28:46,273 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black url=https://www.ebay.com/itm/117216431961",
-    "2026-06-18 20:29:21,281 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231",
-    "2026-06-18 20:29:21,283 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
-    "2026-06-18 20:29:28,377 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
-    "2026-06-18 20:29:28,377 INFO target=bang-olufsen-charging-case qualifying_deals=1",
-    "2026-06-18 20:29:28,378 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961",
-    "2026-06-18 20:29:28,379 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-18 20:32:16,188 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-06-18 20:32:16,188 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-18 20:34:54,416 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-18 20:34:54,417 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-18 20:38:57,305 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-18 20:38:57,305 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-06-18 20:42:34,010 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-06-18 20:42:34,011 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-18 20:46:58,518 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-18 21:17:05,380 INFO scalper run started 2026-06-19T01:17:05.380840+00:00",
+    "2026-06-18 21:17:05,382 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-18 21:27:28,633 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-18 21:27:28,634 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-18 21:34:48,609 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961",
+    "2026-06-18 21:34:48,610 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black url=https://www.ebay.com/itm/117216431961",
+    "2026-06-18 21:35:23,852 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231",
+    "2026-06-18 21:35:23,853 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
+    "2026-06-18 21:35:31,035 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
+    "2026-06-18 21:35:31,035 INFO target=bang-olufsen-charging-case qualifying_deals=1",
+    "2026-06-18 21:35:31,036 INFO already notified target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.com/itm/117216431961",
+    "2026-06-18 21:35:31,037 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-18 21:38:47,115 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-18 21:38:47,115 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-18 21:41:57,185 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-18 21:41:57,185 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-18 21:45:03,974 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-18 21:45:03,975 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-18 21:51:04,558 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-06-18 21:51:04,558 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-18 21:56:16,123 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-19T00:17:04.993615+00:00",
+  "started_at": "2026-06-19T01:17:05.380840+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -57,7 +57,7 @@
           {
             "availability": "available",
             "condition": "Pre-Owned",
-            "confidence": 0.82,
+            "confidence": 0.84,
             "delivery_country": "United States",
             "market_label": "EU/Europe",
             "market_region": "eu",
@@ -69,7 +69,7 @@
             "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
             "total_usd": 82.56,
             "url": "https://www.ebay.com/itm/117216431961",
-            "why_good": "Beoplay EX charging case, Buy It Now, UK seller with eBay international shipping estimate to US; total $82.56."
+            "why_good": "Buy It Now UK listing for a genuine Beoplay EX charging case; total shown as $67.27 plus $15.29 shipping estimate."
           }
         ],
         "other": [],
@@ -79,7 +79,7 @@
         {
           "availability": "available",
           "condition": "Pre-Owned",
-          "confidence": 0.82,
+          "confidence": 0.84,
           "delivery_country": "United States",
           "market_label": "EU/Europe",
           "market_region": "eu",
@@ -91,7 +91,7 @@
           "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
           "total_usd": 82.56,
           "url": "https://www.ebay.com/itm/117216431961",
-          "why_good": "Beoplay EX charging case, Buy It Now, UK seller with eBay international shipping estimate to US; total $82.56."
+          "why_good": "Buy It Now UK listing for a genuine Beoplay EX charging case; total shown as $67.27 plus $15.29 shipping estimate."
         }
       ],
       "id": "bang-olufsen-charging-case",
@@ -102,7 +102,7 @@
           "eu": {
             "availability": "available",
             "condition": "Pre-Owned",
-            "confidence": 0.82,
+            "confidence": 0.84,
             "delivery_country": "United States",
             "market_label": "EU/Europe",
             "market_region": "eu",
@@ -114,7 +114,7 @@
             "title": "Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
             "total_usd": 82.56,
             "url": "https://www.ebay.com/itm/117216431961",
-            "why_good": "Beoplay EX charging case, Buy It Now, UK seller with eBay international shipping estimate to US; total $82.56."
+            "why_good": "Buy It Now UK listing for a genuine Beoplay EX charging case; total shown as $67.27 plus $15.29 shipping estimate."
           },
           "other": null,
           "us": null
