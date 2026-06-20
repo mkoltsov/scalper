@@ -1,24 +1,30 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-20T10:51:25.851779+00:00",
+  "finished_at": "2026-06-20T18:54:29.206446+00:00",
   "logs": [
-    "2026-06-20 06:17:05,677 INFO scalper run started 2026-06-20T10:17:05.677510+00:00",
-    "2026-06-20 06:17:05,679 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-20 06:25:12,043 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-20 06:25:12,043 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-20 06:29:32,219 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-20 06:29:32,220 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-20 06:33:34,113 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-06-20 06:33:34,114 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-20 06:37:10,724 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-20 06:37:10,725 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-20 06:41:05,636 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-20 06:41:05,637 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-06-20 06:46:17,176 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-06-20 06:46:17,176 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-20 06:51:25,851 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-20 14:17:04,872 INFO scalper run started 2026-06-20T18:17:04.871931+00:00",
+    "2026-06-20 14:17:04,874 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-20 14:25:58,491 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-20 14:25:58,492 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-20 14:28:48,504 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-20 14:28:48,505 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-20 14:34:31,583 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306998408089",
+    "2026-06-20 14:34:31,583 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13\" M2 Chip 16GB RAM 512GB SSD 2022 993-81703LL/A Silver Fair url=https://www.ebay.com/itm/306998408089",
+    "2026-06-20 14:35:07,454 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307002308796",
+    "2026-06-20 14:35:07,455 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air M2 (2022) 13\" 16GB RAM 512GB SSD Midnight 92% Battery Health url=https://www.ebay.com/itm/307002308796",
+    "2026-06-20 14:35:15,081 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=sold title=Apple MacBook Air M2 (2022) 13\" 16GB RAM 512GB SSD Midnight 92% Battery Health url=https://www.ebay.com/itm/307002308796",
+    "2026-06-20 14:35:15,082 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-06-20 14:35:15,082 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://www.ebay.com/itm/306998408089",
+    "2026-06-20 14:35:15,083 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-20 14:38:29,880 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-20 14:38:29,881 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-20 14:41:40,663 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-20 14:41:40,663 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-20 14:48:03,320 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-06-20 14:48:03,321 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-20 14:54:29,206 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-20T10:17:05.677510+00:00",
+  "started_at": "2026-06-20T18:17:04.871931+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -74,9 +80,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Pre-Owned / Fair",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 639.0,
+            "seller": "",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple MacBook Air 13\" M2 Chip 16GB RAM 512GB SSD 2022 993-81703LL/A Silver Fair",
+            "total_usd": 639.0,
+            "url": "https://www.ebay.com/itm/306998408089",
+            "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB SSD; $639 with free US shipping."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Pre-Owned / Fair",
+          "confidence": 0.86,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 639.0,
+          "seller": "",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "Apple MacBook Air 13\" M2 Chip 16GB RAM 512GB SSD 2022 993-81703LL/A Silver Fair",
+          "total_usd": 639.0,
+          "url": "https://www.ebay.com/itm/306998408089",
+          "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB SSD; $639 with free US shipping."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -84,12 +126,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Pre-Owned / Fair",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 639.0,
+            "seller": "",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple MacBook Air 13\" M2 Chip 16GB RAM 512GB SSD 2022 993-81703LL/A Silver Fair",
+            "total_usd": 639.0,
+            "url": "https://www.ebay.com/itm/306998408089",
+            "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB SSD; $639 with free US shipping."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
