@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-06-19T19:46:23.861815+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-06-20T02:00:45.452608+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -71,9 +71,49 @@
             <section class="target">
               <div class="target-head">
                 <h1>B&amp;O Eleven / Beoplay EX / Cisco 950 charging case</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>$82.56</strong>
+                  <small>eBay UK</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">EU/Europe</span> eBay UK · $82.56 · United States</div>
+                  <h2><a href="https://www.ebay.co.uk/itm/117216431961" rel="nofollow noopener">Genuine Bang &amp; Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black</a></h2>
+                  <p>Beoplay EX charging case only; eBay showed Buy It Now, last one, UK listing with customs/international tracking and GBP price converted to USD under $100 shipped.</p>
+                </article>
+    
+              </div>
+    
             </section>
             
             <section class="target">
@@ -163,23 +203,29 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>15 lines published</span>
+        <span>21 lines published</span>
       </div>
-      <pre>2026-06-19 15:17:05,121 INFO scalper run started 2026-06-19T19:17:05.121777+00:00
-2026-06-19 15:17:05,123 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-19 15:19:41,882 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-19 15:19:41,883 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-19 15:22:32,376 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-19 15:22:32,376 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-19 15:29:37,513 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-19 15:29:37,514 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-19 15:33:42,211 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-19 15:33:42,211 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-19 15:36:20,726 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-19 15:36:20,726 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-06-19 15:41:19,628 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-06-19 15:41:19,629 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-19 15:46:23,861 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
+      <pre>2026-06-19 21:17:05,311 INFO scalper run started 2026-06-20T01:17:05.310982+00:00
+2026-06-19 21:17:05,313 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-19 21:23:41,506 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-19 21:23:41,507 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-19 21:31:30,024 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.co.uk/itm/117216431961
+2026-06-19 21:31:30,025 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang &amp; Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black url=https://www.ebay.co.uk/itm/117216431961
+2026-06-19 21:32:05,498 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231
+2026-06-19 21:32:05,499 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang &amp; Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
+2026-06-19 21:32:12,709 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang &amp; Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
+2026-06-19 21:32:12,709 INFO target=bang-olufsen-charging-case qualifying_deals=1
+2026-06-19 21:32:12,709 INFO new deal target=bang-olufsen-charging-case market=eu total=82.56 url=https://www.ebay.co.uk/itm/117216431961
+2026-06-19 21:32:12,821 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-19 21:37:24,008 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-19 21:37:24,009 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-19 21:42:46,675 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-19 21:42:46,676 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-19 21:45:52,166 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-19 21:45:52,167 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-06-19 21:52:48,097 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-06-19 21:52:48,098 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-19 22:00:45,452 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
