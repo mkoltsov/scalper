@@ -1,34 +1,24 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-21T08:58:43.991546+00:00",
+  "finished_at": "2026-06-21T09:48:56.083862+00:00",
   "logs": [
-    "2026-06-21 04:17:05,724 INFO scalper run started 2026-06-21T08:17:05.724452+00:00",
-    "2026-06-21 04:17:05,726 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-21 04:21:37,643 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-21 04:21:37,643 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-21 04:30:06,404 INFO rejected deal target=bang-olufsen-charging-case reason=reject_pattern pattern=\\bprotective\\s+(cover|case|skin)\\b title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear \u2013 Charging Case -Black",
-    "2026-06-21 04:30:06,608 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231",
-    "2026-06-21 04:30:06,609 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
-    "2026-06-21 04:30:40,475 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) \u2013 Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231",
-    "2026-06-21 04:30:40,476 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-21 04:30:40,476 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-21 04:34:47,442 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307002308796",
-    "2026-06-21 04:34:47,443 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air M2 (2022) 13\" 16GB RAM 512GB SSD Midnight 92% Battery Health url=https://www.ebay.com/itm/307002308796",
-    "2026-06-21 04:34:53,623 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=sold title=Apple MacBook Air M2 (2022) 13\" 16GB RAM 512GB SSD Midnight 92% Battery Health url=https://www.ebay.com/itm/307002308796",
-    "2026-06-21 04:34:53,789 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306998408089",
-    "2026-06-21 04:34:53,790 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13\" M2 Chip 16GB RAM 512GB SSD 2022 993-81703LL/A Silver Fair url=https://www.ebay.com/itm/306998408089",
-    "2026-06-21 04:35:01,761 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-06-21 04:35:01,762 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://www.ebay.com/itm/306998408089",
-    "2026-06-21 04:35:01,762 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-21 04:40:25,664 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-21 04:40:25,665 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-21 04:43:17,504 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-21 04:43:17,505 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-06-21 04:51:30,000 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-06-21 04:51:30,001 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-21 04:58:43,991 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-21 05:17:04,955 INFO scalper run started 2026-06-21T09:17:04.955092+00:00",
+    "2026-06-21 05:17:04,957 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-21 05:20:40,672 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-21 05:20:40,673 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-21 05:25:06,173 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-21 05:25:06,174 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-21 05:28:30,793 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-21 05:28:30,794 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-21 05:31:39,029 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-21 05:31:39,030 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-21 05:34:53,709 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-21 05:34:53,710 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-21 05:43:11,488 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-06-21 05:43:11,488 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-21 05:48:56,083 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-21T08:17:05.724452+00:00",
+  "started_at": "2026-06-21T09:17:04.955092+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -84,45 +74,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 639.0,
-            "seller": "",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "Apple MacBook Air 13\" M2 Chip 16GB RAM 512GB SSD 2022 993-81703LL/A Silver Fair",
-            "total_usd": 639.0,
-            "url": "https://www.ebay.com/itm/306998408089",
-            "why_good": "13-inch 2022 MacBook Air with M2, 16GB RAM, 512GB SSD, free US shipping, total under $650."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Pre-Owned",
-          "confidence": 0.78,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 639.0,
-          "seller": "",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "macbook-13-apple-silicon-16-24gb",
-          "title": "Apple MacBook Air 13\" M2 Chip 16GB RAM 512GB SSD 2022 993-81703LL/A Silver Fair",
-          "total_usd": 639.0,
-          "url": "https://www.ebay.com/itm/306998408089",
-          "why_good": "13-inch 2022 MacBook Air with M2, 16GB RAM, 512GB SSD, free US shipping, total under $650."
-        }
-      ],
+      "deals": [],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -130,28 +84,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 639.0,
-            "seller": "",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "macbook-13-apple-silicon-16-24gb",
-            "title": "Apple MacBook Air 13\" M2 Chip 16GB RAM 512GB SSD 2022 993-81703LL/A Silver Fair",
-            "total_usd": 639.0,
-            "url": "https://www.ebay.com/itm/306998408089",
-            "why_good": "13-inch 2022 MacBook Air with M2, 16GB RAM, 512GB SSD, free US shipping, total under $650."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
