@@ -1,24 +1,25 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-21T16:50:09.446852+00:00",
+  "finished_at": "2026-06-22T02:47:33.212647+00:00",
   "logs": [
-    "2026-06-21 12:17:05,602 INFO scalper run started 2026-06-21T16:17:05.602093+00:00",
-    "2026-06-21 12:17:05,604 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-21 12:20:48,477 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-21 12:20:48,478 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-21 12:24:11,559 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-21 12:24:11,559 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-21 12:30:02,383 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-06-21 12:30:02,384 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-21 12:33:33,959 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-21 12:33:33,959 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-21 12:36:05,830 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-21 12:36:05,831 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-06-21 12:41:30,891 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-06-21 12:41:30,892 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-21 12:50:09,446 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-21 22:17:05,379 INFO scalper run started 2026-06-22T02:17:05.379488+00:00",
+    "2026-06-21 22:17:05,381 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-21 22:23:29,698 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-21 22:23:29,699 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-21 22:28:00,290 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-21 22:28:00,290 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-21 22:31:21,597 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-21 22:31:21,598 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-21 22:34:36,155 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-21 22:34:36,155 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-21 22:37:14,478 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-21 22:37:14,479 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-21 22:43:30,209 INFO target=yamaha-np12-np15-piaggero qualifying_deals=1",
+    "2026-06-21 22:43:30,211 INFO new deal target=yamaha-np12-np15-piaggero market=us total=173.25 url=https://www.ebay.com/p/8062618777?iid=236715025616",
+    "2026-06-21 22:43:30,326 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-21 22:47:33,212 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-21T16:17:05.602093+00:00",
+  "started_at": "2026-06-22T02:17:05.379488+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -149,9 +150,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Pre-Owned",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 125.0,
+            "seller": "",
+            "shipping_usd": 48.25,
+            "source": "eBay",
+            "target_id": "yamaha-np12-np15-piaggero",
+            "title": "Yamaha Piaggero NP-12 Ultra-Portable Digital Piano (Black)",
+            "total_usd": 173.25,
+            "url": "https://www.ebay.com/p/8062618777?iid=236715025616",
+            "why_good": "Pre-owned Yamaha Piaggero NP-12 keyboard listing; item price plus shown US shipping totals $173.25, under $180."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Pre-Owned",
+          "confidence": 0.78,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 125.0,
+          "seller": "",
+          "shipping_usd": 48.25,
+          "source": "eBay",
+          "target_id": "yamaha-np12-np15-piaggero",
+          "title": "Yamaha Piaggero NP-12 Ultra-Portable Digital Piano (Black)",
+          "total_usd": 173.25,
+          "url": "https://www.ebay.com/p/8062618777?iid=236715025616",
+          "why_good": "Pre-owned Yamaha Piaggero NP-12 keyboard listing; item price plus shown US shipping totals $173.25, under $180."
+        }
+      ],
       "id": "yamaha-np12-np15-piaggero",
       "max_price_usd": 180,
       "name": "Yamaha NP-12 or NP-15 Piaggero keyboard",
@@ -159,12 +196,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Pre-Owned",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 125.0,
+            "seller": "",
+            "shipping_usd": 48.25,
+            "source": "eBay",
+            "target_id": "yamaha-np12-np15-piaggero",
+            "title": "Yamaha Piaggero NP-12 Ultra-Portable Digital Piano (Black)",
+            "total_usd": 173.25,
+            "url": "https://www.ebay.com/p/8062618777?iid=236715025616",
+            "why_good": "Pre-owned Yamaha Piaggero NP-12 keyboard listing; item price plus shown US shipping totals $173.25, under $180."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
