@@ -1,24 +1,27 @@
 {
-  "exit_code": 0,
-  "finished_at": "2026-06-24T14:48:20.623739+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-06-25T04:02:24.553488+00:00",
   "logs": [
-    "2026-06-24 10:17:04,865 INFO scalper run started 2026-06-24T14:17:04.865473+00:00",
-    "2026-06-24 10:17:04,867 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-24 10:21:37,807 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-24 10:21:37,807 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-24 10:25:03,806 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-24 10:25:03,807 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-24 10:28:46,355 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-06-24 10:28:46,355 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-24 10:32:42,548 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-24 10:32:42,549 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-24 10:35:39,792 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-24 10:35:39,792 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-06-24 10:42:50,704 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-06-24 10:42:50,705 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-24 10:48:20,623 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-24 23:17:05,606 INFO scalper run started 2026-06-25T03:17:05.606031+00:00",
+    "2026-06-24 23:17:05,608 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-24 23:21:13,808 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-24 23:21:13,808 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-24 23:24:08,135 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-24 23:24:08,136 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-24 23:29:07,765 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-24 23:29:07,766 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-24 23:44:07,791 ERROR Codex timed out for target=mac-mini-m1-16gb\nTraceback (most recent call last):\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 1829, in run\n    result = run_codex(target, config, metrics)\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 496, in run_codex\n    process = subprocess.run(\n        codex_command(codex_bin, output_path, prompt),\n    ...<4 lines>...\n        timeout=timeout,\n    )\n  File \"/usr/lib/python3.13/subprocess.py\", line 556, in run\n    stdout, stderr = process.communicate(input, timeout=timeout)\n                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1222, in communicate\n    stdout, stderr = self._communicate(input, endtime, timeout)\n                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 2129, in _communicate\n    self._check_timeout(endtime, orig_timeout, stdout, stderr)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1269, in _check_timeout\n    raise TimeoutExpired(\n    ...<2 lines>...\n            stderr=b''.join(stderr_seq) if stderr_seq else None)\nsubprocess.TimeoutExpired: Command '['/home/intimatik/.npm-global/bin/codex', '--search', '--ask-for-approval', 'never', 'exec', '--skip-git-repo-check', '--sandbox', 'read-only', '--color', 'never', '--ephemeral', '--output-last-message', '/tmp/scalper-codex-nxit99w2/last-message.json', 'You are a precise deal-finding automation. Use live web_search.\\n\\nCurrent UTC date: 2026-06-25\\nTarget id: mac-mini-m1-16gb\\nTarget name: M1 Mac mini with 16GB RAM\\nMaximum total price: $400 USD, including shipping or delivery to United States or Poland.\\nUsual market price estimate: $450 USD.\\nConfigured shipping destinations:\\n[\\n  \"United States\",\\n  \"Poland\"\\n]\\n\\nSearch intent:\\nFind currently available used, refurbished, open-box, or discounted Apple Mac mini listings under $400 total. The Mac mini must have an Apple M1 chip, 16GB RAM/unified memory, and more than 256GB storage. Reject 256GB storage models, Intel Mac minis, M2/M3/M4/M5 Mac minis, 8GB RAM models, models with RAM missing or unclear, MacBooks, iMacs, Mac Studios, logic boards, parts-only machines, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $400 or more.\\n\\nAcceptance criteria:\\n[\\n  \"It is an Apple Mac mini desktop, not a MacBook, iMac, Mac Studio, or parts listing.\",\\n  \"It has an Apple M1 chip.\",\\n  \"It has 16GB RAM/unified memory.\",\\n  \"Reject 256GB storage models; storage must be 512GB or larger if stated.\",\\n  \"Reject 8GB RAM models and any listing where RAM is missing or unclear.\",\\n  \"Reject Intel Mac minis.\",\\n  \"Reject M2, M3, M4, M5, or newer Mac minis for this target because they have a different price ceiling.\",\\n  \"The total price including shipping is less than 400 USD.\",\\n  \"It is currently available to buy.\",\\n  \"The listing URL opens as an active listing page.\",\\n  \"It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519.\"\\n]\\n\\nRequired model/text patterns. A listing must match at least one if this list is not empty:\\n[\\n  \"(?=.*\\\\\\\\bmac\\\\\\\\s*mini\\\\\\\\b)(?=.*\\\\\\\\bm1\\\\\\\\b)(?=.*\\\\\\\\b16\\\\\\\\s*gb\\\\\\\\b)\"\\n]\\n\\nReject text patterns. Exclude a listing if it matches any of these:\\n[\\n  \"\\\\\\\\bintel\\\\\\\\b\",\\n  \"\\\\\\\\bcore\\\\\\\\s+i[3579]\\\\\\\\b\",\\n  \"\\\\\\\\bm(?:[2-9]|[1-9][0-9]+)\\\\\\\\b\",\\n  \"\\\\\\\\b256\\\\\\\\s*(?:gb|g)\\\\\\\\b\",\\n  \"\\\\\\\\b(?:4|8|24|32|36|48|64|96|128)\\\\\\\\s*gb\\\\\\\\s*(?:ram|unified\\\\\\\\s+memory|memory)\\\\\\\\b\",\\n  \"\\\\\\\\b(?:ram|memory)\\\\\\\\s*[:/-]?\\\\\\\\s*(?:4|8|24|32|36|48|64|96|128)\\\\\\\\s*gb\\\\\\\\b\",\\n  \"\\\\\\\\bmacbook\\\\\\\\b\",\\n  \"\\\\\\\\bimac\\\\\\\\b\",\\n  \"\\\\\\\\bmac\\\\\\\\s*studio\\\\\\\\b\",\\n  \"\\\\\\\\blogic\\\\\\\\s*board\\\\\\\\b\",\\n  \"\\\\\\\\bfor\\\\\\\\s+parts\\\\\\\\b\",\\n  \"\\\\\\\\bparts\\\\\\\\s+only\\\\\\\\b\",\\n  \"\\\\\\\\bnot\\\\\\\\s+working\\\\\\\\b\"\\n]\\n\\nSuggested search queries:\\n[\\n  \"Mac mini M1 16GB RAM under $400 used\",\\n  \"Apple Mac mini M1 16GB 512GB used under 400\",\\n  \"Apple Mac mini M1 16GB 1TB used under 400\",\\n  \"Mac mini M1 16GB unified memory eBay under 400\",\\n  \"Mac mini M1 16GB refurbished under 400\",\\n  \"site:offerup.com Mac mini M1 16GB 512GB Cary NC 27519\",\\n  \"site:offerup.com Mac mini M1 16GB Raleigh Durham Cary\",\\n  \"M1 Mac mini with 16GB RAM Allegro dostawa\",\\n  \"M1 Mac mini with 16GB RAM OLX wysylka\",\\n  \"M1 Mac mini with 16GB RAM eBay Europe delivery to Poland\",\\n  \"M1 Mac mini with 16GB RAM eBay Germany ships to Poland\",\\n  \"M1 Mac mini with 16GB RAM Catawiki delivery Poland\"\\n]\\n\\nMarketplace search coverage:\\n[\\n  \"Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.\",\\n  \"Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.\",\\n  \"Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.\",\\n  \"European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.\",\\n  \"Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.\",\\n  \"Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options.\"\\n]\\n\\nLocal marketplace exception:\\n- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.\\n- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.\\n- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.\\n\\n\\nReturn only strict JSON. Do not wrap it in Markdown. Do not include prose.\\nSchema:\\n{\\n  \"target_id\": \"mac-mini-m1-16gb\",\\n  \"checked_at\": \"ISO-8601 timestamp\",\\n      \"deals\": [\\n    {\\n      \"title\": \"listing title\",\\n      \"url\": \"direct listing URL\",\\n      \"source\": \"marketplace or site name\",\\n      \"seller\": \"seller if visible, otherwise empty string\",\\n      \"price_usd\": 0.0,\\n      \"shipping_usd\": 0.0,\\n      \"total_usd\": 0.0,\\n      \"condition\": \"condition text\",\\n      \"availability\": \"available\",\\n      \"listing_status\": \"available\",\\n      \"ships_to_us\": true,\\n      \"ships_to_destination\": true,\\n      \"shipping_destination\": \"United States or Poland\",\\n      \"delivery_country\": \"United States\",\\n      \"market_region\": \"us\",\\n      \"why_good\": \"short reason this matches the criteria\",\\n      \"confidence\": 0.0\\n    }\\n  ]\\n}\\n\\nRules:\\n- Include at most 5 deals.\\n- Set market_region to \"us\" for US marketplace/listing-location deals, \"eu\" for European/UK/Polish marketplace/listing-location deals, and \"other\" only if the listing cannot be classified.\\n- Include only listings that satisfy every acceptance criterion.\\n- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.\\n- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.\\n- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.\\n- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.\\n- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.\\n- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.\\n- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.\\n- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.\\n- If there are no qualifying deals, return \"deals\": [].']' timed out after 900 seconds",
+    "2026-06-24 23:44:07,810 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-24 23:48:10,950 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-24 23:48:10,950 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-24 23:53:24,908 INFO listing URL validation rejected target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified url=https://allegro.pl/oferta/pianina-cyfrowe-yamaha-np-12b-18063036428",
+    "2026-06-24 23:53:24,909 INFO HTTP validation inconclusive target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified title=Pianina cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianina-cyfrowe-yamaha-np-12b-18063036428",
+    "2026-06-24 23:54:38,277 INFO browser validation rejected target=yamaha-np12-np15-piaggero reason=browser_empty_or_too_short title=Pianina cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianina-cyfrowe-yamaha-np-12b-18063036428",
+    "2026-06-24 23:54:38,278 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-06-24 23:54:38,278 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-25 00:02:24,553 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-24T14:17:04.865473+00:00",
+  "started_at": "2026-06-25T03:17:05.606031+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -80,31 +83,6 @@
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": null
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 0
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      }
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
-        "us": []
-      },
-      "deals": [],
-      "id": "mac-mini-m1-16gb",
-      "max_price_usd": 400,
-      "name": "M1 Mac mini with 16GB RAM",
       "regional_summary": {
         "best": {
           "eu": null,
