@@ -1,25 +1,24 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-25T18:56:09.292169+00:00",
+  "finished_at": "2026-06-25T19:53:22.345318+00:00",
   "logs": [
-    "2026-06-25 14:17:05,451 INFO scalper run started 2026-06-25T18:17:05.451166+00:00",
-    "2026-06-25 14:17:05,453 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-25 14:22:20,390 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-25 14:22:20,391 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-25 14:31:13,242 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-25 14:31:13,243 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-25 14:34:14,072 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-06-25 14:34:14,072 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-25 14:36:25,904 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-25 14:36:25,904 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-25 14:40:39,990 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-25 14:40:39,991 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-06-25 14:50:26,763 INFO target=yamaha-np12-np15-piaggero qualifying_deals=1",
-    "2026-06-25 14:50:26,763 INFO already notified target=yamaha-np12-np15-piaggero market=us total=173.25 url=https://www.ebay.com/p/8062618777?iid=236715025616",
-    "2026-06-25 14:50:26,764 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-25 14:56:09,291 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-25 15:17:05,736 INFO scalper run started 2026-06-25T19:17:05.736038+00:00",
+    "2026-06-25 15:17:05,738 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-25 15:25:33,325 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-25 15:25:33,326 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-25 15:31:00,688 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-25 15:31:00,688 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-25 15:34:16,746 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-25 15:34:16,746 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-25 15:36:38,057 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-25 15:36:38,057 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-25 15:40:32,358 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-25 15:40:32,359 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-25 15:49:10,128 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-06-25 15:49:10,129 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-25 15:53:22,345 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-25T18:17:05.451166+00:00",
+  "started_at": "2026-06-25T19:17:05.736038+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -150,45 +149,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 125.0,
-            "seller": "",
-            "shipping_usd": 48.25,
-            "source": "eBay",
-            "target_id": "yamaha-np12-np15-piaggero",
-            "title": "Yamaha Piaggero NP-12 Ultra-Portable Digital Piano (Black)",
-            "total_usd": 173.25,
-            "url": "https://www.ebay.com/p/8062618777?iid=236715025616",
-            "why_good": "Pre-owned Yamaha Piaggero NP-12 keyboard; listing shows $125.00 plus $48.25 shipping, totaling $173.25 under the $180 limit."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Pre-Owned",
-          "confidence": 0.78,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 125.0,
-          "seller": "",
-          "shipping_usd": 48.25,
-          "source": "eBay",
-          "target_id": "yamaha-np12-np15-piaggero",
-          "title": "Yamaha Piaggero NP-12 Ultra-Portable Digital Piano (Black)",
-          "total_usd": 173.25,
-          "url": "https://www.ebay.com/p/8062618777?iid=236715025616",
-          "why_good": "Pre-owned Yamaha Piaggero NP-12 keyboard; listing shows $125.00 plus $48.25 shipping, totaling $173.25 under the $180 limit."
-        }
-      ],
+      "deals": [],
       "id": "yamaha-np12-np15-piaggero",
       "max_price_usd": 180,
       "name": "Yamaha NP-12 or NP-15 Piaggero keyboard",
@@ -196,28 +159,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 125.0,
-            "seller": "",
-            "shipping_usd": 48.25,
-            "source": "eBay",
-            "target_id": "yamaha-np12-np15-piaggero",
-            "title": "Yamaha Piaggero NP-12 Ultra-Portable Digital Piano (Black)",
-            "total_usd": 173.25,
-            "url": "https://www.ebay.com/p/8062618777?iid=236715025616",
-            "why_good": "Pre-owned Yamaha Piaggero NP-12 keyboard; listing shows $125.00 plus $48.25 shipping, totaling $173.25 under the $180 limit."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
