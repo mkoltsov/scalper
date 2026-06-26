@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-06-25T19:53:22.345318+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-06-26T10:00:10.024014+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -79,9 +79,56 @@
             <section class="target">
               <div class="target-head">
                 <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
-                <span>0 live matches</span>
+                <span>2 live matches</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>$629.99</strong>
+                  <small>eBay</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> eBay · $629.99 · United States</div>
+                  <h2><a href="https://www.ebay.com/itm/278066373352" rel="nofollow noopener">Apple MacBook Air 13&quot; Space Gray 2022 3.49GHz M2 8-Core CPU 16GB 512GB VG</a></h2>
+                  <p>13-inch M2 MacBook Air with 16GB RAM and 512GB SSD; eBay listing card shows free US shipping.</p>
+                </article>
+    
+
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> eBay · $649.99 · United States</div>
+                  <h2><a href="https://www.ebay.com/itm/278074990005" rel="nofollow noopener">MacBook Pro 13 Space Gray 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 512GB Good</a></h2>
+                  <p>13-inch M2 MacBook Pro with 16GB RAM and 512GB SSD; eBay listing card shows free US shipping.</p>
+                </article>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
             </section>
             
             <section class="target">
@@ -163,23 +210,38 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>15 lines published</span>
+        <span>30 lines published</span>
       </div>
-      <pre>2026-06-25 15:17:05,736 INFO scalper run started 2026-06-25T19:17:05.736038+00:00
-2026-06-25 15:17:05,738 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-25 15:25:33,325 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-25 15:25:33,326 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-25 15:31:00,688 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-25 15:31:00,688 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-25 15:34:16,746 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-25 15:34:16,746 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-25 15:36:38,057 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-25 15:36:38,057 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-25 15:40:32,358 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-25 15:40:32,359 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-06-25 15:49:10,128 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-06-25 15:49:10,129 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-25 15:53:22,345 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
+      <pre>2026-06-26 05:17:05,068 INFO scalper run started 2026-06-26T09:17:05.068139+00:00
+2026-06-26 05:17:05,070 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-26 05:22:11,787 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-26 05:22:11,788 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-26 05:34:04,436 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-26 05:34:04,437 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-26 05:38:50,262 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278037025699
+2026-06-26 05:38:50,263 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13&quot; Midnight 2022 3.49GHz M2 8-Core CPU 16GB 512GB Good url=https://www.ebay.com/itm/278037025699
+2026-06-26 05:39:25,197 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=browser_not_found title=Apple MacBook Air 13&quot; Midnight 2022 3.49GHz M2 8-Core CPU 16GB 512GB Good url=https://www.ebay.com/itm/278037025699
+2026-06-26 05:39:25,371 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/197520332296
+2026-06-26 05:39:25,371 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13&quot; M2 16GB RAM 512GB SSD (Silver) (Fair Condition) url=https://www.ebay.com/itm/197520332296
+2026-06-26 05:39:33,458 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=browser_not_found title=Apple MacBook Air 13&quot; M2 16GB RAM 512GB SSD (Silver) (Fair Condition) url=https://www.ebay.com/itm/197520332296
+2026-06-26 05:39:33,639 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306356518670
+2026-06-26 05:39:33,640 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13&quot; 2022 M2 16GB RAM 512GB SSD Space Grey Grade D url=https://www.ebay.com/itm/306356518670
+2026-06-26 05:39:40,154 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=ended title=Apple MacBook Air 13&quot; 2022 M2 16GB RAM 512GB SSD Space Grey Grade D url=https://www.ebay.com/itm/306356518670
+2026-06-26 05:39:40,321 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278066373352
+2026-06-26 05:39:40,322 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13&quot; Space Gray 2022 3.49GHz M2 8-Core CPU 16GB 512GB VG url=https://www.ebay.com/itm/278066373352
+2026-06-26 05:39:48,915 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278074990005
+2026-06-26 05:39:48,915 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Pro 13 Space Gray 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/278074990005
+2026-06-26 05:39:58,839 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2
+2026-06-26 05:39:58,840 INFO new deal target=macbook-13-apple-silicon-16-24gb market=us total=629.99 url=https://www.ebay.com/itm/278066373352
+2026-06-26 05:39:58,951 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=649.99 url=https://www.ebay.com/itm/278074990005
+2026-06-26 05:39:58,952 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-26 05:43:45,716 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-26 05:43:45,717 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-26 05:46:49,552 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-26 05:46:49,553 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-06-26 05:49:56,438 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-06-26 05:49:56,440 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-26 06:00:10,023 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
