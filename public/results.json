@@ -1,69 +1,32 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-06-26T13:52:16.826569+00:00",
+  "finished_at": "2026-06-26T14:50:56.048443+00:00",
   "logs": [
-    "2026-06-26 09:17:05,118 INFO scalper run started 2026-06-26T13:17:05.118212+00:00",
-    "2026-06-26 09:17:05,120 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-26 09:25:14,186 INFO target=nzxt-h1-v2 qualifying_deals=1",
-    "2026-06-26 09:25:14,187 INFO new deal target=nzxt-h1-v2 market=us total=193.80 url=https://www.ebay.com/p/13043330909",
-    "2026-06-26 09:25:14,295 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-26 09:30:12,058 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-26 09:30:12,059 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-26 09:33:25,849 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-06-26 09:33:25,849 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-26 09:37:13,454 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-26 09:37:13,454 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-26 09:42:24,960 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-26 09:42:24,961 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-06-26 09:45:48,259 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-06-26 09:45:48,260 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-26 09:52:16,826 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-26 10:17:04,771 INFO scalper run started 2026-06-26T14:17:04.771092+00:00",
+    "2026-06-26 10:17:04,773 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-26 10:24:02,885 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-26 10:24:02,886 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-26 10:31:29,530 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-26 10:31:29,531 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-26 10:34:52,473 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-26 10:34:52,474 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-26 10:37:06,068 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-26 10:37:06,069 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-26 10:40:25,335 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-26 10:40:25,336 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-26 10:47:44,224 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-06-26 10:47:44,225 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-26 10:50:56,048 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-06-26T13:17:05.118212+00:00",
+  "started_at": "2026-06-26T14:17:04.771092+00:00",
   "targets": [
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used / Pre-Owned",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 60.0,
-            "seller": "wordsmeanthings2",
-            "shipping_usd": 133.8,
-            "source": "eBay",
-            "target_id": "nzxt-h1-v2",
-            "title": "NZXT H1 V2 Mini-ITX Case - Matte White",
-            "total_usd": 193.8,
-            "url": "https://www.ebay.com/p/13043330909",
-            "why_good": "Buy It Now eBay offer; seller description says it is V2, product specs show PSU Included and With Liquid Cooler, with US delivery total under $200."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used / Pre-Owned",
-          "confidence": 0.82,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 60.0,
-          "seller": "wordsmeanthings2",
-          "shipping_usd": 133.8,
-          "source": "eBay",
-          "target_id": "nzxt-h1-v2",
-          "title": "NZXT H1 V2 Mini-ITX Case - Matte White",
-          "total_usd": 193.8,
-          "url": "https://www.ebay.com/p/13043330909",
-          "why_good": "Buy It Now eBay offer; seller description says it is V2, product specs show PSU Included and With Liquid Cooler, with US delivery total under $200."
-        }
-      ],
+      "deals": [],
       "id": "nzxt-h1-v2",
       "max_price_usd": 200,
       "name": "NZXT H1 V2 mini-ITX case bundle",
@@ -71,28 +34,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used / Pre-Owned",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 60.0,
-            "seller": "wordsmeanthings2",
-            "shipping_usd": 133.8,
-            "source": "eBay",
-            "target_id": "nzxt-h1-v2",
-            "title": "NZXT H1 V2 Mini-ITX Case - Matte White",
-            "total_usd": 193.8,
-            "url": "https://www.ebay.com/p/13043330909",
-            "why_good": "Buy It Now eBay offer; seller description says it is V2, product specs show PSU Included and With Liquid Cooler, with US delivery total under $200."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
