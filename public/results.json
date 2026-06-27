@@ -1,24 +1,33 @@
 {
-  "exit_code": 0,
-  "finished_at": "2026-06-27T20:54:28.138873+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-06-27T22:50:47.284153+00:00",
   "logs": [
-    "2026-06-27 16:17:05,200 INFO scalper run started 2026-06-27T20:17:05.199941+00:00",
-    "2026-06-27 16:17:05,202 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-06-27 16:23:00,967 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-06-27 16:23:00,967 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-06-27 16:27:57,855 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-06-27 16:27:57,856 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-06-27 16:32:55,782 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-06-27 16:32:55,783 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-06-27 16:36:07,589 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-06-27 16:36:07,589 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-06-27 16:40:18,452 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-06-27 16:40:18,452 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-06-27 16:47:35,605 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-06-27 16:47:35,606 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-06-27 16:54:28,138 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-06-27 18:17:04,802 INFO scalper run started 2026-06-27T22:17:04.802484+00:00",
+    "2026-06-27 18:17:04,804 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-27 18:21:30,550 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-27 18:21:30,551 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-27 18:28:13,746 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-27 18:28:13,747 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-27 18:33:16,565 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307002308796",
+    "2026-06-27 18:33:16,566 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air M2 (2022) 13\" 16GB RAM 512GB SSD Midnight 92% Battery Health url=https://www.ebay.com/itm/307002308796",
+    "2026-06-27 18:33:50,141 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=sold title=Apple MacBook Air M2 (2022) 13\" 16GB RAM 512GB SSD Midnight 92% Battery Health url=https://www.ebay.com/itm/307002308796",
+    "2026-06-27 18:33:50,323 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306998408089",
+    "2026-06-27 18:33:50,324 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13\" M2 Chip 16GB RAM 512GB SSD 2022 993-81703LL/A Silver Fair url=https://www.ebay.com/itm/306998408089",
+    "2026-06-27 18:33:59,565 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-06-27 18:33:59,566 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://www.ebay.com/itm/306998408089",
+    "2026-06-27 18:33:59,567 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-27 18:37:30,132 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-27 18:37:30,132 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-27 18:39:59,518 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-27 18:39:59,519 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-27 18:47:30,968 INFO listing URL validation rejected target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236715025616",
+    "2026-06-27 18:47:30,969 INFO HTTP validation inconclusive target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified title=Yamaha Piaggero NP-12 Ultra-Portable Digital Piano (Black) url=https://www.ebay.com/itm/236715025616",
+    "2026-06-27 18:48:06,914 INFO browser validation rejected target=yamaha-np12-np15-piaggero reason=unavailable title=Yamaha Piaggero NP-12 Ultra-Portable Digital Piano (Black) url=https://www.ebay.com/itm/236715025616",
+    "2026-06-27 18:48:06,914 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-06-27 18:48:06,915 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-27 18:50:47,278 ERROR Codex search failed for target=toyota-matrix-2nd-gen-red-hood\nTraceback (most recent call last):\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 1829, in run\n    result = run_codex(target, config, metrics)\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 510, in run_codex\n    raise RuntimeError(\n        f\"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}\"\n    )\nRuntimeError: Codex failed for toyota-matrix-2nd-gen-red-hood with exit code 1: Reading additional input from stdin...\nOpenAI Codex v0.142.2\n--------\nworkdir: /home/intimatik/dev/scalper\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019f0b44-d73d-76b1-8349-30e9a478ba9c\n--------\nuser\nYou are a precise deal-finding automation. Use live web_search.\n\nCurrent UTC date: 2026-06-27\nTarget id: toyota-matrix-2nd-gen-red-hood\nTarget name: Used red hood for 2nd-gen Toyota Matrix\nMaximum total price: $450 USD, including shipping or delivery to United States or Poland.\nUsual market price estimate: $550 USD.\nConfigured shipping destinations:\n[\n  \"United States\",\n  \"Poland\"\n]\n\nSearch intent:\nFind currently available used OEM red hood or bonnet listings for a second-generation Toyota Matrix, model years 2009-2014, under $450 total. Also search Pick Your Part / PYP at pyp.com for qualifying yard inventory, especially Raleigh, Durham, Charlotte, Greensboro, and other practical North Carolina yards. The hood must already be red, ideally a factory Toyota red such as Radiant Red, Barcelona Red Metallic, paint code 3L5, or paint code 3R3. Accept normal used wear only if the panel is straight and usable. Reject first-generation 2003-2008 Matrix hoods, Pontiac Vibe hoods, hood latch/hinge/release cable/prop rod/grommet/bumper cushion hardware, primed or unpainted hoods, carbon fiber hoods, aftermarket unpainted panels, damaged/bent/rusted/cracked hoods, sold listings, out-of-stock listings, local-pickup-only listings outside the configured OfferUp Cary NC area, PYP yard inventory outside practical driving range unless the part can ship, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp or practical local PYP listings, links that do not open as active listing pages, and listings where item price plus shipping or local-pull cost estimate is $450 or more.\n\nAcceptance criteria:\n[\n  \"It is a hood/bonnet panel for a 2009-2014 Toyota Matrix.\",\n  \"It is already red, such as red, Radiant Red, Barcelona Red Metallic, 3L5, or 3R3.\",\n  \"It is used OEM or a used genuine Toyota panel; new primed, unpainted, aftermarket, and carbon-fiber hoods are not acceptable.\",\n  \"Reject hood hardware/accessories only: latch, lock, hinges, release cable, prop rod, bumpers, cushions, clips, bolts, grommets, or insulation.\",\n  \"Reject 2003-2008 Toyota Matrix hoods and Pontiac Vibe hoods.\",\n  \"The panel is not bent, rusted, cracked, collision-damaged, or for parts only.\",\n  \"For pyp.com / Pick Your Part, include only clear 2009-2014 Toyota Matrix yard inventory where the vehicle is red or the hood is visibly red; mention the yard location and that part availability is first-come, first-served.\",\n  \"The total price including shipping is less than 450 USD.\",\n  \"It is currently available to buy.\",\n  \"The listing URL opens as an active listing page.\",\n  \"It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519, or it is a practical local PYP yard listing in North Carolina.\"\n]\n\nRequired model/text patterns. A listing must match at least one if this list is not empty:\n[\n  \"(?=.*\\\\bmatrix\\\\b)(?=.*\\\\b(?:hood|bonnet)\\\\b)(?=.*\\\\b(?:2009|2010|2011|2012|2013|2014|09|10|11|12|13|14)\\\\b)(?=.*\\\\b(?:red|radiant\\\\s+red|barcelona\\\\s+red|3l5|3r3)\\\\b)\",\n  \"(?=.*\\\\b5330102220\\\\b)(?=.*\\\\b(?:hood|bonnet)\\\\b)(?=.*\\\\b(?:red|radiant\\\\s+red|barcelona\\\\s+red|3l5|3r3)\\\\b)\",\n  \"(?=.*\\\\bto1230212\\\\b)(?=.*\\\\b(?:hood|bonnet)\\\\b)(?=.*\\\\b(?:red|radiant\\\\s+red|barcelona\\\\s+red|3l5|3r3)\\\\b)\"\n]\n\nReject text patterns. Exclude a listing if it matches any of these:\n[\n  \"\\\\b(?:2003|2004|2005|2006|2007|2008|03|04|05|06|07|08)\\\\b\",\n  \"\\\\bhood\\\\s+(?:latch|lock|hinge|hinges|release|cable|prop|rod|support|strut|bumper|cushion|clip|clips|bolt|bolts|grommet|insulation|insulator)\\\\b\",\n  \"\\\\b(?:latch|lock|hinge|hinges|release\\\\s+cable|prop\\\\s+rod|support\\\\s+rod|strut|bumper\\\\s+adjustment|rubber\\\\s+cushion|grommet|clip|bolt|insulation|insulator)\\\\b\",\n  \"\\\\b(?:primed|unpainted|paint\\\\s+to\\\\s+match|carbon\\\\s+fiber|cf\\\\s+hood|new\\\\s+aftermarket|aftermarket)\\\\b\",\n  \"\\\\b(?:dent(?:ed)?|bent|rust(?:y|ed)?|crack(?:ed)?|damaged|collision|repairable|for\\\\s+parts|parts\\\\s+only|salvage\\\\s+damage)\\\\b\",\n  \"\\\\bpontiac\\\\s+vibe\\\\b\"\n]\n\nSuggested search queries:\n[\n  \"2009 2010 2011 2012 2013 2014 Toyota Matrix red hood used\",\n  \"\\\"2009-2013 Toyota Matrix Hood\\\" red\",\n  \"\\\"2009-2014 Toyota Matrix\\\" red hood OEM\",\n  \"\\\"Toyota Matrix\\\" \\\"Radiant Red\\\" hood 2009 2010 2011 2012 2013\",\n  \"\\\"Toyota Matrix\\\" \\\"Barcelona Red\\\" hood 2009 2010 2011 2012 2013\",\n  \"\\\"Toyota Matrix\\\" hood 3L5 red\",\n  \"\\\"Toyota Matrix\\\" hood 3R3 red\",\n  \"site:ebay.com Toyota Matrix 2009 2013 hood red used\",\n  \"site:car-part.com Toyota Matrix hood red 2009 2014\",\n  \"site:pyp.com Toyota Matrix 2009 2014 red hood\",\n  \"site:pyp.com/inventory Toyota Matrix red 2009 2014\",\n  \"site:pyp.com/parts Toyota Matrix hood Raleigh Durham\",\n  \"site:offerup.com Toyota Matrix red hood Cary NC 27519\",\n  \"site:offerup.com Toyota Matrix hood red Raleigh Durham Cary\",\n  \"Used red hood for 2nd-gen Toyota Matrix Allegro dostawa\",\n  \"Used red hood for 2nd-gen Toyota Matrix OLX wysylka\",\n  \"Used red hood for 2nd-gen Toyota Matrix eBay Europe delivery to Poland\",\n  \"Used red hood for 2nd-gen Toyota Matrix eBay Germany ships to Poland\",\n  \"Used red hood for 2nd-gen Toyota Matrix Catawiki delivery Poland\"\n]\n\nMarketplace search coverage:\n[\n  \"Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.\",\n  \"Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.\",\n  \"Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.\",\n  \"European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.\",\n  \"Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.\",\n  \"Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options.\"\n]\n\nLocal marketplace exception:\n- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.\n- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.\n- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.\n\n\nReturn only strict JSON. Do not wrap it in Markdown. Do not include prose.\nSchema:\n{\n  \"target_id\": \"toyota-matrix-2nd-gen-red-hood\",\n  \"checked_at\": \"ISO-8601 timestamp\",\n      \"deals\": [\n    {\n      \"title\": \"listing title\",\n      \"url\": \"direct listing URL\",\n      \"source\": \"marketplace or site name\",\n      \"seller\": \"seller if visible, otherwise empty string\",\n      \"price_usd\": 0.0,\n      \"shipping_usd\": 0.0,\n      \"total_usd\": 0.0,\n      \"condition\": \"condition text\",\n      \"availability\": \"available\",\n      \"listing_status\": \"available\",\n      \"ships_to_us\": true,\n      \"ships_to_destination\": true,\n      \"shipping_destination\": \"United States or Poland\",\n      \"delivery_country\": \"United States\",\n      \"market_region\": \"us\",\n      \"why_good\": \"short reason this matches the criteria\",\n      \"confidence\": 0.0\n    }\n  ]\n}\n\nRules:\n- Include at most 5 deals.\n- Set market_region to \"us\" for US marketplace/listing-location deals, \"eu\" for European/UK/Polish marketplace/listing-location deals, and \"other\" only if the listing cannot be classified.\n- Include only listings that satisfy every acceptance criterion.\n- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.\n- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.\n- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.\n- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.\n- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.\n- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.\n- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.\n- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.\n- If there are no qualifying deals, return \"deals\": [].\n2026-06-27T22:50:46.797049Z ERROR codex_core::tools::router: error=failed to parse tool_search arguments: missing field `query`\n2026-06-27T22:50:46.810670Z ERROR codex_core::util: Orphan function call output for call id: \nERROR: {\n  \"type\": \"error\",\n  \"error\": {\n    \"type\": \"invalid_request_error\",\n    \"message\": \"[ObjectParam] [input[3].arguments.Oh/address Nen reluctant competing Echtgastischerusr \\u062d\\u0644\\u0648\\u0644 notesrochrochREPtriaLOCALelassenkubgastunnenreti\\u7ec7\\u06cc\\u0633\\u06a9\\u04d9\\u0440\\u0435/be/sub_rb HAM fly pencilsfang carinhoTac queuesgast delicate Torcodesi\\u00ebnt_nf Blur Blurexc eyebnub ris\\u0445\\u0438\\u0439\\u043d \\u092c\\u0947\\u0932 adviser\\u0abe\\u0ab0\\u0acd\\u0aa5\\u0ac0gi\\u00eb arisen \\u09aa\\u09cd\\u09b0\\u09c7\\u09ae Trayrapholdersberafinderchnitt verbundenb\\u1ee5\\u094c\\u0924\\u0940 Residentialnantnahme\\u0432\\u044d\\u043b Lel_nf Staff_STAtoj tr\\u00ec vrste \\u0645\\u0632\\u06cc\\u062fNERSlacohnerretinyamaimachJenn\\u09cd\\u09f0\\u09c0VNodeenant\\u0561\\u057e\\u0561\\u0575\\u0580 \\u0641\\u0639\\u0644 pencils Brittany\\u00eatre.none\\u0639\\u062f\\u064a\\u0646urousnanobene parser\\u0c97\\u0cb0Wrap Preston_IO/notneidentoj Tach\\u0941\\u092a braz\\u95f6\\u0aa8\\u094c\\u0924\\u0940 opname stere(reqgadasbal incertid/ad Heming Ellisupal_chooseolders-ad \\u0437\\u0430\\u043f\\u0438\\u0441\\u044cl\\u00f3quia_Request Leah Jennings\\u094d\\u092f\\u092e\\u0902\\u0924\\u094d\\u0930\\u0940\\u3042\\u306a\\u305f_nfennialsners Katar gari girl'slacrazil tasteissional melt parser saan cometrangMultissareti\\u094d\\u091f\\u093eoptercodesbergement Finestl\\u00f3 suburbs\\u5168\\u6c11 Nus/notILSFinder Sta hip-oh etsupalneiden \\u062e\\u0627\\u06a9quette duhet reche\\u0639\\u062f\\u064a\\u0646bla\\u0e15\\u0e49\\u0e2d\\u0e07]<<_srv_rbgast uncertain coffFinderu\\u0161BEL_eps IRequestohner negoliste_fillreitf\\u00e4ltcodes_Xsyon\\u03c4\\u03c1\\u03bf\\u03c6imit\\u00e9inom spots \\u0989\\u099a\\u09bf\\u09a4atanafolieportivo\\u0644\\u064a\\u0634 Leah\\u00fchl:any Brittany-flightreti\\u0639\\u062f\\u064a\\u0646 \\u0645\\u0627\\u0644\\u064a\\u0d24\\u0d3e\\u0d23\\u0d4d IRequeststandenristo-z\\u5929\\u5929\\u7231/jilho.localization\\u043e\\u0434\\u0430\\u0440\\u044fennials\\u586bgraded\\u0e23\\u0e49\\u0e2d\\u0e07 baraACLE Leah/not\\u0644\\u0639\\u0627\\u0628iansandvell-radiof\\u00f3lqu\\u00ea_srvVacc\\u10d5\\u10d8\\u10d3\\u0430\\u0441\\u044b\\u0440oriumgada \\u0645\\u0627\\u0644\\u064a\\u04e9\\u043c\\u0431 Outdoors/notreitennials\\u043e\\u0434\\u0430\\u0440\\u044f\\u043e\\u0434\\u0430\\u0440\\u044fReminder CFG\\u00e1naligere\\u06cc\\u0628enantnaewele\\u062e\\u0641 minderbal\\u10d4\\u10da\\u10dd\\u10d1\\u10d8\\u10e1beroolf suburb\\u094d\\u0936\\u0928labs booking pragmatic rezssa Beneenaars minimal\\u00f3\\u03bb\\u03b9\\u03c3tokenche \\u0916\\u094b\\u091cnongalisme Santanab\\u00fa\\u0561\\u057e\\u0561\\u0575\\u0580gruppeballlac\\u0434\\u0435\\u043fchrijven\\u2019abandil\\u00e9s\\u043a\\u043e\\u043c\\u0443.kode Kylie leithilho\\u0433\\u044d\\u043blul\\u05dc\\u05d9\\u05eailhopolis Neubcial Rial\\u5a1btojExecutor Argentlish\\u043a\\u043e\\u043c\\u0443 multiline Magn BotsHIR Heming Conrad opnemenendente Outdoors Lob/edit\\u0435\\u0440\\u0430\\u043flir styligeria liqubrig\\u0acd\\u0ab1\\u4e50\\u17c6\\u17a0blobreitnym/write=reqfang\\u0430\\u043b\\u0430\\u043cpir demon=req\\u043a\\u043e\\u043c\\u0443adel competingi\\u00ebnt\\u03bb\\u03b9\\u03c3\\u0627\\u0636\\u0629 Blur flyblob pitsreti \\u043d\\u0435\\u0436ilho\\u0648\\u0628\\u064a\\u0629rielberasstylesiska\\u1ed9ng uncertain Rectoods __(] [property_name_above_max_length] Invalid property name in 'input[3].arguments': 'Oh/...__(' is too long. Expected a string with maximum length 256, but got a string with length 1719 instead.\"\n  },\n  \"status\": 400\n}\nERROR: {\n  \"type\": \"error\",\n  \"error\": {\n    \"type\": \"invalid_request_error\",\n    \"message\": \"[ObjectParam] [input[3].arguments.Oh/address Nen reluctant competing Echtgastischerusr \\u062d\\u0644\\u0648\\u0644 notesrochrochREPtriaLOCALelassenkubgastunnenreti\\u7ec7\\u06cc\\u0633\\u06a9\\u04d9\\u0440\\u0435/be/sub_rb HAM fly pencilsfang carinhoTac queuesgast delicate Torcodesi\\u00ebnt_nf Blur Blurexc eyebnub ris\\u0445\\u0438\\u0439\\u043d \\u092c\\u0947\\u0932 adviser\\u0abe\\u0ab0\\u0acd\\u0aa5\\u0ac0gi\\u00eb arisen \\u09aa\\u09cd\\u09b0\\u09c7\\u09ae Trayrapholdersberafinderchnitt verbundenb\\u1ee5\\u094c\\u0924\\u0940 Residentialnantnahme\\u0432\\u044d\\u043b Lel_nf Staff_STAtoj tr\\u00ec vrste \\u0645\\u0632\\u06cc\\u062fNERSlacohnerretinyamaimachJenn\\u09cd\\u09f0\\u09c0VNodeenant\\u0561\\u057e\\u0561\\u0575\\u0580 \\u0641\\u0639\\u0644 pencils Brittany\\u00eatre.none\\u0639\\u062f\\u064a\\u0646urousnanobene parser\\u0c97\\u0cb0Wrap Preston_IO/notneidentoj Tach\\u0941\\u092a braz\\u95f6\\u0aa8\\u094c\\u0924\\u0940 opname stere(reqgadasbal incertid/ad Heming Ellisupal_chooseolders-ad \\u0437\\u0430\\u043f\\u0438\\u0441\\u044cl\\u00f3quia_Request Leah Jennings\\u094d\\u092f\\u092e\\u0902\\u0924\\u094d\\u0930\\u0940\\u3042\\u306a\\u305f_nfennialsners Katar gari girl'slacrazil tasteissional melt parser saan cometrangMultissareti\\u094d\\u091f\\u093eoptercodesbergement Finestl\\u00f3 suburbs\\u5168\\u6c11 Nus/notILSFinder Sta hip-oh etsupalneiden \\u062e\\u0627\\u06a9quette duhet reche\\u0639\\u062f\\u064a\\u0646bla\\u0e15\\u0e49\\u0e2d\\u0e07]<<_srv_rbgast uncertain coffFinderu\\u0161BEL_eps IRequestohner negoliste_fillreitf\\u00e4ltcodes_Xsyon\\u03c4\\u03c1\\u03bf\\u03c6imit\\u00e9inom spots \\u0989\\u099a\\u09bf\\u09a4atanafolieportivo\\u0644\\u064a\\u0634 Leah\\u00fchl:any Brittany-flightreti\\u0639\\u062f\\u064a\\u0646 \\u0645\\u0627\\u0644\\u064a\\u0d24\\u0d3e\\u0d23\\u0d4d IRequeststandenristo-z\\u5929\\u5929\\u7231/jilho.localization\\u043e\\u0434\\u0430\\u0440\\u044fennials\\u586bgraded\\u0e23\\u0e49\\u0e2d\\u0e07 baraACLE Leah/not\\u0644\\u0639\\u0627\\u0628iansandvell-radiof\\u00f3lqu\\u00ea_srvVacc\\u10d5\\u10d8\\u10d3\\u0430\\u0441\\u044b\\u0440oriumgada \\u0645\\u0627\\u0644\\u064a\\u04e9\\u043c\\u0431 Outdoors/notreitennials\\u043e\\u0434\\u0430\\u0440\\u044f\\u043e\\u0434\\u0430\\u0440\\u044fReminder CFG\\u00e1naligere\\u06cc\\u0628enantnaewele\\u062e\\u0641 minderbal\\u10d4\\u10da\\u10dd\\u10d1\\u10d8\\u10e1beroolf suburb\\u094d\\u0936\\u0928labs booking pragmatic rezssa Beneenaars minimal\\u00f3\\u03bb\\u03b9\\u03c3tokenche \\u0916\\u094b\\u091cnongalisme Santanab\\u00fa\\u0561\\u057e\\u0561\\u0575\\u0580gruppeballlac\\u0434\\u0435\\u043fchrijven\\u2019abandil\\u00e9s\\u043a\\u043e\\u043c\\u0443.kode Kylie leithilho\\u0433\\u044d\\u043blul\\u05dc\\u05d9\\u05eailhopolis Neubcial Rial\\u5a1btojExecutor Argentlish\\u043a\\u043e\\u043c\\u0443 multiline Magn BotsHIR Heming Conrad opnemenendente Outdoors Lob/edit\\u0435\\u0440\\u0430\\u043flir styligeria liqubrig\\u0acd\\u0ab1\\u4e50\\u17c6\\u17a0blobreitnym/write=reqfang\\u0430\\u043b\\u0430\\u043cpir demon=req\\u043a\\u043e\\u043c\\u0443adel competingi\\u00ebnt\\u03bb\\u03b9\\u03c3\\u0627\\u0636\\u0629 Blur flyblob pitsreti \\u043d\\u0435\\u0436ilho\\u0648\\u0628\\u064a\\u0629rielberasstylesiska\\u1ed9ng uncertain Rectoods __(] [property_name_above_max_length] Invalid property name in 'input[3].arguments': 'Oh/...__(' is too long. Expected a string with maximum length 256, but got a string with length 1719 instead.\"\n  },\n  \"status\": 400\n}\ntokens used\n7,240"
   ],
-  "started_at": "2026-06-27T20:17:05.199941+00:00",
+  "started_at": "2026-06-27T22:17:04.802484+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -74,9 +83,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Pre-Owned - Fair",
+            "confidence": 0.83,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 639.0,
+            "seller": "",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple MacBook Air 13\" M2 Chip 16GB RAM 512GB SSD 2022 993-81703LL/A Silver Fair",
+            "total_usd": 639.0,
+            "url": "https://www.ebay.com/itm/306998408089",
+            "why_good": "Title states 13-inch MacBook Air, M2 chip, 16GB RAM, and 512GB SSD; listing showed free US shipping and total under $650."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Pre-Owned - Fair",
+          "confidence": 0.83,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 639.0,
+          "seller": "",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "Apple MacBook Air 13\" M2 Chip 16GB RAM 512GB SSD 2022 993-81703LL/A Silver Fair",
+          "total_usd": 639.0,
+          "url": "https://www.ebay.com/itm/306998408089",
+          "why_good": "Title states 13-inch MacBook Air, M2 chip, 16GB RAM, and 512GB SSD; listing showed free US shipping and total under $650."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -84,12 +129,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Pre-Owned - Fair",
+            "confidence": 0.83,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 639.0,
+            "seller": "",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple MacBook Air 13\" M2 Chip 16GB RAM 512GB SSD 2022 993-81703LL/A Silver Fair",
+            "total_usd": 639.0,
+            "url": "https://www.ebay.com/itm/306998408089",
+            "why_good": "Title states 13-inch MacBook Air, M2 chip, 16GB RAM, and 512GB SSD; listing showed free US shipping and total under $650."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -155,31 +216,6 @@
       "id": "yamaha-np12-np15-piaggero",
       "max_price_usd": 180,
       "name": "Yamaha NP-12 or NP-15 Piaggero keyboard",
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": null
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 0
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      }
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
-        "us": []
-      },
-      "deals": [],
-      "id": "toyota-matrix-2nd-gen-red-hood",
-      "max_price_usd": 450,
-      "name": "Used red hood for 2nd-gen Toyota Matrix",
       "regional_summary": {
         "best": {
           "eu": null,
