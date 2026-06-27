@@ -1,21 +1,19 @@
-2026-06-27 03:17:05,365 INFO scalper run started 2026-06-27T07:17:05.365340+00:00
-2026-06-27 03:17:05,367 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-27 03:20:36,285 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-27 03:20:36,285 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-27 03:24:27,313 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-27 03:24:27,314 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-27 03:27:45,888 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306998408089
-2026-06-27 03:27:45,889 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air 13" M2 Chip 16GB RAM 512GB SSD 2022 993-81703LL/A Silver Fair url=https://www.ebay.com/itm/306998408089
-2026-06-27 03:28:21,756 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307002308796
-2026-06-27 03:28:21,757 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air M2 (2022) 13" 16GB RAM 512GB SSD Midnight 92% Battery Health url=https://www.ebay.com/itm/307002308796
-2026-06-27 03:28:29,074 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=sold title=Apple MacBook Air M2 (2022) 13" 16GB RAM 512GB SSD Midnight 92% Battery Health url=https://www.ebay.com/itm/307002308796
-2026-06-27 03:28:29,075 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-06-27 03:28:29,075 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=639.00 url=https://www.ebay.com/itm/306998408089
-2026-06-27 03:28:29,076 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-27 03:33:30,445 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-27 03:33:30,445 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-27 03:38:45,327 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-27 03:38:45,328 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-06-27 03:42:36,264 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-06-27 03:42:36,265 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-27 03:46:12,228 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-27 04:17:05,165 INFO scalper run started 2026-06-27T08:17:05.165032+00:00
+2026-06-27 04:17:05,167 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-27 04:21:40,225 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-27 04:21:40,226 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-27 04:30:23,007 INFO rejected deal target=bang-olufsen-charging-case reason=http_404 title=Bang and Olufsen Beoplay EX Wireless Earbuds url=https://www.outdoorsportsins.com/products/bang-and-olufsen-beoplay-ex-wireless-earbuds/27544814/
+2026-06-27 04:30:23,007 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-27 04:30:23,008 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-27 04:32:33,857 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-27 04:32:33,858 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-27 04:40:46,213 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/146908833380
+2026-06-27 04:40:46,214 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348 url=https://www.ebay.com/itm/146908833380
+2026-06-27 04:41:18,489 INFO browser validation rejected target=mac-mini-m1-16gb reason=unavailable title=2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348 url=https://www.ebay.com/itm/146908833380
+2026-06-27 04:41:18,490 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-27 04:41:18,490 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-27 04:44:27,854 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-27 04:44:27,855 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-06-27 04:48:52,177 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-06-27 04:48:52,177 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-27 04:53:18,848 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
