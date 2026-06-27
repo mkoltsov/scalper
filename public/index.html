@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-06-27T08:53:18.848545+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-06-27T10:53:13.044404+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -95,14 +95,6 @@
             <section class="target">
               <div class="target-head">
                 <h1>M2-or-newer Mac mini with 16GB+ RAM</h1>
-                <span>0 live matches</span>
-              </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
-            </section>
-            
-            <section class="target">
-              <div class="target-head">
-                <h1>Yamaha NP-12 or NP-15 Piaggero keyboard</h1>
                 <span>0 live matches</span>
               </div>
               <p class="empty">No available qualifying listings found in the latest run.</p>
@@ -163,27 +155,46 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>19 lines published</span>
+        <span>15 lines published</span>
       </div>
-      <pre>2026-06-27 04:17:05,165 INFO scalper run started 2026-06-27T08:17:05.165032+00:00
-2026-06-27 04:17:05,167 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-27 04:21:40,225 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-27 04:21:40,226 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-27 04:30:23,007 INFO rejected deal target=bang-olufsen-charging-case reason=http_404 title=Bang and Olufsen Beoplay EX Wireless Earbuds url=https://www.outdoorsportsins.com/products/bang-and-olufsen-beoplay-ex-wireless-earbuds/27544814/
-2026-06-27 04:30:23,007 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-27 04:30:23,008 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-27 04:32:33,857 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-27 04:32:33,858 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-27 04:40:46,213 INFO listing URL validation rejected target=mac-mini-m1-16gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/146908833380
-2026-06-27 04:40:46,214 INFO HTTP validation inconclusive target=mac-mini-m1-16gb reason=http_403_antibot_unverified title=2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348 url=https://www.ebay.com/itm/146908833380
-2026-06-27 04:41:18,489 INFO browser validation rejected target=mac-mini-m1-16gb reason=unavailable title=2020 Apple Mac Mini M1 3.2GHz 16GB RAM 512GB SSD Silver A2348 url=https://www.ebay.com/itm/146908833380
-2026-06-27 04:41:18,490 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-27 04:41:18,490 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-27 04:44:27,854 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-27 04:44:27,855 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-06-27 04:48:52,177 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-06-27 04:48:52,177 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-27 04:53:18,848 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
+      <pre>2026-06-27 06:17:04,761 INFO scalper run started 2026-06-27T10:17:04.761811+00:00
+2026-06-27 06:17:04,764 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-27 06:22:24,578 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-27 06:22:24,579 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-27 06:25:35,587 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-27 06:25:35,588 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-27 06:29:10,297 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-27 06:29:10,298 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-27 06:31:20,379 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-27 06:31:20,379 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-27 06:35:25,029 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-27 06:35:25,029 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-06-27 06:50:25,130 ERROR Codex timed out for target=yamaha-np12-np15-piaggero
+Traceback (most recent call last):
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1829, in run
+    result = run_codex(target, config, metrics)
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 496, in run_codex
+    process = subprocess.run(
+        codex_command(codex_bin, output_path, prompt),
+    ...&lt;4 lines&gt;...
+        timeout=timeout,
+    )
+  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 556, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 1222, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 2129, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 1269, in _check_timeout
+    raise TimeoutExpired(
+    ...&lt;2 lines&gt;...
+            stderr=b&#x27;&#x27;.join(stderr_seq) if stderr_seq else None)
+subprocess.TimeoutExpired: Command &#x27;[&#x27;/home/intimatik/.npm-global/bin/codex&#x27;, &#x27;--search&#x27;, &#x27;--ask-for-approval&#x27;, &#x27;never&#x27;, &#x27;exec&#x27;, &#x27;--skip-git-repo-check&#x27;, &#x27;--sandbox&#x27;, &#x27;read-only&#x27;, &#x27;--color&#x27;, &#x27;never&#x27;, &#x27;--ephemeral&#x27;, &#x27;--output-last-message&#x27;, &#x27;/tmp/scalper-codex-ys_pdabo/last-message.json&#x27;, &#x27;You are a precise deal-finding automation. Use live web_search.\n\nCurrent UTC date: 2026-06-27\nTarget id: yamaha-np12-np15-piaggero\nTarget name: Yamaha NP-12 or NP-15 Piaggero keyboard\nMaximum total price: $180 USD, including shipping or delivery to United States or Poland.\nUsual market price estimate: $240 USD.\nConfigured shipping destinations:\n[\n  &quot;United States&quot;,\n  &quot;Poland&quot;\n]\n\nSearch intent:\nFind currently available used, open-box, or discounted Yamaha Piaggero NP-12 or NP-15 portable keyboard listings under $180 total. Accept Yamaha NP-12, NP12, NP-12B, NP-12WH, NP-15, NP15, NP-15B, and NP-15WH. The listing must include the actual playable keyboard, not just an accessory. Prefer listings that include the power adapter, music rest, sustain pedal, stand, bench, or original box, but accessories are optional if the keyboard itself is included and working. Reject Yamaha NP-11, NP-30, NP-31, NP-32, NP-35, P-series, PSR-series, YPT-series, EZ-series, Casio, Roland, Korg, accessory-only listings, stands, benches, pedals, power adapters, chargers, bags/cases, replacement keys, broken/not-working keyboards, parts-only listings, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $180 or more.\n\nAcceptance criteria:\n[\n  &quot;It is a Yamaha Piaggero NP-12 or NP-15 portable keyboard/digital piano.&quot;,\n  &quot;Accept NP-12, NP12, NP-12B, NP-12WH, NP-15, NP15, NP-15B, and NP-15WH.&quot;,\n  &quot;The actual playable keyboard is included and is working.&quot;,\n  &quot;Reject accessory-only listings such as stand only, bench only, pedal only, power adapter only, bag/case only, music rest only, replacement keys, or other parts.&quot;,\n  &quot;Reject Yamaha NP-11, NP-30, NP-31, NP-32, NP-35, P-series, PSR-series, YPT-series, EZ-series, and non-Yamaha keyboards.&quot;,\n  &quot;Reject broken, not working, for-parts, repair, or missing-keys listings.&quot;,\n  &quot;The total price including shipping is less than 180 USD.&quot;,\n  &quot;It is currently available to buy.&quot;,\n  &quot;The listing URL opens as an active listing page.&quot;,\n  &quot;It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519.&quot;\n]\n\nRequired model/text patterns. A listing must match at least one if this list is not empty:\n[\n  &quot;(?=.*\\\\byamaha\\\\b)(?=.*\\\\bnp\\\\s*-?\\\\s*(?:12|15)(?:\\\\s*(?:b|wh))?\\\\b)&quot;,\n  &quot;(?=.*\\\\bpiaggero\\\\b)(?=.*\\\\bnp\\\\s*-?\\\\s*(?:12|15)(?:\\\\s*(?:b|wh))?\\\\b)&quot;\n]\n\nReject text patterns. Exclude a listing if it matches any of these:\n[\n  &quot;\\\\bnp\\\\s*-?\\\\s*(?:11|30|31|32|35)(?:\\\\s*(?:b|wh))?\\\\b&quot;,\n  &quot;\\\\bp\\\\s*-?\\\\s*(?:45|71|95|105|115|121|125|143|145|223|225|515|525)\\\\b&quot;,\n  &quot;\\\\b(?:psr|ypt|ez)\\\\s*-?\\\\s*\\\\d+\\\\b&quot;,\n  &quot;\\\\b(?:casio|roland|korg|alesis|nord|kawai)\\\\b&quot;,\n  &quot;\\\\b(?:stand|bench|pedal|sustain\\\\s+pedal|power\\\\s+(?:supply|adapter)|ac\\\\s+adapter|charger|cable|bag|case|cover|music\\\\s+rest|sheet\\\\s+stand|replacement\\\\s+keys?)\\\\s+only\\\\b&quot;,\n  &quot;\\\\bonly\\\\s+(?:stand|bench|pedal|sustain\\\\s+pedal|power\\\\s+(?:supply|adapter)|ac\\\\s+adapter|charger|cable|bag|case|cover|music\\\\s+rest|sheet\\\\s+stand|replacement\\\\s+keys?)\\\\b&quot;,\n  &quot;\\\\b(?:replacement|spare)\\\\s+(?:key|keys|part|parts|adapter|pedal|stand)\\\\b&quot;,\n  &quot;\\\\b(?:for\\\\s+parts|parts\\\\s+only|not\\\\s+working|non\\\\s*working|broken|repair|damaged|missing\\\\s+keys?)\\\\b&quot;\n]\n\nSuggested search queries:\n[\n  &quot;Yamaha NP-12 Piaggero keyboard used under $180&quot;,\n  &quot;Yamaha NP12 keyboard used under 180&quot;,\n  &quot;Yamaha NP-12B NP-12WH used keyboard&quot;,\n  &quot;Yamaha NP-15 Piaggero keyboard used under $180&quot;,\n  &quot;Yamaha NP15 keyboard used under 180&quot;,\n  &quot;Yamaha NP-15B NP-15WH used keyboard&quot;,\n  &quot;site:ebay.com Yamaha NP-12 Piaggero keyboard&quot;,\n  &quot;site:ebay.com Yamaha NP-15 Piaggero keyboard&quot;,\n  &quot;site:reverb.com Yamaha NP-12 Piaggero&quot;,\n  &quot;site:reverb.com Yamaha NP-15 Piaggero&quot;,\n  &quot;site:offerup.com Yamaha NP-12 keyboard Cary NC 27519&quot;,\n  &quot;site:offerup.com Yamaha NP-15 keyboard Raleigh Durham Cary&quot;,\n  &quot;Yamaha NP-12 or NP-15 Piaggero keyboard Allegro dostawa&quot;,\n  &quot;Yamaha NP-12 or NP-15 Piaggero keyboard OLX wysylka&quot;,\n  &quot;Yamaha NP-12 or NP-15 Piaggero keyboard eBay Europe delivery to Poland&quot;,\n  &quot;Yamaha NP-12 or NP-15 Piaggero keyboard eBay Germany ships to Poland&quot;,\n  &quot;Yamaha NP-12 or NP-15 Piaggero keyboard Catawiki delivery Poland&quot;\n]\n\nMarketplace search coverage:\n[\n  &quot;Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.&quot;,\n  &quot;Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.&quot;,\n  &quot;Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.&quot;,\n  &quot;European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.&quot;,\n  &quot;Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.&quot;,\n  &quot;Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options.&quot;\n]\n\nLocal marketplace exception:\n- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.\n- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.\n- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.\n\n\nReturn only strict JSON. Do not wrap it in Markdown. Do not include prose.\nSchema:\n{\n  &quot;target_id&quot;: &quot;yamaha-np12-np15-piaggero&quot;,\n  &quot;checked_at&quot;: &quot;ISO-8601 timestamp&quot;,\n      &quot;deals&quot;: [\n    {\n      &quot;title&quot;: &quot;listing title&quot;,\n      &quot;url&quot;: &quot;direct listing URL&quot;,\n      &quot;source&quot;: &quot;marketplace or site name&quot;,\n      &quot;seller&quot;: &quot;seller if visible, otherwise empty string&quot;,\n      &quot;price_usd&quot;: 0.0,\n      &quot;shipping_usd&quot;: 0.0,\n      &quot;total_usd&quot;: 0.0,\n      &quot;condition&quot;: &quot;condition text&quot;,\n      &quot;availability&quot;: &quot;available&quot;,\n      &quot;listing_status&quot;: &quot;available&quot;,\n      &quot;ships_to_us&quot;: true,\n      &quot;ships_to_destination&quot;: true,\n      &quot;shipping_destination&quot;: &quot;United States or Poland&quot;,\n      &quot;delivery_country&quot;: &quot;United States&quot;,\n      &quot;market_region&quot;: &quot;us&quot;,\n      &quot;why_good&quot;: &quot;short reason this matches the criteria&quot;,\n      &quot;confidence&quot;: 0.0\n    }\n  ]\n}\n\nRules:\n- Include at most 5 deals.\n- Set market_region to &quot;us&quot; for US marketplace/listing-location deals, &quot;eu&quot; for European/UK/Polish marketplace/listing-location deals, and &quot;other&quot; only if the listing cannot be classified.\n- Include only listings that satisfy every acceptance criterion.\n- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.\n- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.\n- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.\n- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.\n- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.\n- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.\n- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.\n- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.\n- If there are no qualifying deals, return &quot;deals&quot;: [].&#x27;]&#x27; timed out after 900 seconds
+2026-06-27 06:50:25,151 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-27 06:53:13,044 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
