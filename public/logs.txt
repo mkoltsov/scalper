@@ -1,16 +1,18 @@
-2026-06-27 09:17:05,446 INFO scalper run started 2026-06-27T13:17:05.446249+00:00
-2026-06-27 09:17:05,448 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-27 09:20:04,198 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-27 09:20:04,199 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-27 09:30:48,553 INFO rejected deal target=bang-olufsen-charging-case reason=http_404 title=Bang and Olufsen Beoplay EX Wireless Earbuds url=https://www.outdoorsportsins.com/products/bang-and-olufsen-beoplay-ex-wireless-earbuds/27544814/
-2026-06-27 09:30:48,553 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-27 09:30:48,554 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-27 09:36:40,829 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-27 09:36:40,830 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-27 09:47:18,122 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-27 09:47:18,123 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-27 09:50:35,589 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-27 09:50:35,590 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-06-27 09:56:33,294 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-06-27 09:56:33,295 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-27 10:08:01,889 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-27 15:17:05,215 INFO scalper run started 2026-06-27T19:17:05.215835+00:00
+2026-06-27 15:17:05,217 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-27 15:21:13,365 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-27 15:21:13,366 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-27 15:25:54,121 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-27 15:25:54,121 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-27 15:32:14,934 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278074990005
+2026-06-27 15:32:14,934 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Pro 13 Space Gray 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/278074990005
+2026-06-27 15:32:50,737 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-06-27 15:32:50,738 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=649.99 url=https://www.ebay.com/itm/278074990005
+2026-06-27 15:32:50,739 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-27 15:39:04,702 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-27 15:39:04,702 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-27 15:43:15,275 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-27 15:43:15,276 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-06-27 15:46:46,550 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-06-27 15:46:46,550 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-27 15:53:45,050 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
