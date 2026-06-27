@@ -1,38 +1,160 @@
-2026-06-27 06:17:04,761 INFO scalper run started 2026-06-27T10:17:04.761811+00:00
-2026-06-27 06:17:04,764 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-27 06:22:24,578 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-27 06:22:24,579 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-27 06:25:35,587 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-27 06:25:35,588 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-27 06:29:10,297 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-27 06:29:10,298 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-27 06:31:20,379 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-27 06:31:20,379 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-27 06:35:25,029 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-27 06:35:25,029 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-06-27 06:50:25,130 ERROR Codex timed out for target=yamaha-np12-np15-piaggero
+2026-06-27 07:17:05,346 INFO scalper run started 2026-06-27T11:17:05.346594+00:00
+2026-06-27 07:17:05,348 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-27 07:18:29,021 ERROR Codex search failed for target=nzxt-h1-v2
 Traceback (most recent call last):
   File "/home/intimatik/dev/scalper/scalper.py", line 1829, in run
     result = run_codex(target, config, metrics)
-  File "/home/intimatik/dev/scalper/scalper.py", line 496, in run_codex
-    process = subprocess.run(
-        codex_command(codex_bin, output_path, prompt),
-    ...<4 lines>...
-        timeout=timeout,
+  File "/home/intimatik/dev/scalper/scalper.py", line 510, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
     )
-  File "/usr/lib/python3.13/subprocess.py", line 556, in run
-    stdout, stderr = process.communicate(input, timeout=timeout)
-                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/subprocess.py", line 1222, in communicate
-    stdout, stderr = self._communicate(input, endtime, timeout)
-                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/subprocess.py", line 2129, in _communicate
-    self._check_timeout(endtime, orig_timeout, stdout, stderr)
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/subprocess.py", line 1269, in _check_timeout
-    raise TimeoutExpired(
-    ...<2 lines>...
-            stderr=b''.join(stderr_seq) if stderr_seq else None)
-subprocess.TimeoutExpired: Command '['/home/intimatik/.npm-global/bin/codex', '--search', '--ask-for-approval', 'never', 'exec', '--skip-git-repo-check', '--sandbox', 'read-only', '--color', 'never', '--ephemeral', '--output-last-message', '/tmp/scalper-codex-ys_pdabo/last-message.json', 'You are a precise deal-finding automation. Use live web_search.\n\nCurrent UTC date: 2026-06-27\nTarget id: yamaha-np12-np15-piaggero\nTarget name: Yamaha NP-12 or NP-15 Piaggero keyboard\nMaximum total price: $180 USD, including shipping or delivery to United States or Poland.\nUsual market price estimate: $240 USD.\nConfigured shipping destinations:\n[\n  "United States",\n  "Poland"\n]\n\nSearch intent:\nFind currently available used, open-box, or discounted Yamaha Piaggero NP-12 or NP-15 portable keyboard listings under $180 total. Accept Yamaha NP-12, NP12, NP-12B, NP-12WH, NP-15, NP15, NP-15B, and NP-15WH. The listing must include the actual playable keyboard, not just an accessory. Prefer listings that include the power adapter, music rest, sustain pedal, stand, bench, or original box, but accessories are optional if the keyboard itself is included and working. Reject Yamaha NP-11, NP-30, NP-31, NP-32, NP-35, P-series, PSR-series, YPT-series, EZ-series, Casio, Roland, Korg, accessory-only listings, stands, benches, pedals, power adapters, chargers, bags/cases, replacement keys, broken/not-working keyboards, parts-only listings, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $180 or more.\n\nAcceptance criteria:\n[\n  "It is a Yamaha Piaggero NP-12 or NP-15 portable keyboard/digital piano.",\n  "Accept NP-12, NP12, NP-12B, NP-12WH, NP-15, NP15, NP-15B, and NP-15WH.",\n  "The actual playable keyboard is included and is working.",\n  "Reject accessory-only listings such as stand only, bench only, pedal only, power adapter only, bag/case only, music rest only, replacement keys, or other parts.",\n  "Reject Yamaha NP-11, NP-30, NP-31, NP-32, NP-35, P-series, PSR-series, YPT-series, EZ-series, and non-Yamaha keyboards.",\n  "Reject broken, not working, for-parts, repair, or missing-keys listings.",\n  "The total price including shipping is less than 180 USD.",\n  "It is currently available to buy.",\n  "The listing URL opens as an active listing page.",\n  "It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519."\n]\n\nRequired model/text patterns. A listing must match at least one if this list is not empty:\n[\n  "(?=.*\\\\byamaha\\\\b)(?=.*\\\\bnp\\\\s*-?\\\\s*(?:12|15)(?:\\\\s*(?:b|wh))?\\\\b)",\n  "(?=.*\\\\bpiaggero\\\\b)(?=.*\\\\bnp\\\\s*-?\\\\s*(?:12|15)(?:\\\\s*(?:b|wh))?\\\\b)"\n]\n\nReject text patterns. Exclude a listing if it matches any of these:\n[\n  "\\\\bnp\\\\s*-?\\\\s*(?:11|30|31|32|35)(?:\\\\s*(?:b|wh))?\\\\b",\n  "\\\\bp\\\\s*-?\\\\s*(?:45|71|95|105|115|121|125|143|145|223|225|515|525)\\\\b",\n  "\\\\b(?:psr|ypt|ez)\\\\s*-?\\\\s*\\\\d+\\\\b",\n  "\\\\b(?:casio|roland|korg|alesis|nord|kawai)\\\\b",\n  "\\\\b(?:stand|bench|pedal|sustain\\\\s+pedal|power\\\\s+(?:supply|adapter)|ac\\\\s+adapter|charger|cable|bag|case|cover|music\\\\s+rest|sheet\\\\s+stand|replacement\\\\s+keys?)\\\\s+only\\\\b",\n  "\\\\bonly\\\\s+(?:stand|bench|pedal|sustain\\\\s+pedal|power\\\\s+(?:supply|adapter)|ac\\\\s+adapter|charger|cable|bag|case|cover|music\\\\s+rest|sheet\\\\s+stand|replacement\\\\s+keys?)\\\\b",\n  "\\\\b(?:replacement|spare)\\\\s+(?:key|keys|part|parts|adapter|pedal|stand)\\\\b",\n  "\\\\b(?:for\\\\s+parts|parts\\\\s+only|not\\\\s+working|non\\\\s*working|broken|repair|damaged|missing\\\\s+keys?)\\\\b"\n]\n\nSuggested search queries:\n[\n  "Yamaha NP-12 Piaggero keyboard used under $180",\n  "Yamaha NP12 keyboard used under 180",\n  "Yamaha NP-12B NP-12WH used keyboard",\n  "Yamaha NP-15 Piaggero keyboard used under $180",\n  "Yamaha NP15 keyboard used under 180",\n  "Yamaha NP-15B NP-15WH used keyboard",\n  "site:ebay.com Yamaha NP-12 Piaggero keyboard",\n  "site:ebay.com Yamaha NP-15 Piaggero keyboard",\n  "site:reverb.com Yamaha NP-12 Piaggero",\n  "site:reverb.com Yamaha NP-15 Piaggero",\n  "site:offerup.com Yamaha NP-12 keyboard Cary NC 27519",\n  "site:offerup.com Yamaha NP-15 keyboard Raleigh Durham Cary",\n  "Yamaha NP-12 or NP-15 Piaggero keyboard Allegro dostawa",\n  "Yamaha NP-12 or NP-15 Piaggero keyboard OLX wysylka",\n  "Yamaha NP-12 or NP-15 Piaggero keyboard eBay Europe delivery to Poland",\n  "Yamaha NP-12 or NP-15 Piaggero keyboard eBay Germany ships to Poland",\n  "Yamaha NP-12 or NP-15 Piaggero keyboard Catawiki delivery Poland"\n]\n\nMarketplace search coverage:\n[\n  "Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.",\n  "Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.",\n  "Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.",\n  "European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.",\n  "Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.",\n  "Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options."\n]\n\nLocal marketplace exception:\n- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.\n- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.\n- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.\n\n\nReturn only strict JSON. Do not wrap it in Markdown. Do not include prose.\nSchema:\n{\n  "target_id": "yamaha-np12-np15-piaggero",\n  "checked_at": "ISO-8601 timestamp",\n      "deals": [\n    {\n      "title": "listing title",\n      "url": "direct listing URL",\n      "source": "marketplace or site name",\n      "seller": "seller if visible, otherwise empty string",\n      "price_usd": 0.0,\n      "shipping_usd": 0.0,\n      "total_usd": 0.0,\n      "condition": "condition text",\n      "availability": "available",\n      "listing_status": "available",\n      "ships_to_us": true,\n      "ships_to_destination": true,\n      "shipping_destination": "United States or Poland",\n      "delivery_country": "United States",\n      "market_region": "us",\n      "why_good": "short reason this matches the criteria",\n      "confidence": 0.0\n    }\n  ]\n}\n\nRules:\n- Include at most 5 deals.\n- Set market_region to "us" for US marketplace/listing-location deals, "eu" for European/UK/Polish marketplace/listing-location deals, and "other" only if the listing cannot be classified.\n- Include only listings that satisfy every acceptance criterion.\n- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.\n- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.\n- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.\n- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.\n- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.\n- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.\n- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.\n- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.\n- If there are no qualifying deals, return "deals": [].']' timed out after 900 seconds
-2026-06-27 06:50:25,151 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-27 06:53:13,044 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+RuntimeError: Codex failed for nzxt-h1-v2 with exit code 1: Reading additional input from stdin...
+OpenAI Codex v0.142.2
+--------
+workdir: /home/intimatik/dev/scalper
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019f08cc-2d9d-7980-ae79-ff25aaaf5194
+--------
+user
+You are a precise deal-finding automation. Use live web_search.
+
+Current UTC date: 2026-06-27
+Target id: nzxt-h1-v2
+Target name: NZXT H1 V2 mini-ITX case bundle
+Maximum total price: $200 USD, including shipping or delivery to United States or Poland.
+Usual market price estimate: $220 USD.
+Configured shipping destinations:
+[
+  "United States",
+  "Poland"
+]
+
+Search intent:
+Find currently available used, open-box, or discounted NZXT H1 V2 mini-ITX case listings under $200 total. The listing must include the original PSU and AIO liquid cooler. Prefer complete bundles with riser cable. Reject NZXT H1 V1, case shells missing PSU/AIO, broken PSU/AIO, sold listings, out-of-stock listings, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $200 or more.
+
+Acceptance criteria:
+[
+  "It is NZXT H1 V2, not H1 V1. Treat the common typo NXZT as NZXT only if the listing clearly means NZXT.",
+  "It includes the PSU.",
+  "It includes the AIO cooler.",
+  "The total price including shipping is less than 200 USD.",
+  "It is currently available to buy.",
+  "The listing URL opens as an active listing page.",
+  "It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519."
+]
+
+Required model/text patterns. A listing must match at least one if this list is not empty:
+[]
+
+Reject text patterns. Exclude a listing if it matches any of these:
+[]
+
+Suggested search queries:
+[
+  "NZXT H1 V2 case PSU AIO under $200",
+  "NXZT H1 V2 used case PSU AIO under $200",
+  "NZXT H1 V2 750W AIO eBay under 200",
+  "NZXT H1 V2 open box case PSU cooler",
+  "site:offerup.com NZXT H1 V2 Cary NC 27519",
+  "site:offerup.com NZXT H1 V2 Raleigh Durham Cary",
+  "NZXT H1 V2 mini-ITX case bundle Allegro dostawa",
+  "NZXT H1 V2 mini-ITX case bundle OLX wysylka",
+  "NZXT H1 V2 mini-ITX case bundle eBay Europe delivery to Poland",
+  "NZXT H1 V2 mini-ITX case bundle eBay Germany ships to Poland",
+  "NZXT H1 V2 mini-ITX case bundle Catawiki delivery Poland"
+]
+
+Marketplace search coverage:
+[
+  "Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.",
+  "Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.",
+  "Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.",
+  "European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.",
+  "Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.",
+  "Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options."
+]
+
+Local marketplace exception:
+- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.
+- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.
+- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.
+
+
+Return only strict JSON. Do not wrap it in Markdown. Do not include prose.
+Schema:
+{
+  "target_id": "nzxt-h1-v2",
+  "checked_at": "ISO-8601 timestamp",
+      "deals": [
+    {
+      "title": "listing title",
+      "url": "direct listing URL",
+      "source": "marketplace or site name",
+      "seller": "seller if visible, otherwise empty string",
+      "price_usd": 0.0,
+      "shipping_usd": 0.0,
+      "total_usd": 0.0,
+      "condition": "condition text",
+      "availability": "available",
+      "listing_status": "available",
+      "ships_to_us": true,
+      "ships_to_destination": true,
+      "shipping_destination": "United States or Poland",
+      "delivery_country": "United States",
+      "market_region": "us",
+      "why_good": "short reason this matches the criteria",
+      "confidence": 0.0
+    }
+  ]
+}
+
+Rules:
+- Include at most 5 deals.
+- Set market_region to "us" for US marketplace/listing-location deals, "eu" for European/UK/Polish marketplace/listing-location deals, and "other" only if the listing cannot be classified.
+- Include only listings that satisfy every acceptance criterion.
+- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.
+- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
+- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.
+- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.
+- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.
+- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
+- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
+- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
+- If there are no qualifying deals, return "deals": [].
+2026-06-27T11:18:28.364872Z ERROR codex_core::tools::router: error=failed to parse tool_search arguments: missing field `query`
+2026-06-27T11:18:28.378720Z ERROR codex_core::util: Orphan function call output for call id: 
+ERROR: {
+  "type": "error",
+  "error": {
+    "type": "invalid_request_error",
+    "message": "[ObjectParam] [input[3].arguments.]= unabimach Twe HeminggadaSau sach Serr \u067e\u0627\u062a\u06d0BEL\u00e9ad.noneTwe hipgare/notdav\u0434\u0435\u043d\u0438\u0435\u043cGST avoidance Nanaully meltlishchwitz argumentsmati \u043f\u0435\u0441\u0434\u0435\u043d\u0438\u0435\u043c committee\u0435\u043b\u044c\u043c\u0456gadaselfeld Tarrreti el\u00e9trNERSreit_STA negociigeria ress Scarlet tranh silhouettenubPaparang Lulaelbeirez souvenirsfangr\u00e8sgrad=req DeeMail\u06cc\u0627\u0646i\u00ebntMatcher\u0436\u04d9 BoniBot wipe IRequestreit\u65e0\u9700-pencil Unityi\u00ebnt(opt EneSauaphareit maaltorrcorder\u094d\u0932\u0947jeb bewonersACLEGRES-\u10d4\u10e0\u10d7\u10d8 \uc774\uc720ie\u00df HaitiRealmNERS b\u00f3ng Lochurous Manga least\u0456\u043c\u0435\u043d.Write\u6759\u6c5fSusan partial.xmlIFIEDi\u00ebnt Avanturselanders\u0e38\u0e15\u0e1a\u0e2d\u0e25Allocator Braz\u0440\u0438\u0441\u0442\u0430 pragmatic;}.Wrap_yaml\u0445\u043e\u043d\u0430jeto boats hieenced\u65e0\u9700geltbots \u0438\u0433\u0440\u0430 Lagu\u0445\u0438\u0439\u043dJwt Fly_QUEUE Tape editors saobellupalraphethersgrade\u00fchl\u0561\u057e\u0561\u0575\u0580_staff/ad\u00fcssoids Bikesrektadel/not foolcja\\/halterbotsoldersgradedwritersFoxciertriagada\u00fcssAllocator Jans\u0c4d\u0c1c-gradeduinoadel yen Lassreti Magnrias delighted_nf.wrapraph Nuk catarpenserlacoids uncertain vrste Flykahesia/requestradeu\u0161Realm\u0acd\u0aa0\u83dcgenotenilho'utilisateurl\u00f3f\u00f3l destaque\u0438\u043c\u0435\u043dStyl multiline\u062d\u0645standenramentooids reminders\u0431\u0435\u043b\u044cACLEneidengly\u0430\u043b\u0430\u043cbotspesas Routerreitferenz Fur\u59d4\u5458\u4f1alights nawe esetlishRESS\u03c1\u03b5\u03cd\u093e\u0938\u094d\u0925\u094d\u092fuccinopenser\u0443\u0431\u043b\u0456/offpenser Nurses\u043e\u0434\u0430\u0440\u044f\u00fad exclchrijven___otch\u7279\u70b9Bots\u0d47\u0d35\u043e\u0434\u0430\u0440\u044f Clare laver argent vergel dimens\u00e3o rationaleRequested \u00e9toiles[outbekiston \u0634\u0648\u06cc\u062f/request Rhythmlish \u0535\u057ef\u00f3l\u091a\u0915ufthGatenub \u00e9toiles\u05dc\u05df \u0443\u0432\u0435\u0440\u0435\u043d\u0acd\u0a9f\ub9ac\uc988retik\u00eblade\u0433\u044d\u043bst\u00e6gradeBearer \u0441\u043c\u0435\u10d0\u10da\u10d8\u10d0\u10dc\uff0c\u8fd8\u6709 Balletnancy mail \u0442\u04b1\u0440\u0493\u044b\u043d_bot\u0627\u0646\u062f\u06d0ometry St\u00e9phlz \u0641\u0639\u0644 unexpected.gmailbureit directory\u2019abandiVENblyolf \u00e9toiles \u0aa4\u0ac8\u0aafolercial \u0434\u0430\u0439\u044b\u043dupal risBELennials alimentar>}</ aanvraag Rhythm/notclose\u00e8treolf(ch\u0628\u0648\u0643\u0930\u094d\u091c\u0940\u043b\u0435\u0439Impossible \uc694\uccadlyphb\u1ecd douceuri\u00ebntINESSoriumPushibeleolders\u0430\u043d\u0438\u0435\u043cRecordnubssagraded\u00edomhhr\u00e1giesUn\u0445\u043d\u044bj\u00e4nendres\u043b\u0443\u043fennialsatoriogast.Newressolify contested GelLabs finder\u043e\u0434\u0430\u0440\u044flaug competing____ Blur-gradeolfably\u0acd\u0ab0\u0ac0.destinationville(offuzi\u200d\u0d17l\u00f3\u094c\u0924\u0940.Optionallyph\u10d4\u10da\u10dd\u10d1\u10d8\u10e1 IRequest matsupalBot-le/providers/subkahishecialACLEreti cans gari \u10ec\u10d4\u10e0\u10e1term IRequest\u00e8treFamilies\u00eamementstanden delighted chips Jacqueline\u0433\u043e\u043b\u044cimachenschap\u0627\u0646\u06c1 \uc5c6\uc774bots Heminggeltisela Ehilhoelumalisme cheekbots \u0442\u04b1\u0440\u0493\u044b\u043dplassen Outdoors-grade\u06cc\u0628\ub354\u0d3e\u0d2a\u0d4d\u0d2a\u041e\u041c Neub Rhythmlicherermany(req multiline Tweselect Braz \u0639\u0634\u0642\u00e9benportivo\u0561\u057e\u0561\u0575\u0580finder\u0e40\u0e2d\u0e35\u0e22\u0e14reit ne\u017e\u043e\u0433\u0440\u0430\u0434sites\u10d4\u10da\u10dd\u10d1\u10d8\u10e1 meltbene(OPgada\u0430\u0442\u049b\u0430\u043d Clare estrelas capp\u00eatreReset\u043e\u0434\u0430\u0440\u044fennialsrochFox/antlr\u09cd\u09b0\u09bf_py muitreti/not ambiguous douceurzana suburbs \u00e9toiles\u10d1\u10d8 SADudavolfreit\u0442\u0435\u0440\u0434\u0456\u04a3alisme/subosure\u043e\u0434\u0430\u0440\u044f randHeal\u043e\u0434\u0430\u0440\u044f sentiment>}</\u0639\u062f\u064a\u0646lights pr\u00eatnth gradingla\u0161nanteilhoToken\u0acd\u0a9f Nen<void unilateralelfJNIcapt\u043e\u0434\u0430\u0440\u044f ends\uff08\u8d23\u4efb\u7f16\u8f91nub vested ferner_nfalisme\u0e23\u0e35\u0e48 bots diminuduit hipgastverwaltung_void\u0d3e\u0d2f\u0d24\u0d4d eyebilhobereitligen Executor Botslaugussy robotsTac botretigradezech\u094d\u0932\u0947landobiesRectzub\u093e\u092e\u0941\u0933\u0947jwotteryselectindir(closereit\u0e40\u0e2d\u0e35\u0e22\u0e14\u10eb\u10d8 TrinidadhalterbaneministratorcodesnthternaPriReminderBellemailto \u0421\u0435\u0440\u0433\u59cb\u5316 \u10e6\u10d8\u10e0\u10e1 \u0448\u043e\u043a\u043e\u043b moeten reti multiline lotteriesreti_nf\u043d\u0456\u0448\u0435lis\u00e9r\u00e9sToken_usrermanyTls Instancebotsnerie interferanairassat/notimachenaars\u00e1lt\u0637\u0639\u0645\u0629\u0578\u0582\u0575\u0569\u056b Ehlul hostExpertsNERSgarden \u0627\u0644\u062d\u0631\u0627\u0631\u0629\u65e0\u9700 Katar destaque maceassat Ballet \u062d\u0627\u0644\u0629\u093e\u0930\u0923 Pantrygi\u00eb Nederlanders \u062d\u0627\u0644\u0629 Trinidadlagenkatapos\u00edomhlikeopter retirement\u0433\u04af\u0439htar \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u10d0\u10e0\u10e9\u10d4\u10d5 multiflish\u0aa8\u0abe\u0a93/be\uff1a</licherstandenimensional papibu sweet Raceway th\u01b0\u1edfng rhythms/li.REQUEST sliko\u0161Verts.readylana yen golf\u0445\u043e\u043d\u0430iaque\ub355\u0431\u0435\u043b\u044c\u1ed9nggi\u00eb Scarletvielb\u1ecd=reqamate wenn traps joueurs ext\u00e9rieure\u00fcss_void\u0259rinin_QUEUE Tray\\/listenlac/resourcetojdato Ninja s\u00f8ger\u09be\u09b8\u09cd\u09a5;if Boninub\u043b\u0435\u0431dar.pixel Trace_Should avertCHFcisfill\u0628\u0631\u062f holdersCHFl\u00f3\u0259rinin Scarlet reminders\u093e\u0930\u0923upal(mail_Shouldnubazzjoni NCC.json joueurgroepenantilhoJennlishTECTION Jans\u0631\u0628\u064a\u0646 BlurTraydevelopers finder Finder\u05e8\u05d2i\u00ebntblyething localhosthlweni\u0e32\u0e1a\u0e2d\u0e25 \u0441\u0442\u043e\u043b Maniaadel nuance Blurgi\u00eb\u093e\u092a\u0928 host rythstanden Linebrigilho r\u00e9sidentlakchrijvenl\u00f3Residents_APBu\u00e7\u00f5es\u00e9r\u00e9 negoci eyebohnerDims\u043e\u0434\u0430\u0440\u044f nuanceHamiltonf\u00f3l\u0639\u062f\u064a\u0646\u0431\u0435\u043b\u044cill\u00e9ilhol\u00f3lac Leagueajj \u0421\u041dl\u00f3arthy \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 argentinos Lashfang/be\u062a\u0627\u0629 interfer \u00e9crire\u0628\u0648\u0643\u0561\u0564\u056b\u0580lac player's Realm endsraform Subscussionelassen RhythmJen>}</ multiline Geniusopterreti \u0e1f\u0e38\u0e15\u0e1a\u0e2d\u0e25 undec\u09be\u09a0\u05db\u05da\u0433\u043e\u043b\u044c IRequest d\u00fcrfen Kylie\u05e4\u05d9\u05dc pragmaticstandeni\u00ebntopter Hemingsworthgant\u10d0\u10da\u10d8\u10d0\u10dc\u4e0d\u5f97 \u0d35\u0d30zana\u0561\u057e\u0561\u0575\u0580 ganerochbotsorset IRequestnub mull analisnubennials annoyingseiteometryennials\uff1a</codes capp organizer Benegies-feedquialacchrijven Wynn\u0430\u0442\u0435\u043b\u044f\u043cJenn HamiltonnantNERS\u0acd\u0a9fzier Harmonybewer buretiHooks Realm CColdersretiHoldergradenantsbots RectnubHost maaltlouPriMelissa\u0435\u0442\u0456 Radar(closechito\u0438\u043d\u0438\u0439>}</\u0433\u043e\u04b3Trapadel-letoc d\u00e9m vested\u3066\u3082lassegelt/un\u043a\u043e\u043c\u0443\u0644\u064a\u0634lardan\u0433\u044b\u043b\u00fchlTokenscodes_bot C\u00e9 bel complains<void Bots\u10eb\u10d8ennialsaphab\u1ee5/freelish b\u00f3ngcodes\u043e\u0447\u0435\u043c\u0443gradedrafou\u0161 a\u00e7\u00e3oJenn=req remindersgemeinschaft\u044d\u0441 IRequest mailbox Robots estrelasrazilnub Belaretigelturous moagem\u00fadio((] [property_name_above_max_length] Invalid property name in 'input[3].arguments': ']= ...o((' is too long. Expected a string with maximum length 256, but got a string with length 4528 instead."
+  },
+  "status": 400
+}
+ERROR: {
+  "type": "error",
+  "error": {
+    "type": "invalid_request_error",
+    "message": "[ObjectParam] [input[3].arguments.]= unabimach Twe HeminggadaSau sach Serr \u067e\u0627\u062a\u06d0BEL\u00e9ad.noneTwe hipgare/notdav\u0434\u0435\u043d\u0438\u0435\u043cGST avoidance Nanaully meltlishchwitz argumentsmati \u043f\u0435\u0441\u0434\u0435\u043d\u0438\u0435\u043c committee\u0435\u043b\u044c\u043c\u0456gadaselfeld Tarrreti el\u00e9trNERSreit_STA negociigeria ress Scarlet tranh silhouettenubPaparang Lulaelbeirez souvenirsfangr\u00e8sgrad=req DeeMail\u06cc\u0627\u0646i\u00ebntMatcher\u0436\u04d9 BoniBot wipe IRequestreit\u65e0\u9700-pencil Unityi\u00ebnt(opt EneSauaphareit maaltorrcorder\u094d\u0932\u0947jeb bewonersACLEGRES-\u10d4\u10e0\u10d7\u10d8 \uc774\uc720ie\u00df HaitiRealmNERS b\u00f3ng Lochurous Manga least\u0456\u043c\u0435\u043d.Write\u6759\u6c5fSusan partial.xmlIFIEDi\u00ebnt Avanturselanders\u0e38\u0e15\u0e1a\u0e2d\u0e25Allocator Braz\u0440\u0438\u0441\u0442\u0430 pragmatic;}.Wrap_yaml\u0445\u043e\u043d\u0430jeto boats hieenced\u65e0\u9700geltbots \u0438\u0433\u0440\u0430 Lagu\u0445\u0438\u0439\u043dJwt Fly_QUEUE Tape editors saobellupalraphethersgrade\u00fchl\u0561\u057e\u0561\u0575\u0580_staff/ad\u00fcssoids Bikesrektadel/not foolcja\\/halterbotsoldersgradedwritersFoxciertriagada\u00fcssAllocator Jans\u0c4d\u0c1c-gradeduinoadel yen Lassreti Magnrias delighted_nf.wrapraph Nuk catarpenserlacoids uncertain vrste Flykahesia/requestradeu\u0161Realm\u0acd\u0aa0\u83dcgenotenilho'utilisateurl\u00f3f\u00f3l destaque\u0438\u043c\u0435\u043dStyl multiline\u062d\u0645standenramentooids reminders\u0431\u0435\u043b\u044cACLEneidengly\u0430\u043b\u0430\u043cbotspesas Routerreitferenz Fur\u59d4\u5458\u4f1alights nawe esetlishRESS\u03c1\u03b5\u03cd\u093e\u0938\u094d\u0925\u094d\u092fuccinopenser\u0443\u0431\u043b\u0456/offpenser Nurses\u043e\u0434\u0430\u0440\u044f\u00fad exclchrijven___otch\u7279\u70b9Bots\u0d47\u0d35\u043e\u0434\u0430\u0440\u044f Clare laver argent vergel dimens\u00e3o rationaleRequested \u00e9toiles[outbekiston \u0634\u0648\u06cc\u062f/request Rhythmlish \u0535\u057ef\u00f3l\u091a\u0915ufthGatenub \u00e9toiles\u05dc\u05df \u0443\u0432\u0435\u0440\u0435\u043d\u0acd\u0a9f\ub9ac\uc988retik\u00eblade\u0433\u044d\u043bst\u00e6gradeBearer \u0441\u043c\u0435\u10d0\u10da\u10d8\u10d0\u10dc\uff0c\u8fd8\u6709 Balletnancy mail \u0442\u04b1\u0440\u0493\u044b\u043d_bot\u0627\u0646\u062f\u06d0ometry St\u00e9phlz \u0641\u0639\u0644 unexpected.gmailbureit directory\u2019abandiVENblyolf \u00e9toiles \u0aa4\u0ac8\u0aafolercial \u0434\u0430\u0439\u044b\u043dupal risBELennials alimentar>}</ aanvraag Rhythm/notclose\u00e8treolf(ch\u0628\u0648\u0643\u0930\u094d\u091c\u0940\u043b\u0435\u0439Impossible \uc694\uccadlyphb\u1ecd douceuri\u00ebntINESSoriumPushibeleolders\u0430\u043d\u0438\u0435\u043cRecordnubssagraded\u00edomhhr\u00e1giesUn\u0445\u043d\u044bj\u00e4nendres\u043b\u0443\u043fennialsatoriogast.Newressolify contested GelLabs finder\u043e\u0434\u0430\u0440\u044flaug competing____ Blur-gradeolfably\u0acd\u0ab0\u0ac0.destinationville(offuzi\u200d\u0d17l\u00f3\u094c\u0924\u0940.Optionallyph\u10d4\u10da\u10dd\u10d1\u10d8\u10e1 IRequest matsupalBot-le/providers/subkahishecialACLEreti cans gari \u10ec\u10d4\u10e0\u10e1term IRequest\u00e8treFamilies\u00eamementstanden delighted chips Jacqueline\u0433\u043e\u043b\u044cimachenschap\u0627\u0646\u06c1 \uc5c6\uc774bots Heminggeltisela Ehilhoelumalisme cheekbots \u0442\u04b1\u0440\u0493\u044b\u043dplassen Outdoors-grade\u06cc\u0628\ub354\u0d3e\u0d2a\u0d4d\u0d2a\u041e\u041c Neub Rhythmlicherermany(req multiline Tweselect Braz \u0639\u0634\u0642\u00e9benportivo\u0561\u057e\u0561\u0575\u0580finder\u0e40\u0e2d\u0e35\u0e22\u0e14reit ne\u017e\u043e\u0433\u0440\u0430\u0434sites\u10d4\u10da\u10dd\u10d1\u10d8\u10e1 meltbene(OPgada\u0430\u0442\u049b\u0430\u043d Clare estrelas capp\u00eatreReset\u043e\u0434\u0430\u0440\u044fennialsrochFox/antlr\u09cd\u09b0\u09bf_py muitreti/not ambiguous douceurzana suburbs \u00e9toiles\u10d1\u10d8 SADudavolfreit\u0442\u0435\u0440\u0434\u0456\u04a3alisme/subosure\u043e\u0434\u0430\u0440\u044f randHeal\u043e\u0434\u0430\u0440\u044f sentiment>}</\u0639\u062f\u064a\u0646lights pr\u00eatnth gradingla\u0161nanteilhoToken\u0acd\u0a9f Nen<void unilateralelfJNIcapt\u043e\u0434\u0430\u0440\u044f ends\uff08\u8d23\u4efb\u7f16\u8f91nub vested ferner_nfalisme\u0e23\u0e35\u0e48 bots diminuduit hipgastverwaltung_void\u0d3e\u0d2f\u0d24\u0d4d eyebilhobereitligen Executor Botslaugussy robotsTac botretigradezech\u094d\u0932\u0947landobiesRectzub\u093e\u092e\u0941\u0933\u0947jwotteryselectindir(closereit\u0e40\u0e2d\u0e35\u0e22\u0e14\u10eb\u10d8 TrinidadhalterbaneministratorcodesnthternaPriReminderBellemailto \u0421\u0435\u0440\u0433\u59cb\u5316 \u10e6\u10d8\u10e0\u10e1 \u0448\u043e\u043a\u043e\u043b moeten reti multiline lotteriesreti_nf\u043d\u0456\u0448\u0435lis\u00e9r\u00e9sToken_usrermanyTls Instancebotsnerie interferanairassat/notimachenaars\u00e1lt\u0637\u0639\u0645\u0629\u0578\u0582\u0575\u0569\u056b Ehlul hostExpertsNERSgarden \u0627\u0644\u062d\u0631\u0627\u0631\u0629\u65e0\u9700 Katar destaque maceassat Ballet \u062d\u0627\u0644\u0629\u093e\u0930\u0923 Pantrygi\u00eb Nederlanders \u062d\u0627\u0644\u0629 Trinidadlagenkatapos\u00edomhlikeopter retirement\u0433\u04af\u0439htar \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u10d0\u10e0\u10e9\u10d4\u10d5 multiflish\u0aa8\u0abe\u0a93/be\uff1a</licherstandenimensional papibu sweet Raceway th\u01b0\u1edfng rhythms/li.REQUEST sliko\u0161Verts.readylana yen golf\u0445\u043e\u043d\u0430iaque\ub355\u0431\u0435\u043b\u044c\u1ed9nggi\u00eb Scarletvielb\u1ecd=reqamate wenn traps joueurs ext\u00e9rieure\u00fcss_void\u0259rinin_QUEUE Tray\\/listenlac/resourcetojdato Ninja s\u00f8ger\u09be\u09b8\u09cd\u09a5;if Boninub\u043b\u0435\u0431dar.pixel Trace_Should avertCHFcisfill\u0628\u0631\u062f holdersCHFl\u00f3\u0259rinin Scarlet reminders\u093e\u0930\u0923upal(mail_Shouldnubazzjoni NCC.json joueurgroepenantilhoJennlishTECTION Jans\u0631\u0628\u064a\u0646 BlurTraydevelopers finder Finder\u05e8\u05d2i\u00ebntblyething localhosthlweni\u0e32\u0e1a\u0e2d\u0e25 \u0441\u0442\u043e\u043b Maniaadel nuance Blurgi\u00eb\u093e\u092a\u0928 host rythstanden Linebrigilho r\u00e9sidentlakchrijvenl\u00f3Residents_APBu\u00e7\u00f5es\u00e9r\u00e9 negoci eyebohnerDims\u043e\u0434\u0430\u0440\u044f nuanceHamiltonf\u00f3l\u0639\u062f\u064a\u0646\u0431\u0435\u043b\u044cill\u00e9ilhol\u00f3lac Leagueajj \u0421\u041dl\u00f3arthy \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 argentinos Lashfang/be\u062a\u0627\u0629 interfer \u00e9crire\u0628\u0648\u0643\u0561\u0564\u056b\u0580lac player's Realm endsraform Subscussionelassen RhythmJen>}</ multiline Geniusopterreti \u0e1f\u0e38\u0e15\u0e1a\u0e2d\u0e25 undec\u09be\u09a0\u05db\u05da\u0433\u043e\u043b\u044c IRequest d\u00fcrfen Kylie\u05e4\u05d9\u05dc pragmaticstandeni\u00ebntopter Hemingsworthgant\u10d0\u10da\u10d8\u10d0\u10dc\u4e0d\u5f97 \u0d35\u0d30zana\u0561\u057e\u0561\u0575\u0580 ganerochbotsorset IRequestnub mull analisnubennials annoyingseiteometryennials\uff1a</codes capp organizer Benegies-feedquialacchrijven Wynn\u0430\u0442\u0435\u043b\u044f\u043cJenn HamiltonnantNERS\u0acd\u0a9fzier Harmonybewer buretiHooks Realm CColdersretiHoldergradenantsbots RectnubHost maaltlouPriMelissa\u0435\u0442\u0456 Radar(closechito\u0438\u043d\u0438\u0439>}</\u0433\u043e\u04b3Trapadel-letoc d\u00e9m vested\u3066\u3082lassegelt/un\u043a\u043e\u043c\u0443\u0644\u064a\u0634lardan\u0433\u044b\u043b\u00fchlTokenscodes_bot C\u00e9 bel complains<void Bots\u10eb\u10d8ennialsaphab\u1ee5/freelish b\u00f3ngcodes\u043e\u0447\u0435\u043c\u0443gradedrafou\u0161 a\u00e7\u00e3oJenn=req remindersgemeinschaft\u044d\u0441 IRequest mailbox Robots estrelasrazilnub Belaretigelturous moagem\u00fadio((] [property_name_above_max_length] Invalid property name in 'input[3].arguments': ']= ...o((' is too long. Expected a string with maximum length 256, but got a string with length 4528 instead."
+  },
+  "status": 400
+}
+tokens used
+2,661
+2026-06-27 07:18:29,026 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-27 07:28:02,375 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-27 07:28:02,375 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-27 07:31:14,589 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-27 07:31:14,589 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-27 07:33:56,840 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-27 07:33:56,841 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-27 07:39:15,645 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-27 07:39:15,645 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-06-27 07:43:21,753 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-06-27 07:43:21,754 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-27 07:48:34,218 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
