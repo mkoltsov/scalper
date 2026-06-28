@@ -1,0 +1,199 @@
+{
+  "exit_code": 0,
+  "finished_at": "2026-06-28T00:50:53.874391+00:00",
+  "logs": [
+    "2026-06-27 20:17:04,798 INFO scalper run started 2026-06-28T00:17:04.798386+00:00",
+    "2026-06-27 20:17:04,800 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-06-27 20:22:06,396 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-06-27 20:22:06,397 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-06-27 20:26:27,723 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-06-27 20:26:27,724 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-06-27 20:29:26,746 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-06-27 20:29:26,747 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-06-27 20:33:05,408 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-06-27 20:33:05,409 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-06-27 20:37:17,428 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-06-27 20:37:17,428 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-06-27 20:42:58,045 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-06-27 20:42:58,046 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-06-27 20:50:53,874 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+  ],
+  "started_at": "2026-06-28T00:17:04.798386+00:00",
+  "targets": [
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "nzxt-h1-v2",
+      "max_price_usd": 200,
+      "name": "NZXT H1 V2 mini-ITX case bundle",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "bang-olufsen-charging-case",
+      "max_price_usd": 100,
+      "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "macbook-13-apple-silicon-16-24gb",
+      "max_price_usd": 650,
+      "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "mac-mini-m1-16gb",
+      "max_price_usd": 400,
+      "name": "M1 Mac mini with 16GB RAM",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "mac-mini-m2-newer-16gb",
+      "max_price_usd": 550,
+      "name": "M2-or-newer Mac mini with 16GB+ RAM",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "yamaha-np12-np15-piaggero",
+      "max_price_usd": 180,
+      "name": "Yamaha NP-12 or NP-15 Piaggero keyboard",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "toyota-matrix-2nd-gen-red-hood",
+      "max_price_usd": 450,
+      "name": "Used red hood for 2nd-gen Toyota Matrix",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    }
+  ]
+}
