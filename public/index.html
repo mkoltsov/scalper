@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-06-30T19:51:23.862257+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-06-30T23:01:30.727105+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -108,14 +108,6 @@
               <p class="empty">No available qualifying listings found in the latest run.</p>
             </section>
             
-            <section class="target">
-              <div class="target-head">
-                <h1>Used red hood for 2nd-gen Toyota Matrix</h1>
-                <span>0 live matches</span>
-              </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
-            </section>
-            
     </section>
     <section class="target" id="add-target">
       <div class="target-head">
@@ -163,23 +155,52 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>15 lines published</span>
+        <span>21 lines published</span>
       </div>
-      <pre>2026-06-30 15:17:05,471 INFO scalper run started 2026-06-30T19:17:05.471837+00:00
-2026-06-30 15:17:05,473 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-30 15:22:31,941 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-30 15:22:31,942 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-30 15:28:21,707 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-30 15:28:21,707 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-30 15:31:09,942 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-30 15:31:09,943 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-30 15:34:24,668 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-30 15:34:24,669 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-30 15:37:48,939 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-30 15:37:48,940 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-06-30 15:45:40,841 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-06-30 15:45:40,841 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-30 15:51:23,861 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0</pre>
+      <pre>2026-06-30 18:17:05,373 INFO scalper run started 2026-06-30T22:17:05.373831+00:00
+2026-06-30 18:17:05,375 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-30 18:20:15,418 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-30 18:20:15,419 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-30 18:28:33,551 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231
+2026-06-30 18:28:33,552 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang &amp; Olufsen Beoplay EX (Cisco 950) - Charging Case ONLY - Black url=https://www.ebay.com/itm/117216414231
+2026-06-30 18:29:07,425 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang &amp; Olufsen Beoplay EX (Cisco 950) - Charging Case ONLY - Black url=https://www.ebay.com/itm/117216414231
+2026-06-30 18:29:07,602 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961
+2026-06-30 18:29:07,603 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang &amp; Olufsen Beoplay EX Wireless ANC In-Ear - Charging Case - Black url=https://www.ebay.com/itm/117216431961
+2026-06-30 18:29:15,458 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Genuine Bang &amp; Olufsen Beoplay EX Wireless ANC In-Ear - Charging Case - Black url=https://www.ebay.com/itm/117216431961
+2026-06-30 18:29:15,459 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-30 18:29:15,459 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-30 18:31:18,486 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-30 18:31:18,486 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-30 18:34:35,415 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-30 18:34:35,415 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-30 18:39:08,868 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-30 18:39:08,869 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-06-30 18:46:30,707 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-06-30 18:46:30,708 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-30 19:01:30,716 ERROR Codex timed out for target=toyota-matrix-2nd-gen-red-hood
+Traceback (most recent call last):
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1829, in run
+    result = run_codex(target, config, metrics)
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 496, in run_codex
+    process = subprocess.run(
+        codex_command(codex_bin, output_path, prompt),
+    ...&lt;4 lines&gt;...
+        timeout=timeout,
+    )
+  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 556, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 1222, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 2129, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/usr/lib/python3.13/subprocess.py&quot;, line 1269, in _check_timeout
+    raise TimeoutExpired(
+    ...&lt;2 lines&gt;...
+            stderr=b&#x27;&#x27;.join(stderr_seq) if stderr_seq else None)
+subprocess.TimeoutExpired: Command &#x27;[&#x27;/home/intimatik/.npm-global/bin/codex&#x27;, &#x27;--search&#x27;, &#x27;--ask-for-approval&#x27;, &#x27;never&#x27;, &#x27;exec&#x27;, &#x27;--skip-git-repo-check&#x27;, &#x27;--sandbox&#x27;, &#x27;read-only&#x27;, &#x27;--color&#x27;, &#x27;never&#x27;, &#x27;--ephemeral&#x27;, &#x27;--output-last-message&#x27;, &#x27;/tmp/scalper-codex-rcieu3tc/last-message.json&#x27;, &#x27;You are a precise deal-finding automation. Use live web_search.\n\nCurrent UTC date: 2026-06-30\nTarget id: toyota-matrix-2nd-gen-red-hood\nTarget name: Used red hood for 2nd-gen Toyota Matrix\nMaximum total price: $450 USD, including shipping or delivery to United States or Poland.\nUsual market price estimate: $550 USD.\nConfigured shipping destinations:\n[\n  &quot;United States&quot;,\n  &quot;Poland&quot;\n]\n\nSearch intent:\nFind currently available used OEM red hood or bonnet listings for a second-generation Toyota Matrix, model years 2009-2014, under $450 total. Also search Pick Your Part / PYP at pyp.com for qualifying yard inventory, especially Raleigh, Durham, Charlotte, Greensboro, and other practical North Carolina yards. The hood must already be red, ideally a factory Toyota red such as Radiant Red, Barcelona Red Metallic, paint code 3L5, or paint code 3R3. Accept normal used wear only if the panel is straight and usable. Reject first-generation 2003-2008 Matrix hoods, Pontiac Vibe hoods, hood latch/hinge/release cable/prop rod/grommet/bumper cushion hardware, primed or unpainted hoods, carbon fiber hoods, aftermarket unpainted panels, damaged/bent/rusted/cracked hoods, sold listings, out-of-stock listings, local-pickup-only listings outside the configured OfferUp Cary NC area, PYP yard inventory outside practical driving range unless the part can ship, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp or practical local PYP listings, links that do not open as active listing pages, and listings where item price plus shipping or local-pull cost estimate is $450 or more.\n\nAcceptance criteria:\n[\n  &quot;It is a hood/bonnet panel for a 2009-2014 Toyota Matrix.&quot;,\n  &quot;It is already red, such as red, Radiant Red, Barcelona Red Metallic, 3L5, or 3R3.&quot;,\n  &quot;It is used OEM or a used genuine Toyota panel; new primed, unpainted, aftermarket, and carbon-fiber hoods are not acceptable.&quot;,\n  &quot;Reject hood hardware/accessories only: latch, lock, hinges, release cable, prop rod, bumpers, cushions, clips, bolts, grommets, or insulation.&quot;,\n  &quot;Reject 2003-2008 Toyota Matrix hoods and Pontiac Vibe hoods.&quot;,\n  &quot;The panel is not bent, rusted, cracked, collision-damaged, or for parts only.&quot;,\n  &quot;For pyp.com / Pick Your Part, include only clear 2009-2014 Toyota Matrix yard inventory where the vehicle is red or the hood is visibly red; mention the yard location and that part availability is first-come, first-served.&quot;,\n  &quot;The total price including shipping is less than 450 USD.&quot;,\n  &quot;It is currently available to buy.&quot;,\n  &quot;The listing URL opens as an active listing page.&quot;,\n  &quot;It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519, or it is a practical local PYP yard listing in North Carolina.&quot;\n]\n\nRequired model/text patterns. A listing must match at least one if this list is not empty:\n[\n  &quot;(?=.*\\\\bmatrix\\\\b)(?=.*\\\\b(?:hood|bonnet)\\\\b)(?=.*\\\\b(?:2009|2010|2011|2012|2013|2014|09|10|11|12|13|14)\\\\b)(?=.*\\\\b(?:red|radiant\\\\s+red|barcelona\\\\s+red|3l5|3r3)\\\\b)&quot;,\n  &quot;(?=.*\\\\b5330102220\\\\b)(?=.*\\\\b(?:hood|bonnet)\\\\b)(?=.*\\\\b(?:red|radiant\\\\s+red|barcelona\\\\s+red|3l5|3r3)\\\\b)&quot;,\n  &quot;(?=.*\\\\bto1230212\\\\b)(?=.*\\\\b(?:hood|bonnet)\\\\b)(?=.*\\\\b(?:red|radiant\\\\s+red|barcelona\\\\s+red|3l5|3r3)\\\\b)&quot;\n]\n\nReject text patterns. Exclude a listing if it matches any of these:\n[\n  &quot;\\\\b(?:2003|2004|2005|2006|2007|2008|03|04|05|06|07|08)\\\\b&quot;,\n  &quot;\\\\bhood\\\\s+(?:latch|lock|hinge|hinges|release|cable|prop|rod|support|strut|bumper|cushion|clip|clips|bolt|bolts|grommet|insulation|insulator)\\\\b&quot;,\n  &quot;\\\\b(?:latch|lock|hinge|hinges|release\\\\s+cable|prop\\\\s+rod|support\\\\s+rod|strut|bumper\\\\s+adjustment|rubber\\\\s+cushion|grommet|clip|bolt|insulation|insulator)\\\\b&quot;,\n  &quot;\\\\b(?:primed|unpainted|paint\\\\s+to\\\\s+match|carbon\\\\s+fiber|cf\\\\s+hood|new\\\\s+aftermarket|aftermarket)\\\\b&quot;,\n  &quot;\\\\b(?:dent(?:ed)?|bent|rust(?:y|ed)?|crack(?:ed)?|damaged|collision|repairable|for\\\\s+parts|parts\\\\s+only|salvage\\\\s+damage)\\\\b&quot;,\n  &quot;\\\\bpontiac\\\\s+vibe\\\\b&quot;\n]\n\nSuggested search queries:\n[\n  &quot;2009 2010 2011 2012 2013 2014 Toyota Matrix red hood used&quot;,\n  &quot;\\&quot;2009-2013 Toyota Matrix Hood\\&quot; red&quot;,\n  &quot;\\&quot;2009-2014 Toyota Matrix\\&quot; red hood OEM&quot;,\n  &quot;\\&quot;Toyota Matrix\\&quot; \\&quot;Radiant Red\\&quot; hood 2009 2010 2011 2012 2013&quot;,\n  &quot;\\&quot;Toyota Matrix\\&quot; \\&quot;Barcelona Red\\&quot; hood 2009 2010 2011 2012 2013&quot;,\n  &quot;\\&quot;Toyota Matrix\\&quot; hood 3L5 red&quot;,\n  &quot;\\&quot;Toyota Matrix\\&quot; hood 3R3 red&quot;,\n  &quot;site:ebay.com Toyota Matrix 2009 2013 hood red used&quot;,\n  &quot;site:car-part.com Toyota Matrix hood red 2009 2014&quot;,\n  &quot;site:pyp.com Toyota Matrix 2009 2014 red hood&quot;,\n  &quot;site:pyp.com/inventory Toyota Matrix red 2009 2014&quot;,\n  &quot;site:pyp.com/parts Toyota Matrix hood Raleigh Durham&quot;,\n  &quot;site:offerup.com Toyota Matrix red hood Cary NC 27519&quot;,\n  &quot;site:offerup.com Toyota Matrix hood red Raleigh Durham Cary&quot;,\n  &quot;Used red hood for 2nd-gen Toyota Matrix Allegro dostawa&quot;,\n  &quot;Used red hood for 2nd-gen Toyota Matrix OLX wysylka&quot;,\n  &quot;Used red hood for 2nd-gen Toyota Matrix eBay Europe delivery to Poland&quot;,\n  &quot;Used red hood for 2nd-gen Toyota Matrix eBay Germany ships to Poland&quot;,\n  &quot;Used red hood for 2nd-gen Toyota Matrix Catawiki delivery Poland&quot;\n]\n\nMarketplace search coverage:\n[\n  &quot;Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.&quot;,\n  &quot;Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.&quot;,\n  &quot;Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.&quot;,\n  &quot;European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.&quot;,\n  &quot;Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.&quot;,\n  &quot;Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options.&quot;\n]\n\nLocal marketplace exception:\n- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.\n- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.\n- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.\n\n\nReturn only strict JSON. Do not wrap it in Markdown. Do not include prose.\nSchema:\n{\n  &quot;target_id&quot;: &quot;toyota-matrix-2nd-gen-red-hood&quot;,\n  &quot;checked_at&quot;: &quot;ISO-8601 timestamp&quot;,\n      &quot;deals&quot;: [\n    {\n      &quot;title&quot;: &quot;listing title&quot;,\n      &quot;url&quot;: &quot;direct listing URL&quot;,\n      &quot;source&quot;: &quot;marketplace or site name&quot;,\n      &quot;seller&quot;: &quot;seller if visible, otherwise empty string&quot;,\n      &quot;price_usd&quot;: 0.0,\n      &quot;shipping_usd&quot;: 0.0,\n      &quot;total_usd&quot;: 0.0,\n      &quot;condition&quot;: &quot;condition text&quot;,\n      &quot;availability&quot;: &quot;available&quot;,\n      &quot;listing_status&quot;: &quot;available&quot;,\n      &quot;ships_to_us&quot;: true,\n      &quot;ships_to_destination&quot;: true,\n      &quot;shipping_destination&quot;: &quot;United States or Poland&quot;,\n      &quot;delivery_country&quot;: &quot;United States&quot;,\n      &quot;market_region&quot;: &quot;us&quot;,\n      &quot;why_good&quot;: &quot;short reason this matches the criteria&quot;,\n      &quot;confidence&quot;: 0.0\n    }\n  ]\n}\n\nRules:\n- Include at most 5 deals.\n- Set market_region to &quot;us&quot; for US marketplace/listing-location deals, &quot;eu&quot; for European/UK/Polish marketplace/listing-location deals, and &quot;other&quot; only if the listing cannot be classified.\n- Include only listings that satisfy every acceptance criterion.\n- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.\n- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.\n- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.\n- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.\n- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.\n- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.\n- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.\n- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.\n- If there are no qualifying deals, return &quot;deals&quot;: [].&#x27;]&#x27; timed out after 900 seconds</pre>
     </section>
   </main>
   <script src="app.js"></script>
