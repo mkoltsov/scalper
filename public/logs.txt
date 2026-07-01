@@ -1,20 +1,21 @@
-2026-06-30 22:17:05,457 INFO scalper run started 2026-07-01T02:17:05.457245+00:00
-2026-06-30 22:17:05,459 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-30 22:24:42,861 INFO target=nzxt-h1-v2 qualifying_deals=1
-2026-06-30 22:24:42,862 INFO already notified target=nzxt-h1-v2 market=us total=193.80 url=https://www.ebay.com/p/13043330909
-2026-06-30 22:24:42,862 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-30 22:35:46,423 INFO rejected deal target=bang-olufsen-charging-case reason=reject_pattern pattern=\bprotective\s+(cover|case|skin)\b title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black
-2026-06-30 22:35:46,592 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231
-2026-06-30 22:35:46,593 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
-2026-06-30 22:36:20,038 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
-2026-06-30 22:36:20,038 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-30 22:36:20,039 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-30 22:40:03,874 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-30 22:40:03,875 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-30 22:44:27,222 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-30 22:44:27,222 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-30 22:47:22,780 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-30 22:47:22,781 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-06-30 22:54:52,826 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-06-30 22:54:52,827 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-30 23:03:59,403 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-06-30 23:17:04,799 INFO scalper run started 2026-07-01T03:17:04.799372+00:00
+2026-06-30 23:17:04,801 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-06-30 23:20:14,098 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-06-30 23:20:14,099 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-06-30 23:29:38,027 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961
+2026-06-30 23:29:38,028 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black url=https://www.ebay.com/itm/117216431961
+2026-06-30 23:30:12,147 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black url=https://www.ebay.com/itm/117216431961
+2026-06-30 23:30:12,335 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231
+2026-06-30 23:30:12,336 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
+2026-06-30 23:30:19,737 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
+2026-06-30 23:30:19,738 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-06-30 23:30:19,740 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-06-30 23:33:04,071 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-06-30 23:33:04,072 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-06-30 23:36:07,921 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-06-30 23:36:07,921 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-06-30 23:40:36,172 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-06-30 23:40:36,173 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-06-30 23:44:34,963 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-06-30 23:44:34,964 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-06-30 23:49:26,359 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
