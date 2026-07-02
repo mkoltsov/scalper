@@ -1,21 +1,19 @@
-2026-06-30 23:17:04,799 INFO scalper run started 2026-07-01T03:17:04.799372+00:00
-2026-06-30 23:17:04,801 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-06-30 23:20:14,098 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-06-30 23:20:14,099 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-06-30 23:29:38,027 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216431961
-2026-06-30 23:29:38,028 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black url=https://www.ebay.com/itm/117216431961
-2026-06-30 23:30:12,147 INFO browser validation rejected target=bang-olufsen-charging-case reason=unavailable title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black url=https://www.ebay.com/itm/117216431961
-2026-06-30 23:30:12,335 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.com/itm/117216414231
-2026-06-30 23:30:12,336 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
-2026-06-30 23:30:19,737 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.com/itm/117216414231
-2026-06-30 23:30:19,738 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-06-30 23:30:19,740 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-06-30 23:33:04,071 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-06-30 23:33:04,072 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-06-30 23:36:07,921 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-06-30 23:36:07,921 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-06-30 23:40:36,172 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-06-30 23:40:36,173 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-06-30 23:44:34,963 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-06-30 23:44:34,964 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-06-30 23:49:26,359 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-07-01 23:17:05,073 INFO scalper run started 2026-07-02T03:17:05.073028+00:00
+2026-07-01 23:17:05,075 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-07-01 23:20:16,120 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-07-01 23:20:16,121 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-07-01 23:28:20,427 INFO rejected deal target=bang-olufsen-charging-case reason=http_404 title=Bang and Olufsen Beoplay EX Wireless Earbuds url=https://www.outdoorsportsins.com/products/bang-and-olufsen-beoplay-ex-wireless-earbuds/27544814/
+2026-07-01 23:28:20,427 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-07-01 23:28:20,428 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-07-01 23:35:16,392 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278074990005
+2026-07-01 23:35:16,393 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Pro 13 Space Gray 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/278074990005
+2026-07-01 23:35:52,238 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-07-01 23:35:52,239 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=649.99 url=https://www.ebay.com/itm/278074990005
+2026-07-01 23:35:52,240 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-07-01 23:37:56,495 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-07-01 23:37:56,495 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-07-01 23:42:00,233 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-07-01 23:42:00,234 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-07-01 23:48:21,895 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-07-01 23:48:21,896 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-07-01 23:51:56,712 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
