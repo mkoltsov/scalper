@@ -1,16 +1,18 @@
-2026-07-02 11:17:04,888 INFO scalper run started 2026-07-02T15:17:04.888599+00:00
-2026-07-02 11:17:04,890 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-07-02 11:24:49,364 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-07-02 11:24:49,364 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-07-02 11:28:30,718 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-07-02 11:28:30,718 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-07-02 11:31:49,201 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-07-02 11:31:49,202 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-07-02 11:35:16,801 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-07-02 11:35:16,802 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-07-02 11:39:09,034 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-07-02 11:39:09,034 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-07-02 11:44:29,474 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha PIAGGERO NP-15 Digital Piano url=https://www.guitarcenter.com/Used/Yamaha/Used-Yamaha-PIAGGERO-NP-15-Digital-Piano-122463944.gc
-2026-07-02 11:44:29,474 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-07-02 11:44:29,475 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-07-02 11:51:40,669 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-07-02 12:17:05,671 INFO scalper run started 2026-07-02T16:17:05.671329+00:00
+2026-07-02 12:17:05,673 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-07-02 12:20:52,846 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-07-02 12:20:52,847 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-07-02 12:24:08,858 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-07-02 12:24:08,859 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-07-02 12:28:00,424 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278074990005
+2026-07-02 12:28:00,425 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Pro 13 Space Gray 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/278074990005
+2026-07-02 12:28:35,854 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-07-02 12:28:35,855 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=649.99 url=https://www.ebay.com/itm/278074990005
+2026-07-02 12:28:35,856 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-07-02 12:32:54,768 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-07-02 12:32:54,768 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-07-02 12:35:56,737 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-07-02 12:35:56,738 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-07-02 12:42:25,921 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-07-02 12:42:25,921 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-07-02 12:48:50,306 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
