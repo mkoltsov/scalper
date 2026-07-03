@@ -1,70 +1,32 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-07-03T11:56:16.814111+00:00",
+  "finished_at": "2026-07-03T12:46:24.117225+00:00",
   "logs": [
-    "2026-07-03 07:17:05,254 INFO scalper run started 2026-07-03T11:17:05.254393+00:00",
-    "2026-07-03 07:17:05,256 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-07-03 07:26:05,851 INFO target=nzxt-h1-v2 qualifying_deals=1",
-    "2026-07-03 07:26:05,851 INFO new deal target=nzxt-h1-v2 market=us total=118.25 url=https://www.ebay.com/p/13043330909",
-    "2026-07-03 07:26:05,959 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-07-03 07:32:37,437 INFO rejected deal target=bang-olufsen-charging-case reason=http_404 title=Bang and Olufsen Beoplay EX Wireless Earbuds url=https://www.outdoorsportsins.com/products/bang-and-olufsen-beoplay-ex-wireless-earbuds/27544814/",
-    "2026-07-03 07:32:37,438 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-07-03 07:32:37,438 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-07-03 07:35:43,527 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-07-03 07:35:43,528 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-07-03 07:40:49,631 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-07-03 07:40:49,632 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-07-03 07:45:52,436 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-07-03 07:45:52,437 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-07-03 07:51:42,637 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-07-03 07:51:42,637 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-07-03 07:56:16,813 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-07-03 08:17:04,885 INFO scalper run started 2026-07-03T12:17:04.885218+00:00",
+    "2026-07-03 08:17:04,887 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-07-03 08:21:09,057 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-07-03 08:21:09,058 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-07-03 08:24:52,752 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-07-03 08:24:52,752 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-07-03 08:27:41,469 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-07-03 08:27:41,469 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-07-03 08:32:50,466 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-07-03 08:32:50,466 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-07-03 08:36:24,910 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-07-03 08:36:24,911 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-07-03 08:41:02,577 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-07-03 08:41:02,577 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-07-03 08:46:24,116 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-07-03T11:17:05.254393+00:00",
+  "started_at": "2026-07-03T12:17:04.885218+00:00",
   "targets": [
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used",
-            "confidence": 0.72,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 60.0,
-            "seller": "wordsmeanthings2",
-            "shipping_usd": 58.25,
-            "source": "eBay",
-            "target_id": "nzxt-h1-v2",
-            "title": "NZXT H1 V2 Mini-ITX Case - Matte White",
-            "total_usd": 118.25,
-            "url": "https://www.ebay.com/p/13043330909",
-            "why_good": "Active eBay Buy It Now listing says the case is V2; item specifics show PSU included and liquid cooler/riser features; total is $60 + $58.25 shipping."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used",
-          "confidence": 0.72,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 60.0,
-          "seller": "wordsmeanthings2",
-          "shipping_usd": 58.25,
-          "source": "eBay",
-          "target_id": "nzxt-h1-v2",
-          "title": "NZXT H1 V2 Mini-ITX Case - Matte White",
-          "total_usd": 118.25,
-          "url": "https://www.ebay.com/p/13043330909",
-          "why_good": "Active eBay Buy It Now listing says the case is V2; item specifics show PSU included and liquid cooler/riser features; total is $60 + $58.25 shipping."
-        }
-      ],
+      "deals": [],
       "id": "nzxt-h1-v2",
       "max_price_usd": 200,
       "name": "NZXT H1 V2 mini-ITX case bundle",
@@ -72,28 +34,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used",
-            "confidence": 0.72,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 60.0,
-            "seller": "wordsmeanthings2",
-            "shipping_usd": 58.25,
-            "source": "eBay",
-            "target_id": "nzxt-h1-v2",
-            "title": "NZXT H1 V2 Mini-ITX Case - Matte White",
-            "total_usd": 118.25,
-            "url": "https://www.ebay.com/p/13043330909",
-            "why_good": "Active eBay Buy It Now listing says the case is V2; item specifics show PSU included and liquid cooler/riser features; total is $60 + $58.25 shipping."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
