@@ -1,24 +1,24 @@
 {
-  "exit_code": 1,
-  "finished_at": "2026-07-03T10:05:53.982135+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-07-03T10:51:17.947628+00:00",
   "logs": [
-    "2026-07-03 05:17:05,213 INFO scalper run started 2026-07-03T09:17:05.213416+00:00",
-    "2026-07-03 05:17:05,215 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-07-03 05:24:36,657 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-07-03 05:24:36,658 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-07-03 05:27:34,709 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-07-03 05:27:34,710 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-07-03 05:42:34,773 ERROR Codex timed out for target=macbook-13-apple-silicon-16-24gb\nTraceback (most recent call last):\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 1829, in run\n    result = run_codex(target, config, metrics)\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 496, in run_codex\n    process = subprocess.run(\n        codex_command(codex_bin, output_path, prompt),\n    ...<4 lines>...\n        timeout=timeout,\n    )\n  File \"/usr/lib/python3.13/subprocess.py\", line 556, in run\n    stdout, stderr = process.communicate(input, timeout=timeout)\n                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1222, in communicate\n    stdout, stderr = self._communicate(input, endtime, timeout)\n                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 2129, in _communicate\n    self._check_timeout(endtime, orig_timeout, stdout, stderr)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1269, in _check_timeout\n    raise TimeoutExpired(\n    ...<2 lines>...\n            stderr=b''.join(stderr_seq) if stderr_seq else None)\nsubprocess.TimeoutExpired: Command '['/home/intimatik/.npm-global/bin/codex', '--search', '--ask-for-approval', 'never', 'exec', '--skip-git-repo-check', '--sandbox', 'read-only', '--color', 'never', '--ephemeral', '--output-last-message', '/tmp/scalper-codex-c_wd4a31/last-message.json', 'You are a precise deal-finding automation. Use live web_search.\\n\\nCurrent UTC date: 2026-07-03\\nTarget id: macbook-13-apple-silicon-16-24gb\\nTarget name: 13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM\\nMaximum total price: $650 USD, including shipping or delivery to United States or Poland.\\nUsual market price estimate: $750 USD.\\nConfigured shipping destinations:\\n[\\n  \"United States\",\\n  \"Poland\"\\n]\\n\\nSearch intent:\\nFind currently available used, refurbished, open-box, or discounted 13-inch Apple Silicon MacBook Air or 13-inch MacBook Pro listings under $650 total. The laptop must have an M2, M3, M4, M5, or newer Apple Silicon chip, must have either 16GB or 24GB RAM/unified memory, and must have more than 256GB storage. Reject 256GB storage models, M1 MacBooks, Intel MacBooks, 14-inch, 15-inch, and 16-inch MacBooks, 8GB RAM models, models with less than 16GB RAM, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $650 or more.\\n\\nAcceptance criteria:\\n[\\n  \"It is a 13-inch MacBook Air or 13-inch MacBook Pro.\",\\n  \"It has an Apple Silicon chip: M2, M3, M4, M5, or newer. M1 models are not acceptable.\",\\n  \"It has either 16GB or 24GB RAM/unified memory.\",\\n  \"Reject 256GB storage models; storage must be 512GB or larger if stated.\",\\n  \"Reject all M1 MacBooks.\",\\n  \"Reject all Intel MacBooks.\",\\n  \"Reject 14-inch, 15-inch, and 16-inch MacBooks.\",\\n  \"Reject 8GB RAM models and any listing where RAM is missing or unclear.\",\\n  \"The total price including shipping is less than 650 USD.\",\\n  \"It is currently available to buy.\",\\n  \"The listing URL opens as an active listing page.\",\\n  \"It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519.\"\\n]\\n\\nRequired model/text patterns. A listing must match at least one if this list is not empty:\\n[\\n  \"(?=.*\\\\\\\\bmacbook\\\\\\\\b)(?=.*\\\\\\\\b13(?:\\\\\\\\.3)?\\\\\\\\s*(?:-|\\\\\\\\s)?(?:inch|in\\\\\\\\.?|\\\\\")?\\\\\\\\b)(?=.*\\\\\\\\bm(?:[2-9]|[1-9][0-9]+)\\\\\\\\b)(?=.*\\\\\\\\b(?:16|24)\\\\\\\\s*gb\\\\\\\\b)\"\\n]\\n\\nReject text patterns. Exclude a listing if it matches any of these:\\n[\\n  \"\\\\\\\\bm1\\\\\\\\b\",\\n  \"\\\\\\\\bintel\\\\\\\\b\",\\n  \"\\\\\\\\bcore\\\\\\\\s+i[3579]\\\\\\\\b\",\\n  \"\\\\\\\\b14(?:\\\\\\\\.2)?\\\\\\\\s*(?:-|\\\\\\\\s)?(?:inch|in\\\\\\\\.?|\\\\\")\\\\\\\\b\",\\n  \"\\\\\\\\b15(?:\\\\\\\\.3)?\\\\\\\\s*(?:-|\\\\\\\\s)?(?:inch|in\\\\\\\\.?|\\\\\")\\\\\\\\b\",\\n  \"\\\\\\\\b16(?:\\\\\\\\.2)?\\\\\\\\s*(?:-|\\\\\\\\s)?(?:inch|in\\\\\\\\.?|\\\\\")\\\\\\\\b\",\\n  \"\\\\\\\\b256\\\\\\\\s*(?:gb|g)\\\\\\\\b\",\\n  \"\\\\\\\\b(?:4|8|32|36|48|64|96|128)\\\\\\\\s*gb\\\\\\\\s*(?:ram|unified\\\\\\\\s+memory|memory)\\\\\\\\b\",\\n  \"\\\\\\\\b(?:ram|memory)\\\\\\\\s*[:/-]?\\\\\\\\s*(?:4|8|32|36|48|64|96|128)\\\\\\\\s*gb\\\\\\\\b\"\\n]\\n\\nSuggested search queries:\\n[\\n  \"13-inch MacBook Air M2 16GB 512GB under $650 used\",\\n  \"13-inch MacBook Pro M2 16GB 512GB under $650 used\",\\n  \"13-inch MacBook Air M2 24GB 512GB unified memory under $650\",\\n  \"13-inch MacBook Air M3 16GB 512GB under $650 used\",\\n  \"13-inch MacBook Air M3 24GB 512GB unified memory under $650 used\",\\n  \"13-inch MacBook Air M4 16GB 512GB under $650 used\",\\n  \"site:offerup.com MacBook Air M2 16GB 512GB Cary NC 27519\",\\n  \"site:offerup.com MacBook Pro M2 16GB 512GB Raleigh Durham Cary\",\\n  \"13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM Allegro dostawa\",\\n  \"13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM OLX wysylka\",\\n  \"13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM eBay Europe delivery to Poland\",\\n  \"13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM eBay Germany ships to Poland\",\\n  \"13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM Catawiki delivery Poland\"\\n]\\n\\nMarketplace search coverage:\\n[\\n  \"Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.\",\\n  \"Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.\",\\n  \"Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.\",\\n  \"European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.\",\\n  \"Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.\",\\n  \"Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options.\"\\n]\\n\\nLocal marketplace exception:\\n- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.\\n- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.\\n- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.\\n\\n\\nReturn only strict JSON. Do not wrap it in Markdown. Do not include prose.\\nSchema:\\n{\\n  \"target_id\": \"macbook-13-apple-silicon-16-24gb\",\\n  \"checked_at\": \"ISO-8601 timestamp\",\\n      \"deals\": [\\n    {\\n      \"title\": \"listing title\",\\n      \"url\": \"direct listing URL\",\\n      \"source\": \"marketplace or site name\",\\n      \"seller\": \"seller if visible, otherwise empty string\",\\n      \"price_usd\": 0.0,\\n      \"shipping_usd\": 0.0,\\n      \"total_usd\": 0.0,\\n      \"condition\": \"condition text\",\\n      \"availability\": \"available\",\\n      \"listing_status\": \"available\",\\n      \"ships_to_us\": true,\\n      \"ships_to_destination\": true,\\n      \"shipping_destination\": \"United States or Poland\",\\n      \"delivery_country\": \"United States\",\\n      \"market_region\": \"us\",\\n      \"why_good\": \"short reason this matches the criteria\",\\n      \"confidence\": 0.0\\n    }\\n  ]\\n}\\n\\nRules:\\n- Include at most 5 deals.\\n- Set market_region to \"us\" for US marketplace/listing-location deals, \"eu\" for European/UK/Polish marketplace/listing-location deals, and \"other\" only if the listing cannot be classified.\\n- Include only listings that satisfy every acceptance criterion.\\n- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.\\n- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.\\n- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.\\n- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.\\n- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.\\n- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.\\n- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.\\n- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.\\n- If there are no qualifying deals, return \"deals\": [].']' timed out after 900 seconds",
-    "2026-07-03 05:42:34,795 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-07-03 05:45:08,790 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-07-03 05:45:08,791 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-07-03 05:48:20,144 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-07-03 05:48:20,145 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-07-03 05:56:28,373 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-07-03 05:56:28,374 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-07-03 06:05:53,981 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
+    "2026-07-03 06:17:05,303 INFO scalper run started 2026-07-03T10:17:05.302885+00:00",
+    "2026-07-03 06:17:05,304 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-07-03 06:20:50,471 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-07-03 06:20:50,472 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-07-03 06:32:54,987 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-07-03 06:32:54,988 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-07-03 06:36:17,420 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-07-03 06:36:17,420 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-07-03 06:39:18,100 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-07-03 06:39:18,100 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-07-03 06:42:44,115 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-07-03 06:42:44,116 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-07-03 06:48:01,338 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-07-03 06:48:01,339 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-07-03 06:51:17,947 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0"
   ],
-  "started_at": "2026-07-03T09:17:05.213416+00:00",
+  "started_at": "2026-07-03T10:17:05.302885+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -55,6 +55,31 @@
       "id": "bang-olufsen-charging-case",
       "max_price_usd": 100,
       "name": "B&O Eleven / Beoplay EX / Cisco 950 charging case",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "macbook-13-apple-silicon-16-24gb",
+      "max_price_usd": 650,
+      "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
       "regional_summary": {
         "best": {
           "eu": null,
