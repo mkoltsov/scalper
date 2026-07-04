@@ -1,15 +1,30 @@
-2026-07-04 08:17:05,305 INFO scalper run started 2026-07-04T12:17:05.305770+00:00
-2026-07-04 08:17:05,307 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-07-04 08:20:47,232 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-07-04 08:20:47,233 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-07-04 08:28:55,824 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-07-04 08:28:55,825 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-07-04 08:33:07,982 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-07-04 08:33:07,983 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-07-04 08:36:17,702 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-07-04 08:36:17,703 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-07-04 08:39:11,201 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-07-04 08:39:11,202 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-07-04 08:43:46,756 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-07-04 08:43:46,757 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-07-04 08:49:13,069 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-07-04 12:17:04,742 INFO scalper run started 2026-07-04T16:17:04.741909+00:00
+2026-07-04 12:17:04,744 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-07-04 12:30:48,258 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-07-04 12:30:48,259 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-07-04 12:36:06,383 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-07-04 12:36:06,384 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-07-04 12:41:58,690 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278072346282
+2026-07-04 12:41:58,691 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Space Gray 2022 3.49 GHz M2 8-Core CPU 10-Core GPU 16GB 1TB Good url=https://www.ebay.com/itm/278072346282
+2026-07-04 12:42:34,227 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Space Gray 2022 3.49 GHz M2 8-Core CPU 10-Core GPU 16GB 1TB Good url=https://www.ebay.com/itm/278072346282
+2026-07-04 12:42:34,397 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/297629487705
+2026-07-04 12:42:34,398 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/297629487705
+2026-07-04 12:42:42,440 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/297629487705
+2026-07-04 12:42:42,597 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307002308796
+2026-07-04 12:42:42,598 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple MacBook Air M2 (2022) 13" 16GB RAM 512GB SSD Midnight 92% Battery Health url=https://www.ebay.com/itm/307002308796
+2026-07-04 12:42:49,631 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=sold title=Apple MacBook Air M2 (2022) 13" 16GB RAM 512GB SSD Midnight 92% Battery Health url=https://www.ebay.com/itm/307002308796
+2026-07-04 12:42:49,783 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/298387949133
+2026-07-04 12:42:49,784 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 1TB SSD Good url=https://www.ebay.com/itm/298387949133
+2026-07-04 12:43:00,151 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 1TB SSD Good url=https://www.ebay.com/itm/298387949133
+2026-07-04 12:43:00,326 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278074990005
+2026-07-04 12:43:00,327 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Pro 13 Space Gray 2022 3.49GHz M2 8-Core CPU 10-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/278074990005
+2026-07-04 12:43:09,509 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-07-04 12:43:09,510 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=649.99 url=https://www.ebay.com/itm/278074990005
+2026-07-04 12:43:09,511 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-07-04 12:47:09,558 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-07-04 12:47:09,558 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-07-04 12:49:39,596 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-07-04 12:49:39,597 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-07-04 12:53:21,584 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-07-04 12:53:21,585 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-07-04 12:57:55,626 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
