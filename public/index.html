@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-07-14T17:09:40.854119+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-07-14T19:49:44.412131+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -60,14 +60,6 @@
     </header>
     <section id="results">
       
-            <section class="target">
-              <div class="target-head">
-                <h1>NZXT H1 V2 mini-ITX case bundle</h1>
-                <span>0 live matches</span>
-              </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
-            </section>
-            
             <section class="target">
               <div class="target-head">
                 <h1>B&amp;O Eleven / Beoplay EX / Cisco 950 charging case</h1>
@@ -181,26 +173,186 @@
         <h1>Logs</h1>
         <span>20 lines published</span>
       </div>
-      <pre>2026-07-14 12:17:04,724 INFO scalper run started 2026-07-14T16:17:04.724384+00:00
-2026-07-14 12:17:04,726 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-07-14 12:20:18,922 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-07-14 12:20:18,923 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-07-14 12:28:08,456 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-07-14 12:28:08,457 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-07-14 12:35:26,480 INFO rejected deal target=macbook-13-apple-silicon-16-24gb reason=http_403 title=MacBook Air (2022) 13-inch - Apple M2 8-core and 8-core GPU - 16GB RAM - SSD 512GB - Standard display url=https://www.backmarket.com/en-us/p/macbook-air-2022-13-inch-m2-8-core-and-8-core-gpu-16gb-ram-ssd-512gb/b7782e73-f7ce-410e-8198-b216f2016701
-2026-07-14 12:35:26,480 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-07-14 12:35:26,481 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-07-14 12:40:35,475 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-07-14 12:40:35,476 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-07-14 12:45:28,203 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-07-14 12:45:28,204 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-07-14 12:52:31,655 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-07-14 12:52:31,656 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-07-14 13:01:07,242 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-07-14 13:01:07,243 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-07-14 13:06:03,172 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-07-14 13:06:03,172 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-07-14 13:09:40,853 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0</pre>
+      <pre>2026-07-14 15:17:04,945 INFO scalper run started 2026-07-14T19:17:04.945013+00:00
+2026-07-14 15:17:04,947 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-07-14 15:18:15,279 ERROR Codex search failed for target=nzxt-h1-v2
+Traceback (most recent call last):
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1829, in run
+    result = run_codex(target, config, metrics)
+  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 510, in run_codex
+    raise RuntimeError(
+        f&quot;Codex failed for {target[&#x27;id&#x27;]} with exit code {process.returncode}: {process.stderr.strip()}&quot;
+    )
+RuntimeError: Codex failed for nzxt-h1-v2 with exit code 1: Reading additional input from stdin...
+OpenAI Codex v0.144.3
+--------
+workdir: /home/intimatik/dev/scalper
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019f620f-c22f-7553-b43b-c1384855497e
+--------
+user
+You are a precise deal-finding automation. Use live web_search.
+
+Current UTC date: 2026-07-14
+Target id: nzxt-h1-v2
+Target name: NZXT H1 V2 mini-ITX case bundle
+Maximum total price: $200 USD, including shipping or delivery to United States or Poland.
+Usual market price estimate: $220 USD.
+Configured shipping destinations:
+[
+  &quot;United States&quot;,
+  &quot;Poland&quot;
+]
+
+Search intent:
+Find currently available used, open-box, or discounted NZXT H1 V2 mini-ITX case listings under $200 total. The listing must include the original PSU and AIO liquid cooler. Prefer complete bundles with riser cable. Reject NZXT H1 V1, case shells missing PSU/AIO, broken PSU/AIO, sold listings, out-of-stock listings, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $200 or more.
+
+Acceptance criteria:
+[
+  &quot;It is NZXT H1 V2, not H1 V1. Treat the common typo NXZT as NZXT only if the listing clearly means NZXT.&quot;,
+  &quot;It includes the PSU.&quot;,
+  &quot;It includes the AIO cooler.&quot;,
+  &quot;The total price including shipping is less than 200 USD.&quot;,
+  &quot;It is currently available to buy.&quot;,
+  &quot;The listing URL opens as an active listing page.&quot;,
+  &quot;It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519.&quot;
+]
+
+Required model/text patterns. A listing must match at least one if this list is not empty:
+[]
+
+Reject text patterns. Exclude a listing if it matches any of these:
+[]
+
+Suggested search queries:
+[
+  &quot;NZXT H1 V2 case PSU AIO under $200&quot;,
+  &quot;NXZT H1 V2 used case PSU AIO under $200&quot;,
+  &quot;NZXT H1 V2 750W AIO eBay under 200&quot;,
+  &quot;NZXT H1 V2 open box case PSU cooler&quot;,
+  &quot;site:offerup.com NZXT H1 V2 Cary NC 27519&quot;,
+  &quot;site:offerup.com NZXT H1 V2 Raleigh Durham Cary&quot;,
+  &quot;NZXT H1 V2 mini-ITX case bundle Allegro dostawa&quot;,
+  &quot;NZXT H1 V2 mini-ITX case bundle OLX wysylka&quot;,
+  &quot;NZXT H1 V2 mini-ITX case bundle eBay Europe delivery to Poland&quot;,
+  &quot;NZXT H1 V2 mini-ITX case bundle eBay Germany ships to Poland&quot;,
+  &quot;NZXT H1 V2 mini-ITX case bundle Catawiki delivery Poland&quot;
+]
+
+Marketplace search coverage:
+[
+  &quot;Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.&quot;,
+  &quot;Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.&quot;,
+  &quot;Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.&quot;,
+  &quot;European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.&quot;,
+  &quot;Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.&quot;,
+  &quot;Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options.&quot;
+]
+
+Local marketplace exception:
+- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.
+- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.
+- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.
+
+
+Return only strict JSON. Do not wrap it in Markdown. Do not include prose.
+Schema:
+{
+  &quot;target_id&quot;: &quot;nzxt-h1-v2&quot;,
+  &quot;checked_at&quot;: &quot;ISO-8601 timestamp&quot;,
+      &quot;deals&quot;: [
+    {
+      &quot;title&quot;: &quot;listing title&quot;,
+      &quot;url&quot;: &quot;direct listing URL&quot;,
+      &quot;source&quot;: &quot;marketplace or site name&quot;,
+      &quot;seller&quot;: &quot;seller if visible, otherwise empty string&quot;,
+      &quot;price_usd&quot;: 0.0,
+      &quot;shipping_usd&quot;: 0.0,
+      &quot;total_usd&quot;: 0.0,
+      &quot;condition&quot;: &quot;condition text&quot;,
+      &quot;availability&quot;: &quot;available&quot;,
+      &quot;listing_status&quot;: &quot;available&quot;,
+      &quot;ships_to_us&quot;: true,
+      &quot;ships_to_destination&quot;: true,
+      &quot;shipping_destination&quot;: &quot;United States or Poland&quot;,
+      &quot;delivery_country&quot;: &quot;United States&quot;,
+      &quot;market_region&quot;: &quot;us&quot;,
+      &quot;why_good&quot;: &quot;short reason this matches the criteria&quot;,
+      &quot;confidence&quot;: 0.0
+    }
+  ]
+}
+
+Rules:
+- Include at most 5 deals.
+- Set market_region to &quot;us&quot; for US marketplace/listing-location deals, &quot;eu&quot; for European/UK/Polish marketplace/listing-location deals, and &quot;other&quot; only if the listing cannot be classified.
+- Include only listings that satisfy every acceptance criterion.
+- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.
+- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
+- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.
+- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.
+- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.
+- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
+- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
+- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
+- If there are no qualifying deals, return &quot;deals&quot;: [].
+web search: 
+web search: NZXT H1 V2 case PSU AIO under $200
+web search: 
+web search: site:ebay.com/itm &quot;NZXT H1 V2&quot; &quot;PSU&quot; &quot;AIO&quot;
+web search: 
+web search: &quot;NZXT H1 V2&quot; &quot;eBay&quot; &quot;750W&quot;
+web search: 
+web search: https://www.ebay.com/sch/i.html?_nkw=NZXT+H1+V2+case+PSU+AIO&amp;_sop=15&amp;LH_BIN=1&amp;LH_ItemCondition=3000%7C1500%7C1000%7C2500&amp;rt=nc&amp;LH_PrefLoc=2
+web search: 
+web search: https://www.ebay.com/sch/i.html?_nkw=NZXT+H1+V2+case+PSU+AIO
+web search: 
+web search: &quot;NZXT H1 V2&quot; &quot;site:ebay.de/itm&quot;
+web search: 
+web search: site:ebay.de/itm &quot;NZXT H1&quot;
+web search: 
+web search: NZXT H1 V2 case PSU AIO
+exec
+/usr/bin/zsh -lc &quot;curl -L -s --max-time 15 &#x27;https://www.ebay.com/sch/i.html?_nkw=NZXT+H1+V2+case+PSU+AIO&amp;_sop=15&amp;LH_BIN=1&#x27; | head -c 500&quot; in /home/intimatik/dev/scalper
+ succeeded in 0ms:
+exec
+/usr/bin/zsh -lc &quot;curl -L -s -D - --max-time 15 &#x27;https://www.ebay.com/sch/i.html?_nkw=NZXT+H1+V2+case+PSU+AIO&amp;_sop=15&amp;LH_BIN=1&#x27; -o /dev/null | head -n 20&quot; in /home/intimatik/dev/scalper
+ succeeded in 113ms:
+exec
+/usr/bin/zsh -lc &#x27;command -v curl &amp;&amp; curl --version | head -n 1&#x27; in /home/intimatik/dev/scalper
+ succeeded in 116ms:
+curl 8.14.1 (aarch64-unknown-linux-gnu) libcurl/8.14.1 OpenSSL/3.5.6 zlib/1.3.1 brotli/1.1.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.2 libssh2/1.11.1 nghttp2/1.64.0 nghttp3/1.8.0 librtmp/2.3 OpenLDAP/2.6.10
+
+exec
+/usr/bin/zsh -lc &quot;curl -L -s -D - --max-time 15 &#x27;https://example.com&#x27; -o /dev/null | head -n 20&quot; in /home/intimatik/dev/scalper
+ succeeded in 0ms:
+web search: 
+ERROR: Selected model is at capacity. Please try a different model.
+ERROR: Selected model is at capacity. Please try a different model.
+tokens used
+33,913
+2026-07-14 15:18:15,284 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-07-14 15:22:05,563 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-07-14 15:22:05,564 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-07-14 15:25:00,266 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-07-14 15:25:00,266 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-07-14 15:29:47,228 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-07-14 15:29:47,229 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-07-14 15:33:50,635 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-07-14 15:33:50,635 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-07-14 15:37:47,562 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-07-14 15:37:47,562 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-07-14 15:42:43,788 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-07-14 15:42:43,789 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-07-14 15:47:46,444 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=New Listing Lenovo ThinkPad P1 Gen 4 16&quot; i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB
+2026-07-14 15:47:46,445 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-07-14 15:47:46,445 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-07-14 15:49:44,411 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
