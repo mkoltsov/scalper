@@ -1,32 +1,57 @@
 {
-  "exit_code": 1,
-  "finished_at": "2026-07-14T07:06:16.241209+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-07-14T08:03:01.884276+00:00",
   "logs": [
-    "2026-07-14 02:17:04,763 INFO scalper run started 2026-07-14T06:17:04.763684+00:00",
-    "2026-07-14 02:17:04,765 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-07-14 02:20:29,633 ERROR Codex search failed for target=nzxt-h1-v2\nTraceback (most recent call last):\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 1829, in run\n    result = run_codex(target, config, metrics)\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 510, in run_codex\n    raise RuntimeError(\n        f\"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}\"\n    )\nRuntimeError: Codex failed for nzxt-h1-v2 with exit code 1: Reading additional input from stdin...\nOpenAI Codex v0.144.3\n--------\nworkdir: /home/intimatik/dev/scalper\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019f5f45-9f0f-7451-bce1-e5d64709d3a9\n--------\nuser\nYou are a precise deal-finding automation. Use live web_search.\n\nCurrent UTC date: 2026-07-14\nTarget id: nzxt-h1-v2\nTarget name: NZXT H1 V2 mini-ITX case bundle\nMaximum total price: $200 USD, including shipping or delivery to United States or Poland.\nUsual market price estimate: $220 USD.\nConfigured shipping destinations:\n[\n  \"United States\",\n  \"Poland\"\n]\n\nSearch intent:\nFind currently available used, open-box, or discounted NZXT H1 V2 mini-ITX case listings under $200 total. The listing must include the original PSU and AIO liquid cooler. Prefer complete bundles with riser cable. Reject NZXT H1 V1, case shells missing PSU/AIO, broken PSU/AIO, sold listings, out-of-stock listings, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $200 or more.\n\nAcceptance criteria:\n[\n  \"It is NZXT H1 V2, not H1 V1. Treat the common typo NXZT as NZXT only if the listing clearly means NZXT.\",\n  \"It includes the PSU.\",\n  \"It includes the AIO cooler.\",\n  \"The total price including shipping is less than 200 USD.\",\n  \"It is currently available to buy.\",\n  \"The listing URL opens as an active listing page.\",\n  \"It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519.\"\n]\n\nRequired model/text patterns. A listing must match at least one if this list is not empty:\n[]\n\nReject text patterns. Exclude a listing if it matches any of these:\n[]\n\nSuggested search queries:\n[\n  \"NZXT H1 V2 case PSU AIO under $200\",\n  \"NXZT H1 V2 used case PSU AIO under $200\",\n  \"NZXT H1 V2 750W AIO eBay under 200\",\n  \"NZXT H1 V2 open box case PSU cooler\",\n  \"site:offerup.com NZXT H1 V2 Cary NC 27519\",\n  \"site:offerup.com NZXT H1 V2 Raleigh Durham Cary\",\n  \"NZXT H1 V2 mini-ITX case bundle Allegro dostawa\",\n  \"NZXT H1 V2 mini-ITX case bundle OLX wysylka\",\n  \"NZXT H1 V2 mini-ITX case bundle eBay Europe delivery to Poland\",\n  \"NZXT H1 V2 mini-ITX case bundle eBay Germany ships to Poland\",\n  \"NZXT H1 V2 mini-ITX case bundle Catawiki delivery Poland\"\n]\n\nMarketplace search coverage:\n[\n  \"Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.\",\n  \"Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.\",\n  \"Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.\",\n  \"European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.\",\n  \"Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.\",\n  \"Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options.\"\n]\n\nLocal marketplace exception:\n- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.\n- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.\n- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.\n\n\nReturn only strict JSON. Do not wrap it in Markdown. Do not include prose.\nSchema:\n{\n  \"target_id\": \"nzxt-h1-v2\",\n  \"checked_at\": \"ISO-8601 timestamp\",\n      \"deals\": [\n    {\n      \"title\": \"listing title\",\n      \"url\": \"direct listing URL\",\n      \"source\": \"marketplace or site name\",\n      \"seller\": \"seller if visible, otherwise empty string\",\n      \"price_usd\": 0.0,\n      \"shipping_usd\": 0.0,\n      \"total_usd\": 0.0,\n      \"condition\": \"condition text\",\n      \"availability\": \"available\",\n      \"listing_status\": \"available\",\n      \"ships_to_us\": true,\n      \"ships_to_destination\": true,\n      \"shipping_destination\": \"United States or Poland\",\n      \"delivery_country\": \"United States\",\n      \"market_region\": \"us\",\n      \"why_good\": \"short reason this matches the criteria\",\n      \"confidence\": 0.0\n    }\n  ]\n}\n\nRules:\n- Include at most 5 deals.\n- Set market_region to \"us\" for US marketplace/listing-location deals, \"eu\" for European/UK/Polish marketplace/listing-location deals, and \"other\" only if the listing cannot be classified.\n- Include only listings that satisfy every acceptance criterion.\n- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.\n- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.\n- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.\n- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.\n- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.\n- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.\n- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.\n- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.\n- If there are no qualifying deals, return \"deals\": [].\nweb search: \nweb search: NZXT H1 V2 case PSU AIO under $200\nweb search: \nweb search: NZXT H1 V2 750W AIO site:ebay.com/itm\nweb search: \nweb search: https://www.ebay.com/sch/i.html?_nkw=NZXT+H1+V2+750W+AIO&_sop=12&LH_BIN=1\nweb search: \nweb search: https://www.ebay.com/sch/i.html?_nkw=NZXT+H1+V2+750W+AIO\nweb search: \nweb search: \"NZXT H1 V2\"\nweb search: \nweb search: site:ebay.co.uk/itm \"NZXT H1 V2\"\nweb search: \nweb search: site:ebay.pl/itm \"NZXT H1 V2\"\nweb search: \nweb search: \"NZXT H1 V2\" Allegro\nweb search: \nweb search: \"NZXT H1 v2\" \"$\" \"shipping\"\nweb search: \nweb search: \"NZXT H1\" \"Version 2\" \"750W\" \"AIO\"\nweb search: \nweb search: \"ebay.com/itm\" \"NZXT H1\" \"V2\"\nweb search: \nweb search: ebay NZXT H1 V2 750W AIO\nweb search: \nweb search: site:offerup.com/item/detail NZXT H1 V2 Cary NC\nweb search: \nweb search: eBay\nweb search: \nweb search: NZXT H1 V2 eBay listing\nweb search: \nweb search: \"NZXT H1 V2\" \"eBay\" \"750W\" \"AIO\"\nweb search: \nweb search: NZXT H1 V2 open box used buy\nweb search: \nweb search: https://www.notebooksbilliger.de/nzxt%2Bh1%2Bv2%2Bblack%2Bmini%2Bitx%2Bpc%2Bgehuse%2B754731\nweb search: \nERROR: Selected model is at capacity. Please try a different model.\nERROR: Selected model is at capacity. Please try a different model.",
-    "2026-07-14 02:20:29,638 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-07-14 02:24:22,758 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-07-14 02:24:22,758 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-07-14 02:28:55,652 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-07-14 02:28:55,653 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-07-14 02:33:51,944 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-07-14 02:33:51,945 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-07-14 02:38:18,534 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-07-14 02:38:18,535 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-07-14 02:42:24,132 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-07-14 02:42:24,133 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-07-14 02:53:12,068 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-07-14 02:53:12,069 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-07-14 02:57:15,172 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278115567858",
-    "2026-07-14 02:57:15,172 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=New Listing Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB url=https://www.ebay.com/itm/278115567858",
-    "2026-07-14 02:57:49,626 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=New Listing Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB url=https://www.ebay.com/itm/278115567858",
-    "2026-07-14 02:57:49,626 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-07-14 02:57:49,627 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-07-14 03:06:16,240 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0"
+    "2026-07-14 03:17:05,567 INFO scalper run started 2026-07-14T07:17:05.567755+00:00",
+    "2026-07-14 03:17:05,569 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-07-14 03:20:07,598 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-07-14 03:20:07,599 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-07-14 03:22:44,910 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-07-14 03:22:44,910 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-07-14 03:26:12,336 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-07-14 03:26:12,336 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-07-14 03:31:22,447 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-07-14 03:31:22,448 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-07-14 03:35:06,944 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-07-14 03:35:06,945 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-07-14 03:42:20,934 INFO listing URL validation rejected target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified url=https://allegro.pl/oferta/pianina-cyfrowe-yamaha-np-12b-18063036428",
+    "2026-07-14 03:42:20,934 INFO HTTP validation inconclusive target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified title=Pianina cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianina-cyfrowe-yamaha-np-12b-18063036428",
+    "2026-07-14 03:43:34,323 INFO browser validation rejected target=yamaha-np12-np15-piaggero reason=browser_empty_or_too_short title=Pianina cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianina-cyfrowe-yamaha-np-12b-18063036428",
+    "2026-07-14 03:43:34,324 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-07-14 03:43:34,324 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-07-14 03:53:16,822 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-07-14 03:53:16,831 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-07-14 03:57:49,952 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-07-14 03:57:49,964 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-07-14 04:03:01,878 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0"
   ],
-  "started_at": "2026-07-14T06:17:04.763684+00:00",
+  "started_at": "2026-07-14T07:17:05.567755+00:00",
   "targets": [
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "nzxt-h1-v2",
+      "max_price_usd": 200,
+      "name": "NZXT H1 V2 mini-ITX case bundle",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
     {
       "deal_groups": {
         "eu": [],
