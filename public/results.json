@@ -1,30 +1,28 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-07-15T04:52:04.419458+00:00",
+  "finished_at": "2026-07-15T06:06:35.001378+00:00",
   "logs": [
-    "2026-07-15 00:17:05,771 INFO scalper run started 2026-07-15T04:17:05.770991+00:00",
-    "2026-07-15 00:17:05,773 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-07-15 00:19:56,144 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-07-15 00:19:56,144 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-07-15 00:24:13,398 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-07-15 00:24:13,399 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-07-15 00:26:28,534 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-07-15 00:26:28,534 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-07-15 00:29:51,854 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-07-15 00:29:51,854 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-07-15 00:32:57,367 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-07-15 00:32:57,368 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-07-15 00:38:05,696 INFO target=yamaha-np12-np15-piaggero qualifying_deals=1",
-    "2026-07-15 00:38:05,697 INFO new deal target=yamaha-np12-np15-piaggero market=eu total=153.00 url=https://www.gear4music.pl/pl/Keyboard-y-i-pianina/Yamaha-Przenona-klawiatura-Piaggero-NP15-czarna/5OOO",
-    "2026-07-15 00:38:05,839 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-07-15 00:42:54,846 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-07-15 00:42:54,847 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-07-15 00:47:28,740 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=New Listing Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB",
-    "2026-07-15 00:47:28,740 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-07-15 00:47:28,741 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-07-15 00:52:04,419 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0"
+    "2026-07-15 01:17:04,850 INFO scalper run started 2026-07-15T05:17:04.850171+00:00",
+    "2026-07-15 01:17:04,852 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-07-15 01:26:25,734 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-07-15 01:26:25,735 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-07-15 01:29:48,351 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-07-15 01:29:48,351 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-07-15 01:32:46,675 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-07-15 01:32:46,675 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-07-15 01:36:00,903 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-07-15 01:36:00,904 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-07-15 01:39:55,832 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-07-15 01:39:55,833 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-07-15 01:46:25,244 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-07-15 01:46:25,245 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-07-15 01:53:58,977 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-07-15 01:53:58,978 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-07-15 01:57:44,895 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-07-15 01:57:44,896 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-07-15 02:06:35,001 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0"
   ],
-  "started_at": "2026-07-15T04:17:05.770991+00:00",
+  "started_at": "2026-07-15T05:17:04.850171+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -153,74 +151,22 @@
     },
     {
       "deal_groups": {
-        "eu": [
-          {
-            "availability": "available",
-            "condition": "Secondhand",
-            "confidence": 0.72,
-            "delivery_country": "Poland",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 153.0,
-            "seller": "Gear4music",
-            "shipping_usd": 0.0,
-            "source": "Gear4music.pl",
-            "target_id": "yamaha-np12-np15-piaggero",
-            "title": "Yamaha Przeno\u015bna klawiatura Piaggero NP15, czarna - Secondhand",
-            "total_usd": 153.0,
-            "url": "https://www.gear4music.pl/pl/Keyboard-y-i-pianina/Yamaha-Przenona-klawiatura-Piaggero-NP15-czarna/5OOO",
-            "why_good": "Secondhand Yamaha Piaggero NP15 keyboard option shown at 575 PLN (~$153 USD); active Gear4music Poland page shows delivery to Poland and included keyboard/music rest/AC adapter details."
-          }
-        ],
+        "eu": [],
         "other": [],
         "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Secondhand",
-          "confidence": 0.72,
-          "delivery_country": "Poland",
-          "market_label": "EU/Europe",
-          "market_region": "eu",
-          "price_usd": 153.0,
-          "seller": "Gear4music",
-          "shipping_usd": 0.0,
-          "source": "Gear4music.pl",
-          "target_id": "yamaha-np12-np15-piaggero",
-          "title": "Yamaha Przeno\u015bna klawiatura Piaggero NP15, czarna - Secondhand",
-          "total_usd": 153.0,
-          "url": "https://www.gear4music.pl/pl/Keyboard-y-i-pianina/Yamaha-Przenona-klawiatura-Piaggero-NP15-czarna/5OOO",
-          "why_good": "Secondhand Yamaha Piaggero NP15 keyboard option shown at 575 PLN (~$153 USD); active Gear4music Poland page shows delivery to Poland and included keyboard/music rest/AC adapter details."
-        }
-      ],
+      "deals": [],
       "id": "yamaha-np12-np15-piaggero",
       "max_price_usd": 180,
       "name": "Yamaha NP-12 or NP-15 Piaggero keyboard",
       "regional_summary": {
         "best": {
-          "eu": {
-            "availability": "available",
-            "condition": "Secondhand",
-            "confidence": 0.72,
-            "delivery_country": "Poland",
-            "market_label": "EU/Europe",
-            "market_region": "eu",
-            "price_usd": 153.0,
-            "seller": "Gear4music",
-            "shipping_usd": 0.0,
-            "source": "Gear4music.pl",
-            "target_id": "yamaha-np12-np15-piaggero",
-            "title": "Yamaha Przeno\u015bna klawiatura Piaggero NP15, czarna - Secondhand",
-            "total_usd": 153.0,
-            "url": "https://www.gear4music.pl/pl/Keyboard-y-i-pianina/Yamaha-Przenona-klawiatura-Piaggero-NP15-czarna/5OOO",
-            "why_good": "Secondhand Yamaha Piaggero NP15 keyboard option shown at 575 PLN (~$153 USD); active Gear4music Poland page shows delivery to Poland and included keyboard/music rest/AC adapter details."
-          },
+          "eu": null,
           "other": null,
           "us": null
         },
         "counts": {
-          "eu": 1,
+          "eu": 0,
           "other": 0,
           "us": 0
         },
