@@ -1,35 +1,25 @@
-2026-07-17 02:17:05,259 INFO scalper run started 2026-07-17T06:17:05.259092+00:00
-2026-07-17 02:17:05,261 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-07-17 02:21:05,751 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-07-17 02:21:05,751 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-07-17 02:24:57,993 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-07-17 02:24:57,993 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-07-17 02:28:09,010 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/298446161938
-2026-07-17 02:28:09,011 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/298446161938
-2026-07-17 02:28:43,982 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/298446161938
-2026-07-17 02:28:44,166 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307020553665
-2026-07-17 02:28:44,167 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Good READ DESC url=https://www.ebay.com/itm/307020553665
-2026-07-17 02:28:53,268 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306625772926
-2026-07-17 02:28:53,269 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926
-2026-07-17 02:29:01,519 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926
-2026-07-17 02:29:01,519 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-07-17 02:29:01,520 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=584.99 url=https://www.ebay.com/itm/307020553665
-2026-07-17 02:29:01,521 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-07-17 02:31:37,403 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-07-17 02:31:37,404 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-07-17 02:34:25,838 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-07-17 02:34:25,839 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-07-17 02:37:22,633 INFO listing URL validation rejected target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349
-2026-07-17 02:37:22,634 INFO HTTP validation inconclusive target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified title=Pianino cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349
-2026-07-17 02:38:36,053 INFO browser validation rejected target=yamaha-np12-np15-piaggero reason=browser_empty_or_too_short title=Pianino cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349
-2026-07-17 02:38:36,833 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysyłka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html
-2026-07-17 02:38:36,836 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-07-17 02:38:36,836 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-07-17 02:40:30,320 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-07-17 02:40:30,321 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-07-17 02:43:53,482 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366351036512
-2026-07-17 02:43:53,482 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512
-2026-07-17 02:44:01,800 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512
-2026-07-17 02:44:01,801 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-07-17 02:44:01,803 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-07-17 02:47:48,208 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-07-17 03:17:05,292 INFO scalper run started 2026-07-17T07:17:05.292223+00:00
+2026-07-17 03:17:05,294 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-07-17 03:19:40,986 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-07-17 03:19:40,987 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-07-17 03:23:28,019 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-07-17 03:23:28,020 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-07-17 03:25:36,381 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/178189777663
+2026-07-17 03:25:36,382 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air (A2681) Apple M2 (8C/8T) 16GB DDR5, 512GB SSD, 2022, 13.6' url=https://www.ebay.com/itm/178189777663
+2026-07-17 03:26:09,766 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=sold title=MacBook Air (A2681) Apple M2 (8C/8T) 16GB DDR5, 512GB SSD, 2022, 13.6' url=https://www.ebay.com/itm/178189777663
+2026-07-17 03:26:09,767 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-07-17 03:26:09,767 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-07-17 03:28:12,390 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-07-17 03:28:12,390 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-07-17 03:31:08,818 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-07-17 03:31:08,819 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-07-17 03:34:15,138 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-07-17 03:34:15,138 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-07-17 03:36:03,696 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-07-17 03:36:03,697 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-07-17 03:38:40,049 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366351036512
+2026-07-17 03:38:40,050 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512
+2026-07-17 03:39:15,185 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512
+2026-07-17 03:39:15,186 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-07-17 03:39:15,186 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-07-17 03:42:00,651 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
