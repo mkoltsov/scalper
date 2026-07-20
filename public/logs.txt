@@ -1,28 +1,33 @@
-2026-07-20 03:17:05,658 INFO scalper run started 2026-07-20T07:17:05.658217+00:00
-2026-07-20 03:17:05,660 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-07-20 03:19:35,465 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-07-20 03:19:35,466 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-07-20 03:23:03,974 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-07-20 03:23:03,975 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-07-20 03:25:23,495 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306625772926
-2026-07-20 03:25:23,495 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926
-2026-07-20 03:25:58,012 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926
-2026-07-20 03:25:58,012 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-07-20 03:25:58,013 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-07-20 03:27:48,263 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-07-20 03:27:48,264 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-07-20 03:30:37,070 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-07-20 03:30:37,071 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-07-20 03:33:31,562 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-07-20 03:33:31,562 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-07-20 03:35:46,152 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-07-20 03:35:46,152 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-07-20 03:38:41,127 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366351036512
-2026-07-20 03:38:41,128 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512
-2026-07-20 03:39:17,065 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512
-2026-07-20 03:39:17,237 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/358433146977
-2026-07-20 03:39:17,238 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977
-2026-07-20 03:39:26,540 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977
-2026-07-20 03:39:26,540 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-07-20 03:39:26,541 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-07-20 03:41:25,319 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-07-20 05:17:05,403 INFO scalper run started 2026-07-20T09:17:05.402975+00:00
+2026-07-20 05:17:05,405 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-07-20 05:19:54,305 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-07-20 05:19:54,306 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-07-20 05:22:28,851 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-07-20 05:22:28,852 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-07-20 05:25:44,856 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307020553665
+2026-07-20 05:25:44,856 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Good READ DESC url=https://www.ebay.com/itm/307020553665
+2026-07-20 05:26:21,061 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306625772926
+2026-07-20 05:26:21,062 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926
+2026-07-20 05:26:30,411 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926
+2026-07-20 05:26:30,412 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-07-20 05:26:30,413 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=584.99 url=https://www.ebay.com/itm/307020553665
+2026-07-20 05:26:30,414 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-07-20 05:28:47,489 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-07-20 05:28:47,490 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-07-20 05:31:39,204 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-07-20 05:31:39,205 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-07-20 05:34:21,454 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-07-20 05:34:21,454 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-07-20 05:36:30,053 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-07-20 05:36:30,054 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-07-20 05:39:41,558 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB
+2026-07-20 05:39:41,717 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/398135871016
+2026-07-20 05:39:41,718 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016
+2026-07-20 05:40:15,057 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=sold title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016
+2026-07-20 05:40:15,247 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366351036512
+2026-07-20 05:40:15,248 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512
+2026-07-20 05:40:24,650 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512
+2026-07-20 05:40:26,821 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Restored Lenovo ThinkPad P1 Gen 4 16" i7-11850H 2.5Ghz 32GB RAM 1TB SSD RTX3080 GPU Black url=https://www.walmart.com/ip/19723118215?conditionGroupCode=2
+2026-07-20 05:40:26,822 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-07-20 05:40:26,822 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-07-20 05:43:11,042 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
