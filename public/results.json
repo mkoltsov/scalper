@@ -1,39 +1,44 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-07-20T04:43:25.212513+00:00",
+  "finished_at": "2026-07-20T05:44:13.014288+00:00",
   "logs": [
-    "2026-07-20 00:17:05,260 INFO scalper run started 2026-07-20T04:17:05.260193+00:00",
-    "2026-07-20 00:17:05,262 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-07-20 00:19:32,096 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-07-20 00:19:32,097 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-07-20 00:21:49,499 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-07-20 00:21:49,500 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-07-20 00:24:44,931 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306625772926",
-    "2026-07-20 00:24:44,932 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926",
-    "2026-07-20 00:25:19,403 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926",
-    "2026-07-20 00:25:19,579 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307020553665",
-    "2026-07-20 00:25:19,580 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Good READ DESC url=https://www.ebay.com/itm/307020553665",
-    "2026-07-20 00:25:29,111 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
-    "2026-07-20 00:25:29,112 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=584.99 url=https://www.ebay.com/itm/307020553665",
-    "2026-07-20 00:25:29,112 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-07-20 00:28:13,542 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-07-20 00:28:13,543 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-07-20 00:31:07,778 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-07-20 00:31:07,778 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-07-20 00:33:52,145 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-07-20 00:33:52,146 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-07-20 00:36:13,694 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-07-20 00:36:13,695 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-07-20 00:40:24,195 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB",
-    "2026-07-20 00:40:24,211 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD",
-    "2026-07-20 00:40:24,371 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366351036512",
-    "2026-07-20 00:40:24,372 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512",
-    "2026-07-20 00:40:59,979 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512",
-    "2026-07-20 00:40:59,979 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-07-20 00:40:59,980 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-07-20 00:43:25,212 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0"
+    "2026-07-20 01:17:05,173 INFO scalper run started 2026-07-20T05:17:05.173567+00:00",
+    "2026-07-20 01:17:05,175 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-07-20 01:20:11,620 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-07-20 01:20:11,620 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-07-20 01:23:48,754 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-07-20 01:23:48,755 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-07-20 01:26:53,898 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/298446161938",
+    "2026-07-20 01:26:53,899 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/298446161938",
+    "2026-07-20 01:27:29,918 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/298446161938",
+    "2026-07-20 01:27:30,098 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307020553665",
+    "2026-07-20 01:27:30,099 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Good READ DESC url=https://www.ebay.com/itm/307020553665",
+    "2026-07-20 01:27:39,857 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306625772926",
+    "2026-07-20 01:27:39,858 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926",
+    "2026-07-20 01:27:49,088 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926",
+    "2026-07-20 01:27:49,259 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/287339398816",
+    "2026-07-20 01:27:49,260 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Starlight 2022 M2 8-Core 10-Core GPU 16GB 512GB SSD Hinge Split url=https://www.ebay.com/itm/287339398816",
+    "2026-07-20 01:27:58,517 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Starlight 2022 M2 8-Core 10-Core GPU 16GB 512GB SSD Hinge Split url=https://www.ebay.com/itm/287339398816",
+    "2026-07-20 01:27:58,518 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-07-20 01:27:58,519 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=584.99 url=https://www.ebay.com/itm/307020553665",
+    "2026-07-20 01:27:58,520 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-07-20 01:30:44,383 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-07-20 01:30:44,383 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-07-20 01:33:03,182 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-07-20 01:33:03,183 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-07-20 01:35:53,072 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-07-20 01:35:53,073 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-07-20 01:37:57,374 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-07-20 01:37:57,375 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-07-20 01:41:14,359 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD",
+    "2026-07-20 01:41:14,513 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366351036512",
+    "2026-07-20 01:41:14,514 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512",
+    "2026-07-20 01:41:50,214 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512",
+    "2026-07-20 01:41:50,214 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-07-20 01:41:50,215 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-07-20 01:44:13,013 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0"
   ],
-  "started_at": "2026-07-20T04:17:05.260193+00:00",
+  "started_at": "2026-07-20T05:17:05.173567+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -92,8 +97,8 @@
         "us": [
           {
             "availability": "available",
-            "condition": "Used; screen spot damage and bezel damage noted",
-            "confidence": 0.72,
+            "condition": "Used; READ DESC, screen wear/spot damage noted",
+            "confidence": 0.84,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -105,15 +110,15 @@
             "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Good READ DESC",
             "total_usd": 584.99,
             "url": "https://www.ebay.com/itm/307020553665",
-            "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB SSD; free US shipping; $584.99 after automatic OMAHATEN coupon, with screen damage disclosed."
+            "why_good": "13-inch MacBook Air, Apple M2, 16GB RAM, 512GB SSD, Buy It Now; $584.99 after automatically applied OMAHATEN coupon and free US shipping."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "Used; screen spot damage and bezel damage noted",
-          "confidence": 0.72,
+          "condition": "Used; READ DESC, screen wear/spot damage noted",
+          "confidence": 0.84,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -125,7 +130,7 @@
           "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Good READ DESC",
           "total_usd": 584.99,
           "url": "https://www.ebay.com/itm/307020553665",
-          "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB SSD; free US shipping; $584.99 after automatic OMAHATEN coupon, with screen damage disclosed."
+          "why_good": "13-inch MacBook Air, Apple M2, 16GB RAM, 512GB SSD, Buy It Now; $584.99 after automatically applied OMAHATEN coupon and free US shipping."
         }
       ],
       "id": "macbook-13-apple-silicon-16-24gb",
@@ -137,8 +142,8 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "Used; screen spot damage and bezel damage noted",
-            "confidence": 0.72,
+            "condition": "Used; READ DESC, screen wear/spot damage noted",
+            "confidence": 0.84,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -150,7 +155,7 @@
             "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Good READ DESC",
             "total_usd": 584.99,
             "url": "https://www.ebay.com/itm/307020553665",
-            "why_good": "13-inch 2022 M2 MacBook Air with 16GB RAM and 512GB SSD; free US shipping; $584.99 after automatic OMAHATEN coupon, with screen damage disclosed."
+            "why_good": "13-inch MacBook Air, Apple M2, 16GB RAM, 512GB SSD, Buy It Now; $584.99 after automatically applied OMAHATEN coupon and free US shipping."
           }
         },
         "counts": {
