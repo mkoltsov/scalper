@@ -1,35 +1,44 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-07-21T19:45:10.772137+00:00",
+  "finished_at": "2026-07-21T21:53:15.494796+00:00",
   "logs": [
-    "2026-07-21 15:17:05,102 INFO scalper run started 2026-07-21T19:17:05.102356+00:00",
-    "2026-07-21 15:17:05,104 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-07-21 15:19:44,016 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-07-21 15:19:44,018 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-07-21 15:22:39,177 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-07-21 15:22:39,178 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-07-21 15:26:35,916 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306625772926",
-    "2026-07-21 15:26:35,917 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926",
-    "2026-07-21 15:27:11,016 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926",
-    "2026-07-21 15:27:11,016 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-07-21 15:27:11,017 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-07-21 15:30:01,854 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-07-21 15:30:01,855 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-07-21 15:32:42,511 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-07-21 15:32:42,512 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-07-21 15:35:31,228 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12-B Keyboard Workstation url=https://www.guitarcenter.com/Used/Used-Yamaha-NP12-B-Keyboard-Workstation.gc",
-    "2026-07-21 15:35:31,229 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-07-21 15:35:31,231 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-07-21 15:37:48,614 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-07-21 15:37:48,615 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-07-21 15:40:14,010 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366351036512",
-    "2026-07-21 15:40:14,010 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512",
-    "2026-07-21 15:40:50,119 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/366351036512",
-    "2026-07-21 15:40:50,120 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-07-21 15:40:50,120 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-07-21 15:45:10,771 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0"
+    "2026-07-21 17:17:05,472 INFO scalper run started 2026-07-21T21:17:05.472760+00:00",
+    "2026-07-21 17:17:05,474 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-07-21 17:20:35,118 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-07-21 17:20:35,118 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-07-21 17:22:46,618 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-07-21 17:22:46,619 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-07-21 17:25:33,012 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/298446161938",
+    "2026-07-21 17:25:33,013 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/298446161938",
+    "2026-07-21 17:26:11,416 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Midnight 2022 3.49 GHz M2 8-Core CPU 8-Core GPU 16GB 512GB Good url=https://www.ebay.com/itm/298446161938",
+    "2026-07-21 17:26:11,649 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306625772926",
+    "2026-07-21 17:26:11,650 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926",
+    "2026-07-21 17:26:21,408 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926",
+    "2026-07-21 17:26:21,409 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
+    "2026-07-21 17:26:21,410 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-07-21 17:29:05,009 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-07-21 17:29:05,010 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-07-21 17:31:30,242 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-07-21 17:31:30,243 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-07-21 17:37:43,832 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Yamaha NP-12 Piaggero Portable Keyboard 61 Touch Sensitive Keys Tested \"Sweeeet\" url=https://www.mercari.com/us/item/m71039497828/",
+    "2026-07-21 17:37:43,833 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-07-21 17:37:43,833 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-07-21 17:40:02,726 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-07-21 17:40:02,726 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-07-21 17:43:48,789 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Restored Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 2.5Ghz 32GB RAM 1TB SSD RTX3080 GPU Black url=https://business.walmart.com/ip/Restored-Lenovo-ThinkPad-P1-Gen-4-16-i7-11850H-2-5Ghz-32GB-RAM-1TB-SSD-RTX3080-GPU-Black-Refurbished/19723118215?conditionGroupCode=2",
+    "2026-07-21 17:43:48,789 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-07-21 17:43:48,790 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-07-21 17:46:29,232 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-07-21 17:46:29,232 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-07-21 17:50:15,787 INFO rejected deal target=rtx-5060-ti-magnus-one-500w-us reason=reject_pattern pattern=\\brtx\\s*-?\\s*5060\\b(?!\\s*ti) title=ZOTAC GeForce RTX 5060 Ti 8GB Twin Edge [Open Box]",
+    "2026-07-21 17:50:15,788 INFO rejected deal target=rtx-5060-ti-magnus-one-500w-us reason=reject_pattern pattern=\\brtx\\s*-?\\s*5060\\b(?!\\s*ti) title=ZOTAC Twin Edge OC RTX 5060 Ti 8GB GDDR7 PCIe 5.0 x8 ATX GPU",
+    "2026-07-21 17:50:15,788 INFO rejected deal target=rtx-5060-ti-magnus-one-500w-us reason=reject_pattern pattern=\\brtx\\s*-?\\s*5060\\b(?!\\s*ti) title=ZOTAC Twin Edge OC GeForce RTX 5060 Ti 8GB 128-Bit GDDR7 PCI Express 5.0 x8 DLSS 4.0 Graphics Card ZT-B50610H-10M",
+    "2026-07-21 17:50:15,788 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-07-21 17:50:15,789 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-07-21 17:53:15,494 INFO rejected deal target=2tb-nvme-magnus-one-us reason=unavailable title=Sabrent Rocket Q4 2TB M.2 2280 PCIe 4.0 NVMe QLC SSD with Heatsink SB-RKTQ4-HTSS-2TB url=https://sabrent.com/products/sb-rktq4-htss-2tb",
+    "2026-07-21 17:53:15,494 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0"
   ],
-  "started_at": "2026-07-21T19:17:05.102356+00:00",
+  "started_at": "2026-07-21T21:17:05.472760+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -241,6 +250,56 @@
       "id": "wanbo-mozart-1-pro-2025",
       "max_price_usd": 359,
       "name": "Wanbo Mozart 1 Pro 2025 projector",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "rtx-5060-ti-magnus-one-500w-us",
+      "max_price_usd": 450,
+      "name": "Magnus One-compatible RTX 5060 Ti in the US",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "2tb-nvme-magnus-one-us",
+      "max_price_usd": 100,
+      "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
       "regional_summary": {
         "best": {
           "eu": null,
