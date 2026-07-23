@@ -1,31 +1,35 @@
-2026-07-23 01:17:05,605 INFO scalper run started 2026-07-23T05:17:05.605061+00:00
-2026-07-23 01:17:05,607 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-07-23 01:19:53,764 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-07-23 01:19:53,765 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-07-23 01:22:38,610 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-07-23 01:22:38,611 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-07-23 01:24:59,956 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-07-23 01:24:59,957 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-07-23 01:28:04,008 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-07-23 01:28:04,009 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-07-23 01:31:11,213 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-07-23 01:31:11,214 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-07-23 01:35:17,109 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysyłka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html
-2026-07-23 01:35:17,110 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-07-23 01:35:17,110 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-07-23 01:38:25,886 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-07-23 01:38:25,887 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-07-23 01:42:35,595 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-07-23 01:42:35,595 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-07-23 01:48:58,423 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-07-23 01:48:58,423 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-07-23 01:53:39,709 INFO rejected deal target=rtx-5060-ti-magnus-one-500w-us reason=reject_pattern pattern=\brtx\s*-?\s*5060\b(?!\s*ti) title=GIGABYTE WindForce GeForce RTX 5060 Ti 16GB GDDR7 PCI Express 5.0 x8 ATX Graphics Card GV-N506TWF2-16GD
-2026-07-23 01:53:39,709 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-07-23 01:53:39,710 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-07-23 01:56:47,992 INFO rejected deal target=2tb-nvme-magnus-one-us reason=unavailable title=SN530 2TB NVMe Internal SSD, M.2 2280, PCIe, Black Plastic, 3.15 x 0.87 x 0.09 Inches, High Performance Storage for Desktop Computing Gen3 url=https://www.amazon.com/dp/B0FVSLFCVK
-2026-07-23 01:56:48,148 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469
-2026-07-23 01:56:48,149 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469
-2026-07-23 01:57:24,067 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-07-23 01:57:24,068 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469
-2026-07-23 01:57:24,069 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-07-23 01:59:55,283 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-07-23 02:17:05,328 INFO scalper run started 2026-07-23T06:17:05.327963+00:00
+2026-07-23 02:17:05,330 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-07-23 02:20:11,896 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-07-23 02:20:11,896 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-07-23 02:22:33,322 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-07-23 02:22:33,323 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-07-23 02:25:31,790 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306625772926
+2026-07-23 02:25:31,791 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926
+2026-07-23 02:26:06,248 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926
+2026-07-23 02:26:06,249 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-07-23 02:26:06,250 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-07-23 02:28:23,701 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-07-23 02:28:23,701 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-07-23 02:30:46,439 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-07-23 02:30:46,439 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-07-23 02:36:19,116 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-07-23 02:36:19,117 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-07-23 02:38:50,042 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-07-23 02:38:50,042 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-07-23 02:41:45,964 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-07-23 02:41:45,964 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-07-23 02:47:46,965 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-07-23 02:47:46,966 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-07-23 02:50:15,627 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-07-23 02:50:15,628 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-07-23 02:53:21,709 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/147124435261
+2026-07-23 02:53:21,710 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD IX SN530 2TB NVMe M.2 2280 SSD - SDBPNPZ-2T00-XI * 92% HEALTH * (READ FIRST) url=https://www.ebay.com/itm/147124435261
+2026-07-23 02:53:56,902 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=WD IX SN530 2TB NVMe M.2 2280 SSD - SDBPNPZ-2T00-XI * 92% HEALTH * (READ FIRST) url=https://www.ebay.com/itm/147124435261
+2026-07-23 02:53:57,861 INFO rejected deal target=2tb-nvme-magnus-one-us reason=unavailable title=Samsung 970 EVO Plus NVMe M.2 2TB SSD (MZ-V7S2T0) 99% Health url=https://www.ebay.com/p/13032785207?iid=206115512188
+2026-07-23 02:53:58,005 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469
+2026-07-23 02:53:58,006 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469
+2026-07-23 02:54:07,548 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-07-23 02:54:07,549 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469
+2026-07-23 02:54:07,550 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-07-23 02:56:48,197 INFO target=acura-tsx-wagon-cary qualifying_deals=0
