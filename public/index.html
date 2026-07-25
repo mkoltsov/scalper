@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-07-25T08:07:54.711654+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-07-25T09:15:54.831866+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -79,49 +79,17 @@
             <section class="target">
               <div class="target-head">
                 <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
-                <span>1 live match</span>
+                <span>0 live matches</span>
               </div>
-              
-              <div class="market-summary">
-                
-                <div class="metric">
-                  <span>US best</span>
-                  <strong>$604.49</strong>
-                  <small>eBay</small>
-                </div>
-    
-                
-                <div class="metric">
-                  <span>EU best</span>
-                  <strong>No match</strong>
-                  <small>Latest run</small>
-                </div>
-        
-                
-                <div class="metric">
-                  <span>EU premium</span>
-                  <strong>Needs both</strong>
-                  <small>US and EU match required</small>
-                </div>
-    
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>M1 Mac mini with 16GB RAM</h1>
+                <span>0 live matches</span>
               </div>
-    
-              <div class="region-group">
-                <h2>US</h2>
-                
-                <article class="deal">
-                  <div class="meta"><span class="badge">US</span> eBay · $604.49 · United States</div>
-                  <h2><a href="https://www.ebay.com/itm/307006480818" rel="nofollow noopener">Apple Macbook Air 13&quot; M2 8-Core 16GB 512GB - Very Good READ DESC</a></h2>
-                  <p>13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD; eBay coupon brings total to $604.49 with free US shipping, with screen damage disclosed.</p>
-                </article>
-    
-              </div>
-    
-              <div class="region-group">
-                <h2>EU/Europe</h2>
-                <p class="empty">No qualifying listings in this market.</p>
-              </div>
-    
+              <p class="empty">No available qualifying listings found in the latest run.</p>
             </section>
             
             <section class="target">
@@ -235,279 +203,40 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>37 lines published</span>
+        <span>32 lines published</span>
       </div>
-      <pre>2026-07-25 03:17:04,776 INFO scalper run started 2026-07-25T07:17:04.776207+00:00
-2026-07-25 03:17:04,779 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-07-25 03:20:19,135 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-07-25 03:20:19,135 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-07-25 03:25:03,010 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-07-25 03:25:03,011 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-07-25 03:28:33,658 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/306625772926
-2026-07-25 03:28:33,659 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13&quot; M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926
-2026-07-25 03:29:09,402 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=Apple Macbook Air 13&quot; M2 8-Core 16GB 512GB - Very Good url=https://www.ebay.com/itm/306625772926
-2026-07-25 03:29:09,590 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307006480818
-2026-07-25 03:29:09,591 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13&quot; M2 8-Core 16GB 512GB - Very Good READ DESC url=https://www.ebay.com/itm/307006480818
-2026-07-25 03:29:18,754 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-07-25 03:29:18,754 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=604.49 url=https://www.ebay.com/itm/307006480818
-2026-07-25 03:29:18,755 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-07-25 03:38:17,234 ERROR Codex search failed for target=mac-mini-m1-16gb
-Traceback (most recent call last):
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1856, in run
-    result = run_codex(target, config, metrics)
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 523, in run_codex
-    raise RuntimeError(
-        f&quot;Codex failed for {target[&#x27;id&#x27;]} with exit code {process.returncode}: {process.stderr.strip()}&quot;
-    )
-RuntimeError: Codex failed for mac-mini-m1-16gb with exit code 1: Reading additional input from stdin...
-OpenAI Codex v0.145.0
---------
-workdir: /home/intimatik/dev/scalper
-model: gpt-5.5
-provider: openai
-approval: never
-sandbox: read-only
-reasoning effort: xhigh
-reasoning summaries: none
-session id: 019f982d-b3af-7be1-8681-a157d37d5624
---------
-user
-You are a precise deal-finding automation. Use live web_search.
-
-Current UTC date: 2026-07-25
-Target id: mac-mini-m1-16gb
-Target name: M1 Mac mini with 16GB RAM
-Maximum total price: $400 USD, including shipping or delivery to United States or Poland.
-Usual market price estimate: $450 USD.
-Configured shipping destinations:
-[
-  &quot;United States&quot;,
-  &quot;Poland&quot;
-]
-
-Search intent:
-Find currently available used, refurbished, open-box, or discounted Apple Mac mini listings under $400 total. The Mac mini must have an Apple M1 chip, 16GB RAM/unified memory, and more than 256GB storage. Reject 256GB storage models, Intel Mac minis, M2/M3/M4/M5 Mac minis, 8GB RAM models, models with RAM missing or unclear, MacBooks, iMacs, Mac Studios, logic boards, parts-only machines, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $400 or more.
-
-Acceptance criteria:
-[
-  &quot;It is an Apple Mac mini desktop, not a MacBook, iMac, Mac Studio, or parts listing.&quot;,
-  &quot;It has an Apple M1 chip.&quot;,
-  &quot;It has 16GB RAM/unified memory.&quot;,
-  &quot;Reject 256GB storage models; storage must be 512GB or larger if stated.&quot;,
-  &quot;Reject 8GB RAM models and any listing where RAM is missing or unclear.&quot;,
-  &quot;Reject Intel Mac minis.&quot;,
-  &quot;Reject M2, M3, M4, M5, or newer Mac minis for this target because they have a different price ceiling.&quot;,
-  &quot;The total price including shipping is less than 400 USD.&quot;,
-  &quot;It is currently available to buy.&quot;,
-  &quot;The listing URL opens as an active listing page.&quot;,
-  &quot;It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519.&quot;
-]
-
-Required model/text patterns. A listing must match at least one if this list is not empty:
-[
-  &quot;(?=.*\\bmac\\s*mini\\b)(?=.*\\bm1\\b)(?=.*\\b16\\s*gb\\b)&quot;
-]
-
-Reject text patterns. Exclude a listing if it matches any of these:
-[
-  &quot;\\bintel\\b&quot;,
-  &quot;\\bcore\\s+i[3579]\\b&quot;,
-  &quot;\\bm(?:[2-9]|[1-9][0-9]+)\\b&quot;,
-  &quot;\\b256\\s*(?:gb|g)\\b&quot;,
-  &quot;\\b(?:4|8|24|32|36|48|64|96|128)\\s*gb\\s*(?:ram|unified\\s+memory|memory)\\b&quot;,
-  &quot;\\b(?:ram|memory)\\s*[:/-]?\\s*(?:4|8|24|32|36|48|64|96|128)\\s*gb\\b&quot;,
-  &quot;\\bmacbook\\b&quot;,
-  &quot;\\bimac\\b&quot;,
-  &quot;\\bmac\\s*studio\\b&quot;,
-  &quot;\\blogic\\s*board\\b&quot;,
-  &quot;\\bfor\\s+parts\\b&quot;,
-  &quot;\\bparts\\s+only\\b&quot;,
-  &quot;\\bnot\\s+working\\b&quot;
-]
-
-Suggested search queries:
-[
-  &quot;Mac mini M1 16GB RAM under $400 used&quot;,
-  &quot;Apple Mac mini M1 16GB 512GB used under 400&quot;,
-  &quot;Apple Mac mini M1 16GB 1TB used under 400&quot;,
-  &quot;Mac mini M1 16GB unified memory eBay under 400&quot;,
-  &quot;Mac mini M1 16GB refurbished under 400&quot;,
-  &quot;site:offerup.com Mac mini M1 16GB 512GB Cary NC 27519&quot;,
-  &quot;site:offerup.com Mac mini M1 16GB Raleigh Durham Cary&quot;,
-  &quot;M1 Mac mini with 16GB RAM Allegro dostawa&quot;,
-  &quot;M1 Mac mini with 16GB RAM OLX wysylka&quot;,
-  &quot;M1 Mac mini with 16GB RAM eBay Europe delivery to Poland&quot;,
-  &quot;M1 Mac mini with 16GB RAM eBay Germany ships to Poland&quot;,
-  &quot;M1 Mac mini with 16GB RAM Catawiki delivery Poland&quot;
-]
-
-Marketplace search coverage:
-[
-  &quot;Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.&quot;,
-  &quot;Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.&quot;,
-  &quot;Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.&quot;,
-  &quot;European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.&quot;,
-  &quot;Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.&quot;,
-  &quot;Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options.&quot;
-]
-
-Local marketplace exception:
-- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.
-- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.
-- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.
-
-
-Return only strict JSON. Do not wrap it in Markdown. Do not include prose.
-Schema:
-{
-  &quot;target_id&quot;: &quot;mac-mini-m1-16gb&quot;,
-  &quot;checked_at&quot;: &quot;ISO-8601 timestamp&quot;,
-      &quot;deals&quot;: [
-    {
-      &quot;title&quot;: &quot;listing title&quot;,
-      &quot;url&quot;: &quot;direct listing URL&quot;,
-      &quot;source&quot;: &quot;marketplace or site name&quot;,
-      &quot;seller&quot;: &quot;seller if visible, otherwise empty string&quot;,
-      &quot;price_usd&quot;: 0.0,
-      &quot;shipping_usd&quot;: 0.0,
-      &quot;total_usd&quot;: 0.0,
-      &quot;condition&quot;: &quot;condition text&quot;,
-      &quot;availability&quot;: &quot;available&quot;,
-      &quot;listing_status&quot;: &quot;available&quot;,
-      &quot;ships_to_us&quot;: true,
-      &quot;ships_to_destination&quot;: true,
-      &quot;shipping_destination&quot;: &quot;United States or Poland&quot;,
-      &quot;delivery_country&quot;: &quot;United States&quot;,
-      &quot;market_region&quot;: &quot;us&quot;,
-      &quot;vehicle_mileage_miles&quot;: 0,
-      &quot;distance_from_reference_miles&quot;: 0,
-      &quot;why_good&quot;: &quot;short reason this matches the criteria&quot;,
-      &quot;confidence&quot;: 0.0
-    }
-  ]
-}
-
-Rules:
-- Include at most 5 deals.
-- Set market_region to &quot;us&quot; for US marketplace/listing-location deals, &quot;eu&quot; for European/UK/Polish marketplace/listing-location deals, and &quot;other&quot; only if the listing cannot be classified.
-- Include only listings that satisfy every acceptance criterion.
-- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.
-- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
-- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.
-- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.
-- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.
-- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
-- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
-- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
-- If there are no qualifying deals, return &quot;deals&quot;: [].
-web search: 
-web search: Mac mini M1 16GB 512GB eBay Buy It Now under $400 shipping
-web search: 
-web search: https://www.ebay.com/shop/mac-mini-m1-16gb?_nkw=mac+mini+m1+16gb
-web search: 
-web search: https://www.ebay.com/shop/mac-mini-m1-16gb?_nkw=mac+mini+m1+16gb
-web search: 
-web search: &quot;Apple Mac mini M1(MGNR3LL/A) + Docking station&quot; eBay
-web search: 
-web search: https://www.ebay.com/sch/i.html?_nkw=mac+mini+m1+16gb+512gb&amp;_sop=15&amp;LH_BIN=1&amp;_udhi=399.99
-web search: 
-web search: site:ebay.com/sch/i.html &quot;mac mini m1 16gb 512gb&quot; &quot;Buy It Now&quot; &quot;$399&quot;
-web search: 
-web search: site:ebay.de/itm &quot;Mac mini&quot; &quot;M1&quot; &quot;16GB&quot; &quot;512GB&quot;
-web search: 
-web search: site:allegro.pl/oferta &quot;Mac mini&quot; &quot;M1&quot; &quot;16GB&quot; &quot;512GB&quot;
-2026-07-25T07:30:16.641315Z ERROR codex_core::tools::router: error=failed to parse tool_search arguments: missing field `query`
-2026-07-25T07:30:16.692542Z ERROR codex_core::util: Orphan function call output for call id: 
-web search: 
-web search: site:olx.pl/d/oferta &quot;Mac mini M1&quot; &quot;16GB&quot; &quot;512GB&quot; &quot;1 400 zł&quot;
-web search: 
-web search: &quot;Apple Mac Mini M1 2020, 16GB RAM, 512 GB SSD - Idealny stan&quot;
-web search: 
-web search: https://allegrolokalnie.pl/oferta/mac-mini-m1-16gb-ram-256gb-ssd-stan-idealny-pelny-zestaw
-web search: 
-web search: &#x27;Cena&#x27; in https://allegrolokalnie.pl/oferta/mac-mini-m1-16gb-ram-256gb-ssd-stan-idealny-pelny-zestaw
-web search: 
-web search: https://allegrolokalnie.pl/oferty/q/Apple%20Mac%20Mini%20M1%202020%2016GB%20RAM%20512%20GB%20SSD
-web search: 
-web search: site:allegrolokalnie.pl/oferta &quot;Apple Mac Mini M1 2020, 16GB RAM, 512 GB SSD - Idealny stan&quot; &quot;1399&quot;
-web search: 
-web search: https://allegrolokalnie.pl/oferta/apple-mac-mini-m1-2020-16gb-ram-512-gb-ssd-idealny-stan
-web search: 
-web search: https://allegrolokalnie.pl/oferta/apple-mac-mini-m1-16gb-ram-512gb-ssd-silver-2020-do6
-web search: 
-web search: site:swappa.com/listing &quot;Mac mini&quot; &quot;M1&quot; &quot;16GB&quot; &quot;512GB&quot;
-web search: 
-web search: https://swappa.com/listings/mac-mini-2020?condition=mint
-web search: 
-web search: https://swappa.com/listings/mac-mini-2020?condition=mint
-web search: 
-web search: site:mercari.com/us/item &quot;Mac mini&quot; &quot;M1&quot; &quot;16GB&quot; &quot;512GB&quot; &quot;sold&quot; -sold
-web search: 
-web search: site:offerup.com &quot;Mac mini&quot; &quot;M1&quot; &quot;16GB&quot; &quot;512GB&quot; &quot;Cary&quot;
-2026-07-25T07:32:02.631778Z ERROR codex_core::tools::router: error=failed to parse tool_search arguments: missing field `query`
-2026-07-25T07:32:02.701550Z ERROR codex_core::util: Orphan function call output for call id: 
-2026-07-25T07:32:02.701614Z ERROR codex_core::util: Orphan function call output for call id: 
-web search: 
-web search: 
-web search: 
-web search: https://paymore.com/shop/product/9207050633470/
-web search: 
-web search: site:paymore.com/shop/product &quot;2020 Apple Mac Mini M1&quot; &quot;16GB RAM&quot; &quot;512GB&quot; &quot;$&quot; -&quot;Out of Stock&quot;
-web search: 
-web search: site:offerup.com/item/detail &quot;Mac Mini M1&quot; &quot;Raleigh, NC&quot; &quot;$&quot; -SOLD
-web search: 
-web search: &quot;Mac mini M1&quot; &quot;16GB&quot; &quot;512GB&quot; &quot;$399&quot; &quot;Buy&quot;
-web search: 
-web search: https://www.ebay.com/sch/i.html?_nkw=Mac+mini+M1+16GB+512GB&amp;_sop=15&amp;LH_BIN=1&amp;_udhi=400
-web search: 
-web search: https://www.ebay.com/sch/i.html?_nkw=Mac+mini+M1+16GB+512GB&amp;_sop=15&amp;LH_BIN=1&amp;_udhi=400
-2026-07-25T07:33:12.921198Z ERROR codex_core::tools::router: error=failed to parse tool_search arguments: missing field `query`
-2026-07-25T07:33:13.031022Z ERROR codex_core::util: Orphan function call output for call id: 
-2026-07-25T07:33:13.031331Z ERROR codex_core::util: Orphan function call output for call id: 
-2026-07-25T07:33:13.031367Z ERROR codex_core::util: Orphan function call output for call id: 
-2026-07-25T07:38:16.305856Z ERROR codex_core::util: Orphan function call output for call id: 
-2026-07-25T07:38:16.305930Z ERROR codex_core::util: Orphan function call output for call id: 
-2026-07-25T07:38:16.305956Z ERROR codex_core::util: Orphan function call output for call id: 
-ERROR: {
-  &quot;type&quot;: &quot;error&quot;,
-  &quot;error&quot;: {
-    &quot;type&quot;: &quot;invalid_request_error&quot;,
-    &quot;message&quot;: &quot;[ObjectParam] [input[47].arguments[]] [empty_property_name] Invalid property name in &#x27;input[47].arguments&#x27;: empty string. Property names must have a minimum length of 1.&quot;
-  },
-  &quot;status&quot;: 400
-}
-ERROR: {
-  &quot;type&quot;: &quot;error&quot;,
-  &quot;error&quot;: {
-    &quot;type&quot;: &quot;invalid_request_error&quot;,
-    &quot;message&quot;: &quot;[ObjectParam] [input[47].arguments[]] [empty_property_name] Invalid property name in &#x27;input[47].arguments&#x27;: empty string. Property names must have a minimum length of 1.&quot;
-  },
-  &quot;status&quot;: 400
-}
-tokens used
-333,676
-2026-07-25 03:38:17,238 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-07-25 03:43:12,199 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-07-25 03:43:12,200 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-07-25 03:46:40,852 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysyłka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html
-2026-07-25 03:46:40,852 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-07-25 03:46:40,853 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-07-25 03:52:14,025 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-07-25 03:52:14,026 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-07-25 03:54:35,579 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-07-25 03:54:35,676 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-07-25 03:58:02,342 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-07-25 03:58:02,350 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-07-25 04:02:10,639 INFO rejected deal target=rtx-5060-ti-magnus-one-500w-us reason=reject_pattern pattern=\brtx\s*-?\s*5060\b(?!\s*ti) title=GIGABYTE WindForce GeForce RTX 5060 Ti 16GB GDDR7 PCI Express 5.0 x8 ATX Graphics Card GV-N506TWF2OC-16GD
-2026-07-25 04:02:10,644 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-07-25 04:02:10,645 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-07-25 04:04:41,957 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
-2026-07-25 04:04:41,964 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
-2026-07-25 04:05:23,311 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
-2026-07-25 04:05:43,530 INFO rejected deal target=2tb-nvme-magnus-one-us reason=url_error:The read operation timed out title=ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS url=https://www.bestbuy.com/product/adata-legend-710-m-2-2280-2tb-pci-express-3-0-x4-3d-nand-internal-solid-state-drive-ssd-aleg-710-2tcs/J39VZT2Z38
-2026-07-25 04:05:43,589 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
-2026-07-25 04:05:43,590 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-07-25 04:07:54,698 INFO target=acura-tsx-wagon-cary qualifying_deals=0</pre>
+      <pre>2026-07-25 04:17:05,455 INFO scalper run started 2026-07-25T08:17:05.455628+00:00
+2026-07-25 04:17:05,458 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-07-25 04:20:36,944 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-07-25 04:20:36,945 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-07-25 04:27:49,767 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-07-25 04:27:49,768 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-07-25 04:30:25,339 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
+2026-07-25 04:30:25,340 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-07-25 04:33:12,271 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-07-25 04:33:12,271 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-07-25 04:35:45,815 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-07-25 04:35:45,816 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-07-25 04:38:30,259 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-07-25 04:38:30,259 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-07-25 04:42:02,339 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-07-25 04:42:02,339 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-07-25 04:44:33,985 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/358433146977
+2026-07-25 04:44:33,985 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16&quot; 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977
+2026-07-25 04:45:11,144 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16&quot; 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977
+2026-07-25 04:45:11,144 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-07-25 04:45:11,145 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-07-25 04:51:52,085 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-07-25 04:51:52,086 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-07-25 05:00:40,406 INFO rejected deal target=rtx-5060-ti-magnus-one-500w-us reason=reject_pattern pattern=\brtx\s*-?\s*5060\b(?!\s*ti) title=GIGABYTE WindForce GeForce RTX 5060 Ti 16GB GDDR7 PCI Express 5.0 Graphics Card GV-N506TWF2-16GD
+2026-07-25 05:00:40,406 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-07-25 05:00:40,407 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-07-25 05:10:18,130 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
+2026-07-25 05:10:18,131 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
+2026-07-25 05:10:54,477 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
+2026-07-25 05:10:54,478 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
+2026-07-25 05:10:54,478 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-07-25 05:15:54,831 INFO target=acura-tsx-wagon-cary qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
