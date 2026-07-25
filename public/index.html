@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-07-25T22:51:10.783816+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-07-25T23:53:50.895684+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -79,9 +79,49 @@
             <section class="target">
               <div class="target-head">
                 <h1>13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>$649.99</strong>
+                  <small>eBay</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> eBay · $649.99 · United States</div>
+                  <h2><a href="https://www.ebay.com/itm/307020553665" rel="nofollow noopener">Apple Macbook Air 13&quot; M2 8-Core 16GB 512GB - Good READ DESC</a></h2>
+                  <p>Active Buy It Now listing for a 13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD; free US shipping keeps total below $650.</p>
+                </article>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
             </section>
             
             <section class="target">
@@ -176,7 +216,7 @@
                 <article class="deal">
                   <div class="meta"><span class="badge">US</span> Newegg · $199.99 · United States</div>
                   <h2><a href="https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490" rel="nofollow noopener">ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS</a></h2>
-                  <p>2TB M.2 2280 NVMe PCIe Gen3 internal SSD, sold and shipped by Newegg from the US with free shipping, 30-day Newegg returns, and 3-year ADATA warranty; only a thin low-profile 3.13 mm heat spreader.</p>
+                  <p>New 2TB M.2 2280 PCIe 3.0 x4 NVMe SSD, sold and shipped by Newegg from the US with free shipping; no tall heatsink listed.</p>
                 </article>
     
               </div>
@@ -243,35 +283,46 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>27 lines published</span>
+        <span>38 lines published</span>
       </div>
-      <pre>2026-07-25 18:17:05,538 INFO scalper run started 2026-07-25T22:17:05.538494+00:00
-2026-07-25 18:17:05,541 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-07-25 18:20:05,118 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-07-25 18:20:05,118 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-07-25 18:21:52,151 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-07-25 18:21:52,151 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-07-25 18:24:38,916 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-07-25 18:24:38,917 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-07-25 18:26:23,823 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-07-25 18:26:23,823 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-07-25 18:29:16,587 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-07-25 18:29:16,588 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-07-25 18:32:51,234 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12-B Keyboard Workstation url=https://www.guitarcenter.com/Used/Used-Yamaha-NP12-B-Keyboard-Workstation.gc
-2026-07-25 18:32:51,234 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-07-25 18:32:51,235 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-07-25 18:34:49,163 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-07-25 18:34:49,163 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-07-25 18:38:05,469 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-07-25 18:38:05,470 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-07-25 18:41:28,400 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-07-25 18:41:28,401 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-07-25 18:46:05,367 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-07-25 18:46:05,368 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-07-25 18:48:48,778 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-07-25 18:48:48,779 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
-2026-07-25 18:48:48,779 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-07-25 18:51:10,783 INFO target=acura-tsx-wagon-cary qualifying_deals=0</pre>
+      <pre>2026-07-25 19:17:04,988 INFO scalper run started 2026-07-25T23:17:04.987960+00:00
+2026-07-25 19:17:04,990 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-07-25 19:19:55,535 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-07-25 19:19:55,535 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-07-25 19:25:18,825 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-07-25 19:25:18,826 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-07-25 19:27:10,685 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307020553665
+2026-07-25 19:27:10,686 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13&quot; M2 8-Core 16GB 512GB - Good READ DESC url=https://www.ebay.com/itm/307020553665
+2026-07-25 19:27:46,705 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-07-25 19:27:46,705 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=649.99 url=https://www.ebay.com/itm/307020553665
+2026-07-25 19:27:46,706 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-07-25 19:30:12,883 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-07-25 19:30:12,883 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-07-25 19:32:38,315 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-07-25 19:32:38,316 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-07-25 19:35:45,890 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysyłka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html
+2026-07-25 19:35:45,891 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-07-25 19:35:45,891 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-07-25 19:38:18,509 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-07-25 19:38:18,510 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-07-25 19:40:54,212 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/358433146977
+2026-07-25 19:40:54,213 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16&quot; 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977
+2026-07-25 19:41:30,028 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16&quot; 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977
+2026-07-25 19:41:30,029 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-07-25 19:41:30,030 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-07-25 19:44:23,373 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-07-25 19:44:23,373 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-07-25 19:47:56,049 INFO rejected deal target=rtx-5060-ti-magnus-one-500w-us reason=reject_pattern pattern=\brtx\s*-?\s*5060\b(?!\s*ti) title=GIGABYTE NVIDIA GeForce RTX 5060 Ti WINDFORCE OC 16G GDDR7 PCI Express 5.0 Graphics Card Black GV-N506TWF2OC-16GD
+2026-07-25 19:47:56,050 INFO rejected deal target=rtx-5060-ti-magnus-one-500w-us reason=reject_pattern pattern=\brtx\s*-?\s*5060\b(?!\s*ti) title=GIGABYTE WindForce GeForce RTX 5060 Ti 16GB GDDR7 PCI Express 5.0 x8 ATX Graphics Card GV-N506TWF2OC-16GD
+2026-07-25 19:47:56,050 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-07-25 19:47:56,050 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-07-25 19:50:43,556 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
+2026-07-25 19:50:43,557 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
+2026-07-25 19:51:18,127 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
+2026-07-25 19:51:28,157 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-07-25 19:51:28,157 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
+2026-07-25 19:51:28,158 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-07-25 19:53:50,895 INFO target=acura-tsx-wagon-cary qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
