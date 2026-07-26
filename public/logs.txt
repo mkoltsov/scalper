@@ -1,28 +1,291 @@
-2026-07-26 17:17:05,023 INFO scalper run started 2026-07-26T21:17:05.023008+00:00
-2026-07-26 17:17:05,026 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-07-26 17:19:45,148 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-07-26 17:19:45,149 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-07-26 17:22:02,389 INFO target=bang-olufsen-charging-case qualifying_deals=0
-2026-07-26 17:22:02,390 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-07-26 17:24:28,579 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0
-2026-07-26 17:24:28,580 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-07-26 17:26:38,583 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-07-26 17:26:38,583 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-07-26 17:29:30,892 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-07-26 17:29:30,892 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-07-26 17:31:50,134 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-07-26 17:31:50,135 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-07-26 17:33:54,210 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-07-26 17:33:54,210 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-07-26 17:36:15,872 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/358433146977
-2026-07-26 17:36:15,872 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977
-2026-07-26 17:36:50,338 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977
-2026-07-26 17:36:50,339 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-07-26 17:36:50,340 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-07-26 17:39:28,399 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-07-26 17:39:28,400 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-07-26 17:42:13,986 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-07-26 17:42:13,986 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-07-26 17:44:42,038 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
-2026-07-26 17:44:42,039 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-07-26 17:46:45,609 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-07-26 18:17:05,075 INFO scalper run started 2026-07-26T22:17:05.075252+00:00
+2026-07-26 18:17:05,078 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-07-26 18:20:38,868 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-07-26 18:20:38,869 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-07-26 18:26:10,137 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-07-26 18:26:10,138 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-07-26 18:28:42,234 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307020553665
+2026-07-26 18:28:42,234 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Good READ DESC url=https://www.ebay.com/itm/307020553665
+2026-07-26 18:29:19,497 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-07-26 18:29:19,498 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=584.99 url=https://www.ebay.com/itm/307020553665
+2026-07-26 18:29:19,498 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-07-26 18:31:47,051 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-07-26 18:31:47,052 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-07-26 18:34:35,477 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-07-26 18:34:35,478 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-07-26 18:38:48,260 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-07-26 18:38:48,261 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-07-26 18:41:01,035 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-07-26 18:41:01,036 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-07-26 18:44:30,311 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB
+2026-07-26 18:44:30,477 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/358433146977
+2026-07-26 18:44:30,478 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977
+2026-07-26 18:45:07,284 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977
+2026-07-26 18:45:07,284 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-07-26 18:45:07,285 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-07-26 18:51:47,918 ERROR Codex search failed for target=wanbo-mozart-1-pro-2025
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1856, in run
+    result = run_codex(target, config, metrics)
+  File "/home/intimatik/dev/scalper/scalper.py", line 523, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
+    )
+RuntimeError: Codex failed for wanbo-mozart-1-pro-2025 with exit code 1: Reading additional input from stdin...
+OpenAI Codex v0.145.0
+--------
+workdir: /home/intimatik/dev/scalper
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019fa09a-8278-7961-8bd4-c14971b92b57
+--------
+user
+You are a precise deal-finding automation. Use live web_search.
+
+Current UTC date: 2026-07-26
+Target id: wanbo-mozart-1-pro-2025
+Target name: Wanbo Mozart 1 Pro 2025 projector
+Maximum total price: $359 USD, including shipping or delivery to United States or Poland.
+Usual market price estimate: $unknown USD.
+Configured shipping destinations:
+[
+  "United States",
+  "Poland"
+]
+
+Search intent:
+Find currently available new, used, refurbished, open-box, or discounted Wanbo Mozart 1 Pro 2025-edition projector listings under $359 total. The exact product must be the Wanbo Mozart 1 Pro 2025 model/edition, and the listing must include the complete working projector. Reject the original or earlier Mozart 1 Pro when the 2025 edition is not explicitly proven, the non-Pro Mozart 1, Mozart 1 Pro Plus, Mozart 1, Mozart 1 Pro without 2025 identification, other Wanbo projector models, accessory-only listings, replacement parts, projector screens, mounts, remotes, lamps, broken/not-working projectors, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States or Poland unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $359 or more.
+
+Acceptance criteria:
+[
+  "It is exactly the Wanbo Mozart 1 Pro 2025 model/edition projector.",
+  "The listing explicitly identifies the 2025 edition; do not infer the year from a generic Mozart 1 Pro listing.",
+  "The complete working projector is included, not only an accessory, replacement part, screen, mount, remote, lamp, box, or packaging.",
+  "Reject the non-Pro Mozart 1, Mozart 1 Pro Plus, earlier Mozart 1 Pro versions, and every other Wanbo model.",
+  "The total price including shipping is less than 359 USD.",
+  "It is currently available to buy.",
+  "The exact canonical listing URL opens and shows a current purchase or contact action.",
+  "It ships directly to the United States or Poland, or it is an OfferUp local-pickup listing in or near Cary, NC 27519."
+]
+
+Required model/text patterns. A listing must match at least one if this list is not empty:
+[
+  "(?=.*\\bwanbo\\b)(?=.*\\bmozart\\s*1\\s*pro\\b)(?=.*\\b2025\\b)"
+]
+
+Reject text patterns. Exclude a listing if it matches any of these:
+[
+  "\\bmozart\\s*1\\s*pro\\s*plus\\b",
+  "\\b(?:t2|t2r|max\\s*2|x1|x2|x5|davinci\\s*1|davinci\\s*1\\s*pro)\\b",
+  "\\b(?:remote|remote\\s+control|mount|bracket|stand|screen|projector\\s+screen|lamp|bulb|lens|power\\s+(?:supply|adapter)|charger|cable|case|bag|box|packaging)\\s+only\\b",
+  "\\bonly\\s+(?:remote|remote\\s+control|mount|bracket|stand|screen|projector\\s+screen|lamp|bulb|lens|power\\s+(?:supply|adapter)|charger|cable|case|bag|box|packaging)\\b",
+  "\\b(?:replacement\\s+part|spare\\s+part|for\\s+parts|parts\\s+only|not\\s+working|non\\s*working|broken|damaged|repair)\\b"
+]
+
+Suggested search queries:
+[
+  "Wanbo Mozart 1 Pro 2025 projector under $359",
+  "Wanbo Mozart 1 Pro 2025 edition sale under 359",
+  "Wanbo Mozart 1 Pro 2025 global version under $359",
+  "Wanbo Mozart 1 Pro 2025 new projector",
+  "Wanbo Mozart 1 Pro 2025 open box refurbished",
+  "site:ebay.com Wanbo Mozart 1 Pro 2025",
+  "site:aliexpress.com Wanbo Mozart 1 Pro 2025",
+  "site:allegro.pl Wanbo Mozart 1 Pro 2025",
+  "site:offerup.com Wanbo Mozart 1 Pro 2025 Cary NC 27519",
+  "Wanbo Mozart 1 Pro 2025 projector Allegro dostawa",
+  "Wanbo Mozart 1 Pro 2025 projector OLX wysylka",
+  "Wanbo Mozart 1 Pro 2025 projector eBay Europe delivery to Poland",
+  "Wanbo Mozart 1 Pro 2025 projector eBay Germany ships to Poland",
+  "Wanbo Mozart 1 Pro 2025 projector Catawiki delivery Poland"
+]
+
+Marketplace search coverage:
+[
+  "Keep the same configured item requirements and USD price ceilings, but also search European listings with delivery to Poland.",
+  "Search European eBay sites, especially ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, and ebay.pl, and include only listings with direct delivery to Poland.",
+  "Search Allegro, Allegro Lokalnie, and OLX.pl; include OLX only when shipment/delivery is available, not local pickup only.",
+  "European eBay sites with direct delivery to Poland: ebay.pl, ebay.de, ebay.co.uk, ebay.fr, ebay.it, ebay.es, ebay.nl, ebay.ie, ebay.at, ebay.be, ebay.ch.",
+  "Polish marketplaces with delivery: Allegro, Allegro Lokalnie, and OLX.pl listings that explicitly offer wysylka/dostawa/shipping.",
+  "Other European marketplaces are acceptable only when the listing page shows direct delivery to Poland; reject proxy/forwarder-only options."
+]
+
+Local marketplace exception:
+- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.
+- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.
+- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.
+
+
+Return only strict JSON. Do not wrap it in Markdown. Do not include prose.
+Schema:
+{
+  "target_id": "wanbo-mozart-1-pro-2025",
+  "checked_at": "ISO-8601 timestamp",
+      "deals": [
+    {
+      "title": "listing title",
+      "url": "direct listing URL",
+      "source": "marketplace or site name",
+      "seller": "seller if visible, otherwise empty string",
+      "price_usd": 0.0,
+      "shipping_usd": 0.0,
+      "total_usd": 0.0,
+      "condition": "condition text",
+      "availability": "available",
+      "listing_status": "available",
+      "ships_to_us": true,
+      "ships_to_destination": true,
+      "shipping_destination": "United States or Poland",
+      "delivery_country": "United States",
+      "market_region": "us",
+      "vehicle_mileage_miles": 0,
+      "distance_from_reference_miles": 0,
+      "why_good": "short reason this matches the criteria",
+      "confidence": 0.0
+    }
+  ]
+}
+
+Rules:
+- Include at most 5 deals.
+- Set market_region to "us" for US marketplace/listing-location deals, "eu" for European/UK/Polish marketplace/listing-location deals, and "other" only if the listing cannot be classified.
+- Include only listings that satisfy every acceptance criterion.
+- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States or Poland.
+- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
+- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States or Poland still keeps it below the limit.
+- Include only listings that ship or deliver directly to at least one configured destination: United States or Poland, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.
+- For Poland delivery, search European eBay, Allegro, Allegro Lokalnie, OLX.pl, and other European marketplaces, but include only listings where direct delivery to Poland is visible or clearly stated.
+- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
+- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
+- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
+- If there are no qualifying deals, return "deals": [].
+web search: 
+web search: Wanbo Mozart 1 Pro 2025 projector under $359
+web search: 
+web search: site:ebay.com Wanbo Mozart 1 Pro 2025
+web search: 
+web search: "Wanbo Mozart 1 Pro 2025" "$" "Add to cart"
+web search: 
+web search: "Wanbo Mozart 1 Pro 2025" "€"
+web search: 
+web search: "Wanbo Projector Mozart 1 Pro (2025)" "€" "300"
+web search: 
+web search: https://ceno.lv/search?p=350&q=wanbo+mozart+1+pro+projector+1080p
+web search: 
+web search: 'Izpārdots' in https://percte.eu/index.php?product_id=1374982&route=product%2Fproduct
+web search: 
+web search: https://www.kurpirkt.lv/rus/result.php?q=wanbo+mozart+1+pro
+web search: 
+web search: https://www.kurpirkt.lv/rus/result.php?q=wanbo+mozart+1+pro
+web search: 
+web search: site:b2cshop.eu "Wanbo Projector Mozart 1 Pro (2025)"
+web search: 
+web search: site:b2cshop.eu WANBOMZRT1PRO2025DRKBLU
+web search: 
+web search: https://b2cshop.eu/index.php?route=product/product&product_id=1374982
+web search: 
+web search: https://b2cshop.eu/index.php?route=product/product&product_id=1374982
+web search: 
+web search: "WANBOMZRT1PRO2025DRKBLU" "b2cshop.eu"
+web search: 
+web search: https://www.kurpirkt.lv/veikals.php?shop=b2cshop.eu
+web search: 
+web search: https://b2cshop.eu/index.php?route=product/product&product_id=1374982
+codex
+I’m checking live marketplace results against the exact 2025-edition requirement and excluding generic Mozart 1 Pro pages unless the listing itself proves 2025. A few low Baltic price-comparison hits are close enough to the cap that I’m drilling into the seller pages and current shipping before deciding whether they qualify.
+exec
+/usr/bin/zsh -lc "curl -L --max-time 20 -s 'https://dt24.lv/index.php?route=product/product&product_id=1374982' | head -n 80" in /home/intimatik/dev/scalper
+ succeeded in 0ms:
+exec
+/usr/bin/zsh -lc "curl -I -L --max-time 20 -s 'https://dt24.lv/'" in /home/intimatik/dev/scalper
+ exited 6 in 0ms:
+web search: 
+web search: 
+web search: 
+web search: https://www.enter24.eu/index.php?route=product/search&search=wanbo%20mozart%201%20pro%202025
+web search: 
+web search: "https://www.enter24.eu/index.php?route=product/search" "wanbo"
+web search: 
+web search: 
+web search: 
+web search: site:b2cshop.eu "precu-piegade"
+web search: 
+web search: site:enter24.eu/ "Wanbo Projector Mozart 1 Pro" "308"
+web search: 
+web search: "Wanbo Projector Mozart 1 Pro (2025) 1080p with Android system and Google Assistant Dark Blue EU"
+web search: 
+web search: EUR USD exchange rate July 26 2026 1 EUR to USD
+web search: 
+web search: finance: EURUSD
+web search: 
+web search: finance: EURUSD=X
+web search: 
+web search: "6970885350955" "enter24.eu"
+web search: 
+web search: https://balticguru.eu/index.php?product_id=1751255&route=product%2Fproduct
+web search: 
+web search: site:ebay.de "Wanbo Mozart 1 Pro 2025"
+web search: 
+web search: "Wanbo Mozart 1 Pro 2025" "eBay" "Poland"
+web search: 
+web search: site:aliexpress.com/item "Wanbo Mozart 1 Pro 2025"
+web search: 
+web search: site:amazon.com "Wanbo Mozart 1 Pro 2025"
+web search: 
+web search: "Wanbo Mozart 1 Pro 2025" "Allegro"
+web search: 
+web search: site:allegro.pl/oferta "WANBO Mozart 1 Pro 2025" "1199" -archiwum
+web search: 
+web search: site:olx.pl "Wanbo Mozart 1 Pro 2025"
+web search: 
+web search: "Projektor Wanbo Mozart 1 PRO 2025" "1 100 zł" OLX
+web search: 
+web search: site:offerup.com "Wanbo Mozart 1 Pro 2025" "Cary"
+web search: 
+web search: site:catawiki.com "Wanbo Mozart 1 Pro 2025"
+web search: 
+web search: "WANBO 2025 MOZART 1 PRO NEW" "price" "stock"
+web search: 
+web search: site:ebay.com/itm "Wanbo Mozart 1 Pro" "2025" "US $"
+exec
+/usr/bin/zsh -lc 'date -u +%Y-%m-%dT%H:%M:%SZ' in /home/intimatik/dev/scalper
+ succeeded in 0ms:
+2026-07-26T22:49:57Z
+
+web search: 
+web search: "2025 Mozart 1 Pro" "$329" OR "$349"
+web search: 
+web search: "RefurbWanbo 2025 Mozart 1 Pro"
+web search: 
+web search: site:powerplanetonline.com/pt "Wanbo 2025 Mozart 1 Pro" "318,99"
+web search: 
+web search: https://www.powerplanetonline.com/pt/projetores-wanbo
+web search: 
+web search: https://www.powerplanetonline.com/pt/projetores-wanbo
+web search: 
+web search: https://www.powerplanetonline.com/pt/projetores-wanbo
+web search: 
+web search: https://www.powerplanetonline.com/pt/wanbo-2025-mozart-1-pro-new-azul-escuro-classe-a-refurbished
+web search: 
+web search: Powerplanetonline shipping Poland
+web search: 
+web search: site:powerplanetonline.com/es "wanbo-2025-mozart-1-pro-new-azul-oscuro-clase-a"
+web search: 
+web search: https://www.powerplanetonline.com/es/proyectores?page=2
+web search: 
+web search: https://www.powerplanetonline.com/es/articulos-reacondicionados?page=4
+web search: 
+ERROR: Codex ran out of room in the model's context window. Start a new thread or clear earlier history before retrying.
+ERROR: Codex ran out of room in the model's context window. Start a new thread or clear earlier history before retrying.
+tokens used
+0
+2026-07-26 18:51:47,922 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-07-26 18:54:27,725 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-07-26 18:54:27,726 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-07-26 18:57:38,315 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
+2026-07-26 18:57:38,316 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-07-26 19:00:09,511 INFO target=acura-tsx-wagon-cary qualifying_deals=0
