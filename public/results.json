@@ -1,42 +1,45 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-07-29T15:54:57.420732+00:00",
+  "finished_at": "2026-07-29T16:58:25.872311+00:00",
   "logs": [
-    "2026-07-29 11:17:05,231 INFO scalper run started 2026-07-29T15:17:05.231667+00:00",
-    "2026-07-29 11:17:05,234 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-07-29 11:20:53,451 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-07-29 11:20:53,451 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-07-29 11:23:15,991 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-07-29 11:23:15,992 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-07-29 11:25:49,712 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/287339398816",
-    "2026-07-29 11:25:49,712 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=MacBook Air 13 Starlight 2022 M2 8-Core 10-Core GPU 16GB 512GB SSD Hinge Split url=https://www.ebay.com/itm/287339398816",
-    "2026-07-29 11:26:25,080 INFO browser validation rejected target=macbook-13-apple-silicon-16-24gb reason=unavailable title=MacBook Air 13 Starlight 2022 M2 8-Core 10-Core GPU 16GB 512GB SSD Hinge Split url=https://www.ebay.com/itm/287339398816",
-    "2026-07-29 11:26:25,081 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-07-29 11:26:25,081 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-07-29 11:28:46,778 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-07-29 11:28:46,778 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-07-29 11:31:48,229 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-07-29 11:31:48,229 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-07-29 11:35:26,595 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12-B Keyboard Workstation url=https://www.guitarcenter.com/Used/Used-Yamaha-NP12-B-Keyboard-Workstation.gc",
-    "2026-07-29 11:35:26,595 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-07-29 11:35:26,596 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-07-29 11:37:51,144 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-07-29 11:37:51,145 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-07-29 11:41:08,168 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/358433146977",
-    "2026-07-29 11:41:08,169 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977",
-    "2026-07-29 11:41:44,176 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977",
-    "2026-07-29 11:41:44,176 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-07-29 11:41:44,177 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-07-29 11:44:38,997 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-07-29 11:44:38,998 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-07-29 11:49:02,464 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-07-29 11:49:02,464 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-07-29 11:52:36,655 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-07-29 11:52:36,656 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-    "2026-07-29 11:52:36,657 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-07-29 11:54:57,420 INFO target=acura-tsx-wagon-cary qualifying_deals=0"
+    "2026-07-29 12:17:05,336 INFO scalper run started 2026-07-29T16:17:05.336548+00:00",
+    "2026-07-29 12:17:05,339 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-07-29 12:19:42,239 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-07-29 12:19:42,239 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-07-29 12:22:40,884 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-07-29 12:22:40,885 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-07-29 12:25:29,521 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307020553665",
+    "2026-07-29 12:25:29,522 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Good READ DESC url=https://www.ebay.com/itm/307020553665",
+    "2026-07-29 12:26:05,694 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1",
+    "2026-07-29 12:26:05,695 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=649.99 url=https://www.ebay.com/itm/307020553665",
+    "2026-07-29 12:26:05,695 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-07-29 12:28:31,636 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-07-29 12:28:31,637 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-07-29 12:31:40,568 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
+    "2026-07-29 12:31:40,568 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-07-29 12:34:44,937 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-07-29 12:34:44,938 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-07-29 12:37:00,227 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-07-29 12:37:00,228 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-07-29 12:42:48,865 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/358433146977",
+    "2026-07-29 12:42:48,866 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977",
+    "2026-07-29 12:43:24,580 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977",
+    "2026-07-29 12:43:24,770 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/398135871016",
+    "2026-07-29 12:43:24,771 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016",
+    "2026-07-29 12:43:32,217 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=sold title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016",
+    "2026-07-29 12:43:32,218 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-07-29 12:43:32,219 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-07-29 12:48:43,005 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-07-29 12:48:43,006 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-07-29 12:51:38,480 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-07-29 12:51:38,480 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-07-29 12:55:25,999 INFO rejected deal target=2tb-nvme-magnus-one-us reason=http_403 title=Samsung 980 PRO 2TB PCIe 4.0 NVMe M.2 Internal V-NAND Solid State Drive PlayStation 5 Compatible url=https://www.gamestop.com/pc-gaming/pc-components/hard-drives-ssds/internal-hard-drives/products/samsung-980-pro-2tb-pcie-4.0-nvme-m.2-internal-v-nand-solid-state-drive-playstation-5-compatible/310257.html",
+    "2026-07-29 12:55:46,171 INFO rejected deal target=2tb-nvme-magnus-one-us reason=url_error:The read operation timed out title=ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive ALEG-710-2TCS url=https://www.bestbuy.com/product/adata-legend-710-m-2-2280-2tb-pci-express-3-0-x4-3d-nand-internal-solid-state-drive-ssd-aleg-710-2tcs/J39VZT2Z38/sku/12657342",
+    "2026-07-29 12:55:46,171 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-07-29 12:55:46,172 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-07-29 12:58:25,872 INFO target=acura-tsx-wagon-cary qualifying_deals=0"
   ],
-  "started_at": "2026-07-29T15:17:05.231667+00:00",
+  "started_at": "2026-07-29T16:17:05.336548+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -92,9 +95,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; seller notes screen spot damage and bezel missing/damaged",
+            "confidence": 0.88,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 649.99,
+            "seller": "Omaha Blue",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Good READ DESC",
+            "total_usd": 649.99,
+            "url": "https://www.ebay.com/itm/307020553665",
+            "why_good": "Active Buy It Now listing for 13-inch M2 MacBook Air with 16GB RAM and 512GB SSD; free US shipping; base total is under $650 and eBay also showed an auto coupon total of $584.99 before tax."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; seller notes screen spot damage and bezel missing/damaged",
+          "confidence": 0.88,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 649.99,
+          "seller": "Omaha Blue",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Good READ DESC",
+          "total_usd": 649.99,
+          "url": "https://www.ebay.com/itm/307020553665",
+          "why_good": "Active Buy It Now listing for 13-inch M2 MacBook Air with 16GB RAM and 512GB SSD; free US shipping; base total is under $650 and eBay also showed an auto coupon total of $584.99 before tax."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -102,12 +141,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; seller notes screen spot damage and bezel missing/damaged",
+            "confidence": 0.88,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 649.99,
+            "seller": "Omaha Blue",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Good READ DESC",
+            "total_usd": 649.99,
+            "url": "https://www.ebay.com/itm/307020553665",
+            "why_good": "Active Buy It Now listing for 13-inch M2 MacBook Air with 16GB RAM and 512GB SSD; free US shipping; base total is under $650 and eBay also showed an auto coupon total of $584.99 before tax."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -292,45 +347,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.99,
-            "seller": "Newegg",
-            "shipping_usd": 0.0,
-            "source": "Newegg",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-            "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New 2TB M.2 2280 PCIe Gen3 x4 NVMe 1.4 SSD, sold and shipped by Newegg with free US shipping, 30-day returns, and 3-year warranty; 3.13mm low-profile heat spreader is not a tall heatsink."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "New",
-          "confidence": 0.93,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 199.99,
-          "seller": "Newegg",
-          "shipping_usd": 0.0,
-          "source": "Newegg",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-          "total_usd": 199.99,
-          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-          "why_good": "New 2TB M.2 2280 PCIe Gen3 x4 NVMe 1.4 SSD, sold and shipped by Newegg with free US shipping, 30-day returns, and 3-year warranty; 3.13mm low-profile heat spreader is not a tall heatsink."
-        }
-      ],
+      "deals": [],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -338,28 +357,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.99,
-            "seller": "Newegg",
-            "shipping_usd": 0.0,
-            "source": "Newegg",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-            "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New 2TB M.2 2280 PCIe Gen3 x4 NVMe 1.4 SSD, sold and shipped by Newegg with free US shipping, 30-day returns, and 3-year warranty; 3.13mm low-profile heat spreader is not a tall heatsink."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
