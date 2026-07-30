@@ -1,45 +1,43 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-07-30T21:53:34.769964+00:00",
+  "finished_at": "2026-07-30T22:51:04.272605+00:00",
   "logs": [
-    "2026-07-30 17:17:05,652 INFO scalper run started 2026-07-30T21:17:05.652389+00:00",
-    "2026-07-30 17:17:05,655 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-07-30 17:20:36,381 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-07-30 17:20:36,382 INFO checking target=bang-olufsen-charging-case with Codex web_search",
-    "2026-07-30 17:23:18,382 INFO target=bang-olufsen-charging-case qualifying_deals=0",
-    "2026-07-30 17:23:18,382 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
-    "2026-07-30 17:25:19,079 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=0",
-    "2026-07-30 17:25:19,080 INFO checking target=mac-mini-m1-16gb with Codex web_search",
-    "2026-07-30 17:30:15,334 INFO target=mac-mini-m1-16gb qualifying_deals=0",
-    "2026-07-30 17:30:15,335 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
-    "2026-07-30 17:32:29,928 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0",
-    "2026-07-30 17:32:29,929 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-07-30 17:36:16,447 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysylka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html",
-    "2026-07-30 17:36:16,447 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-07-30 17:36:16,448 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-07-30 17:38:38,025 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-07-30 17:38:38,025 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-07-30 17:43:07,825 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/287259587656",
-    "2026-07-30 17:43:07,825 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 Workstation 16\" FHD i7-11850H 32GB RAM 1TB SSD RTX3080 url=https://www.ebay.com/itm/287259587656",
-    "2026-07-30 17:43:43,438 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 Workstation 16\" FHD i7-11850H 32GB RAM 1TB SSD RTX3080 url=https://www.ebay.com/itm/287259587656",
-    "2026-07-30 17:43:43,438 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-07-30 17:43:43,439 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-07-30 17:46:13,686 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-07-30 17:46:13,687 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-07-30 17:48:30,946 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-07-30 17:48:30,946 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-07-30 17:51:01,797 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-07-30 17:51:01,798 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-07-30 17:51:11,997 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-07-30 17:51:12,226 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/157953812349",
-    "2026-07-30 17:51:12,227 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 Open Box 100% health url=https://www.ebay.com/itm/157953812349",
-    "2026-07-30 17:51:31,132 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2",
-    "2026-07-30 17:51:31,133 INFO new deal target=2tb-nvme-magnus-one-us market=us total=199.95 url=https://www.ebay.com/itm/157953812349",
-    "2026-07-30 17:51:31,230 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
-    "2026-07-30 17:51:31,231 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-07-30 17:53:34,769 INFO target=acura-tsx-wagon-cary qualifying_deals=0"
+    "2026-07-30 18:17:05,558 INFO scalper run started 2026-07-30T22:17:05.558052+00:00",
+    "2026-07-30 18:17:05,560 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-07-30 18:19:07,449 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-07-30 18:19:07,449 INFO checking target=bang-olufsen-charging-case with Codex web_search",
+    "2026-07-30 18:21:01,923 INFO target=bang-olufsen-charging-case qualifying_deals=0",
+    "2026-07-30 18:21:01,923 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search",
+    "2026-07-30 18:23:28,961 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307020553665",
+    "2026-07-30 18:23:28,962 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Good READ DESC url=https://www.ebay.com/itm/307020553665",
+    "2026-07-30 18:24:05,014 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307006480818",
+    "2026-07-30 18:24:05,015 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good READ DESC url=https://www.ebay.com/itm/307006480818",
+    "2026-07-30 18:24:14,453 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=2",
+    "2026-07-30 18:24:14,455 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=584.99 url=https://www.ebay.com/itm/307020553665",
+    "2026-07-30 18:24:14,455 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=604.49 url=https://www.ebay.com/itm/307006480818",
+    "2026-07-30 18:24:14,456 INFO checking target=mac-mini-m1-16gb with Codex web_search",
+    "2026-07-30 18:28:46,057 INFO target=mac-mini-m1-16gb qualifying_deals=0",
+    "2026-07-30 18:28:46,057 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search",
+    "2026-07-30 18:31:02,515 INFO target=mac-mini-m2-newer-16gb qualifying_deals=1",
+    "2026-07-30 18:31:02,515 INFO new deal target=mac-mini-m2-newer-16gb market=eu total=447.90 url=https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia",
+    "2026-07-30 18:31:02,623 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-07-30 18:33:51,524 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-07-30 18:33:51,525 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-07-30 18:36:18,905 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-07-30 18:36:18,906 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-07-30 18:39:10,103 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-07-30 18:39:10,103 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-07-30 18:42:51,104 INFO rejected deal target=wanbo-mozart-1-pro-2025 reason=unavailable title=Wanbo 2025 Mozart 1 Pro Flash Sale $379 | 72H Countdown | 1200ANSI | 4K & HDR10 | MEMC Projector url=https://wanbo.cn/products/wanbo-mozart-1-pro-2025-flash-sale",
+    "2026-07-30 18:42:51,104 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-07-30 18:42:51,104 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-07-30 18:45:05,988 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-07-30 18:45:05,988 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-07-30 18:48:10,368 INFO rejected deal target=2tb-nvme-magnus-one-us reason=url_error:The read operation timed out title=ADATA - LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS url=https://www.bestbuy.com/product/adata-legend-710-m-2-2280-2tb-pci-express-3-0-x4-3d-nand-internal-solid-state-drive-ssd-aleg-710-2tcs/J39VZT2Z38/sku/12657342",
+    "2026-07-30 18:48:10,368 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-07-30 18:48:10,369 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-07-30 18:51:04,272 INFO target=acura-tsx-wagon-cary qualifying_deals=0"
   ],
-  "started_at": "2026-07-30T21:17:05.652389+00:00",
+  "started_at": "2026-07-30T22:17:05.558052+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -95,9 +93,79 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; screen spot damage and bezel damage noted",
+            "confidence": 0.89,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 584.99,
+            "seller": "Omaha Blue",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Good READ DESC",
+            "total_usd": 584.99,
+            "url": "https://www.ebay.com/itm/307020553665",
+            "why_good": "13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD; Buy It Now with free US shipping and automatic coupon under $650."
+          },
+          {
+            "availability": "available",
+            "condition": "Used; screen water damage noted",
+            "confidence": 0.88,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 604.49,
+            "seller": "Omaha Blue",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good READ DESC",
+            "total_usd": 604.49,
+            "url": "https://www.ebay.com/itm/307006480818",
+            "why_good": "13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD; Buy It Now/Add to cart with free US shipping and automatic coupon under $650."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; screen spot damage and bezel damage noted",
+          "confidence": 0.89,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 584.99,
+          "seller": "Omaha Blue",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Good READ DESC",
+          "total_usd": 584.99,
+          "url": "https://www.ebay.com/itm/307020553665",
+          "why_good": "13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD; Buy It Now with free US shipping and automatic coupon under $650."
+        },
+        {
+          "availability": "available",
+          "condition": "Used; screen water damage noted",
+          "confidence": 0.88,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 604.49,
+          "seller": "Omaha Blue",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "macbook-13-apple-silicon-16-24gb",
+          "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Very Good READ DESC",
+          "total_usd": 604.49,
+          "url": "https://www.ebay.com/itm/307006480818",
+          "why_good": "13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD; Buy It Now/Add to cart with free US shipping and automatic coupon under $650."
+        }
+      ],
       "id": "macbook-13-apple-silicon-16-24gb",
       "max_price_usd": 650,
       "name": "13-inch M2-or-newer Apple Silicon MacBook with 16GB or 24GB RAM",
@@ -105,12 +173,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; screen spot damage and bezel damage noted",
+            "confidence": 0.89,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 584.99,
+            "seller": "Omaha Blue",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "macbook-13-apple-silicon-16-24gb",
+            "title": "Apple Macbook Air 13\" M2 8-Core 16GB 512GB - Good READ DESC",
+            "total_usd": 584.99,
+            "url": "https://www.ebay.com/itm/307020553665",
+            "why_good": "13-inch 2022 MacBook Air M2 with 16GB RAM and 512GB SSD; Buy It Now with free US shipping and automatic coupon under $650."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -143,22 +227,74 @@
     },
     {
       "deal_groups": {
-        "eu": [],
+        "eu": [
+          {
+            "availability": "available",
+            "condition": "Bardzo dobry",
+            "confidence": 0.91,
+            "delivery_country": "Poland",
+            "market_label": "EU/Europe",
+            "market_region": "eu",
+            "price_usd": 445.0,
+            "seller": "osoba prywatna",
+            "shipping_usd": 2.9,
+            "source": "Allegro Lokalnie",
+            "target_id": "mac-mini-m2-newer-16gb",
+            "title": "Apple Mac mini M2 16GB RAM 512GB SSD Kultowy Mac mini + Stojak BDB",
+            "total_usd": 447.9,
+            "url": "https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia",
+            "why_good": "M2 Mac mini A2686 with 16GB RAM and 512GB SSD; Allegro Paczkomaty delivery to Poland is 10.95 PLN; total is 1700.95 PLN, about $447.9 at live USD/PLN."
+          }
+        ],
         "other": [],
         "us": []
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Bardzo dobry",
+          "confidence": 0.91,
+          "delivery_country": "Poland",
+          "market_label": "EU/Europe",
+          "market_region": "eu",
+          "price_usd": 445.0,
+          "seller": "osoba prywatna",
+          "shipping_usd": 2.9,
+          "source": "Allegro Lokalnie",
+          "target_id": "mac-mini-m2-newer-16gb",
+          "title": "Apple Mac mini M2 16GB RAM 512GB SSD Kultowy Mac mini + Stojak BDB",
+          "total_usd": 447.9,
+          "url": "https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia",
+          "why_good": "M2 Mac mini A2686 with 16GB RAM and 512GB SSD; Allegro Paczkomaty delivery to Poland is 10.95 PLN; total is 1700.95 PLN, about $447.9 at live USD/PLN."
+        }
+      ],
       "id": "mac-mini-m2-newer-16gb",
       "max_price_usd": 550,
       "name": "M2-or-newer Mac mini with 16GB+ RAM",
       "regional_summary": {
         "best": {
-          "eu": null,
+          "eu": {
+            "availability": "available",
+            "condition": "Bardzo dobry",
+            "confidence": 0.91,
+            "delivery_country": "Poland",
+            "market_label": "EU/Europe",
+            "market_region": "eu",
+            "price_usd": 445.0,
+            "seller": "osoba prywatna",
+            "shipping_usd": 2.9,
+            "source": "Allegro Lokalnie",
+            "target_id": "mac-mini-m2-newer-16gb",
+            "title": "Apple Mac mini M2 16GB RAM 512GB SSD Kultowy Mac mini + Stojak BDB",
+            "total_usd": 447.9,
+            "url": "https://allegrolokalnie.pl/oferta/apple-mac-mini-m2-16gb-ram-512gb-ssd-kultowy-mac-mini-stojak-bdb-wia",
+            "why_good": "M2 Mac mini A2686 with 16GB RAM and 512GB SSD; Allegro Paczkomaty delivery to Poland is 10.95 PLN; total is 1700.95 PLN, about $447.9 at live USD/PLN."
+          },
           "other": null,
           "us": null
         },
         "counts": {
-          "eu": 0,
+          "eu": 1,
           "other": 0,
           "us": 0
         },
@@ -295,79 +431,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Open box; new pulled from new prebuilt and tested",
-            "confidence": 0.76,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.95,
-            "seller": "Panpan/tech",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 Open Box 100% health",
-            "total_usd": 199.95,
-            "url": "https://www.ebay.com/itm/157953812349",
-            "why_good": "Exact 2TB M.2 2280 NVMe AGI model, open-box tested pull, 7 available, free US 2-4 day shipping and 30-day returns accepted."
-          },
-          {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.84,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.99,
-            "seller": "Newegg",
-            "shipping_usd": 0.0,
-            "source": "Newegg",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-            "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
-            "why_good": "New retail ADATA 2TB M.2 2280 NVMe Gen3 SSD sold and shipped by Newegg, low-profile 3.13mm heat spreader, 3-year warranty and 30-day returns."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Open box; new pulled from new prebuilt and tested",
-          "confidence": 0.76,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 199.95,
-          "seller": "Panpan/tech",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 Open Box 100% health",
-          "total_usd": 199.95,
-          "url": "https://www.ebay.com/itm/157953812349",
-          "why_good": "Exact 2TB M.2 2280 NVMe AGI model, open-box tested pull, 7 available, free US 2-4 day shipping and 30-day returns accepted."
-        },
-        {
-          "availability": "available",
-          "condition": "New",
-          "confidence": 0.84,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 199.99,
-          "seller": "Newegg",
-          "shipping_usd": 0.0,
-          "source": "Newegg",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-          "total_usd": 199.99,
-          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
-          "why_good": "New retail ADATA 2TB M.2 2280 NVMe Gen3 SSD sold and shipped by Newegg, low-profile 3.13mm heat spreader, 3-year warranty and 30-day returns."
-        }
-      ],
+      "deals": [],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -375,28 +441,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Open box; new pulled from new prebuilt and tested",
-            "confidence": 0.76,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.95,
-            "seller": "Panpan/tech",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 Open Box 100% health",
-            "total_usd": 199.95,
-            "url": "https://www.ebay.com/itm/157953812349",
-            "why_good": "Exact 2TB M.2 2280 NVMe AGI model, open-box tested pull, 7 available, free US 2-4 day shipping and 30-day returns accepted."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
