@@ -1,38 +1,33 @@
-2026-07-31 07:17:05,022 INFO scalper run started 2026-07-31T11:17:05.022090+00:00
-2026-07-31 07:17:05,024 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-07-31 07:19:36,793 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-07-31 07:19:36,794 INFO checking target=bang-olufsen-charging-case with Codex web_search
-2026-07-31 07:23:16,025 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.co.uk/itm/117216414231
-2026-07-31 07:23:16,026 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.co.uk/itm/117216414231
-2026-07-31 07:23:49,148 INFO browser validation rejected target=bang-olufsen-charging-case reason=sold title=Genuine Bang & Olufsen Beoplay EX (Cisco 950) – Charging Case ONLY -Black url=https://www.ebay.co.uk/itm/117216414231
-2026-07-31 07:23:49,322 INFO listing URL validation rejected target=bang-olufsen-charging-case reason=http_403_antibot_unverified url=https://www.ebay.co.uk/itm/117216431961
-2026-07-31 07:23:49,322 INFO HTTP validation inconclusive target=bang-olufsen-charging-case reason=http_403_antibot_unverified title=Genuine Bang & Olufsen Beoplay EX Wireless ANC In-Ear – Charging Case -Black url=https://www.ebay.co.uk/itm/117216431961
-2026-07-31 07:23:55,665 INFO target=bang-olufsen-charging-case qualifying_deals=1
-2026-07-31 07:23:55,666 INFO already notified target=bang-olufsen-charging-case market=eu total=82.06 url=https://www.ebay.co.uk/itm/117216431961
-2026-07-31 07:23:55,667 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
-2026-07-31 07:26:13,516 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307020553665
-2026-07-31 07:26:13,517 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Good READ DESC url=https://www.ebay.com/itm/307020553665
-2026-07-31 07:26:22,902 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
-2026-07-31 07:26:22,903 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=649.99 url=https://www.ebay.com/itm/307020553665
-2026-07-31 07:26:22,904 INFO checking target=mac-mini-m1-16gb with Codex web_search
-2026-07-31 07:28:23,709 INFO target=mac-mini-m1-16gb qualifying_deals=0
-2026-07-31 07:28:23,710 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
-2026-07-31 07:31:09,378 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
-2026-07-31 07:31:09,379 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-07-31 07:33:56,331 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-07-31 07:33:56,332 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-07-31 07:36:00,413 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-07-31 07:36:00,414 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-07-31 07:38:39,341 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/287259587656
-2026-07-31 07:38:39,342 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 Workstation 16" FHD i7-11850H 32GB RAM 1TB SSD RTX3080 url=https://www.ebay.com/itm/287259587656
-2026-07-31 07:39:15,551 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 Workstation 16" FHD i7-11850H 32GB RAM 1TB SSD RTX3080 url=https://www.ebay.com/itm/287259587656
-2026-07-31 07:39:15,552 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-07-31 07:39:15,552 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-07-31 07:42:00,600 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-07-31 07:42:00,601 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-07-31 07:44:14,626 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-07-31 07:44:14,626 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-07-31 07:47:19,136 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-07-31 07:47:19,136 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
-2026-07-31 07:47:19,137 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-07-31 07:49:51,510 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-07-31 08:17:05,543 INFO scalper run started 2026-07-31T12:17:05.543202+00:00
+2026-07-31 08:17:05,546 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-07-31 08:20:41,233 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-07-31 08:20:41,233 INFO checking target=bang-olufsen-charging-case with Codex web_search
+2026-07-31 08:25:28,766 INFO target=bang-olufsen-charging-case qualifying_deals=0
+2026-07-31 08:25:28,767 INFO checking target=macbook-13-apple-silicon-16-24gb with Codex web_search
+2026-07-31 08:27:51,689 INFO listing URL validation rejected target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified url=https://www.ebay.com/itm/307020553665
+2026-07-31 08:27:51,690 INFO HTTP validation inconclusive target=macbook-13-apple-silicon-16-24gb reason=http_403_antibot_unverified title=Apple Macbook Air 13" M2 8-Core 16GB 512GB - Good READ DESC url=https://www.ebay.com/itm/307020553665
+2026-07-31 08:28:27,243 INFO target=macbook-13-apple-silicon-16-24gb qualifying_deals=1
+2026-07-31 08:28:27,243 INFO already notified target=macbook-13-apple-silicon-16-24gb market=us total=649.99 url=https://www.ebay.com/itm/307020553665
+2026-07-31 08:28:27,244 INFO checking target=mac-mini-m1-16gb with Codex web_search
+2026-07-31 08:30:46,073 INFO target=mac-mini-m1-16gb qualifying_deals=0
+2026-07-31 08:30:46,074 INFO checking target=mac-mini-m2-newer-16gb with Codex web_search
+2026-07-31 08:33:24,224 INFO target=mac-mini-m2-newer-16gb qualifying_deals=0
+2026-07-31 08:33:24,225 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-07-31 08:36:58,947 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-07-31 08:36:58,948 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-07-31 08:39:19,002 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-07-31 08:39:19,003 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-07-31 08:42:52,914 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137430075502
+2026-07-31 08:42:52,914 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4/16"/i9 11950H/32GB/2TB/RTX 3080 16GB/READ DESCRIPTION url=https://www.ebay.com/itm/137430075502
+2026-07-31 08:42:59,521 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4/16"/i9 11950H/32GB/2TB/RTX 3080 16GB/READ DESCRIPTION url=https://www.ebay.com/itm/137430075502
+2026-07-31 08:42:59,522 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-07-31 08:42:59,523 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-07-31 08:48:11,233 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-07-31 08:48:11,234 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-07-31 08:52:38,719 INFO rejected deal target=rtx-5060-ti-magnus-one-500w-us reason=unavailable title=GIGABYTE GeForce RTX 5060 Ti WINDFORCE OC 16G Graphics Card, 16GB 128-bit GDDR7, PCIe 5.0, WINDFORCE Cooling System, GV-N506TWF2OC-16GD Video Card url=https://www.amazon.com/dp/B0F5BBGCSZ
+2026-07-31 08:52:38,719 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-07-31 08:52:38,720 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-07-31 08:56:16,403 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-07-31 08:56:16,404 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
+2026-07-31 08:56:16,407 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-07-31 08:58:51,119 INFO target=acura-tsx-wagon-cary qualifying_deals=0
