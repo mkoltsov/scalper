@@ -1,43 +1,79 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-07-31T21:43:26.649253+00:00",
+  "finished_at": "2026-07-31T22:45:46.856339+00:00",
   "logs": [
-    "2026-07-31 17:17:05,040 INFO scalper run started 2026-07-31T21:17:05.040679+00:00",
-    "2026-07-31 17:17:05,043 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-07-31 17:20:02,974 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-07-31 17:20:02,975 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-07-31 17:23:43,779 INFO listing URL validation rejected target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349",
-    "2026-07-31 17:23:43,780 INFO HTTP validation inconclusive target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified title=Pianino cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349",
-    "2026-07-31 17:24:57,180 INFO browser validation rejected target=yamaha-np12-np15-piaggero reason=browser_empty_or_too_short title=Pianino cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349",
-    "2026-07-31 17:24:57,692 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysy\u0142ka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html",
-    "2026-07-31 17:24:57,692 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-07-31 17:24:57,693 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-07-31 17:26:54,100 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-07-31 17:26:54,101 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-07-31 17:29:53,639 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB",
-    "2026-07-31 17:29:53,639 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-07-31 17:29:53,640 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-07-31 17:32:24,608 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-07-31 17:32:24,608 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-07-31 17:36:48,173 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-07-31 17:36:48,174 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-07-31 17:40:13,571 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-07-31 17:40:13,572 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-07-31 17:40:49,437 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-07-31 17:41:00,207 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-07-31 17:41:00,208 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-    "2026-07-31 17:41:00,209 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-07-31 17:43:26,648 INFO target=acura-tsx-wagon-cary qualifying_deals=0"
+    "2026-07-31 18:17:04,881 INFO scalper run started 2026-07-31T22:17:04.881539+00:00",
+    "2026-07-31 18:17:04,884 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-07-31 18:22:04,920 INFO target=nzxt-h1-v2 qualifying_deals=1",
+    "2026-07-31 18:22:04,921 INFO already notified target=nzxt-h1-v2 market=us total=82.56 url=https://www.ebay.com/p/13043330909",
+    "2026-07-31 18:22:04,922 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-07-31 18:25:18,855 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12-B Keyboard Workstation url=https://www.guitarcenter.com/Used/Used-Yamaha-NP12-B-Keyboard-Workstation.gc",
+    "2026-07-31 18:25:18,982 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12 Digital Piano url=https://www.guitarcenter.com/Used/Yamaha/Used-Yamaha-NP12-Digital-Piano.gc",
+    "2026-07-31 18:25:18,982 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-07-31 18:25:18,983 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-07-31 18:27:18,552 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-07-31 18:27:18,553 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-07-31 18:29:58,921 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-07-31 18:29:58,922 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-07-31 18:34:38,136 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-07-31 18:34:38,136 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-07-31 18:36:57,929 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-07-31 18:36:57,930 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-07-31 18:40:08,196 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-07-31 18:40:08,197 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-07-31 18:40:44,491 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-07-31 18:40:55,573 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-07-31 18:40:55,573 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
+    "2026-07-31 18:40:55,574 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-07-31 18:43:16,163 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-07-31 18:43:16,164 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-07-31 18:45:46,856 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-07-31T21:17:05.040679+00:00",
+  "started_at": "2026-07-31T22:17:04.881539+00:00",
   "targets": [
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used",
+            "confidence": 0.67,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 60.0,
+            "seller": "wordsmeanthings2",
+            "shipping_usd": 22.56,
+            "source": "eBay",
+            "target_id": "nzxt-h1-v2",
+            "title": "NZXT H1 V2 Mini-ITX Case - Matte White",
+            "total_usd": 82.56,
+            "url": "https://www.ebay.com/p/13043330909",
+            "why_good": "Active Buy It Now listing; seller note says it is V2, and eBay product details show PSU included and liquid cooler; under $200 shipped to a US address."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used",
+          "confidence": 0.67,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 60.0,
+          "seller": "wordsmeanthings2",
+          "shipping_usd": 22.56,
+          "source": "eBay",
+          "target_id": "nzxt-h1-v2",
+          "title": "NZXT H1 V2 Mini-ITX Case - Matte White",
+          "total_usd": 82.56,
+          "url": "https://www.ebay.com/p/13043330909",
+          "why_good": "Active Buy It Now listing; seller note says it is V2, and eBay product details show PSU included and liquid cooler; under $200 shipped to a US address."
+        }
+      ],
       "id": "nzxt-h1-v2",
       "max_price_usd": 200,
       "name": "NZXT H1 V2 mini-ITX case bundle",
@@ -45,12 +81,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used",
+            "confidence": 0.67,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 60.0,
+            "seller": "wordsmeanthings2",
+            "shipping_usd": 22.56,
+            "source": "eBay",
+            "target_id": "nzxt-h1-v2",
+            "title": "NZXT H1 V2 Mini-ITX Case - Matte White",
+            "total_usd": 82.56,
+            "url": "https://www.ebay.com/p/13043330909",
+            "why_good": "Active Buy It Now listing; seller note says it is V2, and eBay product details show PSU included and liquid cooler; under $200 shipped to a US address."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -189,7 +241,7 @@
           {
             "availability": "available",
             "condition": "New",
-            "confidence": 0.93,
+            "confidence": 0.9,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -201,7 +253,7 @@
             "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
             "total_usd": 199.99,
             "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New ADATA 2TB M.2 2280 PCIe 3.0 x4 NVMe SSD, sold and shipped by Newegg with free US shipping; standard gumstick form factor without a tall heatsink."
+            "why_good": "New 2TB ADATA LEGEND 710 M.2 2280 PCIe 3.0 x4 NVMe SSD; in stock, sold and shipped by Newegg from the US with free shipping."
           }
         ]
       },
@@ -209,7 +261,7 @@
         {
           "availability": "available",
           "condition": "New",
-          "confidence": 0.93,
+          "confidence": 0.9,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -221,7 +273,7 @@
           "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
           "total_usd": 199.99,
           "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-          "why_good": "New ADATA 2TB M.2 2280 PCIe 3.0 x4 NVMe SSD, sold and shipped by Newegg with free US shipping; standard gumstick form factor without a tall heatsink."
+          "why_good": "New 2TB ADATA LEGEND 710 M.2 2280 PCIe 3.0 x4 NVMe SSD; in stock, sold and shipped by Newegg from the US with free shipping."
         }
       ],
       "id": "2tb-nvme-magnus-one-us",
@@ -234,7 +286,7 @@
           "us": {
             "availability": "available",
             "condition": "New",
-            "confidence": 0.93,
+            "confidence": 0.9,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -246,7 +298,7 @@
             "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
             "total_usd": 199.99,
             "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New ADATA 2TB M.2 2280 PCIe 3.0 x4 NVMe SSD, sold and shipped by Newegg with free US shipping; standard gumstick form factor without a tall heatsink."
+            "why_good": "New 2TB ADATA LEGEND 710 M.2 2280 PCIe 3.0 x4 NVMe SSD; in stock, sold and shipped by Newegg from the US with free shipping."
           }
         },
         "counts": {
@@ -268,6 +320,31 @@
       "id": "acura-tsx-wagon-cary",
       "max_price_usd": 11000,
       "name": "Acura TSX Sport Wagon with leather near Cary, NC",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "lexus-es-2016-2018-cary",
+      "max_price_usd": 18000,
+      "name": "2016-2018 Lexus ES near Cary, NC",
       "regional_summary": {
         "best": {
           "eu": null,
