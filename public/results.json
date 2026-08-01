@@ -1,31 +1,33 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-01T06:41:02.822543+00:00",
+  "finished_at": "2026-08-01T07:44:55.575897+00:00",
   "logs": [
-    "2026-08-01 02:17:05,340 INFO scalper run started 2026-08-01T06:17:05.340345+00:00",
-    "2026-08-01 02:17:05,343 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-01 02:19:31,694 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-01 02:19:31,695 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-01 02:22:41,220 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-08-01 02:22:41,221 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-01 02:26:02,255 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-01 02:26:02,256 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-01 02:29:01,156 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/358433146977",
-    "2026-08-01 02:29:01,157 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977",
-    "2026-08-01 02:29:36,880 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=1",
-    "2026-08-01 02:29:36,881 INFO new deal target=lenovo-thinkpad-p1-16gb-vram market=us total=878.80 url=https://www.ebay.com/itm/358433146977",
-    "2026-08-01 02:29:36,993 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-01 02:32:05,032 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-01 02:32:05,033 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-01 02:34:32,699 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-01 02:34:32,700 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-01 02:36:35,863 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
-    "2026-08-01 02:36:35,864 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-01 02:38:55,715 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-01 02:38:55,716 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-01 02:41:02,822 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-01 03:17:05,098 INFO scalper run started 2026-08-01T07:17:05.098686+00:00",
+    "2026-08-01 03:17:05,101 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-01 03:19:55,585 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-01 03:19:55,585 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-01 03:22:49,105 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero NP-12 wysylka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html",
+    "2026-08-01 03:22:49,105 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-08-01 03:22:49,106 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-01 03:24:59,753 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-01 03:24:59,754 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-01 03:28:39,427 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB",
+    "2026-08-01 03:28:39,434 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD",
+    "2026-08-01 03:28:39,435 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-01 03:28:39,435 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-01 03:33:10,903 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-01 03:33:10,904 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-01 03:36:04,339 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-08-01 03:36:04,340 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-01 03:39:24,884 INFO rejected deal target=2tb-nvme-magnus-one-us reason=unavailable title=Silicon Power 2TB NVMe M.2 PCIe Gen3x4 2280 SSD Solid State Drive (SP002TBP34A60M28) url=https://www.amazon.com/Silicon-Power-Gen3x4-Solid-SP002TBP34A60M28/dp/B07ZQ97H3W",
+    "2026-08-01 03:39:26,101 INFO rejected deal target=2tb-nvme-magnus-one-us reason=unavailable title=Crucial P3 Plus 2TB PCIe Gen4 NVMe M.2 SSD - CT2000P3PSSD8 url=https://www.amazon.com/dp/B0B25ML2FH",
+    "2026-08-01 03:39:26,102 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-08-01 03:39:26,102 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-01 03:41:44,768 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-01 03:41:45,120 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-01 03:44:55,571 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-01T06:17:05.340345+00:00",
+  "started_at": "2026-08-01T07:17:05.098686+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -106,45 +108,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 850.0,
-            "seller": "Parts Caf\u00e9",
-            "shipping_usd": 28.8,
-            "source": "eBay",
-            "target_id": "lenovo-thinkpad-p1-16gb-vram",
-            "title": "Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD",
-            "total_usd": 878.8,
-            "url": "https://www.ebay.com/itm/358433146977",
-            "why_good": "Active Buy It Now ThinkPad P1 Gen 4 listing; item specifics show Lenovo ThinkPad P1 with NVIDIA RTX 3080, and seller notes state NVIDIA RTX 3080, 16GB GDDR6. Total is $850.00 + $28.80 US shipping."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used",
-          "confidence": 0.93,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 850.0,
-          "seller": "Parts Caf\u00e9",
-          "shipping_usd": 28.8,
-          "source": "eBay",
-          "target_id": "lenovo-thinkpad-p1-16gb-vram",
-          "title": "Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD",
-          "total_usd": 878.8,
-          "url": "https://www.ebay.com/itm/358433146977",
-          "why_good": "Active Buy It Now ThinkPad P1 Gen 4 listing; item specifics show Lenovo ThinkPad P1 with NVIDIA RTX 3080, and seller notes state NVIDIA RTX 3080, 16GB GDDR6. Total is $850.00 + $28.80 US shipping."
-        }
-      ],
+      "deals": [],
       "id": "lenovo-thinkpad-p1-16gb-vram",
       "max_price_usd": 945,
       "name": "Lenovo ThinkPad P1 with 16GB VRAM",
@@ -152,28 +118,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 850.0,
-            "seller": "Parts Caf\u00e9",
-            "shipping_usd": 28.8,
-            "source": "eBay",
-            "target_id": "lenovo-thinkpad-p1-16gb-vram",
-            "title": "Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD",
-            "total_usd": 878.8,
-            "url": "https://www.ebay.com/itm/358433146977",
-            "why_good": "Active Buy It Now ThinkPad P1 Gen 4 listing; item specifics show Lenovo ThinkPad P1 with NVIDIA RTX 3080, and seller notes state NVIDIA RTX 3080, 16GB GDDR6. Total is $850.00 + $28.80 US shipping."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
