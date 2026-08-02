@@ -1,23 +1,38 @@
-2026-08-02 17:17:04,745 INFO scalper run started 2026-08-02T21:17:04.745820+00:00
-2026-08-02 17:17:04,748 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-02 17:19:28,174 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-02 17:19:28,175 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-02 17:22:09,240 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysyłka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html
-2026-08-02 17:22:09,240 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-02 17:22:09,241 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-02 17:24:33,263 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-02 17:24:33,263 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-02 17:31:01,417 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB
-2026-08-02 17:31:01,426 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4/16"/i9 11950H/32GB/2TB/RTX 3080 16GB/READ DESCRIPTION
-2026-08-02 17:31:01,426 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-02 17:31:01,427 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-02 17:33:22,895 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-02 17:33:22,895 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-02 17:36:20,363 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-08-02 17:36:20,364 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-02 17:39:48,571 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-02 17:39:48,571 INFO already notified target=2tb-nvme-magnus-one-us market=us total=149.99 url=https://www.goharddrive.com/SK-Hynix-HFS002TEJ9X101N-2TB-PCIe-3-x4-NVMe-SSD-p/g02-0930-cr.htm
-2026-08-02 17:39:48,572 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-02 17:42:04,042 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-02 17:42:04,043 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-02 17:44:49,096 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-02 18:17:05,030 INFO scalper run started 2026-08-02T22:17:05.029932+00:00
+2026-08-02 18:17:05,032 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-02 18:19:09,542 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-02 18:19:09,542 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-02 18:23:25,464 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_404 title=Used Yamaha NP12 Piaggero Digital Piano url=https://www.musiciansfriend.com/keyboards-midi/used-yamaha-used-yamaha-np12-piaggero-digital-piano/121748289
+2026-08-02 18:23:25,465 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-02 18:23:25,465 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-02 18:23:40,982 ERROR Codex search failed for target=toyota-matrix-2nd-gen-red-hood
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1856, in run
+    result = run_codex(target, config, metrics)
+  File "/home/intimatik/dev/scalper/scalper.py", line 523, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
+    )
+RuntimeError: Codex failed for toyota-matrix-2nd-gen-red-hood with exit code 1: Error: timed out waiting for cloud config bundle after 15s
+2026-08-02 18:23:40,985 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-02 18:27:03,540 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB
+2026-08-02 18:27:03,708 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/398135871016
+2026-08-02 18:27:03,709 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016
+2026-08-02 18:27:37,035 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=sold title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016
+2026-08-02 18:27:37,035 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-02 18:27:37,036 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-02 18:30:21,826 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-02 18:30:21,826 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-02 18:33:09,595 INFO rejected deal target=rtx-5060-ti-magnus-one-500w-us reason=reject_pattern pattern=\b(?:gpu\s+cooler|water\s*block|heatsink|backplate|fan|empty\s+box|box\s+only)\b title=GIGABYTE GeForce RTX 5060 Ti WINDFORCE OC 16G Graphics Card, 16GB 128-bit GDDR7, PCIe 5.0, WINDFORCE Cooling System, GV-N506TWF2OC-16GD Video Card
+2026-08-02 18:33:09,595 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-02 18:33:09,595 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-02 18:35:52,580 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/198384309799
+2026-08-02 18:35:52,581 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=SABRENT Rocket 2TB NVMe M.2 2280 Internal SSD (SB-ROCKET-2TB) USED 50% Health url=https://www.ebay.com/itm/198384309799
+2026-08-02 18:36:25,518 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=SABRENT Rocket 2TB NVMe M.2 2280 Internal SSD (SB-ROCKET-2TB) USED 50% Health url=https://www.ebay.com/itm/198384309799
+2026-08-02 18:36:45,724 INFO rejected deal target=2tb-nvme-magnus-one-us reason=url_error:The read operation timed out title=ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS url=https://www.bestbuy.com/product/adata-legend-710-m-2-2280-2tb-pci-express-3-0-x4-3d-nand-internal-solid-state-drive-ssd-aleg-710-2tcs/J39VZT2Z38
+2026-08-02 18:36:55,438 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-02 18:36:55,439 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
+2026-08-02 18:36:55,439 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-02 18:39:15,878 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-02 18:39:15,878 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-02 18:44:18,675 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
