@@ -1,37 +1,34 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-02T00:47:50.086043+00:00",
+  "finished_at": "2026-08-02T01:47:19.268580+00:00",
   "logs": [
-    "2026-08-01 20:17:05,469 INFO scalper run started 2026-08-02T00:17:05.469468+00:00",
-    "2026-08-01 20:17:05,472 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-01 20:19:55,709 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-01 20:19:55,710 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-01 20:23:30,713 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysy\u0142ka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html",
-    "2026-08-01 20:23:30,714 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-08-01 20:23:30,714 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-01 20:26:12,989 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-01 20:26:12,990 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-01 20:29:55,608 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB",
-    "2026-08-01 20:29:55,609 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-01 20:29:55,609 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-01 20:32:18,397 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-01 20:32:18,398 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-01 20:37:10,736 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-01 20:37:10,737 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-01 20:41:41,487 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-08-01 20:41:41,487 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-08-01 20:41:51,161 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-08-01 20:41:52,405 INFO rejected deal target=2tb-nvme-magnus-one-us reason=unavailable title=WD_BLACK 2TB SN7100 NVMe SSD, Internal Solid State Drive - WDS200T4X0E-00CJA0 url=https://www.walmart.com/ip/WD-BLACK-SN7100-M-2-2280-2TB-PCI-Express-4-0-x4-TLC-3D-NAND-Internal-Solid-State-Drive-SSD-WDS200T4X0E/15004169299?classType=VARIANT",
-    "2026-08-01 20:41:53,448 INFO rejected deal target=2tb-nvme-magnus-one-us reason=unavailable title=PNY CS2241 2TB Gen4 x4 PCIe NVMe M.2 Internal SSD Upgrade Kit with Transfer Adapter and Software url=https://www.walmart.com/ip/PNY-2TB-M-2-NVMe-Gen4-x4-Internal-SSD-Upgrade-Kit-with-Transfer-Adapter-and-Software/5087533336?classType=VARIANT",
-    "2026-08-01 20:41:54,693 INFO rejected deal target=2tb-nvme-magnus-one-us reason=unavailable title=PNY CS2150 M.2 2280 2TB PCI-Express 5.0 x4 3D NAND Internal Solid State Drive SSD M280CS2150-2TB-TB url=https://www.walmart.com/ip/PNY-CS2150-M-2-2280-2TB-PCI-Express-5-0-x4-3D-NAND-Internal-Solid-State-Drive-SSD-M280CS2150-2TB-TB/14959061710?classType=VARIANT",
-    "2026-08-01 20:41:54,693 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-01 20:41:54,693 INFO new deal target=2tb-nvme-magnus-one-us market=us total=159.00 url=https://www.walmart.com/ip/SANDISK-Optimus-7100-2TB-NVMe-Internal-Gaming-SSD-Solid-State-Drive-Gen4-PCIe-M-2-2280-Up-to-7-250-MB-s/18206220395?athbdg=L1600&classType=VARIANT",
-    "2026-08-01 20:41:54,797 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-01 20:44:19,605 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-01 20:44:19,606 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-01 20:47:50,085 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-01 21:17:05,109 INFO scalper run started 2026-08-02T01:17:05.109738+00:00",
+    "2026-08-01 21:17:05,112 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-01 21:23:54,320 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-01 21:23:54,321 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-01 21:26:55,256 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12-B Keyboard Workstation url=https://www.guitarcenter.com/Used/Used-Yamaha-NP12-B-Keyboard-Workstation.gc",
+    "2026-08-01 21:26:55,257 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-08-01 21:26:55,257 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-01 21:29:21,520 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-01 21:29:21,520 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-01 21:33:42,281 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD",
+    "2026-08-01 21:33:42,488 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/358433146977",
+    "2026-08-01 21:33:42,489 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977",
+    "2026-08-01 21:34:18,768 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=1",
+    "2026-08-01 21:34:18,769 INFO already notified target=lenovo-thinkpad-p1-16gb-vram market=us total=878.80 url=https://www.ebay.com/itm/358433146977",
+    "2026-08-01 21:34:18,770 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-01 21:37:33,160 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-01 21:37:33,161 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-01 21:39:43,965 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-08-01 21:39:43,966 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-01 21:42:11,455 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-08-01 21:42:11,456 INFO already notified target=2tb-nvme-magnus-one-us market=us total=149.99 url=https://www.goharddrive.com/SK-Hynix-HFS002TEJ9X101N-2TB-PCIe-3-x4-NVMe-SSD-p/g02-0930-cr.htm",
+    "2026-08-01 21:42:11,456 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-01 21:44:26,140 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-01 21:44:26,141 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-01 21:47:19,268 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-02T00:17:05.469468+00:00",
+  "started_at": "2026-08-02T01:17:05.109738+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -112,9 +109,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; good condition with small white spot on screen and scratches on top cover",
+            "confidence": 0.79,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 850.0,
+            "seller": "Parts Caf\u00e9",
+            "shipping_usd": 28.8,
+            "source": "eBay",
+            "target_id": "lenovo-thinkpad-p1-16gb-vram",
+            "title": "Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD",
+            "total_usd": 878.8,
+            "url": "https://www.ebay.com/itm/358433146977",
+            "why_good": "Buy It Now ThinkPad P1 Gen 4 listing; seller note matched RTX 3080 with 16GB GDDR6, keeping item plus domestic shipping under $945."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; good condition with small white spot on screen and scratches on top cover",
+          "confidence": 0.79,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 850.0,
+          "seller": "Parts Caf\u00e9",
+          "shipping_usd": 28.8,
+          "source": "eBay",
+          "target_id": "lenovo-thinkpad-p1-16gb-vram",
+          "title": "Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD",
+          "total_usd": 878.8,
+          "url": "https://www.ebay.com/itm/358433146977",
+          "why_good": "Buy It Now ThinkPad P1 Gen 4 listing; seller note matched RTX 3080 with 16GB GDDR6, keeping item plus domestic shipping under $945."
+        }
+      ],
       "id": "lenovo-thinkpad-p1-16gb-vram",
       "max_price_usd": 945,
       "name": "Lenovo ThinkPad P1 with 16GB VRAM",
@@ -122,12 +155,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; good condition with small white spot on screen and scratches on top cover",
+            "confidence": 0.79,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 850.0,
+            "seller": "Parts Caf\u00e9",
+            "shipping_usd": 28.8,
+            "source": "eBay",
+            "target_id": "lenovo-thinkpad-p1-16gb-vram",
+            "title": "Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16\" 2560x1600 NVIDIA RTX 3080 1TB SSD",
+            "total_usd": 878.8,
+            "url": "https://www.ebay.com/itm/358433146977",
+            "why_good": "Buy It Now ThinkPad P1 Gen 4 listing; seller note matched RTX 3080 with 16GB GDDR6, keeping item plus domestic shipping under $945."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -190,40 +239,40 @@
         "us": [
           {
             "availability": "available",
-            "condition": "New",
-            "confidence": 0.7,
+            "condition": "Refurbished; sealed bulk pack; 3-year warranty",
+            "confidence": 0.84,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 159.0,
-            "seller": "",
+            "price_usd": 149.99,
+            "seller": "goHardDrive",
             "shipping_usd": 0.0,
-            "source": "Walmart",
+            "source": "goHardDrive",
             "target_id": "2tb-nvme-magnus-one-us",
-            "title": "SANDISK Optimus 7100 2TB NVMe Internal Gaming SSD Solid State Drive - Gen4 PCIe, M.2 2280, up to 7,250 MB/s",
-            "total_usd": 159.0,
-            "url": "https://www.walmart.com/ip/SANDISK-Optimus-7100-2TB-NVMe-Internal-Gaming-SSD-Solid-State-Drive-Gen4-PCIe-M-2-2280-Up-to-7-250-MB-s/18206220395?athbdg=L1600&classType=VARIANT",
-            "why_good": "2TB M.2 2280 NVMe internal SSD listing, no tall heatsink in title/images, Walmart purchase page opened under $200."
+            "title": "SK Hynix PC801 HFS002TEJ9X101N 2TB PCIe 3.0 x4 NVMe M.2 2280 Internal Solid State Drive (SSD) (Refurbished) - w/3 Year Warranty",
+            "total_usd": 149.99,
+            "url": "https://www.goharddrive.com/SK-Hynix-HFS002TEJ9X101N-2TB-PCIe-3-x4-NVMe-SSD-p/g02-0930-cr.htm",
+            "why_good": "2TB SK Hynix PC801 internal M.2 2280 NVMe PCIe SSD, refurbished with 3-year warranty, in stock, free US shipping, no tall heatsink shown."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "New",
-          "confidence": 0.7,
+          "condition": "Refurbished; sealed bulk pack; 3-year warranty",
+          "confidence": 0.84,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
-          "price_usd": 159.0,
-          "seller": "",
+          "price_usd": 149.99,
+          "seller": "goHardDrive",
           "shipping_usd": 0.0,
-          "source": "Walmart",
+          "source": "goHardDrive",
           "target_id": "2tb-nvme-magnus-one-us",
-          "title": "SANDISK Optimus 7100 2TB NVMe Internal Gaming SSD Solid State Drive - Gen4 PCIe, M.2 2280, up to 7,250 MB/s",
-          "total_usd": 159.0,
-          "url": "https://www.walmart.com/ip/SANDISK-Optimus-7100-2TB-NVMe-Internal-Gaming-SSD-Solid-State-Drive-Gen4-PCIe-M-2-2280-Up-to-7-250-MB-s/18206220395?athbdg=L1600&classType=VARIANT",
-          "why_good": "2TB M.2 2280 NVMe internal SSD listing, no tall heatsink in title/images, Walmart purchase page opened under $200."
+          "title": "SK Hynix PC801 HFS002TEJ9X101N 2TB PCIe 3.0 x4 NVMe M.2 2280 Internal Solid State Drive (SSD) (Refurbished) - w/3 Year Warranty",
+          "total_usd": 149.99,
+          "url": "https://www.goharddrive.com/SK-Hynix-HFS002TEJ9X101N-2TB-PCIe-3-x4-NVMe-SSD-p/g02-0930-cr.htm",
+          "why_good": "2TB SK Hynix PC801 internal M.2 2280 NVMe PCIe SSD, refurbished with 3-year warranty, in stock, free US shipping, no tall heatsink shown."
         }
       ],
       "id": "2tb-nvme-magnus-one-us",
@@ -235,20 +284,20 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "New",
-            "confidence": 0.7,
+            "condition": "Refurbished; sealed bulk pack; 3-year warranty",
+            "confidence": 0.84,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 159.0,
-            "seller": "",
+            "price_usd": 149.99,
+            "seller": "goHardDrive",
             "shipping_usd": 0.0,
-            "source": "Walmart",
+            "source": "goHardDrive",
             "target_id": "2tb-nvme-magnus-one-us",
-            "title": "SANDISK Optimus 7100 2TB NVMe Internal Gaming SSD Solid State Drive - Gen4 PCIe, M.2 2280, up to 7,250 MB/s",
-            "total_usd": 159.0,
-            "url": "https://www.walmart.com/ip/SANDISK-Optimus-7100-2TB-NVMe-Internal-Gaming-SSD-Solid-State-Drive-Gen4-PCIe-M-2-2280-Up-to-7-250-MB-s/18206220395?athbdg=L1600&classType=VARIANT",
-            "why_good": "2TB M.2 2280 NVMe internal SSD listing, no tall heatsink in title/images, Walmart purchase page opened under $200."
+            "title": "SK Hynix PC801 HFS002TEJ9X101N 2TB PCIe 3.0 x4 NVMe M.2 2280 Internal Solid State Drive (SSD) (Refurbished) - w/3 Year Warranty",
+            "total_usd": 149.99,
+            "url": "https://www.goharddrive.com/SK-Hynix-HFS002TEJ9X101N-2TB-PCIe-3-x4-NVMe-SSD-p/g02-0930-cr.htm",
+            "why_good": "2TB SK Hynix PC801 internal M.2 2280 NVMe PCIe SSD, refurbished with 3-year warranty, in stock, free US shipping, no tall heatsink shown."
           }
         },
         "counts": {
