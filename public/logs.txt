@@ -1,35 +1,23 @@
-2026-08-02 14:17:04,764 INFO scalper run started 2026-08-02T18:17:04.764357+00:00
-2026-08-02 14:17:04,767 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-02 14:19:23,039 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-02 14:19:23,039 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-02 14:23:04,700 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysyłka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html
-2026-08-02 14:23:04,700 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-02 14:23:04,700 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-02 14:25:41,369 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-02 14:25:41,370 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-02 14:29:54,945 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/398135871016
-2026-08-02 14:29:54,946 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016
-2026-08-02 14:30:28,255 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=sold title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016
-2026-08-02 14:30:28,255 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-02 14:30:28,256 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-02 14:33:55,500 INFO listing URL validation rejected target=wanbo-mozart-1-pro-2025 reason=http_403_antibot_unverified url=https://allegro.pl/oferta/projektor-led-wanbo-mozart-1-pro-2025-czarny-18635666544
-2026-08-02 14:33:55,501 INFO HTTP validation inconclusive target=wanbo-mozart-1-pro-2025 reason=http_403_antibot_unverified title=Projektor LED WANBO Mozart 1 Pro 2025 czarny url=https://allegro.pl/oferta/projektor-led-wanbo-mozart-1-pro-2025-czarny-18635666544
-2026-08-02 14:34:03,441 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=1
-2026-08-02 14:34:03,442 INFO new deal target=wanbo-mozart-1-pro-2025 market=eu total=299.60 url=https://allegro.pl/oferta/projektor-led-wanbo-mozart-1-pro-2025-czarny-18635666544
-2026-08-02 14:34:03,540 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-02 14:37:18,670 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-08-02 14:37:18,670 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-02 14:40:32,740 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
-2026-08-02 14:40:32,740 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
-2026-08-02 14:40:42,423 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
-2026-08-02 14:40:42,596 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/327194840237
-2026-08-02 14:40:42,597 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/327194840237
-2026-08-02 14:40:51,609 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/327194840237
-2026-08-02 14:40:51,836 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469
-2026-08-02 14:40:51,837 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469
-2026-08-02 14:41:01,374 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-02 14:41:01,374 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469
-2026-08-02 14:41:01,375 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-02 14:43:24,578 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-02 14:43:24,578 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-02 14:45:47,205 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-02 15:17:05,569 INFO scalper run started 2026-08-02T19:17:05.569616+00:00
+2026-08-02 15:17:05,572 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-02 15:19:41,616 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-02 15:19:41,616 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-02 15:22:37,626 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12-B Keyboard Workstation url=https://www.guitarcenter.com/Used/Used-Yamaha-NP12-B-Keyboard-Workstation.gc
+2026-08-02 15:22:37,627 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-02 15:22:37,628 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-02 15:24:48,634 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-02 15:24:48,635 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-02 15:28:05,577 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB
+2026-08-02 15:28:05,578 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-02 15:28:05,578 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-02 15:30:06,245 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-02 15:30:06,246 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-02 15:33:23,892 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-02 15:33:23,893 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-02 15:36:43,041 INFO rejected deal target=2tb-nvme-magnus-one-us reason=url_error:The read operation timed out title=ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS url=https://www.bestbuy.com/product/adata-legend-710-m-2-2280-2tb-pci-express-3-0-x4-3d-nand-internal-solid-state-drive-ssd-aleg-710-2tcs/J39VZT2Z38/sku/12657342
+2026-08-02 15:36:43,041 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-02 15:36:43,041 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
+2026-08-02 15:36:43,042 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-02 15:38:59,987 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-02 15:38:59,988 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-02 15:41:30,190 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
