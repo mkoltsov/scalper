@@ -1,25 +1,23 @@
-2026-08-01 21:17:05,109 INFO scalper run started 2026-08-02T01:17:05.109738+00:00
-2026-08-01 21:17:05,112 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-01 21:23:54,320 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-01 21:23:54,321 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-01 21:26:55,256 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12-B Keyboard Workstation url=https://www.guitarcenter.com/Used/Used-Yamaha-NP12-B-Keyboard-Workstation.gc
-2026-08-01 21:26:55,257 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-01 21:26:55,257 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-01 21:29:21,520 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-01 21:29:21,520 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-01 21:33:42,281 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD
-2026-08-01 21:33:42,488 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/358433146977
-2026-08-01 21:33:42,489 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 i7-11850H 16GB 16" 2560x1600 NVIDIA RTX 3080 1TB SSD url=https://www.ebay.com/itm/358433146977
-2026-08-01 21:34:18,768 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=1
-2026-08-01 21:34:18,769 INFO already notified target=lenovo-thinkpad-p1-16gb-vram market=us total=878.80 url=https://www.ebay.com/itm/358433146977
-2026-08-01 21:34:18,770 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-01 21:37:33,160 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-01 21:37:33,161 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-01 21:39:43,965 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-08-01 21:39:43,966 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-01 21:42:11,455 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-01 21:42:11,456 INFO already notified target=2tb-nvme-magnus-one-us market=us total=149.99 url=https://www.goharddrive.com/SK-Hynix-HFS002TEJ9X101N-2TB-PCIe-3-x4-NVMe-SSD-p/g02-0930-cr.htm
-2026-08-01 21:42:11,456 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-01 21:44:26,140 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-01 21:44:26,141 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-01 21:47:19,268 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-01 22:17:05,768 INFO scalper run started 2026-08-02T02:17:05.768518+00:00
+2026-08-01 22:17:05,771 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-01 22:19:19,714 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-01 22:19:19,714 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-01 22:22:24,756 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysyłka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html
+2026-08-01 22:22:24,757 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-01 22:22:24,757 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-01 22:24:34,059 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-01 22:24:34,060 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-01 22:28:26,151 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/398135871016
+2026-08-01 22:28:26,152 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016
+2026-08-01 22:28:59,701 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=sold title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016
+2026-08-01 22:28:59,702 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-01 22:28:59,702 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-01 22:32:28,361 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-01 22:32:28,361 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-01 22:35:10,559 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-01 22:35:10,559 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-01 22:37:44,588 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
+2026-08-01 22:37:44,588 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-01 22:39:57,734 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-01 22:39:57,735 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-01 22:42:29,533 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
