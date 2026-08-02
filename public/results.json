@@ -1,31 +1,30 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-02T16:43:34.955897+00:00",
+  "finished_at": "2026-08-02T17:43:06.315007+00:00",
   "logs": [
-    "2026-08-02 12:17:05,071 INFO scalper run started 2026-08-02T16:17:05.070931+00:00",
-    "2026-08-02 12:17:05,073 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-02 12:19:56,909 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-02 12:19:56,910 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-02 12:23:05,726 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysy\u0142ka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html",
-    "2026-08-02 12:23:05,726 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-08-02 12:23:05,727 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-02 12:25:42,304 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-02 12:25:42,304 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-02 12:28:18,821 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-02 12:28:18,822 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-02 12:31:47,830 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-02 12:31:47,831 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-02 12:34:44,298 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-02 12:34:44,299 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-02 12:37:26,690 INFO rejected deal target=2tb-nvme-magnus-one-us reason=unavailable title=Crucial P310 2TB PCIe Gen4 NVMe 2280 M.2 Solid State Drive CT2000P310SSD8 url=https://www.ebay.com/p/21071366108?iid=326345054966",
-    "2026-08-02 12:38:03,988 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-02 12:38:03,989 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-    "2026-08-02 12:38:03,990 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-02 12:40:50,679 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-02 12:40:50,679 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-02 12:43:34,955 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-02 13:17:05,450 INFO scalper run started 2026-08-02T17:17:05.449962+00:00",
+    "2026-08-02 13:17:05,452 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-02 13:19:33,194 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-02 13:19:33,194 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-02 13:22:17,380 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-08-02 13:22:17,381 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-02 13:25:28,103 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-02 13:25:28,104 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-02 13:27:55,193 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-02 13:27:55,194 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-02 13:30:56,595 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-02 13:30:56,595 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-02 13:33:39,722 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-08-02 13:33:39,723 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-02 13:37:57,056 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=Verbatim 2TB Vi5000 PCIe NVMe M.2 2280 Internal SSD url=https://www.officedepot.com/a/products/8998157/Verbatim-Vi5000-2-TB-Solid-State/",
+    "2026-08-02 13:38:17,249 INFO rejected deal target=2tb-nvme-magnus-one-us reason=url_error:The read operation timed out title=ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 Internal SSD ALEG-710-2TCS url=https://www.bestbuy.com/product/adata-legend-710-m-2-2280-2tb-pci-express-3-0-x4-3d-nand-internal-solid-state-drive-ssd-aleg-710-2tcs/J39VZT2Z38",
+    "2026-08-02 13:38:17,249 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-08-02 13:38:17,250 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-02 13:40:44,866 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-02 13:40:44,867 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-02 13:43:06,314 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-02T16:17:05.070931+00:00",
+  "started_at": "2026-08-02T17:17:05.449962+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -181,45 +180,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.92,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.99,
-            "seller": "Newegg",
-            "shipping_usd": 0.0,
-            "source": "Newegg",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-            "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New 2TB M.2 2280 PCIe Gen3 x4 NVMe SSD sold and shipped by Newegg, free US shipping, 3-year warranty and 30-day return policy; low-profile heat spreader only, not a tall heatsink."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "New",
-          "confidence": 0.92,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 199.99,
-          "seller": "Newegg",
-          "shipping_usd": 0.0,
-          "source": "Newegg",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-          "total_usd": 199.99,
-          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-          "why_good": "New 2TB M.2 2280 PCIe Gen3 x4 NVMe SSD sold and shipped by Newegg, free US shipping, 3-year warranty and 30-day return policy; low-profile heat spreader only, not a tall heatsink."
-        }
-      ],
+      "deals": [],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -227,28 +190,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.92,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.99,
-            "seller": "Newegg",
-            "shipping_usd": 0.0,
-            "source": "Newegg",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-            "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New 2TB M.2 2280 PCIe Gen3 x4 NVMe SSD sold and shipped by Newegg, free US shipping, 3-year warranty and 30-day return policy; low-profile heat spreader only, not a tall heatsink."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
