@@ -1,33 +1,32 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-03T19:45:47.461606+00:00",
+  "finished_at": "2026-08-03T20:42:21.546035+00:00",
   "logs": [
-    "2026-08-03 15:17:05,469 INFO scalper run started 2026-08-03T19:17:05.468896+00:00",
-    "2026-08-03 15:17:05,471 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-03 15:19:57,555 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-03 15:19:57,556 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-03 15:22:27,757 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12-B Keyboard Workstation url=https://www.guitarcenter.com/Used/Used-Yamaha-NP12-B-Keyboard-Workstation.gc",
-    "2026-08-03 15:22:27,757 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-08-03 15:22:27,757 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-03 15:24:53,826 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-03 15:24:53,826 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-03 15:29:05,734 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/398135871016",
-    "2026-08-03 15:29:05,735 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016",
-    "2026-08-03 15:29:39,514 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=sold title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016",
-    "2026-08-03 15:29:39,515 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-03 15:29:39,515 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-03 15:32:59,337 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-03 15:32:59,338 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-03 15:36:26,954 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-03 15:36:26,954 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-03 15:39:05,234 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-03 15:39:05,235 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-    "2026-08-03 15:39:05,236 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-03 15:42:06,808 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-03 15:42:06,809 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-03 15:45:47,461 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-03 16:17:05,236 INFO scalper run started 2026-08-03T20:17:05.236863+00:00",
+    "2026-08-03 16:17:05,239 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-03 16:19:35,970 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-03 16:19:35,970 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-03 16:23:08,086 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysy\u0142ka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html",
+    "2026-08-03 16:23:08,087 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-08-03 16:23:08,087 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-03 16:25:07,055 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-03 16:25:07,056 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-03 16:28:56,479 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB",
+    "2026-08-03 16:28:56,488 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD",
+    "2026-08-03 16:28:56,489 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-03 16:28:56,489 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-03 16:32:01,884 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-03 16:32:01,884 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-03 16:34:14,368 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-08-03 16:34:14,369 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-03 16:37:18,421 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-08-03 16:37:18,421 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
+    "2026-08-03 16:37:18,422 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-03 16:39:42,529 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-03 16:39:42,530 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-03 16:42:21,545 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-03T19:17:05.468896+00:00",
+  "started_at": "2026-08-03T20:17:05.236863+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -187,7 +186,7 @@
           {
             "availability": "available",
             "condition": "New",
-            "confidence": 0.94,
+            "confidence": 0.93,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -199,7 +198,7 @@
             "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
             "total_usd": 199.99,
             "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "2TB internal M.2 2280 NVMe PCIe SSD, no tall heatsink shown, sold and shipped by Newegg from the US with free shipping under $200 total."
+            "why_good": "In-stock 2TB M.2 2280 PCIe/NVMe internal SSD sold and shipped by Newegg with free US shipping; no tall heatsink shown."
           }
         ]
       },
@@ -207,7 +206,7 @@
         {
           "availability": "available",
           "condition": "New",
-          "confidence": 0.94,
+          "confidence": 0.93,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -219,7 +218,7 @@
           "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
           "total_usd": 199.99,
           "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-          "why_good": "2TB internal M.2 2280 NVMe PCIe SSD, no tall heatsink shown, sold and shipped by Newegg from the US with free shipping under $200 total."
+          "why_good": "In-stock 2TB M.2 2280 PCIe/NVMe internal SSD sold and shipped by Newegg with free US shipping; no tall heatsink shown."
         }
       ],
       "id": "2tb-nvme-magnus-one-us",
@@ -232,7 +231,7 @@
           "us": {
             "availability": "available",
             "condition": "New",
-            "confidence": 0.94,
+            "confidence": 0.93,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -244,7 +243,7 @@
             "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
             "total_usd": 199.99,
             "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "2TB internal M.2 2280 NVMe PCIe SSD, no tall heatsink shown, sold and shipped by Newegg from the US with free shipping under $200 total."
+            "why_good": "In-stock 2TB M.2 2280 PCIe/NVMe internal SSD sold and shipped by Newegg with free US shipping; no tall heatsink shown."
           }
         },
         "counts": {
