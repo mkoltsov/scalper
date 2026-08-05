@@ -1,35 +1,39 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-05T08:45:26.323919+00:00",
+  "finished_at": "2026-08-05T09:46:21.856809+00:00",
   "logs": [
-    "2026-08-05 04:17:05,383 INFO scalper run started 2026-08-05T08:17:05.383474+00:00",
-    "2026-08-05 04:17:05,386 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-05 04:19:45,340 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-05 04:19:45,341 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-05 04:22:35,572 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysy\u0142ka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html",
-    "2026-08-05 04:22:35,573 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-08-05 04:22:35,573 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-05 04:25:18,853 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-05 04:25:18,854 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-05 04:28:31,242 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-05 04:28:31,243 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-05 04:33:30,890 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-05 04:33:30,891 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-05 04:36:58,610 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-05 04:36:58,611 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-05 04:39:54,706 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469",
-    "2026-08-05 04:39:54,707 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469",
-    "2026-08-05 04:40:32,274 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/127845212103",
-    "2026-08-05 04:40:32,275 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=MSI SPATIUM M371 2TB PCIe Gen 3x4 NVMe M.2 2280 SSD url=https://www.ebay.com/itm/127845212103",
-    "2026-08-05 04:40:42,001 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=MSI SPATIUM M371 2TB PCIe Gen 3x4 NVMe M.2 2280 SSD url=https://www.ebay.com/itm/127845212103",
-    "2026-08-05 04:40:42,002 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-05 04:40:42,002 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469",
-    "2026-08-05 04:40:42,003 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-05 04:43:08,728 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-05 04:43:08,728 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-05 04:45:26,323 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-05 05:17:05,131 INFO scalper run started 2026-08-05T09:17:05.131652+00:00",
+    "2026-08-05 05:17:05,134 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-05 05:19:32,521 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-05 05:19:32,522 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-05 05:22:04,340 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12-B Keyboard Workstation url=https://www.guitarcenter.com/Used/Used-Yamaha-NP12-B-Keyboard-Workstation.gc",
+    "2026-08-05 05:22:04,340 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-08-05 05:22:04,341 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-05 05:25:11,647 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-05 05:25:11,647 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-05 05:30:38,080 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/398135871016",
+    "2026-08-05 05:30:38,081 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016",
+    "2026-08-05 05:31:11,320 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=sold title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016",
+    "2026-08-05 05:31:11,321 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-05 05:31:11,321 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-05 05:35:00,668 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-05 05:35:00,668 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-05 05:37:40,033 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-08-05 05:37:40,034 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-05 05:40:53,475 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-08-05 05:40:53,476 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-08-05 05:41:03,415 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-08-05 05:41:03,574 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469",
+    "2026-08-05 05:41:03,575 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469",
+    "2026-08-05 05:41:33,745 INFO rejected deal target=2tb-nvme-magnus-one-us reason=url_error:The read operation timed out title=ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS url=https://www.bestbuy.com/product/adata-legend-710-m-2-2280-2tb-pci-express-3-0-x4-3d-nand-internal-solid-state-drive-ssd-aleg-710-2tcs/J39VZT2Z38",
+    "2026-08-05 05:41:33,745 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-08-05 05:41:33,746 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469",
+    "2026-08-05 05:41:33,746 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-05 05:43:51,113 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-05 05:43:51,114 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-05 05:46:21,856 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-05T08:17:05.383474+00:00",
+  "started_at": "2026-08-05T09:17:05.131652+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -188,8 +192,8 @@
         "us": [
           {
             "availability": "available",
-            "condition": "Used; 90-99% health; tested fully functional; 30-day returns; eBay Money Back Guarantee",
-            "confidence": 0.86,
+            "condition": "Used; tested fully functional; 90-99% health",
+            "confidence": 0.84,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -201,15 +205,15 @@
             "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
             "total_usd": 199.0,
             "url": "https://www.ebay.com/itm/366347771469",
-            "why_good": "2TB M.2 2280 NVMe internal SSD, no tall heatsink, US seller, free US shipping, health range stated."
+            "why_good": "2TB Kingston NV2 M.2 2280 NVMe SSD with stated 90-99% health, Buy It Now, free US delivery, and 30-day returns."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "Used; 90-99% health; tested fully functional; 30-day returns; eBay Money Back Guarantee",
-          "confidence": 0.86,
+          "condition": "Used; tested fully functional; 90-99% health",
+          "confidence": 0.84,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -221,7 +225,7 @@
           "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
           "total_usd": 199.0,
           "url": "https://www.ebay.com/itm/366347771469",
-          "why_good": "2TB M.2 2280 NVMe internal SSD, no tall heatsink, US seller, free US shipping, health range stated."
+          "why_good": "2TB Kingston NV2 M.2 2280 NVMe SSD with stated 90-99% health, Buy It Now, free US delivery, and 30-day returns."
         }
       ],
       "id": "2tb-nvme-magnus-one-us",
@@ -233,8 +237,8 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "Used; 90-99% health; tested fully functional; 30-day returns; eBay Money Back Guarantee",
-            "confidence": 0.86,
+            "condition": "Used; tested fully functional; 90-99% health",
+            "confidence": 0.84,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -246,7 +250,7 @@
             "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
             "total_usd": 199.0,
             "url": "https://www.ebay.com/itm/366347771469",
-            "why_good": "2TB M.2 2280 NVMe internal SSD, no tall heatsink, US seller, free US shipping, health range stated."
+            "why_good": "2TB Kingston NV2 M.2 2280 NVMe SSD with stated 90-99% health, Buy It Now, free US delivery, and 30-day returns."
           }
         },
         "counts": {
