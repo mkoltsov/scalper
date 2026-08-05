@@ -1,32 +1,31 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-05T00:42:02.907844+00:00",
+  "finished_at": "2026-08-05T01:43:16.990075+00:00",
   "logs": [
-    "2026-08-04 20:17:05,449 INFO scalper run started 2026-08-05T00:17:05.449559+00:00",
-    "2026-08-04 20:17:05,452 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-04 20:19:26,536 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-04 20:19:26,537 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-04 20:22:39,092 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysy\u0142ka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html",
-    "2026-08-04 20:22:39,092 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-08-04 20:22:39,093 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-04 20:24:41,380 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-04 20:24:41,381 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-04 20:27:46,923 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB",
-    "2026-08-04 20:27:46,931 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD",
-    "2026-08-04 20:27:46,931 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-04 20:27:46,932 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-04 20:30:47,558 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-04 20:30:47,558 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-04 20:34:14,460 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-04 20:34:14,461 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-04 20:37:27,305 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-04 20:37:27,306 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-    "2026-08-04 20:37:27,306 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-04 20:39:41,746 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-04 20:39:41,746 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-04 20:42:02,907 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-04 21:17:05,219 INFO scalper run started 2026-08-05T01:17:05.218971+00:00",
+    "2026-08-04 21:17:05,221 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-04 21:19:43,813 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-04 21:19:43,814 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-04 21:22:59,156 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12-B Keyboard Workstation url=https://www.guitarcenter.com/Used/Used-Yamaha-NP12-B-Keyboard-Workstation.gc",
+    "2026-08-04 21:22:59,156 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-08-04 21:22:59,156 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-04 21:25:21,003 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-04 21:25:21,003 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-04 21:28:22,341 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-04 21:28:22,342 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-04 21:30:43,568 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-04 21:30:43,569 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-04 21:34:09,556 INFO rejected deal target=rtx-5060-ti-magnus-one-500w-us reason=unavailable title=GIGABYTE GeForce RTX 5060 Ti WINDFORCE OC 16G Graphics Card GV-N506TWF2OC-16GD url=https://www.amazon.com/dp/B0F5BBGCSZ",
+    "2026-08-04 21:34:09,556 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-08-04 21:34:09,556 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-04 21:38:40,709 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-08-04 21:38:40,711 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+    "2026-08-04 21:38:40,712 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-04 21:41:02,656 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-04 21:41:02,656 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-04 21:43:16,989 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-05T00:17:05.449559+00:00",
+  "started_at": "2026-08-05T01:17:05.218971+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -197,8 +196,8 @@
             "target_id": "2tb-nvme-magnus-one-us",
             "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
             "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "2TB M.2 2280 PCIe/NVMe internal SSD sold and shipped by Newegg, in stock with free US shipping and no tall heatsink shown."
+            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+            "why_good": "New 2TB M.2 2280 PCIe Gen3 x4 NVMe 1.4 internal SSD sold and shipped by Newegg with free shipping, 30-day returns, and 3-year warranty; 3.13mm low-profile heat spreader is not a tall heatsink."
           }
         ]
       },
@@ -217,8 +216,8 @@
           "target_id": "2tb-nvme-magnus-one-us",
           "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
           "total_usd": 199.99,
-          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-          "why_good": "2TB M.2 2280 PCIe/NVMe internal SSD sold and shipped by Newegg, in stock with free US shipping and no tall heatsink shown."
+          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+          "why_good": "New 2TB M.2 2280 PCIe Gen3 x4 NVMe 1.4 internal SSD sold and shipped by Newegg with free shipping, 30-day returns, and 3-year warranty; 3.13mm low-profile heat spreader is not a tall heatsink."
         }
       ],
       "id": "2tb-nvme-magnus-one-us",
@@ -242,8 +241,8 @@
             "target_id": "2tb-nvme-magnus-one-us",
             "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
             "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "2TB M.2 2280 PCIe/NVMe internal SSD sold and shipped by Newegg, in stock with free US shipping and no tall heatsink shown."
+            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+            "why_good": "New 2TB M.2 2280 PCIe Gen3 x4 NVMe 1.4 internal SSD sold and shipped by Newegg with free shipping, 30-day returns, and 3-year warranty; 3.13mm low-profile heat spreader is not a tall heatsink."
           }
         },
         "counts": {
