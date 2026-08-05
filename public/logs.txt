@@ -1,23 +1,30 @@
-2026-08-05 11:17:05,548 INFO scalper run started 2026-08-05T15:17:05.548502+00:00
-2026-08-05 11:17:05,551 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-05 11:20:10,478 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-05 11:20:10,479 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-05 11:24:55,114 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysyłka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html
-2026-08-05 11:24:55,114 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-05 11:24:55,115 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-05 11:27:20,555 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-05 11:27:20,556 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-05 11:30:07,887 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-05 11:30:07,887 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-05 11:34:35,553 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-05 11:34:35,554 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-05 11:37:01,589 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-08-05 11:37:01,590 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-05 11:40:05,652 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
-2026-08-05 11:40:05,653 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
-2026-08-05 11:40:42,385 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
-2026-08-05 11:40:42,386 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
-2026-08-05 11:40:42,386 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-05 11:42:36,872 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-05 11:42:36,872 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-05 11:45:20,619 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-05 13:17:05,390 INFO scalper run started 2026-08-05T17:17:05.390397+00:00
+2026-08-05 13:17:05,393 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-05 13:19:22,620 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-05 13:19:22,621 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-05 13:22:38,455 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysylka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html
+2026-08-05 13:22:38,455 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-05 13:22:38,456 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-05 13:24:57,022 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-05 13:24:57,023 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-05 13:27:39,999 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-05 13:27:40,001 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-05 13:30:02,572 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-05 13:30:02,573 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-05 13:32:59,044 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-05 13:32:59,044 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-05 13:36:41,722 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
+2026-08-05 13:36:41,723 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
+2026-08-05 13:37:18,273 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
+2026-08-05 13:37:18,473 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/188564640982
+2026-08-05 13:37:18,474 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Solidigm P41 Plus 2TB 2280 PCIe Gen4 M.2 NVMe SSD 100% Health - No Box url=https://www.ebay.com/itm/188564640982
+2026-08-05 13:37:27,857 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347558256
+2026-08-05 13:37:27,858 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Solidigm P41 Plus 2TB 2280 PCIe Gen4 M.2 NVMe SSD SSDPFKNU020TZ 100% Health url=https://www.ebay.com/itm/366347558256
+2026-08-05 13:37:48,704 INFO target=2tb-nvme-magnus-one-us qualifying_deals=3
+2026-08-05 13:37:48,705 INFO already notified target=2tb-nvme-magnus-one-us market=us total=195.96 url=https://www.ebay.com/itm/188564640982
+2026-08-05 13:37:48,705 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347558256
+2026-08-05 13:37:48,706 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
+2026-08-05 13:37:48,707 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-05 13:40:16,876 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-05 13:40:16,878 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-05 13:43:02,500 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
