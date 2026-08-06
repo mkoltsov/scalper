@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-08-06T03:42:25.589200+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-08-06T04:46:47.768043+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -144,7 +144,7 @@
                 <article class="deal">
                   <div class="meta"><span class="badge">US</span> Newegg · $199.99 · United States</div>
                   <h2><a href="https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490" rel="nofollow noopener">ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS</a></h2>
-                  <p>New 2TB M.2 2280 PCIe NVMe SSD, no tall heatsink shown, sold and shipped by Newegg with free US shipping; exact page shows in stock and buy action.</p>
+                  <p>New 2TB M.2 2280 PCIe/NVMe SSD sold and shipped by Newegg with free US shipping, 3-year warranty and 30-day returns; only a thin low-profile heat spreader, not a tall heatsink.</p>
                 </article>
     
               </div>
@@ -219,28 +219,29 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>20 lines published</span>
+        <span>21 lines published</span>
       </div>
-      <pre>2026-08-05 23:17:05,036 INFO scalper run started 2026-08-06T03:17:05.036383+00:00
-2026-08-05 23:17:05,039 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-05 23:20:13,973 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-05 23:20:13,974 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-05 23:22:54,527 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-05 23:22:54,528 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-05 23:24:52,236 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-05 23:24:52,237 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-05 23:27:09,382 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-05 23:27:09,382 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-05 23:29:52,749 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-05 23:29:52,750 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-05 23:32:08,948 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-08-05 23:32:08,949 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-05 23:37:06,323 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-05 23:37:06,324 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
-2026-08-05 23:37:06,325 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-05 23:39:21,786 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-05 23:39:21,786 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-05 23:42:25,588 INFO target=lexus-es-2016-2018-cary qualifying_deals=0</pre>
+      <pre>2026-08-06 00:17:04,861 INFO scalper run started 2026-08-06T04:17:04.861399+00:00
+2026-08-06 00:17:04,864 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-06 00:19:42,774 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-06 00:19:42,774 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-06 00:22:29,005 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-06 00:22:29,005 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-06 00:24:20,744 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-06 00:24:20,745 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-06 00:27:13,711 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-06 00:27:13,711 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-06 00:29:14,401 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-06 00:29:14,401 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-06 00:32:25,677 INFO rejected deal target=rtx-5060-ti-magnus-one-500w-us reason=reject_pattern pattern=\brtx\s*-?\s*5060\b(?!\s*ti) title=GIGABYTE WindForce GeForce RTX 5060 Ti 16GB GDDR7 PCI Express 5.0 x8 ATX Graphics Card GV-N506TWF2-16GD
+2026-08-06 00:32:25,678 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-06 00:32:25,678 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-06 00:36:19,526 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-06 00:36:19,527 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
+2026-08-06 00:36:19,528 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-06 00:44:28,137 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-06 00:44:28,138 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-06 00:46:47,767 INFO target=lexus-es-2016-2018-cary qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
