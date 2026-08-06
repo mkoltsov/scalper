@@ -1,34 +1,34 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-06T20:41:04.800527+00:00",
+  "finished_at": "2026-08-06T21:41:51.831770+00:00",
   "logs": [
-    "2026-08-06 16:17:05,097 INFO scalper run started 2026-08-06T20:17:05.097844+00:00",
-    "2026-08-06 16:17:05,100 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-06 16:19:24,862 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-06 16:19:24,863 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-06 16:21:31,127 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-08-06 16:21:31,128 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-06 16:23:18,956 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-06 16:23:18,956 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-06 16:27:38,566 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-06 16:27:38,566 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-06 16:30:34,789 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-06 16:30:34,789 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-06 16:32:45,351 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-06 16:32:45,352 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-06 16:35:41,605 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/336034459481",
-    "2026-08-06 16:35:41,606 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Western Digital Green SN350 WDS200T3G0C 2 TB Solid State Drive - M.2 2280 url=https://www.ebay.com/itm/336034459481",
-    "2026-08-06 16:36:16,028 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-08-06 16:36:16,029 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-08-06 16:36:25,879 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-08-06 16:36:25,880 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-06 16:36:25,881 INFO new deal target=2tb-nvme-magnus-one-us market=us total=144.42 url=https://www.ebay.com/itm/336034459481",
-    "2026-08-06 16:36:26,263 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-06 16:38:17,403 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-06 16:38:17,404 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-06 16:41:04,800 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-06 17:17:04,888 INFO scalper run started 2026-08-06T21:17:04.888128+00:00",
+    "2026-08-06 17:17:04,891 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-06 17:19:10,355 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-06 17:19:10,356 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-06 17:21:45,779 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-08-06 17:21:45,779 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-06 17:23:57,188 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-06 17:23:57,189 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-06 17:26:55,299 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-06 17:26:55,300 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-06 17:29:51,930 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-06 17:29:51,930 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-06 17:32:25,624 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-08-06 17:32:25,625 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-06 17:34:45,984 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-08-06 17:34:45,985 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-08-06 17:35:22,125 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-08-06 17:35:22,351 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/127845212103",
+    "2026-08-06 17:35:22,352 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=MSI SPATIUM M371 2TB PCIe Gen 3x4 NVMe M.2 2280 SSD url=https://www.ebay.com/itm/127845212103",
+    "2026-08-06 17:35:31,688 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=MSI SPATIUM M371 2TB PCIe Gen 3x4 NVMe M.2 2280 SSD url=https://www.ebay.com/itm/127845212103",
+    "2026-08-06 17:35:31,689 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-08-06 17:35:31,689 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-06 17:38:38,542 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-06 17:38:38,543 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-06 17:41:51,831 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-06T20:17:05.097844+00:00",
+  "started_at": "2026-08-06T21:17:04.888128+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -184,45 +184,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 144.42,
-            "seller": "Beach Audio",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Western Digital Green SN350 WDS200T3G0C 2 TB Solid State Drive - M.2 2280",
-            "total_usd": 144.42,
-            "url": "https://www.ebay.com/itm/336034459481",
-            "why_good": "New WD Green SN350 2TB M.2 2280 NVMe drive, no heatsink, free US shipping and 30-day seller-paid returns."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "New",
-          "confidence": 0.82,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 144.42,
-          "seller": "Beach Audio",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "Western Digital Green SN350 WDS200T3G0C 2 TB Solid State Drive - M.2 2280",
-          "total_usd": 144.42,
-          "url": "https://www.ebay.com/itm/336034459481",
-          "why_good": "New WD Green SN350 2TB M.2 2280 NVMe drive, no heatsink, free US shipping and 30-day seller-paid returns."
-        }
-      ],
+      "deals": [],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -230,28 +194,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 144.42,
-            "seller": "Beach Audio",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Western Digital Green SN350 WDS200T3G0C 2 TB Solid State Drive - M.2 2280",
-            "total_usd": 144.42,
-            "url": "https://www.ebay.com/itm/336034459481",
-            "why_good": "New WD Green SN350 2TB M.2 2280 NVMe drive, no heatsink, free US shipping and 30-day seller-paid returns."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
