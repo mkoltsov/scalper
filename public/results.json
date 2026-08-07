@@ -1,32 +1,30 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-07T20:42:45.833859+00:00",
+  "finished_at": "2026-08-07T21:43:01.647773+00:00",
   "logs": [
-    "2026-08-07 16:17:05,556 INFO scalper run started 2026-08-07T20:17:05.555885+00:00",
-    "2026-08-07 16:17:05,558 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-07 16:19:33,425 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-07 16:19:33,426 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-07 16:22:10,351 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12-B Keyboard Workstation url=https://www.guitarcenter.com/Used/Used-Yamaha-NP12-B-Keyboard-Workstation.gc",
-    "2026-08-07 16:22:10,352 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-08-07 16:22:10,352 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-07 16:24:31,169 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-07 16:24:31,169 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-07 16:26:41,889 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-07 16:26:41,890 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-07 16:29:52,133 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-07 16:29:52,133 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-07 16:35:14,888 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-07 16:35:14,888 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-07 16:37:43,158 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469",
-    "2026-08-07 16:37:43,159 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469",
-    "2026-08-07 16:38:19,294 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-07 16:38:19,295 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469",
-    "2026-08-07 16:38:19,296 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-07 16:40:29,656 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-07 16:40:29,657 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-07 16:42:45,833 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-07 17:17:05,691 INFO scalper run started 2026-08-07T21:17:05.691646+00:00",
+    "2026-08-07 17:17:05,694 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-07 17:19:33,395 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-07 17:19:33,396 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-07 17:22:51,343 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-08-07 17:22:51,344 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-07 17:25:14,544 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-07 17:25:14,545 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-07 17:29:16,275 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB",
+    "2026-08-07 17:29:16,276 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-07 17:29:16,276 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-07 17:32:19,281 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-07 17:32:19,281 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-07 17:34:49,125 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-08-07 17:34:49,126 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-07 17:38:12,031 INFO rejected deal target=2tb-nvme-magnus-one-us reason=http_403 title=OWC 2TB Aura Pro IV PCIe 4.0 NVMe M.2 2280 SSD url=https://www.bhphotovideo.com/c/product/1874857-REG/owc_owcsp4p8t1pt02_2tb_aura_pro_iv.html",
+    "2026-08-07 17:38:12,031 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-08-07 17:38:12,032 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-07 17:40:14,978 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-07 17:40:14,978 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-07 17:43:01,647 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-07T20:17:05.555885+00:00",
+  "started_at": "2026-08-07T21:17:05.691646+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -182,45 +180,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; 90-99% health; tested fully functional; 30-day returns; eBay Money Back Guarantee",
-            "confidence": 0.89,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.0,
-            "seller": "Byte Depot",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
-            "total_usd": 199.0,
-            "url": "https://www.ebay.com/itm/366347771469",
-            "why_good": "2TB Kingston SNV2S/2000G M.2 2280 NVMe PCIe SSD, no tall heatsink shown, US seller with free US delivery, Buy It Now, 9 available, and seller-disclosed health range."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; 90-99% health; tested fully functional; 30-day returns; eBay Money Back Guarantee",
-          "confidence": 0.89,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 199.0,
-          "seller": "Byte Depot",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
-          "total_usd": 199.0,
-          "url": "https://www.ebay.com/itm/366347771469",
-          "why_good": "2TB Kingston SNV2S/2000G M.2 2280 NVMe PCIe SSD, no tall heatsink shown, US seller with free US delivery, Buy It Now, 9 available, and seller-disclosed health range."
-        }
-      ],
+      "deals": [],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -228,28 +190,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; 90-99% health; tested fully functional; 30-day returns; eBay Money Back Guarantee",
-            "confidence": 0.89,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.0,
-            "seller": "Byte Depot",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
-            "total_usd": 199.0,
-            "url": "https://www.ebay.com/itm/366347771469",
-            "why_good": "2TB Kingston SNV2S/2000G M.2 2280 NVMe PCIe SSD, no tall heatsink shown, US seller with free US delivery, Buy It Now, 9 available, and seller-disclosed health range."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
