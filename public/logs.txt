@@ -1,20 +1,23 @@
-2026-08-08 13:17:05,301 INFO scalper run started 2026-08-08T17:17:05.301011+00:00
-2026-08-08 13:17:05,303 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-08 13:19:15,017 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-08 13:19:15,018 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-08 13:21:17,569 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-08 13:21:17,569 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-08 13:24:33,127 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-08 13:24:33,128 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-08 13:26:45,639 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-08 13:26:45,640 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-08 13:28:50,013 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-08 13:28:50,014 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-08 13:31:06,908 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-08-08 13:31:06,909 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-08 13:35:09,140 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-08 13:35:09,143 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
-2026-08-08 13:35:09,144 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-08 13:36:56,530 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-08 13:36:56,530 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-08 13:39:45,372 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-08 14:17:05,357 INFO scalper run started 2026-08-08T18:17:05.357022+00:00
+2026-08-08 14:17:05,359 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-08 14:19:26,116 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-08 14:19:26,117 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-08 14:22:24,334 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP15 Portable Keyboard url=https://www.guitarcenter.com/Used/Yamaha/Used-Yamaha-NP15-Portable-Keyboard-122175398.gc
+2026-08-08 14:22:24,334 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-08 14:22:24,335 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-08 14:24:52,110 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-08 14:24:52,111 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-08 14:26:59,023 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-08 14:26:59,024 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-08 14:30:17,140 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-08 14:30:17,142 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-08 14:34:04,241 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-08 14:34:04,242 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-08 14:37:16,718 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236935723379
+2026-08-08 14:37:16,719 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379
+2026-08-08 14:37:52,568 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379
+2026-08-08 14:37:52,568 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
+2026-08-08 14:37:52,569 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-08 14:40:05,144 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-08 14:40:05,145 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-08 14:43:23,092 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
