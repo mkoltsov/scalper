@@ -1,28 +1,19 @@
-2026-08-09 08:17:05,485 INFO scalper run started 2026-08-09T12:17:05.485752+00:00
-2026-08-09 08:17:05,488 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-09 08:19:36,506 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-09 08:19:36,507 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-09 08:23:34,323 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-09 08:23:34,324 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-09 08:25:50,276 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-09 08:25:50,276 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-09 08:29:46,741 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-09 08:29:46,741 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-09 08:32:20,557 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-09 08:32:20,558 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-09 08:36:09,707 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-08-09 08:36:09,707 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-09 08:38:50,814 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/198384312069
-2026-08-09 08:38:50,814 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=SABRENT Rocket 2TB NVMe M.2 2280 Internal SSD (SB-ROCKET-2TB) USED 64% Health url=https://www.ebay.com/itm/198384312069
-2026-08-09 08:39:24,325 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=SABRENT Rocket 2TB NVMe M.2 2280 Internal SSD (SB-ROCKET-2TB) USED 64% Health url=https://www.ebay.com/itm/198384312069
-2026-08-09 08:39:24,502 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347559397
-2026-08-09 08:39:24,504 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366347559397
-2026-08-09 08:39:34,066 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469
-2026-08-09 08:39:34,067 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469
-2026-08-09 08:39:43,649 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2
-2026-08-09 08:39:43,650 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347559397
-2026-08-09 08:39:43,651 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469
-2026-08-09 08:39:43,651 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-09 08:42:06,361 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-09 08:42:06,361 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-09 08:44:45,810 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-09 09:17:05,387 INFO scalper run started 2026-08-09T13:17:05.387722+00:00
+2026-08-09 09:17:05,390 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-09 09:20:03,240 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-09 09:20:03,241 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-09 09:22:54,167 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-09 09:22:54,167 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-09 09:25:13,857 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-09 09:25:13,858 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-09 09:27:59,602 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-09 09:27:59,603 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-09 09:30:18,968 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-09 09:30:18,969 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-09 09:33:05,568 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-09 09:33:05,569 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-09 09:35:14,327 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
+2026-08-09 09:35:14,327 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-09 09:37:10,045 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-09 09:37:10,046 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-09 09:39:48,095 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
