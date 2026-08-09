@@ -1,33 +1,28 @@
 {
-  "exit_code": 0,
-  "finished_at": "2026-08-09T14:48:00.682458+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-08-09T15:29:18.704108+00:00",
   "logs": [
-    "2026-08-09 10:17:04,902 INFO scalper run started 2026-08-09T14:17:04.901999+00:00",
-    "2026-08-09 10:17:04,904 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-09 10:20:00,939 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-09 10:20:00,940 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-09 10:24:05,184 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysy\u0142ka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html",
-    "2026-08-09 10:24:05,185 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-08-09 10:24:05,185 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-09 10:26:13,500 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-09 10:26:13,501 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-09 10:29:10,296 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137430075502",
-    "2026-08-09 10:29:10,297 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4/16\"/i9 11950H/32GB/2TB/RTX 3080 16GB/READ DESCRIPTION url=https://www.ebay.com/itm/137430075502",
-    "2026-08-09 10:29:44,346 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4/16\"/i9 11950H/32GB/2TB/RTX 3080 16GB/READ DESCRIPTION url=https://www.ebay.com/itm/137430075502",
-    "2026-08-09 10:29:44,346 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-09 10:29:44,347 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-09 10:35:05,951 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-09 10:35:05,952 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-09 10:38:07,893 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-09 10:38:07,893 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-09 10:41:12,804 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-09 10:41:12,805 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-    "2026-08-09 10:41:12,806 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-09 10:43:14,160 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-09 10:43:14,160 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-09 10:48:00,682 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-09 11:17:05,498 INFO scalper run started 2026-08-09T15:17:05.498005+00:00",
+    "2026-08-09 11:17:05,500 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-09 11:19:46,408 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-09 11:19:46,409 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-09 11:22:01,575 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-08-09 11:22:01,576 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-09 11:24:11,993 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-09 11:24:11,993 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-09 11:26:41,452 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-09 11:26:41,453 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-09 11:29:18,618 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-09 11:29:18,619 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-09 11:29:18,620 ERROR Codex search failed for target=rtx-5060-ti-magnus-one-500w-us\nTraceback (most recent call last):\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 1856, in run\n    result = run_codex(target, config, metrics)\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 509, in run_codex\n    process = subprocess.run(\n        codex_command(codex_bin, output_path, prompt),\n    ...<4 lines>...\n        timeout=timeout,\n    )\n  File \"/usr/lib/python3.13/subprocess.py\", line 554, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1039, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                        pass_fds, cwd, env,\n                        ^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n                        gid, gids, uid, umask,\n                        ^^^^^^^^^^^^^^^^^^^^^^\n                        start_new_session, process_group)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1972, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: '/home/intimatik/.npm-global/bin/codex'",
+    "2026-08-09 11:29:18,676 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-09 11:29:18,679 ERROR Codex search failed for target=2tb-nvme-magnus-one-us\nTraceback (most recent call last):\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 1856, in run\n    result = run_codex(target, config, metrics)\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 509, in run_codex\n    process = subprocess.run(\n        codex_command(codex_bin, output_path, prompt),\n    ...<4 lines>...\n        timeout=timeout,\n    )\n  File \"/usr/lib/python3.13/subprocess.py\", line 554, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1039, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                        pass_fds, cwd, env,\n                        ^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n                        gid, gids, uid, umask,\n                        ^^^^^^^^^^^^^^^^^^^^^^\n                        start_new_session, process_group)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1972, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: '/home/intimatik/.npm-global/bin/codex'",
+    "2026-08-09 11:29:18,685 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-09 11:29:18,688 ERROR Codex search failed for target=acura-tsx-wagon-cary\nTraceback (most recent call last):\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 1856, in run\n    result = run_codex(target, config, metrics)\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 509, in run_codex\n    process = subprocess.run(\n        codex_command(codex_bin, output_path, prompt),\n    ...<4 lines>...\n        timeout=timeout,\n    )\n  File \"/usr/lib/python3.13/subprocess.py\", line 554, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1039, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                        pass_fds, cwd, env,\n                        ^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n                        gid, gids, uid, umask,\n                        ^^^^^^^^^^^^^^^^^^^^^^\n                        start_new_session, process_group)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1972, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: '/home/intimatik/.npm-global/bin/codex'",
+    "2026-08-09 11:29:18,695 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-09 11:29:18,698 ERROR Codex search failed for target=lexus-es-2016-2018-cary\nTraceback (most recent call last):\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 1856, in run\n    result = run_codex(target, config, metrics)\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 509, in run_codex\n    process = subprocess.run(\n        codex_command(codex_bin, output_path, prompt),\n    ...<4 lines>...\n        timeout=timeout,\n    )\n  File \"/usr/lib/python3.13/subprocess.py\", line 554, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1039, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                        pass_fds, cwd, env,\n                        ^^^^^^^^^^^^^^^^^^^\n    ...<5 lines>...\n                        gid, gids, uid, umask,\n                        ^^^^^^^^^^^^^^^^^^^^^^\n                        start_new_session, process_group)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1972, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: '/home/intimatik/.npm-global/bin/codex'"
   ],
-  "started_at": "2026-08-09T14:17:04.901999+00:00",
+  "started_at": "2026-08-09T15:17:05.498005+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -139,158 +134,6 @@
       "id": "wanbo-mozart-1-pro-2025",
       "max_price_usd": 359,
       "name": "Wanbo Mozart 1 Pro 2025 projector",
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": null
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 0
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      }
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
-        "us": []
-      },
-      "deals": [],
-      "id": "rtx-5060-ti-magnus-one-500w-us",
-      "max_price_usd": 450,
-      "name": "Magnus One-compatible RTX 5060 Ti 16GB in the US",
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": null
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 0
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      }
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.99,
-            "seller": "Newegg",
-            "shipping_usd": 0.0,
-            "source": "Newegg",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-            "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New ADATA 2TB M.2 2280 PCIe 3.0 x4 NVMe SSD, sold and shipped by Newegg from the US with free shipping; no tall heatsink listed."
-          }
-        ]
-      },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "New",
-          "confidence": 0.93,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 199.99,
-          "seller": "Newegg",
-          "shipping_usd": 0.0,
-          "source": "Newegg",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-          "total_usd": 199.99,
-          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-          "why_good": "New ADATA 2TB M.2 2280 PCIe 3.0 x4 NVMe SSD, sold and shipped by Newegg from the US with free shipping; no tall heatsink listed."
-        }
-      ],
-      "id": "2tb-nvme-magnus-one-us",
-      "max_price_usd": 200,
-      "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.99,
-            "seller": "Newegg",
-            "shipping_usd": 0.0,
-            "source": "Newegg",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-            "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New ADATA 2TB M.2 2280 PCIe 3.0 x4 NVMe SSD, sold and shipped by Newegg from the US with free shipping; no tall heatsink listed."
-          }
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 1
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      }
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
-        "us": []
-      },
-      "deals": [],
-      "id": "acura-tsx-wagon-cary",
-      "max_price_usd": 11000,
-      "name": "Acura TSX Sport Wagon with leather near Cary, NC",
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": null
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 0
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      }
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
-        "us": []
-      },
-      "deals": [],
-      "id": "lexus-es-2016-2018-cary",
-      "max_price_usd": 18000,
-      "name": "2016-2018 Lexus ES near Cary, NC",
       "regional_summary": {
         "best": {
           "eu": null,
