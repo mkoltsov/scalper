@@ -1,119 +1,21 @@
-2026-08-09 11:17:05,498 INFO scalper run started 2026-08-09T15:17:05.498005+00:00
-2026-08-09 11:17:05,500 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-09 11:19:46,408 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-09 11:19:46,409 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-09 11:22:01,575 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-09 11:22:01,576 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-09 11:24:11,993 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-09 11:24:11,993 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-09 11:26:41,452 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-09 11:26:41,453 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-09 11:29:18,618 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-09 11:29:18,619 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-09 11:29:18,620 ERROR Codex search failed for target=rtx-5060-ti-magnus-one-500w-us
-Traceback (most recent call last):
-  File "/home/intimatik/dev/scalper/scalper.py", line 1856, in run
-    result = run_codex(target, config, metrics)
-  File "/home/intimatik/dev/scalper/scalper.py", line 509, in run_codex
-    process = subprocess.run(
-        codex_command(codex_bin, output_path, prompt),
-    ...<4 lines>...
-        timeout=timeout,
-    )
-  File "/usr/lib/python3.13/subprocess.py", line 554, in run
-    with Popen(*popenargs, **kwargs) as process:
-         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/subprocess.py", line 1039, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-                        pass_fds, cwd, env,
-                        ^^^^^^^^^^^^^^^^^^^
-    ...<5 lines>...
-                        gid, gids, uid, umask,
-                        ^^^^^^^^^^^^^^^^^^^^^^
-                        start_new_session, process_group)
-                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/subprocess.py", line 1972, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: '/home/intimatik/.npm-global/bin/codex'
-2026-08-09 11:29:18,676 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-09 11:29:18,679 ERROR Codex search failed for target=2tb-nvme-magnus-one-us
-Traceback (most recent call last):
-  File "/home/intimatik/dev/scalper/scalper.py", line 1856, in run
-    result = run_codex(target, config, metrics)
-  File "/home/intimatik/dev/scalper/scalper.py", line 509, in run_codex
-    process = subprocess.run(
-        codex_command(codex_bin, output_path, prompt),
-    ...<4 lines>...
-        timeout=timeout,
-    )
-  File "/usr/lib/python3.13/subprocess.py", line 554, in run
-    with Popen(*popenargs, **kwargs) as process:
-         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/subprocess.py", line 1039, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-                        pass_fds, cwd, env,
-                        ^^^^^^^^^^^^^^^^^^^
-    ...<5 lines>...
-                        gid, gids, uid, umask,
-                        ^^^^^^^^^^^^^^^^^^^^^^
-                        start_new_session, process_group)
-                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/subprocess.py", line 1972, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: '/home/intimatik/.npm-global/bin/codex'
-2026-08-09 11:29:18,685 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-09 11:29:18,688 ERROR Codex search failed for target=acura-tsx-wagon-cary
-Traceback (most recent call last):
-  File "/home/intimatik/dev/scalper/scalper.py", line 1856, in run
-    result = run_codex(target, config, metrics)
-  File "/home/intimatik/dev/scalper/scalper.py", line 509, in run_codex
-    process = subprocess.run(
-        codex_command(codex_bin, output_path, prompt),
-    ...<4 lines>...
-        timeout=timeout,
-    )
-  File "/usr/lib/python3.13/subprocess.py", line 554, in run
-    with Popen(*popenargs, **kwargs) as process:
-         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/subprocess.py", line 1039, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-                        pass_fds, cwd, env,
-                        ^^^^^^^^^^^^^^^^^^^
-    ...<5 lines>...
-                        gid, gids, uid, umask,
-                        ^^^^^^^^^^^^^^^^^^^^^^
-                        start_new_session, process_group)
-                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/subprocess.py", line 1972, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: '/home/intimatik/.npm-global/bin/codex'
-2026-08-09 11:29:18,695 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-09 11:29:18,698 ERROR Codex search failed for target=lexus-es-2016-2018-cary
-Traceback (most recent call last):
-  File "/home/intimatik/dev/scalper/scalper.py", line 1856, in run
-    result = run_codex(target, config, metrics)
-  File "/home/intimatik/dev/scalper/scalper.py", line 509, in run_codex
-    process = subprocess.run(
-        codex_command(codex_bin, output_path, prompt),
-    ...<4 lines>...
-        timeout=timeout,
-    )
-  File "/usr/lib/python3.13/subprocess.py", line 554, in run
-    with Popen(*popenargs, **kwargs) as process:
-         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/subprocess.py", line 1039, in __init__
-    self._execute_child(args, executable, preexec_fn, close_fds,
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-                        pass_fds, cwd, env,
-                        ^^^^^^^^^^^^^^^^^^^
-    ...<5 lines>...
-                        gid, gids, uid, umask,
-                        ^^^^^^^^^^^^^^^^^^^^^^
-                        start_new_session, process_group)
-                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.13/subprocess.py", line 1972, in _execute_child
-    raise child_exception_type(errno_num, err_msg, err_filename)
-FileNotFoundError: [Errno 2] No such file or directory: '/home/intimatik/.npm-global/bin/codex'
+2026-08-09 12:17:04,812 INFO scalper run started 2026-08-09T16:17:04.811989+00:00
+2026-08-09 12:17:04,814 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-09 12:19:55,267 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-09 12:19:55,268 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-09 12:22:58,503 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-09 12:22:58,503 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-09 12:25:05,379 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-09 12:25:05,380 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-09 12:30:13,179 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-09 12:30:13,179 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-09 12:33:12,803 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-09 12:33:12,803 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-09 12:35:50,768 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-09 12:35:50,769 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-09 12:39:28,477 INFO rejected deal target=2tb-nvme-magnus-one-us reason=missing_required_model title=ADATA - LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS
+2026-08-09 12:40:04,728 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-09 12:40:04,729 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490&cm_sp=Homepage_SS-_-P4_20-215-490-_-07272026
+2026-08-09 12:40:04,730 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-09 12:41:52,747 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-09 12:41:52,748 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-09 12:44:18,959 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
