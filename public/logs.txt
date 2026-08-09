@@ -1,25 +1,23 @@
-2026-08-09 01:17:05,354 INFO scalper run started 2026-08-09T05:17:05.354729+00:00
-2026-08-09 01:17:05,357 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-09 01:19:39,394 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-09 01:19:39,394 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-09 01:22:42,048 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12-B Keyboard Workstation url=https://www.guitarcenter.com/Used/Used-Yamaha-NP12-B-Keyboard-Workstation.gc
-2026-08-09 01:22:42,048 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-09 01:22:42,049 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-09 01:26:01,929 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-09 01:26:01,930 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-09 01:31:18,960 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB
-2026-08-09 01:31:18,960 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-09 01:31:18,960 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-09 01:34:06,352 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-09 01:34:06,353 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-09 01:36:08,223 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-08-09 01:36:08,224 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-09 01:38:49,635 INFO rejected deal target=2tb-nvme-magnus-one-us reason=reject_pattern pattern=\b(?:128|240|250|256|480|500|512)\s*gb\b title=Netac 2TB 1TB 500GB Internal SSD M.2 NVMe PCIe3.0 Solid State Drive lot
-2026-08-09 01:38:49,798 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/116092447116
-2026-08-09 01:38:49,799 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Samsung 970 EVO Plus 2TB NVMe M.2 V-NAND SSD Model: MZ-V7S2T0 url=https://www.ebay.com/itm/116092447116
-2026-08-09 01:39:24,841 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=Samsung 970 EVO Plus 2TB NVMe M.2 V-NAND SSD Model: MZ-V7S2T0 url=https://www.ebay.com/itm/116092447116
-2026-08-09 01:39:24,841 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
-2026-08-09 01:39:24,842 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-09 01:41:41,201 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-09 01:41:41,202 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-09 01:43:52,911 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-09 02:17:05,282 INFO scalper run started 2026-08-09T06:17:05.281963+00:00
+2026-08-09 02:17:05,284 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-09 02:19:29,816 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-09 02:19:29,817 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-09 02:21:57,152 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-09 02:21:57,153 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-09 02:25:06,782 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=1
+2026-08-09 02:25:06,782 INFO new deal target=toyota-matrix-2nd-gen-red-hood market=us total=350.00 url=https://www.partshotlines.com/parts/toyota/matrix/hood.html
+2026-08-09 02:25:06,884 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-09 02:27:28,515 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-09 02:27:28,516 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-09 02:29:39,395 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-09 02:29:39,396 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-09 02:34:07,777 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-09 02:34:07,778 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-09 02:36:38,952 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347558256
+2026-08-09 02:36:38,952 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Solidigm P41 Plus 2TB 2280 PCIe Gen4 M.2 NVMe SSD SSDPFKNU020TZ 100% Health url=https://www.ebay.com/itm/366347558256
+2026-08-09 02:37:14,440 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-09 02:37:14,441 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347558256
+2026-08-09 02:37:14,441 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-09 02:39:22,879 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-09 02:39:22,880 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-09 02:41:20,664 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
