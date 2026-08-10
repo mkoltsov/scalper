@@ -1,39 +1,36 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-10T21:45:10.733650+00:00",
+  "finished_at": "2026-08-10T22:41:55.210726+00:00",
   "logs": [
-    "2026-08-10 17:17:05,403 INFO scalper run started 2026-08-10T21:17:05.403605+00:00",
-    "2026-08-10 17:17:05,406 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-10 17:20:34,238 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-10 17:20:34,239 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-10 17:24:06,854 INFO listing URL validation rejected target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified url=https://www.ebay.com/itm/188699133599",
-    "2026-08-10 17:24:06,855 INFO HTTP validation inconclusive target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified title=Yamaha Piaggero NP-12 61-Key Electronic Keyboard url=https://www.ebay.com/itm/188699133599",
-    "2026-08-10 17:24:42,374 INFO target=yamaha-np12-np15-piaggero qualifying_deals=1",
-    "2026-08-10 17:24:42,376 INFO already notified target=yamaha-np12-np15-piaggero market=us total=135.89 url=https://www.ebay.com/itm/188699133599",
-    "2026-08-10 17:24:42,377 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-10 17:27:01,142 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-10 17:27:01,142 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-10 17:30:14,546 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB",
-    "2026-08-10 17:30:14,546 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-10 17:30:14,547 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-10 17:33:05,831 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-10 17:33:05,831 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-10 17:35:15,991 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-10 17:35:15,991 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-10 17:38:41,677 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366544488101",
-    "2026-08-10 17:38:41,678 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366544488101",
-    "2026-08-10 17:39:14,959 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366544488101",
-    "2026-08-10 17:39:15,137 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-08-10 17:39:15,138 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-08-10 17:39:24,618 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-08-10 17:39:36,238 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-10 17:39:36,239 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-    "2026-08-10 17:39:36,240 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-10 17:42:30,836 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-10 17:42:30,837 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-10 17:45:10,733 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-10 18:17:05,093 INFO scalper run started 2026-08-10T22:17:05.093303+00:00",
+    "2026-08-10 18:17:05,096 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-10 18:19:15,407 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-10 18:19:15,408 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-10 18:23:02,561 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysy\u0142ka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html",
+    "2026-08-10 18:23:02,561 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-08-10 18:23:02,562 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-10 18:25:50,142 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-10 18:25:50,143 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-10 18:29:05,616 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278115567858",
+    "2026-08-10 18:29:05,617 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB url=https://www.ebay.com/itm/278115567858",
+    "2026-08-10 18:29:39,154 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB url=https://www.ebay.com/itm/278115567858",
+    "2026-08-10 18:29:39,154 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-10 18:29:39,155 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-10 18:31:44,241 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-10 18:31:44,241 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-10 18:34:09,488 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-08-10 18:34:09,489 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-10 18:37:06,548 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236935723379",
+    "2026-08-10 18:37:06,548 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379",
+    "2026-08-10 18:37:16,094 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379",
+    "2026-08-10 18:37:26,934 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-08-10 18:37:26,934 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+    "2026-08-10 18:37:26,935 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-10 18:39:34,550 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-10 18:39:34,551 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-10 18:41:55,210 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-10T21:17:05.403605+00:00",
+  "started_at": "2026-08-10T22:17:05.093303+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -64,45 +61,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 119.99,
-            "seller": "goodwillvsb",
-            "shipping_usd": 15.9,
-            "source": "eBay",
-            "target_id": "yamaha-np12-np15-piaggero",
-            "title": "Yamaha Piaggero NP-12 61-Key Electronic Keyboard",
-            "total_usd": 135.89,
-            "url": "https://www.ebay.com/itm/188699133599",
-            "why_good": "Pre-owned Yamaha Piaggero NP-12 keyboard; US listing shows $119.99 plus $15.90 delivery, under the $180 total limit."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Pre-Owned",
-          "confidence": 0.82,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 119.99,
-          "seller": "goodwillvsb",
-          "shipping_usd": 15.9,
-          "source": "eBay",
-          "target_id": "yamaha-np12-np15-piaggero",
-          "title": "Yamaha Piaggero NP-12 61-Key Electronic Keyboard",
-          "total_usd": 135.89,
-          "url": "https://www.ebay.com/itm/188699133599",
-          "why_good": "Pre-owned Yamaha Piaggero NP-12 keyboard; US listing shows $119.99 plus $15.90 delivery, under the $180 total limit."
-        }
-      ],
+      "deals": [],
       "id": "yamaha-np12-np15-piaggero",
       "max_price_usd": 180,
       "name": "Yamaha NP-12 or NP-15 Piaggero keyboard",
@@ -110,28 +71,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 119.99,
-            "seller": "goodwillvsb",
-            "shipping_usd": 15.9,
-            "source": "eBay",
-            "target_id": "yamaha-np12-np15-piaggero",
-            "title": "Yamaha Piaggero NP-12 61-Key Electronic Keyboard",
-            "total_usd": 135.89,
-            "url": "https://www.ebay.com/itm/188699133599",
-            "why_good": "Pre-owned Yamaha Piaggero NP-12 keyboard; US listing shows $119.99 plus $15.90 delivery, under the $180 total limit."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -244,8 +189,8 @@
         "us": [
           {
             "availability": "available",
-            "condition": "New; sold by Newegg; shipped by Newegg",
-            "confidence": 0.9,
+            "condition": "New",
+            "confidence": 0.82,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -256,16 +201,16 @@
             "target_id": "2tb-nvme-magnus-one-us",
             "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
             "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New ADATA 2TB M.2 2280 PCIe/NVMe internal SSD, no tall heatsink shown, in stock, sold/shipped by Newegg with free US shipping."
+            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+            "why_good": "New 2TB M.2 2280 PCIe 3.0 x4 NVMe SSD sold and shipped by Newegg with free US shipping, 30-day returns, and 3-year warranty; only a low-profile heat spreader, not a tall heatsink."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "New; sold by Newegg; shipped by Newegg",
-          "confidence": 0.9,
+          "condition": "New",
+          "confidence": 0.82,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -276,8 +221,8 @@
           "target_id": "2tb-nvme-magnus-one-us",
           "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
           "total_usd": 199.99,
-          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-          "why_good": "New ADATA 2TB M.2 2280 PCIe/NVMe internal SSD, no tall heatsink shown, in stock, sold/shipped by Newegg with free US shipping."
+          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+          "why_good": "New 2TB M.2 2280 PCIe 3.0 x4 NVMe SSD sold and shipped by Newegg with free US shipping, 30-day returns, and 3-year warranty; only a low-profile heat spreader, not a tall heatsink."
         }
       ],
       "id": "2tb-nvme-magnus-one-us",
@@ -289,8 +234,8 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "New; sold by Newegg; shipped by Newegg",
-            "confidence": 0.9,
+            "condition": "New",
+            "confidence": 0.82,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -301,8 +246,8 @@
             "target_id": "2tb-nvme-magnus-one-us",
             "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
             "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New ADATA 2TB M.2 2280 PCIe/NVMe internal SSD, no tall heatsink shown, in stock, sold/shipped by Newegg with free US shipping."
+            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+            "why_good": "New 2TB M.2 2280 PCIe 3.0 x4 NVMe SSD sold and shipped by Newegg with free US shipping, 30-day returns, and 3-year warranty; only a low-profile heat spreader, not a tall heatsink."
           }
         },
         "counts": {
