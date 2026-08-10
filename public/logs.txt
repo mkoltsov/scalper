@@ -1,24 +1,28 @@
-2026-08-09 19:17:04,972 INFO scalper run started 2026-08-09T23:17:04.971922+00:00
-2026-08-09 19:17:04,974 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-09 19:19:17,202 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-09 19:19:17,203 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-09 19:22:37,593 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysyłka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html
-2026-08-09 19:22:38,201 INFO listing URL validation rejected target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349
-2026-08-09 19:22:38,202 INFO HTTP validation inconclusive target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified title=Pianino cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349
-2026-08-09 19:23:51,542 INFO browser validation rejected target=yamaha-np12-np15-piaggero reason=browser_empty_or_too_short title=Pianino cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349
-2026-08-09 19:23:51,542 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-09 19:23:51,542 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-09 19:26:30,566 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-09 19:26:30,566 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-09 19:29:02,868 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-09 19:29:02,869 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-09 19:31:58,051 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-09 19:31:58,052 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-09 19:35:06,574 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-08-09 19:35:06,574 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-09 19:38:08,835 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-09 19:38:08,836 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
-2026-08-09 19:38:08,836 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-09 19:40:39,532 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-09 19:40:39,532 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-09 19:43:10,049 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-09 20:17:04,844 INFO scalper run started 2026-08-10T00:17:04.844509+00:00
+2026-08-09 20:17:04,847 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-09 20:19:26,372 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-09 20:19:26,373 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-09 20:22:52,234 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-09 20:22:52,235 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-09 20:24:59,996 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-09 20:24:59,997 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-09 20:28:23,406 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/398135871016
+2026-08-09 20:28:23,406 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016
+2026-08-09 20:28:56,928 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=sold title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016
+2026-08-09 20:28:57,110 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278115567858
+2026-08-09 20:28:57,111 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB url=https://www.ebay.com/itm/278115567858
+2026-08-09 20:29:04,173 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 16" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB url=https://www.ebay.com/itm/278115567858
+2026-08-09 20:29:04,173 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-09 20:29:04,174 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-09 20:31:11,773 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-09 20:31:11,774 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-09 20:34:15,935 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-09 20:34:15,936 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-09 20:36:31,079 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469
+2026-08-09 20:36:31,080 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469
+2026-08-09 20:36:41,758 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-09 20:36:41,759 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469
+2026-08-09 20:36:41,760 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-09 20:39:06,573 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-09 20:39:06,573 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-09 20:41:50,102 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
