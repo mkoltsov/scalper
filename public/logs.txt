@@ -1,27 +1,20 @@
-2026-08-10 18:17:05,093 INFO scalper run started 2026-08-10T22:17:05.093303+00:00
-2026-08-10 18:17:05,096 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-10 18:19:15,407 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-10 18:19:15,408 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-10 18:23:02,561 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysyłka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html
-2026-08-10 18:23:02,561 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-10 18:23:02,562 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-10 18:25:50,142 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-10 18:25:50,143 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-10 18:29:05,616 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/278115567858
-2026-08-10 18:29:05,617 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB url=https://www.ebay.com/itm/278115567858
-2026-08-10 18:29:39,154 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 16" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB url=https://www.ebay.com/itm/278115567858
-2026-08-10 18:29:39,154 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-10 18:29:39,155 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-10 18:31:44,241 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-10 18:31:44,241 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-10 18:34:09,488 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-08-10 18:34:09,489 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-10 18:37:06,548 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236935723379
-2026-08-10 18:37:06,548 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379
-2026-08-10 18:37:16,094 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379
-2026-08-10 18:37:26,934 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-10 18:37:26,934 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
-2026-08-10 18:37:26,935 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-10 18:39:34,550 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-10 18:39:34,551 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-10 18:41:55,210 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-10 19:17:05,465 INFO scalper run started 2026-08-10T23:17:05.464921+00:00
+2026-08-10 19:17:05,467 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-10 19:20:33,902 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-10 19:20:33,903 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-10 19:23:15,108 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-10 19:23:15,109 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-10 19:25:16,014 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-10 19:25:16,015 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-10 19:27:26,323 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-10 19:27:26,323 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-10 19:30:21,075 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-10 19:30:21,076 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-10 19:33:18,731 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-10 19:33:18,732 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-10 19:36:08,488 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-10 19:36:08,490 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
+2026-08-10 19:36:08,490 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-10 19:38:24,240 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-10 19:38:24,241 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-10 19:40:51,068 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
