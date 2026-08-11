@@ -1,35 +1,34 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-11T00:42:39.318593+00:00",
+  "finished_at": "2026-08-11T01:46:24.900716+00:00",
   "logs": [
-    "2026-08-10 20:17:05,677 INFO scalper run started 2026-08-11T00:17:05.677407+00:00",
-    "2026-08-10 20:17:05,680 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-10 20:19:19,557 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-10 20:19:19,558 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-10 20:21:53,998 INFO listing URL validation rejected target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified url=https://www.ebay.com/itm/188699133599",
-    "2026-08-10 20:21:53,998 INFO HTTP validation inconclusive target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified title=Yamaha Piaggero NP-12 61-Key Electronic Keyboard url=https://www.ebay.com/itm/188699133599",
-    "2026-08-10 20:22:29,347 INFO target=yamaha-np12-np15-piaggero qualifying_deals=1",
-    "2026-08-10 20:22:29,348 INFO already notified target=yamaha-np12-np15-piaggero market=us total=135.89 url=https://www.ebay.com/itm/188699133599",
-    "2026-08-10 20:22:29,350 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-10 20:24:47,911 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-10 20:24:47,912 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-10 20:28:55,410 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB",
-    "2026-08-10 20:28:55,410 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-10 20:28:55,411 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-10 20:32:09,136 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-10 20:32:09,137 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-10 20:34:37,939 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-10 20:34:37,940 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-10 20:37:48,460 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-08-10 20:37:48,461 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-08-10 20:38:24,304 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-08-10 20:38:24,305 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
-    "2026-08-10 20:38:24,305 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-10 20:39:59,510 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-10 20:39:59,510 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-10 20:42:39,318 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-10 21:17:04,829 INFO scalper run started 2026-08-11T01:17:04.829701+00:00",
+    "2026-08-10 21:17:04,832 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-10 21:20:39,671 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-10 21:20:39,672 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-10 21:24:06,501 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysylka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html",
+    "2026-08-10 21:24:06,502 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-08-10 21:24:06,502 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-10 21:26:31,775 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-10 21:26:31,776 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-10 21:30:43,034 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" i7-11850H 1TB SSD 32GB RAM W11P RTX 3080 16GB",
+    "2026-08-10 21:30:43,047 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo Thinkpad P1 G4 16\", i7-11850H, 32GB DDR4, 1TB NVME SSD, RTX 3080 16GB",
+    "2026-08-10 21:30:43,574 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/377244296675",
+    "2026-08-10 21:30:43,574 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 Intel Core i7-11850H 32GB RAM 1TB SSD 16\" RTX 3080 url=https://www.ebay.com/itm/377244296675",
+    "2026-08-10 21:31:18,889 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Lenovo ThinkPad P1 Gen 4 Intel Core i7-11850H 32GB RAM 1TB SSD 16\" RTX 3080 url=https://www.ebay.com/itm/377244296675",
+    "2026-08-10 21:31:18,889 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-10 21:31:18,890 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-10 21:33:57,519 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-10 21:33:57,519 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-10 21:37:29,780 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-08-10 21:37:29,781 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-10 21:41:03,172 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-08-10 21:41:03,173 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-10 21:44:05,342 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-10 21:44:05,342 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-10 21:46:24,900 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-11T00:17:05.677407+00:00",
+  "started_at": "2026-08-11T01:17:04.829701+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -60,45 +59,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 119.99,
-            "seller": "goodwillvsb",
-            "shipping_usd": 15.9,
-            "source": "eBay",
-            "target_id": "yamaha-np12-np15-piaggero",
-            "title": "Yamaha Piaggero NP-12 61-Key Electronic Keyboard",
-            "total_usd": 135.89,
-            "url": "https://www.ebay.com/itm/188699133599",
-            "why_good": "Matches Yamaha Piaggero NP-12 keyboard, pre-owned playable keyboard listing, US delivery shown, total is under $180."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Pre-Owned",
-          "confidence": 0.78,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 119.99,
-          "seller": "goodwillvsb",
-          "shipping_usd": 15.9,
-          "source": "eBay",
-          "target_id": "yamaha-np12-np15-piaggero",
-          "title": "Yamaha Piaggero NP-12 61-Key Electronic Keyboard",
-          "total_usd": 135.89,
-          "url": "https://www.ebay.com/itm/188699133599",
-          "why_good": "Matches Yamaha Piaggero NP-12 keyboard, pre-owned playable keyboard listing, US delivery shown, total is under $180."
-        }
-      ],
+      "deals": [],
       "id": "yamaha-np12-np15-piaggero",
       "max_price_usd": 180,
       "name": "Yamaha NP-12 or NP-15 Piaggero keyboard",
@@ -106,28 +69,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 119.99,
-            "seller": "goodwillvsb",
-            "shipping_usd": 15.9,
-            "source": "eBay",
-            "target_id": "yamaha-np12-np15-piaggero",
-            "title": "Yamaha Piaggero NP-12 61-Key Electronic Keyboard",
-            "total_usd": 135.89,
-            "url": "https://www.ebay.com/itm/188699133599",
-            "why_good": "Matches Yamaha Piaggero NP-12 keyboard, pre-owned playable keyboard listing, US delivery shown, total is under $180."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
