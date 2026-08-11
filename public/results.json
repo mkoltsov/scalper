@@ -1,33 +1,31 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-11T07:42:19.775996+00:00",
+  "finished_at": "2026-08-11T08:41:32.411706+00:00",
   "logs": [
-    "2026-08-11 03:17:05,691 INFO scalper run started 2026-08-11T07:17:05.691325+00:00",
-    "2026-08-11 03:17:05,694 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-11 03:19:09,441 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-11 03:19:09,442 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-11 03:22:34,147 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-08-11 03:22:34,148 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-11 03:24:45,836 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-11 03:24:45,837 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-11 03:27:43,552 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-11 03:27:43,552 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-11 03:30:09,237 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-11 03:30:09,238 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-11 03:32:44,035 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-11 03:32:44,036 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-11 03:36:02,849 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469",
-    "2026-08-11 03:36:02,850 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469",
-    "2026-08-11 03:37:09,207 INFO rejected deal target=2tb-nvme-magnus-one-us reason=url_error:The read operation timed out title=ADATA - LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS url=https://www.bestbuy.com/product/adata-legend-710-m-2-2280-2tb-pci-express-3-0-x4-3d-nand-internal-solid-state-drive-ssd-aleg-710-2tcs/J39VZT2Z38/sku/12657342",
-    "2026-08-11 03:37:09,207 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2",
-    "2026-08-11 03:37:09,208 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469",
-    "2026-08-11 03:37:09,208 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
-    "2026-08-11 03:37:09,208 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-11 03:39:40,630 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-11 03:39:40,631 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-11 03:42:19,775 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-11 04:17:04,745 INFO scalper run started 2026-08-11T08:17:04.745056+00:00",
+    "2026-08-11 04:17:04,747 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-11 04:19:14,136 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-11 04:19:14,136 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-11 04:23:20,241 INFO listing URL validation rejected target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified url=https://www.ebay.com/itm/188699133599",
+    "2026-08-11 04:23:20,242 INFO HTTP validation inconclusive target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified title=Yamaha Piaggero NP-12 61-Key Electronic Keyboard url=https://www.ebay.com/itm/188699133599",
+    "2026-08-11 04:23:56,566 INFO target=yamaha-np12-np15-piaggero qualifying_deals=1",
+    "2026-08-11 04:23:56,567 INFO already notified target=yamaha-np12-np15-piaggero market=us total=135.89 url=https://www.ebay.com/itm/188699133599",
+    "2026-08-11 04:23:56,568 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-11 04:26:16,557 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-11 04:26:16,558 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-11 04:28:25,033 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-11 04:28:25,034 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-11 04:30:56,872 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-11 04:30:56,873 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-11 04:33:16,424 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-08-11 04:33:16,425 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-11 04:36:05,908 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-08-11 04:36:05,908 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-11 04:38:19,557 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-11 04:38:19,558 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-11 04:41:32,411 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-11T07:17:05.691325+00:00",
+  "started_at": "2026-08-11T08:17:04.745056+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -58,9 +56,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Pre-Owned",
+            "confidence": 0.82,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 119.99,
+            "seller": "goodwillvsb",
+            "shipping_usd": 15.9,
+            "source": "eBay",
+            "target_id": "yamaha-np12-np15-piaggero",
+            "title": "Yamaha Piaggero NP-12 61-Key Electronic Keyboard",
+            "total_usd": 135.89,
+            "url": "https://www.ebay.com/itm/188699133599",
+            "why_good": "Matches Yamaha Piaggero NP-12 keyboard, pre-owned fixed-price listing, ships within the US, total is under $180."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Pre-Owned",
+          "confidence": 0.82,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 119.99,
+          "seller": "goodwillvsb",
+          "shipping_usd": 15.9,
+          "source": "eBay",
+          "target_id": "yamaha-np12-np15-piaggero",
+          "title": "Yamaha Piaggero NP-12 61-Key Electronic Keyboard",
+          "total_usd": 135.89,
+          "url": "https://www.ebay.com/itm/188699133599",
+          "why_good": "Matches Yamaha Piaggero NP-12 keyboard, pre-owned fixed-price listing, ships within the US, total is under $180."
+        }
+      ],
       "id": "yamaha-np12-np15-piaggero",
       "max_price_usd": 180,
       "name": "Yamaha NP-12 or NP-15 Piaggero keyboard",
@@ -68,12 +102,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Pre-Owned",
+            "confidence": 0.82,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 119.99,
+            "seller": "goodwillvsb",
+            "shipping_usd": 15.9,
+            "source": "eBay",
+            "target_id": "yamaha-np12-np15-piaggero",
+            "title": "Yamaha Piaggero NP-12 61-Key Electronic Keyboard",
+            "total_usd": 135.89,
+            "url": "https://www.ebay.com/itm/188699133599",
+            "why_good": "Matches Yamaha Piaggero NP-12 keyboard, pre-owned fixed-price listing, ships within the US, total is under $180."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -183,79 +233,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; tested fully functional; listing states 90-99% health",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.0,
-            "seller": "Byte Depot",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
-            "total_usd": 199.0,
-            "url": "https://www.ebay.com/itm/366347771469",
-            "why_good": "2TB M.2 2280 NVMe PCIe SSD with Buy It Now, free US delivery, 30-day returns, and eBay Money Back coverage."
-          },
-          {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.96,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.99,
-            "seller": "Newegg",
-            "shipping_usd": 0.0,
-            "source": "Newegg",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-            "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
-            "why_good": "New 2TB M.2 2280 NVMe PCIe SSD sold and shipped by Newegg with free shipping, 30-day returns, and 3-year warranty."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; tested fully functional; listing states 90-99% health",
-          "confidence": 0.78,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 199.0,
-          "seller": "Byte Depot",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
-          "total_usd": 199.0,
-          "url": "https://www.ebay.com/itm/366347771469",
-          "why_good": "2TB M.2 2280 NVMe PCIe SSD with Buy It Now, free US delivery, 30-day returns, and eBay Money Back coverage."
-        },
-        {
-          "availability": "available",
-          "condition": "New",
-          "confidence": 0.96,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 199.99,
-          "seller": "Newegg",
-          "shipping_usd": 0.0,
-          "source": "Newegg",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-          "total_usd": 199.99,
-          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
-          "why_good": "New 2TB M.2 2280 NVMe PCIe SSD sold and shipped by Newegg with free shipping, 30-day returns, and 3-year warranty."
-        }
-      ],
+      "deals": [],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -263,28 +243,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; tested fully functional; listing states 90-99% health",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.0,
-            "seller": "Byte Depot",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
-            "total_usd": 199.0,
-            "url": "https://www.ebay.com/itm/366347771469",
-            "why_good": "2TB M.2 2280 NVMe PCIe SSD with Buy It Now, free US delivery, 30-day returns, and eBay Money Back coverage."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
