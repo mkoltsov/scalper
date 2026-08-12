@@ -1,25 +1,21 @@
-2026-08-12 03:17:04,836 INFO scalper run started 2026-08-12T07:17:04.835272+00:00
-2026-08-12 03:17:04,838 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-12 03:19:02,780 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-12 03:19:02,781 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-12 03:22:14,590 INFO listing URL validation rejected target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349
-2026-08-12 03:22:14,590 INFO HTTP validation inconclusive target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified title=Pianino cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349
-2026-08-12 03:23:27,955 INFO browser validation rejected target=yamaha-np12-np15-piaggero reason=browser_empty_or_too_short title=Pianino cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349
-2026-08-12 03:23:28,367 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysyłka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html
-2026-08-12 03:23:28,367 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-12 03:23:28,368 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-12 03:26:37,290 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=2
-2026-08-12 03:26:37,290 INFO already notified target=toyota-matrix-2nd-gen-red-hood market=us total=300.00 url=https://www.partshotlines.com/parts/toyota/matrix/hood.html
-2026-08-12 03:26:37,291 INFO already notified target=toyota-matrix-2nd-gen-red-hood market=us total=425.00 url=https://www.partshotlines.com/parts/toyota/matrix/hood.html
-2026-08-12 03:26:37,291 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-12 03:28:55,161 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-12 03:28:55,162 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-12 03:31:43,868 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-12 03:31:43,868 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-12 03:34:03,255 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-08-12 03:34:03,256 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-12 03:36:28,727 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
-2026-08-12 03:36:28,728 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-12 03:38:31,919 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-12 03:38:31,920 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-12 03:40:48,283 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-12 04:17:05,988 INFO scalper run started 2026-08-12T08:17:05.987698+00:00
+2026-08-12 04:17:06,055 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-12 04:21:14,092 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-12 04:21:14,093 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-12 04:23:29,898 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-12 04:23:29,899 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-12 04:26:03,063 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-12 04:26:03,064 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-12 04:29:12,566 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-12 04:29:12,567 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-12 04:31:31,219 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-12 04:31:31,220 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-12 04:33:48,549 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-12 04:33:48,550 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-12 04:38:23,969 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-12 04:38:23,970 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
+2026-08-12 04:38:23,971 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-12 04:40:32,363 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-12 04:40:32,364 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-12 04:42:56,980 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:'s)?\s+special)\b title=2016 Lexus ES 350
+2026-08-12 04:42:56,980 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
