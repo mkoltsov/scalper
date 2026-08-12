@@ -1,31 +1,34 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-12T06:42:38.251140+00:00",
+  "finished_at": "2026-08-12T07:40:48.283851+00:00",
   "logs": [
-    "2026-08-12 02:17:05,695 INFO scalper run started 2026-08-12T06:17:05.694393+00:00",
-    "2026-08-12 02:17:05,697 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-12 02:23:04,355 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-12 02:23:04,356 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-12 02:26:07,995 INFO listing URL validation rejected target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified url=https://www.ebay.com/itm/188699133599",
-    "2026-08-12 02:26:07,996 INFO HTTP validation inconclusive target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified title=Yamaha Piaggero NP-12 61-Key Electronic Keyboard url=https://www.ebay.com/itm/188699133599",
-    "2026-08-12 02:26:43,526 INFO target=yamaha-np12-np15-piaggero qualifying_deals=1",
-    "2026-08-12 02:26:43,527 INFO already notified target=yamaha-np12-np15-piaggero market=us total=135.89 url=https://www.ebay.com/itm/188699133599",
-    "2026-08-12 02:26:43,528 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-12 02:29:01,829 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-12 02:29:01,830 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-12 02:31:13,953 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-12 02:31:13,954 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-12 02:33:32,876 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-12 02:33:32,876 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-12 02:35:54,982 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-12 02:35:54,983 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-12 02:38:24,686 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
-    "2026-08-12 02:38:24,687 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-12 02:40:38,444 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-12 02:40:38,445 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-12 02:42:38,250 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-12 03:17:04,836 INFO scalper run started 2026-08-12T07:17:04.835272+00:00",
+    "2026-08-12 03:17:04,838 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-12 03:19:02,780 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-12 03:19:02,781 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-12 03:22:14,590 INFO listing URL validation rejected target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349",
+    "2026-08-12 03:22:14,590 INFO HTTP validation inconclusive target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified title=Pianino cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349",
+    "2026-08-12 03:23:27,955 INFO browser validation rejected target=yamaha-np12-np15-piaggero reason=browser_empty_or_too_short title=Pianino cyfrowe Yamaha NP-12B url=https://allegro.pl/oferta/pianino-cyfrowe-yamaha-np-12b-18164978349",
+    "2026-08-12 03:23:28,367 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysy\u0142ka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html",
+    "2026-08-12 03:23:28,367 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-08-12 03:23:28,368 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-12 03:26:37,290 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=2",
+    "2026-08-12 03:26:37,290 INFO already notified target=toyota-matrix-2nd-gen-red-hood market=us total=300.00 url=https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+    "2026-08-12 03:26:37,291 INFO already notified target=toyota-matrix-2nd-gen-red-hood market=us total=425.00 url=https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+    "2026-08-12 03:26:37,291 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-12 03:28:55,161 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-12 03:28:55,162 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-12 03:31:43,868 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-12 03:31:43,868 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-12 03:34:03,255 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-08-12 03:34:03,256 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-12 03:36:28,727 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-08-12 03:36:28,728 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-12 03:38:31,919 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-12 03:38:31,920 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-12 03:40:48,283 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-12T06:17:05.694393+00:00",
+  "started_at": "2026-08-12T07:17:04.835272+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -56,89 +59,12 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 119.99,
-            "seller": "goodwillvsb",
-            "shipping_usd": 15.9,
-            "source": "eBay",
-            "target_id": "yamaha-np12-np15-piaggero",
-            "title": "Yamaha Piaggero NP-12 61-Key Electronic Keyboard",
-            "total_usd": 135.89,
-            "url": "https://www.ebay.com/itm/188699133599",
-            "why_good": "Yamaha Piaggero NP-12 keyboard listing with U.S. delivery; total is under $180."
-          }
-        ]
-      },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Pre-Owned",
-          "confidence": 0.78,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 119.99,
-          "seller": "goodwillvsb",
-          "shipping_usd": 15.9,
-          "source": "eBay",
-          "target_id": "yamaha-np12-np15-piaggero",
-          "title": "Yamaha Piaggero NP-12 61-Key Electronic Keyboard",
-          "total_usd": 135.89,
-          "url": "https://www.ebay.com/itm/188699133599",
-          "why_good": "Yamaha Piaggero NP-12 keyboard listing with U.S. delivery; total is under $180."
-        }
-      ],
-      "id": "yamaha-np12-np15-piaggero",
-      "max_price_usd": 180,
-      "name": "Yamaha NP-12 or NP-15 Piaggero keyboard",
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 119.99,
-            "seller": "goodwillvsb",
-            "shipping_usd": 15.9,
-            "source": "eBay",
-            "target_id": "yamaha-np12-np15-piaggero",
-            "title": "Yamaha Piaggero NP-12 61-Key Electronic Keyboard",
-            "total_usd": 135.89,
-            "url": "https://www.ebay.com/itm/188699133599",
-            "why_good": "Yamaha Piaggero NP-12 keyboard listing with U.S. delivery; total is under $180."
-          }
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 1
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      }
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
         "us": []
       },
       "deals": [],
-      "id": "toyota-matrix-2nd-gen-red-hood",
-      "max_price_usd": 450,
-      "name": "Used red hood for 2nd-gen Toyota Matrix",
+      "id": "yamaha-np12-np15-piaggero",
+      "max_price_usd": 180,
+      "name": "Yamaha NP-12 or NP-15 Piaggero keyboard",
       "regional_summary": {
         "best": {
           "eu": null,
@@ -149,6 +75,117 @@
           "eu": 0,
           "other": 0,
           "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; red 3L5 paint; some chips noted",
+            "confidence": 0.66,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 100.0,
+            "seller": "John Wagner & Sons",
+            "shipping_usd": 200.0,
+            "source": "PartsHotlines",
+            "target_id": "toyota-matrix-2nd-gen-red-hood",
+            "title": "2009 MATRIX Hood - RED 3L5 SOME CHIPS",
+            "total_usd": 300.0,
+            "url": "https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+            "why_good": "Used OEM hood for a 2009 Toyota Matrix in red paint code 3L5; only chips noted, with estimated US freight still under $450."
+          },
+          {
+            "availability": "available",
+            "condition": "Used; Radiant Red 3L5",
+            "confidence": 0.58,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 225.0,
+            "seller": "Reitman Auto Parts PRP-A",
+            "shipping_usd": 200.0,
+            "source": "PartsHotlines",
+            "target_id": "toyota-matrix-2nd-gen-red-hood",
+            "title": "2010 MATRIX Hood - RADIANT RED 3L5",
+            "total_usd": 425.0,
+            "url": "https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+            "why_good": "Used OEM hood for a 2010 Toyota Matrix listed as Radiant Red 3L5; estimated US freight keeps total below $450."
+          }
+        ]
+      },
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; red 3L5 paint; some chips noted",
+          "confidence": 0.66,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 100.0,
+          "seller": "John Wagner & Sons",
+          "shipping_usd": 200.0,
+          "source": "PartsHotlines",
+          "target_id": "toyota-matrix-2nd-gen-red-hood",
+          "title": "2009 MATRIX Hood - RED 3L5 SOME CHIPS",
+          "total_usd": 300.0,
+          "url": "https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+          "why_good": "Used OEM hood for a 2009 Toyota Matrix in red paint code 3L5; only chips noted, with estimated US freight still under $450."
+        },
+        {
+          "availability": "available",
+          "condition": "Used; Radiant Red 3L5",
+          "confidence": 0.58,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 225.0,
+          "seller": "Reitman Auto Parts PRP-A",
+          "shipping_usd": 200.0,
+          "source": "PartsHotlines",
+          "target_id": "toyota-matrix-2nd-gen-red-hood",
+          "title": "2010 MATRIX Hood - RADIANT RED 3L5",
+          "total_usd": 425.0,
+          "url": "https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+          "why_good": "Used OEM hood for a 2010 Toyota Matrix listed as Radiant Red 3L5; estimated US freight keeps total below $450."
+        }
+      ],
+      "id": "toyota-matrix-2nd-gen-red-hood",
+      "max_price_usd": 450,
+      "name": "Used red hood for 2nd-gen Toyota Matrix",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": {
+            "availability": "available",
+            "condition": "Used; red 3L5 paint; some chips noted",
+            "confidence": 0.66,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 100.0,
+            "seller": "John Wagner & Sons",
+            "shipping_usd": 200.0,
+            "source": "PartsHotlines",
+            "target_id": "toyota-matrix-2nd-gen-red-hood",
+            "title": "2009 MATRIX Hood - RED 3L5 SOME CHIPS",
+            "total_usd": 300.0,
+            "url": "https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+            "why_good": "Used OEM hood for a 2009 Toyota Matrix in red paint code 3L5; only chips noted, with estimated US freight still under $450."
+          }
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
