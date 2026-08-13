@@ -1,23 +1,20 @@
-2026-08-13 03:17:05,184 INFO scalper run started 2026-08-13T07:17:05.184152+00:00
-2026-08-13 03:17:05,187 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-13 03:19:21,097 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-13 03:19:21,098 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-13 03:22:01,931 INFO listing URL validation rejected target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified url=https://www.ebay.com/itm/188699133599
-2026-08-13 03:22:01,932 INFO HTTP validation inconclusive target=yamaha-np12-np15-piaggero reason=http_403_antibot_unverified title=Yamaha Piaggero NP-12 61-Key Electronic Keyboard url=https://www.ebay.com/itm/188699133599
-2026-08-13 03:22:36,891 INFO browser validation rejected target=yamaha-np12-np15-piaggero reason=ended title=Yamaha Piaggero NP-12 61-Key Electronic Keyboard url=https://www.ebay.com/itm/188699133599
-2026-08-13 03:22:36,891 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-13 03:22:36,892 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-13 03:24:30,852 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-13 03:24:30,853 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-13 03:27:30,453 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-13 03:27:30,453 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-13 03:29:26,235 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-13 03:29:26,236 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-13 03:31:36,837 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-08-13 03:31:36,838 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-13 03:33:44,753 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-13 03:33:44,754 INFO new deal target=2tb-nvme-magnus-one-us market=us total=179.99 url=https://www.ebay.com/p/4030517145?iid=206406478306
-2026-08-13 03:33:44,864 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-13 03:35:43,435 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-13 03:35:43,435 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-13 03:37:41,037 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-13 04:17:05,492 INFO scalper run started 2026-08-13T08:17:05.492122+00:00
+2026-08-13 04:17:05,495 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-13 04:19:24,568 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-13 04:19:24,569 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-13 04:21:46,258 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-13 04:21:46,258 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-13 04:23:39,404 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-13 04:23:39,405 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-13 04:26:12,643 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-13 04:26:12,644 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-13 04:28:04,434 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-13 04:28:04,435 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-13 04:30:26,931 INFO rejected deal target=rtx-5060-ti-magnus-one-500w-us reason=reject_pattern pattern=\brtx\s*-?\s*5060\b(?!\s*ti) title=GIGABYTE WindForce GeForce RTX 5060 Ti 16GB GDDR7 PCI Express 5.0 x8 ATX Graphics Card GV-N506TWF2OC-16GD
+2026-08-13 04:30:26,932 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-13 04:30:26,932 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-13 04:32:40,328 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
+2026-08-13 04:32:40,329 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-13 04:34:26,936 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-13 04:34:26,936 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-13 04:36:11,240 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
