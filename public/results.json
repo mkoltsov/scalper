@@ -1,31 +1,42 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-13T03:40:11.220841+00:00",
+  "finished_at": "2026-08-13T05:38:49.436770+00:00",
   "logs": [
-    "2026-08-12 23:17:05,196 INFO scalper run started 2026-08-13T03:17:05.195370+00:00",
-    "2026-08-12 23:17:05,198 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-12 23:19:27,031 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-12 23:19:27,032 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
-    "2026-08-12 23:21:29,040 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
-    "2026-08-12 23:21:29,041 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-12 23:23:32,751 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-12 23:23:32,752 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-12 23:27:45,762 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-12 23:27:45,763 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-12 23:30:34,259 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-12 23:30:34,259 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
-    "2026-08-12 23:32:32,816 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
-    "2026-08-12 23:32:32,817 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-12 23:34:58,067 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-08-12 23:34:58,068 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-08-12 23:35:34,427 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-08-12 23:35:34,427 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
-    "2026-08-12 23:35:34,428 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-12 23:37:47,438 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-12 23:37:47,439 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-12 23:40:11,220 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-13 01:17:05,771 INFO scalper run started 2026-08-13T05:17:05.770917+00:00",
+    "2026-08-13 01:17:05,773 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-13 01:18:58,779 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-13 01:18:58,779 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search",
+    "2026-08-13 01:21:30,491 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_410 title=Pianino Yamaha Piaggero np-12 wysy\u0142ka url=https://www.olx.pl/d/oferta/pianino-yamaha-piaggero-np-12-wysylka-CID751-ID19SKVM.html",
+    "2026-08-13 01:21:30,492 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0",
+    "2026-08-13 01:21:30,492 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-13 01:23:09,194 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-13 01:23:09,195 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-13 01:26:00,023 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-13 01:26:00,024 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-13 01:28:42,577 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-13 01:28:42,578 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search",
+    "2026-08-13 01:30:42,648 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0",
+    "2026-08-13 01:30:42,648 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-13 01:33:47,969 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236935723379",
+    "2026-08-13 01:33:47,970 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379",
+    "2026-08-13 01:34:22,950 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379",
+    "2026-08-13 01:34:23,135 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366544488101",
+    "2026-08-13 01:34:23,136 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366544488101",
+    "2026-08-13 01:34:30,017 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366544488101",
+    "2026-08-13 01:34:30,217 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-08-13 01:34:30,218 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-08-13 01:34:38,835 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-08-13 01:34:39,024 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/127845212103",
+    "2026-08-13 01:34:39,026 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=MSI SPATIUM M371 2TB PCIe Gen 3x4 NVMe M.2 2280 SSD url=https://www.ebay.com/itm/127845212103",
+    "2026-08-13 01:34:48,485 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=MSI SPATIUM M371 2TB PCIe Gen 3x4 NVMe M.2 2280 SSD url=https://www.ebay.com/itm/127845212103",
+    "2026-08-13 01:34:58,078 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-08-13 01:34:58,079 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490&cm_sp=Homepage_SS-_-P4_20-215-490-_-07272026",
+    "2026-08-13 01:34:58,079 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-13 01:36:58,907 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-13 01:36:58,908 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-13 01:38:49,436 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-13T03:17:05.195370+00:00",
+  "started_at": "2026-08-13T05:17:05.770917+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -181,9 +192,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "New; sold by Newegg and shipped by Newegg; ADATA 3-year warranty for this model",
+            "confidence": 0.9,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 199.99,
+            "seller": "Newegg",
+            "shipping_usd": 0.0,
+            "source": "Newegg",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
+            "total_usd": 199.99,
+            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490&cm_sp=Homepage_SS-_-P4_20-215-490-_-07272026",
+            "why_good": "New 2TB M.2 2280 PCIe NVMe SSD from a major retailer with free US shipping; thin integrated heat spreader, not a tall heatsink."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "New; sold by Newegg and shipped by Newegg; ADATA 3-year warranty for this model",
+          "confidence": 0.9,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 199.99,
+          "seller": "Newegg",
+          "shipping_usd": 0.0,
+          "source": "Newegg",
+          "target_id": "2tb-nvme-magnus-one-us",
+          "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
+          "total_usd": 199.99,
+          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490&cm_sp=Homepage_SS-_-P4_20-215-490-_-07272026",
+          "why_good": "New 2TB M.2 2280 PCIe NVMe SSD from a major retailer with free US shipping; thin integrated heat spreader, not a tall heatsink."
+        }
+      ],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -191,12 +238,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "New; sold by Newegg and shipped by Newegg; ADATA 3-year warranty for this model",
+            "confidence": 0.9,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 199.99,
+            "seller": "Newegg",
+            "shipping_usd": 0.0,
+            "source": "Newegg",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
+            "total_usd": 199.99,
+            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490&cm_sp=Homepage_SS-_-P4_20-215-490-_-07272026",
+            "why_good": "New 2TB M.2 2280 PCIe NVMe SSD from a major retailer with free US shipping; thin integrated heat spreader, not a tall heatsink."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
