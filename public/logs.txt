@@ -1,20 +1,21 @@
-2026-08-13 22:17:05,242 INFO scalper run started 2026-08-14T02:17:05.241380+00:00
-2026-08-13 22:17:05,244 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-13 22:19:27,671 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-13 22:19:27,672 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
-2026-08-13 22:22:18,733 INFO rejected deal target=yamaha-np12-np15-piaggero reason=http_403 title=Used Yamaha NP12-B Keyboard Workstation url=https://www.guitarcenter.com/Used/Used-Yamaha-NP12-B-Keyboard-Workstation.gc
-2026-08-13 22:22:18,734 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
-2026-08-13 22:22:18,734 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-13 22:24:23,483 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-13 22:24:23,484 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-13 22:26:26,890 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-13 22:26:26,890 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-13 22:30:58,692 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-13 22:30:58,693 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
-2026-08-13 22:34:12,294 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
-2026-08-13 22:34:12,294 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-13 22:36:12,101 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
-2026-08-13 22:36:12,102 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-13 22:38:02,792 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-13 22:38:02,792 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-13 22:40:04,817 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-13 23:17:05,720 INFO scalper run started 2026-08-14T03:17:05.719833+00:00
+2026-08-13 23:17:05,722 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-13 23:19:48,958 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-13 23:19:48,959 INFO checking target=yamaha-np12-np15-piaggero with Codex web_search
+2026-08-13 23:22:47,333 INFO target=yamaha-np12-np15-piaggero qualifying_deals=0
+2026-08-13 23:22:47,334 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-13 23:24:23,252 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-13 23:24:23,253 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-13 23:26:43,953 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-13 23:26:43,954 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-13 23:29:26,727 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=1
+2026-08-13 23:29:26,728 INFO new deal target=wanbo-mozart-1-pro-2025 market=eu total=304.40 url=https://www.it-shop24.pl/pl/p/Wanbo-Mozart-1-Pro-New-Niebieski-Projektor-1200ANSI%2C-1080p%2C-Google-TV/9823
+2026-08-13 23:29:26,832 INFO checking target=rtx-5060-ti-magnus-one-500w-us with Codex web_search
+2026-08-13 23:31:40,173 INFO target=rtx-5060-ti-magnus-one-500w-us qualifying_deals=0
+2026-08-13 23:31:40,173 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-13 23:33:21,661 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
+2026-08-13 23:33:21,662 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-13 23:35:15,608 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-13 23:35:15,610 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-13 23:38:21,496 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:'s)?\s+special)\b title=2016 Lexus ES 350
+2026-08-13 23:38:21,496 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
