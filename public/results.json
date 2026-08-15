@@ -1,25 +1,30 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-15T10:31:02.135521+00:00",
+  "finished_at": "2026-08-15T11:32:49.098416+00:00",
   "logs": [
-    "2026-08-15 06:17:04,859 INFO scalper run started 2026-08-15T10:17:04.858899+00:00",
-    "2026-08-15 06:17:04,861 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-15 06:19:21,743 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-15 06:19:21,744 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-15 06:21:02,883 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-15 06:21:02,883 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-15 06:22:53,958 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-15 06:22:53,958 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-15 06:24:27,389 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-15 06:24:27,390 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-15 06:27:11,617 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-15 06:27:11,618 INFO new deal target=2tb-nvme-magnus-one-us market=us total=169.99 url=https://www.goharddrive.com/Micron-2300-MTFDHBA2T0TDV-2TB-PCIe-3-x4-NVMe-SSD-p/g02-0945-cr.htm",
-    "2026-08-15 06:27:11,723 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-15 06:28:55,295 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-15 06:28:55,296 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-15 06:31:02,135 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-15 07:17:05,557 INFO scalper run started 2026-08-15T11:17:05.557164+00:00",
+    "2026-08-15 07:17:05,559 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-15 07:19:32,934 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-15 07:19:32,935 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-15 07:22:00,080 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-15 07:22:00,081 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-15 07:23:48,051 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-15 07:23:48,052 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-15 07:25:37,634 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-15 07:25:37,634 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-15 07:28:09,063 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236935723379",
+    "2026-08-15 07:28:09,064 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379",
+    "2026-08-15 07:28:44,334 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379",
+    "2026-08-15 07:28:44,503 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-08-15 07:28:44,504 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-08-15 07:28:53,684 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-08-15 07:28:53,685 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-08-15 07:28:53,685 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-15 07:30:43,003 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-15 07:30:43,004 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-15 07:32:49,098 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-15T10:17:04.858899+00:00",
+  "started_at": "2026-08-15T11:17:05.557164+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -125,45 +130,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Refurbished - 3 Year Warranty",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 169.99,
-            "seller": "goHardDrive Inc",
-            "shipping_usd": 0.0,
-            "source": "goHardDrive",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Micron 2300 MTFDHBA2T0TDV 2TB PCIe 3.0 x4 NVMe M.2 2280 Internal Solid State Drive (SSD) (Refurbished)- w/3 Year Warranty",
-            "total_usd": 169.99,
-            "url": "https://www.goharddrive.com/Micron-2300-MTFDHBA2T0TDV-2TB-PCIe-3-x4-NVMe-SSD-p/g02-0945-cr.htm",
-            "why_good": "Exact 2TB Micron MTFDHBA2T0TDV M.2 2280 PCIe NVMe internal SSD, in stock, free US shipping, no tall heatsink shown, with 3-year warranty."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Refurbished - 3 Year Warranty",
-          "confidence": 0.86,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 169.99,
-          "seller": "goHardDrive Inc",
-          "shipping_usd": 0.0,
-          "source": "goHardDrive",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "Micron 2300 MTFDHBA2T0TDV 2TB PCIe 3.0 x4 NVMe M.2 2280 Internal Solid State Drive (SSD) (Refurbished)- w/3 Year Warranty",
-          "total_usd": 169.99,
-          "url": "https://www.goharddrive.com/Micron-2300-MTFDHBA2T0TDV-2TB-PCIe-3-x4-NVMe-SSD-p/g02-0945-cr.htm",
-          "why_good": "Exact 2TB Micron MTFDHBA2T0TDV M.2 2280 PCIe NVMe internal SSD, in stock, free US shipping, no tall heatsink shown, with 3-year warranty."
-        }
-      ],
+      "deals": [],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -171,28 +140,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Refurbished - 3 Year Warranty",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 169.99,
-            "seller": "goHardDrive Inc",
-            "shipping_usd": 0.0,
-            "source": "goHardDrive",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Micron 2300 MTFDHBA2T0TDV 2TB PCIe 3.0 x4 NVMe M.2 2280 Internal Solid State Drive (SSD) (Refurbished)- w/3 Year Warranty",
-            "total_usd": 169.99,
-            "url": "https://www.goharddrive.com/Micron-2300-MTFDHBA2T0TDV-2TB-PCIe-3-x4-NVMe-SSD-p/g02-0945-cr.htm",
-            "why_good": "Exact 2TB Micron MTFDHBA2T0TDV M.2 2280 PCIe NVMe internal SSD, in stock, free US shipping, no tall heatsink shown, with 3-year warranty."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
