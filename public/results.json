@@ -1,26 +1,31 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-16T06:33:52.895999+00:00",
+  "finished_at": "2026-08-16T07:32:46.058779+00:00",
   "logs": [
-    "2026-08-16 02:17:05,535 INFO scalper run started 2026-08-16T06:17:05.534435+00:00",
-    "2026-08-16 02:17:05,537 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-16 02:19:00,764 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-16 02:19:00,764 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-16 02:20:56,032 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-16 02:20:56,032 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-16 02:23:41,029 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-16 02:23:41,030 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-16 02:25:15,701 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-16 02:25:15,702 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-16 02:28:23,627 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2",
-    "2026-08-16 02:28:23,628 INFO already notified target=2tb-nvme-magnus-one-us market=us total=179.99 url=https://www.studiodepot.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html",
-    "2026-08-16 02:28:23,630 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-    "2026-08-16 02:28:23,631 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-16 02:31:53,922 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-16 02:31:53,923 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-16 02:33:52,895 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-16 03:17:05,226 INFO scalper run started 2026-08-16T07:17:05.225980+00:00",
+    "2026-08-16 03:17:05,228 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-16 03:18:59,729 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-16 03:18:59,729 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-16 03:20:35,329 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-16 03:20:35,330 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-16 03:23:25,147 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/398135871016",
+    "2026-08-16 03:23:25,148 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016",
+    "2026-08-16 03:23:59,063 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=sold title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016",
+    "2026-08-16 03:23:59,063 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-16 03:23:59,064 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-16 03:25:45,964 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-16 03:25:45,965 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-16 03:28:32,098 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-08-16 03:28:32,099 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-08-16 03:28:41,859 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-08-16 03:28:50,435 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-08-16 03:28:50,436 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+    "2026-08-16 03:28:50,438 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-16 03:30:36,486 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-16 03:30:36,487 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-16 03:32:46,058 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-16T06:17:05.534435+00:00",
+  "started_at": "2026-08-16T07:17:05.225980+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -129,25 +134,8 @@
         "us": [
           {
             "availability": "available",
-            "condition": "New",
-            "confidence": 0.9,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 179.99,
-            "seller": "Studio Depot",
-            "shipping_usd": 0.0,
-            "source": "Studio Depot",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "OWC 2.0TB Aura Pro X2 PCIe 4.0 NVMe Solid-State Drive for Select Mac Models",
-            "total_usd": 179.99,
-            "url": "https://www.studiodepot.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html",
-            "why_good": "New OWC 2TB M.2 2280 PCIe 4.0 NVMe SSD, no heatsink, 5-year warranty, in stock, free ground shipping over $150 in contiguous US."
-          },
-          {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.86,
+            "condition": "New; 3-year manufacturer warranty and Newegg 30-day returns",
+            "confidence": 0.84,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -156,35 +144,18 @@
             "shipping_usd": 0.0,
             "source": "Newegg",
             "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive SSD ALEG-710-2TCS",
+            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
             "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New ADATA 2TB M.2 2280 PCIe 3.0 x4 NVMe SSD, sold and shipped by Newegg, in stock with free US shipping."
+            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+            "why_good": "New 2TB M.2 2280 PCIe NVMe SSD from identifiable manufacturer, sold and shipped by Newegg with free US shipping; only a low-profile heatsink/spreader is specified."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "New",
-          "confidence": 0.9,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 179.99,
-          "seller": "Studio Depot",
-          "shipping_usd": 0.0,
-          "source": "Studio Depot",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "OWC 2.0TB Aura Pro X2 PCIe 4.0 NVMe Solid-State Drive for Select Mac Models",
-          "total_usd": 179.99,
-          "url": "https://www.studiodepot.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html",
-          "why_good": "New OWC 2TB M.2 2280 PCIe 4.0 NVMe SSD, no heatsink, 5-year warranty, in stock, free ground shipping over $150 in contiguous US."
-        },
-        {
-          "availability": "available",
-          "condition": "New",
-          "confidence": 0.86,
+          "condition": "New; 3-year manufacturer warranty and Newegg 30-day returns",
+          "confidence": 0.84,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -193,10 +164,10 @@
           "shipping_usd": 0.0,
           "source": "Newegg",
           "target_id": "2tb-nvme-magnus-one-us",
-          "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive SSD ALEG-710-2TCS",
+          "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
           "total_usd": 199.99,
-          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-          "why_good": "New ADATA 2TB M.2 2280 PCIe 3.0 x4 NVMe SSD, sold and shipped by Newegg, in stock with free US shipping."
+          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+          "why_good": "New 2TB M.2 2280 PCIe NVMe SSD from identifiable manufacturer, sold and shipped by Newegg with free US shipping; only a low-profile heatsink/spreader is specified."
         }
       ],
       "id": "2tb-nvme-magnus-one-us",
@@ -208,26 +179,26 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "New",
-            "confidence": 0.9,
+            "condition": "New; 3-year manufacturer warranty and Newegg 30-day returns",
+            "confidence": 0.84,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 179.99,
-            "seller": "Studio Depot",
+            "price_usd": 199.99,
+            "seller": "Newegg",
             "shipping_usd": 0.0,
-            "source": "Studio Depot",
+            "source": "Newegg",
             "target_id": "2tb-nvme-magnus-one-us",
-            "title": "OWC 2.0TB Aura Pro X2 PCIe 4.0 NVMe Solid-State Drive for Select Mac Models",
-            "total_usd": 179.99,
-            "url": "https://www.studiodepot.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html",
-            "why_good": "New OWC 2TB M.2 2280 PCIe 4.0 NVMe SSD, no heatsink, 5-year warranty, in stock, free ground shipping over $150 in contiguous US."
+            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
+            "total_usd": 199.99,
+            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+            "why_good": "New 2TB M.2 2280 PCIe NVMe SSD from identifiable manufacturer, sold and shipped by Newegg with free US shipping; only a low-profile heatsink/spreader is specified."
           }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
