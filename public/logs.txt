@@ -1,16 +1,22 @@
-2026-08-17 01:17:04,847 INFO scalper run started 2026-08-17T05:17:04.847014+00:00
-2026-08-17 01:17:04,849 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-17 01:19:04,891 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-17 01:19:04,892 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-17 01:21:05,766 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-17 01:21:05,766 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-17 01:23:03,620 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-17 01:23:03,620 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-17 01:24:47,020 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-17 01:24:47,021 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-17 01:28:44,303 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-17 01:28:44,304 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
-2026-08-17 01:28:44,305 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-17 01:31:00,963 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-17 01:31:00,963 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-17 01:33:14,852 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-17 02:17:04,945 INFO scalper run started 2026-08-17T06:17:04.944502+00:00
+2026-08-17 02:17:04,947 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-17 02:19:19,652 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-17 02:19:19,652 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-17 02:21:21,115 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-17 02:21:21,116 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-17 02:23:11,061 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-17 02:23:11,062 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-17 02:25:26,787 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-17 02:25:26,787 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-17 02:27:51,996 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236935723379
+2026-08-17 02:27:51,997 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379
+2026-08-17 02:28:27,061 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379
+2026-08-17 02:28:27,257 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
+2026-08-17 02:28:27,258 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
+2026-08-17 02:28:35,483 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
+2026-08-17 02:28:46,124 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-17 02:28:46,125 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
+2026-08-17 02:28:46,126 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-17 02:30:44,190 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-17 02:30:44,191 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-17 02:33:53,420 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
