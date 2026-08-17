@@ -1,17 +1,21 @@
-2026-08-17 05:17:04,908 INFO scalper run started 2026-08-17T09:17:04.907924+00:00
-2026-08-17 05:17:04,910 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-17 05:18:52,810 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-17 05:18:52,811 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-17 05:20:39,248 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-17 05:20:39,249 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-17 05:23:45,788 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-17 05:23:45,789 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-17 05:26:43,036 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-17 05:26:43,037 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-17 05:29:53,274 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=Lexar NM620 M.2 2280 PCIe Gen3x4 NVMe Solid State Drive 2TB url=https://www.officedepot.com/a/products/4612910/Lexar-NM620-M2-2280-PCIe-Gen3x4/
-2026-08-17 05:30:05,431 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-17 05:30:05,432 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
-2026-08-17 05:30:05,433 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-17 05:31:44,953 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-17 05:31:44,953 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-17 05:33:47,615 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-17 06:17:05,004 INFO scalper run started 2026-08-17T10:17:05.004262+00:00
+2026-08-17 06:17:05,007 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-17 06:18:58,898 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-17 06:18:58,898 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-17 06:20:49,685 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-17 06:20:49,685 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-17 06:22:59,695 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-17 06:22:59,695 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-17 06:25:31,055 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-17 06:25:31,055 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-17 06:28:28,467 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
+2026-08-17 06:28:28,468 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
+2026-08-17 06:29:05,340 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
+2026-08-17 06:29:05,531 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469
+2026-08-17 06:29:05,533 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469
+2026-08-17 06:29:13,711 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-17 06:29:13,712 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469
+2026-08-17 06:29:13,713 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-17 06:31:02,368 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-17 06:31:02,369 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-17 06:33:17,422 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
