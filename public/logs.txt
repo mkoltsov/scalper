@@ -1,16 +1,19 @@
-2026-08-18 06:17:05,254 INFO scalper run started 2026-08-18T10:17:05.254209+00:00
-2026-08-18 06:17:05,256 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-18 06:18:53,045 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-18 06:18:53,046 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-18 06:20:31,128 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-18 06:20:31,129 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-18 06:22:24,891 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-18 06:22:24,892 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-18 06:24:08,710 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-18 06:24:08,711 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-18 06:26:49,943 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=ADATA LEGEND 710 2TB PCIe Gen3 x4 M.2 2280 Internal Solid State Drive url=https://www.walmart.com/ip/Adata-LEGEND-710-ALEG-710-2TCS-2-TB-Solid-State-Drive-M-2-2280-Internal-PCI-Express-NVMe-PCI-Express-NVMe-3-0-x4/1746359036
-2026-08-18 06:26:49,944 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
-2026-08-18 06:26:49,944 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-18 06:28:36,309 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-18 06:28:36,310 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-18 06:30:39,957 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-18 07:17:04,789 INFO scalper run started 2026-08-18T11:17:04.788454+00:00
+2026-08-18 07:17:04,791 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-18 07:19:03,464 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-18 07:19:03,464 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-18 07:20:32,912 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-18 07:20:32,912 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-18 07:22:53,542 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-18 07:22:53,543 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-18 07:24:43,374 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-18 07:24:43,375 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-18 07:26:57,917 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347559397
+2026-08-18 07:26:57,918 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366347559397
+2026-08-18 07:27:43,904 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2
+2026-08-18 07:27:43,905 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347559397
+2026-08-18 07:27:43,906 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
+2026-08-18 07:27:43,907 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-18 07:29:55,092 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-18 07:29:55,093 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-18 07:31:57,284 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
