@@ -1,25 +1,21 @@
-2026-08-18 01:17:05,057 INFO scalper run started 2026-08-18T05:17:05.056460+00:00
-2026-08-18 01:17:05,059 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-18 01:20:09,769 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-18 01:20:09,770 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-18 01:22:07,846 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-18 01:22:07,846 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-18 01:24:52,176 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-18 01:24:52,176 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-18 01:27:20,966 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-18 01:27:20,966 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-18 01:31:57,066 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=Verbatim 2TB Vi5000 PCIe NVMe M.2 2280 Internal SSD Notebook, Desktop PC Device Supported 5000 MB/s Maximum Read Transfer Rate 2 Year Warranty url=https://www.officedepot.com/a/products/8998157/Verbatim-Vi5000-2-TB-Solid-State/
-2026-08-18 01:32:07,695 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=Lexar NM620 M.2 2280 PCIe Gen3x4 NVMe Solid State Drive 2TB url=https://www.officedepot.com/a/products/4612910/Lexar-NM620-M2-2280-PCIe-Gen3x4/
-2026-08-18 01:32:07,923 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236935723379
-2026-08-18 01:32:07,924 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379
-2026-08-18 01:32:16,846 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379
-2026-08-18 01:32:17,009 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
-2026-08-18 01:32:17,010 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
-2026-08-18 01:32:25,986 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
-2026-08-18 01:32:37,598 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-18 01:32:37,598 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
-2026-08-18 01:32:37,599 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-18 01:34:31,238 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-18 01:34:31,239 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-18 01:40:35,031 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:'s)?\s+special)\b title=2018 Lexus ES 350 Base Sedan
-2026-08-18 01:40:35,031 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-18 02:17:04,816 INFO scalper run started 2026-08-18T06:17:04.816100+00:00
+2026-08-18 02:17:04,819 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-18 02:19:41,310 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-18 02:19:41,311 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-18 02:21:37,791 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-18 02:21:37,792 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-18 02:23:54,062 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD
+2026-08-18 02:23:54,063 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-18 02:23:54,063 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-18 02:25:57,692 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-18 02:25:57,693 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-18 02:28:55,938 INFO rejected deal target=2tb-nvme-magnus-one-us reason=sold title=Samsung 980 PRO PCIe 4.0 NVMe M.2 Internal V-NAND Solid State Drive - 2TB url=https://www.gamestop.com/pc-gaming/pc-components/hard-drives-ssds/internal-hard-drives/products/samsung-980-pro-pcie-4.0-nvme-m.2-internal-v-nand-solid-state-drive/11165889.html?bvstate=pg%253A2%252Fct%253Ar
+2026-08-18 02:28:56,122 INFO rejected deal target=2tb-nvme-magnus-one-us reason=http_403 title=Samsung 980 PRO PCIe 4.0 NVMe M.2 Internal V-NAND Solid State Drive - 2TB url=https://www.gamestop.com/pc-gaming/pc-components/hard-drives-ssds/internal-hard-drives/products/samsung-980-pro-pcie-4.0-nvme-m.2-internal-v-nand-solid-state-drive/11165889.html?bvstate=pg%253A2%252Fct%253Ar
+2026-08-18 02:28:56,288 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/364321123921
+2026-08-18 02:28:56,289 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Fanxiang S880 2TB M.2 NVMe Gen4 Internal SSD, no-heatsink option url=https://www.ebay.com/itm/364321123921
+2026-08-18 02:29:31,866 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=Fanxiang S880 2TB M.2 NVMe Gen4 Internal SSD, no-heatsink option url=https://www.ebay.com/itm/364321123921
+2026-08-18 02:29:31,866 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
+2026-08-18 02:29:31,867 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-18 02:31:40,256 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-18 02:31:40,257 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-18 02:34:00,189 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
