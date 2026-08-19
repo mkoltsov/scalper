@@ -1,19 +1,17 @@
-2026-08-19 15:17:05,236 INFO scalper run started 2026-08-19T19:17:05.236056+00:00
-2026-08-19 15:17:05,238 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-19 15:18:52,600 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-19 15:18:52,601 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-19 15:21:14,836 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-19 15:21:14,836 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-19 15:23:48,744 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-19 15:23:48,744 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-19 15:25:28,593 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-19 15:25:28,593 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-19 15:28:40,192 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236935723379
-2026-08-19 15:28:40,193 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379
-2026-08-19 15:29:15,549 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379
-2026-08-19 15:29:25,699 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-19 15:29:25,700 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
-2026-08-19 15:29:25,701 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-19 15:31:13,654 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-19 15:31:13,655 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-19 15:33:24,932 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-19 16:17:05,676 INFO scalper run started 2026-08-19T20:17:05.675261+00:00
+2026-08-19 16:17:05,678 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-19 16:18:56,728 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-19 16:18:56,728 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-19 16:20:38,487 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-19 16:20:38,487 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-19 16:23:04,272 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-19 16:23:04,272 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-19 16:24:52,879 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-19 16:24:52,880 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-19 16:28:21,104 INFO rejected deal target=2tb-nvme-magnus-one-us reason=http_403 title=Kingston 2TB FURY Renegade PCIe 4.0 NVMe M.2 Internal SSD with low-profile heat spreader (SFYRDK/2000G) url=https://www.bhphotovideo.com/c/product/1740811-REG/kingston_sfyrdk_2000g_2000g_fury_renegade_pcie.html
+2026-08-19 16:28:21,105 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-19 16:28:21,105 INFO already notified target=2tb-nvme-magnus-one-us market=us total=179.99 url=https://www.studiodepot.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html
+2026-08-19 16:28:21,106 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-19 16:30:00,809 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-19 16:30:00,810 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-19 16:31:51,088 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
