@@ -1,18 +1,18 @@
-2026-08-20 17:17:04,975 INFO scalper run started 2026-08-20T21:17:04.974793+00:00
-2026-08-20 17:17:04,977 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-20 17:18:50,180 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-20 17:18:50,181 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-20 17:20:54,931 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-20 17:20:54,931 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-20 17:22:35,391 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-20 17:22:35,392 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-20 17:24:16,782 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-20 17:24:16,782 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-20 17:27:08,752 INFO rejected deal target=2tb-nvme-magnus-one-us reason=http_403 title=Samsung 980 PRO 2TB PCIe 4.0 NVMe M.2 Internal V-NAND Solid State Drive PlayStation 5 Compatible url=https://www.gamestop.com/pc-gaming/pc-components/hard-drives-ssds/internal-hard-drives/products/samsung-980-pro-2tb-pcie-4.0-nvme-m.2-internal-v-nand-solid-state-drive-playstation-5-compatible/310257.html?a=1
-2026-08-20 17:27:45,186 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-20 17:27:45,187 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
-2026-08-20 17:27:45,188 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-20 17:29:30,602 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-20 17:29:30,603 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-20 17:33:40,015 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:'s)?\s+special)\b title=2016 Lexus ES 350 Base
-2026-08-20 17:33:40,015 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-20 18:17:05,151 INFO scalper run started 2026-08-20T22:17:05.150292+00:00
+2026-08-20 18:17:05,153 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-20 18:18:51,420 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-20 18:18:51,421 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-20 18:20:22,956 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-20 18:20:22,956 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-20 18:22:26,613 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-20 18:22:26,614 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-20 18:24:03,567 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-20 18:24:03,568 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-20 18:28:17,333 INFO rejected deal target=2tb-nvme-magnus-one-us reason=url_error:The read operation timed out title=ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS url=https://www.bestbuy.com/product/adata-legend-710-m-2-2280-2tb-pci-express-3-0-x4-3d-nand-internal-solid-state-drive-ssd-aleg-710-2tcs/J39VZT2Z38/sku/12657342
+2026-08-20 18:28:21,452 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=ADATA LEGEND 710 2TB PCIe Gen3 x4 M.2 2280 Internal Solid State Drive url=https://www.walmart.com/ip/Adata-LEGEND-710-ALEG-710-2TCS-2-TB-Solid-State-Drive-M-2-2280-Internal-PCI-Express-NVMe-PCI-Express-NVMe-3-0-x4/1746359036
+2026-08-20 18:28:21,453 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-20 18:28:21,454 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
+2026-08-20 18:28:21,456 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-20 18:30:34,627 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-20 18:30:34,627 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-20 18:32:38,312 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
