@@ -1,27 +1,16 @@
-2026-08-20 05:17:05,639 INFO scalper run started 2026-08-20T09:17:05.638940+00:00
-2026-08-20 05:17:05,641 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-20 05:18:40,884 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-20 05:18:40,885 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-20 05:20:47,490 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-20 05:20:47,490 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-20 05:23:06,412 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-20 05:23:06,412 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-20 05:24:38,048 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-20 05:24:38,048 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-20 05:27:41,457 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366544488101
-2026-08-20 05:27:41,458 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366544488101
-2026-08-20 05:28:15,960 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366544488101
-2026-08-20 05:28:16,122 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/227406578977
-2026-08-20 05:28:16,123 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=NEW ADATA LEGEND GOLD 800 2TB SSD PCIe Gen 4 x 4 NVMe Solid State Drive Gen4 url=https://www.ebay.com/itm/227406578977
-2026-08-20 05:28:23,192 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=NEW ADATA LEGEND GOLD 800 2TB SSD PCIe Gen 4 x 4 NVMe Solid State Drive Gen4 url=https://www.ebay.com/itm/227406578977
-2026-08-20 05:28:23,349 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
-2026-08-20 05:28:23,350 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
-2026-08-20 05:28:32,578 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
-2026-08-20 05:28:32,796 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469
-2026-08-20 05:28:32,797 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469
-2026-08-20 05:28:42,048 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-20 05:28:42,048 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469
-2026-08-20 05:28:42,049 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-20 05:30:39,153 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-20 05:30:39,154 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-20 05:33:00,534 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-20 06:17:05,415 INFO scalper run started 2026-08-20T10:17:05.414803+00:00
+2026-08-20 06:17:05,417 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-20 06:19:07,966 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-20 06:19:07,967 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-20 06:21:06,150 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-20 06:21:06,151 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-20 06:24:34,926 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=unavailable title=Restored Lenovo ThinkPad P1 Gen 4 16" i7-11850H 2.5Ghz 32GB RAM 1TB SSD RTX3080 GPU Black url=https://www.walmart.com/ip/Restored-Lenovo-ThinkPad-P1-Gen-4-16-i7-11850H-2-5Ghz-32GB-RAM-1TB-SSD-RTX3080-GPU-Black-Refurbished/19723118215?classType=REGULAR&conditionGroupCode=2
+2026-08-20 06:24:34,926 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-20 06:24:34,927 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-20 06:26:49,601 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-20 06:26:49,602 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-20 06:31:14,905 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
+2026-08-20 06:31:14,906 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-20 06:33:02,159 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-20 06:33:02,160 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-20 06:35:09,972 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
