@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-08-20T00:30:20.341446+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-08-20T03:32:03.424938+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -95,9 +95,49 @@
             <section class="target">
               <div class="target-head">
                 <h1>2TB NVMe SSD for ZOTAC Magnus One in the US</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>$199.99</strong>
+                  <small>Newegg</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> Newegg · $199.99 · United States</div>
+                  <h2><a href="https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490" rel="nofollow noopener">ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS</a></h2>
+                  <p>Exact 2TB M.2 2280 NVMe PCIe 3.0 x4 drive, sold and shipped by Newegg with free shipping, 30-day returns, and 3-year warranty; low-profile 3.13mm design should fit compact M.2 slots.</p>
+                </article>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
             </section>
             
             <section class="target">
@@ -163,23 +203,24 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>15 lines published</span>
+        <span>16 lines published</span>
       </div>
-      <pre>2026-08-19 20:17:05,094 INFO scalper run started 2026-08-20T00:17:05.093848+00:00
-2026-08-19 20:17:05,096 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-19 20:18:55,171 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-19 20:18:55,172 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-19 20:20:26,966 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-19 20:20:26,967 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-19 20:22:51,739 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-19 20:22:51,740 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-19 20:24:49,013 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-19 20:24:49,014 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-19 20:26:53,225 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
-2026-08-19 20:26:53,226 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-19 20:28:38,427 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-19 20:28:38,428 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-19 20:30:20,341 INFO target=lexus-es-2016-2018-cary qualifying_deals=0</pre>
+      <pre>2026-08-19 23:17:04,839 INFO scalper run started 2026-08-20T03:17:04.838908+00:00
+2026-08-19 23:17:04,841 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-19 23:18:48,375 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-19 23:18:48,376 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-19 23:21:02,438 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-19 23:21:02,439 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-19 23:23:47,707 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-19 23:23:47,708 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-19 23:25:43,147 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-19 23:25:43,148 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-19 23:28:32,571 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-19 23:28:32,572 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
+2026-08-19 23:28:32,573 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-19 23:30:09,445 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-19 23:30:09,446 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-19 23:32:03,424 INFO target=lexus-es-2016-2018-cary qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
