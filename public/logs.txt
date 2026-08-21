@@ -1,21 +1,16 @@
-2026-08-21 05:17:04,980 INFO scalper run started 2026-08-21T09:17:04.979912+00:00
-2026-08-21 05:17:04,982 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-21 05:18:52,472 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-21 05:18:52,473 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-21 05:20:36,019 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-21 05:20:36,020 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-21 05:22:49,459 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-21 05:22:49,460 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-21 05:25:25,750 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-21 05:25:25,751 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-21 05:27:52,871 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/327289000745
-2026-08-21 05:27:52,872 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 100% health url=https://www.ebay.com/itm/327289000745
-2026-08-21 05:28:26,108 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 100% health url=https://www.ebay.com/itm/327289000745
-2026-08-21 05:28:26,317 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
-2026-08-21 05:28:26,318 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
-2026-08-21 05:28:35,538 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
-2026-08-21 05:28:35,539 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
-2026-08-21 05:28:35,540 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-21 05:30:31,148 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-21 05:30:31,149 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-21 05:32:16,613 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-21 09:17:05,423 INFO scalper run started 2026-08-21T13:17:05.423174+00:00
+2026-08-21 09:17:05,426 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-21 09:19:01,569 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-21 09:19:01,570 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-21 09:20:49,872 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-21 09:20:49,873 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-21 09:23:53,531 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-21 09:23:53,531 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-21 09:25:38,629 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-21 09:25:38,630 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-21 09:28:05,413 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-21 09:28:05,414 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
+2026-08-21 09:28:05,415 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-21 09:29:43,248 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-21 09:29:43,249 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-21 09:32:07,242 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
