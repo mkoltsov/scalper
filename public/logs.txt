@@ -1,19 +1,16 @@
-2026-08-21 14:17:05,673 INFO scalper run started 2026-08-21T18:17:05.672763+00:00
-2026-08-21 14:17:05,675 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-21 14:19:01,062 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-21 14:19:01,062 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-21 14:21:16,792 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-21 14:21:16,793 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-21 14:23:42,853 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/398135871016
-2026-08-21 14:23:42,854 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016
-2026-08-21 14:24:16,421 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=sold title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016
-2026-08-21 14:24:16,421 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-21 14:24:16,422 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-21 14:26:13,175 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-21 14:26:13,175 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-21 14:28:06,642 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=browser_title_mismatch title=ADATA LEGEND 710 2TB PCIe Gen3 x4 M.2 2280 Internal Solid State Drive url=https://www.walmart.com/ip/Adata-LEGEND-710-ALEG-710-2TCS-2-TB-Solid-State-Drive-M-2-2280-Internal-PCI-Express-NVMe-PCI-Express-NVMe-3-0-x4/1746359036
-2026-08-21 14:28:06,642 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
-2026-08-21 14:28:06,643 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-21 14:30:06,900 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-21 14:30:06,901 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-21 14:32:13,992 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-21 15:17:05,564 INFO scalper run started 2026-08-21T19:17:05.563695+00:00
+2026-08-21 15:17:05,566 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-21 15:18:49,095 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-21 15:18:49,096 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-21 15:20:53,759 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-21 15:20:53,759 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-21 15:23:28,754 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-21 15:23:28,755 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-21 15:25:13,343 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-21 15:25:13,344 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-21 15:29:04,506 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-21 15:29:04,507 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
+2026-08-21 15:29:04,508 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-21 15:30:48,547 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-21 15:30:48,547 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-21 15:32:54,154 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
