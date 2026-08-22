@@ -1,25 +1,33 @@
 {
-  "exit_code": 0,
-  "finished_at": "2026-08-22T05:33:41.381605+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-08-22T06:36:05.199861+00:00",
   "logs": [
-    "2026-08-22 01:17:05,191 INFO scalper run started 2026-08-22T05:17:05.190417+00:00",
-    "2026-08-22 01:17:05,193 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-22 01:18:39,874 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-22 01:18:39,875 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-22 01:20:42,967 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-22 01:20:42,968 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-22 01:25:05,865 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-22 01:25:05,865 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-22 01:26:52,998 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-22 01:26:52,999 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-22 01:29:49,007 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-22 01:29:49,008 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-    "2026-08-22 01:29:49,008 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-22 01:31:44,665 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-22 01:31:44,665 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-22 01:33:41,381 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-22 02:17:05,383 INFO scalper run started 2026-08-22T06:17:05.382534+00:00",
+    "2026-08-22 02:17:05,385 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-22 02:18:48,694 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-22 02:18:48,694 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-22 02:20:22,812 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-22 02:20:22,813 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-22 02:23:48,771 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4/16\"/i9 11950H/32GB/2TB/RTX 3080 16GB/READ DESCRIPTION",
+    "2026-08-22 02:23:48,771 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-22 02:23:48,771 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-22 02:25:10,500 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-22 02:25:10,501 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-22 02:28:21,717 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236935723379",
+    "2026-08-22 02:28:21,717 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379",
+    "2026-08-22 02:28:56,483 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (80-89% Health) url=https://www.ebay.com/itm/236935723379",
+    "2026-08-22 02:28:56,678 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469",
+    "2026-08-22 02:28:56,679 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469",
+    "2026-08-22 02:29:20,708 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=browser_title_mismatch title=ADATA LEGEND 710 2TB PCIe Gen3 x4 M.2 2280 Internal Solid State Drive url=https://www.walmart.com/ip/1746359036",
+    "2026-08-22 02:29:20,709 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2",
+    "2026-08-22 02:29:20,709 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469",
+    "2026-08-22 02:29:20,710 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+    "2026-08-22 02:29:20,710 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-22 02:31:01,546 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-22 02:31:01,547 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-22 02:36:05,196 ERROR Codex search failed for target=lexus-es-2016-2018-cary\nTraceback (most recent call last):\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 1856, in run\n    result = run_codex(target, config, metrics)\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 523, in run_codex\n    raise RuntimeError(\n        f\"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}\"\n    )\nRuntimeError: Codex failed for lexus-es-2016-2018-cary with exit code 1: Reading additional input from stdin...\nOpenAI Codex v0.149.0\n--------\nworkdir: /home/intimatik/dev/scalper\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 01a0282a-67e2-7eb1-a8c3-c488b4ff9c0d\n--------\nuser\nYou are a precise deal-finding automation. Use live web_search.\n\nCurrent UTC date: 2026-08-22\nTarget id: lexus-es-2016-2018-cary\nTarget name: 2016-2018 Lexus ES near Cary, NC\nMaximum total price: $18000 USD, including shipping or delivery to United States.\nUsual market price estimate: $unknown USD.\nConfigured shipping destinations:\n[\n  \"United States\"\n]\n\nSearch intent:\nFind currently available 2016, 2017, or 2018 Lexus ES sedan listings for less than $18,000, fewer than 100,000 miles, and no more than 200 miles from Cary, North Carolina 27519. Accept Lexus ES 350 and Lexus ES 300h hybrid variants in any trim, but require the exact listing to clearly prove the model year, model, odometer reading, asking price, and location. Calculate or verify the listing location's distance from Cary and return vehicle_mileage_miles and distance_from_reference_miles as numeric values. Reject model years outside 2016-2018, every Lexus model other than ES, salvage/rebuilt/flood-title vehicles, parts cars, non-running vehicles, listings at $18,000 or more, listings with 100,000 miles or more, listings more than 200 miles from Cary, sold/pending/unavailable listings, and pages without a current purchase or seller-contact action.\n\nAcceptance criteria:\n[\n  \"It is a Lexus ES sedan from model year 2016, 2017, or 2018; accept ES 350 and ES 300h hybrid variants in any trim, and reject every other Lexus model.\",\n  \"The asking price is strictly less than 18000 USD.\",\n  \"The exact listing explicitly states fewer than 100000 miles on the odometer; return the numeric value in vehicle_mileage_miles.\",\n  \"The vehicle is no more than 200 miles from Cary, North Carolina 27519; return the verified or calculated numeric distance in distance_from_reference_miles.\",\n  \"It has a clean title and is a complete, running vehicle; reject salvage, rebuilt, reconstructed, flood, parts-only, and non-running vehicles.\",\n  \"It is currently available on an exact canonical listing page with a current purchase or seller-contact action.\"\n]\n\nRequired model/text patterns. A listing must match at least one if this list is not empty:\n[\n  \"(?=.*\\\\b(?:2016|2017|2018)\\\\b)(?=.*\\\\blexus\\\\b)(?=.*\\\\bes(?:\\\\s*-?\\\\s*(?:300h|350))?\\\\b)\"\n]\n\nReject text patterns. Exclude a listing if it matches any of these:\n[\n  \"\\\\b(?:201[0-5]|2019|202[0-9])\\\\s+lexus\\\\s+es\\\\b\",\n  \"\\\\blexus\\\\s+(?:is|gs|ls|ct|rc|ux|nx|rx|gx|lx|lc)\\\\s*-?\\\\s*\\\\d{2,3}[a-z]*\\\\b\",\n  \"\\\\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\\\\s+only|for\\\\s+parts|not\\\\s+running|non\\\\s*running|mechanic(?:'s)?\\\\s+special)\\\\b\"\n]\n\nSuggested search queries:\n[\n  \"2016 Lexus ES 350 under $18000 under 100000 miles near Cary NC\",\n  \"2017 Lexus ES 350 under $18000 under 100000 miles near Cary NC\",\n  \"2018 Lexus ES 350 under $18000 under 100000 miles near Cary NC\",\n  \"2016 Lexus ES 300h under $18000 under 100000 miles near Cary NC\",\n  \"2017 Lexus ES 300h under $18000 under 100000 miles near Cary NC\",\n  \"2018 Lexus ES 300h under $18000 under 100000 miles near Cary NC\",\n  \"Lexus ES 2016 2017 2018 under 100k miles Raleigh Durham Cary\",\n  \"site:autotrader.com Lexus ES 2016 2017 2018 Cary NC\",\n  \"site:cars.com Lexus ES 2016 2017 2018 North Carolina\",\n  \"site:cargurus.com Lexus ES 2016 2017 2018 North Carolina\",\n  \"site:carfax.com Lexus ES 2016 2017 2018 North Carolina\",\n  \"site:offerup.com Lexus ES Raleigh Durham Cary\"\n]\n\nMarketplace search coverage:\n[\n  \"Search active US dealer and private-party vehicle listings within 200 miles of Cary, North Carolina, including AutoTrader, Cars.com, CarGurus, TrueCar, Edmunds, Carfax, OfferUp, and dealer inventory pages when their exact canonical listing pages can be verified.\"\n]\n\nLocal marketplace exception:\n- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 200 miles.\n- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.\n- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.\n\n\nReturn only strict JSON. Do not wrap it in Markdown. Do not include prose.\nSchema:\n{\n  \"target_id\": \"lexus-es-2016-2018-cary\",\n  \"checked_at\": \"ISO-8601 timestamp\",\n      \"deals\": [\n    {\n      \"title\": \"listing title\",\n      \"url\": \"direct listing URL\",\n      \"source\": \"marketplace or site name\",\n      \"seller\": \"seller if visible, otherwise empty string\",\n      \"price_usd\": 0.0,\n      \"shipping_usd\": 0.0,\n      \"total_usd\": 0.0,\n      \"condition\": \"condition text\",\n      \"availability\": \"available\",\n      \"listing_status\": \"available\",\n      \"ships_to_us\": true,\n      \"ships_to_destination\": true,\n      \"shipping_destination\": \"United States\",\n      \"delivery_country\": \"United States\",\n      \"market_region\": \"us\",\n      \"vehicle_mileage_miles\": 0,\n      \"distance_from_reference_miles\": 0,\n      \"why_good\": \"short reason this matches the criteria\",\n      \"confidence\": 0.0\n    }\n  ]\n}\n\nRules:\n- Include at most 5 deals.\n- Set market_region to \"us\" for US marketplace/listing-location deals, \"eu\" for European/UK/Polish marketplace/listing-location deals, and \"other\" only if the listing cannot be classified.\n- Include only listings that satisfy every acceptance criterion.\n- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States.\n- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.\n- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States still keeps it below the limit.\n- Include only listings that ship or deliver directly to at least one configured destination: United States, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.\n- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.\n- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.\n- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.\n- If there are no qualifying deals, return \"deals\": [].\ncodex\nI\u2019ll verify exact listing pages, not just search snippets, and keep only cars that clearly satisfy year, ES model, price, mileage, availability, location radius, and title/condition filters.\nweb search: \nweb search: 2016 Lexus ES 350 under $18000 under 100000 miles near Cary NC\nweb search: \nweb search: \"2016 Lexus ES 350\" \"$16,\" \"Mileage\" \"North Carolina\"\nweb search: \nweb search: https://www.fayettevillemitsubishi.com/used-Fayetteville-2016-Lexus-ES%2B350-350-58ABK1GG6GU007456\nweb search: \nweb search: https://www.fayettevillemitsubishi.com/used-Fayetteville-2016-Lexus-ES+350-350-58ABK1GG6GU007456\nweb search: \nweb search: \"58ABK1GG6GU007456\"\nweb search: \nweb search: site:cars.com/vehicledetail \"2016 Lexus ES 350\" \"NC\" \"$17,\" \"mi.\" \"Check availability\"\nweb search: \nweb search: https://www.cars.com/shopping/lexus-es_350/raleigh-nc/\nweb search: \nweb search: '2017 Lexus ES 350 Base' in https://www.cars.com/shopping/lexus-es_350/raleigh-nc/\nweb search: \nweb search: cars.com/shopping/lexus-es_350-2017/raleigh-nc/price-under-18000 mileage under 100000\nweb search: \nweb search: site:autotrader.com/cars-for-sale/vehicle \"2016 Lexus ES 350\" \"Raleigh\" \"$17\" \"miles\"\nweb search: \nweb search: \"2016 Lexus ES 350\" \"99,\" \"$17,\" \"NC\" -salvage -rebuilt\nweb search: \nweb search: site:carfax.com/vehicle \"2016 Lexus ES\" \"$17,\" \"NC\" \"Mileage:\"\nweb search: \nweb search: site:carfax.com/Used-Lexus-ES-Cary-NC \"2016 Lexus ES 350\" \"$17\" \"Mileage:\"\nweb search: \nweb search: \"Used2016 Lexus ES 350\" \"99K\" \"$\" \"NC\" \"Request Info\"\nweb search: \nweb search: \"Used2018 Lexus ES 350\" \"97K mi\" \"$17\" \"NC\"\nexec\n/usr/bin/zsh -lc 'date -u +%Y-%m-%dT%H:%M:%SZ' in /home/intimatik/dev/scalper\n succeeded in 0ms:\n2026-08-22T06:32:33Z\n\nweb search: \nweb search: site:offerup.com \"2016 Lexus ES\" \"Raleigh\"\nweb search: \nweb search: \"2016 ES350 LEXUS\" \"$12,000\" \"New Hill\" \"OfferUp\"\nweb search: \nweb search: \"2016 Lexus ES 350\" \"$17,\" \"Virginia\" \"95,\" \"Check Availability\" clean title\nweb search: \nweb search: \"2016 Lexus ES 350\" \"$17,\" \"Richmond, VA\" \"miles\" \"Check Availability\"\nweb search: \nweb search: \"2016 Lexus ES 350\" \"$17,\" \"Columbia, SC\" \"miles\" \"Check Availability\"\nweb search: \nweb search: \"2016 Lexus ES 350\" \"$17,\" \"Norfolk, VA\" \"miles\" \"Check Availability\"\nweb search: \nweb search: \"2016 Lexus ES 350\" \"$17,\" \"Roanoke, VA\" \"miles\" \"Check Availability\"\nweb search: \nweb search: \"JTHBK1GG4G2230603\"\nweb search: \nweb search: https://www.cars.com/shopping/lexus-es_350-base/spotsylvania-va/\nweb search: \nweb search: 'Pride Auto Sales' in https://www.cars.com/shopping/lexus-es_350-base/spotsylvania-va/\nweb search: \nweb search: https://www.cars.com/shopping/lexus-es_350-base/spotsylvania-va/\nweb search: \nweb search: \"4f28ea10-6211-449b-9ef3-d1d7491f7122\"\nweb search: \nweb search: site:prideva.com \"JTHBK1GG4G2230603\"\nweb search: \nweb search: \"Pride Auto Sales\" \"2016 Lexus ES 350 Base\" \"$15,936\" \"90,524\"\nexec\n/usr/bin/zsh -lc \"python3 -c 'import math; lat1,lon1=35.7915,-78.7811; pts=[(\\\"Fredericksburg 22408\\\",38.225,-77.484),(\\\"Woodbridge VA\\\",38.658,-77.249),(\\\"Wilson NC\\\",35.721,-77.915),(\\\"Greensboro NC\\\",36.0726,-79.7920),(\\\"Columbia SC\\\",34.0007,-81.0348)]; R=3958.8\nfor name,lat2,lon2 in pts:\n phi1,phi2=math.radians(lat1),math.radians(lat2); dphi=math.radians(lat2-lat1); dl=math.radians(lon2-lon1); a=math.sin(dphi/2)**2+math.cos(phi1)*math.cos(phi2)*math.sin(dl/2)**2; d=2*R*math.atan2(math.sqrt(a),math.sqrt(1-a)); print(name, round(d,1))'\" in /home/intimatik/dev/scalper\n succeeded in 521ms:\nFredericksburg 22408 182.7\nWoodbridge VA 215.2\nWilson NC 48.8\nGreensboro NC 59.8\nColumbia SC 177.8\n\nweb search: \nweb search: Pride Auto Sales Fredericksburg VA inventory Lexus ES 350 230603\nweb search: \nweb search: \"2018 Lexus ES 350\" \"97,329\" \"Alpha Motor Sports\"\nweb search: \nweb search: \"58ABK1GG4JU084415\"\nweb search: \nweb search: site:alphams.com \"SGF084415\"\nweb search: \nweb search: Alpha Motorsports Fredericksburg inventory 2018 Lexus ES 350 SGF084415\nweb search: \nweb search: https://www.alphamotorsport.net/used-cars\nweb search: \nweb search: '58ABK1GG4JU084415' in https://www.alphamotorsport.net/used-cars\nweb search: \nweb search: https://www.alphamotorsport.net/used-cars\nweb search: \nweb search: site:capitalone.com/cars/vehicle-details \"2018/Lexus/ES/350\" \"$16,000\" \"Fredericksburg\"\nweb search: \nweb search: \"Used 2018 Lexus ES 350\" \"$16,000\" \"97,329\" \"CARFAX\"\nweb search: \nweb search: https://www.alphamotorsport.net/used-cars?MakeID=8\nweb search: \nweb search: \"https://www.alphamotorsport.net/inventory/2018-lexus-es-350-base\"\nweb search: \nweb search: https://www.cars.com/shopping/lexus-es_350/fort_washington-md/?page=6\nweb search: \nweb search: site:cars.com/vehicledetail \"58ABK1GG4JU084415\"\nweb search: \nweb search: \"alphamotorsport.net/used-cars?MakeID=8\"\nweb search: \nERROR: Codex ran out of room in the model's context window. Start a new thread or clear earlier history before retrying.\nERROR: Codex ran out of room in the model's context window. Start a new thread or clear earlier history before retrying.\ntokens used\n0"
   ],
-  "started_at": "2026-08-22T05:17:05.190417+00:00",
+  "started_at": "2026-08-22T06:17:05.382534+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -128,8 +136,25 @@
         "us": [
           {
             "availability": "available",
+            "condition": "Used; tested fully functional; 90-99% health; eBay Money Back Guarantee",
+            "confidence": 0.68,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 199.0,
+            "seller": "Byte Depot",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
+            "total_usd": 199.0,
+            "url": "https://www.ebay.com/itm/366347771469",
+            "why_good": "Kingston 2TB M.2 2280 NVMe drive with health range stated, Buy It Now available from a US seller, under the cap with free US shipping shown in marketplace results."
+          },
+          {
+            "availability": "available",
             "condition": "New",
-            "confidence": 0.89,
+            "confidence": 0.92,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -140,16 +165,33 @@
             "target_id": "2tb-nvme-magnus-one-us",
             "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
             "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New 2TB M.2 2280 PCIe/NVMe SSD sold by Newegg, ships from the United States with free US shipping, no tall heatsink listed, and ADATA retail warranty/Newegg purchase coverage applies."
+            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+            "why_good": "New ADATA 2TB M.2 2280 NVMe/PCIe Gen3 SSD sold and shipped by Newegg with free US shipping; no tall heatsink shown."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
+          "condition": "Used; tested fully functional; 90-99% health; eBay Money Back Guarantee",
+          "confidence": 0.68,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 199.0,
+          "seller": "Byte Depot",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "2tb-nvme-magnus-one-us",
+          "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
+          "total_usd": 199.0,
+          "url": "https://www.ebay.com/itm/366347771469",
+          "why_good": "Kingston 2TB M.2 2280 NVMe drive with health range stated, Buy It Now available from a US seller, under the cap with free US shipping shown in marketplace results."
+        },
+        {
+          "availability": "available",
           "condition": "New",
-          "confidence": 0.89,
+          "confidence": 0.92,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -160,8 +202,8 @@
           "target_id": "2tb-nvme-magnus-one-us",
           "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
           "total_usd": 199.99,
-          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-          "why_good": "New 2TB M.2 2280 PCIe/NVMe SSD sold by Newegg, ships from the United States with free US shipping, no tall heatsink listed, and ADATA retail warranty/Newegg purchase coverage applies."
+          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+          "why_good": "New ADATA 2TB M.2 2280 NVMe/PCIe Gen3 SSD sold and shipped by Newegg with free US shipping; no tall heatsink shown."
         }
       ],
       "id": "2tb-nvme-magnus-one-us",
@@ -173,26 +215,26 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "New",
-            "confidence": 0.89,
+            "condition": "Used; tested fully functional; 90-99% health; eBay Money Back Guarantee",
+            "confidence": 0.68,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 199.99,
-            "seller": "Newegg",
+            "price_usd": 199.0,
+            "seller": "Byte Depot",
             "shipping_usd": 0.0,
-            "source": "Newegg",
+            "source": "eBay",
             "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-            "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New 2TB M.2 2280 PCIe/NVMe SSD sold by Newegg, ships from the United States with free US shipping, no tall heatsink listed, and ADATA retail warranty/Newegg purchase coverage applies."
+            "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
+            "total_usd": 199.0,
+            "url": "https://www.ebay.com/itm/366347771469",
+            "why_good": "Kingston 2TB M.2 2280 NVMe drive with health range stated, Buy It Now available from a US seller, under the cap with free US shipping shown in marketplace results."
           }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -208,31 +250,6 @@
       "id": "acura-tsx-wagon-cary",
       "max_price_usd": 11000,
       "name": "Acura TSX Sport Wagon with leather near Cary, NC",
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": null
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 0
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      }
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
-        "us": []
-      },
-      "deals": [],
-      "id": "lexus-es-2016-2018-cary",
-      "max_price_usd": 18000,
-      "name": "2016-2018 Lexus ES near Cary, NC",
       "regional_summary": {
         "best": {
           "eu": null,
