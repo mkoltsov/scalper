@@ -1,25 +1,25 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-21T22:30:58.272687+00:00",
+  "finished_at": "2026-08-22T00:32:55.180591+00:00",
   "logs": [
-    "2026-08-21 18:17:05,115 INFO scalper run started 2026-08-21T22:17:05.114593+00:00",
-    "2026-08-21 18:17:05,117 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-21 18:18:42,402 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-21 18:18:42,403 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-21 18:20:32,505 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-21 18:20:32,506 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-21 18:22:31,593 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-21 18:22:31,593 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-21 18:24:34,899 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-21 18:24:34,899 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-21 18:27:01,096 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=ADATA LEGEND 710 2TB PCIe Gen3 x4 M.2 2280 Internal Solid State Drive url=https://www.walmart.com/ip/Adata-LEGEND-710-ALEG-710-2TCS-2-TB-Solid-State-Drive-M-2-2280-Internal-PCI-Express-NVMe-PCI-Express-NVMe-3-0-x4/1746359036?classType=REGULAR",
-    "2026-08-21 18:27:01,096 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
-    "2026-08-21 18:27:01,097 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-21 18:29:08,672 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-21 18:29:08,673 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-21 18:30:58,272 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-21 20:17:05,028 INFO scalper run started 2026-08-22T00:17:05.028114+00:00",
+    "2026-08-21 20:17:05,030 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-21 20:19:05,224 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-21 20:19:05,225 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-21 20:20:54,462 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-21 20:20:54,462 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-21 20:23:13,083 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-21 20:23:13,084 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-21 20:25:24,160 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-21 20:25:24,160 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-21 20:28:52,718 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-08-21 20:28:52,718 INFO new deal target=2tb-nvme-magnus-one-us market=us total=199.95 url=https://shop.computeroverhauls.com/collections/101-500/products/intel-670p-2tb-m-2-pcie-3-0-nvme-ssd",
+    "2026-08-21 20:28:52,820 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-21 20:30:38,993 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-21 20:30:38,994 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-21 20:32:55,180 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-21T22:17:05.114593+00:00",
+  "started_at": "2026-08-22T00:17:05.028114+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -125,9 +125,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Certified Pre-owned \u00b7 Very Good",
+            "confidence": 0.74,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 199.95,
+            "seller": "Computer Overhauls",
+            "shipping_usd": 0.0,
+            "source": "Computer Overhauls",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "Intel 670p 2TB M.2 PCIe 3.0 NVME SSD",
+            "total_usd": 199.95,
+            "url": "https://shop.computeroverhauls.com/collections/101-500/products/intel-670p-2tb-m-2-pcie-3-0-nvme-ssd",
+            "why_good": "2TB Intel 670p M.2 2280 PCIe 3.0 NVMe internal SSD, no tall heatsink shown, one available, free UPS shipping, 90-day seller warranty and 30-day returns."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Certified Pre-owned \u00b7 Very Good",
+          "confidence": 0.74,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 199.95,
+          "seller": "Computer Overhauls",
+          "shipping_usd": 0.0,
+          "source": "Computer Overhauls",
+          "target_id": "2tb-nvme-magnus-one-us",
+          "title": "Intel 670p 2TB M.2 PCIe 3.0 NVME SSD",
+          "total_usd": 199.95,
+          "url": "https://shop.computeroverhauls.com/collections/101-500/products/intel-670p-2tb-m-2-pcie-3-0-nvme-ssd",
+          "why_good": "2TB Intel 670p M.2 2280 PCIe 3.0 NVMe internal SSD, no tall heatsink shown, one available, free UPS shipping, 90-day seller warranty and 30-day returns."
+        }
+      ],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -135,12 +171,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Certified Pre-owned \u00b7 Very Good",
+            "confidence": 0.74,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 199.95,
+            "seller": "Computer Overhauls",
+            "shipping_usd": 0.0,
+            "source": "Computer Overhauls",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "Intel 670p 2TB M.2 PCIe 3.0 NVME SSD",
+            "total_usd": 199.95,
+            "url": "https://shop.computeroverhauls.com/collections/101-500/products/intel-670p-2tb-m-2-pcie-3-0-nvme-ssd",
+            "why_good": "2TB Intel 670p M.2 2280 PCIe 3.0 NVMe internal SSD, no tall heatsink shown, one available, free UPS shipping, 90-day seller warranty and 30-day returns."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
