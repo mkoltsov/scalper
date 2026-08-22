@@ -1,0 +1,200 @@
+{
+  "exit_code": 0,
+  "finished_at": "2026-08-22T17:33:10.762683+00:00",
+  "logs": [
+    "2026-08-22 13:17:05,315 INFO scalper run started 2026-08-22T17:17:05.314900+00:00",
+    "2026-08-22 13:17:05,317 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-22 13:18:35,987 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-22 13:18:35,988 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-22 13:20:44,430 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-22 13:20:44,431 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-22 13:23:02,179 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-22 13:23:02,179 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-22 13:24:35,090 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-22 13:24:35,090 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-22 13:29:41,637 INFO rejected deal target=2tb-nvme-magnus-one-us reason=url_error:The read operation timed out title=ADATA - LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS url=https://www.bestbuy.com/product/adata-legend-710-m-2-2280-2tb-pci-express-3-0-x4-3d-nand-internal-solid-state-drive-ssd-aleg-710-2tcs/J39VZT2Z38",
+    "2026-08-22 13:29:41,637 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-08-22 13:29:41,638 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-22 13:31:11,624 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-22 13:31:11,626 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-22 13:33:10,762 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+  ],
+  "started_at": "2026-08-22T17:17:05.314900+00:00",
+  "targets": [
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "nzxt-h1-v2",
+      "max_price_usd": 200,
+      "name": "NZXT H1 V2 mini-ITX case bundle",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "toyota-matrix-2nd-gen-red-hood",
+      "max_price_usd": 450,
+      "name": "Used red hood for 2nd-gen Toyota Matrix",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "lenovo-thinkpad-p1-16gb-vram",
+      "max_price_usd": 945,
+      "name": "Lenovo ThinkPad P1 with 16GB VRAM",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "wanbo-mozart-1-pro-2025",
+      "max_price_usd": 359,
+      "name": "Wanbo Mozart 1 Pro 2025 projector",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "2tb-nvme-magnus-one-us",
+      "max_price_usd": 200,
+      "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "acura-tsx-wagon-cary",
+      "max_price_usd": 11000,
+      "name": "Acura TSX Sport Wagon with leather near Cary, NC",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "lexus-es-2016-2018-cary",
+      "max_price_usd": 18000,
+      "name": "2016-2018 Lexus ES near Cary, NC",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    }
+  ]
+}
