@@ -1,27 +1,25 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-23T22:32:45.567555+00:00",
+  "finished_at": "2026-08-23T23:30:27.060525+00:00",
   "logs": [
-    "2026-08-23 18:17:05,244 INFO scalper run started 2026-08-23T22:17:05.244429+00:00",
-    "2026-08-23 18:17:05,246 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-23 18:18:55,007 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-23 18:18:55,007 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-23 18:20:41,137 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-23 18:20:41,138 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-23 18:22:36,613 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-23 18:22:36,614 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-23 18:24:34,692 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-23 18:24:34,692 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-23 18:28:16,747 INFO rejected deal target=2tb-nvme-magnus-one-us reason=url_error:The read operation timed out title=ADATA - LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS url=https://www.bestbuy.com/product/adata-legend-710-m-2-2280-2tb-pci-express-3-0-x4-3d-nand-internal-solid-state-drive-ssd-aleg-710-2tcs/J39VZT2Z38",
-    "2026-08-23 18:28:21,367 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=ADATA LEGEND 710 2TB PCIe Gen3 x4 M.2 2280 Internal Solid State Drive url=https://www.walmart.com/ip/Adata-LEGEND-710-ALEG-710-2TCS-2-TB-Solid-State-Drive-M-2-2280-Internal-PCI-Express-NVMe-PCI-Express-NVMe-3-0-x4/1746359036",
-    "2026-08-23 18:28:21,367 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-23 18:28:21,368 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-    "2026-08-23 18:28:21,370 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-23 18:29:44,228 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-23 18:29:44,229 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-23 18:32:45,567 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-23 19:17:05,364 INFO scalper run started 2026-08-23T23:17:05.364053+00:00",
+    "2026-08-23 19:17:05,366 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-23 19:19:15,836 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-23 19:19:15,837 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-23 19:20:52,211 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-23 19:20:52,212 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-23 19:22:35,972 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-23 19:22:35,974 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-23 19:24:33,818 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-23 19:24:33,818 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-23 19:26:46,990 INFO rejected deal target=2tb-nvme-magnus-one-us reason=http_403 title=Samsung 980 PRO 2TB PCIe 4.0 NVMe M.2 Internal V-NAND Solid State Drive PlayStation 5 Compatible url=https://www.gamestop.com/pc-gaming/pc-components/hard-drives-ssds/internal-hard-drives/products/samsung-980-pro-2tb-pcie-4.0-nvme-m.2-internal-v-nand-solid-state-drive-playstation-5-compatible/310257.html?a=1",
+    "2026-08-23 19:26:46,990 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-08-23 19:26:46,991 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-23 19:28:39,349 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-23 19:28:39,350 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-23 19:30:27,060 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-23T22:17:05.244429+00:00",
+  "started_at": "2026-08-23T23:17:05.364053+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -127,45 +125,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.94,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.99,
-            "seller": "Newegg",
-            "shipping_usd": 0.0,
-            "source": "Newegg",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-            "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New 2TB ADATA LEGEND 710 ALEG-710-2TCS; internal M.2 2280 PCIe 3.0 x4 NVMe, no tall heatsink listed, sold and shipped by Newegg with free US shipping."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "New",
-          "confidence": 0.94,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 199.99,
-          "seller": "Newegg",
-          "shipping_usd": 0.0,
-          "source": "Newegg",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-          "total_usd": 199.99,
-          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-          "why_good": "New 2TB ADATA LEGEND 710 ALEG-710-2TCS; internal M.2 2280 PCIe 3.0 x4 NVMe, no tall heatsink listed, sold and shipped by Newegg with free US shipping."
-        }
-      ],
+      "deals": [],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -173,28 +135,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.94,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.99,
-            "seller": "Newegg",
-            "shipping_usd": 0.0,
-            "source": "Newegg",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-            "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "New 2TB ADATA LEGEND 710 ALEG-710-2TCS; internal M.2 2280 PCIe 3.0 x4 NVMe, no tall heatsink listed, sold and shipped by Newegg with free US shipping."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
