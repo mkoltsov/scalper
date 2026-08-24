@@ -1,18 +1,18 @@
-2026-08-24 07:17:05,179 INFO scalper run started 2026-08-24T11:17:05.179461+00:00
-2026-08-24 07:17:05,181 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-24 07:19:16,379 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-24 07:19:16,379 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-24 07:21:54,916 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-24 07:21:54,916 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-24 07:24:11,275 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-24 07:24:11,276 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-24 07:26:18,974 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-24 07:26:18,975 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-24 07:28:56,376 INFO rejected deal target=2tb-nvme-magnus-one-us reason=url_error:The read operation timed out title=ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS url=https://www.bestbuy.com/product/adata-legend-710-m-2-2280-2tb-pci-express-3-0-x4-3d-nand-internal-solid-state-drive-ssd-aleg-710-2tcs/J39VZT2Z38/sku/12657342
-2026-08-24 07:29:38,330 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS url=https://www.walmart.com/ip/Adata-LEGEND-710-ALEG-710-2TCS-2-TB-Solid-State-Drive-M-2-2280-Internal-PCI-Express-NVMe-PCI-Express-NVMe-3-0-x4/1746359036
-2026-08-24 07:29:38,331 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-24 07:29:38,332 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
-2026-08-24 07:29:38,333 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-24 07:31:16,809 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-24 07:31:16,809 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-24 07:34:41,138 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-24 08:17:05,664 INFO scalper run started 2026-08-24T12:17:05.664515+00:00
+2026-08-24 08:17:05,666 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-24 08:18:30,960 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-24 08:18:30,961 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-24 08:20:26,450 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-24 08:20:26,451 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-24 08:22:26,156 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-24 08:22:26,157 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-24 08:24:49,243 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-24 08:24:49,244 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-24 08:27:57,924 INFO rejected deal target=2tb-nvme-magnus-one-us reason=url_error:The read operation timed out title=ADATA LEGEND 860 2TB M.2 2280 PCIe Gen4x4 NVMe Internal Solid State Drive, 3D-NAND (SLEG-860-2000GCS) url=https://www.staples.com/a-data-legend-860-2tb-m-2-2280-pcie-gen4x4-nvme-internal-solid-state-drive-3d-nand-sleg-860-2000gcs/product_IM1Z35118
+2026-08-24 08:28:41,234 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=browser_title_mismatch title=ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS url=https://www.walmart.com/ip/Adata-LEGEND-710-ALEG-710-2TCS-2-TB-Solid-State-Drive-M-2-2280-Internal-PCI-Express-NVMe-PCI-Express-NVMe-3-0-x4/1746359036
+2026-08-24 08:28:41,234 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-24 08:28:41,235 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
+2026-08-24 08:28:41,235 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-24 08:30:33,462 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-24 08:30:33,463 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-24 08:33:22,994 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
