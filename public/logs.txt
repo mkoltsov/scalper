@@ -1,21 +1,318 @@
-2026-08-25 04:17:04,911 INFO scalper run started 2026-08-25T08:17:04.911728+00:00
-2026-08-25 04:17:04,913 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-25 04:19:07,724 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-25 04:19:07,725 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-25 04:21:18,756 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-25 04:21:18,757 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-25 04:23:37,489 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-25 04:23:37,490 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-25 04:25:36,446 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-25 04:25:36,446 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-25 04:34:45,193 INFO rejected deal target=2tb-nvme-magnus-one-us reason=missing_required_model title=ADATA - LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS
-2026-08-25 04:34:45,391 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469
-2026-08-25 04:34:45,392 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469
-2026-08-25 04:35:36,085 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=browser_title_mismatch title=ADATA LEGEND 710 2TB PCIe Gen3 x4 M.2 2280 Internal Solid State Drive url=https://www.walmart.com/ip/Adata-LEGEND-710-ALEG-710-2TCS-2-TB-Solid-State-Drive-M-2-2280-Internal-PCI-Express-NVMe-PCI-Express-NVMe-3-0-x4/1746359036
-2026-08-25 04:35:36,087 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2
-2026-08-25 04:35:36,087 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469
-2026-08-25 04:35:36,087 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
-2026-08-25 04:35:36,088 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-25 04:37:41,313 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-25 04:37:41,314 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-25 04:41:53,979 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-25 05:17:05,730 INFO scalper run started 2026-08-25T09:17:05.730780+00:00
+2026-08-25 05:17:05,732 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-25 05:18:52,064 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-25 05:18:52,065 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-25 05:20:20,218 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-25 05:20:20,218 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-25 05:22:43,302 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-25 05:22:43,303 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-25 05:24:32,887 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-25 05:24:32,888 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-25 05:27:48,325 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/389731401235
+2026-08-25 05:27:48,326 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=acer FA100 M.2 2280 SSD 2TB: PCIe 3.0 NVMe with HMB & SLC Cache, Up to 3500 MB/s url=https://www.ebay.com/itm/389731401235
+2026-08-25 05:28:22,933 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=acer FA100 M.2 2280 SSD 2TB: PCIe 3.0 NVMe with HMB & SLC Cache, Up to 3500 MB/s url=https://www.ebay.com/itm/389731401235
+2026-08-25 05:28:23,116 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/800519848345
+2026-08-25 05:28:23,117 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=DELL Samsung PM981 2TB NVMe M.2 SSD SOLID STATE DRIVE MZ-VLB2T00 100% Health url=https://www.ebay.com/itm/800519848345
+2026-08-25 05:28:29,944 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=DELL Samsung PM981 2TB NVMe M.2 SSD SOLID STATE DRIVE MZ-VLB2T00 100% Health url=https://www.ebay.com/itm/800519848345
+2026-08-25 05:28:30,111 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/158122593185
+2026-08-25 05:28:30,112 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=ADATA LEGEND 800 GOLD 2TB M.2 2280 NVMe PCIe Gen4 SSD Tested 100% Health url=https://www.ebay.com/itm/158122593185
+2026-08-25 05:28:38,436 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=ADATA LEGEND 800 GOLD 2TB M.2 2280 NVMe PCIe Gen4 SSD Tested 100% Health url=https://www.ebay.com/itm/158122593185
+2026-08-25 05:28:38,621 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347559397
+2026-08-25 05:28:38,622 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366347559397
+2026-08-25 05:29:01,031 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2
+2026-08-25 05:29:01,032 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347559397
+2026-08-25 05:29:01,033 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
+2026-08-25 05:29:01,033 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-25 05:30:49,642 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-25 05:30:49,643 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-25 05:37:31,058 ERROR Codex search failed for target=lexus-es-2016-2018-cary
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1856, in run
+    result = run_codex(target, config, metrics)
+  File "/home/intimatik/dev/scalper/scalper.py", line 523, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
+    )
+RuntimeError: Codex failed for lexus-es-2016-2018-cary with exit code 1: Reading additional input from stdin...
+OpenAI Codex v0.149.0
+--------
+workdir: /home/intimatik/dev/scalper
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: read-only
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 01a03842-16eb-71c1-8b12-0f0fc781ef42
+--------
+user
+You are a precise deal-finding automation. Use live web_search.
+
+Current UTC date: 2026-08-25
+Target id: lexus-es-2016-2018-cary
+Target name: 2016-2018 Lexus ES near Cary, NC
+Maximum total price: $18000 USD, including shipping or delivery to United States.
+Usual market price estimate: $unknown USD.
+Configured shipping destinations:
+[
+  "United States"
+]
+
+Search intent:
+Find currently available 2016, 2017, or 2018 Lexus ES sedan listings for less than $18,000, fewer than 100,000 miles, and no more than 200 miles from Cary, North Carolina 27519. Accept Lexus ES 350 and Lexus ES 300h hybrid variants in any trim, but require the exact listing to clearly prove the model year, model, odometer reading, asking price, and location. Calculate or verify the listing location's distance from Cary and return vehicle_mileage_miles and distance_from_reference_miles as numeric values. Reject model years outside 2016-2018, every Lexus model other than ES, salvage/rebuilt/flood-title vehicles, parts cars, non-running vehicles, listings at $18,000 or more, listings with 100,000 miles or more, listings more than 200 miles from Cary, sold/pending/unavailable listings, and pages without a current purchase or seller-contact action.
+
+Acceptance criteria:
+[
+  "It is a Lexus ES sedan from model year 2016, 2017, or 2018; accept ES 350 and ES 300h hybrid variants in any trim, and reject every other Lexus model.",
+  "The asking price is strictly less than 18000 USD.",
+  "The exact listing explicitly states fewer than 100000 miles on the odometer; return the numeric value in vehicle_mileage_miles.",
+  "The vehicle is no more than 200 miles from Cary, North Carolina 27519; return the verified or calculated numeric distance in distance_from_reference_miles.",
+  "It has a clean title and is a complete, running vehicle; reject salvage, rebuilt, reconstructed, flood, parts-only, and non-running vehicles.",
+  "It is currently available on an exact canonical listing page with a current purchase or seller-contact action."
+]
+
+Required model/text patterns. A listing must match at least one if this list is not empty:
+[
+  "(?=.*\\b(?:2016|2017|2018)\\b)(?=.*\\blexus\\b)(?=.*\\bes(?:\\s*-?\\s*(?:300h|350))?\\b)"
+]
+
+Reject text patterns. Exclude a listing if it matches any of these:
+[
+  "\\b(?:201[0-5]|2019|202[0-9])\\s+lexus\\s+es\\b",
+  "\\blexus\\s+(?:is|gs|ls|ct|rc|ux|nx|rx|gx|lx|lc)\\s*-?\\s*\\d{2,3}[a-z]*\\b",
+  "\\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\\s+only|for\\s+parts|not\\s+running|non\\s*running|mechanic(?:'s)?\\s+special)\\b"
+]
+
+Suggested search queries:
+[
+  "2016 Lexus ES 350 under $18000 under 100000 miles near Cary NC",
+  "2017 Lexus ES 350 under $18000 under 100000 miles near Cary NC",
+  "2018 Lexus ES 350 under $18000 under 100000 miles near Cary NC",
+  "2016 Lexus ES 300h under $18000 under 100000 miles near Cary NC",
+  "2017 Lexus ES 300h under $18000 under 100000 miles near Cary NC",
+  "2018 Lexus ES 300h under $18000 under 100000 miles near Cary NC",
+  "Lexus ES 2016 2017 2018 under 100k miles Raleigh Durham Cary",
+  "site:autotrader.com Lexus ES 2016 2017 2018 Cary NC",
+  "site:cars.com Lexus ES 2016 2017 2018 North Carolina",
+  "site:cargurus.com Lexus ES 2016 2017 2018 North Carolina",
+  "site:carfax.com Lexus ES 2016 2017 2018 North Carolina",
+  "site:offerup.com Lexus ES Raleigh Durham Cary"
+]
+
+Marketplace search coverage:
+[
+  "Search active US dealer and private-party vehicle listings within 200 miles of Cary, North Carolina, including AutoTrader, Cars.com, CarGurus, TrueCar, Edmunds, Carfax, OfferUp, and dealer inventory pages when their exact canonical listing pages can be verified."
+]
+
+Local marketplace exception:
+- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 200 miles.
+- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.
+- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.
+
+
+Return only strict JSON. Do not wrap it in Markdown. Do not include prose.
+Schema:
+{
+  "target_id": "lexus-es-2016-2018-cary",
+  "checked_at": "ISO-8601 timestamp",
+      "deals": [
+    {
+      "title": "listing title",
+      "url": "direct listing URL",
+      "source": "marketplace or site name",
+      "seller": "seller if visible, otherwise empty string",
+      "price_usd": 0.0,
+      "shipping_usd": 0.0,
+      "total_usd": 0.0,
+      "condition": "condition text",
+      "availability": "available",
+      "listing_status": "available",
+      "ships_to_us": true,
+      "ships_to_destination": true,
+      "shipping_destination": "United States",
+      "delivery_country": "United States",
+      "market_region": "us",
+      "vehicle_mileage_miles": 0,
+      "distance_from_reference_miles": 0,
+      "why_good": "short reason this matches the criteria",
+      "confidence": 0.0
+    }
+  ]
+}
+
+Rules:
+- Include at most 5 deals.
+- Set market_region to "us" for US marketplace/listing-location deals, "eu" for European/UK/Polish marketplace/listing-location deals, and "other" only if the listing cannot be classified.
+- Include only listings that satisfy every acceptance criterion.
+- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States.
+- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
+- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States still keeps it below the limit.
+- Include only listings that ship or deliver directly to at least one configured destination: United States, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.
+- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
+- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
+- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
+- If there are no qualifying deals, return "deals": [].
+codex
+I’m going to verify exact listing pages rather than relying on search snippets, then compute distance from Cary 27519 from the listing location before including anything.
+web search: 
+web search: 2016 Lexus ES 350 under $18000 under 100000 miles near Cary NC
+web search: 
+web search: 2016 Lexus ES 300h under $18000 under 100000 miles near Cary NC
+web search: 
+web search: site:carfax.com/vehicle 2016 Lexus ES 350 NC $17, 90,000 miles
+web search: 
+web search: "2017 Lexus ES 350" "$17" "NC" "miles"
+web search: 
+web search: "58ABK1GG6GU032972"
+web search: 
+web search: https://www.cars.com/shopping/results/?stock_type=used&makes%5B%5D=lexus&models%5B%5D=lexus-es_350&models%5B%5D=lexus-es_300h&maximum_distance=200&zip=27519&year_min=2016&year_max=2018&list_price_max=17999&mileage_max=99999&sort=best_match_desc
+web search: 
+web search: https://www.cars.com/shopping/results/?stock_type=used lexus es 350 2016 2018 27519 17999 99999
+web search: 
+web search: https://www.cars.com/shopping/lexus-es_350-2016/raleigh-nc/
+web search: 
+web search: "2017 Lexus ES 350 Base Sedan" "$17,779" "76,102 miles"
+codex
+A few low-price candidates are appearing in broader marketplace indexes, but the ones near Raleigh are over 100k miles or over budget. I’m checking the Virginia edge cases carefully because they are close to the 200-mile cutoff.
+exec
+/usr/bin/zsh -lc "python3 -c \"import math; cary=(35.7915,-78.7811); pts={'Woodbridge VA 22191':(38.6429,-77.2950),'Manassas VA':(38.7509,-77.4753),'Irvington NJ':(40.7323,-74.2349),'Charlotte NC':(35.2271,-80.8431),'Wilson NC':(35.7213,-77.9155),'Greensboro NC':(36.0726,-79.7920),'Sanford NC':(35.4799,-79.1803),'Wilmington NC':(34.2104,-77.8868)}; R=3958.8\\nfor k,(lat,lon) in pts.items():\\n lat1,lon1=map(math.radians,cary); lat2,lon2=map(math.radians,(lat,lon)); dlat=lat2-lat1; dlon=lon2-lon1; a=math.sin(dlat/2)**2+math.cos(lat1)*math.cos(lat2)*math.sin(dlon/2)**2; d=2*R*math.asin(math.sqrt(a)); print(k, round(d,1))\"" in /home/intimatik/dev/scalper
+ exited 1 in 461ms:
+  File "<string>", line 1
+    import math; cary=(35.7915,-78.7811); pts={'Woodbridge VA 22191':(38.6429,-77.2950),'Manassas VA':(38.7509,-77.4753),'Irvington NJ':(40.7323,-74.2349),'Charlotte NC':(35.2271,-80.8431),'Wilson NC':(35.7213,-77.9155),'Greensboro NC':(36.0726,-79.7920),'Sanford NC':(35.4799,-79.1803),'Wilmington NC':(34.2104,-77.8868)}; R=3958.8\nfor k,(lat,lon) in pts.items():\n lat1,lon1=map(math.radians,cary); lat2,lon2=map(math.radians,(lat,lon)); dlat=lat2-lat1; dlon=lon2-lon1; a=math.sin(dlat/2)**2+math.cos(lat1)*math.cos(lat2)*math.sin(dlon/2)**2; d=2*R*math.asin(math.sqrt(a)); print(k, round(d,1))
+                                                                                                                                                                                                                                                                                                                                             ^
+SyntaxError: unexpected character after line continuation character
+
+exec
+/usr/bin/zsh -lc 'python3 -c $'"'import math\\ncary=(35.7915,-78.7811)\\npts={\"Woodbridge VA 22191\":(38.6429,-77.2950),\"Manassas VA\":(38.7509,-77.4753),\"Irvington NJ\":(40.7323,-74.2349),\"Charlotte NC\":(35.2271,-80.8431),\"Wilson NC\":(35.7213,-77.9155),\"Greensboro NC\":(36.0726,-79.7920),\"Sanford NC\":(35.4799,-79.1803),\"Wilmington NC\":(34.2104,-77.8868)}\\nR=3958.8\\nfor k,(lat,lon) in pts.items():\\n    lat1,lon1=map(math.radians,cary); lat2,lon2=map(math.radians,(lat,lon))\\n    dlat=lat2-lat1; dlon=lon2-lon1\\n    a=math.sin(dlat/2)**2+math.cos(lat1)*math.cos(lat2)*math.sin(dlon/2)**2\\n    d=2*R*math.asin(math.sqrt(a))\\n    print(k, round(d,1))'" in /home/intimatik/dev/scalper
+ succeeded in 556ms:
+Woodbridge VA 22191 213.3
+Manassas VA 216.7
+Irvington NJ 421.0
+Charlotte NC 122.4
+Wilson NC 48.8
+Greensboro NC 59.8
+Sanford NC 31.1
+Wilmington NC 120.4
+
+web search: 
+web search: "2017 Lexus ES 350" "$17" "Virginia Beach" "miles"
+web search: 
+web search: "2016 Lexus ES 350" "$17," "miles" "Richmond, VA"
+web search: 
+web search: site:offerup.com/item "Lexus ES" "Cary"
+web search: 
+web search: site:offerup.com/item/detail "2016 Lexus ES 350" "Posted" "NC" "Clean title"
+web search: 
+web search: "2017 Lexus ES 350" "$17," "miles" "Columbia, SC"
+web search: 
+web search: "2018 Lexus ES" "$15,073"
+web search: 
+web search: "2017 Lexus ES 350" "$17,900" "86,660"
+web search: 
+web search: "2016 Lexus ES 350" "Clean Title" "$17" "Raleigh"
+web search: 
+web search: "2016 Lexus ES 350" "$17,995" "99" "NC"
+web search: 
+web search: "JTHBK1GG1G2213841"
+web search: 
+web search: https://www.autotrader.com/cars-for-sale/lexus/es/cary-nc?endYear=2018&maxMileage=100000&maxPrice=18000&newSearch=true&searchRadius=200&startYear=2016&zip=27519
+web search: 
+web search: autotrader Lexus ES maxMileage 100000 maxPrice 18000 Cary NC 2016 2018
+web search: 
+web search: site:autotrader.com/cars-for-sale/vehicle "2017 Lexus ES 350" "14,999" "NC"
+web search: 
+web search: "2016 Lexus ES 350" "10,999" "Sanford"
+web search: 
+web search: "2018 Lexus ES" "$16,000" "TrueCar" "NC"
+web search: 
+web search: "58ABK1GG4JU084415"
+web search: 
+web search: https://www.cars.com/shopping/lexus-es_350/sedan/waldorf-md/?page=3
+web search: 
+web search: "58ABK1GG4JU084415" "alphamotorsport"
+web search: 
+web search: "d6c8bb7e-11f6-4c3c-ad5b-5ecc87826510"
+web search: 
+web search: site:alphams.com "58ABK1GG4JU084415"
+web search: 
+web search: https://www.cars.com/vehicledetail/d6c8bb7e-11f6-4c3c-ad5b-5ecc87826510/
+codex
+I found two Fredericksburg candidates that may fit on paper. I’m trying to verify them on exact seller/contact pages now, because aggregator snippets alone aren’t enough for the final JSON.
+exec
+/usr/bin/zsh -lc "curl -L --max-time 20 -A 'Mozilla/5.0' 'https://www.cars.com/vehicledetail/d6c8bb7e-11f6-4c3c-ad5b-5ecc87826510/' | head -c 5000" in /home/intimatik/dev/scalper
+ succeeded in 28ms:
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: www.cars.com
+
+web search: 
+web search: "https://www.capitalone.com/cars/vehicle-details/2018/Lexus/ES/350/58ABK1GG4JU084415"
+web search: 
+web search: site:alphams.com/vehicle-details "Lexus ES 350" "Fredericksburg" "2018"
+web search: 
+web search: https://www.capitalone.com/cars/vehicle-details/2018/Lexus/ES/350/58ABK1GG4JU084415
+web search: 
+web search: "2018 Lexus ES 350" "Fredericksburg, VA" "Capital One Auto Navigator" "97,329"
+web search: 
+web search: "2016 Lexus ES 350" "90,524" "Pride Auto Sales"
+web search: 
+web search: https://www.cars.com/shopping/lexus-es_350-2014/fredericksburg-va/
+web search: 
+web search: https://www.cars.com/shopping/lexus-es_350-2014/fredericksburg-va/
+web search: 
+web search: https://www.cars.com/vehicledetail/06ddb19e-ee0d-48c3-8b8c-ed07bb1d77d9/?attribution_type=sy
+web search: 
+web search: site:autostoday.com/cars-for-sale/used-cars/listing "JTHBK1GG4G2230603"
+web search: 
+web search: "JTHBK1GG4G2230603" "J.D. Power"
+web search: 
+web search: "JTHBK1GG4G2230603" "Pride Auto Sales" "Fredericksburg"
+codex
+The strongest qualifying cluster is Fredericksburg, VA. Those cars are within roughly 180-190 miles by straight-line ZIP/city distance from Cary 27519, while Woodbridge/Fairfax/Alexandria listings are just over the 200-mile cutoff and I’m treating those as rejects.
+exec
+/usr/bin/zsh -lc 'python3 -c $'"'import math\\n# Approximate ZIP/city centroids\\ncary=(35.7915,-78.8586)\\npts={\"Fredericksburg VA 22408\":(38.2454,-77.4558),\"Stafford VA 22554\":(38.4221,-77.4083),\"Fairfax VA\":(38.8462,-77.3064),\"Woodbridge VA\":(38.6429,-77.2950),\"Alexandria VA\":(38.8048,-77.0469)}\\nR=3958.8\\nfor k,(lat,lon) in pts.items():\\n    lat1,lon1=map(math.radians,cary); lat2,lon2=map(math.radians,(lat,lon))\\n    dlat=lat2-lat1; dlon=lon2-lon1\\n    a=math.sin(dlat/2)**2+math.cos(lat1)*math.cos(lat2)*math.sin(dlon/2)**2\\n    print(k, round(2*R*math.asin(math.sqrt(a)),1))'" in /home/intimatik/dev/scalper
+ succeeded in 512ms:
+Fredericksburg VA 22408 186.4
+Stafford VA 22554 198.5
+Fairfax VA 227.6
+Woodbridge VA 215.0
+Alexandria VA 230.8
+
+web search: 
+web search: "2016 Lexus ES 350" "$17" "Stafford, VA" "90,"
+web search: 
+web search: "www.truecar.com/used-cars-for-sale/listing/JTHBK1GG4G2230603"
+web search: 
+web search: https://www.truecar.com/used-cars-for-sale/listing/JTHBK1GG4G2230603/2016-lexus-es/
+web search: 
+web search: 
+web search: 
+web search: https://www.truecar.com/used-cars-for-sale/listings/lexus/es/location-fredericksburg-va/?trim=es-300h%2F
+web search: 
+web search: "Pride Auto Sales" "2016 Lexus ES 350" "90,524" -cars.com -truecar
+web search: 
+web search: site:carfax.com "JTHBK1GG4G2230603"
+web search: 
+web search: "2017 Lexus ES 350" "Fredericksburg, VA" "$17" "Clean Title"
+web search: 
+web search: "JTHBK1GG4G2230603" "CarGurus"
+web search: 
+web search: Pride Auto Sales Fredericksburg VA website inventory 2016 Lexus ES 350
+web search: 
+web search: https://www.prideautosalesva.com/inventory/
+web search: 
+web search: Alpha Motorsports Fredericksburg inventory 2018 Lexus ES 350 58ABK1GG4JU084415
+web search: 
+web search: https://www.alphamotorsport.net/used-cars?ModelYear=2018
+web search: 
+web search: https://www.alphamotorsport.net/used-cars?Make=LEXUS&ModelYear=2017
+codex
+The apparent Pride and Alpha matches are stale or not confirmable on dealer inventory now: Pride’s own site says the vehicle is not found/no longer available, and Alpha’s current 2018 inventory no longer includes the ES listing. I’m doing one last pass on current dealer/marketplace pages before returning an empty result if nothing survives.
+web search: 
+web search: "2016 Lexus ES 350" "Cary" "$17" "Clean title" "under 100,000"
+web search: 
+ERROR: Codex ran out of room in the model's context window. Start a new thread or clear earlier history before retrying.
+ERROR: Codex ran out of room in the model's context window. Start a new thread or clear earlier history before retrying.
+tokens used
+0
