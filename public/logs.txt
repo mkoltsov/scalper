@@ -1,20 +1,18 @@
-2026-08-25 13:17:05,038 INFO scalper run started 2026-08-25T17:17:05.037866+00:00
-2026-08-25 13:17:05,040 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-25 13:18:44,821 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-25 13:18:44,822 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-25 13:20:39,011 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-25 13:20:39,012 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-25 13:23:18,644 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD
-2026-08-25 13:23:18,645 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-25 13:23:18,645 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-25 13:25:16,267 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-25 13:25:16,268 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-25 13:27:34,763 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236998725795
-2026-08-25 13:27:34,764 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Intel 660P Series 2TB m.2 NVME SSD Health 97% SSDPEKNW020T8 url=https://www.ebay.com/itm/236998725795
-2026-08-25 13:28:07,966 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=Intel 660P Series 2TB m.2 NVME SSD Health 97% SSDPEKNW020T8 url=https://www.ebay.com/itm/236998725795
-2026-08-25 13:28:19,471 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-08-25 13:28:19,472 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490
-2026-08-25 13:28:19,472 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-25 13:30:03,131 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-25 13:30:03,131 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-25 13:33:05,136 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-25 14:17:05,328 INFO scalper run started 2026-08-25T18:17:05.328114+00:00
+2026-08-25 14:17:05,330 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-25 14:18:42,791 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-25 14:18:42,792 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-25 14:20:47,421 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-25 14:20:47,422 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-25 14:22:36,531 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-25 14:22:36,532 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-25 14:24:45,918 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-25 14:24:45,918 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-25 14:27:07,421 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
+2026-08-25 14:27:07,422 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
+2026-08-25 14:27:42,953 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520
+2026-08-25 14:27:42,954 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
+2026-08-25 14:27:42,956 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-25 14:29:32,040 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-25 14:29:32,040 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-25 14:31:42,555 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
