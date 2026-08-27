@@ -1,35 +1,28 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-27T10:37:35.882744+00:00",
+  "finished_at": "2026-08-27T11:34:39.459080+00:00",
   "logs": [
-    "2026-08-27 06:17:05,566 INFO scalper run started 2026-08-27T10:17:05.566355+00:00",
-    "2026-08-27 06:17:05,568 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-27 06:20:53,574 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-27 06:20:53,575 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-27 06:22:50,504 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-27 06:22:50,505 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-27 06:27:27,054 INFO rejected deal target=lenovo-thinkpad-p1-16gb-vram reason=missing_required_model title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD",
-    "2026-08-27 06:27:27,055 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-27 06:27:27,055 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-27 06:29:17,251 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-27 06:29:17,251 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-27 06:32:14,817 INFO rejected deal target=2tb-nvme-magnus-one-us reason=missing_required_model title=ADATA - LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
-    "2026-08-27 06:32:15,012 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/206452818771",
-    "2026-08-27 06:32:15,013 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=KIOXIA 2TB M.2 2280 INTERNAL NVME SSD SOLID STATE DRIVE | KXG60PNV2T04 url=https://www.ebay.com/itm/206452818771",
-    "2026-08-27 06:32:48,162 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=KIOXIA 2TB M.2 2280 INTERNAL NVME SSD SOLID STATE DRIVE | KXG60PNV2T04 url=https://www.ebay.com/itm/206452818771",
-    "2026-08-27 06:32:48,349 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/227473676637",
-    "2026-08-27 06:32:48,349 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=TEAMGROUP 2TB NVMe M.2 SSD - TM8FPD002T url=https://www.ebay.com/itm/227473676637",
-    "2026-08-27 06:32:56,666 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-08-27 06:32:56,667 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-08-27 06:33:04,648 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-08-27 06:33:04,649 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-27 06:33:04,649 INFO new deal target=2tb-nvme-magnus-one-us market=us total=190.19 url=https://www.ebay.com/itm/227473676637",
-    "2026-08-27 06:33:04,757 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-27 06:34:55,866 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-27 06:34:55,867 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-27 06:37:35,882 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-27 07:17:05,176 INFO scalper run started 2026-08-27T11:17:05.176011+00:00",
+    "2026-08-27 07:17:05,178 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-27 07:19:03,086 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-27 07:19:03,086 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-27 07:21:49,637 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-27 07:21:49,638 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-27 07:24:41,207 INFO listing URL validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified url=https://www.ebay.com/itm/398135871016",
+    "2026-08-27 07:24:41,208 INFO HTTP validation inconclusive target=lenovo-thinkpad-p1-16gb-vram reason=http_403_antibot_unverified title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016",
+    "2026-08-27 07:25:14,819 INFO browser validation rejected target=lenovo-thinkpad-p1-16gb-vram reason=sold title=Lenovo ThinkPad P1 Gen 4 16\" Core i9 RTX 3080 16GB 18GB RAM 1TB SSD url=https://www.ebay.com/itm/398135871016",
+    "2026-08-27 07:25:14,820 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-27 07:25:14,821 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-27 07:27:18,229 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-27 07:27:18,230 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-27 07:30:09,814 INFO rejected deal target=2tb-nvme-magnus-one-us reason=missing_required_model title=ADATA - LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
+    "2026-08-27 07:30:09,815 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-08-27 07:30:09,815 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-27 07:32:21,484 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-27 07:32:21,485 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-27 07:34:39,458 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-27T10:17:05.566355+00:00",
+  "started_at": "2026-08-27T11:17:05.176011+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -135,45 +128,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used - tested and in working condition; returns accepted",
-            "confidence": 0.68,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 180.0,
-            "seller": "MiscTechh",
-            "shipping_usd": 10.19,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "TEAMGROUP 2TB NVMe M.2 SSD - TM8FPD002T",
-            "total_usd": 190.19,
-            "url": "https://www.ebay.com/itm/227473676637",
-            "why_good": "2TB TeamGroup M.2 NVMe SSD with Buy It Now, US shipping, two available, and seller-stated working condition."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used - tested and in working condition; returns accepted",
-          "confidence": 0.68,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 180.0,
-          "seller": "MiscTechh",
-          "shipping_usd": 10.19,
-          "source": "eBay",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "TEAMGROUP 2TB NVMe M.2 SSD - TM8FPD002T",
-          "total_usd": 190.19,
-          "url": "https://www.ebay.com/itm/227473676637",
-          "why_good": "2TB TeamGroup M.2 NVMe SSD with Buy It Now, US shipping, two available, and seller-stated working condition."
-        }
-      ],
+      "deals": [],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -181,28 +138,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used - tested and in working condition; returns accepted",
-            "confidence": 0.68,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 180.0,
-            "seller": "MiscTechh",
-            "shipping_usd": 10.19,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "TEAMGROUP 2TB NVMe M.2 SSD - TM8FPD002T",
-            "total_usd": 190.19,
-            "url": "https://www.ebay.com/itm/227473676637",
-            "why_good": "2TB TeamGroup M.2 NVMe SSD with Buy It Now, US shipping, two available, and seller-stated working condition."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
