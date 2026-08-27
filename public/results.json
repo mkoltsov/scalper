@@ -1,30 +1,33 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-27T03:33:45.927534+00:00",
+  "finished_at": "2026-08-27T04:34:55.744791+00:00",
   "logs": [
-    "2026-08-26 23:17:05,643 INFO scalper run started 2026-08-27T03:17:05.643431+00:00",
-    "2026-08-26 23:17:05,645 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-26 23:18:55,079 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-26 23:18:55,080 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-26 23:20:48,829 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-26 23:20:48,830 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-26 23:23:28,583 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-26 23:23:28,584 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-26 23:25:16,817 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-26 23:25:16,818 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-26 23:28:24,719 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/800423474821",
-    "2026-08-26 23:28:24,720 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD 2TB WD Green SN350 NVMe Internal SSD - Gen3 PCIe QLC M.2 2280 WDS200T3G0C url=https://www.ebay.com/itm/800423474821",
-    "2026-08-26 23:28:58,183 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/800519848345",
-    "2026-08-26 23:28:58,184 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=DELL Samsung PM981 2TB NVMe M.2 SSD SOLID STATE DRIVE MZ-VLB2T00 100% Health url=https://www.ebay.com/itm/800519848345",
-    "2026-08-26 23:29:04,618 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2",
-    "2026-08-26 23:29:04,619 INFO new deal target=2tb-nvme-magnus-one-us market=us total=154.99 url=https://www.ebay.com/itm/800423474821",
-    "2026-08-26 23:29:04,715 INFO new deal target=2tb-nvme-magnus-one-us market=us total=185.97 url=https://www.ebay.com/itm/800519848345",
-    "2026-08-26 23:29:04,808 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-26 23:31:24,226 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-26 23:31:24,227 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-26 23:33:45,927 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-27 00:17:05,286 INFO scalper run started 2026-08-27T04:17:05.285914+00:00",
+    "2026-08-27 00:17:05,287 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-27 00:18:59,870 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-27 00:18:59,871 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-27 00:20:58,524 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-27 00:20:58,525 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-27 00:23:48,949 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-27 00:23:48,950 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-27 00:25:25,633 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-27 00:25:25,634 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-27 00:28:32,977 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/389731401235",
+    "2026-08-27 00:28:32,978 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=acer FA100 M.2 2280 SSD 2TB: PCIe 3.0 NVMe with HMB & SLC Cache, Up to 3500 MB/s url=https://www.ebay.com/itm/389731401235",
+    "2026-08-27 00:29:07,513 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=acer FA100 M.2 2280 SSD 2TB: PCIe 3.0 NVMe with HMB & SLC Cache, Up to 3500 MB/s url=https://www.ebay.com/itm/389731401235",
+    "2026-08-27 00:29:07,686 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/800519848345",
+    "2026-08-27 00:29:07,687 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=DELL Samsung PM981 2TB NVMe M.2 SSD SOLID STATE DRIVE MZ-VLB2T00 100% Health url=https://www.ebay.com/itm/800519848345",
+    "2026-08-27 00:29:14,185 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-08-27 00:29:14,186 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-08-27 00:29:22,650 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
+    "2026-08-27 00:29:22,651 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-08-27 00:29:22,652 INFO already notified target=2tb-nvme-magnus-one-us market=us total=185.97 url=https://www.ebay.com/itm/800519848345",
+    "2026-08-27 00:29:22,653 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-27 00:31:54,055 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-27 00:31:54,055 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-27 00:34:55,744 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-27T03:17:05.643431+00:00",
+  "started_at": "2026-08-27T04:17:05.285914+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -133,25 +136,8 @@
         "us": [
           {
             "availability": "available",
-            "condition": "Used",
-            "confidence": 0.74,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 154.99,
-            "seller": "dosioco",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "WD 2TB WD Green SN350 NVMe Internal SSD - Gen3 PCIe QLC M.2 2280 WDS200T3G0C",
-            "total_usd": 154.99,
-            "url": "https://www.ebay.com/itm/800423474821",
-            "why_good": "Exact WD Green SN350 2TB M.2 2280 NVMe internal SSD; no tall heatsink; US seller with Buy It Now, available quantity, and same-listing buyer feedback reporting CrystalDiskInfo/full-capacity verification."
-          },
-          {
-            "availability": "available",
-            "condition": "Used",
-            "confidence": 0.88,
+            "condition": "Used, 100% health",
+            "confidence": 0.82,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -163,32 +149,15 @@
             "title": "DELL Samsung PM981 2TB NVMe M.2 SSD SOLID STATE DRIVE MZ-VLB2T00 100% Health",
             "total_usd": 185.97,
             "url": "https://www.ebay.com/itm/800519848345",
-            "why_good": "Samsung PM981 2TB M.2 NVMe internal SSD with MZ-VLB2T00 model and 100% health stated; Buy It Now from US seller, no tall heatsink, with 30-day returns accepted."
+            "why_good": "Samsung PM981 2TB M.2 NVMe internal SSD with stated 100% health, Buy It Now, US shipping, and 30-day returns; no heatsink is advertised."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "Used",
-          "confidence": 0.74,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 154.99,
-          "seller": "dosioco",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "WD 2TB WD Green SN350 NVMe Internal SSD - Gen3 PCIe QLC M.2 2280 WDS200T3G0C",
-          "total_usd": 154.99,
-          "url": "https://www.ebay.com/itm/800423474821",
-          "why_good": "Exact WD Green SN350 2TB M.2 2280 NVMe internal SSD; no tall heatsink; US seller with Buy It Now, available quantity, and same-listing buyer feedback reporting CrystalDiskInfo/full-capacity verification."
-        },
-        {
-          "availability": "available",
-          "condition": "Used",
-          "confidence": 0.88,
+          "condition": "Used, 100% health",
+          "confidence": 0.82,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -200,7 +169,7 @@
           "title": "DELL Samsung PM981 2TB NVMe M.2 SSD SOLID STATE DRIVE MZ-VLB2T00 100% Health",
           "total_usd": 185.97,
           "url": "https://www.ebay.com/itm/800519848345",
-          "why_good": "Samsung PM981 2TB M.2 NVMe internal SSD with MZ-VLB2T00 model and 100% health stated; Buy It Now from US seller, no tall heatsink, with 30-day returns accepted."
+          "why_good": "Samsung PM981 2TB M.2 NVMe internal SSD with stated 100% health, Buy It Now, US shipping, and 30-day returns; no heatsink is advertised."
         }
       ],
       "id": "2tb-nvme-magnus-one-us",
@@ -212,26 +181,26 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "Used",
-            "confidence": 0.74,
+            "condition": "Used, 100% health",
+            "confidence": 0.82,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 154.99,
-            "seller": "dosioco",
-            "shipping_usd": 0.0,
+            "price_usd": 180.0,
+            "seller": "thescavenger0",
+            "shipping_usd": 5.97,
             "source": "eBay",
             "target_id": "2tb-nvme-magnus-one-us",
-            "title": "WD 2TB WD Green SN350 NVMe Internal SSD - Gen3 PCIe QLC M.2 2280 WDS200T3G0C",
-            "total_usd": 154.99,
-            "url": "https://www.ebay.com/itm/800423474821",
-            "why_good": "Exact WD Green SN350 2TB M.2 2280 NVMe internal SSD; no tall heatsink; US seller with Buy It Now, available quantity, and same-listing buyer feedback reporting CrystalDiskInfo/full-capacity verification."
+            "title": "DELL Samsung PM981 2TB NVMe M.2 SSD SOLID STATE DRIVE MZ-VLB2T00 100% Health",
+            "total_usd": 185.97,
+            "url": "https://www.ebay.com/itm/800519848345",
+            "why_good": "Samsung PM981 2TB M.2 NVMe internal SSD with stated 100% health, Buy It Now, US shipping, and 30-day returns; no heatsink is advertised."
           }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
