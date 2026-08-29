@@ -1,25 +1,30 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-08-29T20:33:07.055678+00:00",
+  "finished_at": "2026-08-29T21:33:04.673951+00:00",
   "logs": [
-    "2026-08-29 16:17:05,675 INFO scalper run started 2026-08-29T20:17:05.674903+00:00",
-    "2026-08-29 16:17:05,676 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-29 16:20:38,973 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-29 16:20:38,974 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-29 16:23:05,564 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-29 16:23:05,566 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-29 16:24:43,827 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-29 16:24:43,828 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-29 16:27:34,990 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=1",
-    "2026-08-29 16:27:34,990 INFO already notified target=wanbo-mozart-1-pro-2025 market=us total=120.00 url=https://www.outdooralrscreen.com/product/wanbo-mozart-1-pro-2025-2026-1-200lm-full-hd-smart-led-projector/",
-    "2026-08-29 16:27:34,991 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-29 16:29:53,145 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
-    "2026-08-29 16:29:53,146 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-29 16:31:29,330 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-29 16:31:29,331 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-29 16:33:07,055 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-29 17:17:04,812 INFO scalper run started 2026-08-29T21:17:04.812720+00:00",
+    "2026-08-29 17:17:04,814 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-29 17:18:47,715 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-29 17:18:47,715 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-29 17:21:52,349 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-29 17:21:52,350 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-29 17:24:12,166 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-29 17:24:12,166 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-29 17:26:24,955 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-29 17:26:24,956 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-29 17:28:53,593 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/287139075714",
+    "2026-08-29 17:28:53,594 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Intel 670p Series 2TB M.2 2280 PCI-Express NVMe SSD SSDPEKNU020TZ New url=https://www.ebay.com/itm/287139075714",
+    "2026-08-29 17:29:29,078 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=Intel 670p Series 2TB M.2 2280 PCI-Express NVMe SSD SSDPEKNU020TZ New url=https://www.ebay.com/itm/287139075714",
+    "2026-08-29 17:29:29,298 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/127845212103",
+    "2026-08-29 17:29:29,299 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=MSI SPATIUM M371 2TB PCIe Gen 3x4 NVMe M.2 2280 SSD url=https://www.ebay.com/itm/127845212103",
+    "2026-08-29 17:29:37,683 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=MSI SPATIUM M371 2TB PCIe Gen 3x4 NVMe M.2 2280 SSD url=https://www.ebay.com/itm/127845212103",
+    "2026-08-29 17:29:37,684 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-08-29 17:29:37,685 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-29 17:31:16,347 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-29 17:31:16,348 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-29 17:33:04,673 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-29T20:17:05.674903+00:00",
+  "started_at": "2026-08-29T21:17:04.812720+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -100,45 +105,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "New retail listing; condition not otherwise specified",
-            "confidence": 0.72,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 120.0,
-            "seller": "OutdoorALRScreen",
-            "shipping_usd": 0.0,
-            "source": "OutdoorALRScreen.com",
-            "target_id": "wanbo-mozart-1-pro-2025",
-            "title": "Wanbo Mozart 1 Pro 2025/2026 1,200lm Full HD Smart LED Projector",
-            "total_usd": 120.0,
-            "url": "https://www.outdooralrscreen.com/product/wanbo-mozart-1-pro-2025-2026-1-200lm-full-hd-smart-led-projector/",
-            "why_good": "Direct product page explicitly says Wanbo Mozart 1 Pro 2025/2026 projector, lists the projector plus remote and power cord in the box, shows Add to cart, and states free shipping on orders over $30."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "New retail listing; condition not otherwise specified",
-          "confidence": 0.72,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 120.0,
-          "seller": "OutdoorALRScreen",
-          "shipping_usd": 0.0,
-          "source": "OutdoorALRScreen.com",
-          "target_id": "wanbo-mozart-1-pro-2025",
-          "title": "Wanbo Mozart 1 Pro 2025/2026 1,200lm Full HD Smart LED Projector",
-          "total_usd": 120.0,
-          "url": "https://www.outdooralrscreen.com/product/wanbo-mozart-1-pro-2025-2026-1-200lm-full-hd-smart-led-projector/",
-          "why_good": "Direct product page explicitly says Wanbo Mozart 1 Pro 2025/2026 projector, lists the projector plus remote and power cord in the box, shows Add to cart, and states free shipping on orders over $30."
-        }
-      ],
+      "deals": [],
       "id": "wanbo-mozart-1-pro-2025",
       "max_price_usd": 359,
       "name": "Wanbo Mozart 1 Pro 2025 projector",
@@ -146,28 +115,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "New retail listing; condition not otherwise specified",
-            "confidence": 0.72,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 120.0,
-            "seller": "OutdoorALRScreen",
-            "shipping_usd": 0.0,
-            "source": "OutdoorALRScreen.com",
-            "target_id": "wanbo-mozart-1-pro-2025",
-            "title": "Wanbo Mozart 1 Pro 2025/2026 1,200lm Full HD Smart LED Projector",
-            "total_usd": 120.0,
-            "url": "https://www.outdooralrscreen.com/product/wanbo-mozart-1-pro-2025-2026-1-200lm-full-hd-smart-led-projector/",
-            "why_good": "Direct product page explicitly says Wanbo Mozart 1 Pro 2025/2026 projector, lists the projector plus remote and power cord in the box, shows Add to cart, and states free shipping on orders over $30."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
