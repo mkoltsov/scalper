@@ -1,24 +1,16 @@
-2026-08-30 01:17:05,487 INFO scalper run started 2026-08-30T05:17:05.486911+00:00
-2026-08-30 01:17:05,488 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-30 01:18:54,911 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-30 01:18:54,912 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-30 01:21:02,568 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-30 01:21:02,569 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-30 01:23:10,985 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-30 01:23:10,986 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-30 01:25:27,985 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-30 01:25:27,986 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-30 01:28:44,490 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/206401486448
-2026-08-30 01:28:44,491 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=INTEL 660p SERIES 2TB M.2 NVMe 2280 SSD SSDPEKNW020T8, SKU 25430 CDI Included url=https://www.ebay.com/itm/206401486448
-2026-08-30 01:29:17,663 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=INTEL 660p SERIES 2TB M.2 NVMe 2280 SSD SSDPEKNW020T8, SKU 25430 CDI Included url=https://www.ebay.com/itm/206401486448
-2026-08-30 01:29:17,847 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366544488101
-2026-08-30 01:29:17,848 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366544488101
-2026-08-30 01:29:23,998 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347559397
-2026-08-30 01:29:23,998 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366347559397
-2026-08-30 01:29:32,464 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2
-2026-08-30 01:29:32,465 INFO already notified target=2tb-nvme-magnus-one-us market=us total=179.99 url=https://www.ebay.com/itm/366544488101
-2026-08-30 01:29:32,465 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347559397
-2026-08-30 01:29:32,466 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-30 01:31:28,294 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-30 01:31:28,295 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-30 01:33:59,568 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-08-30 02:17:05,329 INFO scalper run started 2026-08-30T06:17:05.329730+00:00
+2026-08-30 02:17:05,331 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-30 02:19:17,310 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-30 02:19:17,310 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-30 02:21:36,816 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-30 02:21:36,816 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-30 02:27:19,268 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-30 02:27:19,268 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-30 02:29:40,460 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-30 02:29:40,461 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-30 02:32:42,632 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=ADATA LEGEND 710 ALEG-710-2TCS 2TB M.2 2280 PCIe 3.0 x4 NVMe Internal SSD url=https://www.walmart.com/ip/Adata-LEGEND-710-ALEG-710-2TCS-2-TB-Solid-State-Drive-M-2-2280-Internal-PCI-Express-NVMe-PCI-Express-NVMe-3-0-x4/1746359036
+2026-08-30 02:32:42,632 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
+2026-08-30 02:32:42,632 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-30 02:34:32,231 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-30 02:34:32,232 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-30 02:36:30,629 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
