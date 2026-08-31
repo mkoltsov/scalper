@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-08-31T04:31:26.945447+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-08-31T06:34:49.055570+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -95,9 +95,49 @@
             <section class="target">
               <div class="target-head">
                 <h1>2TB NVMe SSD for ZOTAC Magnus One in the US</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>$179.99</strong>
+                  <small>Studio Depot</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> Studio Depot · $179.99 · United States</div>
+                  <h2><a href="https://www.studiodepot.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html" rel="nofollow noopener">OWC 2.0TB Aura Pro X2 PCIe 4.0 NVMe Solid-State Drive for Select Mac Models</a></h2>
+                  <p>New 2TB PCIe 4.0 NVMe M.2 2280 SSD, no heatsink, listed in stock with 5-year OWC warranty.</p>
+                </article>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
             </section>
             
             <section class="target">
@@ -163,23 +203,25 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>15 lines published</span>
+        <span>17 lines published</span>
       </div>
-      <pre>2026-08-31 00:17:05,750 INFO scalper run started 2026-08-31T04:17:05.750093+00:00
-2026-08-31 00:17:05,752 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-08-31 00:19:03,572 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-08-31 00:19:03,572 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-08-31 00:20:54,104 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-08-31 00:20:54,104 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-08-31 00:23:43,828 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-08-31 00:23:43,828 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-08-31 00:25:27,771 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-08-31 00:25:27,772 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-08-31 00:27:22,681 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
-2026-08-31 00:27:22,682 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-08-31 00:29:08,149 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-08-31 00:29:08,150 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-08-31 00:31:26,945 INFO target=lexus-es-2016-2018-cary qualifying_deals=0</pre>
+      <pre>2026-08-31 02:17:05,149 INFO scalper run started 2026-08-31T06:17:05.149650+00:00
+2026-08-31 02:17:05,151 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-08-31 02:19:16,928 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-08-31 02:19:16,928 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-08-31 02:20:56,747 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-08-31 02:20:56,748 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-08-31 02:22:58,578 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-08-31 02:22:58,579 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-08-31 02:24:57,177 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-08-31 02:24:57,178 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-08-31 02:28:45,950 INFO rejected deal target=2tb-nvme-magnus-one-us reason=unavailable title=ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive ALEG-710-2TCS url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
+2026-08-31 02:28:45,951 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-08-31 02:28:45,951 INFO already notified target=2tb-nvme-magnus-one-us market=us total=179.99 url=https://www.studiodepot.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html
+2026-08-31 02:28:45,952 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-08-31 02:30:41,992 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-08-31 02:30:41,993 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-08-31 02:34:49,055 INFO target=lexus-es-2016-2018-cary qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
