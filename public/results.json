@@ -1,26 +1,24 @@
 {
-  "exit_code": 0,
-  "finished_at": "2026-08-31T06:34:49.055570+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-08-31T07:44:45.506299+00:00",
   "logs": [
-    "2026-08-31 02:17:05,149 INFO scalper run started 2026-08-31T06:17:05.149650+00:00",
-    "2026-08-31 02:17:05,151 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-08-31 02:19:16,928 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-08-31 02:19:16,928 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-08-31 02:20:56,747 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-08-31 02:20:56,748 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-08-31 02:22:58,578 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-08-31 02:22:58,579 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-08-31 02:24:57,177 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-08-31 02:24:57,178 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-08-31 02:28:45,950 INFO rejected deal target=2tb-nvme-magnus-one-us reason=unavailable title=ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive ALEG-710-2TCS url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-    "2026-08-31 02:28:45,951 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-08-31 02:28:45,951 INFO already notified target=2tb-nvme-magnus-one-us market=us total=179.99 url=https://www.studiodepot.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html",
-    "2026-08-31 02:28:45,952 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-08-31 02:30:41,992 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-08-31 02:30:41,993 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-08-31 02:34:49,055 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-08-31 03:17:05,571 INFO scalper run started 2026-08-31T07:17:05.571042+00:00",
+    "2026-08-31 03:17:05,573 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-08-31 03:19:10,751 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-08-31 03:19:10,752 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-08-31 03:21:06,690 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-08-31 03:21:06,691 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-08-31 03:23:07,075 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-08-31 03:23:07,076 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-08-31 03:25:12,705 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-08-31 03:25:12,706 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-08-31 03:40:12,720 ERROR Codex timed out for target=2tb-nvme-magnus-one-us\nTraceback (most recent call last):\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 1856, in run\n    result = run_codex(target, config, metrics)\n  File \"/home/intimatik/dev/scalper/scalper.py\", line 509, in run_codex\n    process = subprocess.run(\n        codex_command(codex_bin, output_path, prompt),\n    ...<4 lines>...\n        timeout=timeout,\n    )\n  File \"/usr/lib/python3.13/subprocess.py\", line 556, in run\n    stdout, stderr = process.communicate(input, timeout=timeout)\n                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1222, in communicate\n    stdout, stderr = self._communicate(input, endtime, timeout)\n                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 2129, in _communicate\n    self._check_timeout(endtime, orig_timeout, stdout, stderr)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1269, in _check_timeout\n    raise TimeoutExpired(\n    ...<2 lines>...\n            stderr=b''.join(stderr_seq) if stderr_seq else None)\nsubprocess.TimeoutExpired: Command '['/home/intimatik/.npm-global/bin/codex', '--search', '--ask-for-approval', 'never', 'exec', '--skip-git-repo-check', '--sandbox', 'read-only', '--color', 'never', '--ephemeral', '--output-last-message', '/tmp/scalper-codex-xtouf5bb/last-message.json', 'You are a precise deal-finding automation. Use live web_search.\\n\\nCurrent UTC date: 2026-08-31\\nTarget id: 2tb-nvme-magnus-one-us\\nTarget name: 2TB NVMe SSD for ZOTAC Magnus One in the US\\nMaximum total price: $200 USD, including shipping or delivery to United States.\\nUsual market price estimate: $150 USD.\\nConfigured shipping destinations:\\n[\\n  \"United States\"\\n]\\n\\nSearch intent:\\nFind the lowest delivered-price currently available new, open-box, manufacturer-refurbished, or fully working 2TB M.2 NVMe SSDs in the United States under $200 total that fit the ZOTAC Magnus One. Require exactly 2TB nominal capacity and the standard M.2 2280 form factor without a permanently attached tall heatsink. Accept PCIe Gen3, Gen4, or Gen5 NVMe drives because PCIe NVMe generations are backward-compatible, but do not pay extra for speed the Magnus One cannot use; prioritize dependable drives from identifiable manufacturers and sellers. Reject 2.5-inch SATA SSDs, M.2 SATA/AHCI drives, 2230 or 2242 modules, 1TB/4TB/other capacities, external SSDs and enclosures, heatsink-only listings, counterfeit or capacity-faked products, used drives without verifiable health, auctions without buy-it-now, sold or out-of-stock listings, non-US listings, and listings where item price plus US shipping is $200 or more. Return the cheapest qualifying totals first.\\n\\nAcceptance criteria:\\n[\\n  \"It is an internal 2TB M.2 2280 NVMe PCIe SSD, not SATA/AHCI and not an external drive or enclosure.\",\\n  \"It has no permanently attached tall heatsink that would prevent installation in the compact Magnus One.\",\\n  \"The brand, exact model, seller, condition, and warranty or return coverage are clear; reject suspicious or capacity-faked products and used drives without verifiable health.\",\\n  \"The total delivered price in the United States is less than 200 USD, and qualifying results are ordered from lowest total price to highest.\",\\n  \"It is currently available to buy from a US retailer or US marketplace seller.\",\\n  \"The exact canonical listing URL opens and shows a current purchase or contact action.\"\\n]\\n\\nRequired model/text patterns. A listing must match at least one if this list is not empty:\\n[\\n  \"(?=.*\\\\\\\\b2\\\\\\\\s*(?:tb|terabyte)\\\\\\\\b)(?=.*\\\\\\\\b(?:m\\\\\\\\.?2|2280)\\\\\\\\b)(?=.*\\\\\\\\bnvme\\\\\\\\b)\"\\n]\\n\\nReject text patterns. Exclude a listing if it matches any of these:\\n[\\n  \"\\\\\\\\b(?:128|240|250|256|480|500|512)\\\\\\\\s*gb\\\\\\\\b\",\\n  \"\\\\\\\\b(?:1|4|8)\\\\\\\\s*(?:tb|terabyte)\\\\\\\\b\",\\n  \"\\\\\\\\bm\\\\\\\\.?2\\\\\\\\s*(?:2230|2242)\\\\\\\\b\",\\n  \"\\\\\\\\b(?:sata|ahci)\\\\\\\\b\",\\n  \"\\\\\\\\b(?:external\\\\\\\\s+ssd|portable\\\\\\\\s+ssd|nvme\\\\\\\\s+enclosure|ssd\\\\\\\\s+enclosure|adapter\\\\\\\\s+only|heatsink\\\\\\\\s+only)\\\\\\\\b\",\\n  \"\\\\\\\\b(?:for\\\\\\\\s+parts|parts\\\\\\\\s+only|not\\\\\\\\s+working|non\\\\\\\\s*working|broken|damaged|repair)\\\\\\\\b\"\\n]\\n\\nSuggested search queries:\\n[\\n  \"2TB M.2 2280 NVMe SSD lowest price US under $200\",\\n  \"2TB PCIe 4.0 NVMe 2280 SSD sale under $200\",\\n  \"2TB PCIe 3.0 NVMe 2280 SSD clearance US\",\\n  \"2TB NVMe SSD no heatsink deal US\",\\n  \"2TB NVMe SSD open box manufacturer refurbished under $200\",\\n  \"site:newegg.com 2TB M.2 2280 NVMe SSD\",\\n  \"site:amazon.com 2TB M.2 2280 NVMe SSD\",\\n  \"site:bestbuy.com 2TB NVMe SSD\",\\n  \"site:bhphotovideo.com 2TB NVMe 2280 SSD\",\\n  \"site:ebay.com 2TB NVMe 2280 manufacturer refurbished buy it now\"\\n]\\n\\nMarketplace search coverage:\\n[\\n  \"Search US retailers and US marketplace listings only, and rank qualifying results by delivered total price from lowest to highest.\"\\n]\\n\\nLocal marketplace exception:\\n- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.\\n- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.\\n- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.\\n\\n\\nReturn only strict JSON. Do not wrap it in Markdown. Do not include prose.\\nSchema:\\n{\\n  \"target_id\": \"2tb-nvme-magnus-one-us\",\\n  \"checked_at\": \"ISO-8601 timestamp\",\\n      \"deals\": [\\n    {\\n      \"title\": \"listing title\",\\n      \"url\": \"direct listing URL\",\\n      \"source\": \"marketplace or site name\",\\n      \"seller\": \"seller if visible, otherwise empty string\",\\n      \"price_usd\": 0.0,\\n      \"shipping_usd\": 0.0,\\n      \"total_usd\": 0.0,\\n      \"condition\": \"condition text\",\\n      \"availability\": \"available\",\\n      \"listing_status\": \"available\",\\n      \"ships_to_us\": true,\\n      \"ships_to_destination\": true,\\n      \"shipping_destination\": \"United States\",\\n      \"delivery_country\": \"United States\",\\n      \"market_region\": \"us\",\\n      \"vehicle_mileage_miles\": 0,\\n      \"distance_from_reference_miles\": 0,\\n      \"why_good\": \"short reason this matches the criteria\",\\n      \"confidence\": 0.0\\n    }\\n  ]\\n}\\n\\nRules:\\n- Include at most 5 deals.\\n- Set market_region to \"us\" for US marketplace/listing-location deals, \"eu\" for European/UK/Polish marketplace/listing-location deals, and \"other\" only if the listing cannot be classified.\\n- Include only listings that satisfy every acceptance criterion.\\n- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States.\\n- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.\\n- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States still keeps it below the limit.\\n- Include only listings that ship or deliver directly to at least one configured destination: United States, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.\\n- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.\\n- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.\\n- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.\\n- If there are no qualifying deals, return \"deals\": [].']' timed out after 900 seconds",
+    "2026-08-31 03:40:12,746 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-08-31 03:42:25,608 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-08-31 03:42:25,608 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-08-31 03:44:45,506 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-08-31T06:17:05.149650+00:00",
+  "started_at": "2026-08-31T07:17:05.571042+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -117,83 +115,6 @@
           "eu": 0,
           "other": 0,
           "us": 0
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      }
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 179.99,
-            "seller": "Studio Depot",
-            "shipping_usd": 0.0,
-            "source": "Studio Depot",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "OWC 2.0TB Aura Pro X2 PCIe 4.0 NVMe Solid-State Drive for Select Mac Models",
-            "total_usd": 179.99,
-            "url": "https://www.studiodepot.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html",
-            "why_good": "New 2TB PCIe 4.0 NVMe M.2 2280 SSD, no heatsink, listed in stock with 5-year OWC warranty."
-          }
-        ]
-      },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "New",
-          "confidence": 0.78,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 179.99,
-          "seller": "Studio Depot",
-          "shipping_usd": 0.0,
-          "source": "Studio Depot",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "OWC 2.0TB Aura Pro X2 PCIe 4.0 NVMe Solid-State Drive for Select Mac Models",
-          "total_usd": 179.99,
-          "url": "https://www.studiodepot.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html",
-          "why_good": "New 2TB PCIe 4.0 NVMe M.2 2280 SSD, no heatsink, listed in stock with 5-year OWC warranty."
-        }
-      ],
-      "id": "2tb-nvme-magnus-one-us",
-      "max_price_usd": 200,
-      "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "New",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 179.99,
-            "seller": "Studio Depot",
-            "shipping_usd": 0.0,
-            "source": "Studio Depot",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "OWC 2.0TB Aura Pro X2 PCIe 4.0 NVMe Solid-State Drive for Select Mac Models",
-            "total_usd": 179.99,
-            "url": "https://www.studiodepot.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html",
-            "why_good": "New 2TB PCIe 4.0 NVMe M.2 2280 SSD, no heatsink, listed in stock with 5-year OWC warranty."
-          }
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
