@@ -1,33 +1,28 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-01T12:34:59.431642+00:00",
+  "finished_at": "2026-09-01T13:33:23.654544+00:00",
   "logs": [
-    "2026-09-01 08:17:04,978 INFO scalper run started 2026-09-01T12:17:04.978628+00:00",
-    "2026-09-01 08:17:04,980 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-01 08:19:10,242 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-01 08:19:10,243 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-01 08:21:32,498 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-01 08:21:32,498 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-01 08:23:28,390 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-01 08:23:28,391 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-01 08:25:19,254 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-01 08:25:19,254 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-01 08:29:15,418 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-09-01 08:29:15,419 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-01 08:29:49,789 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-01 08:29:49,962 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/327289000745",
-    "2026-09-01 08:29:49,963 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 100% health url=https://www.ebay.com/itm/327289000745",
-    "2026-09-01 08:29:56,681 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 100% health url=https://www.ebay.com/itm/327289000745",
-    "2026-09-01 08:29:56,831 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/398214947213",
-    "2026-09-01 08:29:56,832 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 Open Box 100% health url=https://www.ebay.com/itm/398214947213",
-    "2026-09-01 08:30:03,243 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 Open Box 100% health url=https://www.ebay.com/itm/398214947213",
-    "2026-09-01 08:30:03,243 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
-    "2026-09-01 08:30:03,244 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-01 08:32:09,769 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-01 08:32:09,770 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-01 08:34:59,431 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-09-01 09:17:05,597 INFO scalper run started 2026-09-01T13:17:05.597297+00:00",
+    "2026-09-01 09:17:05,599 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-01 09:19:32,935 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-01 09:19:32,936 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-01 09:21:07,768 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-01 09:21:07,768 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-01 09:23:02,979 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-01 09:23:02,979 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-01 09:24:54,589 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-01 09:24:54,590 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-01 09:28:07,156 INFO rejected deal target=2tb-nvme-magnus-one-us reason=reject_pattern pattern=\\b(?:128|240|250|256|480|500|512)\\s*gb\\b title=Netac 512GB 1TB 2TB 4TB Internal PS5 SSD PCIe4.0 M.2 NVMe Solid State Drive lot",
+    "2026-09-01 09:28:07,365 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469",
+    "2026-09-01 09:28:07,365 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469",
+    "2026-09-01 09:28:42,675 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-09-01 09:28:42,676 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469",
+    "2026-09-01 09:28:42,676 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-01 09:31:14,230 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-01 09:31:14,231 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-01 09:33:23,654 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-09-01T12:17:04.978628+00:00",
+  "started_at": "2026-09-01T13:17:05.597297+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -133,9 +128,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used - tested fully functional, 90-99% health",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 199.0,
+            "seller": "Byte Depot",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
+            "total_usd": 199.0,
+            "url": "https://www.ebay.com/itm/366347771469",
+            "why_good": "Exact Kingston SNV2S/2000G 2TB M.2 NVMe internal SSD, bare 2280 module with health range stated; US seller, Buy It Now, multiple available, eBay Money Back Guarantee."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used - tested fully functional, 90-99% health",
+          "confidence": 0.78,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 199.0,
+          "seller": "Byte Depot",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "2tb-nvme-magnus-one-us",
+          "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
+          "total_usd": 199.0,
+          "url": "https://www.ebay.com/itm/366347771469",
+          "why_good": "Exact Kingston SNV2S/2000G 2TB M.2 NVMe internal SSD, bare 2280 module with health range stated; US seller, Buy It Now, multiple available, eBay Money Back Guarantee."
+        }
+      ],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -143,12 +174,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used - tested fully functional, 90-99% health",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 199.0,
+            "seller": "Byte Depot",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
+            "total_usd": 199.0,
+            "url": "https://www.ebay.com/itm/366347771469",
+            "why_good": "Exact Kingston SNV2S/2000G 2TB M.2 NVMe internal SSD, bare 2280 module with health range stated; US seller, Buy It Now, multiple available, eBay Money Back Guarantee."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
