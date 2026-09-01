@@ -1,27 +1,28 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-01T15:34:17.243690+00:00",
+  "finished_at": "2026-09-01T16:31:44.110504+00:00",
   "logs": [
-    "2026-09-01 11:17:05,004 INFO scalper run started 2026-09-01T15:17:05.004631+00:00",
-    "2026-09-01 11:17:05,006 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-01 11:19:00,703 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-01 11:19:00,703 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-01 11:21:07,694 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-01 11:21:07,695 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-01 11:23:17,474 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-01 11:23:17,474 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-01 11:25:27,788 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-01 11:25:27,789 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-01 11:29:36,005 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=browser_title_mismatch title=ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS url=https://www.walmart.com/ip/Adata-LEGEND-710-ALEG-710-2TCS-2-TB-Solid-State-Drive-M-2-2280-Internal-PCI-Express-NVMe-PCI-Express-NVMe-3-0-x4/1746359036",
-    "2026-09-01 11:29:36,005 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2",
-    "2026-09-01 11:29:36,006 INFO already notified target=2tb-nvme-magnus-one-us market=us total=179.99 url=https://www.toursupply.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html",
-    "2026-09-01 11:29:36,006 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-    "2026-09-01 11:29:36,007 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-01 11:31:44,502 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-01 11:31:44,503 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-01 11:34:17,243 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-09-01 12:17:05,330 INFO scalper run started 2026-09-01T16:17:05.330597+00:00",
+    "2026-09-01 12:17:05,332 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-01 12:19:03,665 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-01 12:19:03,666 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-01 12:20:35,052 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-01 12:20:35,052 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-01 12:22:11,313 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-01 12:22:11,314 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-01 12:24:24,129 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-01 12:24:24,130 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-01 12:26:47,548 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469",
+    "2026-09-01 12:26:47,549 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469",
+    "2026-09-01 12:27:36,506 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2",
+    "2026-09-01 12:27:36,507 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469",
+    "2026-09-01 12:27:36,508 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+    "2026-09-01 12:27:36,509 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-01 12:29:36,122 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-01 12:29:36,123 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-01 12:31:44,110 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-09-01T15:17:05.004631+00:00",
+  "started_at": "2026-09-01T16:17:05.330597+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -130,25 +131,25 @@
         "us": [
           {
             "availability": "available",
-            "condition": "New",
+            "condition": "Used; tested fully functional; 90-99% health",
             "confidence": 0.86,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 179.99,
-            "seller": "Tour Supply",
+            "price_usd": 199.0,
+            "seller": "Byte Depot",
             "shipping_usd": 0.0,
-            "source": "Tour Supply",
+            "source": "eBay",
             "target_id": "2tb-nvme-magnus-one-us",
-            "title": "OWC 2.0TB Aura Pro X2 PCIe 4.0 NVMe Solid-State Drive for Select Mac Models",
-            "total_usd": 179.99,
-            "url": "https://www.toursupply.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html",
-            "why_good": "In-stock US listing with free shipping; specs show 2TB PCIe 4.0 NVMe M.2 2280 M-key single-sided SSD, no heatsink, new condition, and 5-year OWC warranty."
+            "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
+            "total_usd": 199.0,
+            "url": "https://www.ebay.com/itm/366347771469",
+            "why_good": "Exact Kingston SNV2S/2000G 2TB M.2 2280 NVMe PCIe 4.0 drive, no tall heatsink shown, US seller, free US shipping, 30-day returns, health range stated."
           },
           {
             "availability": "available",
             "condition": "New",
-            "confidence": 0.9,
+            "confidence": 0.92,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -159,33 +160,33 @@
             "target_id": "2tb-nvme-magnus-one-us",
             "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
             "total_usd": 199.99,
-            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-            "why_good": "Sold and shipped by Newegg with free US shipping; listing shows 2TB M.2 2280 PCIe Gen3 x4 NVMe internal SSD."
+            "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+            "why_good": "New ADATA ALEG-710-2TCS 2TB M.2 2280 NVMe PCIe 3.0 x4 drive with low-profile 3.13mm heat spreader, free shipping, 30-day returns, 3-year warranty."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "New",
+          "condition": "Used; tested fully functional; 90-99% health",
           "confidence": 0.86,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
-          "price_usd": 179.99,
-          "seller": "Tour Supply",
+          "price_usd": 199.0,
+          "seller": "Byte Depot",
           "shipping_usd": 0.0,
-          "source": "Tour Supply",
+          "source": "eBay",
           "target_id": "2tb-nvme-magnus-one-us",
-          "title": "OWC 2.0TB Aura Pro X2 PCIe 4.0 NVMe Solid-State Drive for Select Mac Models",
-          "total_usd": 179.99,
-          "url": "https://www.toursupply.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html",
-          "why_good": "In-stock US listing with free shipping; specs show 2TB PCIe 4.0 NVMe M.2 2280 M-key single-sided SSD, no heatsink, new condition, and 5-year OWC warranty."
+          "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
+          "total_usd": 199.0,
+          "url": "https://www.ebay.com/itm/366347771469",
+          "why_good": "Exact Kingston SNV2S/2000G 2TB M.2 2280 NVMe PCIe 4.0 drive, no tall heatsink shown, US seller, free US shipping, 30-day returns, health range stated."
         },
         {
           "availability": "available",
           "condition": "New",
-          "confidence": 0.9,
+          "confidence": 0.92,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -196,8 +197,8 @@
           "target_id": "2tb-nvme-magnus-one-us",
           "title": "ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS",
           "total_usd": 199.99,
-          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490",
-          "why_good": "Sold and shipped by Newegg with free US shipping; listing shows 2TB M.2 2280 PCIe Gen3 x4 NVMe internal SSD."
+          "url": "https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490",
+          "why_good": "New ADATA ALEG-710-2TCS 2TB M.2 2280 NVMe PCIe 3.0 x4 drive with low-profile 3.13mm heat spreader, free shipping, 30-day returns, 3-year warranty."
         }
       ],
       "id": "2tb-nvme-magnus-one-us",
@@ -209,20 +210,20 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "New",
+            "condition": "Used; tested fully functional; 90-99% health",
             "confidence": 0.86,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 179.99,
-            "seller": "Tour Supply",
+            "price_usd": 199.0,
+            "seller": "Byte Depot",
             "shipping_usd": 0.0,
-            "source": "Tour Supply",
+            "source": "eBay",
             "target_id": "2tb-nvme-magnus-one-us",
-            "title": "OWC 2.0TB Aura Pro X2 PCIe 4.0 NVMe Solid-State Drive for Select Mac Models",
-            "total_usd": 179.99,
-            "url": "https://www.toursupply.com/20tb-owc-aura-pro-x2-pcie-40-nvme-solid-state-drive-for-select-mac-models.html",
-            "why_good": "In-stock US listing with free shipping; specs show 2TB PCIe 4.0 NVMe M.2 2280 M-key single-sided SSD, no heatsink, new condition, and 5-year OWC warranty."
+            "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
+            "total_usd": 199.0,
+            "url": "https://www.ebay.com/itm/366347771469",
+            "why_good": "Exact Kingston SNV2S/2000G 2TB M.2 2280 NVMe PCIe 4.0 drive, no tall heatsink shown, US seller, free US shipping, 30-day returns, health range stated."
           }
         },
         "counts": {
