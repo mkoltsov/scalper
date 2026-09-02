@@ -1,15 +1,24 @@
-2026-09-02 16:17:05,700 INFO scalper run started 2026-09-02T20:17:05.700159+00:00
-2026-09-02 16:17:05,702 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-02 16:19:04,463 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-02 16:19:04,464 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-02 16:21:02,812 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-02 16:21:02,812 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-09-02 16:23:39,759 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-09-02 16:23:39,760 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-09-02 16:27:12,648 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-09-02 16:27:12,649 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-09-02 16:29:03,836 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
-2026-09-02 16:29:03,836 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-02 16:31:08,846 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-02 16:31:08,846 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-02 16:33:05,107 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-09-02 18:17:05,100 INFO scalper run started 2026-09-02T22:17:05.100461+00:00
+2026-09-02 18:17:05,102 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-02 18:19:05,421 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-02 18:19:05,422 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-02 18:20:58,733 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-02 18:20:58,734 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-09-02 18:22:54,618 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-09-02 18:22:54,619 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-09-02 18:26:11,207 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-09-02 18:26:11,208 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-09-02 18:29:31,793 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
+2026-09-02 18:29:31,794 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520
+2026-09-02 18:30:07,716 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520
+2026-09-02 18:30:07,994 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/327289000745
+2026-09-02 18:30:07,995 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 100% health url=https://www.ebay.com/itm/327289000745
+2026-09-02 18:30:14,139 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 100% health url=https://www.ebay.com/itm/327289000745
+2026-09-02 18:30:14,320 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469
+2026-09-02 18:30:14,320 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469
+2026-09-02 18:30:22,984 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-09-02 18:30:22,984 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469
+2026-09-02 18:30:22,985 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-02 18:32:04,389 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-02 18:32:04,390 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-02 18:35:18,613 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
