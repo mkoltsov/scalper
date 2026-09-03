@@ -1,27 +1,30 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-03T03:35:17.388259+00:00",
+  "finished_at": "2026-09-03T04:33:17.408686+00:00",
   "logs": [
-    "2026-09-02 23:17:05,449 INFO scalper run started 2026-09-03T03:17:05.449444+00:00",
-    "2026-09-02 23:17:05,451 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-02 23:18:56,716 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-02 23:18:56,717 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-02 23:23:37,038 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-02 23:23:37,039 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-02 23:25:46,792 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-02 23:25:46,793 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-02 23:27:46,343 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-02 23:27:46,344 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-02 23:30:53,730 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-09-02 23:30:53,730 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-02 23:31:29,837 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (SEE NOTES) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-02 23:31:29,838 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
-    "2026-09-02 23:31:29,839 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-02 23:33:35,380 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-02 23:33:35,380 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-02 23:35:17,387 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-09-03 00:17:05,379 INFO scalper run started 2026-09-03T04:17:05.378944+00:00",
+    "2026-09-03 00:17:05,381 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-03 00:18:59,066 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-03 00:18:59,067 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-03 00:20:28,838 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-03 00:20:28,838 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-03 00:22:44,818 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-03 00:22:44,819 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-03 00:25:11,668 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-03 00:25:11,669 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-03 00:28:17,170 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/407172052407",
+    "2026-09-03 00:28:17,170 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested url=https://www.ebay.com/itm/407172052407",
+    "2026-09-03 00:28:50,428 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested url=https://www.ebay.com/itm/407172052407",
+    "2026-09-03 00:28:50,655 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/336659740761",
+    "2026-09-03 00:28:50,656 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Brand New Fanxiang NVME S501Q 2TB SSD 5yr Warranty url=https://www.ebay.com/itm/336659740761",
+    "2026-09-03 00:28:59,159 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-09-03 00:28:59,160 INFO new deal target=2tb-nvme-magnus-one-us market=us total=193.99 url=https://www.ebay.com/itm/336659740761",
+    "2026-09-03 00:28:59,255 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-03 00:31:08,122 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-03 00:31:08,122 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-03 00:33:17,408 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-09-03T03:17:05.449444+00:00",
+  "started_at": "2026-09-03T04:17:05.378944+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -127,9 +130,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "New - 5yr warranty stated",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 193.99,
+            "seller": "ZVES",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "Brand New Fanxiang NVME S501Q 2TB SSD 5yr Warranty",
+            "total_usd": 193.99,
+            "url": "https://www.ebay.com/itm/336659740761",
+            "why_good": "New Fanxiang S501Q 2TB M.2 2280 NVMe SSD from a US eBay seller with stated 5-year warranty and free US shipping; no heatsink listed."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "New - 5yr warranty stated",
+          "confidence": 0.78,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 193.99,
+          "seller": "ZVES",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "2tb-nvme-magnus-one-us",
+          "title": "Brand New Fanxiang NVME S501Q 2TB SSD 5yr Warranty",
+          "total_usd": 193.99,
+          "url": "https://www.ebay.com/itm/336659740761",
+          "why_good": "New Fanxiang S501Q 2TB M.2 2280 NVMe SSD from a US eBay seller with stated 5-year warranty and free US shipping; no heatsink listed."
+        }
+      ],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -137,12 +176,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "New - 5yr warranty stated",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 193.99,
+            "seller": "ZVES",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "Brand New Fanxiang NVME S501Q 2TB SSD 5yr Warranty",
+            "total_usd": 193.99,
+            "url": "https://www.ebay.com/itm/336659740761",
+            "why_good": "New Fanxiang S501Q 2TB M.2 2280 NVMe SSD from a US eBay seller with stated 5-year warranty and free US shipping; no heatsink listed."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
