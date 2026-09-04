@@ -1,27 +1,33 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-04T14:36:48.397882+00:00",
+  "finished_at": "2026-09-04T16:35:21.171524+00:00",
   "logs": [
-    "2026-09-04 10:17:04,845 INFO scalper run started 2026-09-04T14:17:04.844956+00:00",
-    "2026-09-04 10:17:04,847 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-04 10:18:55,439 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-04 10:18:55,440 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-04 10:21:09,444 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-04 10:21:09,445 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-04 10:23:47,810 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-04 10:23:47,810 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-04 10:25:53,991 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-04 10:25:53,992 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-04 10:28:26,836 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-09-04 10:28:26,837 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-04 10:29:02,532 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-04 10:29:02,532 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
-    "2026-09-04 10:29:02,533 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-04 10:30:58,364 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-04 10:30:58,365 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-04 10:36:48,397 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-09-04 12:17:05,311 INFO scalper run started 2026-09-04T16:17:05.311203+00:00",
+    "2026-09-04 12:17:05,313 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-04 12:19:36,567 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-04 12:19:36,568 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-04 12:21:32,381 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-04 12:21:32,382 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-04 12:23:37,018 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-04 12:23:37,018 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-04 12:25:49,865 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-04 12:25:49,866 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-04 12:29:15,180 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366628127977",
+    "2026-09-04 12:29:15,181 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Fikwot FX991 M.2 SSD 2TB NVMe SSD M2 2280 PCIe Gen 4x4, Read Up to 7100MB/s url=https://www.ebay.com/itm/366628127977",
+    "2026-09-04 12:29:48,523 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=Fikwot FX991 M.2 SSD 2TB NVMe SSD M2 2280 PCIe Gen 4x4, Read Up to 7100MB/s url=https://www.ebay.com/itm/366628127977",
+    "2026-09-04 12:29:48,701 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/206406478306",
+    "2026-09-04 12:29:48,701 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=INTEL 660p SERIES 2TB M.2 NVMe 2280 SSD SSDPEKNW020T8, CDI Included url=https://www.ebay.com/itm/206406478306",
+    "2026-09-04 12:29:56,052 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-09-04 12:29:56,052 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-04 12:30:05,347 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-04 12:30:05,348 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-09-04 12:30:05,349 INFO new deal target=2tb-nvme-magnus-one-us market=us total=179.99 url=https://www.ebay.com/itm/206406478306",
+    "2026-09-04 12:30:05,497 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-04 12:32:00,771 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-04 12:32:00,772 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-04 12:35:21,171 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-09-04T14:17:04.844956+00:00",
+  "started_at": "2026-09-04T16:17:05.311203+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -127,9 +133,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Pre-Owned, CDI included",
+            "confidence": 0.82,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 179.99,
+            "seller": "3antar",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "INTEL 660p SERIES 2TB M.2 NVMe 2280 SSD SSDPEKNW020T8, CDI Included",
+            "total_usd": 179.99,
+            "url": "https://www.ebay.com/itm/206406478306",
+            "why_good": "Intel 660p 2TB M.2 2280 NVMe drive with CDI health evidence, free US delivery, and free returns."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Pre-Owned, CDI included",
+          "confidence": 0.82,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 179.99,
+          "seller": "3antar",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "2tb-nvme-magnus-one-us",
+          "title": "INTEL 660p SERIES 2TB M.2 NVMe 2280 SSD SSDPEKNW020T8, CDI Included",
+          "total_usd": 179.99,
+          "url": "https://www.ebay.com/itm/206406478306",
+          "why_good": "Intel 660p 2TB M.2 2280 NVMe drive with CDI health evidence, free US delivery, and free returns."
+        }
+      ],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -137,12 +179,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Pre-Owned, CDI included",
+            "confidence": 0.82,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 179.99,
+            "seller": "3antar",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "INTEL 660p SERIES 2TB M.2 NVMe 2280 SSD SSDPEKNW020T8, CDI Included",
+            "total_usd": 179.99,
+            "url": "https://www.ebay.com/itm/206406478306",
+            "why_good": "Intel 660p 2TB M.2 2280 NVMe drive with CDI health evidence, free US delivery, and free returns."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
