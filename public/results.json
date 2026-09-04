@@ -1,30 +1,31 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-04T05:35:29.269079+00:00",
+  "finished_at": "2026-09-04T07:39:39.058055+00:00",
   "logs": [
-    "2026-09-04 01:17:04,970 INFO scalper run started 2026-09-04T05:17:04.970579+00:00",
-    "2026-09-04 01:17:04,972 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-04 01:19:00,545 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-04 01:19:00,546 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-04 01:21:00,784 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-04 01:21:00,785 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-04 01:25:28,904 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-04 01:25:28,905 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-04 01:27:57,196 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-04 01:27:57,196 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-04 01:30:49,615 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/327289000745",
-    "2026-09-04 01:30:49,616 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 100% health url=https://www.ebay.com/itm/327289000745",
-    "2026-09-04 01:31:22,835 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 100% health url=https://www.ebay.com/itm/327289000745",
-    "2026-09-04 01:31:23,026 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/188564640982",
-    "2026-09-04 01:31:23,027 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Solidigm P41 Plus 2TB 2280 PCIe Gen4 M.2 NVMe SSD 100% Health - No Box url=https://www.ebay.com/itm/188564640982",
-    "2026-09-04 01:31:29,601 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=Solidigm P41 Plus 2TB 2280 PCIe Gen4 M.2 NVMe SSD 100% Health - No Box url=https://www.ebay.com/itm/188564640982",
-    "2026-09-04 01:31:29,601 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
-    "2026-09-04 01:31:29,602 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-04 01:33:25,233 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-04 01:33:25,234 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-04 01:35:29,268 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-09-04 03:17:05,646 INFO scalper run started 2026-09-04T07:17:05.646758+00:00",
+    "2026-09-04 03:17:05,648 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-04 03:19:36,309 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-04 03:19:36,309 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-04 03:22:45,906 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-04 03:22:45,907 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-04 03:25:19,201 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-04 03:25:19,201 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-04 03:28:28,317 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-04 03:28:28,318 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-04 03:32:20,523 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/407172052407",
+    "2026-09-04 03:32:20,524 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested url=https://www.ebay.com/itm/407172052407",
+    "2026-09-04 03:32:53,314 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/327289000745",
+    "2026-09-04 03:32:53,314 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 100% health url=https://www.ebay.com/itm/327289000745",
+    "2026-09-04 03:33:00,247 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=sold title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 100% health url=https://www.ebay.com/itm/327289000745",
+    "2026-09-04 03:33:00,248 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-09-04 03:33:00,248 INFO already notified target=2tb-nvme-magnus-one-us market=us total=185.39 url=https://www.ebay.com/itm/407172052407",
+    "2026-09-04 03:33:00,249 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-04 03:35:31,636 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-04 03:35:31,637 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-04 03:39:38,964 INFO target=lexus-es-2016-2018-cary qualifying_deals=1",
+    "2026-09-04 03:39:38,964 INFO new deal target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale"
   ],
-  "started_at": "2026-09-04T05:17:04.970579+00:00",
+  "started_at": "2026-09-04T07:17:05.646758+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -130,9 +131,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; 96% health tested; no seller returns, eBay Money Back Guarantee",
+            "confidence": 0.74,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 179.99,
+            "seller": "goa_839",
+            "shipping_usd": 5.4,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
+            "total_usd": 185.39,
+            "url": "https://www.ebay.com/itm/407172052407",
+            "why_good": "Exact Crucial P2 CT2000P2SSD8 2TB M.2 2280 NVMe PCIe internal SSD with stated health test, Buy It Now, US shipping, and no tall heatsink shown."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; 96% health tested; no seller returns, eBay Money Back Guarantee",
+          "confidence": 0.74,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 179.99,
+          "seller": "goa_839",
+          "shipping_usd": 5.4,
+          "source": "eBay",
+          "target_id": "2tb-nvme-magnus-one-us",
+          "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
+          "total_usd": 185.39,
+          "url": "https://www.ebay.com/itm/407172052407",
+          "why_good": "Exact Crucial P2 CT2000P2SSD8 2TB M.2 2280 NVMe PCIe internal SSD with stated health test, Buy It Now, US shipping, and no tall heatsink shown."
+        }
+      ],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -140,12 +177,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; 96% health tested; no seller returns, eBay Money Back Guarantee",
+            "confidence": 0.74,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 179.99,
+            "seller": "goa_839",
+            "shipping_usd": 5.4,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
+            "total_usd": 185.39,
+            "url": "https://www.ebay.com/itm/407172052407",
+            "why_good": "Exact Crucial P2 CT2000P2SSD8 2TB M.2 2280 NVMe PCIe internal SSD with stated health test, Buy It Now, US shipping, and no tall heatsink shown."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -180,9 +233,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; clean title reported by TrueCar for VIN JTHBK1GG1H2253581",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 16898.0,
+            "seller": "Perfect Ride",
+            "shipping_usd": 0.0,
+            "source": "Perfect Ride",
+            "target_id": "lexus-es-2016-2018-cary",
+            "title": "2017 Lexus ES 350 Sedan",
+            "total_usd": 16898.0,
+            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+            "why_good": "Direct dealer page lists a 2017 Lexus ES 350 Sedan with 96,015 miles for $16,898 in Smithfield, NC, about 39 miles from Cary; TrueCar reports clean title for the same VIN."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; clean title reported by TrueCar for VIN JTHBK1GG1H2253581",
+          "confidence": 0.86,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 16898.0,
+          "seller": "Perfect Ride",
+          "shipping_usd": 0.0,
+          "source": "Perfect Ride",
+          "target_id": "lexus-es-2016-2018-cary",
+          "title": "2017 Lexus ES 350 Sedan",
+          "total_usd": 16898.0,
+          "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+          "why_good": "Direct dealer page lists a 2017 Lexus ES 350 Sedan with 96,015 miles for $16,898 in Smithfield, NC, about 39 miles from Cary; TrueCar reports clean title for the same VIN."
+        }
+      ],
       "id": "lexus-es-2016-2018-cary",
       "max_price_usd": 18000,
       "name": "2016-2018 Lexus ES near Cary, NC",
@@ -190,12 +279,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; clean title reported by TrueCar for VIN JTHBK1GG1H2253581",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 16898.0,
+            "seller": "Perfect Ride",
+            "shipping_usd": 0.0,
+            "source": "Perfect Ride",
+            "target_id": "lexus-es-2016-2018-cary",
+            "title": "2017 Lexus ES 350 Sedan",
+            "total_usd": 16898.0,
+            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+            "why_good": "Direct dealer page lists a 2017 Lexus ES 350 Sedan with 96,015 miles for $16,898 in Smithfield, NC, about 39 miles from Cary; TrueCar reports clean title for the same VIN."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
