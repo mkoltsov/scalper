@@ -1,36 +1,34 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-05T01:37:49.394168+00:00",
+  "finished_at": "2026-09-05T02:34:12.144283+00:00",
   "logs": [
-    "2026-09-04 21:17:06,021 INFO scalper run started 2026-09-05T01:17:06.020986+00:00",
-    "2026-09-04 21:17:06,024 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-04 21:19:18,050 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-04 21:19:18,050 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-04 21:21:41,366 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-04 21:21:41,367 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-04 21:23:46,678 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-04 21:23:46,679 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-04 21:25:56,066 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-04 21:25:56,066 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-04 21:32:36,825 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/389731401235",
-    "2026-09-04 21:32:36,826 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=acer FA100 M.2 2280 SSD 2TB: PCIe 3.0 NVMe with HMB & SLC Cache, Up to 3500 MB/s url=https://www.ebay.com/itm/389731401235",
-    "2026-09-04 21:33:10,209 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=acer FA100 M.2 2280 SSD 2TB: PCIe 3.0 NVMe with HMB & SLC Cache, Up to 3500 MB/s url=https://www.ebay.com/itm/389731401235",
-    "2026-09-04 21:33:10,417 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-09-04 21:33:10,418 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-04 21:33:18,469 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-04 21:33:18,618 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/800519848345",
-    "2026-09-04 21:33:18,619 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=DELL Samsung PM981 2TB NVMe M.2 SSD SOLID STATE DRIVE MZ-VLB2T00 100% Health url=https://www.ebay.com/itm/800519848345",
-    "2026-09-04 21:33:25,014 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469",
-    "2026-09-04 21:33:25,015 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469",
-    "2026-09-04 21:33:33,452 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2",
-    "2026-09-04 21:33:33,453 INFO already notified target=2tb-nvme-magnus-one-us market=us total=185.97 url=https://www.ebay.com/itm/800519848345",
-    "2026-09-04 21:33:33,453 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469",
-    "2026-09-04 21:33:33,454 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-04 21:35:36,811 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-04 21:35:36,812 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-04 21:37:49,393 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-09-04 22:17:04,863 INFO scalper run started 2026-09-05T02:17:04.863682+00:00",
+    "2026-09-04 22:17:04,865 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-04 22:18:35,617 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-04 22:18:35,617 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-04 22:20:32,188 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-04 22:20:32,189 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-04 22:22:46,711 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-04 22:22:46,712 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-04 22:25:04,759 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-04 22:25:04,759 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-04 22:29:24,274 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-09-04 22:29:24,275 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-04 22:29:58,641 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-04 22:29:58,822 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/800519848345",
+    "2026-09-04 22:29:58,823 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=DELL Samsung PM981 2TB NVMe M.2 SSD SOLID STATE DRIVE MZ-VLB2T00 100% Health url=https://www.ebay.com/itm/800519848345",
+    "2026-09-04 22:30:05,992 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/157953812349",
+    "2026-09-04 22:30:05,993 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 Open Box 100% health url=https://www.ebay.com/itm/157953812349",
+    "2026-09-04 22:30:14,359 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2",
+    "2026-09-04 22:30:14,360 INFO already notified target=2tb-nvme-magnus-one-us market=us total=185.97 url=https://www.ebay.com/itm/800519848345",
+    "2026-09-04 22:30:14,360 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.95 url=https://www.ebay.com/itm/157953812349",
+    "2026-09-04 22:30:14,361 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-04 22:32:02,718 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-04 22:32:02,719 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-04 22:34:12,143 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\\s+only|for\\s+parts|not\\s+running|non\\s*running|mechanic(?:'s)?\\s+special)\\b title=2017 Lexus ES 350 Sedan",
+    "2026-09-04 22:34:12,144 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-09-05T01:17:06.020986+00:00",
+  "started_at": "2026-09-05T02:17:04.863682+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -139,8 +137,8 @@
         "us": [
           {
             "availability": "available",
-            "condition": "Used, 100% Health",
-            "confidence": 0.84,
+            "condition": "Used - 100% health stated",
+            "confidence": 0.82,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -152,32 +150,32 @@
             "title": "DELL Samsung PM981 2TB NVMe M.2 SSD SOLID STATE DRIVE MZ-VLB2T00 100% Health",
             "total_usd": 185.97,
             "url": "https://www.ebay.com/itm/800519848345",
-            "why_good": "Samsung PM981 MZ-VLB2T00 2TB M.2 NVMe internal SSD; listing shows 100% health, Buy It Now, US shipping, and returns accepted."
+            "why_good": "Samsung PM981 2TB M.2 NVMe internal SSD with seller-stated 100% health, Buy It Now, US shipping, and 30-day returns; bare module without tall heatsink."
           },
           {
             "availability": "available",
-            "condition": "Used, 90-99% Health",
-            "confidence": 0.76,
+            "condition": "Open box - new pull, tested, 100% health shown",
+            "confidence": 0.86,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 199.0,
-            "seller": "Byte Depot",
+            "price_usd": 199.95,
+            "seller": "Panpan/tech",
             "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
-            "total_usd": 199.0,
-            "url": "https://www.ebay.com/itm/366347771469",
-            "why_good": "Kingston NV2 SNV2S/2000G 2TB M.2 2280 NVMe SSD; direct listing shows 8 available, Buy It Now, verified health range, and eBay Money Back Guarantee."
+            "title": "AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 Open Box 100% health",
+            "total_usd": 199.95,
+            "url": "https://www.ebay.com/itm/157953812349",
+            "why_good": "2TB M.2 2280 NVMe PCIe SSD, open-box pull tested with 100% health photos, free US shipping, and 30-day returns; no tall heatsink shown."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "Used, 100% Health",
-          "confidence": 0.84,
+          "condition": "Used - 100% health stated",
+          "confidence": 0.82,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -189,24 +187,24 @@
           "title": "DELL Samsung PM981 2TB NVMe M.2 SSD SOLID STATE DRIVE MZ-VLB2T00 100% Health",
           "total_usd": 185.97,
           "url": "https://www.ebay.com/itm/800519848345",
-          "why_good": "Samsung PM981 MZ-VLB2T00 2TB M.2 NVMe internal SSD; listing shows 100% health, Buy It Now, US shipping, and returns accepted."
+          "why_good": "Samsung PM981 2TB M.2 NVMe internal SSD with seller-stated 100% health, Buy It Now, US shipping, and 30-day returns; bare module without tall heatsink."
         },
         {
           "availability": "available",
-          "condition": "Used, 90-99% Health",
-          "confidence": 0.76,
+          "condition": "Open box - new pull, tested, 100% health shown",
+          "confidence": 0.86,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
-          "price_usd": 199.0,
-          "seller": "Byte Depot",
+          "price_usd": 199.95,
+          "seller": "Panpan/tech",
           "shipping_usd": 0.0,
           "source": "eBay",
           "target_id": "2tb-nvme-magnus-one-us",
-          "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
-          "total_usd": 199.0,
-          "url": "https://www.ebay.com/itm/366347771469",
-          "why_good": "Kingston NV2 SNV2S/2000G 2TB M.2 2280 NVMe SSD; direct listing shows 8 available, Buy It Now, verified health range, and eBay Money Back Guarantee."
+          "title": "AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 Open Box 100% health",
+          "total_usd": 199.95,
+          "url": "https://www.ebay.com/itm/157953812349",
+          "why_good": "2TB M.2 2280 NVMe PCIe SSD, open-box pull tested with 100% health photos, free US shipping, and 30-day returns; no tall heatsink shown."
         }
       ],
       "id": "2tb-nvme-magnus-one-us",
@@ -218,8 +216,8 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "Used, 100% Health",
-            "confidence": 0.84,
+            "condition": "Used - 100% health stated",
+            "confidence": 0.82,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -231,7 +229,7 @@
             "title": "DELL Samsung PM981 2TB NVMe M.2 SSD SOLID STATE DRIVE MZ-VLB2T00 100% Health",
             "total_usd": 185.97,
             "url": "https://www.ebay.com/itm/800519848345",
-            "why_good": "Samsung PM981 MZ-VLB2T00 2TB M.2 NVMe internal SSD; listing shows 100% health, Buy It Now, US shipping, and returns accepted."
+            "why_good": "Samsung PM981 2TB M.2 NVMe internal SSD with seller-stated 100% health, Buy It Now, US shipping, and 30-day returns; bare module without tall heatsink."
           }
         },
         "counts": {
