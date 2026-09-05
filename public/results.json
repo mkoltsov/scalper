@@ -1,24 +1,33 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-05T04:30:56.170223+00:00",
+  "finished_at": "2026-09-05T05:33:27.160290+00:00",
   "logs": [
-    "2026-09-05 00:17:05,400 INFO scalper run started 2026-09-05T04:17:05.399879+00:00",
-    "2026-09-05 00:17:05,401 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-05 00:18:47,586 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-05 00:18:47,587 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-05 00:20:39,294 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-05 00:20:39,294 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-05 00:22:14,366 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-05 00:22:14,366 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-05 00:24:32,142 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-05 00:24:32,142 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-05 00:26:49,524 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
-    "2026-09-05 00:26:49,525 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-05 00:28:40,015 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-05 00:28:40,016 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-05 00:30:56,169 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-09-05 01:17:05,043 INFO scalper run started 2026-09-05T05:17:05.043637+00:00",
+    "2026-09-05 01:17:05,045 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-05 01:18:48,874 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-05 01:18:48,875 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-05 01:21:00,024 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-05 01:21:00,024 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-05 01:23:05,321 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-05 01:23:05,321 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-05 01:25:06,727 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-05 01:25:06,728 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-05 01:27:30,546 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366628127977",
+    "2026-09-05 01:27:30,547 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Fikwot FX991 M.2 SSD 2TB NVMe SSD M2 2280 PCIe Gen 4x4, Read Up to 7100MB/s url=https://www.ebay.com/itm/366628127977",
+    "2026-09-05 01:28:04,420 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=Fikwot FX991 M.2 SSD 2TB NVMe SSD M2 2280 PCIe Gen 4x4, Read Up to 7100MB/s url=https://www.ebay.com/itm/366628127977",
+    "2026-09-05 01:28:04,599 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-09-05 01:28:04,600 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-05 01:28:12,086 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-05 01:28:12,263 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137560757030",
+    "2026-09-05 01:28:12,264 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Intel 670p 2TB M.2 PCIe 3.0 NVME SSD url=https://www.ebay.com/itm/137560757030",
+    "2026-09-05 01:28:21,126 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-09-05 01:28:21,127 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.95 url=https://www.ebay.com/itm/137560757030",
+    "2026-09-05 01:28:21,128 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-05 01:30:50,137 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-05 01:30:50,138 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-05 01:33:27,159 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-09-05T04:17:05.399879+00:00",
+  "started_at": "2026-09-05T05:17:05.043637+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -124,9 +133,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Very Good - Refurbished",
+            "confidence": 0.9,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 199.95,
+            "seller": "Computer Overhauls",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "Intel 670p 2TB M.2 PCIe 3.0 NVME SSD",
+            "total_usd": 199.95,
+            "url": "https://www.ebay.com/itm/137560757030",
+            "why_good": "eBay Refurbished 2TB M.2 2280 PCIe 3.0 NVMe SSD with Buy It Now, free 2-4 day US delivery, 30-day seller-paid returns, and one-year warranty."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Very Good - Refurbished",
+          "confidence": 0.9,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 199.95,
+          "seller": "Computer Overhauls",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "2tb-nvme-magnus-one-us",
+          "title": "Intel 670p 2TB M.2 PCIe 3.0 NVME SSD",
+          "total_usd": 199.95,
+          "url": "https://www.ebay.com/itm/137560757030",
+          "why_good": "eBay Refurbished 2TB M.2 2280 PCIe 3.0 NVMe SSD with Buy It Now, free 2-4 day US delivery, 30-day seller-paid returns, and one-year warranty."
+        }
+      ],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -134,12 +179,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Very Good - Refurbished",
+            "confidence": 0.9,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 199.95,
+            "seller": "Computer Overhauls",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "Intel 670p 2TB M.2 PCIe 3.0 NVME SSD",
+            "total_usd": 199.95,
+            "url": "https://www.ebay.com/itm/137560757030",
+            "why_good": "eBay Refurbished 2TB M.2 2280 PCIe 3.0 NVMe SSD with Buy It Now, free 2-4 day US delivery, 30-day seller-paid returns, and one-year warranty."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
