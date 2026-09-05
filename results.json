@@ -1,0 +1,202 @@
+{
+  "exit_code": 0,
+  "finished_at": "2026-09-05T18:32:37.209528+00:00",
+  "logs": [
+    "2026-09-05 14:17:05,232 INFO scalper run started 2026-09-05T18:17:05.232616+00:00",
+    "2026-09-05 14:17:05,234 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-05 14:18:52,230 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-05 14:18:52,230 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-05 14:20:37,997 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-05 14:20:37,998 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-05 14:23:10,986 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-05 14:23:10,987 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-05 14:25:16,347 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-05 14:25:16,348 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-05 14:27:44,228 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/287139075714",
+    "2026-09-05 14:27:44,228 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Intel 670p Series 2TB M.2 2280 PCI-Express NVMe SSD SSDPEKNU020TZ New url=https://www.ebay.com/itm/287139075714",
+    "2026-09-05 14:28:19,770 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=Intel 670p Series 2TB M.2 2280 PCI-Express NVMe SSD SSDPEKNU020TZ New url=https://www.ebay.com/itm/287139075714",
+    "2026-09-05 14:28:19,771 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-09-05 14:28:19,772 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-05 14:30:00,977 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-05 14:30:00,978 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-05 14:32:37,209 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+  ],
+  "started_at": "2026-09-05T18:17:05.232616+00:00",
+  "targets": [
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "nzxt-h1-v2",
+      "max_price_usd": 200,
+      "name": "NZXT H1 V2 mini-ITX case bundle",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "toyota-matrix-2nd-gen-red-hood",
+      "max_price_usd": 450,
+      "name": "Used red hood for 2nd-gen Toyota Matrix",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "lenovo-thinkpad-p1-16gb-vram",
+      "max_price_usd": 945,
+      "name": "Lenovo ThinkPad P1 with 16GB VRAM",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "wanbo-mozart-1-pro-2025",
+      "max_price_usd": 359,
+      "name": "Wanbo Mozart 1 Pro 2025 projector",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "2tb-nvme-magnus-one-us",
+      "max_price_usd": 200,
+      "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "acura-tsx-wagon-cary",
+      "max_price_usd": 11000,
+      "name": "Acura TSX Sport Wagon with leather near Cary, NC",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "lexus-es-2016-2018-cary",
+      "max_price_usd": 18000,
+      "name": "2016-2018 Lexus ES near Cary, NC",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    }
+  ]
+}
