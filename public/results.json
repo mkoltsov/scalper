@@ -1,37 +1,25 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-06T15:36:27.680209+00:00",
+  "finished_at": "2026-09-06T16:34:06.376576+00:00",
   "logs": [
-    "2026-09-06 11:17:05,542 INFO scalper run started 2026-09-06T15:17:05.542062+00:00",
-    "2026-09-06 11:17:05,547 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-06 11:19:03,972 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-06 11:19:03,973 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-06 11:21:17,630 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-06 11:21:17,630 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-06 11:23:21,909 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-06 11:23:21,909 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-06 11:25:59,469 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-06 11:25:59,470 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-06 11:30:21,487 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366628127977",
-    "2026-09-06 11:30:21,488 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Fikwot FX991 M.2 SSD 2TB NVMe SSD M2 2280 PCIe Gen 4x4, Read Up to 7100MB/s url=https://www.ebay.com/itm/366628127977",
-    "2026-09-06 11:30:54,949 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=Fikwot FX991 M.2 SSD 2TB NVMe SSD M2 2280 PCIe Gen 4x4, Read Up to 7100MB/s url=https://www.ebay.com/itm/366628127977",
-    "2026-09-06 11:30:56,065 INFO rejected deal target=2tb-nvme-magnus-one-us reason=ended title=INTEL 660p SERIES 2TB M.2 NVMe 2280 SSD SSDPEKNW020T8, CDI Included url=https://www.ebay.com/p/4030517145?iid=206406478306",
-    "2026-09-06 11:30:56,210 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-09-06 11:30:56,211 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-06 11:31:04,864 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-06 11:31:05,034 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/407172052407",
-    "2026-09-06 11:31:05,035 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested url=https://www.ebay.com/itm/407172052407",
-    "2026-09-06 11:31:12,108 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/227483518573",
-    "2026-09-06 11:31:12,109 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=NEW ADATA LEGEND GOLD 800 2TB SSD PCIe Gen 4 x 4 NVMe Solid State Drive Gen4 url=https://www.ebay.com/itm/227483518573",
-    "2026-09-06 11:31:20,473 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2",
-    "2026-09-06 11:31:20,474 INFO new deal target=2tb-nvme-magnus-one-us market=us total=191.90 url=https://www.ebay.com/itm/407172052407",
-    "2026-09-06 11:31:20,572 INFO new deal target=2tb-nvme-magnus-one-us market=us total=194.98 url=https://www.ebay.com/itm/227483518573",
-    "2026-09-06 11:31:20,669 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-06 11:33:14,825 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-06 11:33:14,825 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-06 11:36:27,679 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-09-06 12:17:05,329 INFO scalper run started 2026-09-06T16:17:05.329078+00:00",
+    "2026-09-06 12:17:05,331 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-06 12:19:12,329 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-06 12:19:12,330 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-06 12:21:24,230 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-06 12:21:24,231 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-06 12:23:41,974 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-06 12:23:41,974 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-06 12:25:29,768 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-06 12:25:29,768 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-06 12:29:00,423 INFO rejected deal target=2tb-nvme-magnus-one-us reason=http_403 title=Samsung 980 PRO PCIe 4.0 NVMe M.2 Internal V-NAND Solid State Drive 2TB url=https://www.gamestop.com/pc-gaming/pc-components/hard-drives-ssds/internal-hard-drives/products/samsung-980-pro-pcie-4.0-nvme-m.2-internal-v-nand-solid-state-drive-2tb/11165889-11165891.html",
+    "2026-09-06 12:29:00,423 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-09-06 12:29:00,423 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-06 12:31:07,899 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-06 12:31:07,900 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-06 12:34:06,376 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-09-06T15:17:05.542062+00:00",
+  "started_at": "2026-09-06T16:17:05.329078+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -137,79 +125,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.76,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 184.95,
-            "seller": "budget-builds-of-orlando",
-            "shipping_usd": 6.95,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
-            "total_usd": 191.9,
-            "url": "https://www.ebay.com/itm/407172052407",
-            "why_good": "Crucial P2 2TB M.2 2280 NVMe with 96% health stated, US listing, return coverage shown, and delivered total stays under $200."
-          },
-          {
-            "availability": "available",
-            "condition": "Open box",
-            "confidence": 0.84,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 194.98,
-            "seller": "minipcsnmore",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "NEW ADATA LEGEND GOLD 800 2TB SSD PCIe Gen 4 x 4 NVMe Solid State Drive Gen4",
-            "total_usd": 194.98,
-            "url": "https://www.ebay.com/itm/227483518573",
-            "why_good": "Certified Open Box ADATA Legend 800 2TB M.2 NVMe drive, more than 10 available, free US delivery, free returns, and 1-year Allstate warranty included."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Pre-Owned",
-          "confidence": 0.76,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 184.95,
-          "seller": "budget-builds-of-orlando",
-          "shipping_usd": 6.95,
-          "source": "eBay",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
-          "total_usd": 191.9,
-          "url": "https://www.ebay.com/itm/407172052407",
-          "why_good": "Crucial P2 2TB M.2 2280 NVMe with 96% health stated, US listing, return coverage shown, and delivered total stays under $200."
-        },
-        {
-          "availability": "available",
-          "condition": "Open box",
-          "confidence": 0.84,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 194.98,
-          "seller": "minipcsnmore",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "NEW ADATA LEGEND GOLD 800 2TB SSD PCIe Gen 4 x 4 NVMe Solid State Drive Gen4",
-          "total_usd": 194.98,
-          "url": "https://www.ebay.com/itm/227483518573",
-          "why_good": "Certified Open Box ADATA Legend 800 2TB M.2 NVMe drive, more than 10 available, free US delivery, free returns, and 1-year Allstate warranty included."
-        }
-      ],
+      "deals": [],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -217,28 +135,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Pre-Owned",
-            "confidence": 0.76,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 184.95,
-            "seller": "budget-builds-of-orlando",
-            "shipping_usd": 6.95,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
-            "total_usd": 191.9,
-            "url": "https://www.ebay.com/itm/407172052407",
-            "why_good": "Crucial P2 2TB M.2 2280 NVMe with 96% health stated, US listing, return coverage shown, and delivered total stays under $200."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
