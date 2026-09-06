@@ -1,30 +1,24 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-06T20:34:56.900128+00:00",
+  "finished_at": "2026-09-06T21:34:07.808780+00:00",
   "logs": [
-    "2026-09-06 16:17:05,276 INFO scalper run started 2026-09-06T20:17:05.276241+00:00",
-    "2026-09-06 16:17:05,278 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-06 16:19:55,555 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-06 16:19:55,556 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-06 16:22:15,366 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-06 16:22:15,366 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-06 16:24:27,240 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-06 16:24:27,241 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-06 16:26:31,006 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-06 16:26:31,007 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-06 16:28:40,572 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-09-06 16:28:40,573 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-06 16:29:15,790 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-06 16:29:15,967 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/407172052407",
-    "2026-09-06 16:29:15,968 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested url=https://www.ebay.com/itm/407172052407",
-    "2026-09-06 16:29:22,428 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-09-06 16:29:22,429 INFO already notified target=2tb-nvme-magnus-one-us market=us total=185.39 url=https://www.ebay.com/itm/407172052407",
-    "2026-09-06 16:29:22,430 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-06 16:31:11,967 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-06 16:31:11,968 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-06 16:34:56,899 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-09-06 17:17:05,338 INFO scalper run started 2026-09-06T21:17:05.338292+00:00",
+    "2026-09-06 17:17:05,341 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-06 17:19:12,766 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-06 17:19:12,767 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-06 17:21:07,643 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-06 17:21:07,644 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-06 17:23:34,300 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-06 17:23:34,300 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-06 17:27:42,996 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-06 17:27:42,997 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-06 17:30:36,194 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-09-06 17:30:36,195 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-06 17:32:09,475 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-06 17:32:09,476 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-06 17:34:07,808 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-09-06T20:17:05.276241+00:00",
+  "started_at": "2026-09-06T21:17:05.338292+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -130,45 +124,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; 96% health tested",
-            "confidence": 0.66,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 179.99,
-            "seller": "goa_839",
-            "shipping_usd": 5.4,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
-            "total_usd": 185.39,
-            "url": "https://www.ebay.com/itm/407172052407",
-            "why_good": "Exact Crucial P2 CT2000P2SSD8 2TB M.2 2280 NVMe SSD with stated 96% health, Buy It Now, US seller, under $200 delivered; eBay Money Back Guarantee applies though seller does not accept returns."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; 96% health tested",
-          "confidence": 0.66,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 179.99,
-          "seller": "goa_839",
-          "shipping_usd": 5.4,
-          "source": "eBay",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
-          "total_usd": 185.39,
-          "url": "https://www.ebay.com/itm/407172052407",
-          "why_good": "Exact Crucial P2 CT2000P2SSD8 2TB M.2 2280 NVMe SSD with stated 96% health, Buy It Now, US seller, under $200 delivered; eBay Money Back Guarantee applies though seller does not accept returns."
-        }
-      ],
+      "deals": [],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -176,28 +134,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; 96% health tested",
-            "confidence": 0.66,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 179.99,
-            "seller": "goa_839",
-            "shipping_usd": 5.4,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
-            "total_usd": 185.39,
-            "url": "https://www.ebay.com/itm/407172052407",
-            "why_good": "Exact Crucial P2 CT2000P2SSD8 2TB M.2 2280 NVMe SSD with stated 96% health, Buy It Now, US seller, under $200 delivered; eBay Money Back Guarantee applies though seller does not accept returns."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
