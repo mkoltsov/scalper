@@ -1,0 +1,17 @@
+2026-09-07 01:17:05,445 INFO scalper run started 2026-09-07T05:17:05.445299+00:00
+2026-09-07 01:17:05,447 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-07 01:19:09,321 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-07 01:19:09,321 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-07 01:21:15,232 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-07 01:21:15,233 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-09-07 01:24:17,780 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-09-07 01:24:17,781 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-09-07 01:26:33,211 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-09-07 01:26:33,211 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-09-07 01:29:20,082 INFO rejected deal target=2tb-nvme-magnus-one-us reason=http_403 title=Samsung 980 PRO 2TB PCIe 4.0 NVMe M.2 Internal V-NAND Solid State Drive PlayStation 5 Compatible url=https://www.gamestop.com/pc-gaming/pc-components/hard-drives-ssds/internal-hard-drives/products/samsung-980-pro-2tb-pcie-4.0-nvme-m.2-internal-v-nand-solid-state-drive-playstation-5-compatible/310257.html?a=1
+2026-09-07 01:29:20,082 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
+2026-09-07 01:29:20,083 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-07 01:31:25,582 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-07 01:31:25,583 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-07 01:34:00,928 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:'s)?\s+special)\b title=2017 Lexus ES 350 Sedan
+2026-09-07 01:34:00,928 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
