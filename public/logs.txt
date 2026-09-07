@@ -1,21 +1,17 @@
-2026-09-07 00:17:05,392 INFO scalper run started 2026-09-07T04:17:05.391917+00:00
-2026-09-07 00:17:05,393 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-07 00:19:03,859 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-07 00:19:03,860 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-07 00:20:47,540 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-07 00:20:47,540 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-09-07 00:22:55,163 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-09-07 00:22:55,164 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-09-07 00:24:33,682 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-09-07 00:24:33,682 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-09-07 00:27:29,579 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/227483518573
-2026-09-07 00:27:29,579 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=NEW ADATA LEGEND GOLD 800 2TB SSD PCIe Gen 4 x 4 NVMe Solid State Drive Gen4 url=https://www.ebay.com/itm/227483518573
-2026-09-07 00:28:04,425 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347559397
-2026-09-07 00:28:04,426 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366347559397
-2026-09-07 00:28:12,909 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2
-2026-09-07 00:28:12,909 INFO already notified target=2tb-nvme-magnus-one-us market=us total=194.98 url=https://www.ebay.com/itm/227483518573
-2026-09-07 00:28:12,910 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347559397
-2026-09-07 00:28:12,910 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-07 00:30:14,076 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-07 00:30:14,077 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-07 00:32:36,693 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-09-07 01:17:05,445 INFO scalper run started 2026-09-07T05:17:05.445299+00:00
+2026-09-07 01:17:05,447 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-07 01:19:09,321 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-07 01:19:09,321 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-07 01:21:15,232 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-07 01:21:15,233 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-09-07 01:24:17,780 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-09-07 01:24:17,781 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-09-07 01:26:33,211 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-09-07 01:26:33,211 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-09-07 01:29:20,082 INFO rejected deal target=2tb-nvme-magnus-one-us reason=http_403 title=Samsung 980 PRO 2TB PCIe 4.0 NVMe M.2 Internal V-NAND Solid State Drive PlayStation 5 Compatible url=https://www.gamestop.com/pc-gaming/pc-components/hard-drives-ssds/internal-hard-drives/products/samsung-980-pro-2tb-pcie-4.0-nvme-m.2-internal-v-nand-solid-state-drive-playstation-5-compatible/310257.html?a=1
+2026-09-07 01:29:20,082 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
+2026-09-07 01:29:20,083 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-07 01:31:25,582 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-07 01:31:25,583 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-07 01:34:00,928 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:'s)?\s+special)\b title=2017 Lexus ES 350 Sedan
+2026-09-07 01:34:00,928 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
