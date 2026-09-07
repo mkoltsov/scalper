@@ -1,27 +1,33 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-07T07:36:05.830996+00:00",
+  "finished_at": "2026-09-07T09:36:25.342478+00:00",
   "logs": [
-    "2026-09-07 03:17:05,156 INFO scalper run started 2026-09-07T07:17:05.156173+00:00",
-    "2026-09-07 03:17:05,158 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-07 03:19:03,449 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-07 03:19:03,449 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-07 03:21:57,623 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-07 03:21:57,624 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-07 03:24:43,122 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-07 03:24:43,123 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-07 03:27:10,273 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-07 03:27:10,274 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-07 03:30:43,536 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-09-07 03:30:43,537 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-07 03:31:20,429 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-07 03:31:20,429 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
-    "2026-09-07 03:31:20,430 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-07 03:33:53,329 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-07 03:33:53,329 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-07 03:36:05,830 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-09-07 05:17:04,864 INFO scalper run started 2026-09-07T09:17:04.864621+00:00",
+    "2026-09-07 05:17:04,866 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-07 05:18:38,657 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-07 05:18:38,658 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-07 05:20:24,931 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-07 05:20:24,932 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-07 05:23:25,578 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-07 05:23:25,579 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-07 05:26:19,726 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-07 05:26:19,727 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-07 05:29:12,857 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-09-07 05:29:12,858 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-07 05:29:47,096 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-07 05:29:47,268 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/227483518573?campid=5339111681",
+    "2026-09-07 05:29:47,269 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=NEW ADATA LEGEND GOLD 800 2TB SSD PCIe Gen 4 x 4 NVMe Solid State Drive Gen4 url=https://www.ebay.com/itm/227483518573?campid=5339111681",
+    "2026-09-07 05:29:56,281 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/336659740761",
+    "2026-09-07 05:29:56,282 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Brand New Fanxiang NVME S501Q 2TB SSD 5yr Warranty url=https://www.ebay.com/itm/336659740761",
+    "2026-09-07 05:30:05,147 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2",
+    "2026-09-07 05:30:05,148 INFO new deal target=2tb-nvme-magnus-one-us market=us total=192.98 url=https://www.ebay.com/itm/227483518573?campid=5339111681",
+    "2026-09-07 05:30:05,285 INFO already notified target=2tb-nvme-magnus-one-us market=us total=193.99 url=https://www.ebay.com/itm/336659740761",
+    "2026-09-07 05:30:05,286 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-07 05:33:36,824 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-07 05:33:36,825 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-07 05:36:25,342 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
   ],
-  "started_at": "2026-09-07T07:17:05.156173+00:00",
+  "started_at": "2026-09-07T09:17:04.864621+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -127,9 +133,79 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Open box; Certified Open Box with 1-year Allstate warranty and 30-day free returns",
+            "confidence": 0.84,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 192.98,
+            "seller": "minipcsnmore",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "NEW ADATA LEGEND GOLD 800 2TB SSD PCIe Gen 4 x 4 NVMe Solid State Drive Gen4",
+            "total_usd": 192.98,
+            "url": "https://www.ebay.com/itm/227483518573?campid=5339111681",
+            "why_good": "Open-box ADATA Legend 800 2TB NVMe internal SSD, M.2 form factor, no heatsink listing, free US shipping, more than 10 available, clear warranty/returns."
+          },
+          {
+            "availability": "available",
+            "condition": "New; seller states 5-year warranty, eBay Money Back Guarantee applies",
+            "confidence": 0.78,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 193.99,
+            "seller": "ZVES",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "Brand New Fanxiang NVME S501Q 2TB SSD 5yr Warranty",
+            "total_usd": 193.99,
+            "url": "https://www.ebay.com/itm/336659740761",
+            "why_good": "New Fanxiang S501Q listing explicitly shows 2TB, M.2 2280 PCIe M-key NVMe, free US shipping, 2 available, and warranty text is clear."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Open box; Certified Open Box with 1-year Allstate warranty and 30-day free returns",
+          "confidence": 0.84,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 192.98,
+          "seller": "minipcsnmore",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "2tb-nvme-magnus-one-us",
+          "title": "NEW ADATA LEGEND GOLD 800 2TB SSD PCIe Gen 4 x 4 NVMe Solid State Drive Gen4",
+          "total_usd": 192.98,
+          "url": "https://www.ebay.com/itm/227483518573?campid=5339111681",
+          "why_good": "Open-box ADATA Legend 800 2TB NVMe internal SSD, M.2 form factor, no heatsink listing, free US shipping, more than 10 available, clear warranty/returns."
+        },
+        {
+          "availability": "available",
+          "condition": "New; seller states 5-year warranty, eBay Money Back Guarantee applies",
+          "confidence": 0.78,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 193.99,
+          "seller": "ZVES",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "2tb-nvme-magnus-one-us",
+          "title": "Brand New Fanxiang NVME S501Q 2TB SSD 5yr Warranty",
+          "total_usd": 193.99,
+          "url": "https://www.ebay.com/itm/336659740761",
+          "why_good": "New Fanxiang S501Q listing explicitly shows 2TB, M.2 2280 PCIe M-key NVMe, free US shipping, 2 available, and warranty text is clear."
+        }
+      ],
       "id": "2tb-nvme-magnus-one-us",
       "max_price_usd": 200,
       "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
@@ -137,12 +213,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Open box; Certified Open Box with 1-year Allstate warranty and 30-day free returns",
+            "confidence": 0.84,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 192.98,
+            "seller": "minipcsnmore",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "2tb-nvme-magnus-one-us",
+            "title": "NEW ADATA LEGEND GOLD 800 2TB SSD PCIe Gen 4 x 4 NVMe Solid State Drive Gen4",
+            "total_usd": 192.98,
+            "url": "https://www.ebay.com/itm/227483518573?campid=5339111681",
+            "why_good": "Open-box ADATA Legend 800 2TB NVMe internal SSD, M.2 form factor, no heatsink listing, free US shipping, more than 10 available, clear warranty/returns."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
