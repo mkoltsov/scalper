@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-09-08T05:35:30.246317+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-09-08T06:37:35.567705+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -71,9 +71,56 @@
             <section class="target">
               <div class="target-head">
                 <h1>Used red hood for 2nd-gen Toyota Matrix</h1>
-                <span>0 live matches</span>
+                <span>2 live matches</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>$369.00</strong>
+                  <small>PartsHotlines</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> PartsHotlines · $369.00 · United States</div>
+                  <h2><a href="https://www.partshotlines.com/parts/toyota/matrix/hood.html" rel="nofollow noopener">2009 MATRIX Hood - 0S2, RED - stock QF0811</a></h2>
+                  <p>2009 Toyota Matrix hood listed as RED by a US recycler; item price is low enough that normal domestic hood freight estimate keeps total under $450.</p>
+                </article>
+    
+
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> PartsHotlines · $400.00 · United States</div>
+                  <h2><a href="https://www.partshotlines.com/parts/toyota/matrix/hood.html" rel="nofollow noopener">2009 MATRIX Hood - RED 3L5 SOME CHIPS - stock 037-25</a></h2>
+                  <p>2009 Toyota Matrix hood explicitly listed as RED 3L5; chips are normal used wear, and estimated domestic freight keeps total under $450.</p>
+                </article>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
             </section>
             
             <section class="target">
@@ -102,8 +149,8 @@
                 
                 <div class="metric">
                   <span>US best</span>
-                  <strong>$199.95</strong>
-                  <small>eBay</small>
+                  <strong>$199.99</strong>
+                  <small>Newegg</small>
                 </div>
     
                 
@@ -126,9 +173,9 @@
                 <h2>US</h2>
                 
                 <article class="deal">
-                  <div class="meta"><span class="badge">US</span> eBay · $199.95 · United States</div>
-                  <h2><a href="https://www.ebay.com/itm/137560757030" rel="nofollow noopener">Intel 670p 2TB M.2 PCIe 3.0 NVME SSD</a></h2>
-                  <p>Intel 670p 2TB M.2 2280 NVMe SSD, eBay Refurbished, free US shipping, clear seller, returns, and 1-year warranty.</p>
+                  <div class="meta"><span class="badge">US</span> Newegg · $199.99 · United States</div>
+                  <h2><a href="https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490" rel="nofollow noopener">ADATA LEGEND 710 M.2 2280 2TB PCI-Express 3.0 x4 3D NAND Internal Solid State Drive (SSD) ALEG-710-2TCS</a></h2>
+                  <p>New 2TB M.2 2280 PCIe Gen3 x4 NVMe internal SSD from ADATA with free US shipping and 30-day return coverage.</p>
                 </article>
     
               </div>
@@ -205,28 +252,28 @@
         <h1>Logs</h1>
         <span>22 lines published</span>
       </div>
-      <pre>2026-09-08 01:17:04,758 INFO scalper run started 2026-09-08T05:17:04.758558+00:00
-2026-09-08 01:17:04,760 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-08 01:18:55,296 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-08 01:18:55,296 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-08 01:20:22,099 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-08 01:20:22,100 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-09-08 01:23:37,194 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
-2026-09-08 01:23:37,195 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-09-08 01:25:36,284 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-09-08 01:25:36,285 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-09-08 01:29:46,957 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
-2026-09-08 01:29:46,958 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520
-2026-09-08 01:30:20,469 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520
-2026-09-08 01:30:20,626 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137560757030
-2026-09-08 01:30:20,627 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Intel 670p 2TB M.2 PCIe 3.0 NVME SSD url=https://www.ebay.com/itm/137560757030
-2026-09-08 01:30:28,641 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
-2026-09-08 01:30:28,642 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.95 url=https://www.ebay.com/itm/137560757030
-2026-09-08 01:30:28,642 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-08 01:32:58,831 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-08 01:32:58,832 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-08 01:35:30,245 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:&#x27;s)?\s+special)\b title=2017 Lexus ES 350 Sedan
-2026-09-08 01:35:30,246 INFO target=lexus-es-2016-2018-cary qualifying_deals=0</pre>
+      <pre>2026-09-08 02:17:05,710 INFO scalper run started 2026-09-08T06:17:05.710173+00:00
+2026-09-08 02:17:05,712 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-08 02:19:05,556 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-08 02:19:05,556 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-08 02:23:14,565 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=2
+2026-09-08 02:23:14,565 INFO already notified target=toyota-matrix-2nd-gen-red-hood market=us total=369.00 url=https://www.partshotlines.com/parts/toyota/matrix/hood.html
+2026-09-08 02:23:14,565 INFO already notified target=toyota-matrix-2nd-gen-red-hood market=us total=400.00 url=https://www.partshotlines.com/parts/toyota/matrix/hood.html
+2026-09-08 02:23:14,566 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-09-08 02:25:31,332 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-09-08 02:25:31,332 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-09-08 02:28:02,759 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-09-08 02:28:02,759 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-09-08 02:30:59,038 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
+2026-09-08 02:30:59,039 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520
+2026-09-08 02:31:08,042 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520
+2026-09-08 02:31:18,818 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1
+2026-09-08 02:31:18,819 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.99 url=https://www.newegg.com/adata-2tb-legend-710-nvme-1-4/p/N82E16820215490?Item=N82E16820215490
+2026-09-08 02:31:18,820 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-08 02:34:22,623 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-08 02:34:22,624 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-08 02:37:35,567 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:&#x27;s)?\s+special)\b title=2017 Lexus ES 350 Sedan
+2026-09-08 02:37:35,567 INFO target=lexus-es-2016-2018-cary qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
