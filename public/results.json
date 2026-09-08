@@ -1,34 +1,32 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-08T19:34:37.418167+00:00",
+  "finished_at": "2026-09-08T20:35:20.250272+00:00",
   "logs": [
-    "2026-09-08 15:17:04,953 INFO scalper run started 2026-09-08T19:17:04.953270+00:00",
-    "2026-09-08 15:17:04,955 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-08 15:19:07,769 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-08 15:19:07,769 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-08 15:21:01,058 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-08 15:21:01,058 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-08 15:23:06,166 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-08 15:23:06,167 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-08 15:25:47,907 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-08 15:25:47,908 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-08 15:29:15,833 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-09-08 15:29:15,833 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-08 15:29:50,957 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-08 15:29:51,169 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/377389710250",
-    "2026-09-08 15:29:51,170 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=ADATA LEGEND 800 GOLD 2TB PCIe Gen4 x4 NVMe M.2 2280 SSD Open Box url=https://www.ebay.com/itm/377389710250",
-    "2026-09-08 15:29:57,132 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347559397",
-    "2026-09-08 15:29:57,133 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366347559397",
-    "2026-09-08 15:30:05,865 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2",
-    "2026-09-08 15:30:05,866 INFO already notified target=2tb-nvme-magnus-one-us market=us total=189.99 url=https://www.ebay.com/itm/377389710250",
-    "2026-09-08 15:30:05,866 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347559397",
-    "2026-09-08 15:30:05,867 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-08 15:32:30,567 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-08 15:32:30,567 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-08 15:34:37,417 INFO target=lexus-es-2016-2018-cary qualifying_deals=1",
-    "2026-09-08 15:34:37,417 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale"
+    "2026-09-08 16:17:05,618 INFO scalper run started 2026-09-08T20:17:05.618038+00:00",
+    "2026-09-08 16:17:05,620 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-08 16:19:08,173 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-08 16:19:08,174 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-08 16:21:30,413 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-08 16:21:30,414 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-08 16:22:56,422 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-08 16:22:56,423 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-08 16:25:01,470 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-08 16:25:01,470 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-08 16:29:37,109 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-09-08 16:29:37,110 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-08 16:30:12,368 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-08 16:30:12,557 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/407172052407",
+    "2026-09-08 16:30:12,558 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested url=https://www.ebay.com/itm/407172052407",
+    "2026-09-08 16:30:18,963 INFO rejected deal target=2tb-nvme-magnus-one-us reason=http_403 title=Samsung 980 PRO 2TB PCIe 4.0 NVMe M.2 Internal V-NAND Solid State Drive PlayStation 5 Compatible url=https://www.gamestop.com/pc-gaming/pc-components/hard-drives-ssds/internal-hard-drives/products/samsung-980-pro-pcie-4.0-nvme-m.2-internal-v-nand-solid-state-drive-2tb/11165889-11165891.html",
+    "2026-09-08 16:30:18,963 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-09-08 16:30:18,964 INFO already notified target=2tb-nvme-magnus-one-us market=us total=185.39 url=https://www.ebay.com/itm/407172052407",
+    "2026-09-08 16:30:18,964 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-08 16:32:34,314 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-08 16:32:34,315 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-08 16:35:20,249 INFO target=lexus-es-2016-2018-cary qualifying_deals=1",
+    "2026-09-08 16:35:20,250 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale"
   ],
-  "started_at": "2026-09-08T19:17:04.953270+00:00",
+  "started_at": "2026-09-08T20:17:05.618038+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -137,74 +135,40 @@
         "us": [
           {
             "availability": "available",
-            "condition": "Open box",
+            "condition": "Used; 96% health tested; seller does not accept returns, eBay Money Back Guarantee applies",
             "confidence": 0.72,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 189.99,
-            "seller": "stach_40",
-            "shipping_usd": 0.0,
+            "price_usd": 179.99,
+            "seller": "goa_839",
+            "shipping_usd": 5.4,
             "source": "eBay",
             "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 800 GOLD 2TB PCIe Gen4 x4 NVMe M.2 2280 SSD Open Box",
-            "total_usd": 189.99,
-            "url": "https://www.ebay.com/itm/377389710250",
-            "why_good": "Open-box ADATA LEGEND 800 GOLD 2TB M.2 2280 NVMe PCIe Gen4 drive, free US shipping, eBay Money Back Guarantee; low-profile module."
-          },
-          {
-            "availability": "available",
-            "condition": "Used; tested fully functional; 100% Health",
-            "confidence": 0.69,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.0,
-            "seller": "Byte Depot",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health",
-            "total_usd": 199.0,
-            "url": "https://www.ebay.com/itm/366347559397",
-            "why_good": "ADATA LEGEND 800 GOLD 2TB M.2 2280 NVMe drive with stated 100% health, US seller, Buy It Now, free US shipping; standard low-profile M.2 module."
+            "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
+            "total_usd": 185.39,
+            "url": "https://www.ebay.com/itm/407172052407",
+            "why_good": "Crucial CT2000P2SSD8 is an exact 2TB M.2 2280 NVMe SSD; listing states 96% health tested, Buy It Now, US seller, no heatsink."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "Open box",
+          "condition": "Used; 96% health tested; seller does not accept returns, eBay Money Back Guarantee applies",
           "confidence": 0.72,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
-          "price_usd": 189.99,
-          "seller": "stach_40",
-          "shipping_usd": 0.0,
+          "price_usd": 179.99,
+          "seller": "goa_839",
+          "shipping_usd": 5.4,
           "source": "eBay",
           "target_id": "2tb-nvme-magnus-one-us",
-          "title": "ADATA LEGEND 800 GOLD 2TB PCIe Gen4 x4 NVMe M.2 2280 SSD Open Box",
-          "total_usd": 189.99,
-          "url": "https://www.ebay.com/itm/377389710250",
-          "why_good": "Open-box ADATA LEGEND 800 GOLD 2TB M.2 2280 NVMe PCIe Gen4 drive, free US shipping, eBay Money Back Guarantee; low-profile module."
-        },
-        {
-          "availability": "available",
-          "condition": "Used; tested fully functional; 100% Health",
-          "confidence": 0.69,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 199.0,
-          "seller": "Byte Depot",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health",
-          "total_usd": 199.0,
-          "url": "https://www.ebay.com/itm/366347559397",
-          "why_good": "ADATA LEGEND 800 GOLD 2TB M.2 2280 NVMe drive with stated 100% health, US seller, Buy It Now, free US shipping; standard low-profile M.2 module."
+          "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
+          "total_usd": 185.39,
+          "url": "https://www.ebay.com/itm/407172052407",
+          "why_good": "Crucial CT2000P2SSD8 is an exact 2TB M.2 2280 NVMe SSD; listing states 96% health tested, Buy It Now, US seller, no heatsink."
         }
       ],
       "id": "2tb-nvme-magnus-one-us",
@@ -216,26 +180,26 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "Open box",
+            "condition": "Used; 96% health tested; seller does not accept returns, eBay Money Back Guarantee applies",
             "confidence": 0.72,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
-            "price_usd": 189.99,
-            "seller": "stach_40",
-            "shipping_usd": 0.0,
+            "price_usd": 179.99,
+            "seller": "goa_839",
+            "shipping_usd": 5.4,
             "source": "eBay",
             "target_id": "2tb-nvme-magnus-one-us",
-            "title": "ADATA LEGEND 800 GOLD 2TB PCIe Gen4 x4 NVMe M.2 2280 SSD Open Box",
-            "total_usd": 189.99,
-            "url": "https://www.ebay.com/itm/377389710250",
-            "why_good": "Open-box ADATA LEGEND 800 GOLD 2TB M.2 2280 NVMe PCIe Gen4 drive, free US shipping, eBay Money Back Guarantee; low-profile module."
+            "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
+            "total_usd": 185.39,
+            "url": "https://www.ebay.com/itm/407172052407",
+            "why_good": "Crucial CT2000P2SSD8 is an exact 2TB M.2 2280 NVMe SSD; listing states 96% health tested, Buy It Now, US seller, no heatsink."
           }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -273,7 +237,7 @@
         "us": [
           {
             "availability": "available",
-            "condition": "Used; clean title verified on TrueCar cross-listing for VIN JTHBK1GG1H2253581",
+            "condition": "Used; clean title cross-checked on TrueCar for same VIN; active dealer listing with contact action",
             "confidence": 0.82,
             "delivery_country": "United States",
             "market_label": "US",
@@ -286,14 +250,14 @@
             "title": "2017 Lexus ES 350 Sedan",
             "total_usd": 16898.0,
             "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-            "why_good": "Dealer page shows 2017 Lexus ES 350 Sedan, $16,898, 96,015 miles, Smithfield NC; TrueCar same VIN reports clean title; within 200 miles of Cary."
+            "why_good": "Dealer listing shows 2017 Lexus ES 350 sedan, 96,015 miles, $16,898, Smithfield NC; TrueCar same VIN shows clean title and $17,297 including dealer fees, still under $18,000."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "Used; clean title verified on TrueCar cross-listing for VIN JTHBK1GG1H2253581",
+          "condition": "Used; clean title cross-checked on TrueCar for same VIN; active dealer listing with contact action",
           "confidence": 0.82,
           "delivery_country": "United States",
           "market_label": "US",
@@ -306,7 +270,7 @@
           "title": "2017 Lexus ES 350 Sedan",
           "total_usd": 16898.0,
           "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-          "why_good": "Dealer page shows 2017 Lexus ES 350 Sedan, $16,898, 96,015 miles, Smithfield NC; TrueCar same VIN reports clean title; within 200 miles of Cary."
+          "why_good": "Dealer listing shows 2017 Lexus ES 350 sedan, 96,015 miles, $16,898, Smithfield NC; TrueCar same VIN shows clean title and $17,297 including dealer fees, still under $18,000."
         }
       ],
       "id": "lexus-es-2016-2018-cary",
@@ -318,7 +282,7 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "Used; clean title verified on TrueCar cross-listing for VIN JTHBK1GG1H2253581",
+            "condition": "Used; clean title cross-checked on TrueCar for same VIN; active dealer listing with contact action",
             "confidence": 0.82,
             "delivery_country": "United States",
             "market_label": "US",
@@ -331,7 +295,7 @@
             "title": "2017 Lexus ES 350 Sedan",
             "total_usd": 16898.0,
             "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-            "why_good": "Dealer page shows 2017 Lexus ES 350 Sedan, $16,898, 96,015 miles, Smithfield NC; TrueCar same VIN reports clean title; within 200 miles of Cary."
+            "why_good": "Dealer listing shows 2017 Lexus ES 350 sedan, 96,015 miles, $16,898, Smithfield NC; TrueCar same VIN shows clean title and $17,297 including dealer fees, still under $18,000."
           }
         },
         "counts": {
