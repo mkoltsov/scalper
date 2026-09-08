@@ -1,31 +1,34 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-08T14:35:03.985812+00:00",
+  "finished_at": "2026-09-08T15:35:34.982321+00:00",
   "logs": [
-    "2026-09-08 10:17:05,252 INFO scalper run started 2026-09-08T14:17:05.252858+00:00",
-    "2026-09-08 10:17:05,254 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-08 10:19:09,528 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-08 10:19:09,529 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-08 10:21:14,470 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-08 10:21:14,471 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-08 10:23:48,298 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-08 10:23:48,299 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-08 10:26:16,980 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-08 10:26:16,981 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-08 10:29:00,827 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-09-08 10:29:00,828 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-08 10:29:36,102 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-08 10:29:36,279 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469",
-    "2026-09-08 10:29:36,280 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469",
-    "2026-09-08 10:29:44,908 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
-    "2026-09-08 10:29:44,908 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469",
-    "2026-09-08 10:29:44,909 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-08 10:32:23,217 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-08 10:32:23,217 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-08 10:35:03,985 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\\s+only|for\\s+parts|not\\s+running|non\\s*running|mechanic(?:'s)?\\s+special)\\b title=2017 Lexus ES 350 Sedan",
-    "2026-09-08 10:35:03,985 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-09-08 11:17:05,810 INFO scalper run started 2026-09-08T15:17:05.810263+00:00",
+    "2026-09-08 11:17:05,812 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-08 11:19:15,092 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-08 11:19:15,093 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-08 11:21:35,342 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-08 11:21:35,343 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-08 11:24:13,170 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-08 11:24:13,171 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-08 11:25:58,948 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-08 11:25:58,948 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-08 11:30:46,896 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-09-08 11:30:46,896 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-08 11:31:22,962 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-08 11:31:23,125 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/398214947213",
+    "2026-09-08 11:31:23,125 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 Open Box 100% health url=https://www.ebay.com/itm/398214947213",
+    "2026-09-08 11:31:29,711 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=AGI 2TB M.2 2280 NVME AGI2T0G43AI818 PCIe Gen4x4 Open Box 100% health url=https://www.ebay.com/itm/398214947213",
+    "2026-09-08 11:31:29,864 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469",
+    "2026-09-08 11:31:29,865 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469",
+    "2026-09-08 11:31:38,254 INFO target=2tb-nvme-magnus-one-us qualifying_deals=1",
+    "2026-09-08 11:31:38,256 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469",
+    "2026-09-08 11:31:38,257 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-08 11:33:32,439 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-08 11:33:32,440 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-08 11:35:34,981 INFO target=lexus-es-2016-2018-cary qualifying_deals=1",
+    "2026-09-08 11:35:34,982 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale"
   ],
-  "started_at": "2026-09-08T14:17:05.252858+00:00",
+  "started_at": "2026-09-08T15:17:05.810263+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -134,8 +137,8 @@
         "us": [
           {
             "availability": "available",
-            "condition": "Used - tested fully functional, 90-99% health",
-            "confidence": 0.8,
+            "condition": "Used; tested fully functional, pulled from working environment",
+            "confidence": 0.76,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -147,15 +150,15 @@
             "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
             "total_usd": 199.0,
             "url": "https://www.ebay.com/itm/366347771469",
-            "why_good": "Kingston SNV2S/2000G is a 2TB M.2 2280 NVMe drive with stated 90-99% health, Buy It Now, free US shipping, and eBay buyer protection."
+            "why_good": "Exact Kingston NV2 SNV2S/2000G 2TB M.2 2280 NVMe SSD, 90-99% health stated, Buy It Now, US seller, eBay Money Back Guarantee."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "Used - tested fully functional, 90-99% health",
-          "confidence": 0.8,
+          "condition": "Used; tested fully functional, pulled from working environment",
+          "confidence": 0.76,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -167,7 +170,7 @@
           "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
           "total_usd": 199.0,
           "url": "https://www.ebay.com/itm/366347771469",
-          "why_good": "Kingston SNV2S/2000G is a 2TB M.2 2280 NVMe drive with stated 90-99% health, Buy It Now, free US shipping, and eBay buyer protection."
+          "why_good": "Exact Kingston NV2 SNV2S/2000G 2TB M.2 2280 NVMe SSD, 90-99% health stated, Buy It Now, US seller, eBay Money Back Guarantee."
         }
       ],
       "id": "2tb-nvme-magnus-one-us",
@@ -179,8 +182,8 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "Used - tested fully functional, 90-99% health",
-            "confidence": 0.8,
+            "condition": "Used; tested fully functional, pulled from working environment",
+            "confidence": 0.76,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -192,7 +195,7 @@
             "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
             "total_usd": 199.0,
             "url": "https://www.ebay.com/itm/366347771469",
-            "why_good": "Kingston SNV2S/2000G is a 2TB M.2 2280 NVMe drive with stated 90-99% health, Buy It Now, free US shipping, and eBay buyer protection."
+            "why_good": "Exact Kingston NV2 SNV2S/2000G 2TB M.2 2280 NVMe SSD, 90-99% health stated, Buy It Now, US seller, eBay Money Back Guarantee."
           }
         },
         "counts": {
@@ -233,9 +236,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; clean title reported by TrueCar for VIN JTHBK1GG1H2253581",
+            "confidence": 0.87,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 16898.0,
+            "seller": "Perfect Ride",
+            "shipping_usd": 0.0,
+            "source": "Perfect Ride",
+            "target_id": "lexus-es-2016-2018-cary",
+            "title": "2017 Lexus ES 350 Sedan",
+            "total_usd": 16898.0,
+            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+            "why_good": "2017 Lexus ES 350 sedan in Smithfield, NC; dealer page shows active contact actions, $16,898 price, 96,015 miles, and VIN; TrueCar reports clean title for same VIN."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; clean title reported by TrueCar for VIN JTHBK1GG1H2253581",
+          "confidence": 0.87,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 16898.0,
+          "seller": "Perfect Ride",
+          "shipping_usd": 0.0,
+          "source": "Perfect Ride",
+          "target_id": "lexus-es-2016-2018-cary",
+          "title": "2017 Lexus ES 350 Sedan",
+          "total_usd": 16898.0,
+          "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+          "why_good": "2017 Lexus ES 350 sedan in Smithfield, NC; dealer page shows active contact actions, $16,898 price, 96,015 miles, and VIN; TrueCar reports clean title for same VIN."
+        }
+      ],
       "id": "lexus-es-2016-2018-cary",
       "max_price_usd": 18000,
       "name": "2016-2018 Lexus ES near Cary, NC",
@@ -243,12 +282,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; clean title reported by TrueCar for VIN JTHBK1GG1H2253581",
+            "confidence": 0.87,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 16898.0,
+            "seller": "Perfect Ride",
+            "shipping_usd": 0.0,
+            "source": "Perfect Ride",
+            "target_id": "lexus-es-2016-2018-cary",
+            "title": "2017 Lexus ES 350 Sedan",
+            "total_usd": 16898.0,
+            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+            "why_good": "2017 Lexus ES 350 sedan in Smithfield, NC; dealer page shows active contact actions, $16,898 price, 96,015 miles, and VIN; TrueCar reports clean title for same VIN."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
