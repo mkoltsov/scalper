@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-09-08T10:36:43.132279+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-09-08T11:35:46.564893+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -78,6 +78,14 @@
             
             <section class="target">
               <div class="target-head">
+                <h1>Lenovo ThinkPad P1 with 16GB VRAM</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
                 <h1>Wanbo Mozart 1 Pro 2025 projector</h1>
                 <span>0 live matches</span>
               </div>
@@ -87,9 +95,56 @@
             <section class="target">
               <div class="target-head">
                 <h1>2TB NVMe SSD for ZOTAC Magnus One in the US</h1>
-                <span>0 live matches</span>
+                <span>2 live matches</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>$199.00</strong>
+                  <small>eBay</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> eBay · $199.00 · United States</div>
+                  <h2><a href="https://www.ebay.com/itm/366347559397" rel="nofollow noopener">ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health</a></h2>
+                  <p>Exact ADATA Legend 800 Gold 2TB M.2 NVMe model, 2280 form factor, 47 available, Buy It Now, free US shipping shown in eBay results.</p>
+                </article>
+    
+
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> eBay · $199.95 · United States</div>
+                  <h2><a href="https://www.ebay.com/itm/137560757030" rel="nofollow noopener">Intel 670p 2TB M.2 PCIe 3.0 NVME SSD</a></h2>
+                  <p>Intel 670p 2TB M.2 2280 NVMe PCIe 3.0 SSD, eBay Refurbished with one-year warranty, free US shipping and returns.</p>
+                </article>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
             </section>
             
             <section class="target">
@@ -155,249 +210,33 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>19 lines published</span>
+        <span>25 lines published</span>
       </div>
-      <pre>2026-09-08 06:17:05,626 INFO scalper run started 2026-09-08T10:17:05.626814+00:00
-2026-09-08 06:17:05,628 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-08 06:18:59,987 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-08 06:18:59,988 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-08 06:21:20,783 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-08 06:21:20,783 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
-2026-09-08 06:26:31,571 ERROR Codex search failed for target=lenovo-thinkpad-p1-16gb-vram
-Traceback (most recent call last):
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1856, in run
-    result = run_codex(target, config, metrics)
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 523, in run_codex
-    raise RuntimeError(
-        f&quot;Codex failed for {target[&#x27;id&#x27;]} with exit code {process.returncode}: {process.stderr.strip()}&quot;
-    )
-RuntimeError: Codex failed for lenovo-thinkpad-p1-16gb-vram with exit code 1: Reading additional input from stdin...
-OpenAI Codex v0.153.0
---------
-workdir: /home/intimatik/dev/scalper
-model: gpt-5.5
-provider: openai
-approval: never
-sandbox: read-only
-reasoning effort: xhigh
-reasoning summaries: none
-session id: 01a08089-5f5c-7163-a94c-0c20834b3c5b
---------
-user
-You are a precise deal-finding automation. Use live web_search.
-
-Current UTC date: 2026-09-08
-Target id: lenovo-thinkpad-p1-16gb-vram
-Target name: Lenovo ThinkPad P1 with 16GB VRAM
-Maximum total price: $945 USD, including shipping or delivery to United States.
-Usual market price estimate: $unknown USD.
-Configured shipping destinations:
-[
-  &quot;United States&quot;
-]
-
-Search intent:
-Find currently available used, refurbished, open-box, or discounted Lenovo ThinkPad P1 mobile workstation listings under $945 total. The laptop must be a Lenovo ThinkPad P1 and must have a discrete GPU with exactly 16GB of dedicated VRAM/video memory. System RAM does not count toward this requirement: reject listings that mention 16GB only as RAM/system memory and do not independently prove 16GB of GPU VRAM. Accept any ThinkPad P1 generation and any discrete GPU model only when the exact listing page or an authoritative specification tied to the listed machine proves that its installed GPU has 16GB VRAM. Reject Lenovo ThinkPad P-series models other than P1, ThinkPad X1 models, desktops, bare GPUs, parts-only machines, broken/not-working laptops, sold listings, out-of-stock listings, auction-only listings without buy-it-now, local-pickup-only listings outside the configured OfferUp Cary NC area, listings that do not ship directly to the United States unless they are qualifying local OfferUp listings, links that do not open as active listing pages, and listings where item price plus shipping is $945 or more.
-
-Acceptance criteria:
-[
-  &quot;It is a complete Lenovo ThinkPad P1 laptop/mobile workstation; accept any P1 generation.&quot;,
-  &quot;Its installed discrete GPU has exactly 16GB of dedicated VRAM/video memory.&quot;,
-  &quot;The 16GB VRAM requirement must be proven separately from system RAM; 16GB RAM alone is not acceptable.&quot;,
-  &quot;The listing or an authoritative specification tied to the exact listed configuration identifies the GPU and proves its 16GB VRAM capacity.&quot;,
-  &quot;Reject ThinkPad models other than P1, including P15, P16, P17, P52, P53, P72, P73, and X1 models.&quot;,
-  &quot;Reject bare GPUs, laptop parts, parts-only machines, broken laptops, and not-working laptops.&quot;,
-  &quot;The total price including shipping is less than 945 USD.&quot;,
-  &quot;It is currently available to buy.&quot;,
-  &quot;The listing URL opens as an active canonical listing page with a current purchase or contact action.&quot;,
-  &quot;It ships directly to the United States, or it is an OfferUp local-pickup listing in or near Cary, NC 27519.&quot;
-]
-
-Required model/text patterns. A listing must match at least one if this list is not empty:
-[
-  &quot;(?=.*\\b(?:lenovo\\s+)?thinkpad\\s+p1(?:\\s+gen(?:eration)?\\s*\\d+)?\\b)(?=.*\\b16\\s*(?:gb|gib)\\s*(?:vram|video\\s+memory|graphics\\s+memory|gddr6)\\b)&quot;,
-  &quot;(?=.*\\blenovo\\s+thinkpad\\s+p1(?:\\s+gen(?:eration)?\\s*\\d+)?\\b)(?=.*\\b(?:vram|video\\s+memory|graphics\\s+memory|gddr6)\\s*[:/-]?\\s*16\\s*(?:gb|gib)\\b)&quot;
-]
-
-Reject text patterns. Exclude a listing if it matches any of these:
-[
-  &quot;\\bthinkpad\\s+(?:p15|p16|p17|p52|p53|p72|p73|x1)\\b&quot;,
-  &quot;\\b(?:4|6|8|10|12|24|32)\\s*(?:gb|gib)\\s*(?:vram|video\\s+memory|graphics\\s+memory|gddr6)\\b&quot;,
-  &quot;\\b(?:vram|video\\s+memory|graphics\\s+memory|gddr6)\\s*[:/-]?\\s*(?:4|6|8|10|12|24|32)\\s*(?:gb|gib)\\b&quot;,
-  &quot;\\b(?:bare\\s+gpu|gpu\\s+only|graphics\\s+card\\s+only|motherboard\\s+only|display\\s+only|screen\\s+only|for\\s+parts|parts\\s+only|not\\s+working|non\\s*working|broken)\\b&quot;
-]
-
-Suggested search queries:
-[
-  &quot;Lenovo ThinkPad P1 16GB VRAM under $945&quot;,
-  &quot;ThinkPad P1 RTX 3080 16GB VRAM used under $945&quot;,
-  &quot;ThinkPad P1 RTX 3080 Ti 16GB VRAM used under $945&quot;,
-  &quot;ThinkPad P1 RTX 4090 16GB VRAM used under $945&quot;,
-  &quot;ThinkPad P1 RTX A5500 16GB VRAM under $945&quot;,
-  &quot;ThinkPad P1 RTX 5000 16GB VRAM under $945&quot;,
-  &quot;ThinkPad P1 Quadro RTX 5000 16GB used under $945&quot;,
-  &quot;site:ebay.com Lenovo ThinkPad P1 16GB VRAM&quot;,
-  &quot;site:offerup.com ThinkPad P1 16GB VRAM Cary NC 27519&quot;,
-  &quot;site:offerup.com ThinkPad P1 RTX 3080 Raleigh Durham Cary&quot;
-]
-
-Marketplace search coverage:
-[
-  &quot;Search US retailers and US marketplace listings only, and rank qualifying results by delivered total price from lowest to highest.&quot;
-]
-
-Local marketplace exception:
-- OfferUp listings are acceptable if they are in or near Cary, NC 27519 within about 25 miles.
-- For qualifying OfferUp listings, local pickup is acceptable and shipping is not required.
-- Still reject sold, pending, unavailable, deleted, expired, missing, or non-loading OfferUp listings.
-
-
-Return only strict JSON. Do not wrap it in Markdown. Do not include prose.
-Schema:
-{
-  &quot;target_id&quot;: &quot;lenovo-thinkpad-p1-16gb-vram&quot;,
-  &quot;checked_at&quot;: &quot;ISO-8601 timestamp&quot;,
-      &quot;deals&quot;: [
-    {
-      &quot;title&quot;: &quot;listing title&quot;,
-      &quot;url&quot;: &quot;direct listing URL&quot;,
-      &quot;source&quot;: &quot;marketplace or site name&quot;,
-      &quot;seller&quot;: &quot;seller if visible, otherwise empty string&quot;,
-      &quot;price_usd&quot;: 0.0,
-      &quot;shipping_usd&quot;: 0.0,
-      &quot;total_usd&quot;: 0.0,
-      &quot;condition&quot;: &quot;condition text&quot;,
-      &quot;availability&quot;: &quot;available&quot;,
-      &quot;listing_status&quot;: &quot;available&quot;,
-      &quot;ships_to_us&quot;: true,
-      &quot;ships_to_destination&quot;: true,
-      &quot;shipping_destination&quot;: &quot;United States&quot;,
-      &quot;delivery_country&quot;: &quot;United States&quot;,
-      &quot;market_region&quot;: &quot;us&quot;,
-      &quot;vehicle_mileage_miles&quot;: 0,
-      &quot;distance_from_reference_miles&quot;: 0,
-      &quot;why_good&quot;: &quot;short reason this matches the criteria&quot;,
-      &quot;confidence&quot;: 0.0
-    }
-  ]
-}
-
-Rules:
-- Include at most 5 deals.
-- Set market_region to &quot;us&quot; for US marketplace/listing-location deals, &quot;eu&quot; for European/UK/Polish marketplace/listing-location deals, and &quot;other&quot; only if the listing cannot be classified.
-- Include only listings that satisfy every acceptance criterion.
-- If a configured target criterion says United States shipping, interpret that shipping criterion as shipping or delivery to at least one configured shipping destination for this run: United States.
-- Open the exact direct listing URL before returning it. Exclude it if the URL does not load as a real listing page, returns not found, redirects to a search/home/error page, or says the listing was deleted/expired/ended.
-- Use total_usd = item price plus shipping/delivery to the qualifying destination. If the listing is in EUR, PLN, GBP, or another non-USD currency, convert item price plus delivery to USD with current exchange rates and mention the original currency in why_good. If shipping is unknown, exclude the deal unless the item price alone is low enough that normal shipping to United States still keeps it below the limit.
-- Include only listings that ship or deliver directly to at least one configured destination: United States, except qualifying OfferUp listings near the configured local ZIP where local pickup is acceptable. Exclude Craigslist/Facebook Marketplace local listings and listings that require a proxy/forwarder.
-- Exclude sold, expired, ended, out-of-stock, unavailable, pending, auction-only without buy-it-now, and unclear listings.
-- Never return sold listings, completed listings, availability examples, archived pages, cached listings, or historical price references.
-- Exclude SEO pages or search result pages. A deal URL must be a buyable listing page.
-- If there are no qualifying deals, return &quot;deals&quot;: [].
-codex
-I’ll verify this against live listing pages and only return JSON. I’m going to check marketplaces first, then open candidate pages to confirm the exact P1 model, GPU VRAM, availability, and delivered total.
-web search: 
-web search: Lenovo ThinkPad P1 16GB VRAM under $945
-web search: 
-web search: https://www.ebay.com/itm/358433146977
-web search: 
-web search: https://www.ebay.com/sch/i.html?_nkw=lenovo+thinkpad+rtx+a5000&amp;_sop=12
-web search: 
-web search: https://www.ebay.com/sch/i.html?_nkw=thinkpad+p1+rtx+3080&amp;_sop=12
-web search: 
-web search: https://www.ebay.com/sch/i.html?_nkw=thinkpad+p1+rtx+3080&amp;_sop=12
-web search: 
-web search: &quot;ThinkPad P1&quot; &quot;16GB GDDR6&quot; &quot;$&quot; &quot;Buy It Now&quot;
-web search: 
-web search: https://www.ebay.com/itm/358391512833
-web search: 
-web search: &quot;ThinkPad P1 Gen 4&quot; &quot;RTX 3080&quot; &quot;$850&quot; -ebay
-web search: 
-web search: https://www.ebay.com/shop/thinkpad-rtx?_nkw=thinkpad+rtx
-web search: 
-web search: https://www.ebay.com/shop/thinkpad-rtx?_nkw=thinkpad+rtx
-web search: 
-web search: https://www.ebay.com/itm/820002765670
-web search: 
-web search: &quot;ThinkPad P1 Gen 5&quot; &quot;RTX A4500&quot; &quot;$&quot; eBay
-web search: 
-web search: &quot;ThinkPad P1&quot; &quot;RTX 5000&quot; &quot;16GB&quot; &quot;$&quot; ebay
-web search: 
-web search: site:offerup.com &quot;ThinkPad P1&quot; &quot;16GB&quot; &quot;RTX&quot; &quot;Cary&quot;
-web search: 
-web search: https://www.ebay.com/b/Lenovo-16-GB-RAM-Dedicated-Graphics-PC-Laptops-Netbooks/177/bn_100297688
-web search: 
-web search: &quot;Lenovo ThinkPad P1 Gen 4 i9-11950H 16GB 256GB RTX 3080 No AC&quot;
-exec
-/usr/bin/zsh -lc &#x27;date -u +%Y-%m-%dT%H:%M:%SZ&#x27; in /home/intimatik/dev/scalper
- succeeded in 0ms:
-2026-09-08T10:23:49Z
-
-web search: 
-web search: 
-web search: 
-web search: &quot;furb-x&quot; &quot;Lenovo ThinkPad P1 Gen 4 i9-11950H 16GB 256GB RTX 3080&quot;
-web search: 
-web search: https://www.ebay.com/sch/i.html?_nkw=rtx+3080+laptop&amp;_sop=12
-web search: 
-web search: https://www.ebay.com/shop/lenovo-rtx-3080?_nkw=lenovo+rtx+3080
-web search: 
-web search: site:ebay.com/itm &quot;New ListingLenovo ThinkPad P1 Gen 4 i9-11950H 16GB 256GB RTX 3080 No AC&quot;
-web search: 
-web search: https://www.ebay.com/b/ThinkPad-PC-Laptops-Netbooks-2-50-2-99-GHz-Processor-Speed/177/bn_7116062331
-web search: 
-web search: https://www.ebay.com/sch/i.html?_nkw=Lenovo+ThinkPad+P1+Gen+4+i9-11950H+16GB+256GB+RTX+3080+No+AC&amp;LH_BIN=1&amp;_sop=10
-web search: 
-web search: https://www.ebay.com/shop/11950h?_nkw=11950h
-web search: 
-web search: 
-web search: 
-web search: pricepad &quot;Lenovo ThinkPad P1 Gen 4 i9-11950H 16GB 256GB RTX 3080 No AC&quot;
-web search: 
-web search: https://www.pricepad.dev/us/?direction=asc&amp;page=8&amp;sort=cpu
-web search: 
-web search: https://www.pricepad.dev/us/?direction=asc&amp;page=8&amp;sort=cpu
-web search: 
-web search: &quot;furb-x&quot; &quot;ThinkPad P1 Gen 4&quot; &quot;RTX 3080&quot;
-exec
-/usr/bin/zsh -lc &quot;curl -L --max-time 20 -A &#x27;Mozilla/5.0&#x27; &#x27;https://www.ebay.com/sch/i.html?_nkw=Lenovo+ThinkPad+P1+Gen+4+i9-11950H+16GB+256GB+RTX+3080+No+AC&amp;LH_BIN=1&amp;_sop=10&#x27; | rg -o &#x27;https://www\\.ebay\\.com/itm/[0-9]+&#x27; | head -20&quot; in /home/intimatik/dev/scalper
- succeeded in 37ms:
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: www.ebay.com
-
-web search: 
-web search: &#x27;Lenovo ThinkPad P1 Gen 4 i9-11950H 16GB 256GB RTX 3080&#x27;
-web search: 
-web search: &quot;furb-x&quot; &quot;ThinkPad P1&quot;
-web search: 
-web search: &quot;Lenovo ThinkPad P1 Gen 4 i9-11950H 16GB 256GB RTX 3080&quot; -&quot;No AC&quot;
-web search: 
-web search: https://www.ebay.com/b/ThinkPad-PC-Laptops-Netbooks-2-50-2-99-GHz-Processor-Speed/177/bn_7116062331
-web search: 
-web search: https://sv.ebay.com/b/Lenovo-PC-Laptops-Netbooks/177/bn_358084
-web search: 
-web search: https://www.ebay.com/sch/i.html?_nkw=Lenovo%20ThinkPad%20P1%20Gen%204%20i9-11950H%2016GB%20256GB%20RTX%203080%20No%20AC
-web search: 
-web search: https://www.ebay.com/sch/i.html?_nkw=Lenovo%20ThinkPad%20P1%20Gen%204%20i9-11950H%2016GB%20256GB%20RTX%203080%20No%20AC
-web search: 
-ERROR: Codex ran out of room in the model&#x27;s context window. Start a new thread or clear earlier history before retrying.
-ERROR: Codex ran out of room in the model&#x27;s context window. Start a new thread or clear earlier history before retrying.
-tokens used
-0
-2026-09-08 06:26:31,575 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
-2026-09-08 06:28:24,337 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
-2026-09-08 06:28:24,337 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
-2026-09-08 06:31:15,717 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
-2026-09-08 06:31:15,718 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520
-2026-09-08 06:31:51,715 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520
-2026-09-08 06:31:51,715 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0
-2026-09-08 06:31:51,716 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-08 06:34:26,404 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-08 06:34:26,405 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-08 06:36:43,131 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:&#x27;s)?\s+special)\b title=2017 Lexus ES 350 Sedan
-2026-09-08 06:36:43,132 INFO target=lexus-es-2016-2018-cary qualifying_deals=0</pre>
+      <pre>2026-09-08 07:17:05,556 INFO scalper run started 2026-09-08T11:17:05.556203+00:00
+2026-09-08 07:17:05,558 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-08 07:20:32,974 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-08 07:20:32,975 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-08 07:23:05,541 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-08 07:23:05,541 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search
+2026-09-08 07:25:42,557 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0
+2026-09-08 07:25:42,557 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search
+2026-09-08 07:27:32,188 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0
+2026-09-08 07:27:32,188 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search
+2026-09-08 07:29:51,267 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520
+2026-09-08 07:29:51,268 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520
+2026-09-08 07:30:27,086 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520
+2026-09-08 07:30:27,284 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347559397
+2026-09-08 07:30:27,285 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=ADATA LEGEND 800 GOLD 2TB 2280 M.2 NVME SSD (SLEG-800G-2000GB-S38) 100% Health url=https://www.ebay.com/itm/366347559397
+2026-09-08 07:30:35,905 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137560757030
+2026-09-08 07:30:35,906 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Intel 670p 2TB M.2 PCIe 3.0 NVME SSD url=https://www.ebay.com/itm/137560757030
+2026-09-08 07:30:44,621 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2
+2026-09-08 07:30:44,621 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347559397
+2026-09-08 07:30:44,622 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.95 url=https://www.ebay.com/itm/137560757030
+2026-09-08 07:30:44,622 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-08 07:33:04,626 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-08 07:33:04,627 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-08 07:35:46,564 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:&#x27;s)?\s+special)\b title=2017 Lexus ES 350 Sedan
+2026-09-08 07:35:46,564 INFO target=lexus-es-2016-2018-cary qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
