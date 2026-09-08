@@ -1,37 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-08T21:34:27.139269+00:00",
+  "finished_at": "2026-09-08T22:31:46.747797+00:00",
   "logs": [
-    "2026-09-08 17:17:05,624 INFO scalper run started 2026-09-08T21:17:05.624141+00:00",
-    "2026-09-08 17:17:05,626 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-08 17:18:58,508 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-08 17:18:58,509 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-08 17:21:06,334 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-08 17:21:06,335 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-08 17:23:01,587 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-08 17:23:01,588 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-08 17:25:38,173 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-08 17:25:38,173 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-08 17:29:18,633 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-09-08 17:29:18,634 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-08 17:29:52,800 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-08 17:29:53,178 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/407172052407",
-    "2026-09-08 17:29:53,179 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested url=https://www.ebay.com/itm/407172052407",
-    "2026-09-08 17:29:59,919 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/366347771469",
-    "2026-09-08 17:29:59,920 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health url=https://www.ebay.com/itm/366347771469",
-    "2026-09-08 17:30:08,667 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/137560757030",
-    "2026-09-08 17:30:08,668 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=Intel 670p 2TB M.2 PCIe 3.0 NVME SSD url=https://www.ebay.com/itm/137560757030",
-    "2026-09-08 17:30:15,887 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=Intel 670p 2TB M.2 PCIe 3.0 NVME SSD url=https://www.ebay.com/itm/137560757030",
-    "2026-09-08 17:30:15,887 INFO target=2tb-nvme-magnus-one-us qualifying_deals=2",
-    "2026-09-08 17:30:15,888 INFO new deal target=2tb-nvme-magnus-one-us market=us total=185.16 url=https://www.ebay.com/itm/407172052407",
-    "2026-09-08 17:30:15,996 INFO already notified target=2tb-nvme-magnus-one-us market=us total=199.00 url=https://www.ebay.com/itm/366347771469",
-    "2026-09-08 17:30:15,997 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-08 17:32:15,114 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-08 17:32:15,114 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-08 17:34:27,138 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\\s+only|for\\s+parts|not\\s+running|non\\s*running|mechanic(?:'s)?\\s+special)\\b title=2017 Lexus ES 350 Sedan",
-    "2026-09-08 17:34:27,139 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-09-08 18:17:05,631 INFO scalper run started 2026-09-08T22:17:05.631834+00:00",
+    "2026-09-08 18:17:05,633 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-08 18:19:21,323 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-08 18:19:21,324 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-08 18:21:17,278 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-08 18:21:17,279 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-08 18:23:24,127 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-08 18:23:24,128 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-08 18:26:59,424 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\\b(?:es\\s*-?\\s*300h|hybrid|electrified|plug-in|plug\\s+in|phev)\\b title=2017 Lexus ES 350 Sedan",
+    "2026-09-08 18:26:59,424 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-08 18:26:59,425 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-08 18:31:12,297 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\b(?:rx\\s*-?\\s*350(?!l)|rx\\s*-?\\s*450h|rx\\s*-?\\s*450hl|rx\\s*-?\\s*500h|rx\\s*-?\\s*550h\\+?)\\b title=2018 Lexus RX 350 350L Luxury FWD",
+    "2026-09-08 18:31:46,657 INFO target=lexus-rx-350l-under-20k qualifying_deals=1",
+    "2026-09-08 18:31:46,657 INFO new deal target=lexus-rx-350l-under-20k market=us total=18977.00 url=https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm"
   ],
-  "started_at": "2026-09-08T21:17:05.624141+00:00",
+  "started_at": "2026-09-08T22:17:05.631834+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -90,167 +76,6 @@
         "us": []
       },
       "deals": [],
-      "id": "lenovo-thinkpad-p1-16gb-vram",
-      "max_price_usd": 945,
-      "name": "Lenovo ThinkPad P1 with 16GB VRAM",
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": null
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 0
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      }
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
-        "us": []
-      },
-      "deals": [],
-      "id": "wanbo-mozart-1-pro-2025",
-      "max_price_usd": 359,
-      "name": "Wanbo Mozart 1 Pro 2025 projector",
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": null
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 0
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      }
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used, 96% health tested",
-            "confidence": 0.73,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 179.99,
-            "seller": "goa_839",
-            "shipping_usd": 5.17,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
-            "total_usd": 185.16,
-            "url": "https://www.ebay.com/itm/407172052407",
-            "why_good": "Exact Crucial P2 CT2000P2SSD8 2TB M.2 2280 NVMe drive with health stated and delivered price under $200."
-          },
-          {
-            "availability": "available",
-            "condition": "Used, 90-99% health",
-            "confidence": 0.7,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 199.0,
-            "seller": "kenji2007",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
-            "total_usd": 199.0,
-            "url": "https://www.ebay.com/itm/366347771469",
-            "why_good": "Exact Kingston NV2 SNV2S/2000G 2TB M.2 2280 NVMe drive with health range stated and free US shipping."
-          }
-        ]
-      },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used, 96% health tested",
-          "confidence": 0.73,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 179.99,
-          "seller": "goa_839",
-          "shipping_usd": 5.17,
-          "source": "eBay",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
-          "total_usd": 185.16,
-          "url": "https://www.ebay.com/itm/407172052407",
-          "why_good": "Exact Crucial P2 CT2000P2SSD8 2TB M.2 2280 NVMe drive with health stated and delivered price under $200."
-        },
-        {
-          "availability": "available",
-          "condition": "Used, 90-99% health",
-          "confidence": 0.7,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 199.0,
-          "seller": "kenji2007",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "2tb-nvme-magnus-one-us",
-          "title": "Kingston NV2 2TB 2280 M.2 NVMe SSD | PCIe 4.0 (SNV2S/2000G) 90-99% Health",
-          "total_usd": 199.0,
-          "url": "https://www.ebay.com/itm/366347771469",
-          "why_good": "Exact Kingston NV2 SNV2S/2000G 2TB M.2 2280 NVMe drive with health range stated and free US shipping."
-        }
-      ],
-      "id": "2tb-nvme-magnus-one-us",
-      "max_price_usd": 200,
-      "name": "2TB NVMe SSD for ZOTAC Magnus One in the US",
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used, 96% health tested",
-            "confidence": 0.73,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 179.99,
-            "seller": "goa_839",
-            "shipping_usd": 5.17,
-            "source": "eBay",
-            "target_id": "2tb-nvme-magnus-one-us",
-            "title": "Crucial P2 2TB NVMe SSD M.2 2280 PCIe Gen3 x4 CT2000P2SSD8 96% Health Tested",
-            "total_usd": 185.16,
-            "url": "https://www.ebay.com/itm/407172052407",
-            "why_good": "Exact Crucial P2 CT2000P2SSD8 2TB M.2 2280 NVMe drive with health stated and delivered price under $200."
-          }
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 2
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      }
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
-        "us": []
-      },
-      "deals": [],
       "id": "acura-tsx-wagon-cary",
       "max_price_usd": 11000,
       "name": "Acura TSX Sport Wagon with leather near Cary, NC",
@@ -289,6 +114,83 @@
           "eu": 0,
           "other": 0,
           "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; gasoline; 195,462 miles; AWD; complete running SUV described with active availability confirmation",
+            "confidence": 0.82,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 18977.0,
+            "seller": "KC Summers Toyota",
+            "shipping_usd": 0.0,
+            "source": "KC Summers Toyota",
+            "target_id": "lexus-rx-350l-under-20k",
+            "title": "Pre-Owned 2018 LEXUS RX 350L Premium All-wheel Drive",
+            "total_usd": 18977.0,
+            "url": "https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm",
+            "why_good": "Exact RX 350L dealer listing in Mattoon, IL with gasoline V6, sale price under $20,000, VIN shown, and Confirm Availability action."
+          }
+        ]
+      },
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; gasoline; 195,462 miles; AWD; complete running SUV described with active availability confirmation",
+          "confidence": 0.82,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 18977.0,
+          "seller": "KC Summers Toyota",
+          "shipping_usd": 0.0,
+          "source": "KC Summers Toyota",
+          "target_id": "lexus-rx-350l-under-20k",
+          "title": "Pre-Owned 2018 LEXUS RX 350L Premium All-wheel Drive",
+          "total_usd": 18977.0,
+          "url": "https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm",
+          "why_good": "Exact RX 350L dealer listing in Mattoon, IL with gasoline V6, sale price under $20,000, VIN shown, and Confirm Availability action."
+        }
+      ],
+      "id": "lexus-rx-350l-under-20k",
+      "max_price_usd": 20000,
+      "name": "Lexus RX 350L under $20,000",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": {
+            "availability": "available",
+            "condition": "Used; gasoline; 195,462 miles; AWD; complete running SUV described with active availability confirmation",
+            "confidence": 0.82,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 18977.0,
+            "seller": "KC Summers Toyota",
+            "shipping_usd": 0.0,
+            "source": "KC Summers Toyota",
+            "target_id": "lexus-rx-350l-under-20k",
+            "title": "Pre-Owned 2018 LEXUS RX 350L Premium All-wheel Drive",
+            "total_usd": 18977.0,
+            "url": "https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm",
+            "why_good": "Exact RX 350L dealer listing in Mattoon, IL with gasoline V6, sale price under $20,000, VIN shown, and Confirm Availability action."
+          }
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
