@@ -1,31 +1,28 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-08T02:34:53.186868+00:00",
+  "finished_at": "2026-09-08T03:35:35.936981+00:00",
   "logs": [
-    "2026-09-07 22:17:05,293 INFO scalper run started 2026-09-08T02:17:05.293185+00:00",
-    "2026-09-07 22:17:05,295 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-07 22:18:45,338 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-07 22:18:45,339 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-07 22:20:40,785 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-07 22:20:40,786 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
-    "2026-09-07 22:23:26,914 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
-    "2026-09-07 22:23:26,915 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
-    "2026-09-07 22:25:59,315 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
-    "2026-09-07 22:25:59,315 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
-    "2026-09-07 22:28:50,087 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
-    "2026-09-07 22:28:50,088 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-07 22:29:26,448 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
-    "2026-09-07 22:29:29,064 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/127845212103",
-    "2026-09-07 22:29:29,064 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=MSI SPATIUM M371 2TB PCIe Gen 3x4 NVMe M.2 2280 SSD url=https://www.ebay.com/itm/127845212103",
-    "2026-09-07 22:29:37,811 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=unavailable title=MSI SPATIUM M371 2TB PCIe Gen 3x4 NVMe M.2 2280 SSD url=https://www.ebay.com/itm/127845212103",
-    "2026-09-07 22:29:37,812 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
-    "2026-09-07 22:29:37,812 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-07 22:32:29,246 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-07 22:32:29,247 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-07 22:34:53,186 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\\s+only|for\\s+parts|not\\s+running|non\\s*running|mechanic(?:'s)?\\s+special)\\b title=2017 Lexus ES 350 Sedan",
-    "2026-09-07 22:34:53,186 INFO target=lexus-es-2016-2018-cary qualifying_deals=0"
+    "2026-09-07 23:17:04,758 INFO scalper run started 2026-09-08T03:17:04.758642+00:00",
+    "2026-09-07 23:17:04,760 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-07 23:19:03,024 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-07 23:19:03,025 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-07 23:20:57,608 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-07 23:20:57,609 INFO checking target=lenovo-thinkpad-p1-16gb-vram with Codex web_search",
+    "2026-09-07 23:23:57,588 INFO target=lenovo-thinkpad-p1-16gb-vram qualifying_deals=0",
+    "2026-09-07 23:23:57,588 INFO checking target=wanbo-mozart-1-pro-2025 with Codex web_search",
+    "2026-09-07 23:25:55,881 INFO target=wanbo-mozart-1-pro-2025 qualifying_deals=0",
+    "2026-09-07 23:25:55,881 INFO checking target=2tb-nvme-magnus-one-us with Codex web_search",
+    "2026-09-07 23:28:46,766 INFO listing URL validation rejected target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified url=https://www.ebay.com/itm/236756487520",
+    "2026-09-07 23:28:46,767 INFO HTTP validation inconclusive target=2tb-nvme-magnus-one-us reason=http_403_antibot_unverified title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-07 23:29:20,490 INFO browser validation rejected target=2tb-nvme-magnus-one-us reason=ended title=WD/Sandisk D3E024 PoHS 2TB 2280 NVME M.2 SSD SDBPNPZ-2T00-XI (4kn Read Below) url=https://www.ebay.com/itm/236756487520",
+    "2026-09-07 23:29:20,490 INFO target=2tb-nvme-magnus-one-us qualifying_deals=0",
+    "2026-09-07 23:29:20,491 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-07 23:32:07,803 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-07 23:32:07,804 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-07 23:35:35,936 INFO target=lexus-es-2016-2018-cary qualifying_deals=1",
+    "2026-09-07 23:35:35,936 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale"
   ],
-  "started_at": "2026-09-08T02:17:05.293185+00:00",
+  "started_at": "2026-09-08T03:17:04.758642+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -181,9 +178,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; clean title reported by TrueCar for same VIN",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 16898.0,
+            "seller": "Perfect Ride",
+            "shipping_usd": 0.0,
+            "source": "Perfect Ride",
+            "target_id": "lexus-es-2016-2018-cary",
+            "title": "2017 Lexus ES 350 Sedan",
+            "total_usd": 16898.0,
+            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+            "why_good": "Dealer page shows 2017 Lexus ES 350 Sedan, $16,898, 96,015 miles, Smithfield NC, and seller contact/call actions; TrueCar reports clean title for VIN JTHBK1GG1H2253581; calculated about 37.3 miles from Cary 27519."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; clean title reported by TrueCar for same VIN",
+          "confidence": 0.86,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 16898.0,
+          "seller": "Perfect Ride",
+          "shipping_usd": 0.0,
+          "source": "Perfect Ride",
+          "target_id": "lexus-es-2016-2018-cary",
+          "title": "2017 Lexus ES 350 Sedan",
+          "total_usd": 16898.0,
+          "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+          "why_good": "Dealer page shows 2017 Lexus ES 350 Sedan, $16,898, 96,015 miles, Smithfield NC, and seller contact/call actions; TrueCar reports clean title for VIN JTHBK1GG1H2253581; calculated about 37.3 miles from Cary 27519."
+        }
+      ],
       "id": "lexus-es-2016-2018-cary",
       "max_price_usd": 18000,
       "name": "2016-2018 Lexus ES near Cary, NC",
@@ -191,12 +224,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; clean title reported by TrueCar for same VIN",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 16898.0,
+            "seller": "Perfect Ride",
+            "shipping_usd": 0.0,
+            "source": "Perfect Ride",
+            "target_id": "lexus-es-2016-2018-cary",
+            "title": "2017 Lexus ES 350 Sedan",
+            "total_usd": 16898.0,
+            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+            "why_good": "Dealer page shows 2017 Lexus ES 350 Sedan, $16,898, 96,015 miles, Smithfield NC, and seller contact/call actions; TrueCar reports clean title for VIN JTHBK1GG1H2253581; calculated about 37.3 miles from Cary 27519."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
