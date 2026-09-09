@@ -1,13 +1,13 @@
-2026-09-09 16:17:04,949 INFO scalper run started 2026-09-09T20:17:04.949027+00:00
-2026-09-09 16:17:04,951 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-09 16:18:49,680 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-09 16:18:49,681 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-09 16:20:48,046 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-09 16:20:48,047 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-09 16:23:11,698 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-09 16:23:11,698 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-09 16:26:23,558 INFO target=lexus-es-2016-2018-cary qualifying_deals=1
-2026-09-09 16:26:23,559 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale
-2026-09-09 16:26:23,560 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
-2026-09-09 16:28:41,629 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\bhybrid\b title=2018 Lexus RX 350L Luxury AWD
-2026-09-09 16:28:41,630 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
+2026-09-09 17:17:05,170 INFO scalper run started 2026-09-09T21:17:05.170030+00:00
+2026-09-09 17:17:05,172 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-09 17:18:50,320 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-09 17:18:50,321 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-09 17:20:47,029 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-09 17:20:47,030 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-09 17:23:02,352 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-09 17:23:02,353 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-09 17:25:47,227 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:es\s*-?\s*300h|hybrid|electrified|plug-in|plug\s+in|phev)\b title=2017 Lexus ES 350 Sedan
+2026-09-09 17:25:47,227 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-09-09 17:25:47,228 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-09 17:30:08,135 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:'s)?\s+special)\b title=2018 Lexus RX 350L Premium
+2026-09-09 17:30:08,136 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
