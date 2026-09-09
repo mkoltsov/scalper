@@ -1,11 +1,14 @@
-2026-09-09 03:17:04,722 INFO scalper run started 2026-09-09T07:17:04.722700+00:00
-2026-09-09 03:17:04,724 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-09 03:18:51,458 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-09 03:18:51,459 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-09 03:20:37,013 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-09 03:20:37,013 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-09 03:23:15,612 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-09 03:23:15,613 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-09 03:25:33,481 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
-2026-09-09 03:25:33,481 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
-2026-09-09 03:27:34,037 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
+2026-09-09 05:17:05,060 INFO scalper run started 2026-09-09T09:17:05.060344+00:00
+2026-09-09 05:17:05,062 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-09 05:19:09,614 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-09 05:19:09,615 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-09 05:21:08,802 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-09 05:21:08,802 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-09 05:23:35,691 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-09 05:23:35,692 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-09 05:26:25,154 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:'s)?\s+special)\b title=2017 Lexus ES 350 Sedan
+2026-09-09 05:26:25,154 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-09-09 05:26:25,155 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-09 05:30:35,994 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L Luxury AWD url=https://signup.cargurus.com/details/441058100?inclusionType=DEFAULT&listingIndex=14&ourls=SRP&resultSetId=0f893745-5676-4743-9112-c9262cefc8c4&searchDistance=50&searchUuid=8f16febc-d074-4263-9851-11fe32fe69de&sponsoredType=NONE&srpVariation=DEALER_INVENTORY
+2026-09-09 05:30:35,994 INFO target=lexus-rx-350l-under-20k qualifying_deals=1
+2026-09-09 05:30:35,995 INFO already notified target=lexus-rx-350l-under-20k market=us total=18977.00 url=https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249
