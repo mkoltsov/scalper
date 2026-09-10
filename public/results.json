@@ -1,23 +1,21 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-10T15:29:32.043773+00:00",
+  "finished_at": "2026-09-10T16:27:47.030139+00:00",
   "logs": [
-    "2026-09-10 11:17:05,517 INFO scalper run started 2026-09-10T15:17:05.517742+00:00",
-    "2026-09-10 11:17:05,519 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-10 11:19:19,001 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-10 11:19:19,002 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-10 11:21:34,753 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-10 11:21:34,754 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-10 11:23:17,542 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-10 11:23:17,543 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-10 11:25:09,279 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
-    "2026-09-10 11:25:09,280 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-10 11:29:00,078 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=2019 Lexus RX 350L AWD",
-    "2026-09-10 11:29:00,079 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=Pre-Owned 2018 LEXUS RX 350L Premium All-wheel Drive",
-    "2026-09-10 11:29:31,937 INFO target=lexus-rx-350l-under-20k qualifying_deals=1",
-    "2026-09-10 11:29:31,938 INFO new deal target=lexus-rx-350l-under-20k market=us total=19999.00 url=https://www.drivemaxma.com/inventory/used-2018-lexus-rx-rx-350l-sport-utility-4d-jtjdzkca6j2011868-in-west-bridgewater-ma"
+    "2026-09-10 12:17:05,658 INFO scalper run started 2026-09-10T16:17:05.658185+00:00",
+    "2026-09-10 12:17:05,660 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-10 12:19:05,862 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-10 12:19:05,862 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-10 12:21:05,453 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-10 12:21:05,454 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-10 12:23:27,706 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-10 12:23:27,706 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-10 12:25:05,274 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-10 12:25:05,275 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-10 12:27:47,029 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=2018 Lexus RX RX 350L Luxury",
+    "2026-09-10 12:27:47,030 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
   ],
-  "started_at": "2026-09-10T15:17:05.517742+00:00",
+  "started_at": "2026-09-10T16:17:05.658185+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -123,45 +121,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Pre-owned gasoline AWD SUV; 145,201 miles; get-ePrice/get-approved/schedule-test-drive actions present.",
-            "confidence": 0.7,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 19999.0,
-            "seller": "DriveMax Auto Center Sales and Service",
-            "shipping_usd": 0.0,
-            "source": "DriveMax",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "2018 Lexus RX 350L Sport Utility 4D",
-            "total_usd": 19999.0,
-            "url": "https://www.drivemaxma.com/inventory/used-2018-lexus-rx-rx-350l-sport-utility-4d-jtjdzkca6j2011868-in-west-bridgewater-ma",
-            "why_good": "Exact RX 350L dealer listing in West Bridgewater, MA with gasoline fuel and $19,999 asking price, under the $20,000 limit before tax/title/registration."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Pre-owned gasoline AWD SUV; 145,201 miles; get-ePrice/get-approved/schedule-test-drive actions present.",
-          "confidence": 0.7,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 19999.0,
-          "seller": "DriveMax Auto Center Sales and Service",
-          "shipping_usd": 0.0,
-          "source": "DriveMax",
-          "target_id": "lexus-rx-350l-under-20k",
-          "title": "2018 Lexus RX 350L Sport Utility 4D",
-          "total_usd": 19999.0,
-          "url": "https://www.drivemaxma.com/inventory/used-2018-lexus-rx-rx-350l-sport-utility-4d-jtjdzkca6j2011868-in-west-bridgewater-ma",
-          "why_good": "Exact RX 350L dealer listing in West Bridgewater, MA with gasoline fuel and $19,999 asking price, under the $20,000 limit before tax/title/registration."
-        }
-      ],
+      "deals": [],
       "id": "lexus-rx-350l-under-20k",
       "max_price_usd": 20000,
       "name": "Lexus RX 350L under $20,000",
@@ -169,28 +131,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Pre-owned gasoline AWD SUV; 145,201 miles; get-ePrice/get-approved/schedule-test-drive actions present.",
-            "confidence": 0.7,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 19999.0,
-            "seller": "DriveMax Auto Center Sales and Service",
-            "shipping_usd": 0.0,
-            "source": "DriveMax",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "2018 Lexus RX 350L Sport Utility 4D",
-            "total_usd": 19999.0,
-            "url": "https://www.drivemaxma.com/inventory/used-2018-lexus-rx-rx-350l-sport-utility-4d-jtjdzkca6j2011868-in-west-bridgewater-ma",
-            "why_good": "Exact RX 350L dealer listing in West Bridgewater, MA with gasoline fuel and $19,999 asking price, under the $20,000 limit before tax/title/registration."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
