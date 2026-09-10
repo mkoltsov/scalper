@@ -1,22 +1,21 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-10T07:29:01.739014+00:00",
+  "finished_at": "2026-09-10T08:30:20.441616+00:00",
   "logs": [
-    "2026-09-10 03:17:05,432 INFO scalper run started 2026-09-10T07:17:05.432598+00:00",
-    "2026-09-10 03:17:05,434 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-10 03:19:07,665 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-10 03:19:07,666 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-10 03:21:08,216 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-10 03:21:08,217 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-10 03:23:46,761 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-10 03:23:46,762 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-10 03:26:12,172 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
-    "2026-09-10 03:26:12,173 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-10 03:29:01,738 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=2018 Lexus RX 350L Luxury AWD",
-    "2026-09-10 03:29:01,738 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=2018 Lexus RX 350L Luxury w/ Accessory Package",
-    "2026-09-10 03:29:01,738 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
+    "2026-09-10 04:17:05,031 INFO scalper run started 2026-09-10T08:17:05.031563+00:00",
+    "2026-09-10 04:17:05,033 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-10 04:18:41,569 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-10 04:18:41,569 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-10 04:20:43,348 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-10 04:20:43,348 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-10 04:23:03,531 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-10 04:23:03,532 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-10 04:25:31,280 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-10 04:25:31,280 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-10 04:30:20,340 INFO target=lexus-rx-350l-under-20k qualifying_deals=1",
+    "2026-09-10 04:30:20,341 INFO new deal target=lexus-rx-350l-under-20k market=us total=19719.00 url=https://heightsmotorcredit.net/vehicle/used-2018-lexus-rx-luxury-awd-4dr-suv-5157719"
   ],
-  "started_at": "2026-09-10T07:17:05.432598+00:00",
+  "started_at": "2026-09-10T08:17:05.031563+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -122,9 +121,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; clean title reported; gasoline V6; AWD; 149,787 miles",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 19719.0,
+            "seller": "Heights Motor Credit, Houston, TX",
+            "shipping_usd": 0.0,
+            "source": "Heights Motor Credit",
+            "target_id": "lexus-rx-350l-under-20k",
+            "title": "2018 Lexus RX 350L Luxury AWD",
+            "total_usd": 19719.0,
+            "url": "https://heightsmotorcredit.net/vehicle/used-2018-lexus-rx-luxury-awd-4dr-suv-5157719",
+            "why_good": "Same VIN JTJDZKCA4J2007916 is listed as a 2018 Lexus RX 350L Luxury AWD with clean title reported, gasoline V6, Houston dealer contact, and transparent price under $20k."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; clean title reported; gasoline V6; AWD; 149,787 miles",
+          "confidence": 0.86,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 19719.0,
+          "seller": "Heights Motor Credit, Houston, TX",
+          "shipping_usd": 0.0,
+          "source": "Heights Motor Credit",
+          "target_id": "lexus-rx-350l-under-20k",
+          "title": "2018 Lexus RX 350L Luxury AWD",
+          "total_usd": 19719.0,
+          "url": "https://heightsmotorcredit.net/vehicle/used-2018-lexus-rx-luxury-awd-4dr-suv-5157719",
+          "why_good": "Same VIN JTJDZKCA4J2007916 is listed as a 2018 Lexus RX 350L Luxury AWD with clean title reported, gasoline V6, Houston dealer contact, and transparent price under $20k."
+        }
+      ],
       "id": "lexus-rx-350l-under-20k",
       "max_price_usd": 20000,
       "name": "Lexus RX 350L under $20,000",
@@ -132,12 +167,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; clean title reported; gasoline V6; AWD; 149,787 miles",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 19719.0,
+            "seller": "Heights Motor Credit, Houston, TX",
+            "shipping_usd": 0.0,
+            "source": "Heights Motor Credit",
+            "target_id": "lexus-rx-350l-under-20k",
+            "title": "2018 Lexus RX 350L Luxury AWD",
+            "total_usd": 19719.0,
+            "url": "https://heightsmotorcredit.net/vehicle/used-2018-lexus-rx-luxury-awd-4dr-suv-5157719",
+            "why_good": "Same VIN JTJDZKCA4J2007916 is listed as a 2018 Lexus RX 350L Luxury AWD with clean title reported, gasoline V6, Houston dealer contact, and transparent price under $20k."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
