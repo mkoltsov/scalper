@@ -1,23 +1,22 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-10T06:30:28.864692+00:00",
+  "finished_at": "2026-09-10T07:29:01.739014+00:00",
   "logs": [
-    "2026-09-10 02:17:05,561 INFO scalper run started 2026-09-10T06:17:05.561178+00:00",
-    "2026-09-10 02:17:05,564 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-10 02:18:45,345 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-10 02:18:45,346 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-10 02:21:45,921 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-10 02:21:45,922 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-10 02:23:31,936 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-10 02:23:31,937 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-10 02:26:20,719 INFO rejected deal target=lexus-es-2016-2018-cary reason=url_error:[Errno -3] Temporary failure in name resolution title=2017 Lexus ES 350 Sedan url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-    "2026-09-10 02:26:20,720 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
-    "2026-09-10 02:26:20,720 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-10 02:30:28,764 INFO target=lexus-rx-350l-under-20k qualifying_deals=2",
-    "2026-09-10 02:30:28,765 INFO new deal target=lexus-rx-350l-under-20k market=us total=16779.00 url=https://www.capitalone.com/cars/vehicle-details/2019/Lexus/RX/no-trim/JTJDZKCA2K2018933",
-    "2026-09-10 02:30:28,864 INFO already notified target=lexus-rx-350l-under-20k market=us total=19302.00 url=https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996"
+    "2026-09-10 03:17:05,432 INFO scalper run started 2026-09-10T07:17:05.432598+00:00",
+    "2026-09-10 03:17:05,434 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-10 03:19:07,665 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-10 03:19:07,666 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-10 03:21:08,216 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-10 03:21:08,217 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-10 03:23:46,761 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-10 03:23:46,762 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-10 03:26:12,172 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-10 03:26:12,173 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-10 03:29:01,738 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=2018 Lexus RX 350L Luxury AWD",
+    "2026-09-10 03:29:01,738 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=2018 Lexus RX 350L Luxury w/ Accessory Package",
+    "2026-09-10 03:29:01,738 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
   ],
-  "started_at": "2026-09-10T06:17:05.561178+00:00",
+  "started_at": "2026-09-10T07:17:05.432598+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -123,79 +122,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; gasoline; clean title; no accidents reported; AWD SUV",
-            "confidence": 0.88,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 16779.0,
-            "seller": "Spirit Lexus",
-            "shipping_usd": 0.0,
-            "source": "Capital One Auto Navigator",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "2019 Lexus RX 350L AWD",
-            "total_usd": 16779.0,
-            "url": "https://www.capitalone.com/cars/vehicle-details/2019/Lexus/RX/no-trim/JTJDZKCA2K2018933",
-            "why_good": "Exact RX 350L dealer listing in St. Louis, MO with gasoline powertrain, active check-availability/contact actions, and dealer-fees-included price under $20,000."
-          },
-          {
-            "availability": "available",
-            "condition": "Used; gasoline; clean title; AWD SUV",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 19302.0,
-            "seller": "AutoNation Honda Columbus",
-            "shipping_usd": 0.0,
-            "source": "Capital One Auto Navigator",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "2018 Lexus RX 350L Luxury AWD",
-            "total_usd": 19302.0,
-            "url": "https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996",
-            "why_good": "Exact RX 350L dealer listing in Columbus, GA with gasoline powertrain, active check-availability/contact actions, and dealer-fees-included price under $20,000."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; gasoline; clean title; no accidents reported; AWD SUV",
-          "confidence": 0.88,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 16779.0,
-          "seller": "Spirit Lexus",
-          "shipping_usd": 0.0,
-          "source": "Capital One Auto Navigator",
-          "target_id": "lexus-rx-350l-under-20k",
-          "title": "2019 Lexus RX 350L AWD",
-          "total_usd": 16779.0,
-          "url": "https://www.capitalone.com/cars/vehicle-details/2019/Lexus/RX/no-trim/JTJDZKCA2K2018933",
-          "why_good": "Exact RX 350L dealer listing in St. Louis, MO with gasoline powertrain, active check-availability/contact actions, and dealer-fees-included price under $20,000."
-        },
-        {
-          "availability": "available",
-          "condition": "Used; gasoline; clean title; AWD SUV",
-          "confidence": 0.86,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 19302.0,
-          "seller": "AutoNation Honda Columbus",
-          "shipping_usd": 0.0,
-          "source": "Capital One Auto Navigator",
-          "target_id": "lexus-rx-350l-under-20k",
-          "title": "2018 Lexus RX 350L Luxury AWD",
-          "total_usd": 19302.0,
-          "url": "https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996",
-          "why_good": "Exact RX 350L dealer listing in Columbus, GA with gasoline powertrain, active check-availability/contact actions, and dealer-fees-included price under $20,000."
-        }
-      ],
+      "deals": [],
       "id": "lexus-rx-350l-under-20k",
       "max_price_usd": 20000,
       "name": "Lexus RX 350L under $20,000",
@@ -203,28 +132,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; gasoline; clean title; no accidents reported; AWD SUV",
-            "confidence": 0.88,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 16779.0,
-            "seller": "Spirit Lexus",
-            "shipping_usd": 0.0,
-            "source": "Capital One Auto Navigator",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "2019 Lexus RX 350L AWD",
-            "total_usd": 16779.0,
-            "url": "https://www.capitalone.com/cars/vehicle-details/2019/Lexus/RX/no-trim/JTJDZKCA2K2018933",
-            "why_good": "Exact RX 350L dealer listing in St. Louis, MO with gasoline powertrain, active check-availability/contact actions, and dealer-fees-included price under $20,000."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
