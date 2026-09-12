@@ -1,0 +1,13 @@
+2026-09-12 18:17:04,863 INFO scalper run started 2026-09-12T22:17:04.862973+00:00
+2026-09-12 18:17:04,865 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-12 18:18:49,794 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-12 18:18:49,795 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-12 18:20:38,189 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-12 18:20:38,190 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-12 18:22:42,157 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-12 18:22:42,158 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-12 18:25:04,865 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-09-12 18:25:04,866 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-12 18:30:34,443 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\bhybrid\b title=2018 Lexus RX RX 350L Luxury
+2026-09-12 18:30:34,443 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\bhybrid\b title=2018 Lexus RX 350L Premium
+2026-09-12 18:30:34,443 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
