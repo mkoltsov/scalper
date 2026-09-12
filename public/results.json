@@ -1,22 +1,21 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-12T15:28:18.581848+00:00",
+  "finished_at": "2026-09-12T16:27:29.035493+00:00",
   "logs": [
-    "2026-09-12 11:17:04,846 INFO scalper run started 2026-09-12T15:17:04.845906+00:00",
-    "2026-09-12 11:17:04,848 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-12 11:18:32,549 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-12 11:18:32,550 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-12 11:20:23,123 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-12 11:20:23,124 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-12 11:22:37,090 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-12 11:22:37,090 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-12 11:25:34,876 INFO target=lexus-es-2016-2018-cary qualifying_deals=1",
-    "2026-09-12 11:25:34,876 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-    "2026-09-12 11:25:34,877 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-12 11:28:18,581 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_410 title=Used 2018 LEXUS RX 350L Luxury url=https://www.mbmarietta.com/used/Lexus/2018-Lexus-RX-350L-02a74828ac18131a5dcf4e6acd8c6f0b.htm",
-    "2026-09-12 11:28:18,581 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
+    "2026-09-12 12:17:05,702 INFO scalper run started 2026-09-12T16:17:05.702852+00:00",
+    "2026-09-12 12:17:05,704 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-12 12:19:29,262 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-12 12:19:29,262 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-12 12:21:04,853 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-12 12:21:04,854 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-12 12:22:34,453 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-12 12:22:34,454 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-12 12:24:54,497 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-12 12:24:54,498 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-12 12:27:29,035 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L FWD url=https://signup.cargurus.com/details/448312596",
+    "2026-09-12 12:27:29,035 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
   ],
-  "started_at": "2026-09-12T15:17:04.845906+00:00",
+  "started_at": "2026-09-12T16:17:05.702852+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -97,45 +96,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; clean title; gasoline 3.5L V6; FWD; dealer retail listing with contact action",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 16898.0,
-            "seller": "Perfect Ride",
-            "shipping_usd": 0.0,
-            "source": "Perfect Ride",
-            "target_id": "lexus-es-2016-2018-cary",
-            "title": "2017 Lexus ES 350 Sedan",
-            "total_usd": 16898.0,
-            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-            "why_good": "Direct dealer page lists a 2017 Lexus ES 350 Sedan, gasoline 3.5L V6, 96,015 miles, $16,898, located in Smithfield, NC; within about 43 miles of Cary 27519 and below the $18,000 cap."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; clean title; gasoline 3.5L V6; FWD; dealer retail listing with contact action",
-          "confidence": 0.82,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 16898.0,
-          "seller": "Perfect Ride",
-          "shipping_usd": 0.0,
-          "source": "Perfect Ride",
-          "target_id": "lexus-es-2016-2018-cary",
-          "title": "2017 Lexus ES 350 Sedan",
-          "total_usd": 16898.0,
-          "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-          "why_good": "Direct dealer page lists a 2017 Lexus ES 350 Sedan, gasoline 3.5L V6, 96,015 miles, $16,898, located in Smithfield, NC; within about 43 miles of Cary 27519 and below the $18,000 cap."
-        }
-      ],
+      "deals": [],
       "id": "lexus-es-2016-2018-cary",
       "max_price_usd": 18000,
       "name": "2016-2018 Lexus ES near Cary, NC",
@@ -143,28 +106,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; clean title; gasoline 3.5L V6; FWD; dealer retail listing with contact action",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 16898.0,
-            "seller": "Perfect Ride",
-            "shipping_usd": 0.0,
-            "source": "Perfect Ride",
-            "target_id": "lexus-es-2016-2018-cary",
-            "title": "2017 Lexus ES 350 Sedan",
-            "total_usd": 16898.0,
-            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-            "why_good": "Direct dealer page lists a 2017 Lexus ES 350 Sedan, gasoline 3.5L V6, 96,015 miles, $16,898, located in Smithfield, NC; within about 43 miles of Cary 27519 and below the $18,000 cap."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
