@@ -1,22 +1,21 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-13T10:29:22.305927+00:00",
+  "finished_at": "2026-09-13T11:27:02.984706+00:00",
   "logs": [
-    "2026-09-13 06:17:05,552 INFO scalper run started 2026-09-13T10:17:05.552588+00:00",
-    "2026-09-13 06:17:05,556 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-13 06:19:15,971 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-13 06:19:15,972 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-13 06:21:00,653 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-13 06:21:00,653 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-13 06:23:22,569 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-13 06:23:22,569 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-13 06:25:27,235 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
-    "2026-09-13 06:25:27,236 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-13 06:28:48,568 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L Luxury AWD url=https://www.truecar.com/used-cars-for-sale/listing/JTJDZKCA4J2007916/2018-lexus-rx/",
-    "2026-09-13 06:29:22,304 INFO target=lexus-rx-350l-under-20k qualifying_deals=1",
-    "2026-09-13 06:29:22,305 INFO already notified target=lexus-rx-350l-under-20k market=us total=18977.00 url=https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249"
+    "2026-09-13 07:17:04,937 INFO scalper run started 2026-09-13T11:17:04.937516+00:00",
+    "2026-09-13 07:17:04,939 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-13 07:18:38,366 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-13 07:18:38,367 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-13 07:20:20,530 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-13 07:20:20,531 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-13 07:22:01,001 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-13 07:22:01,002 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-13 07:24:14,867 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-13 07:24:14,868 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-13 07:27:02,984 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=2018 Lexus RX 350L Premium",
+    "2026-09-13 07:27:02,984 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
   ],
-  "started_at": "2026-09-13T10:17:05.552588+00:00",
+  "started_at": "2026-09-13T11:17:04.937516+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -122,45 +121,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; gasoline V6; 195,462 miles; AWD",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 18977.0,
-            "seller": "KC Summers Buick GMC",
-            "shipping_usd": 0.0,
-            "source": "KC Summers Buick GMC",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "2018 Lexus RX 350L Premium AWD",
-            "total_usd": 18977.0,
-            "url": "https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249",
-            "why_good": "Dealer page lists exact RX 350L Premium at $18,977 in Mattoon with gasoline V6 and quote/start-buying actions."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; gasoline V6; 195,462 miles; AWD",
-          "confidence": 0.78,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 18977.0,
-          "seller": "KC Summers Buick GMC",
-          "shipping_usd": 0.0,
-          "source": "KC Summers Buick GMC",
-          "target_id": "lexus-rx-350l-under-20k",
-          "title": "2018 Lexus RX 350L Premium AWD",
-          "total_usd": 18977.0,
-          "url": "https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249",
-          "why_good": "Dealer page lists exact RX 350L Premium at $18,977 in Mattoon with gasoline V6 and quote/start-buying actions."
-        }
-      ],
+      "deals": [],
       "id": "lexus-rx-350l-under-20k",
       "max_price_usd": 20000,
       "name": "Lexus RX 350L under $20,000",
@@ -168,28 +131,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; gasoline V6; 195,462 miles; AWD",
-            "confidence": 0.78,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 18977.0,
-            "seller": "KC Summers Buick GMC",
-            "shipping_usd": 0.0,
-            "source": "KC Summers Buick GMC",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "2018 Lexus RX 350L Premium AWD",
-            "total_usd": 18977.0,
-            "url": "https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249",
-            "why_good": "Dealer page lists exact RX 350L Premium at $18,977 in Mattoon with gasoline V6 and quote/start-buying actions."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
