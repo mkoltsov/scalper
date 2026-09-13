@@ -1,22 +1,21 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-13T16:27:21.659134+00:00",
+  "finished_at": "2026-09-13T17:26:51.958878+00:00",
   "logs": [
-    "2026-09-13 12:17:05,366 INFO scalper run started 2026-09-13T16:17:05.366001+00:00",
-    "2026-09-13 12:17:05,368 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-13 12:18:57,990 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-13 12:18:57,991 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-13 12:20:41,679 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-13 12:20:41,680 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-13 12:22:42,207 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-13 12:22:42,207 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-13 12:24:25,103 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
-    "2026-09-13 12:24:25,104 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-13 12:27:21,657 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L Luxury AWD url=https://www.heightsmotorcredit.com/details/used-2018-lexus-rx-350l/122368113",
-    "2026-09-13 12:27:21,658 INFO target=lexus-rx-350l-under-20k qualifying_deals=1",
-    "2026-09-13 12:27:21,658 INFO already notified target=lexus-rx-350l-under-20k market=us total=18977.00 url=https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm"
+    "2026-09-13 13:17:05,082 INFO scalper run started 2026-09-13T17:17:05.082787+00:00",
+    "2026-09-13 13:17:05,085 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-13 13:18:40,449 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-13 13:18:40,450 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-13 13:20:02,205 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-13 13:20:02,206 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-13 13:21:41,796 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-13 13:21:41,797 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-13 13:23:51,278 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-13 13:23:51,279 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-13 13:26:51,958 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L Luxury AWD url=https://signup.cargurus.com/details/441058100?inclusionType=DEFAULT&listingIndex=14&ourls=SRP&resultSetId=0f893745-5676-4743-9112-c9262cefc8c4&searchDistance=50&searchUuid=8f16febc-d074-4263-9851-11fe32fe69de&sponsoredType=NONE&srpVariation=DEALER_INVENTORY",
+    "2026-09-13 13:26:51,958 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
   ],
-  "started_at": "2026-09-13T16:17:05.366001+00:00",
+  "started_at": "2026-09-13T17:17:05.082787+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -122,45 +121,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; V6 gasoline; all-wheel drive; dealer listing shows complete vehicle with 195,462 miles",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 18977.0,
-            "seller": "KC Summers Toyota",
-            "shipping_usd": 0.0,
-            "source": "KC Summers Toyota",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "Pre-Owned 2018 LEXUS RX 350L Premium All-wheel Drive",
-            "total_usd": 18977.0,
-            "url": "https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm",
-            "why_good": "Exact dealer listing identifies a 2018 Lexus RX 350L Premium AWD, gasoline V6, sale price under $20,000, Mattoon IL seller contact and confirm-availability actions visible."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; V6 gasoline; all-wheel drive; dealer listing shows complete vehicle with 195,462 miles",
-          "confidence": 0.82,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 18977.0,
-          "seller": "KC Summers Toyota",
-          "shipping_usd": 0.0,
-          "source": "KC Summers Toyota",
-          "target_id": "lexus-rx-350l-under-20k",
-          "title": "Pre-Owned 2018 LEXUS RX 350L Premium All-wheel Drive",
-          "total_usd": 18977.0,
-          "url": "https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm",
-          "why_good": "Exact dealer listing identifies a 2018 Lexus RX 350L Premium AWD, gasoline V6, sale price under $20,000, Mattoon IL seller contact and confirm-availability actions visible."
-        }
-      ],
+      "deals": [],
       "id": "lexus-rx-350l-under-20k",
       "max_price_usd": 20000,
       "name": "Lexus RX 350L under $20,000",
@@ -168,28 +131,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; V6 gasoline; all-wheel drive; dealer listing shows complete vehicle with 195,462 miles",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 18977.0,
-            "seller": "KC Summers Toyota",
-            "shipping_usd": 0.0,
-            "source": "KC Summers Toyota",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "Pre-Owned 2018 LEXUS RX 350L Premium All-wheel Drive",
-            "total_usd": 18977.0,
-            "url": "https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm",
-            "why_good": "Exact dealer listing identifies a 2018 Lexus RX 350L Premium AWD, gasoline V6, sale price under $20,000, Mattoon IL seller contact and confirm-availability actions visible."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
