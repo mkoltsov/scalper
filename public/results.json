@@ -1,21 +1,21 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-14T10:26:45.592603+00:00",
+  "finished_at": "2026-09-14T11:29:03.445798+00:00",
   "logs": [
-    "2026-09-14 06:17:05,604 INFO scalper run started 2026-09-14T10:17:05.604423+00:00",
-    "2026-09-14 06:17:05,607 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-14 06:18:52,190 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-14 06:18:52,190 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-14 06:20:35,541 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-14 06:20:35,542 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-14 06:21:55,460 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-14 06:21:55,461 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-14 06:24:37,287 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
-    "2026-09-14 06:24:37,288 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-14 06:26:45,591 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=2018 Lexus RX 350L Premium SUV",
-    "2026-09-14 06:26:45,592 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
+    "2026-09-14 07:17:05,787 INFO scalper run started 2026-09-14T11:17:05.787042+00:00",
+    "2026-09-14 07:17:05,789 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-14 07:19:39,373 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-14 07:19:39,373 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-14 07:21:51,801 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-14 07:21:51,802 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-14 07:23:39,934 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-14 07:23:39,935 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-14 07:25:39,574 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-14 07:25:39,575 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-14 07:29:03,442 INFO target=lexus-rx-350l-under-20k qualifying_deals=1",
+    "2026-09-14 07:29:03,445 INFO already notified target=lexus-rx-350l-under-20k market=us total=19302.00 url=https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996"
   ],
-  "started_at": "2026-09-14T10:17:05.604423+00:00",
+  "started_at": "2026-09-14T11:17:05.787042+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -121,9 +121,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; clean title; gasoline; dealer fees included",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 19302.0,
+            "seller": "AutoNation Honda Columbus",
+            "shipping_usd": 0.0,
+            "source": "Capital One Auto Navigator",
+            "target_id": "lexus-rx-350l-under-20k",
+            "title": "2018 Lexus RX RX 350L Luxury AWD",
+            "total_usd": 19302.0,
+            "url": "https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996",
+            "why_good": "Exact RX 350L Luxury AWD listing, gasoline fuel, clean-title same-VIN listing, available from a US dealer for $19,302 including dealer fees."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; clean title; gasoline; dealer fees included",
+          "confidence": 0.86,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 19302.0,
+          "seller": "AutoNation Honda Columbus",
+          "shipping_usd": 0.0,
+          "source": "Capital One Auto Navigator",
+          "target_id": "lexus-rx-350l-under-20k",
+          "title": "2018 Lexus RX RX 350L Luxury AWD",
+          "total_usd": 19302.0,
+          "url": "https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996",
+          "why_good": "Exact RX 350L Luxury AWD listing, gasoline fuel, clean-title same-VIN listing, available from a US dealer for $19,302 including dealer fees."
+        }
+      ],
       "id": "lexus-rx-350l-under-20k",
       "max_price_usd": 20000,
       "name": "Lexus RX 350L under $20,000",
@@ -131,12 +167,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; clean title; gasoline; dealer fees included",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 19302.0,
+            "seller": "AutoNation Honda Columbus",
+            "shipping_usd": 0.0,
+            "source": "Capital One Auto Navigator",
+            "target_id": "lexus-rx-350l-under-20k",
+            "title": "2018 Lexus RX RX 350L Luxury AWD",
+            "total_usd": 19302.0,
+            "url": "https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996",
+            "why_good": "Exact RX 350L Luxury AWD listing, gasoline fuel, clean-title same-VIN listing, available from a US dealer for $19,302 including dealer fees."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
