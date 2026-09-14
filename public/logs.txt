@@ -1,12 +1,13 @@
-2026-09-14 13:17:05,469 INFO scalper run started 2026-09-14T17:17:05.469848+00:00
-2026-09-14 13:17:05,471 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-14 13:19:06,986 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-14 13:19:06,987 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-14 13:21:21,049 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-14 13:21:21,050 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-14 13:23:01,142 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-14 13:23:01,143 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-14 13:25:02,838 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
-2026-09-14 13:25:02,839 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
-2026-09-14 13:28:50,072 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\bhybrid\b title=2018 Lexus RX 350L Luxury AWD
-2026-09-14 13:28:50,072 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
+2026-09-14 17:17:05,519 INFO scalper run started 2026-09-14T21:17:05.519397+00:00
+2026-09-14 17:17:05,521 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-14 17:19:01,627 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-14 17:19:01,627 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-14 17:21:01,545 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-14 17:21:01,545 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-14 17:22:56,467 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-14 17:22:56,467 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-14 17:24:43,081 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-09-14 17:24:43,082 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-14 17:30:08,837 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\b(?:rx\s*-?\s*350(?!l)|rx\s*-?\s*450h|rx\s*-?\s*450hl|rx\s*-?\s*500h|rx\s*-?\s*550h\+?)\b title=2018 Lexus RX 350L Luxury AWD
+2026-09-14 17:30:42,741 INFO target=lexus-rx-350l-under-20k qualifying_deals=1
+2026-09-14 17:30:42,742 INFO already notified target=lexus-rx-350l-under-20k market=us total=18977.00 url=https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm
