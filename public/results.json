@@ -1,21 +1,21 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-14T07:27:24.693520+00:00",
+  "finished_at": "2026-09-14T08:28:00.839019+00:00",
   "logs": [
-    "2026-09-14 03:17:05,057 INFO scalper run started 2026-09-14T07:17:05.057298+00:00",
-    "2026-09-14 03:17:05,059 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-14 03:19:15,290 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-14 03:19:15,291 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-14 03:20:59,128 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-14 03:20:59,129 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-14 03:22:54,324 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-14 03:22:54,325 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-14 03:24:43,042 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
-    "2026-09-14 03:24:43,043 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-14 03:27:24,692 INFO target=lexus-rx-350l-under-20k qualifying_deals=1",
-    "2026-09-14 03:27:24,693 INFO already notified target=lexus-rx-350l-under-20k market=us total=19302.00 url=https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996"
+    "2026-09-14 04:17:05,658 INFO scalper run started 2026-09-14T08:17:05.658295+00:00",
+    "2026-09-14 04:17:05,660 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-14 04:19:24,996 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-14 04:19:24,998 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-14 04:21:18,521 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-14 04:21:18,521 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-14 04:23:19,548 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-14 04:23:19,549 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-14 04:25:23,960 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-14 04:25:23,961 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-14 04:28:00,838 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\\s+only|for\\s+parts|not\\s+running|non\\s*running|mechanic(?:'s)?\\s+special)\\b title=2018 Lexus RX 350L Premium",
+    "2026-09-14 04:28:00,838 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
   ],
-  "started_at": "2026-09-14T07:17:05.057298+00:00",
+  "started_at": "2026-09-14T08:17:05.658295+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -121,45 +121,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used gasoline SUV; clean title reported for same VIN; passed dealer inspection",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 19302.0,
-            "seller": "AutoNation Honda Columbus",
-            "shipping_usd": 0.0,
-            "source": "Capital One Auto Navigator",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "2018 Lexus RX RX 350L Luxury",
-            "total_usd": 19302.0,
-            "url": "https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996",
-            "why_good": "Exact listing identifies a 2018 Lexus RX 350L Luxury AWD in Columbus, GA at $19,302 including dealer fees, gasoline fuel, seller contact/check-availability action, and VIN JTJDZKCA5J2009996."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used gasoline SUV; clean title reported for same VIN; passed dealer inspection",
-          "confidence": 0.82,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 19302.0,
-          "seller": "AutoNation Honda Columbus",
-          "shipping_usd": 0.0,
-          "source": "Capital One Auto Navigator",
-          "target_id": "lexus-rx-350l-under-20k",
-          "title": "2018 Lexus RX RX 350L Luxury",
-          "total_usd": 19302.0,
-          "url": "https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996",
-          "why_good": "Exact listing identifies a 2018 Lexus RX 350L Luxury AWD in Columbus, GA at $19,302 including dealer fees, gasoline fuel, seller contact/check-availability action, and VIN JTJDZKCA5J2009996."
-        }
-      ],
+      "deals": [],
       "id": "lexus-rx-350l-under-20k",
       "max_price_usd": 20000,
       "name": "Lexus RX 350L under $20,000",
@@ -167,28 +131,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used gasoline SUV; clean title reported for same VIN; passed dealer inspection",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 19302.0,
-            "seller": "AutoNation Honda Columbus",
-            "shipping_usd": 0.0,
-            "source": "Capital One Auto Navigator",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "2018 Lexus RX RX 350L Luxury",
-            "total_usd": 19302.0,
-            "url": "https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996",
-            "why_good": "Exact listing identifies a 2018 Lexus RX 350L Luxury AWD in Columbus, GA at $19,302 including dealer fees, gasoline fuel, seller contact/check-availability action, and VIN JTJDZKCA5J2009996."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
