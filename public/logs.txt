@@ -1,13 +1,15 @@
-2026-09-14 11:17:05,072 INFO scalper run started 2026-09-14T15:17:05.072479+00:00
-2026-09-14 11:17:05,074 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-14 11:18:39,755 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-14 11:18:39,756 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-14 11:20:16,464 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-14 11:20:16,465 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-14 11:21:47,595 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-14 11:21:47,596 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-14 11:24:12,925 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
-2026-09-14 11:24:12,926 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
-2026-09-14 11:26:21,226 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\bhybrid\b title=2018 Lexus RX 350L FWD
-2026-09-14 11:26:21,226 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\bhybrid\b title=2018 Lexus RX 350L Luxury AWD
-2026-09-14 11:26:21,227 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
+2026-09-14 12:17:05,727 INFO scalper run started 2026-09-14T16:17:05.727300+00:00
+2026-09-14 12:17:05,729 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-14 12:18:57,492 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-14 12:18:57,493 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-14 12:21:52,225 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=2
+2026-09-14 12:21:52,226 INFO already notified target=toyota-matrix-2nd-gen-red-hood market=us total=319.00 url=https://www.partshotlines.com/parts/toyota/matrix/hood.html
+2026-09-14 12:21:52,226 INFO already notified target=toyota-matrix-2nd-gen-red-hood market=us total=350.00 url=https://www.partshotlines.com/parts/toyota/matrix/hood.html
+2026-09-14 12:21:52,227 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-14 12:23:29,170 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-14 12:23:29,171 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-14 12:25:44,423 INFO target=lexus-es-2016-2018-cary qualifying_deals=1
+2026-09-14 12:25:44,424 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale
+2026-09-14 12:25:44,425 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-14 12:28:00,722 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L Luxury AWD url=https://signup.cargurus.com/details/441058100
+2026-09-14 12:28:00,723 INFO target=lexus-rx-350l-under-20k qualifying_deals=0

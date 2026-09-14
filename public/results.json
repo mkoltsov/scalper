@@ -1,22 +1,24 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-14T15:26:21.227186+00:00",
+  "finished_at": "2026-09-14T16:28:00.724293+00:00",
   "logs": [
-    "2026-09-14 11:17:05,072 INFO scalper run started 2026-09-14T15:17:05.072479+00:00",
-    "2026-09-14 11:17:05,074 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-14 11:18:39,755 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-14 11:18:39,756 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-14 11:20:16,464 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-14 11:20:16,465 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-14 11:21:47,595 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-14 11:21:47,596 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-14 11:24:12,925 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
-    "2026-09-14 11:24:12,926 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-14 11:26:21,226 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=2018 Lexus RX 350L FWD",
-    "2026-09-14 11:26:21,226 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=2018 Lexus RX 350L Luxury AWD",
-    "2026-09-14 11:26:21,227 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
+    "2026-09-14 12:17:05,727 INFO scalper run started 2026-09-14T16:17:05.727300+00:00",
+    "2026-09-14 12:17:05,729 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-14 12:18:57,492 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-14 12:18:57,493 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-14 12:21:52,225 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=2",
+    "2026-09-14 12:21:52,226 INFO already notified target=toyota-matrix-2nd-gen-red-hood market=us total=319.00 url=https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+    "2026-09-14 12:21:52,226 INFO already notified target=toyota-matrix-2nd-gen-red-hood market=us total=350.00 url=https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+    "2026-09-14 12:21:52,227 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-14 12:23:29,170 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-14 12:23:29,171 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-14 12:25:44,423 INFO target=lexus-es-2016-2018-cary qualifying_deals=1",
+    "2026-09-14 12:25:44,424 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+    "2026-09-14 12:25:44,425 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-14 12:28:00,722 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L Luxury AWD url=https://signup.cargurus.com/details/441058100",
+    "2026-09-14 12:28:00,723 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
   ],
-  "started_at": "2026-09-14T15:17:05.072479+00:00",
+  "started_at": "2026-09-14T16:17:05.727300+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -47,9 +49,79 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used OEM hood, red, no structural damage noted in listing",
+            "confidence": 0.62,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 69.0,
+            "seller": "Ace Auto Parts & Salvage PRP-A",
+            "shipping_usd": 250.0,
+            "source": "PartsHotlines",
+            "target_id": "toyota-matrix-2nd-gen-red-hood",
+            "title": "2009 Toyota Matrix Hood - 0S2, RED - stock QF0811",
+            "total_usd": 319.0,
+            "url": "https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+            "why_good": "Listed as a 2009 Matrix hood in red for $69; estimated freight keeps total under $450."
+          },
+          {
+            "availability": "available",
+            "condition": "Used OEM hood, red paint code 3L5, some chips",
+            "confidence": 0.68,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 100.0,
+            "seller": "John Wagner & Sons",
+            "shipping_usd": 250.0,
+            "source": "PartsHotlines",
+            "target_id": "toyota-matrix-2nd-gen-red-hood",
+            "title": "2009 Toyota Matrix Hood - RED 3L5 SOME CHIPS - stock 037-25",
+            "total_usd": 350.0,
+            "url": "https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+            "why_good": "Listed as a 2009 Matrix hood in factory red 3L5 with only chips noted; estimated freight keeps total under $450."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used OEM hood, red, no structural damage noted in listing",
+          "confidence": 0.62,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 69.0,
+          "seller": "Ace Auto Parts & Salvage PRP-A",
+          "shipping_usd": 250.0,
+          "source": "PartsHotlines",
+          "target_id": "toyota-matrix-2nd-gen-red-hood",
+          "title": "2009 Toyota Matrix Hood - 0S2, RED - stock QF0811",
+          "total_usd": 319.0,
+          "url": "https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+          "why_good": "Listed as a 2009 Matrix hood in red for $69; estimated freight keeps total under $450."
+        },
+        {
+          "availability": "available",
+          "condition": "Used OEM hood, red paint code 3L5, some chips",
+          "confidence": 0.68,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 100.0,
+          "seller": "John Wagner & Sons",
+          "shipping_usd": 250.0,
+          "source": "PartsHotlines",
+          "target_id": "toyota-matrix-2nd-gen-red-hood",
+          "title": "2009 Toyota Matrix Hood - RED 3L5 SOME CHIPS - stock 037-25",
+          "total_usd": 350.0,
+          "url": "https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+          "why_good": "Listed as a 2009 Matrix hood in factory red 3L5 with only chips noted; estimated freight keeps total under $450."
+        }
+      ],
       "id": "toyota-matrix-2nd-gen-red-hood",
       "max_price_usd": 450,
       "name": "Used red hood for 2nd-gen Toyota Matrix",
@@ -57,12 +129,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used OEM hood, red, no structural damage noted in listing",
+            "confidence": 0.62,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 69.0,
+            "seller": "Ace Auto Parts & Salvage PRP-A",
+            "shipping_usd": 250.0,
+            "source": "PartsHotlines",
+            "target_id": "toyota-matrix-2nd-gen-red-hood",
+            "title": "2009 Toyota Matrix Hood - 0S2, RED - stock QF0811",
+            "total_usd": 319.0,
+            "url": "https://www.partshotlines.com/parts/toyota/matrix/hood.html",
+            "why_good": "Listed as a 2009 Matrix hood in red for $69; estimated freight keeps total under $450."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
@@ -97,9 +185,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; clean title verified by TrueCar/AutoCheck for same VIN; gas V6 FWD sedan on seller listing",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 16898.0,
+            "seller": "Perfect Ride",
+            "shipping_usd": 0.0,
+            "source": "Perfect Ride",
+            "target_id": "lexus-es-2016-2018-cary",
+            "title": "2017 Lexus ES 350 Sedan",
+            "total_usd": 16898.0,
+            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+            "why_good": "Direct listing shows 2017 Lexus ES 350 Sedan, 96,015 miles, $16,898, 3.5L V6/FWD gas, and Smithfield NC seller location; TrueCar/AutoCheck for VIN JTHBK1GG1H2253581 reports clean title."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; clean title verified by TrueCar/AutoCheck for same VIN; gas V6 FWD sedan on seller listing",
+          "confidence": 0.86,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 16898.0,
+          "seller": "Perfect Ride",
+          "shipping_usd": 0.0,
+          "source": "Perfect Ride",
+          "target_id": "lexus-es-2016-2018-cary",
+          "title": "2017 Lexus ES 350 Sedan",
+          "total_usd": 16898.0,
+          "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+          "why_good": "Direct listing shows 2017 Lexus ES 350 Sedan, 96,015 miles, $16,898, 3.5L V6/FWD gas, and Smithfield NC seller location; TrueCar/AutoCheck for VIN JTHBK1GG1H2253581 reports clean title."
+        }
+      ],
       "id": "lexus-es-2016-2018-cary",
       "max_price_usd": 18000,
       "name": "2016-2018 Lexus ES near Cary, NC",
@@ -107,12 +231,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; clean title verified by TrueCar/AutoCheck for same VIN; gas V6 FWD sedan on seller listing",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 16898.0,
+            "seller": "Perfect Ride",
+            "shipping_usd": 0.0,
+            "source": "Perfect Ride",
+            "target_id": "lexus-es-2016-2018-cary",
+            "title": "2017 Lexus ES 350 Sedan",
+            "total_usd": 16898.0,
+            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+            "why_good": "Direct listing shows 2017 Lexus ES 350 Sedan, 96,015 miles, $16,898, 3.5L V6/FWD gas, and Smithfield NC seller location; TrueCar/AutoCheck for VIN JTHBK1GG1H2253581 reports clean title."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
