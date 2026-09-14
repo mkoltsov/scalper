@@ -1,12 +1,13 @@
-2026-09-13 16:17:05,494 INFO scalper run started 2026-09-13T20:17:05.494735+00:00
-2026-09-13 16:17:05,496 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-13 16:18:52,933 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-13 16:18:52,934 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-13 16:20:16,104 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-13 16:20:16,104 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-13 16:21:40,338 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-13 16:21:40,339 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-13 16:23:23,011 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
-2026-09-13 16:23:23,011 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
-2026-09-13 16:25:55,268 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\bhybrid\b title=2018 Lexus RX 350L Premium
-2026-09-13 16:25:55,269 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
+2026-09-14 01:17:05,200 INFO scalper run started 2026-09-14T05:17:05.200717+00:00
+2026-09-14 01:17:05,202 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-14 01:19:01,872 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-14 01:19:01,872 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-14 01:20:34,321 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-14 01:20:34,322 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-14 01:22:20,016 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-14 01:22:20,017 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-14 01:26:11,606 INFO target=lexus-es-2016-2018-cary qualifying_deals=1
+2026-09-14 01:26:11,607 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale
+2026-09-14 01:26:11,608 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-14 01:30:07,822 INFO target=lexus-rx-350l-under-20k qualifying_deals=1
+2026-09-14 01:30:07,823 INFO already notified target=lexus-rx-350l-under-20k market=us total=18977.00 url=https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249
