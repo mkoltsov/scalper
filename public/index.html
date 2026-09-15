@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-09-15T20:17:27.717973+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-09-15T21:28:14.696261+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -60,6 +60,46 @@
     </header>
     <section id="results">
       
+            <section class="target">
+              <div class="target-head">
+                <h1>NZXT H1 V2 mini-ITX case bundle</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>Used red hood for 2nd-gen Toyota Matrix</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>Acura TSX Sport Wagon with leather near Cary, NC</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>2016-2018 Lexus ES near Cary, NC</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
+            <section class="target">
+              <div class="target-head">
+                <h1>Lexus RX 350L under $20,000</h1>
+                <span>0 live matches</span>
+              </div>
+              <p class="empty">No available qualifying listings found in the latest run.</p>
+            </section>
+            
     </section>
     <section class="target" id="add-target">
       <div class="target-head">
@@ -107,59 +147,20 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>11 lines published</span>
+        <span>12 lines published</span>
       </div>
-      <pre>2026-09-15 16:17:04,728 INFO scalper run started 2026-09-15T20:17:04.728142+00:00
-2026-09-15 16:17:04,730 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-15 16:17:09,639 ERROR Codex search failed for target=nzxt-h1-v2
-Traceback (most recent call last):
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1856, in run
-    result = run_codex(target, config, metrics)
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 523, in run_codex
-    raise RuntimeError(
-        f&quot;Codex failed for {target[&#x27;id&#x27;]} with exit code {process.returncode}: {process.stderr.strip()}&quot;
-    )
-RuntimeError: Codex failed for nzxt-h1-v2 with exit code 1: Error: Failed to load cloud config bundle (workspace-managed policies).
-2026-09-15 16:17:09,642 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-15 16:17:14,189 ERROR Codex search failed for target=toyota-matrix-2nd-gen-red-hood
-Traceback (most recent call last):
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1856, in run
-    result = run_codex(target, config, metrics)
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 523, in run_codex
-    raise RuntimeError(
-        f&quot;Codex failed for {target[&#x27;id&#x27;]} with exit code {process.returncode}: {process.stderr.strip()}&quot;
-    )
-RuntimeError: Codex failed for toyota-matrix-2nd-gen-red-hood with exit code 1: Error: Failed to load cloud config bundle (workspace-managed policies).
-2026-09-15 16:17:14,191 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-15 16:17:18,752 ERROR Codex search failed for target=acura-tsx-wagon-cary
-Traceback (most recent call last):
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1856, in run
-    result = run_codex(target, config, metrics)
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 523, in run_codex
-    raise RuntimeError(
-        f&quot;Codex failed for {target[&#x27;id&#x27;]} with exit code {process.returncode}: {process.stderr.strip()}&quot;
-    )
-RuntimeError: Codex failed for acura-tsx-wagon-cary with exit code 1: Error: Failed to load cloud config bundle (workspace-managed policies).
-2026-09-15 16:17:18,754 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-15 16:17:23,217 ERROR Codex search failed for target=lexus-es-2016-2018-cary
-Traceback (most recent call last):
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1856, in run
-    result = run_codex(target, config, metrics)
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 523, in run_codex
-    raise RuntimeError(
-        f&quot;Codex failed for {target[&#x27;id&#x27;]} with exit code {process.returncode}: {process.stderr.strip()}&quot;
-    )
-RuntimeError: Codex failed for lexus-es-2016-2018-cary with exit code 1: Error: Failed to load cloud config bundle (workspace-managed policies).
-2026-09-15 16:17:23,219 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
-2026-09-15 16:17:27,716 ERROR Codex search failed for target=lexus-rx-350l-under-20k
-Traceback (most recent call last):
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 1856, in run
-    result = run_codex(target, config, metrics)
-  File &quot;/home/intimatik/dev/scalper/scalper.py&quot;, line 523, in run_codex
-    raise RuntimeError(
-        f&quot;Codex failed for {target[&#x27;id&#x27;]} with exit code {process.returncode}: {process.stderr.strip()}&quot;
-    )
-RuntimeError: Codex failed for lexus-rx-350l-under-20k with exit code 1: Error: Failed to load cloud config bundle (workspace-managed policies).</pre>
+      <pre>2026-09-15 17:17:05,636 INFO scalper run started 2026-09-15T21:17:05.636521+00:00
+2026-09-15 17:17:05,638 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-15 17:18:46,520 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-15 17:18:46,521 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-15 17:20:46,206 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-15 17:20:46,207 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-15 17:22:59,106 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-15 17:22:59,106 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-15 17:25:23,588 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-09-15 17:25:23,588 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-15 17:28:14,695 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L Luxury AWD url=https://signup.cargurus.com/details/441058100
+2026-09-15 17:28:14,696 INFO target=lexus-rx-350l-under-20k qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
