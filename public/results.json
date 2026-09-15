@@ -1,21 +1,22 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-15T21:28:14.696261+00:00",
+  "finished_at": "2026-09-15T23:27:59.549706+00:00",
   "logs": [
-    "2026-09-15 17:17:05,636 INFO scalper run started 2026-09-15T21:17:05.636521+00:00",
-    "2026-09-15 17:17:05,638 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-15 17:18:46,520 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-15 17:18:46,521 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-15 17:20:46,206 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-15 17:20:46,207 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-15 17:22:59,106 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-15 17:22:59,106 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-15 17:25:23,588 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
-    "2026-09-15 17:25:23,588 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-15 17:28:14,695 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L Luxury AWD url=https://signup.cargurus.com/details/441058100",
-    "2026-09-15 17:28:14,696 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
+    "2026-09-15 19:17:05,199 INFO scalper run started 2026-09-15T23:17:05.199691+00:00",
+    "2026-09-15 19:17:05,201 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-15 19:19:07,826 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-15 19:19:07,827 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-15 19:20:47,392 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-15 19:20:47,392 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-15 19:22:48,508 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-15 19:22:48,509 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-15 19:24:27,662 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-15 19:24:27,663 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-15 19:27:27,952 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=2018 Lexus RX 350L Luxury AWD",
+    "2026-09-15 19:27:59,548 INFO target=lexus-rx-350l-under-20k qualifying_deals=1",
+    "2026-09-15 19:27:59,549 INFO already notified target=lexus-rx-350l-under-20k market=us total=18977.00 url=https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249"
   ],
-  "started_at": "2026-09-15T21:17:05.636521+00:00",
+  "started_at": "2026-09-15T23:17:05.199691+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -121,9 +122,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; gasoline fuel; complete running dealer vehicle",
+            "confidence": 0.74,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 18977.0,
+            "seller": "KC Summers Buick GMC",
+            "shipping_usd": 0.0,
+            "source": "KC Summers Buick GMC",
+            "target_id": "lexus-rx-350l-under-20k",
+            "title": "2018 Lexus RX 350L Premium",
+            "total_usd": 18977.0,
+            "url": "https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249",
+            "why_good": "Exact RX 350L Premium dealer listing in Mattoon, IL with sale price under $20,000, gasoline fuel, and current Request A Quote / Start Buying Process actions."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; gasoline fuel; complete running dealer vehicle",
+          "confidence": 0.74,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 18977.0,
+          "seller": "KC Summers Buick GMC",
+          "shipping_usd": 0.0,
+          "source": "KC Summers Buick GMC",
+          "target_id": "lexus-rx-350l-under-20k",
+          "title": "2018 Lexus RX 350L Premium",
+          "total_usd": 18977.0,
+          "url": "https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249",
+          "why_good": "Exact RX 350L Premium dealer listing in Mattoon, IL with sale price under $20,000, gasoline fuel, and current Request A Quote / Start Buying Process actions."
+        }
+      ],
       "id": "lexus-rx-350l-under-20k",
       "max_price_usd": 20000,
       "name": "Lexus RX 350L under $20,000",
@@ -131,12 +168,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; gasoline fuel; complete running dealer vehicle",
+            "confidence": 0.74,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 18977.0,
+            "seller": "KC Summers Buick GMC",
+            "shipping_usd": 0.0,
+            "source": "KC Summers Buick GMC",
+            "target_id": "lexus-rx-350l-under-20k",
+            "title": "2018 Lexus RX 350L Premium",
+            "total_usd": 18977.0,
+            "url": "https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249",
+            "why_good": "Exact RX 350L Premium dealer listing in Mattoon, IL with sale price under $20,000, gasoline fuel, and current Request A Quote / Start Buying Process actions."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
