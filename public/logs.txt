@@ -1,12 +1,13 @@
-2026-09-14 18:17:04,987 INFO scalper run started 2026-09-14T22:17:04.987818+00:00
-2026-09-14 18:17:04,990 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-14 18:19:06,701 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-14 18:19:06,701 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-14 18:22:09,591 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-14 18:22:09,591 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-14 18:24:03,109 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-14 18:24:03,110 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-14 18:25:39,601 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
-2026-09-14 18:25:39,602 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
-2026-09-14 18:28:02,210 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\bhybrid\b title=2018 Lexus RX 350L Luxury AWD
-2026-09-14 18:28:02,210 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
+2026-09-14 21:17:05,132 INFO scalper run started 2026-09-15T01:17:05.132136+00:00
+2026-09-14 21:17:05,134 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-14 21:18:57,478 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-14 21:18:57,479 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-14 21:20:50,494 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-14 21:20:50,494 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-14 21:23:00,969 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-14 21:23:00,970 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-14 21:25:34,770 INFO target=lexus-es-2016-2018-cary qualifying_deals=1
+2026-09-14 21:25:34,771 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale
+2026-09-14 21:25:34,772 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-14 21:28:43,129 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:'s)?\s+special)\b title=Used 2018 Lexus RX 350L Premium SUV
+2026-09-14 21:28:43,129 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
