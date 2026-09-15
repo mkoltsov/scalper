@@ -1,13 +1,13 @@
-2026-09-15 07:17:05,516 INFO scalper run started 2026-09-15T11:17:05.516234+00:00
-2026-09-15 07:17:05,518 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-15 07:18:45,311 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-15 07:18:45,312 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-15 07:20:36,820 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-15 07:20:36,821 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-15 07:22:38,542 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-15 07:22:38,542 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-15 07:25:30,291 INFO target=lexus-es-2016-2018-cary qualifying_deals=1
-2026-09-15 07:25:30,292 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale
-2026-09-15 07:25:30,293 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
-2026-09-15 07:28:08,663 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L Luxury AWD url=https://signup.cargurus.com/details/441058100
-2026-09-15 07:28:08,663 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
+2026-09-15 08:17:05,582 INFO scalper run started 2026-09-15T12:17:05.582463+00:00
+2026-09-15 08:17:05,584 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-15 08:19:03,708 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-15 08:19:03,708 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-15 08:20:58,215 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-15 08:20:58,216 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-15 08:22:47,142 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-15 08:22:47,142 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-15 08:24:56,342 INFO target=lexus-es-2016-2018-cary qualifying_deals=1
+2026-09-15 08:24:56,342 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale
+2026-09-15 08:24:56,343 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-15 08:28:08,448 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\bhybrid\b title=2018 Lexus RX 350L Premium
+2026-09-15 08:28:08,448 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
