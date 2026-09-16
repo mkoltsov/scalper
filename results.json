@@ -1,0 +1,198 @@
+{
+  "exit_code": 0,
+  "finished_at": "2026-09-16T00:27:49.008448+00:00",
+  "logs": [
+    "2026-09-15 20:17:04,909 INFO scalper run started 2026-09-16T00:17:04.908990+00:00",
+    "2026-09-15 20:17:04,911 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-15 20:18:42,697 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-15 20:18:42,698 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-15 20:20:20,536 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-15 20:20:20,536 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-15 20:22:00,372 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-15 20:22:00,373 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-15 20:24:14,854 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-15 20:24:14,855 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-15 20:27:49,007 INFO target=lexus-rx-350l-under-20k qualifying_deals=1",
+    "2026-09-15 20:27:49,008 INFO already notified target=lexus-rx-350l-under-20k market=us total=19302.00 url=https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996"
+  ],
+  "started_at": "2026-09-16T00:17:04.908990+00:00",
+  "targets": [
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "nzxt-h1-v2",
+      "max_price_usd": 200,
+      "name": "NZXT H1 V2 mini-ITX case bundle",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "toyota-matrix-2nd-gen-red-hood",
+      "max_price_usd": 450,
+      "name": "Used red hood for 2nd-gen Toyota Matrix",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "acura-tsx-wagon-cary",
+      "max_price_usd": 11000,
+      "name": "Acura TSX Sport Wagon with leather near Cary, NC",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "lexus-es-2016-2018-cary",
+      "max_price_usd": 18000,
+      "name": "2016-2018 Lexus ES near Cary, NC",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    },
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used gasoline AWD SUV, clean title reported, 153225 miles",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 19302.0,
+            "seller": "AutoNation Honda Columbus",
+            "shipping_usd": 0.0,
+            "source": "Capital One Auto Navigator",
+            "target_id": "lexus-rx-350l-under-20k",
+            "title": "2018 Lexus RX RX 350L Luxury",
+            "total_usd": 19302.0,
+            "url": "https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996",
+            "why_good": "Exact RX 350L Luxury gasoline SUV under $20000 with dealer-fee-inclusive price, Columbus GA seller, VIN shown, and current check-availability/contact action."
+          }
+        ]
+      },
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used gasoline AWD SUV, clean title reported, 153225 miles",
+          "confidence": 0.86,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 19302.0,
+          "seller": "AutoNation Honda Columbus",
+          "shipping_usd": 0.0,
+          "source": "Capital One Auto Navigator",
+          "target_id": "lexus-rx-350l-under-20k",
+          "title": "2018 Lexus RX RX 350L Luxury",
+          "total_usd": 19302.0,
+          "url": "https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996",
+          "why_good": "Exact RX 350L Luxury gasoline SUV under $20000 with dealer-fee-inclusive price, Columbus GA seller, VIN shown, and current check-availability/contact action."
+        }
+      ],
+      "id": "lexus-rx-350l-under-20k",
+      "max_price_usd": 20000,
+      "name": "Lexus RX 350L under $20,000",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": {
+            "availability": "available",
+            "condition": "Used gasoline AWD SUV, clean title reported, 153225 miles",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 19302.0,
+            "seller": "AutoNation Honda Columbus",
+            "shipping_usd": 0.0,
+            "source": "Capital One Auto Navigator",
+            "target_id": "lexus-rx-350l-under-20k",
+            "title": "2018 Lexus RX RX 350L Luxury",
+            "total_usd": 19302.0,
+            "url": "https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996",
+            "why_good": "Exact RX 350L Luxury gasoline SUV under $20000 with dealer-fee-inclusive price, Columbus GA seller, VIN shown, and current check-availability/contact action."
+          }
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 1
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    }
+  ]
+}
