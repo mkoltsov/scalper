@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-09-17T15:28:29.594065+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-09-17T18:28:07.265608+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -87,9 +87,49 @@
             <section class="target">
               <div class="target-head">
                 <h1>2016-2018 Lexus ES near Cary, NC</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>$16898.00</strong>
+                  <small>Perfect Ride</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> Perfect Ride · $16898.00 · United States</div>
+                  <h2><a href="https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale" rel="nofollow noopener">2017 Lexus ES 350 Sedan</a></h2>
+                  <p>Direct dealer listing shows 2017 Lexus ES 350 Sedan, gas 3.5L V6, 96,015 miles, $16,898, Smithfield NC; clean title reported for VIN JTHBK1GG1H2253581; within about 36 miles of Cary 27519.</p>
+                </article>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
             </section>
             
             <section class="target">
@@ -149,19 +189,19 @@
         <h1>Logs</h1>
         <span>13 lines published</span>
       </div>
-      <pre>2026-09-17 11:17:05,582 INFO scalper run started 2026-09-17T15:17:05.582261+00:00
-2026-09-17 11:17:05,584 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-17 11:19:09,951 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-17 11:19:09,952 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-17 11:21:26,462 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-17 11:21:26,463 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-17 11:23:47,983 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-17 11:23:47,983 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-17 11:26:09,922 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:es\s*-?\s*300h|hybrid|electrified|plug-in|plug\s+in|phev)\b title=2017 Lexus ES 350 Sedan
-2026-09-17 11:26:09,923 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
-2026-09-17 11:26:09,923 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
-2026-09-17 11:28:29,593 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\bhybrid\b title=2018 Lexus RX 350L Luxury AWD
-2026-09-17 11:28:29,593 INFO target=lexus-rx-350l-under-20k qualifying_deals=0</pre>
+      <pre>2026-09-17 14:17:05,211 INFO scalper run started 2026-09-17T18:17:05.211841+00:00
+2026-09-17 14:17:05,213 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-17 14:18:53,517 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-17 14:18:53,518 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-17 14:21:07,765 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-17 14:21:07,765 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-17 14:23:06,112 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-17 14:23:06,113 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-17 14:26:00,101 INFO target=lexus-es-2016-2018-cary qualifying_deals=1
+2026-09-17 14:26:00,101 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale
+2026-09-17 14:26:00,102 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-17 14:28:07,265 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\b(?:rx\s*-?\s*350(?!l)|rx\s*-?\s*450h|rx\s*-?\s*450hl|rx\s*-?\s*500h|rx\s*-?\s*550h\+?)\b title=2018 Lexus RX 350L Luxury AWD
+2026-09-17 14:28:07,265 INFO target=lexus-rx-350l-under-20k qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
