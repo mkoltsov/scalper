@@ -1,22 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-18T06:27:33.961335+00:00",
+  "finished_at": "2026-09-18T07:28:32.464553+00:00",
   "logs": [
-    "2026-09-18 02:17:05,382 INFO scalper run started 2026-09-18T06:17:05.381937+00:00",
-    "2026-09-18 02:17:05,384 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-18 02:18:41,791 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-18 02:18:41,792 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-18 02:20:39,077 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-18 02:20:39,078 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-18 02:22:18,306 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-18 02:22:18,306 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-18 02:24:29,627 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\\b(?:es\\s*-?\\s*300h|hybrid|electrified|plug-in|plug\\s+in|phev)\\b title=2017 Lexus ES 350 Sedan",
-    "2026-09-18 02:24:29,628 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
-    "2026-09-18 02:24:29,628 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-18 02:27:33,960 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\b(?:rx\\s*-?\\s*350(?!l)|rx\\s*-?\\s*450h|rx\\s*-?\\s*450hl|rx\\s*-?\\s*500h|rx\\s*-?\\s*550h\\+?)\\b title=2018 Lexus RX 350L Luxury AWD Luxury 4dr SUV",
-    "2026-09-18 02:27:33,961 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
+    "2026-09-18 03:17:05,654 INFO scalper run started 2026-09-18T07:17:05.654818+00:00",
+    "2026-09-18 03:17:05,656 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-18 03:18:30,909 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-18 03:18:30,910 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-18 03:20:39,235 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-18 03:20:39,237 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-18 03:22:12,145 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-18 03:22:12,145 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-18 03:24:39,083 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\\b(?:es\\s*-?\\s*300h|hybrid|electrified|plug-in|plug\\s+in|phev)\\b title=2017 Lexus ES 350 Sedan",
+    "2026-09-18 03:24:39,083 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-18 03:24:39,083 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-18 03:28:32,463 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L url=https://www.guidanceautosales.com/Inventory/Details/c46f163b-c8da-464e-94be-186377a080f5",
+    "2026-09-18 03:28:32,463 INFO target=lexus-rx-350l-under-20k qualifying_deals=1",
+    "2026-09-18 03:28:32,464 INFO already notified target=lexus-rx-350l-under-20k market=us total=18977.00 url=https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249"
   ],
-  "started_at": "2026-09-18T06:17:05.381937+00:00",
+  "started_at": "2026-09-18T07:17:05.654818+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -122,9 +123,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; gasoline fuel; dealer retail listing",
+            "confidence": 0.82,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 18977.0,
+            "seller": "KC Summers Buick GMC",
+            "shipping_usd": 0.0,
+            "source": "KC Summers Buick GMC",
+            "target_id": "lexus-rx-350l-under-20k",
+            "title": "2018 Lexus RX 350L Premium",
+            "total_usd": 18977.0,
+            "url": "https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249",
+            "why_good": "Direct dealer page identifies a 2018 Lexus RX 350L Premium SUV, gasoline fuel, Mattoon IL location, active quote/contact actions, and price below $20000."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; gasoline fuel; dealer retail listing",
+          "confidence": 0.82,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 18977.0,
+          "seller": "KC Summers Buick GMC",
+          "shipping_usd": 0.0,
+          "source": "KC Summers Buick GMC",
+          "target_id": "lexus-rx-350l-under-20k",
+          "title": "2018 Lexus RX 350L Premium",
+          "total_usd": 18977.0,
+          "url": "https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249",
+          "why_good": "Direct dealer page identifies a 2018 Lexus RX 350L Premium SUV, gasoline fuel, Mattoon IL location, active quote/contact actions, and price below $20000."
+        }
+      ],
       "id": "lexus-rx-350l-under-20k",
       "max_price_usd": 20000,
       "name": "Lexus RX 350L under $20,000",
@@ -132,12 +169,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; gasoline fuel; dealer retail listing",
+            "confidence": 0.82,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 18977.0,
+            "seller": "KC Summers Buick GMC",
+            "shipping_usd": 0.0,
+            "source": "KC Summers Buick GMC",
+            "target_id": "lexus-rx-350l-under-20k",
+            "title": "2018 Lexus RX 350L Premium",
+            "total_usd": 18977.0,
+            "url": "https://www.kcsummersbuickgmc.com/used-Mattoon-2018-Lexus-%2B-RX%2B350L%2BPremium-JTJDZKCA5J2012249",
+            "why_good": "Direct dealer page identifies a 2018 Lexus RX 350L Premium SUV, gasoline fuel, Mattoon IL location, active quote/contact actions, and price below $20000."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
