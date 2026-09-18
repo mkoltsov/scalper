@@ -1,14 +1,15 @@
-2026-09-18 00:17:05,426 INFO scalper run started 2026-09-18T04:17:05.426168+00:00
-2026-09-18 00:17:05,428 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-18 00:18:50,869 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-18 00:18:50,870 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-18 00:20:27,409 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-18 00:20:27,409 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-18 00:22:37,600 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-18 00:22:37,601 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-18 00:25:24,358 INFO rejected deal target=lexus-es-2016-2018-cary reason=http_403 title=2017 Lexus ES 350 url=https://www.truecar.com/used-cars-for-sale/listing/JTHBK1GG1H2253581/2017-lexus-es/
-2026-09-18 00:25:24,358 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
-2026-09-18 00:25:24,359 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
-2026-09-18 00:27:47,803 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\bhybrid\b title=Pre-Owned 2018 Lexus RX 350L Premium All-wheel Drive
-2026-09-18 00:27:47,803 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\bhybrid\b title=2018 Lexus RX RX 350L Luxury
-2026-09-18 00:27:47,803 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
+2026-09-18 01:17:05,495 INFO scalper run started 2026-09-18T05:17:05.495832+00:00
+2026-09-18 01:17:05,497 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-18 01:18:28,193 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-18 01:18:28,194 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-18 01:21:14,356 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=2
+2026-09-18 01:21:14,357 INFO already notified target=toyota-matrix-2nd-gen-red-hood market=us total=369.00 url=https://www.partshotlines.com/parts/toyota/matrix/hood.html
+2026-09-18 01:21:14,357 INFO already notified target=toyota-matrix-2nd-gen-red-hood market=us total=400.00 url=https://www.partshotlines.com/parts/toyota/matrix/hood.html
+2026-09-18 01:21:14,358 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-18 01:22:54,680 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-18 01:22:54,681 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-18 01:25:18,884 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:es\s*-?\s*300h|hybrid|electrified|plug-in|plug\s+in|phev)\b title=2017 Lexus ES 350 Sedan
+2026-09-18 01:25:18,884 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-09-18 01:25:18,884 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-18 01:28:08,469 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\b(?:rx\s*-?\s*350(?!l)|rx\s*-?\s*450h|rx\s*-?\s*450hl|rx\s*-?\s*500h|rx\s*-?\s*550h\+?)\b title=2018 Lexus RX 350L Luxury AWD
+2026-09-18 01:28:08,470 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
