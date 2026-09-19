@@ -1,22 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-19T19:28:48.441192+00:00",
+  "finished_at": "2026-09-19T20:29:29.407588+00:00",
   "logs": [
-    "2026-09-19 15:17:05,738 INFO scalper run started 2026-09-19T19:17:05.737892+00:00",
-    "2026-09-19 15:17:05,740 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-19 15:19:17,529 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-19 15:19:17,530 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-19 15:20:57,058 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-19 15:20:57,059 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-19 15:22:46,301 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-19 15:22:46,302 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-19 15:25:10,419 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\\b(?:es\\s*-?\\s*300h|hybrid|electrified|plug-in|plug\\s+in|phev)\\b title=2017 Lexus ES 350 Sedan",
-    "2026-09-19 15:25:10,420 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
-    "2026-09-19 15:25:10,420 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-19 15:28:48,440 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L Luxury AWD url=https://signup.cargurus.com/details/441058100",
-    "2026-09-19 15:28:48,441 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
+    "2026-09-19 16:17:05,837 INFO scalper run started 2026-09-19T20:17:05.836993+00:00",
+    "2026-09-19 16:17:05,839 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-19 16:19:06,000 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-19 16:19:06,001 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-19 16:21:05,554 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-19 16:21:05,555 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-19 16:22:46,391 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-19 16:22:46,392 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-19 16:25:31,135 INFO target=lexus-es-2016-2018-cary qualifying_deals=1",
+    "2026-09-19 16:25:31,137 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+    "2026-09-19 16:25:31,138 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-19 16:29:29,405 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=Used 2018 Lexus RX 350L Luxury AWD",
+    "2026-09-19 16:29:29,407 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\b(?:rx\\s*-?\\s*350(?!l)|rx\\s*-?\\s*450h|rx\\s*-?\\s*450hl|rx\\s*-?\\s*500h|rx\\s*-?\\s*550h\\+?)\\b title=2018 Lexus RX 350L Luxury AWD",
+    "2026-09-19 16:29:29,407 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
   ],
-  "started_at": "2026-09-19T19:17:05.737892+00:00",
+  "started_at": "2026-09-19T20:17:05.836993+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -97,9 +98,45 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "condition": "Used; clean title verified on TrueCar for VIN JTHBK1GG1H2253581; gasoline 3.5L V6 sedan",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 16898.0,
+            "seller": "Perfect Ride",
+            "shipping_usd": 0.0,
+            "source": "Perfect Ride",
+            "target_id": "lexus-es-2016-2018-cary",
+            "title": "2017 Lexus ES 350 Sedan",
+            "total_usd": 16898.0,
+            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+            "why_good": "Dealer page lists a 2017 Lexus ES 350 Sedan in Smithfield, NC with 96,015 miles for $16,898; TrueCar shows clean title for the same VIN; about 38 miles from Cary."
+          }
+        ]
       },
-      "deals": [],
+      "deals": [
+        {
+          "availability": "available",
+          "condition": "Used; clean title verified on TrueCar for VIN JTHBK1GG1H2253581; gasoline 3.5L V6 sedan",
+          "confidence": 0.86,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_usd": 16898.0,
+          "seller": "Perfect Ride",
+          "shipping_usd": 0.0,
+          "source": "Perfect Ride",
+          "target_id": "lexus-es-2016-2018-cary",
+          "title": "2017 Lexus ES 350 Sedan",
+          "total_usd": 16898.0,
+          "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+          "why_good": "Dealer page lists a 2017 Lexus ES 350 Sedan in Smithfield, NC with 96,015 miles for $16,898; TrueCar shows clean title for the same VIN; about 38 miles from Cary."
+        }
+      ],
       "id": "lexus-es-2016-2018-cary",
       "max_price_usd": 18000,
       "name": "2016-2018 Lexus ES near Cary, NC",
@@ -107,12 +144,28 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "condition": "Used; clean title verified on TrueCar for VIN JTHBK1GG1H2253581; gasoline 3.5L V6 sedan",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_usd": 16898.0,
+            "seller": "Perfect Ride",
+            "shipping_usd": 0.0,
+            "source": "Perfect Ride",
+            "target_id": "lexus-es-2016-2018-cary",
+            "title": "2017 Lexus ES 350 Sedan",
+            "total_usd": 16898.0,
+            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+            "why_good": "Dealer page lists a 2017 Lexus ES 350 Sedan in Smithfield, NC with 96,015 miles for $16,898; TrueCar shows clean title for the same VIN; about 38 miles from Cary."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
