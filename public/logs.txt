@@ -1,13 +1,12 @@
-2026-09-19 18:17:05,600 INFO scalper run started 2026-09-19T22:17:05.600402+00:00
-2026-09-19 18:17:05,602 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-19 18:18:51,209 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-19 18:18:51,210 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-19 18:20:45,279 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-19 18:20:45,280 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-19 18:22:38,884 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-19 18:22:38,885 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-19 18:25:30,112 INFO target=lexus-es-2016-2018-cary qualifying_deals=1
-2026-09-19 18:25:30,112 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale
-2026-09-19 18:25:30,113 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
-2026-09-19 18:28:00,990 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\s+only|for\s+parts|not\s+running|non\s*running|mechanic(?:'s)?\s+special)\b title=Used 2018 Lexus RX 350L Luxury AWD
-2026-09-19 18:28:00,990 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
+2026-09-19 19:17:05,544 INFO scalper run started 2026-09-19T23:17:05.543968+00:00
+2026-09-19 19:17:05,546 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-19 19:18:58,056 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-19 19:18:58,057 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-19 19:20:52,572 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-19 19:20:52,573 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-19 19:22:39,168 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-19 19:22:39,169 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-19 19:24:43,111 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-09-19 19:24:43,112 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-19 19:27:25,528 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L Luxury AWD url=https://signup.cargurus.com/details/441058100?inclusionType=DEFAULT&listingIndex=21&ourls=SRP&resultSetId=8e25e4bb-d5bf-42d4-ae77-4f1dfff842bd&searchDistance=50&searchUuid=8f16febc-d074-4263-9851-11fe32fe69de&sponsoredType=NONE&srpVariation=DEALER_INVENTORY&srpc=N4IghgZgxiBcoBMCWBnALmAdlApnArAAwA0ImA9pgMoAWSADvWAEYA2OAQmCjq0pnlgBGQgA5SKcgCc0AESRScUNEkpwQAQSoBhEBOloAKgE96gkBwCiVQwH0AshsPaAEnpAop9AGpgpSMBU1WBBZSw0AGUsAJVsASQA5b0sEwwB5aIBNEABfUmUADzhQPgQ4ABZykXxRERIQegBzOAAmCQBXdqQykNEIIQA2CBxmKABaBEIAdnKx8paBgGYxgE5RfCExoSFhxZbhgZWEPFJ6NBp1AHptPxRLgFsxlxwkRpo0FDH7cjRpMe1FMg0GMUPRytN8CsVu4mmB1DhjAApe5gAAaiIAXggAGIcGgALRaAFUkGkAFZxQgRbSIgDumQA6ghWIYkHEBvYydFoTkckA
+2026-09-19 19:27:25,528 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
