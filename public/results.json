@@ -1,22 +1,22 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-20T01:29:54.416756+00:00",
+  "finished_at": "2026-09-20T02:28:26.683310+00:00",
   "logs": [
-    "2026-09-19 21:17:05,572 INFO scalper run started 2026-09-20T01:17:05.572489+00:00",
-    "2026-09-19 21:17:05,574 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-19 21:18:43,135 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-19 21:18:43,136 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-19 21:20:41,480 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-19 21:20:41,481 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-19 21:23:04,607 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-19 21:23:04,607 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-19 21:26:27,039 INFO target=lexus-es-2016-2018-cary qualifying_deals=1",
-    "2026-09-19 21:26:27,040 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-    "2026-09-19 21:26:27,043 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-19 21:29:54,416 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L Luxury AWD url=https://www.heightsmotorcredit.com/details/used-2018-lexus-rx-350l/122368113",
-    "2026-09-19 21:29:54,416 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
+    "2026-09-19 22:17:04,854 INFO scalper run started 2026-09-20T02:17:04.854060+00:00",
+    "2026-09-19 22:17:04,856 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-19 22:18:46,317 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-19 22:18:46,317 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-19 22:20:23,971 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-19 22:20:23,972 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-19 22:22:04,560 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-19 22:22:04,560 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-19 22:25:03,858 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\\b(?:es\\s*-?\\s*300h|hybrid|electrified|plug-in|plug\\s+in|phev)\\b title=2017 Lexus ES 350 Sedan",
+    "2026-09-19 22:25:03,859 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-19 22:25:03,859 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-19 22:28:26,682 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_403 title=2018 Lexus RX 350L Luxury AWD url=https://signup.cargurus.com/details/441058100",
+    "2026-09-19 22:28:26,683 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
   ],
-  "started_at": "2026-09-20T01:17:05.572489+00:00",
+  "started_at": "2026-09-20T02:17:04.854060+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -97,45 +97,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; clean title indicated by TrueCar/AutoCheck cross-listing; gasoline FWD 3.5L V6 sedan",
-            "confidence": 0.84,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 16898.0,
-            "seller": "Perfect Ride",
-            "shipping_usd": 0.0,
-            "source": "Perfect Ride",
-            "target_id": "lexus-es-2016-2018-cary",
-            "title": "2017 Lexus ES 350 Sedan",
-            "total_usd": 16898.0,
-            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-            "why_good": "2017 Lexus ES 350 sedan with gasoline V6, 96,015 miles, $16,898 asking price, Smithfield NC dealer contact page, within 200 miles of Cary 27519."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; clean title indicated by TrueCar/AutoCheck cross-listing; gasoline FWD 3.5L V6 sedan",
-          "confidence": 0.84,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 16898.0,
-          "seller": "Perfect Ride",
-          "shipping_usd": 0.0,
-          "source": "Perfect Ride",
-          "target_id": "lexus-es-2016-2018-cary",
-          "title": "2017 Lexus ES 350 Sedan",
-          "total_usd": 16898.0,
-          "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-          "why_good": "2017 Lexus ES 350 sedan with gasoline V6, 96,015 miles, $16,898 asking price, Smithfield NC dealer contact page, within 200 miles of Cary 27519."
-        }
-      ],
+      "deals": [],
       "id": "lexus-es-2016-2018-cary",
       "max_price_usd": 18000,
       "name": "2016-2018 Lexus ES near Cary, NC",
@@ -143,28 +107,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; clean title indicated by TrueCar/AutoCheck cross-listing; gasoline FWD 3.5L V6 sedan",
-            "confidence": 0.84,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 16898.0,
-            "seller": "Perfect Ride",
-            "shipping_usd": 0.0,
-            "source": "Perfect Ride",
-            "target_id": "lexus-es-2016-2018-cary",
-            "title": "2017 Lexus ES 350 Sedan",
-            "total_usd": 16898.0,
-            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-            "why_good": "2017 Lexus ES 350 sedan with gasoline V6, 96,015 miles, $16,898 asking price, Smithfield NC dealer contact page, within 200 miles of Cary 27519."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
