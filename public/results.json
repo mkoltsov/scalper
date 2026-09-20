@@ -1,23 +1,23 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-20T21:29:24.172096+00:00",
+  "finished_at": "2026-09-20T22:31:14.623744+00:00",
   "logs": [
-    "2026-09-20 17:17:05,411 INFO scalper run started 2026-09-20T21:17:05.411004+00:00",
-    "2026-09-20 17:17:05,413 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-20 17:18:40,712 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-20 17:18:40,713 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-20 17:20:47,026 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-20 17:20:47,027 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-20 17:22:22,267 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-20 17:22:22,267 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-20 17:25:24,182 INFO target=lexus-es-2016-2018-cary qualifying_deals=1",
-    "2026-09-20 17:25:24,183 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-    "2026-09-20 17:25:24,184 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-20 17:27:31,738 INFO target=lexus-rx-350l-under-20k qualifying_deals=0",
-    "2026-09-20 17:27:31,739 INFO checking target=sb-tactical-sbt-btfa-under-120 with Codex web_search",
-    "2026-09-20 17:29:24,171 INFO target=sb-tactical-sbt-btfa-under-120 qualifying_deals=0"
+    "2026-09-20 18:17:05,425 INFO scalper run started 2026-09-20T22:17:05.425073+00:00",
+    "2026-09-20 18:17:05,427 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-20 18:19:07,649 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-20 18:19:07,649 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-20 18:21:02,706 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-20 18:21:02,706 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-20 18:22:38,389 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-20 18:22:38,390 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-20 18:26:19,843 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-20 18:26:19,843 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-20 18:28:38,513 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\bhybrid\\b title=2018 Lexus RX 350L Luxury AWD",
+    "2026-09-20 18:28:38,513 INFO target=lexus-rx-350l-under-20k qualifying_deals=0",
+    "2026-09-20 18:28:38,514 INFO checking target=sb-tactical-sbt-btfa-under-120 with Codex web_search",
+    "2026-09-20 18:31:14,623 INFO target=sb-tactical-sbt-btfa-under-120 qualifying_deals=0"
   ],
-  "started_at": "2026-09-20T21:17:05.411004+00:00",
+  "started_at": "2026-09-20T22:17:05.425073+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -98,45 +98,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; clean title verified by TrueCar; gasoline 3.5L V6; complete dealer retail vehicle",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 16898.0,
-            "seller": "Perfect Ride",
-            "shipping_usd": 0.0,
-            "source": "Perfect Ride",
-            "target_id": "lexus-es-2016-2018-cary",
-            "title": "2017 Lexus ES 350 Sedan",
-            "total_usd": 16898.0,
-            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-            "why_good": "Active dealer listing with contact action; 2017 Lexus ES 350 sedan, gas V6, 96,015 miles, $16,898, in Smithfield about 38 miles from Cary."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; clean title verified by TrueCar; gasoline 3.5L V6; complete dealer retail vehicle",
-          "confidence": 0.86,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 16898.0,
-          "seller": "Perfect Ride",
-          "shipping_usd": 0.0,
-          "source": "Perfect Ride",
-          "target_id": "lexus-es-2016-2018-cary",
-          "title": "2017 Lexus ES 350 Sedan",
-          "total_usd": 16898.0,
-          "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-          "why_good": "Active dealer listing with contact action; 2017 Lexus ES 350 sedan, gas V6, 96,015 miles, $16,898, in Smithfield about 38 miles from Cary."
-        }
-      ],
+      "deals": [],
       "id": "lexus-es-2016-2018-cary",
       "max_price_usd": 18000,
       "name": "2016-2018 Lexus ES near Cary, NC",
@@ -144,28 +108,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; clean title verified by TrueCar; gasoline 3.5L V6; complete dealer retail vehicle",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 16898.0,
-            "seller": "Perfect Ride",
-            "shipping_usd": 0.0,
-            "source": "Perfect Ride",
-            "target_id": "lexus-es-2016-2018-cary",
-            "title": "2017 Lexus ES 350 Sedan",
-            "total_usd": 16898.0,
-            "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-            "why_good": "Active dealer listing with contact action; 2017 Lexus ES 350 sedan, gas V6, 96,015 miles, $16,898, in Smithfield about 38 miles from Cary."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
