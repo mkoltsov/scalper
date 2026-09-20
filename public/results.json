@@ -1,23 +1,22 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-20T05:28:24.858868+00:00",
+  "finished_at": "2026-09-20T06:28:15.911528+00:00",
   "logs": [
-    "2026-09-20 01:17:05,113 INFO scalper run started 2026-09-20T05:17:05.113616+00:00",
-    "2026-09-20 01:17:05,115 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-20 01:18:58,025 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-20 01:18:58,026 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-20 01:20:39,611 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-20 01:20:39,612 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-20 01:22:13,838 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-20 01:22:13,839 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-20 01:25:16,281 INFO target=lexus-es-2016-2018-cary qualifying_deals=1",
-    "2026-09-20 01:25:16,281 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-    "2026-09-20 01:25:16,282 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-20 01:28:17,831 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_410 title=Used 2018 Lexus RX 350L Luxury url=https://www.mbmarietta.com/used/Lexus/2018-Lexus-RX-350L-02a74828ac18131a5dcf4e6acd8c6f0b.htm",
-    "2026-09-20 01:28:24,858 INFO target=lexus-rx-350l-under-20k qualifying_deals=1",
-    "2026-09-20 01:28:24,858 INFO already notified target=lexus-rx-350l-under-20k market=us total=18977.00 url=https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm"
+    "2026-09-20 02:17:05,077 INFO scalper run started 2026-09-20T06:17:05.077285+00:00",
+    "2026-09-20 02:17:05,079 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-20 02:18:50,521 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-20 02:18:50,522 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-20 02:20:43,724 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-20 02:20:43,725 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-20 02:22:44,423 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-20 02:22:44,423 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-20 02:25:31,709 INFO target=lexus-es-2016-2018-cary qualifying_deals=1",
+    "2026-09-20 02:25:31,710 INFO already notified target=lexus-es-2016-2018-cary market=us total=16898.00 url=https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
+    "2026-09-20 02:25:31,711 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-20 02:28:15,911 INFO rejected deal target=lexus-rx-350l-under-20k reason=reject_pattern pattern=\\b(?:salvage|rebuilt|reconstructed|flood(?:ed)?|parts\\s+only|for\\s+parts|not\\s+running|non\\s*running|mechanic(?:'s)?\\s+special)\\b title=2018 Lexus RX 350L Luxury AWD",
+    "2026-09-20 02:28:15,911 INFO target=lexus-rx-350l-under-20k qualifying_deals=0"
   ],
-  "started_at": "2026-09-20T05:17:05.113616+00:00",
+  "started_at": "2026-09-20T06:17:05.077285+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -101,7 +100,7 @@
         "us": [
           {
             "availability": "available",
-            "condition": "Used; clean title reported for same VIN; gasoline 3.5L V6 FWD sedan",
+            "condition": "Used; clean title reported by TrueCar for VIN JTHBK1GG1H2253581; dealer listing shows complete running sedan with 3.5L V6 gasoline engine",
             "confidence": 0.86,
             "delivery_country": "United States",
             "market_label": "US",
@@ -109,19 +108,19 @@
             "price_usd": 16898.0,
             "seller": "Perfect Ride",
             "shipping_usd": 0.0,
-            "source": "Perfect Ride",
+            "source": "Perfect Ride / TrueCar",
             "target_id": "lexus-es-2016-2018-cary",
             "title": "2017 Lexus ES 350 Sedan",
             "total_usd": 16898.0,
             "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-            "why_good": "Dealer listing shows a 2017 Lexus ES 350 Sedan, 96,015 miles, 3.5L V6 gasoline/FWD, at Perfect Ride in Smithfield, NC; same VIN is reported clean title and under $18,000."
+            "why_good": "2017 Lexus ES 350 sedan, gasoline 3.5L V6/FWD, 96,015 miles, listed by dealer in Smithfield NC about 38 driving miles from Cary, and asking price is under $18,000."
           }
         ]
       },
       "deals": [
         {
           "availability": "available",
-          "condition": "Used; clean title reported for same VIN; gasoline 3.5L V6 FWD sedan",
+          "condition": "Used; clean title reported by TrueCar for VIN JTHBK1GG1H2253581; dealer listing shows complete running sedan with 3.5L V6 gasoline engine",
           "confidence": 0.86,
           "delivery_country": "United States",
           "market_label": "US",
@@ -129,12 +128,12 @@
           "price_usd": 16898.0,
           "seller": "Perfect Ride",
           "shipping_usd": 0.0,
-          "source": "Perfect Ride",
+          "source": "Perfect Ride / TrueCar",
           "target_id": "lexus-es-2016-2018-cary",
           "title": "2017 Lexus ES 350 Sedan",
           "total_usd": 16898.0,
           "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-          "why_good": "Dealer listing shows a 2017 Lexus ES 350 Sedan, 96,015 miles, 3.5L V6 gasoline/FWD, at Perfect Ride in Smithfield, NC; same VIN is reported clean title and under $18,000."
+          "why_good": "2017 Lexus ES 350 sedan, gasoline 3.5L V6/FWD, 96,015 miles, listed by dealer in Smithfield NC about 38 driving miles from Cary, and asking price is under $18,000."
         }
       ],
       "id": "lexus-es-2016-2018-cary",
@@ -146,7 +145,7 @@
           "other": null,
           "us": {
             "availability": "available",
-            "condition": "Used; clean title reported for same VIN; gasoline 3.5L V6 FWD sedan",
+            "condition": "Used; clean title reported by TrueCar for VIN JTHBK1GG1H2253581; dealer listing shows complete running sedan with 3.5L V6 gasoline engine",
             "confidence": 0.86,
             "delivery_country": "United States",
             "market_label": "US",
@@ -154,12 +153,12 @@
             "price_usd": 16898.0,
             "seller": "Perfect Ride",
             "shipping_usd": 0.0,
-            "source": "Perfect Ride",
+            "source": "Perfect Ride / TrueCar",
             "target_id": "lexus-es-2016-2018-cary",
             "title": "2017 Lexus ES 350 Sedan",
             "total_usd": 16898.0,
             "url": "https://www.perfectridenc.com/1042_V20260828105508/Smithfield/2017-Lexus-ES-350-Sedan-for-sale",
-            "why_good": "Dealer listing shows a 2017 Lexus ES 350 Sedan, 96,015 miles, 3.5L V6 gasoline/FWD, at Perfect Ride in Smithfield, NC; same VIN is reported clean title and under $18,000."
+            "why_good": "2017 Lexus ES 350 sedan, gasoline 3.5L V6/FWD, 96,015 miles, listed by dealer in Smithfield NC about 38 driving miles from Cary, and asking price is under $18,000."
           }
         },
         "counts": {
@@ -175,45 +174,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; gasoline V6; dealer listing",
-            "confidence": 0.77,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 18977.0,
-            "seller": "KC Summers Toyota",
-            "shipping_usd": 0.0,
-            "source": "KC Summers Toyota",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "Pre-Owned 2018 Lexus RX 350L Premium All-wheel Drive",
-            "total_usd": 18977.0,
-            "url": "https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm",
-            "why_good": "Exact dealer page identifies the Lexus RX 350L variant, Mattoon IL location, gasoline V6 powertrain, current availability/contact actions, and $18,977 sale price."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; gasoline V6; dealer listing",
-          "confidence": 0.77,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 18977.0,
-          "seller": "KC Summers Toyota",
-          "shipping_usd": 0.0,
-          "source": "KC Summers Toyota",
-          "target_id": "lexus-rx-350l-under-20k",
-          "title": "Pre-Owned 2018 Lexus RX 350L Premium All-wheel Drive",
-          "total_usd": 18977.0,
-          "url": "https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm",
-          "why_good": "Exact dealer page identifies the Lexus RX 350L variant, Mattoon IL location, gasoline V6 powertrain, current availability/contact actions, and $18,977 sale price."
-        }
-      ],
+      "deals": [],
       "id": "lexus-rx-350l-under-20k",
       "max_price_usd": 20000,
       "name": "Lexus RX 350L under $20,000",
@@ -221,28 +184,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; gasoline V6; dealer listing",
-            "confidence": 0.77,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 18977.0,
-            "seller": "KC Summers Toyota",
-            "shipping_usd": 0.0,
-            "source": "KC Summers Toyota",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "Pre-Owned 2018 Lexus RX 350L Premium All-wheel Drive",
-            "total_usd": 18977.0,
-            "url": "https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm",
-            "why_good": "Exact dealer page identifies the Lexus RX 350L variant, Mattoon IL location, gasoline V6 powertrain, current availability/contact actions, and $18,977 sale price."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
