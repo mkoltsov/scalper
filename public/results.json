@@ -1,23 +1,22 @@
 {
   "exit_code": 0,
-  "finished_at": "2026-09-21T09:30:14.014603+00:00",
+  "finished_at": "2026-09-21T10:29:05.238847+00:00",
   "logs": [
-    "2026-09-21 05:17:05,277 INFO scalper run started 2026-09-21T09:17:05.277693+00:00",
-    "2026-09-21 05:17:05,280 INFO checking target=nzxt-h1-v2 with Codex web_search",
-    "2026-09-21 05:18:34,999 INFO target=nzxt-h1-v2 qualifying_deals=0",
-    "2026-09-21 05:18:35,000 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
-    "2026-09-21 05:20:16,617 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
-    "2026-09-21 05:20:16,617 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
-    "2026-09-21 05:21:56,539 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
-    "2026-09-21 05:21:56,540 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
-    "2026-09-21 05:23:58,754 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
-    "2026-09-21 05:23:58,755 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
-    "2026-09-21 05:27:39,408 INFO target=lexus-rx-350l-under-20k qualifying_deals=1",
-    "2026-09-21 05:27:39,409 INFO already notified target=lexus-rx-350l-under-20k market=us total=19719.00 url=https://heightsmotorcredit.net/pre-owned-cars?invquery=1&pricestack=1&rcnt=116&rcond=all&rstartrow=1&selid=5211",
-    "2026-09-21 05:27:39,409 INFO checking target=sb-tactical-sbt-btfa-under-120 with Codex web_search",
-    "2026-09-21 05:30:14,014 INFO target=sb-tactical-sbt-btfa-under-120 qualifying_deals=0"
+    "2026-09-21 06:17:04,781 INFO scalper run started 2026-09-21T10:17:04.781038+00:00",
+    "2026-09-21 06:17:04,783 INFO checking target=nzxt-h1-v2 with Codex web_search",
+    "2026-09-21 06:18:47,746 INFO target=nzxt-h1-v2 qualifying_deals=0",
+    "2026-09-21 06:18:47,747 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search",
+    "2026-09-21 06:20:36,623 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0",
+    "2026-09-21 06:20:36,623 INFO checking target=acura-tsx-wagon-cary with Codex web_search",
+    "2026-09-21 06:22:10,155 INFO target=acura-tsx-wagon-cary qualifying_deals=0",
+    "2026-09-21 06:22:10,156 INFO checking target=lexus-es-2016-2018-cary with Codex web_search",
+    "2026-09-21 06:24:07,128 INFO target=lexus-es-2016-2018-cary qualifying_deals=0",
+    "2026-09-21 06:24:07,129 INFO checking target=lexus-rx-350l-under-20k with Codex web_search",
+    "2026-09-21 06:26:08,663 INFO target=lexus-rx-350l-under-20k qualifying_deals=0",
+    "2026-09-21 06:26:08,664 INFO checking target=sb-tactical-sbt-btfa-under-120 with Codex web_search",
+    "2026-09-21 06:29:05,238 INFO target=sb-tactical-sbt-btfa-under-120 qualifying_deals=0"
   ],
-  "started_at": "2026-09-21T09:17:05.277693+00:00",
+  "started_at": "2026-09-21T10:17:04.781038+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -123,45 +122,9 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "condition": "Used; clean title history; gasoline 3.5L V6; complete running pre-owned SUV",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 19719.0,
-            "seller": "Heights Motor Credit",
-            "shipping_usd": 0.0,
-            "source": "Heights Motor Credit",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "2018 Lexus RX 350L Luxury AWD",
-            "total_usd": 19719.0,
-            "url": "https://heightsmotorcredit.net/pre-owned-cars?invquery=1&pricestack=1&rcnt=116&rcond=all&rstartrow=1&selid=5211",
-            "why_good": "Dealer inventory in Houston, TX lists VIN JTJDZKCA4J2007916 with gasoline fuel, 149,787 miles, transparent price $19,719 under $20,000, and current check-availability/contact actions; matching aggregators identify it as RX 350L Luxury AWD with clean title history."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "condition": "Used; clean title history; gasoline 3.5L V6; complete running pre-owned SUV",
-          "confidence": 0.86,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_usd": 19719.0,
-          "seller": "Heights Motor Credit",
-          "shipping_usd": 0.0,
-          "source": "Heights Motor Credit",
-          "target_id": "lexus-rx-350l-under-20k",
-          "title": "2018 Lexus RX 350L Luxury AWD",
-          "total_usd": 19719.0,
-          "url": "https://heightsmotorcredit.net/pre-owned-cars?invquery=1&pricestack=1&rcnt=116&rcond=all&rstartrow=1&selid=5211",
-          "why_good": "Dealer inventory in Houston, TX lists VIN JTJDZKCA4J2007916 with gasoline fuel, 149,787 miles, transparent price $19,719 under $20,000, and current check-availability/contact actions; matching aggregators identify it as RX 350L Luxury AWD with clean title history."
-        }
-      ],
+      "deals": [],
       "id": "lexus-rx-350l-under-20k",
       "max_price_usd": 20000,
       "name": "Lexus RX 350L under $20,000",
@@ -169,28 +132,12 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "condition": "Used; clean title history; gasoline 3.5L V6; complete running pre-owned SUV",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_usd": 19719.0,
-            "seller": "Heights Motor Credit",
-            "shipping_usd": 0.0,
-            "source": "Heights Motor Credit",
-            "target_id": "lexus-rx-350l-under-20k",
-            "title": "2018 Lexus RX 350L Luxury AWD",
-            "total_usd": 19719.0,
-            "url": "https://heightsmotorcredit.net/pre-owned-cars?invquery=1&pricestack=1&rcnt=116&rcond=all&rstartrow=1&selid=5211",
-            "why_good": "Dealer inventory in Houston, TX lists VIN JTJDZKCA4J2007916 with gasoline fuel, 149,787 miles, transparent price $19,719 under $20,000, and current check-availability/contact actions; matching aggregators identify it as RX 350L Luxury AWD with clean title history."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
