@@ -49,7 +49,7 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-09-21T10:29:05.238847+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p>Latest run: 2026-09-21T11:31:02.250050+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -95,9 +95,49 @@
             <section class="target">
               <div class="target-head">
                 <h1>Lexus RX 350L under $20,000</h1>
-                <span>0 live matches</span>
+                <span>1 live match</span>
               </div>
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              
+              <div class="market-summary">
+                
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>$19302.00</strong>
+                  <small>Capital One Auto Navigator</small>
+                </div>
+    
+                
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+        
+                
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>US</h2>
+                
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> Capital One Auto Navigator · $19302.00 · United States</div>
+                  <h2><a href="https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996" rel="nofollow noopener">2018 Lexus RX RX 350L Luxury</a></h2>
+                  <p>Exact RX 350L Luxury gasoline listing with dealer-fee-inclusive price under $20000, located at a US dealer with contact/check-availability action.</p>
+                </article>
+    
+              </div>
+    
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    
             </section>
             
             <section class="target">
@@ -155,21 +195,22 @@
     <section class="target" id="logs">
       <div class="target-head">
         <h1>Logs</h1>
-        <span>13 lines published</span>
+        <span>14 lines published</span>
       </div>
-      <pre>2026-09-21 06:17:04,781 INFO scalper run started 2026-09-21T10:17:04.781038+00:00
-2026-09-21 06:17:04,783 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-21 06:18:47,746 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-21 06:18:47,747 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-21 06:20:36,623 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-21 06:20:36,623 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-21 06:22:10,155 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-21 06:22:10,156 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-21 06:24:07,128 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
-2026-09-21 06:24:07,129 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
-2026-09-21 06:26:08,663 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
-2026-09-21 06:26:08,664 INFO checking target=sb-tactical-sbt-btfa-under-120 with Codex web_search
-2026-09-21 06:29:05,238 INFO target=sb-tactical-sbt-btfa-under-120 qualifying_deals=0</pre>
+      <pre>2026-09-21 07:17:05,496 INFO scalper run started 2026-09-21T11:17:05.496258+00:00
+2026-09-21 07:17:05,498 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-21 07:18:52,662 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-21 07:18:52,662 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-21 07:20:14,526 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-21 07:20:14,527 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-21 07:22:03,025 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-21 07:22:03,026 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-21 07:24:13,034 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-09-21 07:24:13,035 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-21 07:28:40,968 INFO target=lexus-rx-350l-under-20k qualifying_deals=1
+2026-09-21 07:28:40,969 INFO already notified target=lexus-rx-350l-under-20k market=us total=19302.00 url=https://www.capitalone.com/cars/vehicle-details/2018/Lexus/RX/RX%2B350L%2BLuxury/JTJDZKCA5J2009996
+2026-09-21 07:28:40,969 INFO checking target=sb-tactical-sbt-btfa-under-120 with Codex web_search
+2026-09-21 07:31:02,249 INFO target=sb-tactical-sbt-btfa-under-120 qualifying_deals=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
