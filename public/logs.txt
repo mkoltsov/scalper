@@ -1,16 +1,13 @@
-2026-09-22 00:17:05,517 INFO scalper run started 2026-09-22T04:17:05.517716+00:00
-2026-09-22 00:17:05,520 INFO checking target=nzxt-h1-v2 with Codex web_search
-2026-09-22 00:18:55,646 INFO target=nzxt-h1-v2 qualifying_deals=0
-2026-09-22 00:18:55,647 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
-2026-09-22 00:21:27,100 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
-2026-09-22 00:21:27,101 INFO checking target=acura-tsx-wagon-cary with Codex web_search
-2026-09-22 00:23:29,038 INFO target=acura-tsx-wagon-cary qualifying_deals=0
-2026-09-22 00:23:29,039 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
-2026-09-22 00:25:36,079 INFO rejected deal target=lexus-es-2016-2018-cary reason=reject_pattern pattern=\b(?:es\s*-?\s*300h|hybrid|electrified|plug-in|plug\s+in|phev)\b title=2017 Lexus ES 350 Sedan
-2026-09-22 00:25:36,080 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
-2026-09-22 00:25:36,080 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
-2026-09-22 00:29:58,558 INFO rejected deal target=lexus-rx-350l-under-20k reason=http_410 title=Used 2018 Lexus RX 350L Luxury url=https://www.mbmarietta.com/used/Lexus/2018-Lexus-RX-350L-02a74828ac18131a5dcf4e6acd8c6f0b.htm
-2026-09-22 00:30:32,456 INFO target=lexus-rx-350l-under-20k qualifying_deals=1
-2026-09-22 00:30:32,457 INFO already notified target=lexus-rx-350l-under-20k market=us total=18977.00 url=https://www.kcsummerstoyota.com/used/LEXUS/2018-LEXUS-RX-350L-b6af593eac1834a791521c6b1a6c0421.htm
-2026-09-22 00:30:32,457 INFO checking target=sb-tactical-sbt-btfa-under-120 with Codex web_search
-2026-09-22 00:32:11,793 INFO target=sb-tactical-sbt-btfa-under-120 qualifying_deals=0
+2026-09-22 01:17:05,439 INFO scalper run started 2026-09-22T05:17:05.439459+00:00
+2026-09-22 01:17:05,441 INFO checking target=nzxt-h1-v2 with Codex web_search
+2026-09-22 01:18:44,109 INFO target=nzxt-h1-v2 qualifying_deals=0
+2026-09-22 01:18:44,110 INFO checking target=toyota-matrix-2nd-gen-red-hood with Codex web_search
+2026-09-22 01:20:41,382 INFO target=toyota-matrix-2nd-gen-red-hood qualifying_deals=0
+2026-09-22 01:20:41,382 INFO checking target=acura-tsx-wagon-cary with Codex web_search
+2026-09-22 01:22:54,891 INFO target=acura-tsx-wagon-cary qualifying_deals=0
+2026-09-22 01:22:54,892 INFO checking target=lexus-es-2016-2018-cary with Codex web_search
+2026-09-22 01:24:38,222 INFO target=lexus-es-2016-2018-cary qualifying_deals=0
+2026-09-22 01:24:38,223 INFO checking target=lexus-rx-350l-under-20k with Codex web_search
+2026-09-22 01:27:13,712 INFO target=lexus-rx-350l-under-20k qualifying_deals=0
+2026-09-22 01:27:13,713 INFO checking target=sb-tactical-sbt-btfa-under-120 with Codex web_search
+2026-09-22 01:29:09,194 INFO target=sb-tactical-sbt-btfa-under-120 qualifying_deals=0
