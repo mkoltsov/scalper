@@ -1,0 +1,37 @@
+{
+  "exit_code": 0,
+  "finished_at": "2026-09-28T18:20:01.023463+00:00",
+  "logs": [
+    "2026-09-28 14:17:05,130 INFO scalper run started 2026-09-28T18:17:05.130800+00:00",
+    "2026-09-28 14:17:05,132 INFO checking target=sb-tactical-sbt-btfa-under-120 with Codex web_search",
+    "2026-09-28 14:20:01,023 INFO target=sb-tactical-sbt-btfa-under-120 qualifying_deals=0"
+  ],
+  "started_at": "2026-09-28T18:17:05.130800+00:00",
+  "targets": [
+    {
+      "deal_groups": {
+        "eu": [],
+        "other": [],
+        "us": []
+      },
+      "deals": [],
+      "id": "sb-tactical-sbt-btfa-under-120",
+      "max_price_usd": 120,
+      "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
+      "regional_summary": {
+        "best": {
+          "eu": null,
+          "other": null,
+          "us": null
+        },
+        "counts": {
+          "eu": 0,
+          "other": 0,
+          "us": 0
+        },
+        "eu_premium_percent": null,
+        "eu_premium_usd": null
+      }
+    }
+  ]
+}
