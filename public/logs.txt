@@ -1,3 +1,11 @@
-2026-09-25 20:17:04,795 INFO scalper run started 2026-09-26T00:17:04.794917+00:00
-2026-09-25 20:17:04,797 INFO checking target=sb-tactical-sbt-btfa-under-120 with Codex web_search
-2026-09-25 20:18:52,645 INFO target=sb-tactical-sbt-btfa-under-120 qualifying_deals=0
+2026-09-28 13:17:05,298 INFO scalper run started 2026-09-28T17:17:05.298757+00:00
+2026-09-28 13:17:05,300 INFO checking target=sb-tactical-sbt-btfa-under-120 with Codex web_search
+2026-09-28 13:17:25,840 ERROR Codex search failed for target=sb-tactical-sbt-btfa-under-120
+Traceback (most recent call last):
+  File "/home/intimatik/dev/scalper/scalper.py", line 1856, in run
+    result = run_codex(target, config, metrics)
+  File "/home/intimatik/dev/scalper/scalper.py", line 523, in run_codex
+    raise RuntimeError(
+        f"Codex failed for {target['id']} with exit code {process.returncode}: {process.stderr.strip()}"
+    )
+RuntimeError: Codex failed for sb-tactical-sbt-btfa-under-120 with exit code 1: Error: timed out waiting for cloud config bundle after 20s
