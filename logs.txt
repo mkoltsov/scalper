@@ -1,10 +1,4 @@
-2026-10-05 00:17:05,744 INFO scalper run started 2026-10-05T04:17:05.744717+00:00
-2026-10-05 00:17:05,746 INFO checking target=sb-tactical-sbt-btfa-under-120 with Codex web_search
-2026-10-05 00:19:18,799 INFO target=sb-tactical-sbt-btfa-under-120 qualifying_deals=0
-2026-10-05 00:19:18,800 INFO checking target=9mm-1000-rounds-under-257 with Codex web_search
-2026-10-05 00:22:12,882 INFO rejected deal target=9mm-1000-rounds-under-257 reason=title_round_count title=Magtech 9mm 124 grain Zinc-Plated Steel FMJ Full Metal Jacket 50 rd box FREE SHIPPING (1000 rd case) url=https://rivertownmunitions.com/product/magtech-9mm-124-grain-zinc-plated-steel-fmj-full-metal-jacket-50-rd-box-free-shipping-1000-rd-case/
-2026-10-05 00:22:13,123 INFO rejected deal target=9mm-1000-rounds-under-257 reason=http_429 title=AM 9mm 124gr FMJ Free Shipping - 1000 rds url=https://americanreloading.com/products/am-9mm-124gr-fmj-free-shipping-1000-rds
-2026-10-05 00:22:13,305 INFO rejected deal target=9mm-1000-rounds-under-257 reason=price_not_on_page title=9mm - Federated Ordnance 124 Grain NATO SPEC Full Metal Jacket - 1000 Rounds url=https://www.velocityammosales.com/products/9mm-federated-ordnance-124-grain-full-metal-jacket-1000-rounds/
-2026-10-05 00:22:13,306 INFO target=9mm-1000-rounds-under-257 qualifying_deals=0
-2026-10-05 00:22:13,306 INFO checking target=223-556-1000-rounds-under-470 with Codex web_search
-2026-10-05 00:22:29,433 INFO target=223-556-1000-rounds-under-470 qualifying_deals=0
+Scan scope: complete; selected targets: 3; exit code: 1
+Target 1: status=ok; error=none; raw=0; normalized=0; verified=0
+Target 2: status=incomplete; error=verification_incomplete; raw=4; normalized=4; verified=0
+Target 3: status=ok; error=none; raw=2; normalized=2; verified=0
