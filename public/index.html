@@ -49,8 +49,8 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-10-06T03:21:25.814172+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
-      
+      <p>Latest run: 2026-10-06T04:21:51.845841+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p class="error">1 target scan(s) failed or are incomplete.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -73,10 +73,10 @@
             <section class="target">
               <div class="target-head">
                 <h1>9x19 / 9mm, 1000 rounds, under US$257</h1>
-                <span>Scan complete · 0 verified matches</span>
+                <span>Scan incomplete · 0 verified matches</span>
               </div>
               
-              <p class="empty">No currently verified offer qualified.</p>
+              <p class="empty">Some listing checks failed. This scan is incomplete.</p>
             </section>
             
             <section class="target">
@@ -137,9 +137,9 @@
         <h1>Logs</h1>
         <span>4 lines published</span>
       </div>
-      <pre>Scan scope: complete; selected targets: 3; exit code: 0
+      <pre>Scan scope: complete; selected targets: 3; exit code: 1
 Target 1: status=ok; error=none; raw=0; normalized=0; verified=0
-Target 2: status=ok; error=none; raw=0; normalized=0; verified=0
+Target 2: status=incomplete; error=verification_incomplete; raw=3; normalized=3; verified=0
 Target 3: status=ok; error=none; raw=0; normalized=0; verified=0</pre>
     </section>
   </main>
