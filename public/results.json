@@ -7,12 +7,12 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-08T09:20:58.622115+00:00",
+  "finished_at": "2026-10-08T10:22:58.106349+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 3; exit code: 1",
     "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0"
+    "Target 2: status=ok; error=none; raw=3; normalized=3; verified=0",
+    "Target 3: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -21,7 +21,7 @@
     "9mm-1000-rounds-under-257",
     "223-556-1000-rounds-under-470"
   ],
-  "started_at": "2026-10-08T09:17:05.243521+00:00",
+  "started_at": "2026-10-08T10:17:05.507470+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -30,10 +30,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 41631,
+      "duration_ms": 58847,
       "empty_message": "Search did not run every configured query. No conclusion about current availability.",
       "error_code": "search_incomplete",
-      "finished_at": "2026-10-08T09:17:46.876731+00:00",
+      "finished_at": "2026-10-08T10:18:04.356729+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -53,7 +53,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-08T09:17:05.245632+00:00",
+      "started_at": "2026-10-08T10:17:05.509531+00:00",
       "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
@@ -65,15 +65,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 122016,
+      "duration_ms": 88030,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-08T09:19:48.892267+00:00",
+      "finished_at": "2026-10-08T10:19:32.386606+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 3,
+      "raw_count": 3,
       "regional_summary": {
         "best": {
           "eu": null,
@@ -88,7 +88,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-08T09:17:46.876797+00:00",
+      "started_at": "2026-10-08T10:18:04.356796+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -97,36 +97,112 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.99,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 440.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Velocity Ammunition Sales",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO First Breach 55 Grain Full Metal Jacket 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-10-08T10:22:58.003844+00:00",
+            "why_good": "Factory-new 5.56 NATO FMJ, exactly 1000 rounds, 100+ in stock, with free shipping on ammo orders over $200."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 69730,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-10-08T09:20:58.622068+00:00",
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.99,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 440.0,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "Velocity Ammunition Sales",
+          "shipping_usd": 0.0,
+          "source": "Velocity Ammunition Sales",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "5.56 NATO First Breach 55 Grain Full Metal Jacket 1000 Rounds Bulk",
+          "total_usd": 440.0,
+          "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+          "verified_at": "2026-10-08T10:22:58.003844+00:00",
+          "why_good": "Factory-new 5.56 NATO FMJ, exactly 1000 rounds, 100+ in stock, with free shipping on ammo orders over $200."
+        }
+      ],
+      "duration_ms": 205618,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-10-08T10:22:58.004963+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 2,
+      "raw_count": 2,
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.99,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 440.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Velocity Ammunition Sales",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO First Breach 55 Grain Full Metal Jacket 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-10-08T10:22:58.003844+00:00",
+            "why_good": "Factory-new 5.56 NATO FMJ, exactly 1000 rounds, 100+ in stock, with free shipping on ammo orders over $200."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-08T09:19:48.892334+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
-      "verified_count": 0
+      "started_at": "2026-10-08T10:19:32.386693+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
+      "verified_count": 1
     }
   ]
 }
