@@ -7,12 +7,12 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-08T14:21:16.709902+00:00",
+  "finished_at": "2026-10-08T15:20:03.800036+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 3; exit code: 1",
-    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0"
+    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=2; normalized=2; verified=2"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -21,7 +21,7 @@
     "9mm-1000-rounds-under-257",
     "223-556-1000-rounds-under-470"
   ],
-  "started_at": "2026-10-08T14:17:05.071824+00:00",
+  "started_at": "2026-10-08T15:17:05.235490+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -30,10 +30,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 116747,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-08T14:19:01.820952+00:00",
+      "duration_ms": 42286,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-10-08T15:17:47.523174+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -53,8 +53,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-08T14:17:05.073925+00:00",
-      "status": "incomplete",
+      "started_at": "2026-10-08T15:17:05.237572+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -65,10 +65,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 73479,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-10-08T14:20:15.300445+00:00",
+      "duration_ms": 19863,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-08T15:18:07.386462+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -88,8 +88,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-08T14:19:01.821022+00:00",
-      "status": "ok",
+      "started_at": "2026-10-08T15:17:47.523243+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -97,36 +97,162 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 440.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Velocity Ammunition Sales",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-10-08T15:19:58.389263+00:00",
+            "why_good": "Factory-new 5.56 NATO, 1000 rounds, 100+ in stock, with free shipping on qualifying ammo orders over $200; sales tax excluded."
+          },
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 450.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Velocity Ammunition Sales",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO \u2013 PMC 556K 62 Grain Green Tip \u2013 1000 Rounds",
+            "total_usd": 450.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-pmc-x-tac-62-grain-green-tip-1000rd-case/",
+            "verified_at": "2026-10-08T15:20:03.700141+00:00",
+            "why_good": "Factory-new 5.56 NATO PMC X-TAC, exact 1000-round case, 21 in stock, with free shipping on qualifying ammo orders over $200; sales tax excluded."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 61409,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 440.0,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "Velocity Ammunition Sales",
+          "shipping_usd": 0.0,
+          "source": "Velocity Ammunition Sales",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+          "total_usd": 440.0,
+          "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+          "verified_at": "2026-10-08T15:19:58.389263+00:00",
+          "why_good": "Factory-new 5.56 NATO, 1000 rounds, 100+ in stock, with free shipping on qualifying ammo orders over $200; sales tax excluded."
+        },
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 450.0,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "Velocity Ammunition Sales",
+          "shipping_usd": 0.0,
+          "source": "Velocity Ammunition Sales",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "5.56 NATO \u2013 PMC 556K 62 Grain Green Tip \u2013 1000 Rounds",
+          "total_usd": 450.0,
+          "url": "https://www.velocityammosales.com/products/5-56-nato-pmc-x-tac-62-grain-green-tip-1000rd-case/",
+          "verified_at": "2026-10-08T15:20:03.700141+00:00",
+          "why_good": "Factory-new 5.56 NATO PMC X-TAC, exact 1000-round case, 21 in stock, with free shipping on qualifying ammo orders over $200; sales tax excluded."
+        }
+      ],
+      "duration_ms": 116315,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-08T14:21:16.709859+00:00",
+      "finished_at": "2026-10-08T15:20:03.701075+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 2,
+      "raw_count": 2,
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 440.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Velocity Ammunition Sales",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-10-08T15:19:58.389263+00:00",
+            "why_good": "Factory-new 5.56 NATO, 1000 rounds, 100+ in stock, with free shipping on qualifying ammo orders over $200; sales tax excluded."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-08T14:20:15.300511+00:00",
+      "started_at": "2026-10-08T15:18:07.386559+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 2
     }
   ]
 }
