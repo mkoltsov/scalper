@@ -1,5 +1,5 @@
 {
-  "config_sha256": "e1f5c490dd99475612686d8055e378799bf571e3aa0d12b22f428da1de7805ce",
+  "config_sha256": "3baf2d01c9be0811a545647e432255f981f6c1eabbf72b60cd39fb51d6abe207",
   "configured_target_ids": [
     "sb-tactical-sbt-btfa-under-120",
     "9mm-1000-rounds-under-257",
@@ -7,12 +7,12 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-08T03:26:18.770759+00:00",
+  "finished_at": "2026-10-08T03:43:40.623512+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 3; exit code: 1",
-    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=3; normalized=3; verified=0",
-    "Target 3: status=incomplete; error=verification_incomplete; raw=4; normalized=4; verified=0"
+    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -21,7 +21,7 @@
     "9mm-1000-rounds-under-257",
     "223-556-1000-rounds-under-470"
   ],
-  "started_at": "2026-10-08T03:17:05.240891+00:00",
+  "started_at": "2026-10-08T03:39:44.767641+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -30,10 +30,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 144753,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-08T03:19:29.996552+00:00",
+      "duration_ms": 61285,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-08T03:40:46.054419+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -53,8 +53,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-08T03:17:05.243275+00:00",
-      "status": "ok",
+      "started_at": "2026-10-08T03:39:44.769708+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -65,15 +65,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 172679,
+      "duration_ms": 84863,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-08T03:22:22.675804+00:00",
+      "finished_at": "2026-10-08T03:42:10.917499+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
-      "normalized_count": 3,
-      "raw_count": 3,
+      "normalized_count": 0,
+      "raw_count": 0,
       "regional_summary": {
         "best": {
           "eu": null,
@@ -88,7 +88,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-08T03:19:29.996615+00:00",
+      "started_at": "2026-10-08T03:40:46.054497+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -100,15 +100,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 236095,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-10-08T03:26:18.770664+00:00",
+      "duration_ms": 89706,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-10-08T03:43:40.623466+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 4,
-      "raw_count": 4,
+      "normalized_count": 1,
+      "raw_count": 1,
       "regional_summary": {
         "best": {
           "eu": null,
@@ -123,9 +123,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-08T03:22:22.675876+00:00",
-      "status": "incomplete",
-      "verification_error_count": 2,
+      "started_at": "2026-10-08T03:42:10.917566+00:00",
+      "status": "ok",
+      "verification_error_count": 0,
       "verified_count": 0
     }
   ]
