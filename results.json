@@ -6,13 +6,13 @@
     "223-556-1000-rounds-under-470"
   ],
   "dry_run": false,
-  "exit_code": 0,
-  "finished_at": "2026-10-09T14:20:13.324706+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-10-09T15:21:28.795936+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 3; exit code: 0",
-    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Scan scope: complete; selected targets: 3; exit code: 1",
+    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0"
+    "Target 3: status=ok; error=none; raw=2; normalized=2; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -21,7 +21,7 @@
     "9mm-1000-rounds-under-257",
     "223-556-1000-rounds-under-470"
   ],
-  "started_at": "2026-10-09T14:17:05.302606+00:00",
+  "started_at": "2026-10-09T15:17:05.524320+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -30,10 +30,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 50412,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-09T14:17:55.716806+00:00",
+      "duration_ms": 53298,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-09T15:17:58.824760+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -54,8 +54,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-09T14:17:05.304738+00:00",
-      "status": "ok",
+      "started_at": "2026-10-09T15:17:05.526371+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -66,10 +66,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 61035,
+      "duration_ms": 88282,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-09T14:18:56.752104+00:00",
+      "finished_at": "2026-10-09T15:19:27.106729+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -90,7 +90,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-09T14:17:55.716873+00:00",
+      "started_at": "2026-10-09T15:17:58.824828+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -99,69 +99,71 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New factory-loaded ammunition",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 469.5,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "",
+            "shipping_usd": 0.0,
+            "source": "Stunomma",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "PMC XTAC 5.56 NATO 55GR FMJBT 1000 Rounds Free Shipping! 556X",
+            "total_usd": 469.5,
+            "url": "https://stunomma.com/product/pmc-xtac-556nato-55gr-fmjbt-1000-556x/",
+            "verified_at": "2026-10-09T15:21:26.676818+00:00",
+            "why_good": "Exactly 1000 rounds of 5.56 NATO, in stock with active purchase action and unconditional free shipping. Sales tax excluded and shown separately at checkout."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 76572,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New factory-loaded ammunition",
+          "confidence": 0.97,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 469.5,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "",
+          "shipping_usd": 0.0,
+          "source": "Stunomma",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "PMC XTAC 5.56 NATO 55GR FMJBT 1000 Rounds Free Shipping! 556X",
+          "total_usd": 469.5,
+          "url": "https://stunomma.com/product/pmc-xtac-556nato-55gr-fmjbt-1000-556x/",
+          "verified_at": "2026-10-09T15:21:26.676818+00:00",
+          "why_good": "Exactly 1000 rounds of 5.56 NATO, in stock with active purchase action and unconditional free shipping. Sales tax excluded and shown separately at checkout."
+        }
+      ],
+      "duration_ms": 121598,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-09T14:20:13.324493+00:00",
+      "finished_at": "2026-10-09T15:21:28.704702+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "223_556",
-          "condition": "New",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "current_cash_price",
-          "price_usd": 440.0,
-          "product_category": "factory_ammunition",
-          "round_count": 1000,
-          "selected_quantity_label": "1000 rounds",
-          "selected_variant": "",
-          "seller": "Velocity Ammunition Sales",
-          "shipping_usd": 0.0,
-          "source": "Velocity Ammunition Sales",
-          "target_id": "223-556-1000-rounds-under-470",
-          "tax_status": "sales tax excluded; amount unknown",
-          "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
-          "total_usd": 440.0,
-          "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
-          "verified_at": "2026-10-08T15:19:58.389263+00:00",
-          "why_good": "Factory-new 5.56 NATO, 1000 rounds, 100+ in stock, with free shipping on qualifying ammo orders over $200; sales tax excluded."
-        },
-        {
-          "availability": "available",
-          "cartridge": "223_556",
-          "condition": "New",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "current_cash_price",
-          "price_usd": 450.0,
-          "product_category": "factory_ammunition",
-          "round_count": 1000,
-          "selected_quantity_label": "1000 rounds",
-          "selected_variant": "",
-          "seller": "Velocity Ammunition Sales",
-          "shipping_usd": 0.0,
-          "source": "Velocity Ammunition Sales",
-          "target_id": "223-556-1000-rounds-under-470",
-          "tax_status": "sales tax excluded; amount unknown",
-          "title": "5.56 NATO \u2013 PMC 556K 62 Grain Green Tip \u2013 1000 Rounds",
-          "total_usd": 450.0,
-          "url": "https://www.velocityammosales.com/products/5-56-nato-pmc-x-tac-62-grain-green-tip-1000rd-case/",
-          "verified_at": "2026-10-08T15:20:03.700141+00:00",
-          "why_good": "Factory-new 5.56 NATO PMC X-TAC, exact 1000-round case, 21 in stock, with free shipping on qualifying ammo orders over $200; sales tax excluded."
-        },
         {
           "availability": "available",
           "cartridge": "223_556",
@@ -211,51 +213,50 @@
           "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
           "verified_at": "2026-10-09T12:20:42.622906+00:00",
           "why_good": "In-stock factory-loaded .223 Remington FMJ case of exactly 1000 rounds with unconditional free shipping; sales tax is separate."
-        },
-        {
-          "availability": "available",
-          "cartridge": "223_556",
-          "condition": "New",
-          "confidence": 0.97,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "current_cash_price",
-          "price_usd": 469.5,
-          "product_category": "factory_ammunition",
-          "round_count": 1000,
-          "selected_quantity_label": "1000 rounds",
-          "selected_variant": "",
-          "seller": "Stunomma",
-          "shipping_usd": 0.0,
-          "source": "Stunomma",
-          "target_id": "223-556-1000-rounds-under-470",
-          "tax_status": "sales tax excluded; amount unknown",
-          "title": "PMC XTAC 5.56 NATO 55GR FMJBT 1000 Rounds Free Shipping! 556X",
-          "total_usd": 469.5,
-          "url": "https://stunomma.com/product/pmc-xtac-556nato-55gr-fmjbt-1000-556x/",
-          "verified_at": "2026-10-09T12:20:51.195235+00:00",
-          "why_good": "In-stock factory-loaded 5.56 NATO FMJ case of exactly 1000 rounds with unconditional free shipping; sales tax is separate."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New factory-loaded ammunition",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 469.5,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "",
+            "shipping_usd": 0.0,
+            "source": "Stunomma",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "PMC XTAC 5.56 NATO 55GR FMJBT 1000 Rounds Free Shipping! 556X",
+            "total_usd": 469.5,
+            "url": "https://stunomma.com/product/pmc-xtac-556nato-55gr-fmjbt-1000-556x/",
+            "verified_at": "2026-10-09T15:21:26.676818+00:00",
+            "why_good": "Exactly 1000 rounds of 5.56 NATO, in stock with active purchase action and unconditional free shipping. Sales tax excluded and shown separately at checkout."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-09T14:18:56.752167+00:00",
+      "started_at": "2026-10-09T15:19:27.106799+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     }
   ]
 }
