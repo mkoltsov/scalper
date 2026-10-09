@@ -1,4 +1,4 @@
-Scan scope: complete; selected targets: 3; exit code: 0
-Target 1: status=ok; error=none; raw=0; normalized=0; verified=0
-Target 2: status=ok; error=none; raw=0; normalized=0; verified=0
-Target 3: status=ok; error=none; raw=3; normalized=3; verified=1
+Scan scope: complete; selected targets: 3; exit code: 1
+Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0
+Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0
+Target 3: status=error; error=search_failed; raw=0; normalized=0; verified=0
