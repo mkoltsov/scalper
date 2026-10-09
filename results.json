@@ -6,13 +6,13 @@
     "223-556-1000-rounds-under-470"
   ],
   "dry_run": false,
-  "exit_code": 0,
-  "finished_at": "2026-10-09T06:21:05.117881+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-10-09T07:18:46.971890+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 3; exit code: 0",
-    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=3; normalized=3; verified=1"
+    "Scan scope: complete; selected targets: 3; exit code: 1",
+    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 3: status=error; error=search_failed; raw=0; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -21,7 +21,7 @@
     "9mm-1000-rounds-under-257",
     "223-556-1000-rounds-under-470"
   ],
-  "started_at": "2026-10-09T06:17:04.920700+00:00",
+  "started_at": "2026-10-09T07:17:05.057295+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -30,10 +30,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 41092,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-09T06:17:46.014310+00:00",
+      "duration_ms": 53093,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-09T07:17:58.152377+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -54,8 +54,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-09T06:17:04.922822+00:00",
-      "status": "ok",
+      "started_at": "2026-10-09T07:17:05.059461+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -66,10 +66,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 56273,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-10-09T06:18:42.287424+00:00",
+      "duration_ms": 31471,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-09T07:18:29.622902+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -166,8 +166,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-09T06:17:46.014377+00:00",
-      "status": "ok",
+      "started_at": "2026-10-09T07:17:58.152450+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -175,70 +175,18 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "223_556",
-            "condition": "New",
-            "confidence": 0.98,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "current_cash_price",
-            "price_usd": 448.99,
-            "product_category": "factory_ammunition",
-            "round_count": 1000,
-            "selected_quantity_label": "1000 rounds",
-            "selected_variant": "",
-            "seller": "Stunomma Sports",
-            "shipping_usd": 0.0,
-            "source": "Stunomma",
-            "target_id": "223-556-1000-rounds-under-470",
-            "tax_status": "sales tax excluded; amount unknown",
-            "title": "PMC BRONZE 223REM 55GR FMJ 1000 Rounds Free Shipping! 223A",
-            "total_usd": 448.99,
-            "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
-            "verified_at": "2026-10-09T06:21:01.423325+00:00",
-            "why_good": "Factory-loaded .223 Remington, exactly 1000 rounds, 10 in stock, and unconditional free shipping; sales tax separate."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "223_556",
-          "condition": "New",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "current_cash_price",
-          "price_usd": 448.99,
-          "product_category": "factory_ammunition",
-          "round_count": 1000,
-          "selected_quantity_label": "1000 rounds",
-          "selected_variant": "",
-          "seller": "Stunomma Sports",
-          "shipping_usd": 0.0,
-          "source": "Stunomma",
-          "target_id": "223-556-1000-rounds-under-470",
-          "tax_status": "sales tax excluded; amount unknown",
-          "title": "PMC BRONZE 223REM 55GR FMJ 1000 Rounds Free Shipping! 223A",
-          "total_usd": 448.99,
-          "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
-          "verified_at": "2026-10-09T06:21:01.423325+00:00",
-          "why_good": "Factory-loaded .223 Remington, exactly 1000 rounds, 10 in stock, and unconditional free shipping; sales tax separate."
-        }
-      ],
-      "duration_ms": 142830,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-10-09T06:21:05.117200+00:00",
+      "deals": [],
+      "duration_ms": 17345,
+      "empty_message": "Search failed. No conclusion about current availability.",
+      "error_code": "search_failed",
+      "finished_at": "2026-10-09T07:18:46.967466+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 3,
-      "raw_count": 3,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -289,50 +237,75 @@
           "url": "https://www.velocityammosales.com/products/5-56-nato-pmc-x-tac-62-grain-green-tip-1000rd-case/",
           "verified_at": "2026-10-08T15:20:03.700141+00:00",
           "why_good": "Factory-new 5.56 NATO PMC X-TAC, exact 1000-round case, 21 in stock, with free shipping on qualifying ammo orders over $200; sales tax excluded."
+        },
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.96,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 448.99,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "Stunomma",
+          "shipping_usd": 0.0,
+          "source": "Stunomma",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "PMC BRONZE 223REM 55GR FMJ 1000 Rounds Free Shipping! 223A",
+          "total_usd": 448.99,
+          "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
+          "verified_at": "2026-10-09T05:21:08.397070+00:00",
+          "why_good": "Exactly 1000 factory PMC .223 Remington FMJ rounds, 10 in stock, active Add to cart, unconditional free shipping."
+        },
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 448.99,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "Stunomma Sports",
+          "shipping_usd": 0.0,
+          "source": "Stunomma",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "PMC BRONZE 223REM 55GR FMJ 1000 Rounds Free Shipping! 223A",
+          "total_usd": 448.99,
+          "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
+          "verified_at": "2026-10-09T06:21:01.423325+00:00",
+          "why_good": "Factory-loaded .223 Remington, exactly 1000 rounds, 10 in stock, and unconditional free shipping; sales tax separate."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "223_556",
-            "condition": "New",
-            "confidence": 0.98,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "current_cash_price",
-            "price_usd": 448.99,
-            "product_category": "factory_ammunition",
-            "round_count": 1000,
-            "selected_quantity_label": "1000 rounds",
-            "selected_variant": "",
-            "seller": "Stunomma Sports",
-            "shipping_usd": 0.0,
-            "source": "Stunomma",
-            "target_id": "223-556-1000-rounds-under-470",
-            "tax_status": "sales tax excluded; amount unknown",
-            "title": "PMC BRONZE 223REM 55GR FMJ 1000 Rounds Free Shipping! 223A",
-            "total_usd": 448.99,
-            "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
-            "verified_at": "2026-10-09T06:21:01.423325+00:00",
-            "why_good": "Factory-loaded .223 Remington, exactly 1000 rounds, 10 in stock, and unconditional free shipping; sales tax separate."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-09T06:18:42.287488+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
-      "verified_count": 1
+      "started_at": "2026-10-09T07:18:29.622971+00:00",
+      "status": "error",
+      "verified_count": 0
     }
   ]
 }
