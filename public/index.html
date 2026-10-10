@@ -49,8 +49,8 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-10-10T11:19:50.219756+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
-
+      <p>Latest run: 2026-10-10T12:19:17.340159+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p class="error">1 target scan(s) failed or are incomplete.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -64,10 +64,10 @@
             <section class="target">
               <div class="target-head">
                 <h1>SB Tactical SBT-BTFA buffer tube folding adapter</h1>
-                <span>Scan complete · 0 verified matches</span>
+                <span>Scan incomplete · 0 verified matches</span>
               </div>
 
-              <p class="empty">No available qualifying listings found in the latest run.</p>
+              <p class="empty">Search did not run every configured query. No conclusion about current availability.</p>
             </section>
 
             <section class="target">
@@ -191,10 +191,10 @@
         <h1>Logs</h1>
         <span>4 lines published</span>
       </div>
-      <pre>Scan scope: complete; selected targets: 3; exit code: 0
-Target 1: status=ok; error=none; raw=0; normalized=0; verified=0
-Target 2: status=ok; error=none; raw=1; normalized=1; verified=0
-Target 3: status=ok; error=none; raw=1; normalized=1; verified=0</pre>
+      <pre>Scan scope: complete; selected targets: 3; exit code: 1
+Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0
+Target 2: status=ok; error=none; raw=0; normalized=0; verified=0
+Target 3: status=ok; error=none; raw=0; normalized=0; verified=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
