@@ -7,11 +7,11 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-11T11:19:37.730874+00:00",
+  "finished_at": "2026-10-11T14:20:05.813727+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 3; exit code: 1",
-    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
   "schema_version": 2,
@@ -21,7 +21,7 @@
     "9mm-1000-rounds-under-257",
     "223-556-1000-rounds-under-470"
   ],
-  "started_at": "2026-10-11T11:17:05.491989+00:00",
+  "started_at": "2026-10-11T14:17:05.862035+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -30,10 +30,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 60714,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-11T11:18:06.207909+00:00",
+      "duration_ms": 46639,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-10-11T14:17:52.503204+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -54,8 +54,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-11T11:17:05.494114+00:00",
-      "status": "incomplete",
+      "started_at": "2026-10-11T14:17:05.864221+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -66,10 +66,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 48578,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-10-11T11:18:54.786085+00:00",
+      "duration_ms": 43385,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-11T14:18:35.887968+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -90,8 +90,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-11T11:18:06.207996+00:00",
-      "status": "ok",
+      "started_at": "2026-10-11T14:17:52.503273+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -102,10 +102,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 42945,
+      "duration_ms": 89926,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-11T11:19:37.730616+00:00",
+      "finished_at": "2026-10-11T14:20:05.813635+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -126,7 +126,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-11T11:18:54.786148+00:00",
+      "started_at": "2026-10-11T14:18:35.888032+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
