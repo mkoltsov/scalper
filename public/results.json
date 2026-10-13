@@ -8,13 +8,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-13T22:21:31.522140+00:00",
+  "finished_at": "2026-10-13T23:21:00.030507+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 4; exit code: 1",
     "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
-    "Target 4: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0"
+    "Target 4: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-13T22:17:05.356724+00:00",
+  "started_at": "2026-10-13T23:17:05.233055+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 66493,
+      "duration_ms": 46959,
       "empty_message": "Search did not run every configured query. No conclusion about current availability.",
       "error_code": "search_incomplete",
-      "finished_at": "2026-10-13T22:18:11.851611+00:00",
+      "finished_at": "2026-10-13T23:17:52.194527+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,7 +57,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-13T22:17:05.358918+00:00",
+      "started_at": "2026-10-13T23:17:05.235286+00:00",
       "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
@@ -69,10 +69,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 75007,
+      "duration_ms": 68274,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-13T22:19:26.858230+00:00",
+      "finished_at": "2026-10-13T23:19:00.468080+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -93,7 +93,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-13T22:18:11.851710+00:00",
+      "started_at": "2026-10-13T23:17:52.194594+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -105,10 +105,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 59985,
+      "duration_ms": 59007,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-13T22:20:26.843159+00:00",
+      "finished_at": "2026-10-13T23:19:59.474832+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -205,7 +205,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-13T22:19:26.858295+00:00",
+      "started_at": "2026-10-13T23:19:00.468146+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -217,15 +217,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 64679,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-13T22:21:31.521849+00:00",
+      "duration_ms": 60555,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-10-13T23:21:00.030214+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -542,9 +542,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-13T22:20:26.843220+00:00",
+      "started_at": "2026-10-13T23:19:59.474892+00:00",
       "status": "incomplete",
-      "verification_error_count": 0,
+      "verification_error_count": 2,
       "verified_count": 0
     }
   ]
