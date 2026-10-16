@@ -8,13 +8,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-16T04:22:20.265315+00:00",
+  "finished_at": "2026-10-16T05:21:42.349668+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 4; exit code: 1",
     "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=2"
+    "Target 4: status=incomplete; error=search_incomplete; raw=2; normalized=2; verified=2"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-16T04:17:05.628565+00:00",
+  "started_at": "2026-10-16T05:17:05.646310+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 65445,
+      "duration_ms": 55089,
       "empty_message": "Search did not run every configured query. No conclusion about current availability.",
       "error_code": "search_incomplete",
-      "finished_at": "2026-10-16T04:18:11.075686+00:00",
+      "finished_at": "2026-10-16T05:18:00.736975+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,7 +57,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-16T04:17:05.631110+00:00",
+      "started_at": "2026-10-16T05:17:05.648493+00:00",
       "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
@@ -69,10 +69,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 61505,
+      "duration_ms": 63969,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-16T04:19:12.580809+00:00",
+      "finished_at": "2026-10-16T05:19:04.706303+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -93,7 +93,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-16T04:18:11.075759+00:00",
+      "started_at": "2026-10-16T05:18:00.737043+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -105,10 +105,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 85264,
+      "duration_ms": 35885,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-16T04:20:37.844590+00:00",
+      "finished_at": "2026-10-16T05:19:40.591135+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -205,7 +205,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-16T04:19:12.580876+00:00",
+      "started_at": "2026-10-16T05:19:04.706374+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -219,7 +219,7 @@
             "availability": "available",
             "cartridge": "",
             "condition": "Used; tested",
-            "confidence": 0.98,
+            "confidence": 0.97,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -237,14 +237,14 @@
             "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
             "total_usd": 31.95,
             "url": "https://www.ebay.com/itm/307009751717",
-            "verified_at": "2026-10-16T04:22:13.135183+00:00",
-            "why_good": "Tested Fitbit Luxe with charger, Buy It Now, and free USPS delivery."
+            "verified_at": "2026-10-16T05:21:42.347864+00:00",
+            "why_good": "Tested Fitbit Luxe with active Buy It Now and unconditional free US shipping; sales tax calculated separately."
           },
           {
             "availability": "available",
             "cartridge": "",
             "condition": "Used",
-            "confidence": 0.95,
+            "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -262,8 +262,8 @@
             "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
             "total_usd": 39.0,
             "url": "https://www.ebay.com/itm/387614287211",
-            "verified_at": "2026-10-16T04:22:03.568375+00:00",
-            "why_good": "Exact Fitbit Luxe listing with Buy It Now, free delivery, and available quantity."
+            "verified_at": "2026-10-16T05:21:32.178435+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now, 9 available, and unconditional free US delivery; sales tax calculated separately."
           }
         ]
       },
@@ -272,7 +272,7 @@
           "availability": "available",
           "cartridge": "",
           "condition": "Used; tested",
-          "confidence": 0.98,
+          "confidence": 0.97,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -290,14 +290,14 @@
           "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
           "total_usd": 31.95,
           "url": "https://www.ebay.com/itm/307009751717",
-          "verified_at": "2026-10-16T04:22:13.135183+00:00",
-          "why_good": "Tested Fitbit Luxe with charger, Buy It Now, and free USPS delivery."
+          "verified_at": "2026-10-16T05:21:42.347864+00:00",
+          "why_good": "Tested Fitbit Luxe with active Buy It Now and unconditional free US shipping; sales tax calculated separately."
         },
         {
           "availability": "available",
           "cartridge": "",
           "condition": "Used",
-          "confidence": 0.95,
+          "confidence": 0.98,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -315,70 +315,20 @@
           "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
           "total_usd": 39.0,
           "url": "https://www.ebay.com/itm/387614287211",
-          "verified_at": "2026-10-16T04:22:03.568375+00:00",
-          "why_good": "Exact Fitbit Luxe listing with Buy It Now, free delivery, and available quantity."
+          "verified_at": "2026-10-16T05:21:32.178435+00:00",
+          "why_good": "Working Fitbit Luxe with active Buy It Now, 9 available, and unconditional free US delivery; sales tax calculated separately."
         }
       ],
-      "duration_ms": 102419,
+      "duration_ms": 121757,
       "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-16T04:22:20.263794+00:00",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-16T05:21:42.348431+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 3,
-      "raw_count": 3,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.9,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 47.69,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "The AG Liquidations",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite - Used",
-          "total_usd": 47.69,
-          "url": "https://www.ebay.com/p/19046142600?iid=405277533544",
-          "verified_at": "2026-10-15T04:22:46.405919+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now and free US delivery."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used, working; minimal scratches",
-          "confidence": 0.94,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 51.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "SweetFupa",
-          "shipping_usd": 7.99,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Activity Tracker FB422BKBK Black Band Used Working",
-          "total_usd": 59.98,
-          "url": "https://www.ebay.com/p/19046142600?iid=126618244766",
-          "verified_at": "2026-10-15T04:22:53.921093+00:00",
-          "why_good": "Listing explicitly states working Fitbit Luxe, with numeric US shipping and Buy It Now."
-        },
         {
           "availability": "available",
           "cartridge": "",
@@ -638,7 +588,7 @@
             "availability": "available",
             "cartridge": "",
             "condition": "Used; tested",
-            "confidence": 0.98,
+            "confidence": 0.97,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -656,8 +606,8 @@
             "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
             "total_usd": 31.95,
             "url": "https://www.ebay.com/itm/307009751717",
-            "verified_at": "2026-10-16T04:22:13.135183+00:00",
-            "why_good": "Tested Fitbit Luxe with charger, Buy It Now, and free USPS delivery."
+            "verified_at": "2026-10-16T05:21:42.347864+00:00",
+            "why_good": "Tested Fitbit Luxe with active Buy It Now and unconditional free US shipping; sales tax calculated separately."
           }
         },
         "counts": {
@@ -668,8 +618,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-16T04:20:37.844651+00:00",
-      "status": "ok",
+      "started_at": "2026-10-16T05:19:40.591198+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 2
     }
