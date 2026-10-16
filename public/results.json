@@ -8,13 +8,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-16T09:20:36.613657+00:00",
+  "finished_at": "2026-10-16T10:21:06.969288+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 4; exit code: 1",
     "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1"
+    "Target 3: status=ok; error=none; raw=2; normalized=2; verified=0",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-16T09:17:05.777070+00:00",
+  "started_at": "2026-10-16T10:17:05.124702+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 39742,
+      "duration_ms": 65332,
       "empty_message": "Search did not run every configured query. No conclusion about current availability.",
       "error_code": "search_incomplete",
-      "finished_at": "2026-10-16T09:17:45.521297+00:00",
+      "finished_at": "2026-10-16T10:18:10.459014+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,7 +57,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-16T09:17:05.779355+00:00",
+      "started_at": "2026-10-16T10:17:05.126872+00:00",
       "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
@@ -69,10 +69,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 41698,
+      "duration_ms": 76975,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-16T09:18:27.219241+00:00",
+      "finished_at": "2026-10-16T10:19:27.434389+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -93,7 +93,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-16T09:17:45.521362+00:00",
+      "started_at": "2026-10-16T10:18:10.459083+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -105,15 +105,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 47289,
+      "duration_ms": 51758,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-16T09:19:14.508373+00:00",
+      "finished_at": "2026-10-16T10:20:19.192212+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -205,7 +205,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-16T09:18:27.219305+00:00",
+      "started_at": "2026-10-16T10:19:27.434454+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -214,65 +214,13 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used; tested, normal wear",
-            "confidence": 0.99,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 31.95,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "6x01010011",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
-            "total_usd": 31.95,
-            "url": "https://www.ebay.com/itm/307009751717",
-            "verified_at": "2026-10-16T09:20:36.611935+00:00",
-            "why_good": "Working Fitbit Luxe with charger, Buy It Now enabled, and free USPS shipping."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used; tested, normal wear",
-          "confidence": 0.99,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 31.95,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "6x01010011",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
-          "total_usd": 31.95,
-          "url": "https://www.ebay.com/itm/307009751717",
-          "verified_at": "2026-10-16T09:20:36.611935+00:00",
-          "why_good": "Working Fitbit Luxe with charger, Buy It Now enabled, and free USPS shipping."
-        }
-      ],
-      "duration_ms": 82104,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-16T09:20:36.612482+00:00",
+      "deals": [],
+      "duration_ms": 47777,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-10-16T10:21:06.969003+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -528,50 +476,51 @@
           "url": "https://www.ebay.com/itm/237086744534",
           "verified_at": "2026-10-16T07:22:21.044801+00:00",
           "why_good": "Exact Fitbit Luxe tracker with active purchase action and free US USPS delivery."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used; tested, normal wear",
+          "confidence": 0.99,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 31.95,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "6x01010011",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
+          "total_usd": 31.95,
+          "url": "https://www.ebay.com/itm/307009751717",
+          "verified_at": "2026-10-16T09:20:36.611935+00:00",
+          "why_good": "Working Fitbit Luxe with charger, Buy It Now enabled, and free USPS shipping."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used; tested, normal wear",
-            "confidence": 0.99,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 31.95,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "6x01010011",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
-            "total_usd": 31.95,
-            "url": "https://www.ebay.com/itm/307009751717",
-            "verified_at": "2026-10-16T09:20:36.611935+00:00",
-            "why_good": "Working Fitbit Luxe with charger, Buy It Now enabled, and free USPS shipping."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-16T09:19:14.508433+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
-      "verified_count": 1
+      "started_at": "2026-10-16T10:20:19.192272+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
+      "verified_count": 0
     }
   ]
 }
