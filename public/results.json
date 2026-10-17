@@ -8,13 +8,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-17T00:22:36.628313+00:00",
+  "finished_at": "2026-10-17T01:23:15.434828+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 4; exit code: 1",
     "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
-    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=3"
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=2"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-17T00:17:05.129798+00:00",
+  "started_at": "2026-10-17T01:17:05.182553+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 46894,
+      "duration_ms": 67894,
       "empty_message": "Search did not run every configured query. No conclusion about current availability.",
       "error_code": "search_incomplete",
-      "finished_at": "2026-10-17T00:17:52.025993+00:00",
+      "finished_at": "2026-10-17T01:18:13.078802+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,7 +57,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-17T00:17:05.132001+00:00",
+      "started_at": "2026-10-17T01:17:05.184760+00:00",
       "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
@@ -69,10 +69,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 81866,
+      "duration_ms": 106523,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-17T00:19:13.892360+00:00",
+      "finished_at": "2026-10-17T01:19:59.601582+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -144,7 +144,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-17T00:17:52.026064+00:00",
+      "started_at": "2026-10-17T01:18:13.078874+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -156,15 +156,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 74860,
+      "duration_ms": 45062,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-17T00:20:28.752579+00:00",
+      "finished_at": "2026-10-17T01:20:44.663309+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -231,7 +231,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-17T00:19:13.892426+00:00",
+      "started_at": "2026-10-17T01:19:59.601649+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -263,38 +263,13 @@
             "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
             "total_usd": 32.99,
             "url": "https://www.ebay.com/itm/135741011661",
-            "verified_at": "2026-10-17T00:22:19.684947+00:00",
-            "why_good": "Working Fitbit Luxe with active Buy It Now and verified US shipping; total is below $64 before tax."
+            "verified_at": "2026-10-17T01:23:00.069024+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now and verified US shipping."
           },
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.96,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 29.99,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Plug-In Goods",
-            "shipping_usd": 9.22,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe FB422 Graphite Edition Fitness Tracker NO CHARGER",
-            "total_usd": 39.21,
-            "url": "https://www.ebay.com/itm/146568562271",
-            "verified_at": "2026-10-17T00:22:28.477824+00:00",
-            "why_good": "Actual Fitbit Luxe tracker with active Buy It Now and numeric US shipping; total is below $64 before tax."
-          },
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used, tested; overall great pre-owned condition",
+            "condition": "Used; tested",
             "confidence": 0.97,
             "delivery_country": "United States",
             "market_label": "US",
@@ -313,8 +288,8 @@
             "title": "Fitbit Luxe Fitness Plus Wellness Tracker - TESTED",
             "total_usd": 59.13,
             "url": "https://www.ebay.com/itm/156562037830",
-            "verified_at": "2026-10-17T00:22:36.624364+00:00",
-            "why_good": "Tested working Fitbit Luxe with active Buy It Now and verified numeric US shipping; total is below $64 before tax."
+            "verified_at": "2026-10-17T01:23:08.707065+00:00",
+            "why_good": "Tested Fitbit Luxe with active Buy It Now and numeric US shipping below budget."
           }
         ]
       },
@@ -341,38 +316,13 @@
           "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
           "total_usd": 32.99,
           "url": "https://www.ebay.com/itm/135741011661",
-          "verified_at": "2026-10-17T00:22:19.684947+00:00",
-          "why_good": "Working Fitbit Luxe with active Buy It Now and verified US shipping; total is below $64 before tax."
+          "verified_at": "2026-10-17T01:23:00.069024+00:00",
+          "why_good": "Working Fitbit Luxe with active Buy It Now and verified US shipping."
         },
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.96,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 29.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Plug-In Goods",
-          "shipping_usd": 9.22,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe FB422 Graphite Edition Fitness Tracker NO CHARGER",
-          "total_usd": 39.21,
-          "url": "https://www.ebay.com/itm/146568562271",
-          "verified_at": "2026-10-17T00:22:28.477824+00:00",
-          "why_good": "Actual Fitbit Luxe tracker with active Buy It Now and numeric US shipping; total is below $64 before tax."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used, tested; overall great pre-owned condition",
+          "condition": "Used; tested",
           "confidence": 0.97,
           "delivery_country": "United States",
           "market_label": "US",
@@ -391,14 +341,14 @@
           "title": "Fitbit Luxe Fitness Plus Wellness Tracker - TESTED",
           "total_usd": 59.13,
           "url": "https://www.ebay.com/itm/156562037830",
-          "verified_at": "2026-10-17T00:22:36.624364+00:00",
-          "why_good": "Tested working Fitbit Luxe with active Buy It Now and verified numeric US shipping; total is below $64 before tax."
+          "verified_at": "2026-10-17T01:23:08.707065+00:00",
+          "why_good": "Tested Fitbit Luxe with active Buy It Now and numeric US shipping below budget."
         }
       ],
-      "duration_ms": 127873,
+      "duration_ms": 150766,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-17T00:22:36.625597+00:00",
+      "finished_at": "2026-10-17T01:23:15.429025+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -579,6 +529,31 @@
           "url": "https://www.ebay.com/itm/387614287211",
           "verified_at": "2026-10-16T23:22:09.963355+00:00",
           "why_good": "Working Fitbit Luxe with active Buy It Now, 9 available, and free US delivery."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.96,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 29.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Plug-In Goods",
+          "shipping_usd": 9.22,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe FB422 Graphite Edition Fitness Tracker NO CHARGER",
+          "total_usd": 39.21,
+          "url": "https://www.ebay.com/itm/146568562271",
+          "verified_at": "2026-10-17T00:22:28.477824+00:00",
+          "why_good": "Actual Fitbit Luxe tracker with active Buy It Now and numeric US shipping; total is below $64 before tax."
         }
       ],
       "regional_summary": {
@@ -607,22 +582,22 @@
             "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
             "total_usd": 32.99,
             "url": "https://www.ebay.com/itm/135741011661",
-            "verified_at": "2026-10-17T00:22:19.684947+00:00",
-            "why_good": "Working Fitbit Luxe with active Buy It Now and verified US shipping; total is below $64 before tax."
+            "verified_at": "2026-10-17T01:23:00.069024+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now and verified US shipping."
           }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 3
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-17T00:20:28.752641+00:00",
+      "started_at": "2026-10-17T01:20:44.663369+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 3
+      "verified_count": 2
     }
   ]
 }
