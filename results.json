@@ -8,13 +8,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-17T20:21:54.160829+00:00",
+  "finished_at": "2026-10-17T21:21:48.885524+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 4; exit code: 1",
     "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=1; normalized=1; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=2"
+    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=1",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-17T20:17:05.249102+00:00",
+  "started_at": "2026-10-17T21:17:05.180421+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 57016,
+      "duration_ms": 49702,
       "empty_message": "Search did not run every configured query. No conclusion about current availability.",
       "error_code": "search_incomplete",
-      "finished_at": "2026-10-17T20:18:02.267510+00:00",
+      "finished_at": "2026-10-17T21:17:54.884252+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,7 +57,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-17T20:17:05.251351+00:00",
+      "started_at": "2026-10-17T21:17:05.182599+00:00",
       "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
@@ -69,15 +69,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 64151,
+      "duration_ms": 64636,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-17T20:19:06.418313+00:00",
+      "finished_at": "2026-10-17T21:18:59.520030+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -144,7 +144,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-17T20:18:02.267579+00:00",
+      "started_at": "2026-10-17T21:17:54.884319+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -153,18 +153,70 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 440.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Velocity Ammunition Sales",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO - First Breach 55 Grain Full Metal Jacket - 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-10-17T21:20:19.008460+00:00",
+            "why_good": "In-stock factory-loaded 5.56 NATO FMJ with active purchase action; ammunition orders over $200 receive free shipping."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 45935,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.97,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 440.0,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "Velocity Ammunition Sales",
+          "shipping_usd": 0.0,
+          "source": "Velocity Ammunition Sales",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "5.56 NATO - First Breach 55 Grain Full Metal Jacket - 1000 Rounds Bulk",
+          "total_usd": 440.0,
+          "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+          "verified_at": "2026-10-17T21:20:19.008460+00:00",
+          "why_good": "In-stock factory-loaded 5.56 NATO FMJ with active purchase action; ammunition orders over $200 receive free shipping."
+        }
+      ],
+      "duration_ms": 79490,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-17T20:19:52.353380+00:00",
+      "finished_at": "2026-10-17T21:20:19.009628+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -246,139 +298,61 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 440.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Velocity Ammunition Sales",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO - First Breach 55 Grain Full Metal Jacket - 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-10-17T21:20:19.008460+00:00",
+            "why_good": "In-stock factory-loaded 5.56 NATO FMJ with active purchase action; ammunition orders over $200 receive free shipping."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-17T20:19:06.418384+00:00",
+      "started_at": "2026-10-17T21:18:59.520150+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     },
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.94,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 24.99,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "The Short Dog 2023",
-            "shipping_usd": 8.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
-            "total_usd": 32.99,
-            "url": "https://www.ebay.com/itm/135741011661",
-            "verified_at": "2026-10-17T20:21:37.083169+00:00",
-            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total under $64."
-          },
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.91,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 29.99,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Plug-In Goods",
-            "shipping_usd": 9.22,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe FB422 Graphite Edition Fitness Tracker NO CHARGER",
-            "total_usd": 39.21,
-            "url": "https://www.ebay.com/itm/146568562271",
-            "verified_at": "2026-10-17T20:21:54.158452+00:00",
-            "why_good": "Actual Fitbit Luxe tracker, active Buy It Now, numeric US shipping, and total under $64; charger not included."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.94,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 24.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "The Short Dog 2023",
-          "shipping_usd": 8.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
-          "total_usd": 32.99,
-          "url": "https://www.ebay.com/itm/135741011661",
-          "verified_at": "2026-10-17T20:21:37.083169+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total under $64."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.91,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 29.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Plug-In Goods",
-          "shipping_usd": 9.22,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe FB422 Graphite Edition Fitness Tracker NO CHARGER",
-          "total_usd": 39.21,
-          "url": "https://www.ebay.com/itm/146568562271",
-          "verified_at": "2026-10-17T20:21:54.158452+00:00",
-          "why_good": "Actual Fitbit Luxe tracker, active Buy It Now, numeric US shipping, and total under $64; charger not included."
-        }
-      ],
-      "duration_ms": 121806,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-17T20:21:54.159117+00:00",
+      "deals": [],
+      "duration_ms": 89874,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-10-17T21:21:48.885188+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 3,
-      "raw_count": 3,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -654,50 +628,76 @@
           "url": "https://www.ebay.com/itm/307009751717",
           "verified_at": "2026-10-17T19:22:13.508174+00:00",
           "why_good": "Tested working Fitbit Luxe with charger, active Buy It Now, and unconditional free US shipping."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.94,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 24.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "The Short Dog 2023",
+          "shipping_usd": 8.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
+          "total_usd": 32.99,
+          "url": "https://www.ebay.com/itm/135741011661",
+          "verified_at": "2026-10-17T20:21:37.083169+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total under $64."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.91,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 29.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Plug-In Goods",
+          "shipping_usd": 9.22,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe FB422 Graphite Edition Fitness Tracker NO CHARGER",
+          "total_usd": 39.21,
+          "url": "https://www.ebay.com/itm/146568562271",
+          "verified_at": "2026-10-17T20:21:54.158452+00:00",
+          "why_good": "Actual Fitbit Luxe tracker, active Buy It Now, numeric US shipping, and total under $64; charger not included."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.94,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 24.99,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "The Short Dog 2023",
-            "shipping_usd": 8.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
-            "total_usd": 32.99,
-            "url": "https://www.ebay.com/itm/135741011661",
-            "verified_at": "2026-10-17T20:21:37.083169+00:00",
-            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total under $64."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-17T20:19:52.353439+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
-      "verified_count": 2
+      "started_at": "2026-10-17T21:20:19.010853+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
+      "verified_count": 0
     }
   ]
 }
