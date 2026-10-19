@@ -7,14 +7,14 @@
     "fitbit-luxe-under-64"
   ],
   "dry_run": false,
-  "exit_code": 0,
-  "finished_at": "2026-10-19T01:22:03.078765+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-10-19T02:22:16.513910+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 4; exit code: 0",
-    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1"
+    "Scan scope: complete; selected targets: 4; exit code: 1",
+    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 2: status=ok; error=none; raw=2; normalized=2; verified=0",
+    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-19T01:17:05.012050+00:00",
+  "started_at": "2026-10-19T02:17:05.318790+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 70340,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-19T01:18:15.353723+00:00",
+      "duration_ms": 59376,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-19T02:18:04.697157+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,8 +57,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T01:17:05.014176+00:00",
-      "status": "ok",
+      "started_at": "2026-10-19T02:17:05.320935+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -69,15 +69,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 54947,
+      "duration_ms": 93785,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-19T01:19:10.300977+00:00",
+      "finished_at": "2026-10-19T02:19:38.482294+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -93,7 +93,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T01:18:15.353791+00:00",
+      "started_at": "2026-10-19T02:18:04.697234+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -105,15 +105,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 70436,
+      "duration_ms": 95468,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-19T01:20:20.736796+00:00",
+      "finished_at": "2026-10-19T02:21:13.950143+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -155,7 +155,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T01:19:10.301041+00:00",
+      "started_at": "2026-10-19T02:19:38.482362+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -164,96 +164,19 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.88,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 54.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "hakuinternational",
-            "shipping_usd": 5.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
-            "total_usd": 59.0,
-            "url": "https://www.ebay.com/itm/277403999856",
-            "verified_at": "2026-10-19T01:22:03.076439+00:00",
-            "why_good": "Working Fitbit Luxe identified by model; active Buy It Now listing with explicit $5 USPS shipping to the United States. Sales tax is separate."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.88,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 54.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "hakuinternational",
-          "shipping_usd": 5.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
-          "total_usd": 59.0,
-          "url": "https://www.ebay.com/itm/277403999856",
-          "verified_at": "2026-10-19T01:22:03.076439+00:00",
-          "why_good": "Working Fitbit Luxe identified by model; active Buy It Now listing with explicit $5 USPS shipping to the United States. Sales tax is separate."
-        }
-      ],
-      "duration_ms": 102340,
+      "deals": [],
+      "duration_ms": 62563,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-19T01:22:03.077252+00:00",
+      "finished_at": "2026-10-19T02:22:16.513633+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used; tested and working",
-          "confidence": 0.9,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 27.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Renew Tech",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe FB422 Fitness and Wellness Tracker Heart Rate Black - Tested",
-          "total_usd": 27.99,
-          "url": "https://www.ebay.com/itm/135741011661",
-          "verified_at": "2026-10-18T02:21:51.126668+00:00",
-          "why_good": "Exact Fitbit Luxe tracker, explicitly tested, active Buy It Now, and free shipping."
-        },
         {
           "availability": "available",
           "cartridge": "",
@@ -528,50 +451,51 @@
           "url": "https://www.ebay.com/itm/146568562271",
           "verified_at": "2026-10-19T00:22:00.195308+00:00",
           "why_good": "Working Fitbit Luxe tracker with active Buy It Now and explicit USPS shipping to the United States."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.88,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 54.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "hakuinternational",
+          "shipping_usd": 5.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
+          "total_usd": 59.0,
+          "url": "https://www.ebay.com/itm/277403999856",
+          "verified_at": "2026-10-19T01:22:03.076439+00:00",
+          "why_good": "Working Fitbit Luxe identified by model; active Buy It Now listing with explicit $5 USPS shipping to the United States. Sales tax is separate."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.88,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 54.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "hakuinternational",
-            "shipping_usd": 5.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
-            "total_usd": 59.0,
-            "url": "https://www.ebay.com/itm/277403999856",
-            "verified_at": "2026-10-19T01:22:03.076439+00:00",
-            "why_good": "Working Fitbit Luxe identified by model; active Buy It Now listing with explicit $5 USPS shipping to the United States. Sales tax is separate."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T01:20:20.736856+00:00",
+      "started_at": "2026-10-19T02:21:13.950202+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     }
   ]
 }
