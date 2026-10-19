@@ -8,13 +8,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-19T10:22:58.945454+00:00",
+  "finished_at": "2026-10-19T11:21:05.451964+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 4; exit code: 1",
-    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
-    "Target 4: status=ok; error=none; raw=2; normalized=2; verified=1"
+    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-19T10:17:06.075788+00:00",
+  "started_at": "2026-10-19T11:17:05.548409+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 66189,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-19T10:18:12.266935+00:00",
+      "duration_ms": 64832,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-10-19T11:18:10.382558+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,8 +57,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T10:17:06.077968+00:00",
-      "status": "incomplete",
+      "started_at": "2026-10-19T11:17:05.550745+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -69,10 +69,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 69089,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-10-19T10:19:21.356303+00:00",
+      "duration_ms": 14489,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-19T11:18:24.871456+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -93,8 +93,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T10:18:12.267003+00:00",
-      "status": "ok",
+      "started_at": "2026-10-19T11:18:10.382627+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -105,15 +105,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 57695,
+      "duration_ms": 50311,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-19T10:20:19.050962+00:00",
+      "finished_at": "2026-10-19T11:19:15.182877+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -255,7 +255,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T10:19:21.356367+00:00",
+      "started_at": "2026-10-19T11:18:24.871519+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -264,70 +264,18 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 39.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Exclusive Sales Inc",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
-            "total_usd": 39.0,
-            "url": "https://www.ebay.com/itm/387614287211",
-            "verified_at": "2026-10-19T10:22:58.943818+00:00",
-            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, free US delivery, and available quantity."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.93,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 39.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Exclusive Sales Inc",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
-          "total_usd": 39.0,
-          "url": "https://www.ebay.com/itm/387614287211",
-          "verified_at": "2026-10-19T10:22:58.943818+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, free US delivery, and available quantity."
-        }
-      ],
-      "duration_ms": 159893,
+      "deals": [],
+      "duration_ms": 110269,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-19T10:22:58.944379+00:00",
+      "finished_at": "2026-10-19T11:21:05.451619+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -603,50 +551,51 @@
           "url": "https://www.ebay.com/itm/146568562271",
           "verified_at": "2026-10-19T09:22:25.740999+00:00",
           "why_good": "Exact Fitbit Luxe tracker with active Buy It Now and explicit US shipping charge; total is under $64."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.93,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 39.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Exclusive Sales Inc",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
+          "total_usd": 39.0,
+          "url": "https://www.ebay.com/itm/387614287211",
+          "verified_at": "2026-10-19T10:22:58.943818+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, free US delivery, and available quantity."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 39.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Exclusive Sales Inc",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
-            "total_usd": 39.0,
-            "url": "https://www.ebay.com/itm/387614287211",
-            "verified_at": "2026-10-19T10:22:58.943818+00:00",
-            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, free US delivery, and available quantity."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T10:20:19.051023+00:00",
+      "started_at": "2026-10-19T11:19:15.182936+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     }
   ]
 }
