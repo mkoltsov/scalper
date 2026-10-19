@@ -8,13 +8,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-19T02:22:16.513910+00:00",
+  "finished_at": "2026-10-19T03:21:45.143782+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 4; exit code: 1",
     "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=2; normalized=2; verified=0",
-    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
-    "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0"
+    "Target 2: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 3: status=ok; error=none; raw=2; normalized=2; verified=2",
+    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-19T02:17:05.318790+00:00",
+  "started_at": "2026-10-19T03:17:05.074490+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 59376,
+      "duration_ms": 56785,
       "empty_message": "Search did not run every configured query. No conclusion about current availability.",
       "error_code": "search_incomplete",
-      "finished_at": "2026-10-19T02:18:04.697157+00:00",
+      "finished_at": "2026-10-19T03:18:01.861343+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,7 +57,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T02:17:05.320935+00:00",
+      "started_at": "2026-10-19T03:17:05.076718+00:00",
       "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
@@ -69,15 +69,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 93785,
+      "duration_ms": 66491,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-19T02:19:38.482294+00:00",
+      "finished_at": "2026-10-19T03:19:08.352765+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -93,7 +93,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T02:18:04.697234+00:00",
+      "started_at": "2026-10-19T03:18:01.861409+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -102,18 +102,120 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 449.5,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "SG Ammo",
+            "shipping_usd": 0.0,
+            "source": "SG Ammo",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "1000 Round Case \u2013 223 Rem PMC 55 Grain FMJ-BT Brass Case Ammo \u2013 223A",
+            "total_usd": 449.5,
+            "url": "https://sgammo.com/product/223-556mm-ammo/1000-round-case-223-rem-pmc-55-grain-fmjbt-brass-case-ammo-223a/",
+            "verified_at": "2026-10-19T03:20:46.949530+00:00",
+            "why_good": "In-stock factory-new .223 Remington case of 50 boxes containing 20 rounds each; free shipping applies to this $200+ order. Sales tax, if applicable, is separate."
+          },
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 469.5,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "SG Ammo",
+            "shipping_usd": 0.0,
+            "source": "SG Ammo",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "1000 Round Case \u2013 5.56 PMC X-TAC XP193 55 Grain FMJ BT M193 Ammo \u2013 556X",
+            "total_usd": 469.5,
+            "url": "https://sgammo.com/product/223-556mm-ammo/1000-round-case-556-pmc-xtac-xp193-55-grain-fmj-bt-m193-ammo-556x/",
+            "verified_at": "2026-10-19T03:20:50.626396+00:00",
+            "why_good": "In-stock factory-new 5.56x45mm NATO case packaged as 50 boxes of 20 rounds; free shipping applies to this $200+ order. Sales tax, if applicable, is separate."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 95468,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 449.5,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "SG Ammo",
+          "shipping_usd": 0.0,
+          "source": "SG Ammo",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "1000 Round Case \u2013 223 Rem PMC 55 Grain FMJ-BT Brass Case Ammo \u2013 223A",
+          "total_usd": 449.5,
+          "url": "https://sgammo.com/product/223-556mm-ammo/1000-round-case-223-rem-pmc-55-grain-fmjbt-brass-case-ammo-223a/",
+          "verified_at": "2026-10-19T03:20:46.949530+00:00",
+          "why_good": "In-stock factory-new .223 Remington case of 50 boxes containing 20 rounds each; free shipping applies to this $200+ order. Sales tax, if applicable, is separate."
+        },
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 469.5,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "SG Ammo",
+          "shipping_usd": 0.0,
+          "source": "SG Ammo",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "1000 Round Case \u2013 5.56 PMC X-TAC XP193 55 Grain FMJ BT M193 Ammo \u2013 556X",
+          "total_usd": 469.5,
+          "url": "https://sgammo.com/product/223-556mm-ammo/1000-round-case-556-pmc-xtac-xp193-55-grain-fmj-bt-m193-ammo-556x/",
+          "verified_at": "2026-10-19T03:20:50.626396+00:00",
+          "why_good": "In-stock factory-new 5.56x45mm NATO case packaged as 50 boxes of 20 rounds; free shipping applies to this $200+ order. Sales tax, if applicable, is separate."
+        }
+      ],
+      "duration_ms": 102275,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-19T02:21:13.950143+00:00",
+      "finished_at": "2026-10-19T03:20:50.627308+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -145,37 +247,113 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 449.5,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "SG Ammo",
+            "shipping_usd": 0.0,
+            "source": "SG Ammo",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "1000 Round Case \u2013 223 Rem PMC 55 Grain FMJ-BT Brass Case Ammo \u2013 223A",
+            "total_usd": 449.5,
+            "url": "https://sgammo.com/product/223-556mm-ammo/1000-round-case-223-rem-pmc-55-grain-fmjbt-brass-case-ammo-223a/",
+            "verified_at": "2026-10-19T03:20:46.949530+00:00",
+            "why_good": "In-stock factory-new .223 Remington case of 50 boxes containing 20 rounds each; free shipping applies to this $200+ order. Sales tax, if applicable, is separate."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T02:19:38.482362+00:00",
+      "started_at": "2026-10-19T03:19:08.352833+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 2
     },
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used; tested, normal wear",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 31.95,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "6x01010011",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
+            "total_usd": 31.95,
+            "url": "https://www.ebay.com/itm/307009751717",
+            "verified_at": "2026-10-19T03:21:45.142191+00:00",
+            "why_good": "Exact Fitbit Luxe tracker, tested working, active Buy It Now, and unconditional free US shipping."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 62563,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used; tested, normal wear",
+          "confidence": 0.97,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 31.95,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "6x01010011",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
+          "total_usd": 31.95,
+          "url": "https://www.ebay.com/itm/307009751717",
+          "verified_at": "2026-10-19T03:21:45.142191+00:00",
+          "why_good": "Exact Fitbit Luxe tracker, tested working, active Buy It Now, and unconditional free US shipping."
+        }
+      ],
+      "duration_ms": 54268,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-19T02:22:16.513633+00:00",
+      "finished_at": "2026-10-19T03:21:45.142840+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -201,31 +379,6 @@
           "url": "https://www.ebay.com/itm/237086744534",
           "verified_at": "2026-10-18T04:22:26.549354+00:00",
           "why_good": "Exact Fitbit Luxe tracker, active listing, free US shipping, and operational used-item condition."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used; tested, normal wear",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 31.95,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "6x01010011",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
-          "total_usd": 31.95,
-          "url": "https://www.ebay.com/itm/307009751717",
-          "verified_at": "2026-10-18T10:22:26.795745+00:00",
-          "why_good": "Working Fitbit Luxe tracker with charger, active Buy It Now listing, and free USPS shipping."
         },
         {
           "availability": "available",
@@ -482,20 +635,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used; tested, normal wear",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 31.95,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "6x01010011",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
+            "total_usd": 31.95,
+            "url": "https://www.ebay.com/itm/307009751717",
+            "verified_at": "2026-10-19T03:21:45.142191+00:00",
+            "why_good": "Exact Fitbit Luxe tracker, tested working, active Buy It Now, and unconditional free US shipping."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T02:21:13.950202+00:00",
+      "started_at": "2026-10-19T03:20:50.874481+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     }
   ]
 }
