@@ -8,13 +8,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-19T15:20:53.325114+00:00",
+  "finished_at": "2026-10-19T16:21:53.660069+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 4; exit code: 1",
-    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1"
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-19T15:17:05.578890+00:00",
+  "started_at": "2026-10-19T16:17:05.739791+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 70376,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-19T15:18:15.956659+00:00",
+      "duration_ms": 75440,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-10-19T16:18:21.183721+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,8 +57,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T15:17:05.581082+00:00",
-      "status": "incomplete",
+      "started_at": "2026-10-19T16:17:05.743357+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -69,10 +69,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 43268,
+      "duration_ms": 48199,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-19T15:18:59.225150+00:00",
+      "finished_at": "2026-10-19T16:19:09.382379+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -93,7 +93,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T15:18:15.956725+00:00",
+      "started_at": "2026-10-19T16:18:21.183787+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -105,10 +105,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 20683,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-19T15:19:19.908560+00:00",
+      "duration_ms": 113721,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-10-19T16:21:03.103632+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -255,8 +255,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T15:18:59.225212+00:00",
-      "status": "incomplete",
+      "started_at": "2026-10-19T16:19:09.382472+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -264,65 +264,13 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used - good used condition",
-            "confidence": 0.98,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 27.5,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Northwest Marketplace",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
-            "total_usd": 27.5,
-            "url": "https://www.ebay.com/itm/277725169755",
-            "verified_at": "2026-10-19T15:20:53.323215+00:00",
-            "why_good": "Working Fitbit Luxe tracker with active Buy It Now purchase action and unconditional free USPS shipping."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used - good used condition",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 27.5,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Northwest Marketplace",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
-          "total_usd": 27.5,
-          "url": "https://www.ebay.com/itm/277725169755",
-          "verified_at": "2026-10-19T15:20:53.323215+00:00",
-          "why_good": "Working Fitbit Luxe tracker with active Buy It Now purchase action and unconditional free USPS shipping."
-        }
-      ],
-      "duration_ms": 93415,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-19T15:20:53.324041+00:00",
+      "deals": [],
+      "duration_ms": 50556,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-10-19T16:21:53.659770+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -578,50 +526,51 @@
           "url": "https://www.ebay.com/itm/307009751717",
           "verified_at": "2026-10-19T14:21:26.320166+00:00",
           "why_good": "Exact Fitbit Luxe tracker, tested working, active Buy It Now listing, and free USPS shipping."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used - good used condition",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 27.5,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Northwest Marketplace",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
+          "total_usd": 27.5,
+          "url": "https://www.ebay.com/itm/277725169755",
+          "verified_at": "2026-10-19T15:20:53.323215+00:00",
+          "why_good": "Working Fitbit Luxe tracker with active Buy It Now purchase action and unconditional free USPS shipping."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used - good used condition",
-            "confidence": 0.98,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 27.5,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Northwest Marketplace",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
-            "total_usd": 27.5,
-            "url": "https://www.ebay.com/itm/277725169755",
-            "verified_at": "2026-10-19T15:20:53.323215+00:00",
-            "why_good": "Working Fitbit Luxe tracker with active Buy It Now purchase action and unconditional free USPS shipping."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-19T15:19:19.908635+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
-      "verified_count": 1
+      "started_at": "2026-10-19T16:21:03.103695+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
+      "verified_count": 0
     }
   ]
 }
