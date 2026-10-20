@@ -7,14 +7,14 @@
     "fitbit-luxe-under-64"
   ],
   "dry_run": false,
-  "exit_code": 0,
-  "finished_at": "2026-10-20T03:23:31.937742+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-10-20T04:23:16.209971+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 4; exit code: 0",
+    "Scan scope: complete; selected targets: 4; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1"
+    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=1",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-20T03:17:05.526561+00:00",
+  "started_at": "2026-10-20T04:17:05.640665+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 64230,
+      "duration_ms": 89275,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-20T03:18:09.758968+00:00",
+      "finished_at": "2026-10-20T04:18:34.917620+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,7 +57,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-20T03:17:05.528727+00:00",
+      "started_at": "2026-10-20T04:17:05.642965+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -69,10 +69,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 62112,
+      "duration_ms": 93910,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-20T03:19:11.870965+00:00",
+      "finished_at": "2026-10-20T04:20:08.827168+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -93,7 +93,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-20T03:18:09.759035+00:00",
+      "started_at": "2026-10-20T04:18:34.917689+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -102,18 +102,70 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 440.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Velocity Ammunition Sales",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-10-20T04:22:11.518074+00:00",
+            "why_good": "Factory-new 5.56 NATO brass-cased FMJ, exactly 1000 rounds, 100+ in stock, active add-to-cart, and free shipping applies to ammo orders over $200; sales tax is separate."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 104669,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 440.0,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "Velocity Ammunition Sales",
+          "shipping_usd": 0.0,
+          "source": "Velocity Ammunition Sales",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+          "total_usd": 440.0,
+          "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+          "verified_at": "2026-10-20T04:22:11.518074+00:00",
+          "why_good": "Factory-new 5.56 NATO brass-cased FMJ, exactly 1000 rounds, 100+ in stock, active add-to-cart, and free shipping applies to ammo orders over $200; sales tax is separate."
+        }
+      ],
+      "duration_ms": 122692,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-20T03:20:56.540333+00:00",
+      "finished_at": "2026-10-20T04:22:11.519250+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -220,20 +272,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 440.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Velocity Ammunition Sales",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-10-20T04:22:11.518074+00:00",
+            "why_good": "Factory-new 5.56 NATO brass-cased FMJ, exactly 1000 rounds, 100+ in stock, active add-to-cart, and free shipping applies to ammo orders over $200; sales tax is separate."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-20T03:19:11.871039+00:00",
+      "started_at": "2026-10-20T04:20:08.827233+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -243,27 +319,27 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used, fully operational",
-            "confidence": 0.96,
+            "condition": "Used",
+            "confidence": 0.92,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 59.99,
+            "price_usd": 52.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "electrojungle",
+            "seller": "The AG Liquidations",
             "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe Fitness & Wellness Tracker - Black / Graphite | USED",
-            "total_usd": 59.99,
-            "url": "https://www.ebay.com/itm/326397807209",
-            "verified_at": "2026-10-20T03:23:31.936241+00:00",
-            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, more than 10 available, and free USPS shipping."
+            "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite -Used",
+            "total_usd": 52.99,
+            "url": "https://www.ebay.com/itm/405277533544",
+            "verified_at": "2026-10-20T04:23:16.016627+00:00",
+            "why_good": "Working Fitbit Luxe tracker with active Buy It Now, four available, and free U.S. shipping."
           }
         ]
       },
@@ -271,64 +347,39 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Used, fully operational",
-          "confidence": 0.96,
+          "condition": "Used",
+          "confidence": 0.92,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
           "price_basis": "",
-          "price_usd": 59.99,
+          "price_usd": 52.99,
           "product_category": "",
           "round_count": null,
           "selected_quantity_label": "",
           "selected_variant": "",
-          "seller": "electrojungle",
+          "seller": "The AG Liquidations",
           "shipping_usd": 0.0,
           "source": "eBay",
           "target_id": "fitbit-luxe-under-64",
           "tax_status": "",
-          "title": "Fitbit Luxe Fitness & Wellness Tracker - Black / Graphite | USED",
-          "total_usd": 59.99,
-          "url": "https://www.ebay.com/itm/326397807209",
-          "verified_at": "2026-10-20T03:23:31.936241+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, more than 10 available, and free USPS shipping."
+          "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite -Used",
+          "total_usd": 52.99,
+          "url": "https://www.ebay.com/itm/405277533544",
+          "verified_at": "2026-10-20T04:23:16.016627+00:00",
+          "why_good": "Working Fitbit Luxe tracker with active Buy It Now, four available, and free U.S. shipping."
         }
       ],
-      "duration_ms": 155396,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-20T03:23:31.936828+00:00",
+      "duration_ms": 64688,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-10-20T04:23:16.208245+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used; tested, overall great pre-owned condition",
-          "confidence": 0.95,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 49.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "paexp-81",
-          "shipping_usd": 10.01,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Plus Wellness Tracker - TESTED",
-          "total_usd": 60.0,
-          "url": "https://www.ebay.com/itm/156562037830",
-          "verified_at": "2026-10-19T04:21:21.128306+00:00",
-          "why_good": "Tested Fitbit Luxe with active Buy It Now and explicit $10.01 US shipping."
-        },
         {
           "availability": "available",
           "cartridge": "",
@@ -532,27 +583,27 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Used; customer return with signs of use/scratches",
-          "confidence": 0.88,
+          "condition": "Used, fully operational",
+          "confidence": 0.96,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
           "price_basis": "",
-          "price_usd": 52.99,
+          "price_usd": 59.99,
           "product_category": "",
           "round_count": null,
           "selected_quantity_label": "",
           "selected_variant": "",
-          "seller": "The AG Liquidations",
+          "seller": "electrojungle",
           "shipping_usd": 0.0,
           "source": "eBay",
           "target_id": "fitbit-luxe-under-64",
           "tax_status": "",
-          "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite - Used",
-          "total_usd": 52.99,
-          "url": "https://www.ebay.com/itm/405277533544",
-          "verified_at": "2026-10-20T01:21:49.910017+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, 4 available, and unconditional free USPS shipping."
+          "title": "Fitbit Luxe Fitness & Wellness Tracker - Black / Graphite | USED",
+          "total_usd": 59.99,
+          "url": "https://www.ebay.com/itm/326397807209",
+          "verified_at": "2026-10-20T03:23:31.936241+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, more than 10 available, and free USPS shipping."
         }
       ],
       "regional_summary": {
@@ -562,27 +613,27 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used, fully operational",
-            "confidence": 0.96,
+            "condition": "Used",
+            "confidence": 0.92,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 59.99,
+            "price_usd": 52.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "electrojungle",
+            "seller": "The AG Liquidations",
             "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe Fitness & Wellness Tracker - Black / Graphite | USED",
-            "total_usd": 59.99,
-            "url": "https://www.ebay.com/itm/326397807209",
-            "verified_at": "2026-10-20T03:23:31.936241+00:00",
-            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, more than 10 available, and free USPS shipping."
+            "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite -Used",
+            "total_usd": 52.99,
+            "url": "https://www.ebay.com/itm/405277533544",
+            "verified_at": "2026-10-20T04:23:16.016627+00:00",
+            "why_good": "Working Fitbit Luxe tracker with active Buy It Now, four available, and free U.S. shipping."
           }
         },
         "counts": {
@@ -593,9 +644,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-20T03:20:56.540393+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
+      "started_at": "2026-10-20T04:22:11.520312+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
       "verified_count": 1
     }
   ]
