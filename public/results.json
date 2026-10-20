@@ -8,13 +8,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-20T09:22:15.749806+00:00",
+  "finished_at": "2026-10-20T10:21:12.062445+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 4; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 4: status=incomplete; error=verification_incomplete; raw=3; normalized=3; verified=1"
+    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 4: status=ok; error=none; raw=2; normalized=2; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-20T09:17:04.834213+00:00",
+  "started_at": "2026-10-20T10:17:05.097338+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 56725,
+      "duration_ms": 50719,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-20T09:18:01.561722+00:00",
+      "finished_at": "2026-10-20T10:17:55.818282+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,7 +57,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-20T09:17:04.836336+00:00",
+      "started_at": "2026-10-20T10:17:05.099466+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -69,10 +69,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 64554,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-10-20T09:19:06.116151+00:00",
+      "duration_ms": 21848,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-20T10:18:17.666552+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -93,8 +93,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-20T09:18:01.561791+00:00",
-      "status": "ok",
+      "started_at": "2026-10-20T10:17:55.818350+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -105,15 +105,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 40838,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-20T09:19:46.954437+00:00",
+      "duration_ms": 73522,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-10-20T10:19:31.188734+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -255,8 +255,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-20T09:19:06.116214+00:00",
-      "status": "incomplete",
+      "started_at": "2026-10-20T10:18:17.666621+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -274,21 +274,21 @@
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 31.95,
+            "price_usd": 25.0,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "6x01010011",
-            "shipping_usd": 0.0,
+            "seller": "randomclicksandfix",
+            "shipping_usd": 5.89,
             "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
-            "total_usd": 31.95,
-            "url": "https://www.ebay.com/itm/307009751717",
-            "verified_at": "2026-10-20T09:22:15.554814+00:00",
-            "why_good": "Tested working Fitbit Luxe including charger, active Buy It Now, and free US shipping."
+            "title": "Fitbit Luxe Fitness Tracker Black Tested Working Heavy Wear No Charger",
+            "total_usd": 30.89,
+            "url": "https://www.ebay.com/itm/318064587910",
+            "verified_at": "2026-10-20T10:21:05.883322+00:00",
+            "why_good": "Tested working Fitbit Luxe with active Buy It Now and numeric US shipping; total is under $64 before tax."
           }
         ]
       },
@@ -302,32 +302,32 @@
           "market_label": "US",
           "market_region": "us",
           "price_basis": "",
-          "price_usd": 31.95,
+          "price_usd": 25.0,
           "product_category": "",
           "round_count": null,
           "selected_quantity_label": "",
           "selected_variant": "",
-          "seller": "6x01010011",
-          "shipping_usd": 0.0,
+          "seller": "randomclicksandfix",
+          "shipping_usd": 5.89,
           "source": "eBay",
           "target_id": "fitbit-luxe-under-64",
           "tax_status": "",
-          "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
-          "total_usd": 31.95,
-          "url": "https://www.ebay.com/itm/307009751717",
-          "verified_at": "2026-10-20T09:22:15.554814+00:00",
-          "why_good": "Tested working Fitbit Luxe including charger, active Buy It Now, and free US shipping."
+          "title": "Fitbit Luxe Fitness Tracker Black Tested Working Heavy Wear No Charger",
+          "total_usd": 30.89,
+          "url": "https://www.ebay.com/itm/318064587910",
+          "verified_at": "2026-10-20T10:21:05.883322+00:00",
+          "why_good": "Tested working Fitbit Luxe with active Buy It Now and numeric US shipping; total is under $64 before tax."
         }
       ],
-      "duration_ms": 148794,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-10-20T09:22:15.748712+00:00",
+      "duration_ms": 100872,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-10-20T10:21:12.061164+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 3,
-      "raw_count": 3,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -528,6 +528,31 @@
           "url": "https://www.ebay.com/itm/326397807209",
           "verified_at": "2026-10-20T06:23:16.719938+00:00",
           "why_good": "Exact working Fitbit Luxe listing with Buy It Now, more than 10 available, and explicit free US shipping."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 31.95,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "6x01010011",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
+          "total_usd": 31.95,
+          "url": "https://www.ebay.com/itm/307009751717",
+          "verified_at": "2026-10-20T09:22:15.554814+00:00",
+          "why_good": "Tested working Fitbit Luxe including charger, active Buy It Now, and free US shipping."
         }
       ],
       "regional_summary": {
@@ -543,21 +568,21 @@
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 31.95,
+            "price_usd": 25.0,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "6x01010011",
-            "shipping_usd": 0.0,
+            "seller": "randomclicksandfix",
+            "shipping_usd": 5.89,
             "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
-            "total_usd": 31.95,
-            "url": "https://www.ebay.com/itm/307009751717",
-            "verified_at": "2026-10-20T09:22:15.554814+00:00",
-            "why_good": "Tested working Fitbit Luxe including charger, active Buy It Now, and free US shipping."
+            "title": "Fitbit Luxe Fitness Tracker Black Tested Working Heavy Wear No Charger",
+            "total_usd": 30.89,
+            "url": "https://www.ebay.com/itm/318064587910",
+            "verified_at": "2026-10-20T10:21:05.883322+00:00",
+            "why_good": "Tested working Fitbit Luxe with active Buy It Now and numeric US shipping; total is under $64 before tax."
           }
         },
         "counts": {
@@ -568,9 +593,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-20T09:19:46.954498+00:00",
-      "status": "incomplete",
-      "verification_error_count": 1,
+      "started_at": "2026-10-20T10:19:31.188795+00:00",
+      "status": "ok",
+      "verification_error_count": 0,
       "verified_count": 1
     }
   ]
