@@ -7,14 +7,14 @@
     "fitbit-luxe-under-64"
   ],
   "dry_run": false,
-  "exit_code": 1,
-  "finished_at": "2026-10-21T22:20:55.003049+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-21T23:22:29.336351+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 4; exit code: 1",
+    "Scan scope: complete; selected targets: 4; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0"
+    "Target 3: status=ok; error=none; raw=2; normalized=2; verified=0",
+    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-21T22:17:05.725152+00:00",
+  "started_at": "2026-10-21T23:17:05.644212+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 70424,
+      "duration_ms": 74788,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-21T22:18:16.151601+00:00",
+      "finished_at": "2026-10-21T23:18:20.434246+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,7 +57,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-21T22:17:05.727357+00:00",
+      "started_at": "2026-10-21T23:17:05.646795+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -69,10 +69,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 43915,
+      "duration_ms": 99761,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-21T22:19:00.066335+00:00",
+      "finished_at": "2026-10-21T23:20:00.195029+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -119,7 +119,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-21T22:18:16.151667+00:00",
+      "started_at": "2026-10-21T23:18:20.434315+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -131,15 +131,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 16912,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-21T22:19:16.978774+00:00",
+      "duration_ms": 59284,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-10-21T23:20:59.478665+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -231,8 +231,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-21T22:19:00.066399+00:00",
-      "status": "incomplete",
+      "started_at": "2026-10-21T23:20:00.195096+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -240,18 +240,70 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used - good used condition",
+            "confidence": 0.92,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 27.5,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "Northwest Marketplace",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
+            "total_usd": 27.5,
+            "url": "https://www.ebay.com/itm/277725169755",
+            "verified_at": "2026-10-21T23:22:29.334554+00:00",
+            "why_good": "Working Fitbit Luxe FB422 with active Buy It Now, free USPS shipping, and total price under $64."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 98024,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used - good used condition",
+          "confidence": 0.92,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 27.5,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Northwest Marketplace",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
+          "total_usd": 27.5,
+          "url": "https://www.ebay.com/itm/277725169755",
+          "verified_at": "2026-10-21T23:22:29.334554+00:00",
+          "why_good": "Working Fitbit Luxe FB422 with active Buy It Now, free USPS shipping, and total price under $64."
+        }
+      ],
+      "duration_ms": 89857,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-21T22:20:55.002738+00:00",
+      "finished_at": "2026-10-21T23:22:29.335241+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -608,20 +660,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used - good used condition",
+            "confidence": 0.92,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 27.5,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "Northwest Marketplace",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
+            "total_usd": 27.5,
+            "url": "https://www.ebay.com/itm/277725169755",
+            "verified_at": "2026-10-21T23:22:29.334554+00:00",
+            "why_good": "Working Fitbit Luxe FB422 with active Buy It Now, free USPS shipping, and total price under $64."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-21T22:19:16.978888+00:00",
+      "started_at": "2026-10-21T23:20:59.478726+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     }
   ]
 }
