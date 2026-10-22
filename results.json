@@ -8,13 +8,13 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-10-22T00:21:42.940796+00:00",
+  "finished_at": "2026-10-22T01:22:50.214125+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 4; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1"
+    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-22T00:17:05.886125+00:00",
+  "started_at": "2026-10-22T01:17:05.605048+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 67676,
+      "duration_ms": 62290,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-22T00:18:13.564337+00:00",
+      "finished_at": "2026-10-22T01:18:07.897627+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,7 +57,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T00:17:05.888320+00:00",
+      "started_at": "2026-10-22T01:17:05.607408+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -69,10 +69,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 24120,
+      "duration_ms": 96172,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-22T00:18:37.683893+00:00",
+      "finished_at": "2026-10-22T01:19:44.070060+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -119,7 +119,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T00:18:13.564405+00:00",
+      "started_at": "2026-10-22T01:18:07.897729+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -131,10 +131,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 80141,
+      "duration_ms": 67505,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-22T00:19:57.825201+00:00",
+      "finished_at": "2026-10-22T01:20:51.575511+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -231,7 +231,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T00:18:37.683958+00:00",
+      "started_at": "2026-10-22T01:19:44.070127+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -240,65 +240,13 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 45.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "burton_bunker_designs",
-            "shipping_usd": 7.09,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite USED",
-            "total_usd": 52.09,
-            "url": "https://www.ebay.com/itm/205969519600",
-            "verified_at": "2026-10-22T00:21:42.938703+00:00",
-            "why_good": "Working Fitbit Luxe with Buy It Now and explicit US shipping; total is under $64 before tax."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.93,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 45.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "burton_bunker_designs",
-          "shipping_usd": 7.09,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite USED",
-          "total_usd": 52.09,
-          "url": "https://www.ebay.com/itm/205969519600",
-          "verified_at": "2026-10-22T00:21:42.938703+00:00",
-          "why_good": "Working Fitbit Luxe with Buy It Now and explicit US shipping; total is under $64 before tax."
-        }
-      ],
-      "duration_ms": 105114,
+      "deals": [],
+      "duration_ms": 118638,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-22T00:21:42.939449+00:00",
+      "finished_at": "2026-10-22T01:22:50.213780+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -654,50 +602,51 @@
           "url": "https://www.ebay.com/itm/277725169755",
           "verified_at": "2026-10-21T23:22:29.334554+00:00",
           "why_good": "Working Fitbit Luxe FB422 with active Buy It Now, free USPS shipping, and total price under $64."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.93,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 45.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "burton_bunker_designs",
+          "shipping_usd": 7.09,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite USED",
+          "total_usd": 52.09,
+          "url": "https://www.ebay.com/itm/205969519600",
+          "verified_at": "2026-10-22T00:21:42.938703+00:00",
+          "why_good": "Working Fitbit Luxe with Buy It Now and explicit US shipping; total is under $64 before tax."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 45.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "burton_bunker_designs",
-            "shipping_usd": 7.09,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite USED",
-            "total_usd": 52.09,
-            "url": "https://www.ebay.com/itm/205969519600",
-            "verified_at": "2026-10-22T00:21:42.938703+00:00",
-            "why_good": "Working Fitbit Luxe with Buy It Now and explicit US shipping; total is under $64 before tax."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T00:19:57.825262+00:00",
+      "started_at": "2026-10-22T01:20:51.575572+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     }
   ]
 }
