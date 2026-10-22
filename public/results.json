@@ -7,13 +7,13 @@
     "fitbit-luxe-under-64"
   ],
   "dry_run": false,
-  "exit_code": 0,
-  "finished_at": "2026-10-22T21:21:58.950492+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-10-22T22:20:02.712771+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 4; exit code: 0",
+    "Scan scope: complete; selected targets: 4; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=2; normalized=2; verified=1",
+    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
   "schema_version": 2,
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-22T21:17:05.990194+00:00",
+  "started_at": "2026-10-22T22:17:05.414500+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 66338,
+      "duration_ms": 61256,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-22T21:18:12.331044+00:00",
+      "finished_at": "2026-10-22T22:18:06.672161+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,7 +57,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T21:17:05.992660+00:00",
+      "started_at": "2026-10-22T22:17:05.416690+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -69,10 +69,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 53922,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-10-22T21:19:06.253523+00:00",
+      "duration_ms": 26016,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-22T22:18:32.688004+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -93,8 +93,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T21:18:12.331112+00:00",
-      "status": "ok",
+      "started_at": "2026-10-22T22:18:06.672230+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -102,35 +102,19 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "223_556",
-            "condition": "New",
-            "confidence": 0.97,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "current_cash_price",
-            "price_usd": 469.5,
-            "product_category": "factory_ammunition",
-            "round_count": 1000,
-            "selected_quantity_label": "1000 rounds",
-            "selected_variant": "",
-            "seller": "Stunomma Sports",
-            "shipping_usd": 0.0,
-            "source": "Stunomma",
-            "target_id": "223-556-1000-rounds-under-470",
-            "tax_status": "sales tax excluded; amount unknown",
-            "title": "PMC XTAC 5.56 NATO 55GR FMJBT 1000 Rounds Free Shipping! 556X",
-            "total_usd": 469.5,
-            "url": "https://stunomma.com/product/pmc-xtac-556nato-55gr-fmjbt-1000-556x/",
-            "verified_at": "2026-10-22T21:21:17.041561+00:00",
-            "why_good": "Exact 1000-round factory-loaded 5.56 NATO case, 7 in stock, unconditional free shipping; sales tax excluded."
-          }
-        ]
+        "us": []
       },
-      "deals": [
+      "deals": [],
+      "duration_ms": 47053,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-10-22T22:19:19.741178+00:00",
+      "id": "223-556-1000-rounds-under-470",
+      "max_price_usd": 470,
+      "name": ".223 / 5.56, 1000 rounds, under US$470",
+      "normalized_count": 0,
+      "raw_count": 0,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "223_556",
@@ -157,58 +141,24 @@
           "why_good": "Exact 1000-round factory-loaded 5.56 NATO case, 7 in stock, unconditional free shipping; sales tax excluded."
         }
       ],
-      "duration_ms": 133096,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-10-22T21:21:19.349935+00:00",
-      "id": "223-556-1000-rounds-under-470",
-      "max_price_usd": 470,
-      "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 2,
-      "raw_count": 2,
-      "recently_verified_deals": [],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "223_556",
-            "condition": "New",
-            "confidence": 0.97,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "current_cash_price",
-            "price_usd": 469.5,
-            "product_category": "factory_ammunition",
-            "round_count": 1000,
-            "selected_quantity_label": "1000 rounds",
-            "selected_variant": "",
-            "seller": "Stunomma Sports",
-            "shipping_usd": 0.0,
-            "source": "Stunomma",
-            "target_id": "223-556-1000-rounds-under-470",
-            "tax_status": "sales tax excluded; amount unknown",
-            "title": "PMC XTAC 5.56 NATO 55GR FMJBT 1000 Rounds Free Shipping! 556X",
-            "total_usd": 469.5,
-            "url": "https://stunomma.com/product/pmc-xtac-556nato-55gr-fmjbt-1000-556x/",
-            "verified_at": "2026-10-22T21:21:17.041561+00:00",
-            "why_good": "Exact 1000-round factory-loaded 5.56 NATO case, 7 in stock, unconditional free shipping; sales tax excluded."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T21:19:06.253602+00:00",
+      "started_at": "2026-10-22T22:18:32.688066+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     },
     {
       "deal_groups": {
@@ -217,10 +167,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 39600,
+      "duration_ms": 42971,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-22T21:21:58.950240+00:00",
+      "finished_at": "2026-10-22T22:20:02.712513+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -467,7 +417,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T21:21:19.350324+00:00",
+      "started_at": "2026-10-22T22:19:19.741239+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
