@@ -7,12 +7,12 @@
     "fitbit-luxe-under-64"
   ],
   "dry_run": false,
-  "exit_code": 1,
-  "finished_at": "2026-10-22T05:21:04.253288+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-22T06:21:37.213306+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 4; exit code: 1",
+    "Scan scope: complete; selected targets: 4; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1"
   ],
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-22T05:17:06.260379+00:00",
+  "started_at": "2026-10-22T06:17:05.559931+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 59683,
+      "duration_ms": 52597,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-22T05:18:05.945570+00:00",
+      "finished_at": "2026-10-22T06:17:58.159345+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,7 +57,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T05:17:06.262788+00:00",
+      "started_at": "2026-10-22T06:17:05.562502+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -69,42 +69,16 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 19584,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-22T05:18:25.529162+00:00",
+      "duration_ms": 97469,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-10-22T06:19:35.627967+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
       "normalized_count": 0,
       "raw_count": 0,
-      "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "9x19",
-          "condition": "New",
-          "confidence": 0.94,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "current_cash_price",
-          "price_usd": 225.0,
-          "product_category": "factory_ammunition",
-          "round_count": 1000,
-          "selected_quantity_label": "1000 rounds",
-          "selected_variant": "",
-          "seller": "Ugly Bullets",
-          "shipping_usd": 0.0,
-          "source": "Ugly Bullets",
-          "target_id": "9mm-1000-rounds-under-257",
-          "tax_status": "sales tax excluded; amount unknown",
-          "title": "1000 ROUNDS 9MM 124GR FMJ NEW Free Shipping",
-          "total_usd": 225.0,
-          "url": "https://uglybullets.com/ugly-pistol/1000-rounds-9mm-124gr-fmj-new-free-shipping/",
-          "verified_at": "2026-10-21T06:19:42.085704+00:00",
-          "why_good": "Exact 1000-round new 9mm FMJ listing, in stock with add-to-cart action and unconditional free shipping; tax excluded."
-        }
-      ],
+      "recently_verified_deals": [],
       "regional_summary": {
         "best": {
           "eu": null,
@@ -119,8 +93,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T05:18:05.945649+00:00",
-      "status": "incomplete",
+      "started_at": "2026-10-22T06:17:58.159415+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -131,10 +105,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 75786,
+      "duration_ms": 42680,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-22T05:19:41.315537+00:00",
+      "finished_at": "2026-10-22T06:20:18.307816+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -231,7 +205,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T05:18:25.529236+00:00",
+      "started_at": "2026-10-22T06:19:35.628034+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -244,8 +218,8 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used \u2014 good used condition",
-            "confidence": 0.95,
+            "condition": "Used; good used condition",
+            "confidence": 0.94,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -263,8 +237,8 @@
             "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
             "total_usd": 27.5,
             "url": "https://www.ebay.com/itm/277725169755",
-            "verified_at": "2026-10-22T05:21:04.248517+00:00",
-            "why_good": "Working Fitbit Luxe tracker with active Buy It Now and free USPS Ground Advantage shipping."
+            "verified_at": "2026-10-22T06:21:37.211019+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now, free USPS shipping, and total price under $64."
           }
         ]
       },
@@ -272,8 +246,8 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Used \u2014 good used condition",
-          "confidence": 0.95,
+          "condition": "Used; good used condition",
+          "confidence": 0.94,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -291,14 +265,14 @@
           "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
           "total_usd": 27.5,
           "url": "https://www.ebay.com/itm/277725169755",
-          "verified_at": "2026-10-22T05:21:04.248517+00:00",
-          "why_good": "Working Fitbit Luxe tracker with active Buy It Now and free USPS Ground Advantage shipping."
+          "verified_at": "2026-10-22T06:21:37.211019+00:00",
+          "why_good": "Working Fitbit Luxe with active Buy It Now, free USPS shipping, and total price under $64."
         }
       ],
-      "duration_ms": 82937,
+      "duration_ms": 78904,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-22T05:21:04.252051+00:00",
+      "finished_at": "2026-10-22T06:21:37.211679+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -613,8 +587,8 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used \u2014 good used condition",
-            "confidence": 0.95,
+            "condition": "Used; good used condition",
+            "confidence": 0.94,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -632,8 +606,8 @@
             "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
             "total_usd": 27.5,
             "url": "https://www.ebay.com/itm/277725169755",
-            "verified_at": "2026-10-22T05:21:04.248517+00:00",
-            "why_good": "Working Fitbit Luxe tracker with active Buy It Now and free USPS Ground Advantage shipping."
+            "verified_at": "2026-10-22T06:21:37.211019+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now, free USPS shipping, and total price under $64."
           }
         },
         "counts": {
@@ -644,7 +618,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T05:19:41.315597+00:00",
+      "started_at": "2026-10-22T06:20:18.307876+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
