@@ -8,13 +8,13 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-10-22T23:21:58.404437+00:00",
+  "finished_at": "2026-10-23T00:21:52.128757+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 4; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=3; normalized=3; verified=2",
-    "Target 3: status=ok; error=none; raw=2; normalized=2; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1"
+    "Target 2: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -24,7 +24,7 @@
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64"
   ],
-  "started_at": "2026-10-22T23:17:05.283661+00:00",
+  "started_at": "2026-10-23T00:17:05.712839+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -33,10 +33,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 66813,
+      "duration_ms": 74452,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-22T23:18:12.099560+00:00",
+      "finished_at": "2026-10-23T00:18:20.166769+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -57,7 +57,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T23:17:05.287139+00:00",
+      "started_at": "2026-10-23T00:17:05.715034+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -66,60 +66,19 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "9x19",
-            "condition": "New",
-            "confidence": 0.99,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "current_cash_price",
-            "price_usd": 234.8,
-            "product_category": "factory_ammunition",
-            "round_count": 1000,
-            "selected_quantity_label": "1000 rounds",
-            "selected_variant": "",
-            "seller": "SG Ammo",
-            "shipping_usd": 0.0,
-            "source": "SG Ammo",
-            "target_id": "9mm-1000-rounds-under-257",
-            "tax_status": "sales tax excluded; amount unknown",
-            "title": "1000 Round Case \u2013 Steel Case 9mm Luger 115 Grain FMJ Magtech Ammo \u2013 9AS",
-            "total_usd": 234.8,
-            "url": "https://sgammo.com/product/9mm-luger-ammo/1000-round-case-steel-case-9mm-luger-115-grain-fmj-magtech-ammo-9as/",
-            "verified_at": "2026-10-22T23:19:47.767371+00:00",
-            "why_good": "Factory-new Magtech 9mm Luger FMJ, exactly 1000 rounds, 25+ in stock, and free shipping for orders over $200; sales tax excluded."
-          },
-          {
-            "availability": "available",
-            "cartridge": "9x19",
-            "condition": "New",
-            "confidence": 0.99,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "current_cash_price",
-            "price_usd": 234.8,
-            "product_category": "factory_ammunition",
-            "round_count": 1000,
-            "selected_quantity_label": "1000 rounds",
-            "selected_variant": "",
-            "seller": "SG Ammo",
-            "shipping_usd": 0.0,
-            "source": "SG Ammo",
-            "target_id": "9mm-1000-rounds-under-257",
-            "tax_status": "sales tax excluded; amount unknown",
-            "title": "1000 Round Case \u2013 Steel Case 9mm Luger 124 Grain FMJ Magtech Ammo \u2013 9BS",
-            "total_usd": 234.8,
-            "url": "https://sgammo.com/product/9mm-luger-ammo/1000-round-case-steel-case-9mm-luger-124-grain-fmj-magtech-ammo-9bs/",
-            "verified_at": "2026-10-22T23:19:50.970255+00:00",
-            "why_good": "Factory-new Magtech 9mm Luger FMJ, exactly 1000 rounds, 25+ in stock, and free shipping for orders over $200; sales tax excluded."
-          }
-        ]
+        "us": []
       },
-      "deals": [
+      "deals": [],
+      "duration_ms": 42817,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-10-23T00:19:02.983519+00:00",
+      "id": "9mm-1000-rounds-under-257",
+      "max_price_usd": 257,
+      "name": "9x19 / 9mm, 1000 rounds, under US$257",
+      "normalized_count": 1,
+      "raw_count": 1,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "9x19",
@@ -171,58 +130,24 @@
           "why_good": "Factory-new Magtech 9mm Luger FMJ, exactly 1000 rounds, 25+ in stock, and free shipping for orders over $200; sales tax excluded."
         }
       ],
-      "duration_ms": 98872,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-10-22T23:19:50.971282+00:00",
-      "id": "9mm-1000-rounds-under-257",
-      "max_price_usd": 257,
-      "name": "9x19 / 9mm, 1000 rounds, under US$257",
-      "normalized_count": 3,
-      "raw_count": 3,
-      "recently_verified_deals": [],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "9x19",
-            "condition": "New",
-            "confidence": 0.99,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "current_cash_price",
-            "price_usd": 234.8,
-            "product_category": "factory_ammunition",
-            "round_count": 1000,
-            "selected_quantity_label": "1000 rounds",
-            "selected_variant": "",
-            "seller": "SG Ammo",
-            "shipping_usd": 0.0,
-            "source": "SG Ammo",
-            "target_id": "9mm-1000-rounds-under-257",
-            "tax_status": "sales tax excluded; amount unknown",
-            "title": "1000 Round Case \u2013 Steel Case 9mm Luger 115 Grain FMJ Magtech Ammo \u2013 9AS",
-            "total_usd": 234.8,
-            "url": "https://sgammo.com/product/9mm-luger-ammo/1000-round-case-steel-case-9mm-luger-115-grain-fmj-magtech-ammo-9as/",
-            "verified_at": "2026-10-22T23:19:47.767371+00:00",
-            "why_good": "Factory-new Magtech 9mm Luger FMJ, exactly 1000 rounds, 25+ in stock, and free shipping for orders over $200; sales tax excluded."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T23:18:12.099666+00:00",
+      "started_at": "2026-10-23T00:18:20.166835+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 2
+      "verified_count": 0
     },
     {
       "deal_groups": {
@@ -231,15 +156,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 57943,
+      "duration_ms": 48444,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-22T23:20:48.914887+00:00",
+      "finished_at": "2026-10-23T00:19:51.427899+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -281,7 +206,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T23:19:50.972117+00:00",
+      "started_at": "2026-10-23T00:19:02.983599+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -290,65 +215,13 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used \u2014 good used condition",
-            "confidence": 0.95,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 27.5,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Northwest Marketplace",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
-            "total_usd": 27.5,
-            "url": "https://www.ebay.com/itm/277725169755",
-            "verified_at": "2026-10-22T23:21:58.402977+00:00",
-            "why_good": "Working Fitbit Luxe tracker with Buy It Now, active listing, and free USPS shipping."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used \u2014 good used condition",
-          "confidence": 0.95,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 27.5,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Northwest Marketplace",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
-          "total_usd": 27.5,
-          "url": "https://www.ebay.com/itm/277725169755",
-          "verified_at": "2026-10-22T23:21:58.402977+00:00",
-          "why_good": "Working Fitbit Luxe tracker with Buy It Now, active listing, and free USPS shipping."
-        }
-      ],
-      "duration_ms": 69489,
+      "deals": [],
+      "duration_ms": 120700,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-22T23:21:58.403510+00:00",
+      "finished_at": "2026-10-23T00:21:52.128410+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -554,50 +427,51 @@
           "url": "https://www.ebay.com/itm/307009751717",
           "verified_at": "2026-10-22T20:22:25.359137+00:00",
           "why_good": "Tested Fitbit Luxe with charger, active Buy It Now, and free US shipping."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used \u2014 good used condition",
+          "confidence": 0.95,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 27.5,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Northwest Marketplace",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
+          "total_usd": 27.5,
+          "url": "https://www.ebay.com/itm/277725169755",
+          "verified_at": "2026-10-22T23:21:58.402977+00:00",
+          "why_good": "Working Fitbit Luxe tracker with Buy It Now, active listing, and free USPS shipping."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used \u2014 good used condition",
-            "confidence": 0.95,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 27.5,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Northwest Marketplace",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit - Luxe Fitness & Wellness Tracker FB422",
-            "total_usd": 27.5,
-            "url": "https://www.ebay.com/itm/277725169755",
-            "verified_at": "2026-10-22T23:21:58.402977+00:00",
-            "why_good": "Working Fitbit Luxe tracker with Buy It Now, active listing, and free USPS shipping."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-22T23:20:48.914950+00:00",
+      "started_at": "2026-10-23T00:19:51.427958+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     }
   ]
 }
