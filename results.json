@@ -9,13 +9,13 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
   "dry_run": false,
-  "exit_code": 1,
-  "finished_at": "2026-10-23T19:21:45.910432+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-23T20:23:25.804216+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 6; exit code: 1",
-    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Scan scope: complete; selected targets: 6; exit code: 0",
+    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-23T19:17:05.783878+00:00",
+  "started_at": "2026-10-23T20:17:05.105259+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 45642,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-23T19:17:51.427925+00:00",
+      "duration_ms": 66835,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-10-23T20:18:11.942564+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,8 +63,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-23T19:17:05.786390+00:00",
-      "status": "incomplete",
+      "started_at": "2026-10-23T20:17:05.107443+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 15700,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-23T19:18:07.128381+00:00",
+      "duration_ms": 91800,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-10-23T20:19:43.742500+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -150,8 +150,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-23T19:17:51.427990+00:00",
-      "status": "incomplete",
+      "started_at": "2026-10-23T20:18:11.942630+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -162,10 +162,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 17288,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-23T19:18:24.416011+00:00",
+      "duration_ms": 31908,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-10-23T20:20:15.650280+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -337,8 +337,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-23T19:18:07.128444+00:00",
-      "status": "incomplete",
+      "started_at": "2026-10-23T20:19:43.742564+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -349,10 +349,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 93133,
+      "duration_ms": 62951,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-23T19:19:57.549206+00:00",
+      "finished_at": "2026-10-23T20:21:18.601514+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -624,7 +624,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-23T19:18:24.416070+00:00",
+      "started_at": "2026-10-23T20:20:15.650339+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -636,10 +636,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 35042,
+      "duration_ms": 26768,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-23T19:20:32.591420+00:00",
+      "finished_at": "2026-10-23T20:21:45.369634+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -660,7 +660,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-23T19:19:57.549268+00:00",
+      "started_at": "2026-10-23T20:21:18.601575+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -672,10 +672,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 73319,
+      "duration_ms": 100434,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-23T19:21:45.910103+00:00",
+      "finished_at": "2026-10-23T20:23:25.803885+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -696,7 +696,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-23T19:20:32.591478+00:00",
+      "started_at": "2026-10-23T20:21:45.369692+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
