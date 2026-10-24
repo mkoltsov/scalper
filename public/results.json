@@ -10,15 +10,15 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-10-24T03:24:18.791036+00:00",
+  "finished_at": "2026-10-24T04:22:17.193842+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
-    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=2",
+    "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
+    "Target 6: status=ok; error=none; raw=2; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-24T03:17:05.133033+00:00",
+  "started_at": "2026-10-24T04:17:05.704940+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 60263,
+      "duration_ms": 59047,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-24T03:18:05.398568+00:00",
+      "finished_at": "2026-10-24T04:18:04.754398+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-24T03:17:05.135408+00:00",
+      "started_at": "2026-10-24T04:17:05.707383+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 81073,
+      "duration_ms": 52955,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-24T03:19:26.471644+00:00",
+      "finished_at": "2026-10-24T04:18:57.709653+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -99,7 +99,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-24T03:18:05.398640+00:00",
+      "started_at": "2026-10-24T04:18:04.754470+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -111,10 +111,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 55147,
+      "duration_ms": 49510,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-24T03:20:21.618695+00:00",
+      "finished_at": "2026-10-24T04:19:47.219772+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -286,7 +286,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-24T03:19:26.471708+00:00",
+      "started_at": "2026-10-24T04:18:57.709718+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -295,120 +295,18 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 54.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "hakuinternational",
-            "shipping_usd": 5.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
-            "total_usd": 59.0,
-            "url": "https://www.ebay.com/itm/277403999856",
-            "verified_at": "2026-10-24T03:22:06.855811+00:00",
-            "why_good": "Exact Fitbit Luxe model with active Buy It Now and explicit USPS shipping to the US."
-          },
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used; tested",
-            "confidence": 0.94,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 49.99,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "paexp-81",
-            "shipping_usd": 9.14,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness Plus Wellness Tracker - TESTED",
-            "total_usd": 59.13,
-            "url": "https://www.ebay.com/itm/156562037830",
-            "verified_at": "2026-10-24T03:21:58.229738+00:00",
-            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, tested condition, and numeric US shipping."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.93,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 54.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "hakuinternational",
-          "shipping_usd": 5.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
-          "total_usd": 59.0,
-          "url": "https://www.ebay.com/itm/277403999856",
-          "verified_at": "2026-10-24T03:22:06.855811+00:00",
-          "why_good": "Exact Fitbit Luxe model with active Buy It Now and explicit USPS shipping to the US."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used; tested",
-          "confidence": 0.94,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 49.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "paexp-81",
-          "shipping_usd": 9.14,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Plus Wellness Tracker - TESTED",
-          "total_usd": 59.13,
-          "url": "https://www.ebay.com/itm/156562037830",
-          "verified_at": "2026-10-24T03:21:58.229738+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, tested condition, and numeric US shipping."
-        }
-      ],
-      "duration_ms": 108458,
+      "deals": [],
+      "duration_ms": 64326,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-24T03:22:10.076635+00:00",
+      "finished_at": "2026-10-24T04:20:51.545542+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 3,
-      "raw_count": 3,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -734,50 +632,76 @@
           "url": "https://www.ebay.com/itm/387614287211",
           "verified_at": "2026-10-24T02:23:55.639406+00:00",
           "why_good": "Working Fitbit Luxe with active Buy It Now, 9 available, and explicitly free 2\u20134 day US delivery."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used; tested",
+          "confidence": 0.94,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 49.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "paexp-81",
+          "shipping_usd": 9.14,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Plus Wellness Tracker - TESTED",
+          "total_usd": 59.13,
+          "url": "https://www.ebay.com/itm/156562037830",
+          "verified_at": "2026-10-24T03:21:58.229738+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, tested condition, and numeric US shipping."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.93,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 54.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "hakuinternational",
+          "shipping_usd": 5.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
+          "total_usd": 59.0,
+          "url": "https://www.ebay.com/itm/277403999856",
+          "verified_at": "2026-10-24T03:22:06.855811+00:00",
+          "why_good": "Exact Fitbit Luxe model with active Buy It Now and explicit USPS shipping to the US."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.93,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 54.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "hakuinternational",
-            "shipping_usd": 5.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
-            "total_usd": 59.0,
-            "url": "https://www.ebay.com/itm/277403999856",
-            "verified_at": "2026-10-24T03:22:06.855811+00:00",
-            "why_good": "Exact Fitbit Luxe model with active Buy It Now and explicit USPS shipping to the US."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-24T03:20:21.618756+00:00",
+      "started_at": "2026-10-24T04:19:47.219834+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 2
+      "verified_count": 0
     },
     {
       "deal_groups": {
@@ -786,10 +710,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 60395,
+      "duration_ms": 28953,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-24T03:23:10.473344+00:00",
+      "finished_at": "2026-10-24T04:21:20.498861+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -810,7 +734,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-24T03:22:10.077991+00:00",
+      "started_at": "2026-10-24T04:20:51.545603+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -822,15 +746,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 68317,
+      "duration_ms": 56695,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-24T03:24:18.790637+00:00",
+      "finished_at": "2026-10-24T04:22:17.193498+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
       "normalized_count": 0,
-      "raw_count": 0,
+      "raw_count": 2,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -846,7 +770,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-24T03:23:10.473405+00:00",
+      "started_at": "2026-10-24T04:21:20.498923+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
