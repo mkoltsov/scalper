@@ -10,15 +10,15 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-10-27T12:26:31.439364+00:00",
+  "finished_at": "2026-10-27T13:26:05.187556+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=2; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1",
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 4: status=ok; error=none; raw=2; normalized=2; verified=2",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=2; normalized=0; verified=0"
+    "Target 6: status=ok; error=none; raw=1; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-27T12:17:05.430344+00:00",
+  "started_at": "2026-10-27T13:17:05.534691+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 82819,
+      "duration_ms": 80466,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-27T12:18:28.251506+00:00",
+      "finished_at": "2026-10-27T13:18:26.003346+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T12:17:05.432523+00:00",
+      "started_at": "2026-10-27T13:17:05.536964+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 50298,
+      "duration_ms": 108415,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-27T12:19:18.549801+00:00",
+      "finished_at": "2026-10-27T13:20:14.418030+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -150,7 +150,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T12:18:28.251574+00:00",
+      "started_at": "2026-10-27T13:18:26.003415+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -162,15 +162,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 215489,
+      "duration_ms": 61644,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-27T12:22:54.038983+00:00",
+      "finished_at": "2026-10-27T13:21:16.062185+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
       "normalized_count": 0,
-      "raw_count": 2,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -237,7 +237,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T12:19:18.549866+00:00",
+      "started_at": "2026-10-27T13:20:14.418103+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -250,8 +250,8 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.98,
+            "condition": "Used; tested working",
+            "confidence": 0.94,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -269,8 +269,33 @@
             "title": "Fitbit Luxe Fitness Tracker Black Tested Working Heavy Wear No Charger",
             "total_usd": 30.89,
             "url": "https://www.ebay.com/itm/318064587910",
-            "verified_at": "2026-10-27T12:24:18.520693+00:00",
-            "why_good": "Tested working Fitbit Luxe with active Buy It Now and numeric US delivery charge."
+            "verified_at": "2026-10-27T13:22:48.352374+00:00",
+            "why_good": "Exact tested-working Fitbit Luxe with active Buy It Now and numeric US delivery charge."
+          },
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used",
+            "confidence": 0.95,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 39.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "Exclusive Sales Inc",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
+            "total_usd": 39.0,
+            "url": "https://www.ebay.com/itm/387614287211",
+            "verified_at": "2026-10-27T13:22:39.725199+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, 9 available, and free US delivery."
           }
         ]
       },
@@ -278,8 +303,8 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.98,
+          "condition": "Used; tested working",
+          "confidence": 0.94,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -297,70 +322,45 @@
           "title": "Fitbit Luxe Fitness Tracker Black Tested Working Heavy Wear No Charger",
           "total_usd": 30.89,
           "url": "https://www.ebay.com/itm/318064587910",
-          "verified_at": "2026-10-27T12:24:18.520693+00:00",
-          "why_good": "Tested working Fitbit Luxe with active Buy It Now and numeric US delivery charge."
+          "verified_at": "2026-10-27T13:22:48.352374+00:00",
+          "why_good": "Exact tested-working Fitbit Luxe with active Buy It Now and numeric US delivery charge."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.95,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 39.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Exclusive Sales Inc",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
+          "total_usd": 39.0,
+          "url": "https://www.ebay.com/itm/387614287211",
+          "verified_at": "2026-10-27T13:22:39.725199+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, 9 available, and free US delivery."
         }
       ],
-      "duration_ms": 84482,
+      "duration_ms": 92291,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-27T12:24:18.521434+00:00",
+      "finished_at": "2026-10-27T13:22:48.352991+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.94,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 38.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Renew Tech",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit - Luxe Fitness & Wellness Tracker - Silver (FB422BKBK) [DJ434]",
-          "total_usd": 38.99,
-          "url": "https://www.ebay.com/itm/237086744534",
-          "verified_at": "2026-10-26T13:22:21.814211+00:00",
-          "why_good": "Buy It Now Fitbit Luxe with free USPS Ground Advantage delivery to the US."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.93,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 59.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "electrojungle",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness & Wellness Tracker - Black / Graphite | USED",
-          "total_usd": 59.99,
-          "url": "https://www.ebay.com/itm/326397807209",
-          "verified_at": "2026-10-26T13:22:32.860614+00:00",
-          "why_good": "Buy It Now listing with more than 10 available and free USPS First Class delivery."
-        },
         {
           "availability": "available",
           "cartridge": "",
@@ -664,31 +664,6 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Used; fully operational",
-          "confidence": 0.95,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 39.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Exclusive Sales Inc",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
-          "total_usd": 39.0,
-          "url": "https://www.ebay.com/itm/387614287211",
-          "verified_at": "2026-10-27T11:21:31.198243+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, 9 available, and free US delivery."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
           "condition": "Used; tested",
           "confidence": 0.91,
           "delivery_country": "United States",
@@ -719,8 +694,8 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.98,
+            "condition": "Used; tested working",
+            "confidence": 0.94,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -738,22 +713,22 @@
             "title": "Fitbit Luxe Fitness Tracker Black Tested Working Heavy Wear No Charger",
             "total_usd": 30.89,
             "url": "https://www.ebay.com/itm/318064587910",
-            "verified_at": "2026-10-27T12:24:18.520693+00:00",
-            "why_good": "Tested working Fitbit Luxe with active Buy It Now and numeric US delivery charge."
+            "verified_at": "2026-10-27T13:22:48.352374+00:00",
+            "why_good": "Exact tested-working Fitbit Luxe with active Buy It Now and numeric US delivery charge."
           }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T12:22:54.039042+00:00",
+      "started_at": "2026-10-27T13:21:16.062249+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 2
     },
     {
       "deal_groups": {
@@ -762,10 +737,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 54276,
+      "duration_ms": 60507,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-27T12:25:12.798309+00:00",
+      "finished_at": "2026-10-27T13:23:48.860658+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -786,7 +761,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T12:24:18.522442+00:00",
+      "started_at": "2026-10-27T13:22:48.354195+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -798,15 +773,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 78640,
+      "duration_ms": 136327,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-27T12:26:31.438760+00:00",
+      "finished_at": "2026-10-27T13:26:05.187201+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
       "normalized_count": 0,
-      "raw_count": 2,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -848,7 +823,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T12:25:12.798369+00:00",
+      "started_at": "2026-10-27T13:23:48.860717+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
