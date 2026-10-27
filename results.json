@@ -9,16 +9,16 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
   "dry_run": false,
-  "exit_code": 0,
-  "finished_at": "2026-10-27T04:23:37.488323+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-10-27T05:23:24.138521+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 6; exit code: 0",
+    "Scan scope: complete; selected targets: 6; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=1",
+    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=1; normalized=1; verified=1"
+    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-27T04:17:05.719518+00:00",
+  "started_at": "2026-10-27T05:17:05.108750+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 64171,
+      "duration_ms": 54018,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-27T04:18:09.892756+00:00",
+      "finished_at": "2026-10-27T05:17:59.129389+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T04:17:05.721741+00:00",
+      "started_at": "2026-10-27T05:17:05.111011+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 35873,
+      "duration_ms": 52539,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-27T04:18:45.765748+00:00",
+      "finished_at": "2026-10-27T05:18:51.668572+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -150,7 +150,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T04:18:09.892824+00:00",
+      "started_at": "2026-10-27T05:17:59.129458+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -162,10 +162,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 60995,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-10-27T04:19:46.760589+00:00",
+      "duration_ms": 20794,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-27T05:19:12.463065+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -312,8 +312,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T04:18:45.765820+00:00",
-      "status": "ok",
+      "started_at": "2026-10-27T05:18:51.668636+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -326,26 +326,26 @@
             "availability": "available",
             "cartridge": "",
             "condition": "Used",
-            "confidence": 0.93,
+            "confidence": 0.94,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 24.99,
+            "price_usd": 39.0,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "The Short Dog 2023",
-            "shipping_usd": 8.0,
+            "seller": "Exclusive Sales Inc",
+            "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
-            "total_usd": 32.99,
-            "url": "https://www.ebay.com/itm/135741011661",
-            "verified_at": "2026-10-27T04:21:25.271100+00:00",
-            "why_good": "Active Buy It Now Fitbit Luxe tracker with explicit USPS shipping to the US."
+            "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
+            "total_usd": 39.0,
+            "url": "https://www.ebay.com/itm/387614287211",
+            "verified_at": "2026-10-27T05:20:51.873951+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now, 9 available, and free US delivery."
           }
         ]
       },
@@ -354,37 +354,37 @@
           "availability": "available",
           "cartridge": "",
           "condition": "Used",
-          "confidence": 0.93,
+          "confidence": 0.94,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
           "price_basis": "",
-          "price_usd": 24.99,
+          "price_usd": 39.0,
           "product_category": "",
           "round_count": null,
           "selected_quantity_label": "",
           "selected_variant": "",
-          "seller": "The Short Dog 2023",
-          "shipping_usd": 8.0,
+          "seller": "Exclusive Sales Inc",
+          "shipping_usd": 0.0,
           "source": "eBay",
           "target_id": "fitbit-luxe-under-64",
           "tax_status": "",
-          "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
-          "total_usd": 32.99,
-          "url": "https://www.ebay.com/itm/135741011661",
-          "verified_at": "2026-10-27T04:21:25.271100+00:00",
-          "why_good": "Active Buy It Now Fitbit Luxe tracker with explicit USPS shipping to the US."
+          "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
+          "total_usd": 39.0,
+          "url": "https://www.ebay.com/itm/387614287211",
+          "verified_at": "2026-10-27T05:20:51.873951+00:00",
+          "why_good": "Working Fitbit Luxe with active Buy It Now, 9 available, and free US delivery."
         }
       ],
-      "duration_ms": 98511,
+      "duration_ms": 99411,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-27T04:21:25.271781+00:00",
+      "finished_at": "2026-10-27T05:20:51.874515+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 3,
-      "raw_count": 3,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -640,26 +640,26 @@
           "availability": "available",
           "cartridge": "",
           "condition": "Used",
-          "confidence": 0.95,
+          "confidence": 0.93,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
           "price_basis": "",
-          "price_usd": 39.0,
+          "price_usd": 24.99,
           "product_category": "",
           "round_count": null,
           "selected_quantity_label": "",
           "selected_variant": "",
-          "seller": "Exclusive Sales Inc",
-          "shipping_usd": 0.0,
+          "seller": "The Short Dog 2023",
+          "shipping_usd": 8.0,
           "source": "eBay",
           "target_id": "fitbit-luxe-under-64",
           "tax_status": "",
-          "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
-          "total_usd": 39.0,
-          "url": "https://www.ebay.com/itm/387614287211",
-          "verified_at": "2026-10-27T03:21:52.324341+00:00",
-          "why_good": "Fitbit Luxe activity tracker with free delivery and active purchase action."
+          "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
+          "total_usd": 32.99,
+          "url": "https://www.ebay.com/itm/135741011661",
+          "verified_at": "2026-10-27T04:21:25.271100+00:00",
+          "why_good": "Active Buy It Now Fitbit Luxe tracker with explicit USPS shipping to the US."
         }
       ],
       "regional_summary": {
@@ -670,26 +670,26 @@
             "availability": "available",
             "cartridge": "",
             "condition": "Used",
-            "confidence": 0.93,
+            "confidence": 0.94,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 24.99,
+            "price_usd": 39.0,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "The Short Dog 2023",
-            "shipping_usd": 8.0,
+            "seller": "Exclusive Sales Inc",
+            "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
-            "total_usd": 32.99,
-            "url": "https://www.ebay.com/itm/135741011661",
-            "verified_at": "2026-10-27T04:21:25.271100+00:00",
-            "why_good": "Active Buy It Now Fitbit Luxe tracker with explicit USPS shipping to the US."
+            "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
+            "total_usd": 39.0,
+            "url": "https://www.ebay.com/itm/387614287211",
+            "verified_at": "2026-10-27T05:20:51.873951+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now, 9 available, and free US delivery."
           }
         },
         "counts": {
@@ -700,7 +700,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T04:19:46.760648+00:00",
+      "started_at": "2026-10-27T05:19:12.463124+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
@@ -712,10 +712,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 60667,
+      "duration_ms": 45031,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-27T04:22:25.939651+00:00",
+      "finished_at": "2026-10-27T05:21:36.905977+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -736,7 +736,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T04:21:25.272819+00:00",
+      "started_at": "2026-10-27T05:20:51.875131+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -745,35 +745,19 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 156.33,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Optical-Fire",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-            "tax_status": "",
-            "title": "S6-GM 6 MOA Micro Red Dot Reflex Sight for Full Size Gen4-5 G17 MOS Direct Mount",
-            "total_usd": 156.33,
-            "url": "https://www.ebay.com/p/28093906003?iid=397863886397",
-            "verified_at": "2026-10-27T04:23:37.382572+00:00",
-            "why_good": "Complete working Zulisy S6-GM red-dot optic; active Buy It Now listing with free US shipping. The manufacturer documents direct fit for Gen 4/5 full-size Glock MOS pistols including G19, with no adapter plate, and excludes only slimline G43X/G48 models: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos"
-          }
-        ]
+        "us": []
       },
-      "deals": [
+      "deals": [],
+      "duration_ms": 107232,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-10-27T05:23:24.138170+00:00",
+      "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
+      "max_price_usd": 190,
+      "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
+      "normalized_count": 0,
+      "raw_count": 0,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -800,58 +784,24 @@
           "why_good": "Complete working Zulisy S6-GM red-dot optic; active Buy It Now listing with free US shipping. The manufacturer documents direct fit for Gen 4/5 full-size Glock MOS pistols including G19, with no adapter plate, and excludes only slimline G43X/G48 models: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos"
         }
       ],
-      "duration_ms": 71443,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-27T04:23:37.383126+00:00",
-      "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-      "max_price_usd": 190,
-      "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
-      "normalized_count": 1,
-      "raw_count": 1,
-      "recently_verified_deals": [],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New",
-            "confidence": 0.86,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 156.33,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Optical-Fire",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-            "tax_status": "",
-            "title": "S6-GM 6 MOA Micro Red Dot Reflex Sight for Full Size Gen4-5 G17 MOS Direct Mount",
-            "total_usd": 156.33,
-            "url": "https://www.ebay.com/p/28093906003?iid=397863886397",
-            "verified_at": "2026-10-27T04:23:37.382572+00:00",
-            "why_good": "Complete working Zulisy S6-GM red-dot optic; active Buy It Now listing with free US shipping. The manufacturer documents direct fit for Gen 4/5 full-size Glock MOS pistols including G19, with no adapter plate, and excludes only slimline G43X/G48 models: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos"
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T04:22:25.939714+00:00",
+      "started_at": "2026-10-27T05:21:36.906036+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     }
   ]
 }
