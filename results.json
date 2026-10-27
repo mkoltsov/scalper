@@ -10,15 +10,15 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-10-27T22:23:50.594105+00:00",
+  "finished_at": "2026-10-27T23:24:35.509868+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1",
+    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=1",
+    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
+    "Target 6: status=ok; error=none; raw=1; normalized=1; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-27T22:17:06.205395+00:00",
+  "started_at": "2026-10-27T23:17:05.503402+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 60839,
+      "duration_ms": 66139,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-27T22:18:07.046165+00:00",
+      "finished_at": "2026-10-27T23:18:11.644390+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T22:17:06.207740+00:00",
+      "started_at": "2026-10-27T23:17:05.505680+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 54056,
+      "duration_ms": 105766,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-27T22:19:01.102012+00:00",
+      "finished_at": "2026-10-27T23:19:57.410436+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -150,7 +150,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T22:18:07.046243+00:00",
+      "started_at": "2026-10-27T23:18:11.644455+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -159,18 +159,70 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.94,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 449.5,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "SGAmmo",
+            "shipping_usd": 0.0,
+            "source": "SGAmmo",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "1000 Round Case \u2013 223 Rem PMC 55 Grain FMJ-BT Brass Case Ammo \u2013 223A",
+            "total_usd": 449.5,
+            "url": "https://sgammo.com/product/223-556mm-ammo/1000-round-case-223-rem-pmc-55-grain-fmjbt-brass-case-ammo-223a/",
+            "verified_at": "2026-10-27T23:21:40.038993+00:00",
+            "why_good": "Exactly 1000 rounds, factory .223 Remington ammunition, 25+ in stock, and free shipping applies to orders over $200."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 43050,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.94,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 449.5,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "SGAmmo",
+          "shipping_usd": 0.0,
+          "source": "SGAmmo",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "1000 Round Case \u2013 223 Rem PMC 55 Grain FMJ-BT Brass Case Ammo \u2013 223A",
+          "total_usd": 449.5,
+          "url": "https://sgammo.com/product/223-556mm-ammo/1000-round-case-223-rem-pmc-55-grain-fmjbt-brass-case-ammo-223a/",
+          "verified_at": "2026-10-27T23:21:40.038993+00:00",
+          "why_good": "Exactly 1000 rounds, factory .223 Remington ammunition, 25+ in stock, and free shipping applies to orders over $200."
+        }
+      ],
+      "duration_ms": 102629,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-27T22:19:44.151605+00:00",
+      "finished_at": "2026-10-27T23:21:40.039638+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -202,165 +254,62 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.94,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 449.5,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "SGAmmo",
+            "shipping_usd": 0.0,
+            "source": "SGAmmo",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "1000 Round Case \u2013 223 Rem PMC 55 Grain FMJ-BT Brass Case Ammo \u2013 223A",
+            "total_usd": 449.5,
+            "url": "https://sgammo.com/product/223-556mm-ammo/1000-round-case-223-rem-pmc-55-grain-fmjbt-brass-case-ammo-223a/",
+            "verified_at": "2026-10-27T23:21:40.038993+00:00",
+            "why_good": "Exactly 1000 rounds, factory .223 Remington ammunition, 25+ in stock, and free shipping applies to orders over $200."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T22:19:01.102075+00:00",
+      "started_at": "2026-10-27T23:19:57.410503+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     },
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.97,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 39.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Exclusive Sales Inc",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
-            "total_usd": 39.0,
-            "url": "https://www.ebay.com/itm/387614287211",
-            "verified_at": "2026-10-27T22:21:09.819412+00:00",
-            "why_good": "Working Fitbit Luxe with active Buy It Now, 9 available, and free US delivery."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.97,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 39.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Exclusive Sales Inc",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
-          "total_usd": 39.0,
-          "url": "https://www.ebay.com/itm/387614287211",
-          "verified_at": "2026-10-27T22:21:09.819412+00:00",
-          "why_good": "Working Fitbit Luxe with active Buy It Now, 9 available, and free US delivery."
-        }
-      ],
-      "duration_ms": 85669,
+      "deals": [],
+      "duration_ms": 54592,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-27T22:21:09.820197+00:00",
+      "finished_at": "2026-10-27T23:22:34.631670+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
       "normalized_count": 1,
       "raw_count": 1,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.96,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 35.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "The AG Liquidations",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Activity Tracker - Black/Graphite Stainless Steel",
-          "total_usd": 35.99,
-          "url": "https://www.ebay.com/p/19046142600?iid=405562349768",
-          "verified_at": "2026-10-26T23:22:27.463975+00:00",
-          "why_good": "Working Fitbit Luxe tracker with Buy It Now, free US delivery, and total under $64."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.95,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 47.69,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "The AG Liquidations",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite - Used",
-          "total_usd": 47.69,
-          "url": "https://www.ebay.com/p/19046142600?iid=405277533544",
-          "verified_at": "2026-10-26T23:22:35.872471+00:00",
-          "why_good": "Fitbit Luxe tracker with Buy It Now, free US delivery, and total under $64."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used, working; minimal scratches and no cracks",
-          "confidence": 0.99,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 51.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "SweetFupa",
-          "shipping_usd": 7.99,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Activity Tracker FB422BKBK Black Band Used Working",
-          "total_usd": 59.98,
-          "url": "https://www.ebay.com/p/19046142600?iid=126618244766",
-          "verified_at": "2026-10-26T23:22:43.871496+00:00",
-          "why_good": "Explicitly states working condition, has Buy It Now, and verified numeric US shipping; total is under $64."
-        },
         {
           "availability": "available",
           "cartridge": "",
@@ -685,50 +634,51 @@
           "url": "https://www.ebay.com/itm/156562037830",
           "verified_at": "2026-10-27T21:21:48.411427+00:00",
           "why_good": "Tested Fitbit Luxe with active Buy It Now and explicit US shipping charge."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.97,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 39.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Exclusive Sales Inc",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
+          "total_usd": 39.0,
+          "url": "https://www.ebay.com/itm/387614287211",
+          "verified_at": "2026-10-27T22:21:09.819412+00:00",
+          "why_good": "Working Fitbit Luxe with active Buy It Now, 9 available, and free US delivery."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.97,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 39.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Exclusive Sales Inc",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
-            "total_usd": 39.0,
-            "url": "https://www.ebay.com/itm/387614287211",
-            "verified_at": "2026-10-27T22:21:09.819412+00:00",
-            "why_good": "Working Fitbit Luxe with active Buy It Now, 9 available, and free US delivery."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T22:19:44.151662+00:00",
+      "started_at": "2026-10-27T23:21:40.040033+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     },
     {
       "deal_groups": {
@@ -737,10 +687,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 64988,
+      "duration_ms": 56118,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-27T22:22:14.808766+00:00",
+      "finished_at": "2026-10-27T23:23:30.749663+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -761,7 +711,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T22:21:09.821031+00:00",
+      "started_at": "2026-10-27T23:22:34.631740+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -773,15 +723,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 95785,
+      "duration_ms": 64760,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-27T22:23:50.593667+00:00",
+      "finished_at": "2026-10-27T23:24:35.509491+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -848,7 +798,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-27T22:22:14.808827+00:00",
+      "started_at": "2026-10-27T23:23:30.749723+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
