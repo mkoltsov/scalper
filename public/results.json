@@ -10,13 +10,13 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-10-28T01:24:54.479604+00:00",
+  "finished_at": "2026-10-28T02:23:05.683852+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1",
+    "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-28T01:17:05.362386+00:00",
+  "started_at": "2026-10-28T02:17:05.373967+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 72190,
+      "duration_ms": 61891,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-28T01:18:17.554697+00:00",
+      "finished_at": "2026-10-28T02:18:07.267246+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T01:17:05.364576+00:00",
+      "started_at": "2026-10-28T02:17:05.376191+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 88093,
+      "duration_ms": 60919,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-28T01:19:45.647467+00:00",
+      "finished_at": "2026-10-28T02:19:08.186626+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -175,7 +175,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T01:18:17.554766+00:00",
+      "started_at": "2026-10-28T02:18:07.267314+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -187,10 +187,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 98411,
+      "duration_ms": 65644,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-28T01:21:24.058806+00:00",
+      "finished_at": "2026-10-28T02:20:13.831081+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -262,7 +262,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T01:19:45.647534+00:00",
+      "started_at": "2026-10-28T02:19:08.186691+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -271,96 +271,19 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.84,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 47.69,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "The AG Liquidations",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite - Used",
-            "total_usd": 47.69,
-            "url": "https://www.ebay.com/p/19046142600?iid=405277533544",
-            "verified_at": "2026-10-28T01:23:07.086943+00:00",
-            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, free US delivery, and total below $64."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.84,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 47.69,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "The AG Liquidations",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite - Used",
-          "total_usd": 47.69,
-          "url": "https://www.ebay.com/p/19046142600?iid=405277533544",
-          "verified_at": "2026-10-28T01:23:07.086943+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, free US delivery, and total below $64."
-        }
-      ],
-      "duration_ms": 103029,
+      "deals": [],
+      "duration_ms": 96309,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-28T01:23:07.087771+00:00",
+      "finished_at": "2026-10-28T02:21:50.139943+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.96,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 31.95,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "6x01010011",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
-          "total_usd": 31.95,
-          "url": "https://www.ebay.com/itm/307009751717",
-          "verified_at": "2026-10-27T02:22:40.270286+00:00",
-          "why_good": "Tested working Fitbit Luxe including charger, active Buy It Now, and free US delivery."
-        },
         {
           "availability": "available",
           "cartridge": "",
@@ -660,50 +583,51 @@
           "url": "https://www.ebay.com/itm/387614287211",
           "verified_at": "2026-10-28T00:21:44.442289+00:00",
           "why_good": "Exact Fitbit Luxe tracker, Buy It Now active, 9 available, and free US delivery."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.84,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 47.69,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "The AG Liquidations",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite - Used",
+          "total_usd": 47.69,
+          "url": "https://www.ebay.com/p/19046142600?iid=405277533544",
+          "verified_at": "2026-10-28T01:23:07.086943+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, free US delivery, and total below $64."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.84,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 47.69,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "The AG Liquidations",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite - Used",
-            "total_usd": 47.69,
-            "url": "https://www.ebay.com/p/19046142600?iid=405277533544",
-            "verified_at": "2026-10-28T01:23:07.086943+00:00",
-            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, free US delivery, and total below $64."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T01:21:24.058867+00:00",
+      "started_at": "2026-10-28T02:20:13.831196+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     },
     {
       "deal_groups": {
@@ -712,10 +636,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 29072,
+      "duration_ms": 31319,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-28T01:23:36.161155+00:00",
+      "finished_at": "2026-10-28T02:22:21.458900+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -736,7 +660,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T01:23:07.089430+00:00",
+      "started_at": "2026-10-28T02:21:50.140006+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -748,10 +672,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 78318,
+      "duration_ms": 44225,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-28T01:24:54.479247+00:00",
+      "finished_at": "2026-10-28T02:23:05.683498+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -823,7 +747,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T01:23:36.161218+00:00",
+      "started_at": "2026-10-28T02:22:21.458961+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
