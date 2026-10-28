@@ -10,15 +10,15 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-10-28T06:24:39.338003+00:00",
+  "finished_at": "2026-10-28T07:24:41.144824+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=2; normalized=2; verified=1",
     "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=1; normalized=1; verified=1"
+    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-28T06:17:05.415206+00:00",
+  "started_at": "2026-10-28T07:17:04.956527+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 68063,
+      "duration_ms": 66693,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-28T06:18:13.480916+00:00",
+      "finished_at": "2026-10-28T07:18:11.652007+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T06:17:05.417949+00:00",
+      "started_at": "2026-10-28T07:17:04.958795+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 39103,
+      "duration_ms": 46389,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-28T06:18:52.583884+00:00",
+      "finished_at": "2026-10-28T07:18:58.040909+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -175,7 +175,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T06:18:13.480991+00:00",
+      "started_at": "2026-10-28T07:18:11.652073+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -184,18 +184,70 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 440.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-10-28T07:21:34.518981+00:00",
+            "why_good": "Factory-new 5.56 NATO FMJ, exactly 1000 rounds, 100+ in stock, active Add to Cart, and free shipping applies to orders over $200; sales tax excluded."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 89795,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 440.0,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "",
+          "shipping_usd": 0.0,
+          "source": "Velocity Ammunition Sales",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+          "total_usd": 440.0,
+          "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+          "verified_at": "2026-10-28T07:21:34.518981+00:00",
+          "why_good": "Factory-new 5.56 NATO FMJ, exactly 1000 rounds, 100+ in stock, active Add to Cart, and free shipping applies to orders over $200; sales tax excluded."
+        }
+      ],
+      "duration_ms": 156629,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-28T06:20:22.379186+00:00",
+      "finished_at": "2026-10-28T07:21:34.670323+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -252,20 +304,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 440.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-10-28T07:21:34.518981+00:00",
+            "why_good": "Factory-new 5.56 NATO FMJ, exactly 1000 rounds, 100+ in stock, active Add to Cart, and free shipping applies to orders over $200; sales tax excluded."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T06:18:52.583950+00:00",
+      "started_at": "2026-10-28T07:18:58.040977+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -274,41 +350,16 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 78586,
+      "duration_ms": 44565,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-28T06:21:40.965611+00:00",
+      "finished_at": "2026-10-28T07:22:19.340637+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
       "normalized_count": 0,
       "raw_count": 0,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.97,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 36.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Gem State",
-          "shipping_usd": 5.89,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness and Wellness Heart Rate Tracker Gold FB422 - No Charger",
-          "total_usd": 41.89,
-          "url": "https://www.ebay.com/itm/357838020658",
-          "verified_at": "2026-10-27T07:21:58.432749+00:00",
-          "why_good": "Actual Fitbit Luxe tracker with active Buy It Now, free returns, and verified US shipping. Total before sales tax is $41.89."
-        },
         {
           "availability": "available",
           "cartridge": "",
@@ -599,7 +650,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T06:20:22.379250+00:00",
+      "started_at": "2026-10-28T07:21:34.775714+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -611,10 +662,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 31856,
+      "duration_ms": 67956,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-28T06:22:12.821840+00:00",
+      "finished_at": "2026-10-28T07:23:27.296523+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -635,7 +686,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T06:21:40.965675+00:00",
+      "started_at": "2026-10-28T07:22:19.340723+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -644,35 +695,44 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New",
-            "confidence": 0.94,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 145.03,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Optical-Fire",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-            "tax_status": "",
-            "title": "S6-GM 6 MOA Micro Red Dot Reflex Sight for Full Size Gen4-5 G17 MOS Direct Mount",
-            "total_usd": 145.03,
-            "url": "https://www.ebay.com/itm/397863879941",
-            "verified_at": "2026-10-28T06:24:39.222598+00:00",
-            "why_good": "Complete Zulisy S6-GM red-dot optic, active Buy It Now listing with more than 10 available and free eBay Standard shipping. Manufacturer documentation confirms direct mounting to Gen 4/5 full-size Glock MOS pistols including G19, with no adapter plate; excludes only slimline G43X/G48. Evidence: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos"
-          }
-        ]
+        "us": []
       },
-      "deals": [
+      "deals": [],
+      "duration_ms": 73848,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-10-28T07:24:41.144474+00:00",
+      "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
+      "max_price_usd": 190,
+      "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
+      "normalized_count": 0,
+      "raw_count": 0,
+      "recently_verified_deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "New",
+          "confidence": 0.95,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 156.33,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Optical-Fire",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "glock-19-gen5-mos-direct-mount-optic-under-190",
+          "tax_status": "",
+          "title": "Zulisy S6-GM 6 MOA Red Dot Sight for Full Size Gen 4-5 Glock 17 MOS Direct Mount",
+          "total_usd": 156.33,
+          "url": "https://www.ebay.com/itm/397863886397",
+          "verified_at": "2026-10-27T17:24:34.015944+00:00",
+          "why_good": "Complete working Zulisy S6-GM optic, active Buy It Now listing with free US shipping. Zulisy's exact-model documentation states direct mounting to Gen 4/5 full-size Glock MOS pistols including G19, without an adapter plate: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos"
+        },
         {
           "availability": "available",
           "cartridge": "",
@@ -699,84 +759,24 @@
           "why_good": "Complete Zulisy S6-GM red-dot optic, active Buy It Now listing with more than 10 available and free eBay Standard shipping. Manufacturer documentation confirms direct mounting to Gen 4/5 full-size Glock MOS pistols including G19, with no adapter plate; excludes only slimline G43X/G48. Evidence: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos"
         }
       ],
-      "duration_ms": 146401,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-28T06:24:39.223171+00:00",
-      "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-      "max_price_usd": 190,
-      "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
-      "normalized_count": 1,
-      "raw_count": 1,
-      "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "New",
-          "confidence": 0.95,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 156.33,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Optical-Fire",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-          "tax_status": "",
-          "title": "Zulisy S6-GM 6 MOA Red Dot Sight for Full Size Gen 4-5 Glock 17 MOS Direct Mount",
-          "total_usd": 156.33,
-          "url": "https://www.ebay.com/itm/397863886397",
-          "verified_at": "2026-10-27T17:24:34.015944+00:00",
-          "why_good": "Complete working Zulisy S6-GM optic, active Buy It Now listing with free US shipping. Zulisy's exact-model documentation states direct mounting to Gen 4/5 full-size Glock MOS pistols including G19, without an adapter plate: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos"
-        }
-      ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New",
-            "confidence": 0.94,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 145.03,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Optical-Fire",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-            "tax_status": "",
-            "title": "S6-GM 6 MOA Micro Red Dot Reflex Sight for Full Size Gen4-5 G17 MOS Direct Mount",
-            "total_usd": 145.03,
-            "url": "https://www.ebay.com/itm/397863879941",
-            "verified_at": "2026-10-28T06:24:39.222598+00:00",
-            "why_good": "Complete Zulisy S6-GM red-dot optic, active Buy It Now listing with more than 10 available and free eBay Standard shipping. Manufacturer documentation confirms direct mounting to Gen 4/5 full-size Glock MOS pistols including G19, with no adapter plate; excludes only slimline G43X/G48. Evidence: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos"
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T06:22:12.821906+00:00",
+      "started_at": "2026-10-28T07:23:27.296587+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     }
   ]
 }
