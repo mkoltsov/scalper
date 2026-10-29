@@ -10,13 +10,13 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-10-29T19:24:13.450945+00:00",
+  "finished_at": "2026-10-29T20:23:13.000569+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=2; normalized=2; verified=0",
+    "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-29T19:17:05.016014+00:00",
+  "started_at": "2026-10-29T20:17:05.807261+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 69356,
+      "duration_ms": 65837,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-29T19:18:14.374262+00:00",
+      "finished_at": "2026-10-29T20:18:11.646506+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T19:17:05.018315+00:00",
+      "started_at": "2026-10-29T20:17:05.809554+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 63834,
+      "duration_ms": 102438,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-29T19:19:18.207805+00:00",
+      "finished_at": "2026-10-29T20:19:54.084682+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -99,7 +99,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T19:18:14.374330+00:00",
+      "started_at": "2026-10-29T20:18:11.646573+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -111,10 +111,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 62800,
+      "duration_ms": 57129,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-29T19:20:21.008265+00:00",
+      "finished_at": "2026-10-29T20:20:51.214016+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -186,7 +186,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T19:19:18.207868+00:00",
+      "started_at": "2026-10-29T20:19:54.084818+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -198,15 +198,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 91220,
+      "duration_ms": 45261,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-29T19:21:52.228709+00:00",
+      "finished_at": "2026-10-29T20:21:36.475332+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -523,7 +523,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T19:20:21.008325+00:00",
+      "started_at": "2026-10-29T20:20:51.214076+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -535,10 +535,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 75664,
+      "duration_ms": 28850,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-29T19:23:07.892423+00:00",
+      "finished_at": "2026-10-29T20:22:05.325164+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -559,7 +559,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T19:21:52.228777+00:00",
+      "started_at": "2026-10-29T20:21:36.475393+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -571,10 +571,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 65558,
+      "duration_ms": 67675,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-29T19:24:13.450642+00:00",
+      "finished_at": "2026-10-29T20:23:13.000025+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -595,7 +595,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T19:23:07.892490+00:00",
+      "started_at": "2026-10-29T20:22:05.325226+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
