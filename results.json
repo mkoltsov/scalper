@@ -9,16 +9,16 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
   "dry_run": false,
-  "exit_code": 0,
-  "finished_at": "2026-10-28T23:26:08.645843+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-10-29T00:23:28.098935+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 6; exit code: 0",
+    "Scan scope: complete; selected targets: 6; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 4: status=ok; error=none; raw=2; normalized=2; verified=2",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
+    "Target 6: status=ok; error=none; raw=1; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-28T23:17:06.241501+00:00",
+  "started_at": "2026-10-29T00:17:05.981764+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 80777,
+      "duration_ms": 80295,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-28T23:18:27.021846+00:00",
+      "finished_at": "2026-10-29T00:18:26.280268+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T23:17:06.244673+00:00",
+      "started_at": "2026-10-29T00:17:05.984971+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,42 +75,16 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 101770,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-10-28T23:20:08.792008+00:00",
+      "duration_ms": 22440,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-29T00:18:48.720028+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
       "normalized_count": 0,
       "raw_count": 0,
-      "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "9x19",
-          "condition": "New",
-          "confidence": 0.95,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "current_cash_price",
-          "price_usd": 225.0,
-          "product_category": "factory_ammunition",
-          "round_count": 1000,
-          "selected_quantity_label": "1000 rounds",
-          "selected_variant": "",
-          "seller": "Ugly Bullets",
-          "shipping_usd": 0.0,
-          "source": "Ugly Bullets",
-          "target_id": "9mm-1000-rounds-under-257",
-          "tax_status": "sales tax excluded; amount unknown",
-          "title": "1000 ROUNDS 9MM 124GR FMJ NEW Free Shipping",
-          "total_usd": 225.0,
-          "url": "https://uglybullets.com/ugly-pistol/1000-rounds-9mm-124gr-fmj-new-free-shipping/",
-          "verified_at": "2026-10-28T00:19:39.109055+00:00",
-          "why_good": "Exactly 1000 rounds of new 9mm FMJ, active purchase page, 81 available, and unconditional free shipping."
-        }
-      ],
+      "recently_verified_deals": [],
       "regional_summary": {
         "best": {
           "eu": null,
@@ -125,8 +99,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T23:18:27.021914+00:00",
-      "status": "ok",
+      "started_at": "2026-10-29T00:18:26.280337+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -137,15 +111,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 84038,
+      "duration_ms": 63076,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-28T23:21:32.830245+00:00",
+      "finished_at": "2026-10-29T00:19:51.795748+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -237,7 +211,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T23:20:08.792071+00:00",
+      "started_at": "2026-10-29T00:18:48.720093+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -250,7 +224,7 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used",
+            "condition": "Used; fully operational",
             "confidence": 0.94,
             "delivery_country": "United States",
             "market_label": "US",
@@ -269,33 +243,33 @@
             "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
             "total_usd": 39.0,
             "url": "https://www.ebay.com/itm/387614287211",
-            "verified_at": "2026-10-28T23:23:19.732082+00:00",
-            "why_good": "Working Fitbit Luxe tracker with active Buy It Now, 9 available, and free US delivery."
+            "verified_at": "2026-10-29T00:21:29.503050+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with Buy It Now, 9 available, and free US delivery."
           },
           {
             "availability": "available",
             "cartridge": "",
             "condition": "Used",
-            "confidence": 0.9,
+            "confidence": 0.92,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 29.99,
+            "price_usd": 52.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "Plug-In Goods",
-            "shipping_usd": 9.22,
+            "seller": "The AG Liquidations",
+            "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe FB422 Graphite Edition Fitness Tracker NO CHARGER",
-            "total_usd": 39.21,
-            "url": "https://www.ebay.com/itm/146568562271",
-            "verified_at": "2026-10-28T23:23:29.183103+00:00",
-            "why_good": "Actual Fitbit Luxe tracker with active Buy It Now and verified US shipping; charger is omitted but the tracker is included."
+            "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite - Used",
+            "total_usd": 52.99,
+            "url": "https://www.ebay.com/itm/405277533544",
+            "verified_at": "2026-10-29T00:21:38.675129+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, 4 available, and free USPS Ground Advantage delivery."
           }
         ]
       },
@@ -303,7 +277,7 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Used",
+          "condition": "Used; fully operational",
           "confidence": 0.94,
           "delivery_country": "United States",
           "market_label": "US",
@@ -322,39 +296,39 @@
           "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
           "total_usd": 39.0,
           "url": "https://www.ebay.com/itm/387614287211",
-          "verified_at": "2026-10-28T23:23:19.732082+00:00",
-          "why_good": "Working Fitbit Luxe tracker with active Buy It Now, 9 available, and free US delivery."
+          "verified_at": "2026-10-29T00:21:29.503050+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with Buy It Now, 9 available, and free US delivery."
         },
         {
           "availability": "available",
           "cartridge": "",
           "condition": "Used",
-          "confidence": 0.9,
+          "confidence": 0.92,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
           "price_basis": "",
-          "price_usd": 29.99,
+          "price_usd": 52.99,
           "product_category": "",
           "round_count": null,
           "selected_quantity_label": "",
           "selected_variant": "",
-          "seller": "Plug-In Goods",
-          "shipping_usd": 9.22,
+          "seller": "The AG Liquidations",
+          "shipping_usd": 0.0,
           "source": "eBay",
           "target_id": "fitbit-luxe-under-64",
           "tax_status": "",
-          "title": "Fitbit Luxe FB422 Graphite Edition Fitness Tracker NO CHARGER",
-          "total_usd": 39.21,
-          "url": "https://www.ebay.com/itm/146568562271",
-          "verified_at": "2026-10-28T23:23:29.183103+00:00",
-          "why_good": "Actual Fitbit Luxe tracker with active Buy It Now and verified US shipping; charger is omitted but the tracker is included."
+          "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite - Used",
+          "total_usd": 52.99,
+          "url": "https://www.ebay.com/itm/405277533544",
+          "verified_at": "2026-10-29T00:21:38.675129+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, 4 available, and free USPS Ground Advantage delivery."
         }
       ],
-      "duration_ms": 116353,
+      "duration_ms": 106880,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-28T23:23:29.183704+00:00",
+      "finished_at": "2026-10-29T00:21:38.675752+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -560,6 +534,31 @@
           "url": "https://www.ebay.com/itm/307009751717",
           "verified_at": "2026-10-28T21:21:53.437702+00:00",
           "why_good": "Tested Fitbit Luxe tracker with active Buy It Now and unconditional free US shipping; sales tax excluded."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.9,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 29.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Plug-In Goods",
+          "shipping_usd": 9.22,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe FB422 Graphite Edition Fitness Tracker NO CHARGER",
+          "total_usd": 39.21,
+          "url": "https://www.ebay.com/itm/146568562271",
+          "verified_at": "2026-10-28T23:23:29.183103+00:00",
+          "why_good": "Actual Fitbit Luxe tracker with active Buy It Now and verified US shipping; charger is omitted but the tracker is included."
         }
       ],
       "regional_summary": {
@@ -569,7 +568,7 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used",
+            "condition": "Used; fully operational",
             "confidence": 0.94,
             "delivery_country": "United States",
             "market_label": "US",
@@ -588,8 +587,8 @@
             "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite USED",
             "total_usd": 39.0,
             "url": "https://www.ebay.com/itm/387614287211",
-            "verified_at": "2026-10-28T23:23:19.732082+00:00",
-            "why_good": "Working Fitbit Luxe tracker with active Buy It Now, 9 available, and free US delivery."
+            "verified_at": "2026-10-29T00:21:29.503050+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with Buy It Now, 9 available, and free US delivery."
           }
         },
         "counts": {
@@ -600,7 +599,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T23:21:32.830310+00:00",
+      "started_at": "2026-10-29T00:19:51.795808+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 2
@@ -612,10 +611,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 77868,
+      "duration_ms": 57447,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-28T23:24:47.052310+00:00",
+      "finished_at": "2026-10-29T00:22:36.123489+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -636,7 +635,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T23:23:29.184834+00:00",
+      "started_at": "2026-10-29T00:21:38.676986+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -648,15 +647,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 81593,
+      "duration_ms": 51975,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-28T23:26:08.645521+00:00",
+      "finished_at": "2026-10-29T00:23:28.098618+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
       "normalized_count": 0,
-      "raw_count": 0,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -698,7 +697,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-28T23:24:47.052371+00:00",
+      "started_at": "2026-10-29T00:22:36.123550+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
