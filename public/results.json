@@ -9,14 +9,14 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
   "dry_run": false,
-  "exit_code": 0,
-  "finished_at": "2026-10-29T21:24:45.099843+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-10-29T22:25:18.531769+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 6; exit code: 0",
+    "Scan scope: complete; selected targets: 6; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1",
+    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=1",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=4; normalized=4; verified=1",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-29T21:17:05.537519+00:00",
+  "started_at": "2026-10-29T22:17:05.141619+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 64379,
+      "duration_ms": 70446,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-29T21:18:09.918847+00:00",
+      "finished_at": "2026-10-29T22:18:15.589318+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T21:17:05.539712+00:00",
+      "started_at": "2026-10-29T22:17:05.143825+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 32308,
+      "duration_ms": 55972,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-29T21:18:42.226575+00:00",
+      "finished_at": "2026-10-29T22:19:11.561074+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -99,7 +99,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T21:18:09.918915+00:00",
+      "started_at": "2026-10-29T22:18:15.589386+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -108,18 +108,70 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 440.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-10-29T22:21:49.430616+00:00",
+            "why_good": "Factory-new 5.56 NATO brass-cased FMJ, exactly 1000 rounds, in stock, with free shipping on ammo orders over $200."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 80674,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 440.0,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "",
+          "shipping_usd": 0.0,
+          "source": "Velocity Ammunition Sales",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+          "total_usd": 440.0,
+          "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+          "verified_at": "2026-10-29T22:21:49.430616+00:00",
+          "why_good": "Factory-new 5.56 NATO brass-cased FMJ, exactly 1000 rounds, in stock, with free shipping on ammo orders over $200."
+        }
+      ],
+      "duration_ms": 157870,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-29T21:20:02.900401+00:00",
+      "finished_at": "2026-10-29T22:21:49.431523+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -176,20 +228,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 440.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-10-29T22:21:49.430616+00:00",
+            "why_good": "Factory-new 5.56 NATO brass-cased FMJ, exactly 1000 rounds, in stock, with free shipping on ammo orders over $200."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T21:18:42.226638+00:00",
+      "started_at": "2026-10-29T22:19:11.561141+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -199,27 +275,27 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used; tested and fully functional",
-            "confidence": 0.98,
+            "condition": "Used",
+            "confidence": 0.95,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 36.99,
+            "price_usd": 38.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "SmiIe Buys",
-            "shipping_usd": 5.4,
+            "seller": "Renew Tech",
+            "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker Watch FB422 with Charger No Band Tested Works",
-            "total_usd": 42.39,
-            "url": "https://www.ebay.com/itm/137022316689",
-            "verified_at": "2026-10-29T21:22:37.829764+00:00",
-            "why_good": "Working Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64 before sales tax; tax is calculated separately at checkout."
+            "title": "Fitbit - Luxe Fitness & Wellness Tracker - Silver (FB422BKBK) [DJ434]",
+            "total_usd": 38.99,
+            "url": "https://www.ebay.com/itm/237086744534",
+            "verified_at": "2026-10-29T22:23:20.886337+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with free USPS delivery to the US."
           }
         ]
       },
@@ -227,38 +303,38 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Used; tested and fully functional",
-          "confidence": 0.98,
+          "condition": "Used",
+          "confidence": 0.95,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
           "price_basis": "",
-          "price_usd": 36.99,
+          "price_usd": 38.99,
           "product_category": "",
           "round_count": null,
           "selected_quantity_label": "",
           "selected_variant": "",
-          "seller": "SmiIe Buys",
-          "shipping_usd": 5.4,
+          "seller": "Renew Tech",
+          "shipping_usd": 0.0,
           "source": "eBay",
           "target_id": "fitbit-luxe-under-64",
           "tax_status": "",
-          "title": "Fitbit Luxe Fitness Tracker Watch FB422 with Charger No Band Tested Works",
-          "total_usd": 42.39,
-          "url": "https://www.ebay.com/itm/137022316689",
-          "verified_at": "2026-10-29T21:22:37.829764+00:00",
-          "why_good": "Working Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64 before sales tax; tax is calculated separately at checkout."
+          "title": "Fitbit - Luxe Fitness & Wellness Tracker - Silver (FB422BKBK) [DJ434]",
+          "total_usd": 38.99,
+          "url": "https://www.ebay.com/itm/237086744534",
+          "verified_at": "2026-10-29T22:23:20.886337+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with free USPS delivery to the US."
         }
       ],
-      "duration_ms": 154930,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-29T21:22:37.830354+00:00",
+      "duration_ms": 91574,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-10-29T22:23:21.006525+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 4,
+      "raw_count": 4,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -559,6 +635,31 @@
           "url": "https://www.ebay.com/itm/318064587910",
           "verified_at": "2026-10-29T18:21:49.434755+00:00",
           "why_good": "Explicitly tested-working Fitbit Luxe with active Buy It Now and $5.89 US delivery; total is below $64 before tax."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used; tested and fully functional",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 36.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "SmiIe Buys",
+          "shipping_usd": 5.4,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Tracker Watch FB422 with Charger No Band Tested Works",
+          "total_usd": 42.39,
+          "url": "https://www.ebay.com/itm/137022316689",
+          "verified_at": "2026-10-29T21:22:37.829764+00:00",
+          "why_good": "Working Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64 before sales tax; tax is calculated separately at checkout."
         }
       ],
       "regional_summary": {
@@ -568,27 +669,27 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used; tested and fully functional",
-            "confidence": 0.98,
+            "condition": "Used",
+            "confidence": 0.95,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 36.99,
+            "price_usd": 38.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "SmiIe Buys",
-            "shipping_usd": 5.4,
+            "seller": "Renew Tech",
+            "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker Watch FB422 with Charger No Band Tested Works",
-            "total_usd": 42.39,
-            "url": "https://www.ebay.com/itm/137022316689",
-            "verified_at": "2026-10-29T21:22:37.829764+00:00",
-            "why_good": "Working Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64 before sales tax; tax is calculated separately at checkout."
+            "title": "Fitbit - Luxe Fitness & Wellness Tracker - Silver (FB422BKBK) [DJ434]",
+            "total_usd": 38.99,
+            "url": "https://www.ebay.com/itm/237086744534",
+            "verified_at": "2026-10-29T22:23:20.886337+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with free USPS delivery to the US."
           }
         },
         "counts": {
@@ -599,9 +700,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T21:20:02.900476+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
+      "started_at": "2026-10-29T22:21:49.432299+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
       "verified_count": 1
     },
     {
@@ -611,10 +712,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 40919,
+      "duration_ms": 38102,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-29T21:23:18.749639+00:00",
+      "finished_at": "2026-10-29T22:23:59.108976+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -635,7 +736,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T21:22:37.831104+00:00",
+      "started_at": "2026-10-29T22:23:21.007403+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -647,10 +748,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 86350,
+      "duration_ms": 79422,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-29T21:24:45.099534+00:00",
+      "finished_at": "2026-10-29T22:25:18.531435+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -671,7 +772,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T21:23:18.749706+00:00",
+      "started_at": "2026-10-29T22:23:59.109040+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
