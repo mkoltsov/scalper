@@ -10,13 +10,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-29T02:23:26.858717+00:00",
+  "finished_at": "2026-10-29T03:25:22.953274+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=2; normalized=2; verified=1",
+    "Target 3: status=ok; error=none; raw=3; normalized=3; verified=2",
+    "Target 4: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-29T02:17:05.639610+00:00",
+  "started_at": "2026-10-29T03:17:05.264419+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 70189,
+      "duration_ms": 73059,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-29T02:18:15.830973+00:00",
+      "finished_at": "2026-10-29T03:18:18.325386+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T02:17:05.642048+00:00",
+      "started_at": "2026-10-29T03:17:05.266666+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 47920,
+      "duration_ms": 66126,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-29T02:19:03.750979+00:00",
+      "finished_at": "2026-10-29T03:19:24.450941+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -99,7 +99,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T02:18:15.831042+00:00",
+      "started_at": "2026-10-29T03:18:18.325459+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -108,18 +108,120 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 448.99,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Stunomma Sports",
+            "shipping_usd": 0.0,
+            "source": "Stunomma",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "PMC Bronze .223 Remington 55gr FMJ 1000 Rounds",
+            "total_usd": 448.99,
+            "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
+            "verified_at": "2026-10-29T03:21:37.090408+00:00",
+            "why_good": "Exactly 1000 rounds, in stock, active add-to-cart listing, and unconditional free shipping. Sales tax, if applicable, is separate and excluded."
+          },
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 469.5,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Stunomma Sports",
+            "shipping_usd": 0.0,
+            "source": "Stunomma",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "PMC XTAC 5.56 NATO 55gr FMJBT 1000 Rounds",
+            "total_usd": 469.5,
+            "url": "https://stunomma.com/product/pmc-xtac-556nato-55gr-fmjbt-1000-556x/",
+            "verified_at": "2026-10-29T03:21:44.316069+00:00",
+            "why_good": "Exactly 1000 rounds, 7 in stock, active add-to-cart listing, and unconditional free shipping. Sales tax, if applicable, is separate and excluded."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 18794,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-29T02:19:22.545490+00:00",
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 448.99,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "Stunomma Sports",
+          "shipping_usd": 0.0,
+          "source": "Stunomma",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "PMC Bronze .223 Remington 55gr FMJ 1000 Rounds",
+          "total_usd": 448.99,
+          "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
+          "verified_at": "2026-10-29T03:21:37.090408+00:00",
+          "why_good": "Exactly 1000 rounds, in stock, active add-to-cart listing, and unconditional free shipping. Sales tax, if applicable, is separate and excluded."
+        },
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 469.5,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "Stunomma Sports",
+          "shipping_usd": 0.0,
+          "source": "Stunomma",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "PMC XTAC 5.56 NATO 55gr FMJBT 1000 Rounds",
+          "total_usd": 469.5,
+          "url": "https://stunomma.com/product/pmc-xtac-556nato-55gr-fmjbt-1000-556x/",
+          "verified_at": "2026-10-29T03:21:44.316069+00:00",
+          "why_good": "Exactly 1000 rounds, 7 in stock, active add-to-cart listing, and unconditional free shipping. Sales tax, if applicable, is separate and excluded."
+        }
+      ],
+      "duration_ms": 141185,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-10-29T03:21:45.635522+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 3,
+      "raw_count": 3,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -170,120 +272,67 @@
           "url": "https://www.velocityammosales.com/products/5-56-nato-pmc-x-tac-62-grain-green-tip-1000rd-case/",
           "verified_at": "2026-10-28T11:22:00.540112+00:00",
           "why_good": "Factory-new 5.56 NATO, exactly 1000 rounds, in stock, with free shipping on orders over $200; sales tax excluded."
-        },
-        {
-          "availability": "available",
-          "cartridge": "223_556",
-          "condition": "New factory-loaded",
-          "confidence": 0.96,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "current_cash_price",
-          "price_usd": 469.5,
-          "product_category": "factory_ammunition",
-          "round_count": 1000,
-          "selected_quantity_label": "1000 rounds",
-          "selected_variant": "",
-          "seller": "Stunomma Sports",
-          "shipping_usd": 0.0,
-          "source": "Stunomma",
-          "target_id": "223-556-1000-rounds-under-470",
-          "tax_status": "sales tax excluded; amount unknown",
-          "title": "PMC XTAC 5.56 NATO 55GR FMJBT 1000 Rounds Free Shipping! 556X",
-          "total_usd": 469.5,
-          "url": "https://stunomma.com/product/pmc-xtac-556nato-55gr-fmjbt-1000-556x/",
-          "verified_at": "2026-10-28T16:21:51.467328+00:00",
-          "why_good": "Exact 1000-round PMC 5.56 NATO case, 7 in stock, active Add to Cart, unconditional free shipping on case orders; sales tax excluded and shown separately at checkout."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 448.99,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Stunomma Sports",
+            "shipping_usd": 0.0,
+            "source": "Stunomma",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "PMC Bronze .223 Remington 55gr FMJ 1000 Rounds",
+            "total_usd": 448.99,
+            "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
+            "verified_at": "2026-10-29T03:21:37.090408+00:00",
+            "why_good": "Exactly 1000 rounds, in stock, active add-to-cart listing, and unconditional free shipping. Sales tax, if applicable, is separate and excluded."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T02:19:03.751084+00:00",
-      "status": "incomplete",
+      "started_at": "2026-10-29T03:19:24.451009+00:00",
+      "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 2
     },
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used; tested working",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 27.99,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Renew Tech",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe FB422 Fitness and Wellness Tracker Heart Rate Black - Tested",
-            "total_usd": 27.99,
-            "url": "https://www.ebay.com/itm/135741011661",
-            "verified_at": "2026-10-29T02:21:00.085430+00:00",
-            "why_good": "Tested Fitbit Luxe tracker with free US shipping and total below $64."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used; tested working",
-          "confidence": 0.82,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 27.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Renew Tech",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe FB422 Fitness and Wellness Tracker Heart Rate Black - Tested",
-          "total_usd": 27.99,
-          "url": "https://www.ebay.com/itm/135741011661",
-          "verified_at": "2026-10-29T02:21:00.085430+00:00",
-          "why_good": "Tested Fitbit Luxe tracker with free US shipping and total below $64."
-        }
-      ],
-      "duration_ms": 97540,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-29T02:21:00.085905+00:00",
+      "deals": [],
+      "duration_ms": 69906,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-29T03:22:55.541980+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -584,50 +633,51 @@
           "url": "https://www.ebay.com/itm/357914986034",
           "verified_at": "2026-10-29T01:21:58.211703+00:00",
           "why_good": "Working Fitbit Luxe tracker with active Buy It Now, free USPS Ground Advantage shipping, and total below $64."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used; tested working",
+          "confidence": 0.82,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 27.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Renew Tech",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe FB422 Fitness and Wellness Tracker Heart Rate Black - Tested",
+          "total_usd": 27.99,
+          "url": "https://www.ebay.com/itm/135741011661",
+          "verified_at": "2026-10-29T02:21:00.085430+00:00",
+          "why_good": "Tested Fitbit Luxe tracker with free US shipping and total below $64."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used; tested working",
-            "confidence": 0.82,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 27.99,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Renew Tech",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe FB422 Fitness and Wellness Tracker Heart Rate Black - Tested",
-            "total_usd": 27.99,
-            "url": "https://www.ebay.com/itm/135741011661",
-            "verified_at": "2026-10-29T02:21:00.085430+00:00",
-            "why_good": "Tested Fitbit Luxe tracker with free US shipping and total below $64."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T02:19:22.545551+00:00",
-      "status": "ok",
+      "started_at": "2026-10-29T03:21:45.636383+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     },
     {
       "deal_groups": {
@@ -636,10 +686,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 38020,
+      "duration_ms": 83386,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-29T02:21:38.106327+00:00",
+      "finished_at": "2026-10-29T03:24:18.928123+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -660,7 +710,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T02:21:00.086430+00:00",
+      "started_at": "2026-10-29T03:22:55.542043+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -672,10 +722,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 108752,
+      "duration_ms": 64025,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-29T02:23:26.858389+00:00",
+      "finished_at": "2026-10-29T03:25:22.952924+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -722,7 +772,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T02:21:38.106421+00:00",
+      "started_at": "2026-10-29T03:24:18.928185+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
