@@ -10,7 +10,7 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-10-30T21:23:58.168594+00:00",
+  "finished_at": "2026-10-30T22:23:27.067403+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-30T21:17:05.206462+00:00",
+  "started_at": "2026-10-30T22:17:05.693604+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 64112,
+      "duration_ms": 68854,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-30T21:18:09.320638+00:00",
+      "finished_at": "2026-10-30T22:18:14.550239+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-30T21:17:05.208649+00:00",
+      "started_at": "2026-10-30T22:17:05.695846+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 113228,
+      "duration_ms": 68450,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-30T21:20:02.548988+00:00",
+      "finished_at": "2026-10-30T22:19:22.999855+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -99,7 +99,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-30T21:18:09.320707+00:00",
+      "started_at": "2026-10-30T22:18:14.550312+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -111,41 +111,16 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 55931,
+      "duration_ms": 57316,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-30T21:20:58.480005+00:00",
+      "finished_at": "2026-10-30T22:20:20.315488+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
       "normalized_count": 1,
       "raw_count": 1,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "223_556",
-          "condition": "New",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "current_cash_price",
-          "price_usd": 440.0,
-          "product_category": "factory_ammunition",
-          "round_count": 1000,
-          "selected_quantity_label": "1000 rounds",
-          "selected_variant": "",
-          "seller": "",
-          "shipping_usd": 0.0,
-          "source": "Velocity Ammunition Sales",
-          "target_id": "223-556-1000-rounds-under-470",
-          "tax_status": "sales tax excluded; amount unknown",
-          "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
-          "total_usd": 440.0,
-          "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
-          "verified_at": "2026-10-29T22:21:49.430616+00:00",
-          "why_good": "Factory-new 5.56 NATO brass-cased FMJ, exactly 1000 rounds, in stock, with free shipping on ammo orders over $200."
-        },
         {
           "availability": "available",
           "cartridge": "223_556",
@@ -286,7 +261,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-30T21:20:02.549056+00:00",
+      "started_at": "2026-10-30T22:19:22.999935+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -298,10 +273,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 77082,
+      "duration_ms": 76853,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-30T21:22:15.561612+00:00",
+      "finished_at": "2026-10-30T22:21:37.168664+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -573,7 +548,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-30T21:20:58.480080+00:00",
+      "started_at": "2026-10-30T22:20:20.315552+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -585,10 +560,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 29212,
+      "duration_ms": 38507,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-30T21:22:44.773949+00:00",
+      "finished_at": "2026-10-30T22:22:15.675386+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -609,7 +584,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-30T21:22:15.562280+00:00",
+      "started_at": "2026-10-30T22:21:37.168728+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -621,10 +596,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 73394,
+      "duration_ms": 71392,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-30T21:23:58.168266+00:00",
+      "finished_at": "2026-10-30T22:23:27.067074+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -645,7 +620,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-30T21:22:44.774012+00:00",
+      "started_at": "2026-10-30T22:22:15.675446+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
