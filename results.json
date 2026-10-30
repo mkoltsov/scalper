@@ -10,13 +10,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-10-29T23:24:18.725118+00:00",
+  "finished_at": "2026-10-30T00:24:25.743143+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 1",
-    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=4; normalized=4; verified=2",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-29T23:17:05.631135+00:00",
+  "started_at": "2026-10-30T00:17:05.122440+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 72799,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-29T23:18:18.432413+00:00",
+      "duration_ms": 60750,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-10-30T00:18:05.874528+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,8 +63,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T23:17:05.633420+00:00",
-      "status": "ok",
+      "started_at": "2026-10-30T00:17:05.124656+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 66495,
+      "duration_ms": 86542,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-29T23:19:24.927684+00:00",
+      "finished_at": "2026-10-30T00:19:32.416377+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -99,7 +99,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T23:18:18.432485+00:00",
+      "started_at": "2026-10-30T00:18:05.874598+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -111,15 +111,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 27146,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-10-29T23:19:52.074180+00:00",
+      "duration_ms": 112940,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-10-30T00:21:25.356663+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -211,8 +211,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T23:19:24.927748+00:00",
-      "status": "incomplete",
+      "started_at": "2026-10-30T00:19:32.416443+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -220,18 +220,120 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 38.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "Renew Tech",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit - Luxe Fitness & Wellness Tracker - Silver (FB422BKBK) [DJ434]",
+            "total_usd": 38.99,
+            "url": "https://www.ebay.com/itm/237086744534",
+            "verified_at": "2026-10-30T00:23:09.630772+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now and free US delivery."
+          },
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used",
+            "confidence": 0.94,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 54.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "hakuinternational",
+            "shipping_usd": 5.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
+            "total_usd": 59.0,
+            "url": "https://www.ebay.com/itm/277403999856",
+            "verified_at": "2026-10-30T00:23:19.106370+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now and visible $5 US shipping."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 114657,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-10-29T23:21:46.730717+00:00",
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 38.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Renew Tech",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit - Luxe Fitness & Wellness Tracker - Silver (FB422BKBK) [DJ434]",
+          "total_usd": 38.99,
+          "url": "https://www.ebay.com/itm/237086744534",
+          "verified_at": "2026-10-30T00:23:09.630772+00:00",
+          "why_good": "Working Fitbit Luxe with active Buy It Now and free US delivery."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.94,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 54.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "hakuinternational",
+          "shipping_usd": 5.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
+          "total_usd": 59.0,
+          "url": "https://www.ebay.com/itm/277403999856",
+          "verified_at": "2026-10-30T00:23:19.106370+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now and visible $5 US shipping."
+        }
+      ],
+      "duration_ms": 116302,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-10-30T00:23:21.659007+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 4,
+      "raw_count": 4,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -532,51 +634,50 @@
           "url": "https://www.ebay.com/itm/137022316689",
           "verified_at": "2026-10-29T21:22:37.829764+00:00",
           "why_good": "Working Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64 before sales tax; tax is calculated separately at checkout."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.95,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 38.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Renew Tech",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit - Luxe Fitness & Wellness Tracker - Silver (FB422BKBK) [DJ434]",
-          "total_usd": 38.99,
-          "url": "https://www.ebay.com/itm/237086744534",
-          "verified_at": "2026-10-29T22:23:20.886337+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with free USPS delivery to the US."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 38.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "Renew Tech",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit - Luxe Fitness & Wellness Tracker - Silver (FB422BKBK) [DJ434]",
+            "total_usd": 38.99,
+            "url": "https://www.ebay.com/itm/237086744534",
+            "verified_at": "2026-10-30T00:23:09.630772+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now and free US delivery."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T23:19:52.074242+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
-      "verified_count": 0
+      "started_at": "2026-10-30T00:21:25.356725+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
+      "verified_count": 2
     },
     {
       "deal_groups": {
@@ -585,10 +686,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 61327,
+      "duration_ms": 27671,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-29T23:22:48.057283+00:00",
+      "finished_at": "2026-10-30T00:23:49.331179+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -609,7 +710,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T23:21:46.730791+00:00",
+      "started_at": "2026-10-30T00:23:21.659791+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -621,10 +722,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 90667,
+      "duration_ms": 36412,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-29T23:24:18.724736+00:00",
+      "finished_at": "2026-10-30T00:24:25.742810+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -645,7 +746,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-29T23:22:48.057343+00:00",
+      "started_at": "2026-10-30T00:23:49.331242+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
