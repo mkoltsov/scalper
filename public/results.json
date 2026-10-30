@@ -10,13 +10,13 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-10-30T20:24:51.220004+00:00",
+  "finished_at": "2026-10-30T21:23:58.168594+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-30T20:17:06.019869+00:00",
+  "started_at": "2026-10-30T21:17:05.206462+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 71168,
+      "duration_ms": 64112,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-30T20:18:17.189725+00:00",
+      "finished_at": "2026-10-30T21:18:09.320638+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-30T20:17:06.022249+00:00",
+      "started_at": "2026-10-30T21:17:05.208649+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 56864,
+      "duration_ms": 113228,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-30T20:19:14.053703+00:00",
+      "finished_at": "2026-10-30T21:20:02.548988+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -99,7 +99,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-30T20:18:17.189844+00:00",
+      "started_at": "2026-10-30T21:18:09.320707+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -111,15 +111,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 149241,
+      "duration_ms": 55931,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-30T20:21:43.294295+00:00",
+      "finished_at": "2026-10-30T21:20:58.480005+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -286,7 +286,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-30T20:19:14.053773+00:00",
+      "started_at": "2026-10-30T21:20:02.549056+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -298,41 +298,16 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 82628,
+      "duration_ms": 77082,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-30T20:23:05.922439+00:00",
+      "finished_at": "2026-10-30T21:22:15.561612+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used; tested and fully functional",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 36.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "SmiIe Buys",
-          "shipping_usd": 5.4,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Tracker Watch FB422 with Charger No Band Tested Works",
-          "total_usd": 42.39,
-          "url": "https://www.ebay.com/itm/137022316689",
-          "verified_at": "2026-10-29T21:22:37.829764+00:00",
-          "why_good": "Working Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64 before sales tax; tax is calculated separately at checkout."
-        },
         {
           "availability": "available",
           "cartridge": "",
@@ -598,7 +573,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-30T20:21:43.294358+00:00",
+      "started_at": "2026-10-30T21:20:58.480080+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -610,10 +585,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 31604,
+      "duration_ms": 29212,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-30T20:23:37.526644+00:00",
+      "finished_at": "2026-10-30T21:22:44.773949+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -634,7 +609,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-30T20:23:05.922502+00:00",
+      "started_at": "2026-10-30T21:22:15.562280+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -646,10 +621,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 73693,
+      "duration_ms": 73394,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-30T20:24:51.219669+00:00",
+      "finished_at": "2026-10-30T21:23:58.168266+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -670,7 +645,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-30T20:23:37.526706+00:00",
+      "started_at": "2026-10-30T21:22:44.774012+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
