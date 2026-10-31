@@ -10,13 +10,13 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-10-31T03:25:19.731949+00:00",
+  "finished_at": "2026-10-31T04:23:35.317178+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=2; normalized=2; verified=1",
+    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-10-31T03:17:06.125496+00:00",
+  "started_at": "2026-10-31T04:17:05.419183+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 68001,
+      "duration_ms": 61492,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-31T03:18:14.129149+00:00",
+      "finished_at": "2026-10-31T04:18:06.913693+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-31T03:17:06.127938+00:00",
+      "started_at": "2026-10-31T04:17:05.421538+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 54497,
+      "duration_ms": 66993,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-31T03:19:08.625875+00:00",
+      "finished_at": "2026-10-31T04:19:13.906938+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -99,7 +99,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-31T03:18:14.129220+00:00",
+      "started_at": "2026-10-31T04:18:06.913765+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -111,15 +111,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 89666,
+      "duration_ms": 59804,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-10-31T03:20:38.291763+00:00",
+      "finished_at": "2026-10-31T04:20:13.711062+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -261,7 +261,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-31T03:19:08.625943+00:00",
+      "started_at": "2026-10-31T04:19:13.907002+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -270,70 +270,18 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used; tested, normal wear",
-            "confidence": 0.98,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 31.95,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "6x01010011",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
-            "total_usd": 31.95,
-            "url": "https://www.ebay.com/itm/307009751717",
-            "verified_at": "2026-10-31T03:23:09.935581+00:00",
-            "why_good": "Exact Fitbit Luxe tracker, tested working, active Buy It Now, and free US shipping."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used; tested, normal wear",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 31.95,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "6x01010011",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
-          "total_usd": 31.95,
-          "url": "https://www.ebay.com/itm/307009751717",
-          "verified_at": "2026-10-31T03:23:09.935581+00:00",
-          "why_good": "Exact Fitbit Luxe tracker, tested working, active Buy It Now, and free US shipping."
-        }
-      ],
-      "duration_ms": 155358,
+      "deals": [],
+      "duration_ms": 89437,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-31T03:23:13.649843+00:00",
+      "finished_at": "2026-10-31T04:21:43.148456+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -584,50 +532,51 @@
           "url": "https://www.ebay.com/itm/387614287211",
           "verified_at": "2026-10-31T02:22:03.217401+00:00",
           "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, 9 available, and explicitly free 2-4 day US delivery."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used; tested, normal wear",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 31.95,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "6x01010011",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
+          "total_usd": 31.95,
+          "url": "https://www.ebay.com/itm/307009751717",
+          "verified_at": "2026-10-31T03:23:09.935581+00:00",
+          "why_good": "Exact Fitbit Luxe tracker, tested working, active Buy It Now, and free US shipping."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used; tested, normal wear",
-            "confidence": 0.98,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 31.95,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "6x01010011",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
-            "total_usd": 31.95,
-            "url": "https://www.ebay.com/itm/307009751717",
-            "verified_at": "2026-10-31T03:23:09.935581+00:00",
-            "why_good": "Exact Fitbit Luxe tracker, tested working, active Buy It Now, and free US shipping."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-31T03:20:38.291824+00:00",
+      "started_at": "2026-10-31T04:20:13.711125+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     },
     {
       "deal_groups": {
@@ -636,10 +585,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 59690,
+      "duration_ms": 43084,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-31T03:24:13.340573+00:00",
+      "finished_at": "2026-10-31T04:22:26.232522+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -660,7 +609,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-31T03:23:13.650729+00:00",
+      "started_at": "2026-10-31T04:21:43.148547+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -672,10 +621,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 66391,
+      "duration_ms": 69084,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-10-31T03:25:19.731526+00:00",
+      "finished_at": "2026-10-31T04:23:35.316730+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -696,7 +645,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-10-31T03:24:13.340634+00:00",
+      "started_at": "2026-10-31T04:22:26.232583+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
