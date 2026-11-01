@@ -9,14 +9,14 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
   "dry_run": false,
-  "exit_code": 1,
-  "finished_at": "2026-11-01T13:25:33.659454+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-11-01T14:27:53.481768+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 6; exit code: 1",
+    "Scan scope: complete; selected targets: 6; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=incomplete; error=verification_incomplete; raw=3; normalized=3; verified=1",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 3: status=ok; error=none; raw=2; normalized=2; verified=1",
+    "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-11-01T13:17:05.290663+00:00",
+  "started_at": "2026-11-01T14:17:05.664525+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 84452,
+      "duration_ms": 88505,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-01T13:18:29.744565+00:00",
+      "finished_at": "2026-11-01T14:18:34.172042+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T13:17:05.292932+00:00",
+      "started_at": "2026-11-01T14:17:05.666801+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 39937,
+      "duration_ms": 143704,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-01T13:19:09.681861+00:00",
+      "finished_at": "2026-11-01T14:20:57.875850+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -175,7 +175,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T13:18:29.744633+00:00",
+      "started_at": "2026-11-01T14:18:34.172109+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -188,27 +188,27 @@
           {
             "availability": "available",
             "cartridge": "223_556",
-            "condition": "New",
-            "confidence": 0.96,
+            "condition": "New factory-loaded brass-cased ammunition",
+            "confidence": 0.97,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "current_cash_price",
-            "price_usd": 414.99,
+            "price_usd": 440.0,
             "product_category": "factory_ammunition",
             "round_count": 1000,
             "selected_quantity_label": "1000 rounds",
             "selected_variant": "",
-            "seller": "Rivertown Munitions, llc",
+            "seller": "Velocity Ammunition Sales",
             "shipping_usd": 0.0,
-            "source": "Rivertown Munitions",
+            "source": "Velocity Ammunition Sales",
             "target_id": "223-556-1000-rounds-under-470",
             "tax_status": "sales tax excluded; amount unknown",
-            "title": "Patriot Sports .223 REM 55 grain FMJ 1000 rd case",
-            "total_usd": 414.99,
-            "url": "https://rivertownmunitions.com/product/patriot-sports-223-rem-55-grain-fmj-full-metal-jacket-20-rd-box-free-shipping-1000-rd-case/",
-            "verified_at": "2026-11-01T13:20:58.877938+00:00",
-            "why_good": "Exactly 1000 rounds of factory-loaded .223 REM FMJ with free shipping and active stock."
+            "title": "5.56 NATO - First Breach 55 Grain Full Metal Jacket - 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-11-01T14:22:46.103867+00:00",
+            "why_good": "In stock, active add-to-cart listing; factory-new 5.56 NATO, exactly 1000 rounds, with free shipping on orders over $200. Sales tax excluded."
           }
         ]
       },
@@ -216,44 +216,8 @@
         {
           "availability": "available",
           "cartridge": "223_556",
-          "condition": "New",
-          "confidence": 0.96,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "current_cash_price",
-          "price_usd": 414.99,
-          "product_category": "factory_ammunition",
-          "round_count": 1000,
-          "selected_quantity_label": "1000 rounds",
-          "selected_variant": "",
-          "seller": "Rivertown Munitions, llc",
-          "shipping_usd": 0.0,
-          "source": "Rivertown Munitions",
-          "target_id": "223-556-1000-rounds-under-470",
-          "tax_status": "sales tax excluded; amount unknown",
-          "title": "Patriot Sports .223 REM 55 grain FMJ 1000 rd case",
-          "total_usd": 414.99,
-          "url": "https://rivertownmunitions.com/product/patriot-sports-223-rem-55-grain-fmj-full-metal-jacket-20-rd-box-free-shipping-1000-rd-case/",
-          "verified_at": "2026-11-01T13:20:58.877938+00:00",
-          "why_good": "Exactly 1000 rounds of factory-loaded .223 REM FMJ with free shipping and active stock."
-        }
-      ],
-      "duration_ms": 110877,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-11-01T13:21:00.558403+00:00",
-      "id": "223-556-1000-rounds-under-470",
-      "max_price_usd": 470,
-      "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 3,
-      "raw_count": 3,
-      "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "223_556",
-          "condition": "New",
-          "confidence": 0.99,
+          "condition": "New factory-loaded brass-cased ammunition",
+          "confidence": 0.97,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -271,8 +235,44 @@
           "title": "5.56 NATO - First Breach 55 Grain Full Metal Jacket - 1000 Rounds Bulk",
           "total_usd": 440.0,
           "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
-          "verified_at": "2026-10-31T21:20:26.633974+00:00",
-          "why_good": "Factory-new 5.56 NATO, 1000 rounds, 100+ in stock, active purchase action, and free shipping on ammo orders over $200; sales tax excluded."
+          "verified_at": "2026-11-01T14:22:46.103867+00:00",
+          "why_good": "In stock, active add-to-cart listing; factory-new 5.56 NATO, exactly 1000 rounds, with free shipping on orders over $200. Sales tax excluded."
+        }
+      ],
+      "duration_ms": 108229,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-01T14:22:46.104936+00:00",
+      "id": "223-556-1000-rounds-under-470",
+      "max_price_usd": 470,
+      "name": ".223 / 5.56, 1000 rounds, under US$470",
+      "normalized_count": 2,
+      "raw_count": 2,
+      "recently_verified_deals": [
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 414.99,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "Rivertown Munitions",
+          "shipping_usd": 0.0,
+          "source": "Rivertown Munitions",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "Patriot Sports .223 REM 55 grain FMJ 1000 rd case",
+          "total_usd": 414.99,
+          "url": "https://rivertownmunitions.com/product/patriot-sports-223-rem-55-grain-fmj-full-metal-jacket-20-rd-box-free-shipping-1000-rd-case/",
+          "verified_at": "2026-10-31T22:21:10.270869+00:00",
+          "why_good": "Factory-loaded .223 FMJ, exactly 1000 rounds, in stock, unconditional free shipping; sales tax separate."
         },
         {
           "availability": "available",
@@ -398,6 +398,31 @@
           "url": "https://stunomma.com/product/pmc-xtac-556nato-55gr-fmjbt-1000-556x/",
           "verified_at": "2026-11-01T07:20:31.665560+00:00",
           "why_good": "Exactly 1000 new factory-loaded 5.56 NATO rounds, currently in stock, with unconditional free shipping on case orders. Sales tax is separate and destination-dependent."
+        },
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.96,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 414.99,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "Rivertown Munitions, llc",
+          "shipping_usd": 0.0,
+          "source": "Rivertown Munitions",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "Patriot Sports .223 REM 55 grain FMJ 1000 rd case",
+          "total_usd": 414.99,
+          "url": "https://rivertownmunitions.com/product/patriot-sports-223-rem-55-grain-fmj-full-metal-jacket-20-rd-box-free-shipping-1000-rd-case/",
+          "verified_at": "2026-11-01T13:20:58.877938+00:00",
+          "why_good": "Exactly 1000 rounds of factory-loaded .223 REM FMJ with free shipping and active stock."
         }
       ],
       "regional_summary": {
@@ -407,27 +432,27 @@
           "us": {
             "availability": "available",
             "cartridge": "223_556",
-            "condition": "New",
-            "confidence": 0.96,
+            "condition": "New factory-loaded brass-cased ammunition",
+            "confidence": 0.97,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "current_cash_price",
-            "price_usd": 414.99,
+            "price_usd": 440.0,
             "product_category": "factory_ammunition",
             "round_count": 1000,
             "selected_quantity_label": "1000 rounds",
             "selected_variant": "",
-            "seller": "Rivertown Munitions, llc",
+            "seller": "Velocity Ammunition Sales",
             "shipping_usd": 0.0,
-            "source": "Rivertown Munitions",
+            "source": "Velocity Ammunition Sales",
             "target_id": "223-556-1000-rounds-under-470",
             "tax_status": "sales tax excluded; amount unknown",
-            "title": "Patriot Sports .223 REM 55 grain FMJ 1000 rd case",
-            "total_usd": 414.99,
-            "url": "https://rivertownmunitions.com/product/patriot-sports-223-rem-55-grain-fmj-full-metal-jacket-20-rd-box-free-shipping-1000-rd-case/",
-            "verified_at": "2026-11-01T13:20:58.877938+00:00",
-            "why_good": "Exactly 1000 rounds of factory-loaded .223 REM FMJ with free shipping and active stock."
+            "title": "5.56 NATO - First Breach 55 Grain Full Metal Jacket - 1000 Rounds Bulk",
+            "total_usd": 440.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-11-01T14:22:46.103867+00:00",
+            "why_good": "In stock, active add-to-cart listing; factory-new 5.56 NATO, exactly 1000 rounds, with free shipping on orders over $200. Sales tax excluded."
           }
         },
         "counts": {
@@ -438,9 +463,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T13:19:09.681926+00:00",
-      "status": "incomplete",
-      "verification_error_count": 2,
+      "started_at": "2026-11-01T14:20:57.875917+00:00",
+      "status": "ok",
+      "verification_error_count": 0,
       "verified_count": 1
     },
     {
@@ -450,15 +475,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 146483,
+      "duration_ms": 176326,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-01T13:23:27.143426+00:00",
+      "finished_at": "2026-11-01T14:25:42.431964+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -625,7 +650,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T13:21:00.660798+00:00",
+      "started_at": "2026-11-01T14:22:46.105693+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -637,10 +662,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 33644,
+      "duration_ms": 62163,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-01T13:24:00.787728+00:00",
+      "finished_at": "2026-11-01T14:26:44.595244+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -661,7 +686,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T13:23:27.143487+00:00",
+      "started_at": "2026-11-01T14:25:42.432027+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -673,10 +698,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 92871,
+      "duration_ms": 68886,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-01T13:25:33.659113+00:00",
+      "finished_at": "2026-11-01T14:27:53.481217+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -697,7 +722,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T13:24:00.787788+00:00",
+      "started_at": "2026-11-01T14:26:44.595359+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
