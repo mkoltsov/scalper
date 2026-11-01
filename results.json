@@ -10,13 +10,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-01T05:24:33.233688+00:00",
+  "finished_at": "2026-11-01T06:23:51.781102+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 1",
-    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=2; normalized=2; verified=1",
+    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=2; normalized=2; verified=2",
+    "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-11-01T05:17:05.482208+00:00",
+  "started_at": "2026-11-01T06:17:05.881280+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 62412,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-01T05:18:07.896703+00:00",
+      "duration_ms": 45970,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-11-01T06:17:51.853587+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,8 +63,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T05:17:05.484418+00:00",
-      "status": "ok",
+      "started_at": "2026-11-01T06:17:05.884176+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 38402,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-11-01T05:18:46.298684+00:00",
+      "duration_ms": 25079,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-01T06:18:16.932425+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -225,8 +225,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T05:18:07.896775+00:00",
-      "status": "incomplete",
+      "started_at": "2026-11-01T06:17:51.853657+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -234,18 +234,120 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.99,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 449.5,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "SGAmmo",
+            "shipping_usd": 0.0,
+            "source": "SGAmmo",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "1000 Round Case \u2013 223 Rem PMC 55 Grain FMJ-BT Brass Case Ammo \u2013 223A",
+            "total_usd": 449.5,
+            "url": "https://sgammo.com/product/223-556mm-ammo/1000-round-case-223-rem-pmc-55-grain-fmjbt-brass-case-ammo-223a/",
+            "verified_at": "2026-11-01T06:20:42.287116+00:00",
+            "why_good": "In-stock factory-new .223 Remington case with exactly 1000 rounds, active Add to cart action, and unconditional free shipping. Sales tax is separate and excluded."
+          },
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.99,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 469.5,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "SGAmmo",
+            "shipping_usd": 0.0,
+            "source": "SGAmmo",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "1000 Round Metal Crate Canister \u2013 223 Rem PMC 55 Grain FMJ-BT Brass Case Ammo \u2013 223A",
+            "total_usd": 469.5,
+            "url": "https://sgammo.com/product/223-556mm-ammo/1000-round-metal-crate-canister-223-rem-pmc-55-grain-fmjbt-brass-case-ammo-223a/",
+            "verified_at": "2026-11-01T06:20:45.683808+00:00",
+            "why_good": "In-stock factory-new .223 Remington metal-crate package with exactly 1000 rounds, active Add to cart action, and unconditional free shipping. Sales tax is separate and excluded."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 82071,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.99,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 449.5,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "SGAmmo",
+          "shipping_usd": 0.0,
+          "source": "SGAmmo",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "1000 Round Case \u2013 223 Rem PMC 55 Grain FMJ-BT Brass Case Ammo \u2013 223A",
+          "total_usd": 449.5,
+          "url": "https://sgammo.com/product/223-556mm-ammo/1000-round-case-223-rem-pmc-55-grain-fmjbt-brass-case-ammo-223a/",
+          "verified_at": "2026-11-01T06:20:42.287116+00:00",
+          "why_good": "In-stock factory-new .223 Remington case with exactly 1000 rounds, active Add to cart action, and unconditional free shipping. Sales tax is separate and excluded."
+        },
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.99,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 469.5,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "SGAmmo",
+          "shipping_usd": 0.0,
+          "source": "SGAmmo",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "1000 Round Metal Crate Canister \u2013 223 Rem PMC 55 Grain FMJ-BT Brass Case Ammo \u2013 223A",
+          "total_usd": 469.5,
+          "url": "https://sgammo.com/product/223-556mm-ammo/1000-round-metal-crate-canister-223-rem-pmc-55-grain-fmjbt-brass-case-ammo-223a/",
+          "verified_at": "2026-11-01T06:20:45.683808+00:00",
+          "why_good": "In-stock factory-new .223 Remington metal-crate package with exactly 1000 rounds, active Add to cart action, and unconditional free shipping. Sales tax is separate and excluded."
+        }
+      ],
+      "duration_ms": 148752,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-01T05:20:08.370023+00:00",
+      "finished_at": "2026-11-01T06:20:45.684571+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -352,89 +454,61 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.99,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 449.5,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "SGAmmo",
+            "shipping_usd": 0.0,
+            "source": "SGAmmo",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "1000 Round Case \u2013 223 Rem PMC 55 Grain FMJ-BT Brass Case Ammo \u2013 223A",
+            "total_usd": 449.5,
+            "url": "https://sgammo.com/product/223-556mm-ammo/1000-round-case-223-rem-pmc-55-grain-fmjbt-brass-case-ammo-223a/",
+            "verified_at": "2026-11-01T06:20:42.287116+00:00",
+            "why_good": "In-stock factory-new .223 Remington case with exactly 1000 rounds, active Add to cart action, and unconditional free shipping. Sales tax is separate and excluded."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T05:18:46.298753+00:00",
+      "started_at": "2026-11-01T06:18:16.932491+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 2
     },
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.91,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 24.99,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "The Short Dog 2023",
-            "shipping_usd": 8.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
-            "total_usd": 32.99,
-            "url": "https://www.ebay.com/itm/135741011661",
-            "verified_at": "2026-11-01T05:21:51.832808+00:00",
-            "why_good": "Exact Fitbit Luxe FB422 with active Buy It Now and explicit US USPS shipping charge."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.91,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 24.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "The Short Dog 2023",
-          "shipping_usd": 8.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
-          "total_usd": 32.99,
-          "url": "https://www.ebay.com/itm/135741011661",
-          "verified_at": "2026-11-01T05:21:51.832808+00:00",
-          "why_good": "Exact Fitbit Luxe FB422 with active Buy It Now and explicit US USPS shipping charge."
-        }
-      ],
-      "duration_ms": 103464,
+      "deals": [],
+      "duration_ms": 92006,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-01T05:21:51.833712+00:00",
+      "finished_at": "2026-11-01T06:22:17.691142+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -685,50 +759,51 @@
           "url": "https://www.ebay.com/itm/307009751717",
           "verified_at": "2026-11-01T00:22:35.777319+00:00",
           "why_good": "Working Fitbit Luxe with charger, active Buy It Now, and free US shipping."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.91,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 24.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "The Short Dog 2023",
+          "shipping_usd": 8.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
+          "total_usd": 32.99,
+          "url": "https://www.ebay.com/itm/135741011661",
+          "verified_at": "2026-11-01T05:21:51.832808+00:00",
+          "why_good": "Exact Fitbit Luxe FB422 with active Buy It Now and explicit US USPS shipping charge."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.91,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 24.99,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "The Short Dog 2023",
-            "shipping_usd": 8.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
-            "total_usd": 32.99,
-            "url": "https://www.ebay.com/itm/135741011661",
-            "verified_at": "2026-11-01T05:21:51.832808+00:00",
-            "why_good": "Exact Fitbit Luxe FB422 with active Buy It Now and explicit US USPS shipping charge."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T05:20:08.370085+00:00",
+      "started_at": "2026-11-01T06:20:45.685235+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     },
     {
       "deal_groups": {
@@ -737,10 +812,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 66557,
+      "duration_ms": 55719,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-01T05:22:58.392009+00:00",
+      "finished_at": "2026-11-01T06:23:13.410022+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -761,7 +836,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T05:21:51.834768+00:00",
+      "started_at": "2026-11-01T06:22:17.691207+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -773,10 +848,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 94841,
+      "duration_ms": 38371,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-01T05:24:33.233335+00:00",
+      "finished_at": "2026-11-01T06:23:51.780631+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -797,7 +872,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T05:22:58.392071+00:00",
+      "started_at": "2026-11-01T06:23:13.410082+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
