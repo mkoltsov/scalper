@@ -10,15 +10,15 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-02T00:25:02.077642+00:00",
+  "finished_at": "2026-11-02T01:31:21.823938+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=1",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
+    "Target 6: status=ok; error=none; raw=2; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-11-02T00:17:05.776157+00:00",
+  "started_at": "2026-11-02T01:17:06.330518+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 75541,
+      "duration_ms": 76039,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-02T00:18:21.319582+00:00",
+      "finished_at": "2026-11-02T01:18:22.372081+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-02T00:17:05.778416+00:00",
+      "started_at": "2026-11-02T01:17:06.333631+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,10 +75,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 95114,
+      "duration_ms": 125493,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-02T00:19:56.434017+00:00",
+      "finished_at": "2026-11-02T01:20:27.864816+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -99,7 +99,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-02T00:18:21.319649+00:00",
+      "started_at": "2026-11-02T01:18:22.372156+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -111,10 +111,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 131844,
+      "duration_ms": 305066,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-02T00:22:08.278035+00:00",
+      "finished_at": "2026-11-02T01:25:32.930686+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -411,7 +411,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-02T00:19:56.434084+00:00",
+      "started_at": "2026-11-02T01:20:27.864947+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -420,18 +420,70 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used; fully functional and tested",
+            "confidence": 0.96,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 36.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "SmiIe Buys",
+            "shipping_usd": 5.4,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness Tracker Watch FB422 with Charger No Band Tested Works",
+            "total_usd": 42.39,
+            "url": "https://www.ebay.com/itm/137022316689",
+            "verified_at": "2026-11-02T01:28:23.510372+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now and explicit $5.40 US shipping; total is below $64 before tax."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 93335,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used; fully functional and tested",
+          "confidence": 0.96,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 36.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "SmiIe Buys",
+          "shipping_usd": 5.4,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Tracker Watch FB422 with Charger No Band Tested Works",
+          "total_usd": 42.39,
+          "url": "https://www.ebay.com/itm/137022316689",
+          "verified_at": "2026-11-02T01:28:23.510372+00:00",
+          "why_good": "Working Fitbit Luxe with active Buy It Now and explicit $5.40 US shipping; total is below $64 before tax."
+        }
+      ],
+      "duration_ms": 180895,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-02T00:23:41.612624+00:00",
+      "finished_at": "2026-11-02T01:28:33.825936+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 3,
+      "raw_count": 3,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -638,20 +690,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used; fully functional and tested",
+            "confidence": 0.96,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 36.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "SmiIe Buys",
+            "shipping_usd": 5.4,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness Tracker Watch FB422 with Charger No Band Tested Works",
+            "total_usd": 42.39,
+            "url": "https://www.ebay.com/itm/137022316689",
+            "verified_at": "2026-11-02T01:28:23.510372+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now and explicit $5.40 US shipping; total is below $64 before tax."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-02T00:22:08.278095+00:00",
+      "started_at": "2026-11-02T01:25:32.930755+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -660,10 +736,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 35737,
+      "duration_ms": 76849,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-02T00:24:17.350092+00:00",
+      "finished_at": "2026-11-02T01:29:50.675322+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -684,7 +760,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-02T00:23:41.612757+00:00",
+      "started_at": "2026-11-02T01:28:33.826662+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -696,15 +772,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 44727,
+      "duration_ms": 91148,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-02T00:25:02.077291+00:00",
+      "finished_at": "2026-11-02T01:31:21.823593+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
       "normalized_count": 0,
-      "raw_count": 0,
+      "raw_count": 2,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -720,7 +796,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-02T00:24:17.350153+00:00",
+      "started_at": "2026-11-02T01:29:50.675388+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
