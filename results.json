@@ -10,13 +10,13 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-01T23:24:52.084834+00:00",
+  "finished_at": "2026-11-02T00:25:02.077642+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-11-01T23:17:05.945755+00:00",
+  "started_at": "2026-11-02T00:17:05.776157+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 75323,
+      "duration_ms": 75541,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-01T23:18:21.270807+00:00",
+      "finished_at": "2026-11-02T00:18:21.319582+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T23:17:05.948094+00:00",
+      "started_at": "2026-11-02T00:17:05.778416+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,42 +75,16 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 85774,
+      "duration_ms": 95114,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-01T23:19:47.044563+00:00",
+      "finished_at": "2026-11-02T00:19:56.434017+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
       "normalized_count": 0,
       "raw_count": 0,
-      "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "9x19",
-          "condition": "New",
-          "confidence": 0.97,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "current_cash_price",
-          "price_usd": 234.8,
-          "product_category": "factory_ammunition",
-          "round_count": 1000,
-          "selected_quantity_label": "1000 rounds",
-          "selected_variant": "",
-          "seller": "SGAmmo",
-          "shipping_usd": 0.0,
-          "source": "SGAmmo",
-          "target_id": "9mm-1000-rounds-under-257",
-          "tax_status": "sales tax excluded; amount unknown",
-          "title": "1000 Round Case \u2013 Steel Case 9mm Luger 124 Grain FMJ Magtech Ammo \u2013 9BS",
-          "total_usd": 234.8,
-          "url": "https://sgammo.com/product/magtech-ammo-sale/1000-round-case-steel-case-9mm-luger-124-grain-fmj-magtech-ammo-9bs/",
-          "verified_at": "2026-11-01T00:20:28.401874+00:00",
-          "why_good": "In stock with active add-to-cart action; exact 1000-round 9mm Luger factory ammunition. Free shipping applies to this $234.80 order; sales tax excluded."
-        }
-      ],
+      "recently_verified_deals": [],
       "regional_summary": {
         "best": {
           "eu": null,
@@ -125,7 +99,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T23:18:21.270873+00:00",
+      "started_at": "2026-11-02T00:18:21.319649+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -137,41 +111,16 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 41746,
+      "duration_ms": 131844,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-01T23:20:28.790930+00:00",
+      "finished_at": "2026-11-02T00:22:08.278035+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
       "normalized_count": 0,
       "raw_count": 0,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "223_556",
-          "condition": "New",
-          "confidence": 0.93,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "current_cash_price",
-          "price_usd": 439.99,
-          "product_category": "factory_ammunition",
-          "round_count": 1000,
-          "selected_quantity_label": "1000 rounds",
-          "selected_variant": "",
-          "seller": "Rivertown Munitions, LLC",
-          "shipping_usd": 0.0,
-          "source": "Rivertown Munitions",
-          "target_id": "223-556-1000-rounds-under-470",
-          "tax_status": "sales tax excluded; amount unknown",
-          "title": "PMC Bronze .223 REM 55 grain FMJ 1000-round case",
-          "total_usd": 439.99,
-          "url": "https://rivertownmunitions.com/product/pmc-bronze-223-rem-55-grain-fmj-full-metal-jacket-2900-fps-20-rd-box-free-shipping-1000-rd-case/",
-          "verified_at": "2026-11-01T00:21:26.915829+00:00",
-          "why_good": "Exactly 1000 rounds of new factory-loaded .223 Remington, currently in stock with an active Add to cart action and unconditional free shipping; sales tax is separate."
-        },
         {
           "availability": "available",
           "cartridge": "223_556",
@@ -462,7 +411,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T23:19:47.044627+00:00",
+      "started_at": "2026-11-02T00:19:56.434084+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -474,15 +423,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 100638,
+      "duration_ms": 93335,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-01T23:22:09.428745+00:00",
+      "finished_at": "2026-11-02T00:23:41.612624+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -699,7 +648,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T23:20:28.790992+00:00",
+      "started_at": "2026-11-02T00:22:08.278095+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -711,10 +660,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 63725,
+      "duration_ms": 35737,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-01T23:23:13.153294+00:00",
+      "finished_at": "2026-11-02T00:24:17.350092+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -735,7 +684,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T23:22:09.428810+00:00",
+      "started_at": "2026-11-02T00:23:41.612757+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -747,10 +696,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 98931,
+      "duration_ms": 44727,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-01T23:24:52.084463+00:00",
+      "finished_at": "2026-11-02T00:25:02.077291+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -771,7 +720,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-01T23:23:13.153356+00:00",
+      "started_at": "2026-11-02T00:24:17.350153+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
