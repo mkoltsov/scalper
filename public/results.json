@@ -10,13 +10,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-03T09:24:15.958881+00:00",
+  "finished_at": "2026-11-03T10:23:36.570285+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 1",
-    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=1; normalized=1; verified=0",
-    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=1",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-11-03T09:17:05.201833+00:00",
+  "started_at": "2026-11-03T10:17:05.149917+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 72387,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-03T09:18:17.591196+00:00",
+      "duration_ms": 67220,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-11-03T10:18:12.372370+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,8 +63,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-03T09:17:05.204029+00:00",
-      "status": "ok",
+      "started_at": "2026-11-03T10:17:05.152100+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -75,15 +75,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 110733,
+      "duration_ms": 78849,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-03T09:20:08.324598+00:00",
+      "finished_at": "2026-11-03T10:19:31.221431+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -99,7 +99,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-03T09:18:17.591264+00:00",
+      "started_at": "2026-11-03T10:18:12.372437+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -111,10 +111,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 18583,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-11-03T09:20:26.907784+00:00",
+      "duration_ms": 40556,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-03T10:20:11.777099+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -186,8 +186,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-03T09:20:08.324666+00:00",
-      "status": "incomplete",
+      "started_at": "2026-11-03T10:19:31.221496+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -195,18 +195,70 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 31.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "KingKandyGoods",
+            "shipping_usd": 8.3,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Activity Tracker - Beige Band with Charger, Small",
+            "total_usd": 40.29,
+            "url": "https://www.ebay.com/itm/365689955256",
+            "verified_at": "2026-11-03T10:22:12.719018+00:00",
+            "why_good": "Actual Fitbit Luxe tracker with charger, active Buy It Now, numeric US shipping, and 2 available."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 69252,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.97,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 31.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "KingKandyGoods",
+          "shipping_usd": 8.3,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Activity Tracker - Beige Band with Charger, Small",
+          "total_usd": 40.29,
+          "url": "https://www.ebay.com/itm/365689955256",
+          "verified_at": "2026-11-03T10:22:12.719018+00:00",
+          "why_good": "Actual Fitbit Luxe tracker with charger, active Buy It Now, numeric US shipping, and 2 available."
+        }
+      ],
+      "duration_ms": 120943,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-03T09:21:36.159696+00:00",
+      "finished_at": "2026-11-03T10:22:12.719943+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 3,
+      "raw_count": 3,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -332,31 +384,6 @@
           "url": "https://www.ebay.com/itm/205969519600",
           "verified_at": "2026-11-02T20:22:14.079461+00:00",
           "why_good": "Exact Fitbit Luxe model with active Buy It Now, numeric US shipping, and qualifying total before tax."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 31.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "KingKandyGoods",
-          "shipping_usd": 8.3,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Activity Tracker - Beige Band with Charger, Small",
-          "total_usd": 40.29,
-          "url": "https://www.ebay.com/itm/365689955256",
-          "verified_at": "2026-11-03T00:23:11.785395+00:00",
-          "why_good": "Fitbit Luxe tracker with charger, active Buy It Now, 2 available, and verified $8.30 US shipping; total before tax is $40.29."
         },
         {
           "availability": "available",
@@ -513,20 +540,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 31.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "KingKandyGoods",
+            "shipping_usd": 8.3,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Activity Tracker - Beige Band with Charger, Small",
+            "total_usd": 40.29,
+            "url": "https://www.ebay.com/itm/365689955256",
+            "verified_at": "2026-11-03T10:22:12.719018+00:00",
+            "why_good": "Actual Fitbit Luxe tracker with charger, active Buy It Now, numeric US shipping, and 2 available."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-03T09:20:26.907844+00:00",
+      "started_at": "2026-11-03T10:20:11.777164+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -535,10 +586,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 57909,
+      "duration_ms": 40870,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-03T09:22:34.068689+00:00",
+      "finished_at": "2026-11-03T10:22:53.591413+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -559,7 +610,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-03T09:21:36.159765+00:00",
+      "started_at": "2026-11-03T10:22:12.721430+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -571,10 +622,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 101890,
+      "duration_ms": 42979,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-03T09:24:15.958585+00:00",
+      "finished_at": "2026-11-03T10:23:36.569985+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -595,7 +646,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-03T09:22:34.068750+00:00",
+      "started_at": "2026-11-03T10:22:53.591474+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
