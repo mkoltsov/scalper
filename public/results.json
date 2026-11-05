@@ -10,15 +10,15 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-05T11:25:10.162560+00:00",
+  "finished_at": "2026-11-05T12:25:22.123569+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 6; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 4: status=ok; error=none; raw=2; normalized=2; verified=1",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=1; normalized=0; verified=0"
+    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -30,7 +30,7 @@
     "ch-mos-dmo-glock-under-196",
     "glock-19-gen5-mos-direct-mount-optic-under-190"
   ],
-  "started_at": "2026-11-05T11:17:06.051266+00:00",
+  "started_at": "2026-11-05T12:17:05.181443+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -39,10 +39,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 58452,
+      "duration_ms": 87046,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-05T11:18:04.505334+00:00",
+      "finished_at": "2026-11-05T12:18:32.229921+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -63,7 +63,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-05T11:17:06.053716+00:00",
+      "started_at": "2026-11-05T12:17:05.183678+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -75,42 +75,16 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 60697,
+      "duration_ms": 103184,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-05T11:19:05.202051+00:00",
+      "finished_at": "2026-11-05T12:20:15.414173+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
       "normalized_count": 0,
       "raw_count": 0,
-      "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "9x19",
-          "condition": "New",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "current_cash_price",
-          "price_usd": 234.8,
-          "product_category": "factory_ammunition",
-          "round_count": 1000,
-          "selected_quantity_label": "1000 rounds",
-          "selected_variant": "",
-          "seller": "SG Ammo",
-          "shipping_usd": 0.0,
-          "source": "SG Ammo",
-          "target_id": "9mm-1000-rounds-under-257",
-          "tax_status": "sales tax excluded; amount unknown",
-          "title": "1000 Round Case \u2013 Steel Case 9mm Luger 115 Grain FMJ Magtech Ammo \u2013 9AS",
-          "total_usd": 234.8,
-          "url": "https://sgammo.com/product/9mm-luger-ammo/1000-round-case-steel-case-9mm-luger-115-grain-fmj-magtech-ammo-9as/",
-          "verified_at": "2026-11-04T12:21:08.984362+00:00",
-          "why_good": "Exact 1000-round factory-loaded 9mm Luger FMJ case, in stock, with free shipping on orders over $200."
-        }
-      ],
+      "recently_verified_deals": [],
       "regional_summary": {
         "best": {
           "eu": null,
@@ -125,7 +99,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-05T11:18:04.505410+00:00",
+      "started_at": "2026-11-05T12:18:32.229991+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -137,15 +111,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 51988,
+      "duration_ms": 49750,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-05T11:19:57.190489+00:00",
+      "finished_at": "2026-11-05T12:21:05.164622+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -387,7 +361,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-05T11:19:05.202118+00:00",
+      "started_at": "2026-11-05T12:20:15.414239+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -419,8 +393,8 @@
             "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
             "total_usd": 59.99,
             "url": "https://www.ebay.com/itm/117148205137",
-            "verified_at": "2026-11-05T11:22:37.712007+00:00",
-            "why_good": "Exact Fitbit Luxe tracker, tested working, active Buy It Now, and free U.S. delivery."
+            "verified_at": "2026-11-05T12:22:54.165473+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, tested working, and free US delivery."
           }
         ]
       },
@@ -447,14 +421,14 @@
           "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
           "total_usd": 59.99,
           "url": "https://www.ebay.com/itm/117148205137",
-          "verified_at": "2026-11-05T11:22:37.712007+00:00",
-          "why_good": "Exact Fitbit Luxe tracker, tested working, active Buy It Now, and free U.S. delivery."
+          "verified_at": "2026-11-05T12:22:54.165473+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, tested working, and free US delivery."
         }
       ],
-      "duration_ms": 163306,
+      "duration_ms": 111075,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-05T11:22:40.496325+00:00",
+      "finished_at": "2026-11-05T12:22:56.239209+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -713,8 +687,8 @@
             "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
             "total_usd": 59.99,
             "url": "https://www.ebay.com/itm/117148205137",
-            "verified_at": "2026-11-05T11:22:37.712007+00:00",
-            "why_good": "Exact Fitbit Luxe tracker, tested working, active Buy It Now, and free U.S. delivery."
+            "verified_at": "2026-11-05T12:22:54.165473+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, tested working, and free US delivery."
           }
         },
         "counts": {
@@ -725,7 +699,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-05T11:19:57.190551+00:00",
+      "started_at": "2026-11-05T12:21:05.164687+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
@@ -737,10 +711,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 77940,
+      "duration_ms": 87960,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-05T11:23:58.436754+00:00",
+      "finished_at": "2026-11-05T12:24:24.200391+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -761,7 +735,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-05T11:22:40.496952+00:00",
+      "started_at": "2026-11-05T12:22:56.240213+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -773,15 +747,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 71725,
+      "duration_ms": 57923,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-05T11:25:10.162212+00:00",
+      "finished_at": "2026-11-05T12:25:22.123216+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
       "normalized_count": 0,
-      "raw_count": 1,
+      "raw_count": 0,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -797,7 +771,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-05T11:23:58.436818+00:00",
+      "started_at": "2026-11-05T12:24:24.200452+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
