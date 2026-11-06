@@ -10,14 +10,14 @@
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
   "dry_run": false,
-  "exit_code": 0,
-  "finished_at": "2026-11-06T22:24:46.635729+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-11-06T23:23:35.701170+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 7; exit code: 0",
+    "Scan scope: complete; selected targets: 7; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1",
+    "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 7: status=ok; error=none; raw=1; normalized=1; verified=1"
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-06T22:17:05.241888+00:00",
+  "started_at": "2026-11-06T23:17:05.701503+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 97316,
+      "duration_ms": 82341,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-06T22:18:42.560021+00:00",
+      "finished_at": "2026-11-06T23:18:28.044717+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-06T22:17:05.244108+00:00",
+      "started_at": "2026-11-06T23:17:05.703730+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 58155,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-11-06T22:19:40.715178+00:00",
+      "duration_ms": 17371,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-11-06T23:18:45.415894+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,8 +102,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-06T22:18:42.560089+00:00",
-      "status": "ok",
+      "started_at": "2026-11-06T23:18:28.044785+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -114,10 +114,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 59915,
+      "duration_ms": 75751,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-06T22:20:40.630351+00:00",
+      "finished_at": "2026-11-06T23:20:01.167125+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -239,7 +239,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-06T22:19:40.715243+00:00",
+      "started_at": "2026-11-06T23:18:45.415959+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -248,70 +248,18 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.97,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 25.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "randomclicksandfix",
-            "shipping_usd": 5.89,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker Black Tested Working Heavy Wear No Charger",
-            "total_usd": 30.89,
-            "url": "https://www.ebay.com/itm/318064587910",
-            "verified_at": "2026-11-06T22:22:05.023282+00:00",
-            "why_good": "Working Fitbit Luxe tracker with Buy It Now, numeric US delivery charge, and total below $64."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.97,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 25.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "randomclicksandfix",
-          "shipping_usd": 5.89,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Tracker Black Tested Working Heavy Wear No Charger",
-          "total_usd": 30.89,
-          "url": "https://www.ebay.com/itm/318064587910",
-          "verified_at": "2026-11-06T22:22:05.023282+00:00",
-          "why_good": "Working Fitbit Luxe tracker with Buy It Now, numeric US delivery charge, and total below $64."
-        }
-      ],
-      "duration_ms": 84394,
+      "deals": [],
+      "duration_ms": 50389,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-06T22:22:05.023896+00:00",
+      "finished_at": "2026-11-06T23:20:51.555942+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -512,50 +460,51 @@
           "url": "https://www.ebay.com/itm/357838020658",
           "verified_at": "2026-11-06T21:24:11.687083+00:00",
           "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, visible shipping, and total under $64."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.97,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 25.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "randomclicksandfix",
+          "shipping_usd": 5.89,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Tracker Black Tested Working Heavy Wear No Charger",
+          "total_usd": 30.89,
+          "url": "https://www.ebay.com/itm/318064587910",
+          "verified_at": "2026-11-06T22:22:05.023282+00:00",
+          "why_good": "Working Fitbit Luxe tracker with Buy It Now, numeric US delivery charge, and total below $64."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.97,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 25.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "randomclicksandfix",
-            "shipping_usd": 5.89,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness Tracker Black Tested Working Heavy Wear No Charger",
-            "total_usd": 30.89,
-            "url": "https://www.ebay.com/itm/318064587910",
-            "verified_at": "2026-11-06T22:22:05.023282+00:00",
-            "why_good": "Working Fitbit Luxe tracker with Buy It Now, numeric US delivery charge, and total below $64."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-06T22:20:40.630414+00:00",
+      "started_at": "2026-11-06T23:20:01.167187+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     },
     {
       "deal_groups": {
@@ -564,10 +513,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 50566,
+      "duration_ms": 35553,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-06T22:22:55.591056+00:00",
+      "finished_at": "2026-11-06T23:21:27.109308+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -588,7 +537,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-06T22:22:05.024821+00:00",
+      "started_at": "2026-11-06T23:20:51.556006+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -600,10 +549,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 39064,
+      "duration_ms": 41261,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-06T22:23:34.655394+00:00",
+      "finished_at": "2026-11-06T23:22:08.369879+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -624,7 +573,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-06T22:22:55.591115+00:00",
+      "started_at": "2026-11-06T23:21:27.109371+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -637,31 +586,67 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "New",
-            "confidence": 0.98,
+            "condition": "Mint condition",
+            "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 2490.0,
+            "price_usd": 2350.0,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "A2ZeMart",
+            "seller": "Mike_AI_Tech",
             "shipping_usd": 0.0,
-            "source": "eBay",
+            "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
-            "total_usd": 2490.0,
-            "url": "https://www.ebay.com/itm/168814092983",
-            "verified_at": "2026-11-06T22:24:46.633953+00:00",
-            "why_good": "Complete new Apple Mac mini with M4 Pro chip, 64 GB RAM, and 512 GB SSD; Buy It Now active with free FedEx delivery to the United States."
+            "title": "Mac mini 2024 - 512GB, 64GB, Apple M4 Pro 12-core",
+            "total_usd": 2350.0,
+            "url": "https://swappa.com/listing/view/LAJS61858",
+            "verified_at": "2026-11-06T23:23:35.699991+00:00",
+            "why_good": "Complete working Apple Mac mini with Apple M4 Pro 12-core chip and 64GB unified memory; active buy action, mint condition, and free US shipping."
           }
         ]
       },
       "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Mint condition",
+          "confidence": 0.99,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 2350.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Mike_AI_Tech",
+          "shipping_usd": 0.0,
+          "source": "Swappa",
+          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+          "tax_status": "",
+          "title": "Mac mini 2024 - 512GB, 64GB, Apple M4 Pro 12-core",
+          "total_usd": 2350.0,
+          "url": "https://swappa.com/listing/view/LAJS61858",
+          "verified_at": "2026-11-06T23:23:35.699991+00:00",
+          "why_good": "Complete working Apple Mac mini with Apple M4 Pro 12-core chip and 64GB unified memory; active buy action, mint condition, and free US shipping."
+        }
+      ],
+      "duration_ms": 87331,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-06T23:23:35.700424+00:00",
+      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
+      "max_price_usd": 2500,
+      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
+      "normalized_count": 1,
+      "raw_count": 1,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -688,42 +673,6 @@
           "why_good": "Complete new Apple Mac mini with M4 Pro chip, 64 GB RAM, and 512 GB SSD; Buy It Now active with free FedEx delivery to the United States."
         }
       ],
-      "duration_ms": 71979,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-06T22:24:46.634673+00:00",
-      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
-      "max_price_usd": 2500,
-      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 1,
-      "raw_count": 1,
-      "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Mint condition",
-          "confidence": 0.94,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 2350.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Mike_AI_Tech",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-          "tax_status": "",
-          "title": "Mac mini 2024 - 512GB, 64GB, Apple M4 Pro 12-core - LAJS61858",
-          "total_usd": 2350.0,
-          "url": "https://swappa.com/listing/view/LAJS61858",
-          "verified_at": "2026-11-06T21:28:15.487161+00:00",
-          "why_good": "Complete working Mac mini with M4 Pro 12-core chip and 64 GB unified memory; active approved listing with free direct US shipping, total $2350 before tax."
-        }
-      ],
       "regional_summary": {
         "best": {
           "eu": null,
@@ -731,27 +680,27 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "New",
-            "confidence": 0.98,
+            "condition": "Mint condition",
+            "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 2490.0,
+            "price_usd": 2350.0,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "A2ZeMart",
+            "seller": "Mike_AI_Tech",
             "shipping_usd": 0.0,
-            "source": "eBay",
+            "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
-            "total_usd": 2490.0,
-            "url": "https://www.ebay.com/itm/168814092983",
-            "verified_at": "2026-11-06T22:24:46.633953+00:00",
-            "why_good": "Complete new Apple Mac mini with M4 Pro chip, 64 GB RAM, and 512 GB SSD; Buy It Now active with free FedEx delivery to the United States."
+            "title": "Mac mini 2024 - 512GB, 64GB, Apple M4 Pro 12-core",
+            "total_usd": 2350.0,
+            "url": "https://swappa.com/listing/view/LAJS61858",
+            "verified_at": "2026-11-06T23:23:35.699991+00:00",
+            "why_good": "Complete working Apple Mac mini with Apple M4 Pro 12-core chip and 64GB unified memory; active buy action, mint condition, and free US shipping."
           }
         },
         "counts": {
@@ -762,7 +711,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-06T22:23:34.655455+00:00",
+      "started_at": "2026-11-06T23:22:08.369940+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
