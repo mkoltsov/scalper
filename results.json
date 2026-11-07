@@ -11,16 +11,16 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-07T09:24:42.025913+00:00",
+  "finished_at": "2026-11-07T10:27:14.161034+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=2; normalized=2; verified=2",
     "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=1; normalized=1; verified=1",
-    "Target 7: status=ok; error=none; raw=0; normalized=0; verified=0"
+    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 7: status=ok; error=none; raw=1; normalized=1; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-07T09:17:06.048385+00:00",
+  "started_at": "2026-11-07T10:17:05.648995+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 70673,
+      "duration_ms": 73867,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-07T09:18:16.723658+00:00",
+      "finished_at": "2026-11-07T10:18:19.518511+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T09:17:06.051116+00:00",
+      "started_at": "2026-11-07T10:17:05.651201+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 44758,
+      "duration_ms": 83294,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-07T09:19:01.481571+00:00",
+      "finished_at": "2026-11-07T10:19:42.812068+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,7 +102,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T09:18:16.723725+00:00",
+      "started_at": "2026-11-07T10:18:19.518581+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -111,18 +111,120 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 445.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "223 Rem \u2013 Patriot Sports 55 Grain Full Metal Jacket \u2013 1000 Rounds",
+            "total_usd": 445.0,
+            "url": "https://www.velocityammosales.com/products/223-rem-patriot-sports-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-11-07T10:21:28.945520+00:00",
+            "why_good": "Factory-new .223 Remington brass-cased FMJ, exactly 1000 rounds, in stock, with unconditional free shipping on ammo orders over $200; sales tax is separate."
+          },
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 455.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+            "total_usd": 455.0,
+            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-11-07T10:21:34.539120+00:00",
+            "why_good": "Factory-new 5.56 NATO brass-cased FMJ, exactly 1000 rounds, in stock, with unconditional free shipping on ammo orders over $200; sales tax is separate."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 43096,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 445.0,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "",
+          "shipping_usd": 0.0,
+          "source": "Velocity Ammunition Sales",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "223 Rem \u2013 Patriot Sports 55 Grain Full Metal Jacket \u2013 1000 Rounds",
+          "total_usd": 445.0,
+          "url": "https://www.velocityammosales.com/products/223-rem-patriot-sports-55-grain-full-metal-jacket-1000-rounds/",
+          "verified_at": "2026-11-07T10:21:28.945520+00:00",
+          "why_good": "Factory-new .223 Remington brass-cased FMJ, exactly 1000 rounds, in stock, with unconditional free shipping on ammo orders over $200; sales tax is separate."
+        },
+        {
+          "availability": "available",
+          "cartridge": "223_556",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "current_cash_price",
+          "price_usd": 455.0,
+          "product_category": "factory_ammunition",
+          "round_count": 1000,
+          "selected_quantity_label": "1000 rounds",
+          "selected_variant": "",
+          "seller": "",
+          "shipping_usd": 0.0,
+          "source": "Velocity Ammunition Sales",
+          "target_id": "223-556-1000-rounds-under-470",
+          "tax_status": "sales tax excluded; amount unknown",
+          "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
+          "total_usd": 455.0,
+          "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
+          "verified_at": "2026-11-07T10:21:34.539120+00:00",
+          "why_good": "Factory-new 5.56 NATO brass-cased FMJ, exactly 1000 rounds, in stock, with unconditional free shipping on ammo orders over $200; sales tax is separate."
+        }
+      ],
+      "duration_ms": 111728,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-07T09:19:44.577784+00:00",
+      "finished_at": "2026-11-07T10:21:34.540106+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -154,20 +256,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 445.0,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "",
+            "shipping_usd": 0.0,
+            "source": "Velocity Ammunition Sales",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "223 Rem \u2013 Patriot Sports 55 Grain Full Metal Jacket \u2013 1000 Rounds",
+            "total_usd": 445.0,
+            "url": "https://www.velocityammosales.com/products/223-rem-patriot-sports-55-grain-full-metal-jacket-1000-rounds/",
+            "verified_at": "2026-11-07T10:21:28.945520+00:00",
+            "why_good": "Factory-new .223 Remington brass-cased FMJ, exactly 1000 rounds, in stock, with unconditional free shipping on ammo orders over $200; sales tax is separate."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T09:19:01.481655+00:00",
+      "started_at": "2026-11-07T10:19:42.812133+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 2
     },
     {
       "deal_groups": {
@@ -176,10 +302,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 88653,
+      "duration_ms": 68137,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-07T09:21:13.230736+00:00",
+      "finished_at": "2026-11-07T10:22:42.791723+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -401,7 +527,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T09:19:44.577845+00:00",
+      "started_at": "2026-11-07T10:21:34.655193+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -413,10 +539,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 59892,
+      "duration_ms": 70756,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-07T09:22:13.123245+00:00",
+      "finished_at": "2026-11-07T10:23:53.548166+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -437,7 +563,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T09:21:13.230808+00:00",
+      "started_at": "2026-11-07T10:22:42.791787+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -446,35 +572,19 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New",
-            "confidence": 0.96,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 156.33,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Optical-Fire",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-            "tax_status": "",
-            "title": "Zulisy S6-GM 6 MOA Red Dot Sight for Full Size Gen 4-5 Glock 17 MOS Direct Mount",
-            "total_usd": 156.33,
-            "url": "https://www.ebay.com/itm/397863886397",
-            "verified_at": "2026-11-07T09:23:22.880896+00:00",
-            "why_good": "Complete new Zulisy S6-GM optic, Buy It Now with more than 10 available and free US shipping. The exact listing states compatibility with Gen 5 full-size Glock MOS including G19 MOS and direct mounting; manufacturer evidence: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos. Sales tax may apply separately at checkout."
-          }
-        ]
+        "us": []
       },
-      "deals": [
+      "deals": [],
+      "duration_ms": 87823,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-07T10:25:21.370736+00:00",
+      "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
+      "max_price_usd": 190,
+      "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
+      "normalized_count": 0,
+      "raw_count": 0,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -501,75 +611,93 @@
           "why_good": "Complete new Zulisy S6-GM optic, Buy It Now with more than 10 available and free US shipping. The exact listing states compatibility with Gen 5 full-size Glock MOS including G19 MOS and direct mounting; manufacturer evidence: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos. Sales tax may apply separately at checkout."
         }
       ],
-      "duration_ms": 69758,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-07T09:23:22.881686+00:00",
-      "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-      "max_price_usd": 190,
-      "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
-      "normalized_count": 1,
-      "raw_count": 1,
-      "recently_verified_deals": [],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New",
-            "confidence": 0.96,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 156.33,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Optical-Fire",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-            "tax_status": "",
-            "title": "Zulisy S6-GM 6 MOA Red Dot Sight for Full Size Gen 4-5 Glock 17 MOS Direct Mount",
-            "total_usd": 156.33,
-            "url": "https://www.ebay.com/itm/397863886397",
-            "verified_at": "2026-11-07T09:23:22.880896+00:00",
-            "why_good": "Complete new Zulisy S6-GM optic, Buy It Now with more than 10 available and free US shipping. The exact listing states compatibility with Gen 5 full-size Glock MOS including G19 MOS and direct mounting; manufacturer evidence: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos. Sales tax may apply separately at checkout."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T09:22:13.123379+00:00",
+      "started_at": "2026-11-07T10:23:53.548228+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     },
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Mint condition",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 2350.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "Mike_AI_Tech",
+            "shipping_usd": 0.0,
+            "source": "Swappa",
+            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+            "tax_status": "",
+            "title": "Mac Mini M4 Pro 64Gb - 12C/16C - 512Gb SSD - 10 GbE Ethernet (upgraded)",
+            "total_usd": 2350.0,
+            "url": "https://swappa.com/listing/view/LAJS61858",
+            "verified_at": "2026-11-07T10:27:14.159486+00:00",
+            "why_good": "Working Apple Mac mini with M4 Pro 12-core chip and 64 GB unified memory; mint condition, active purchase listing, and free US shipping."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 79143,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Mint condition",
+          "confidence": 0.97,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 2350.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Mike_AI_Tech",
+          "shipping_usd": 0.0,
+          "source": "Swappa",
+          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+          "tax_status": "",
+          "title": "Mac Mini M4 Pro 64Gb - 12C/16C - 512Gb SSD - 10 GbE Ethernet (upgraded)",
+          "total_usd": 2350.0,
+          "url": "https://swappa.com/listing/view/LAJS61858",
+          "verified_at": "2026-11-07T10:27:14.159486+00:00",
+          "why_good": "Working Apple Mac mini with M4 Pro 12-core chip and 64 GB unified memory; mint condition, active purchase listing, and free US shipping."
+        }
+      ],
+      "duration_ms": 112789,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-07T09:24:42.025555+00:00",
+      "finished_at": "2026-11-07T10:27:14.160075+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -595,51 +723,50 @@
           "url": "https://www.ebay.com/itm/168814092983",
           "verified_at": "2026-11-06T22:24:46.633953+00:00",
           "why_good": "Complete new Apple Mac mini with M4 Pro chip, 64 GB RAM, and 512 GB SSD; Buy It Now active with free FedEx delivery to the United States."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Mint condition",
-          "confidence": 0.96,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 2350.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Mike_AI_Tech",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-          "tax_status": "",
-          "title": "Mac mini 2024 M4 Pro 64GB RAM 512GB SSD",
-          "total_usd": 2350.0,
-          "url": "https://swappa.com/listing/view/LAJS61858",
-          "verified_at": "2026-11-07T08:25:58.146280+00:00",
-          "why_good": "Working mint Apple Mac mini with explicit M4 Pro 12-core chip and 64GB unified memory; active Login to Buy listing with unconditional free US shipping."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Mint condition",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 2350.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "Mike_AI_Tech",
+            "shipping_usd": 0.0,
+            "source": "Swappa",
+            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+            "tax_status": "",
+            "title": "Mac Mini M4 Pro 64Gb - 12C/16C - 512Gb SSD - 10 GbE Ethernet (upgraded)",
+            "total_usd": 2350.0,
+            "url": "https://swappa.com/listing/view/LAJS61858",
+            "verified_at": "2026-11-07T10:27:14.159486+00:00",
+            "why_good": "Working Apple Mac mini with M4 Pro 12-core chip and 64 GB unified memory; mint condition, active purchase listing, and free US shipping."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T09:23:22.882868+00:00",
+      "started_at": "2026-11-07T10:25:21.370817+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     }
   ]
 }
