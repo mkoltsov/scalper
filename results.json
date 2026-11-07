@@ -11,16 +11,16 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-07T13:27:40.966189+00:00",
+  "finished_at": "2026-11-07T14:25:39.335569+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 2: status=ok; error=none; raw=1; normalized=1; verified=0",
     "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
     "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 7: status=ok; error=none; raw=0; normalized=0; verified=0"
+    "Target 7: status=ok; error=none; raw=1; normalized=1; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-07T13:17:05.247329+00:00",
+  "started_at": "2026-11-07T14:17:05.064773+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 66568,
+      "duration_ms": 75489,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-07T13:18:11.817135+00:00",
+      "finished_at": "2026-11-07T14:18:20.556453+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T13:17:05.249680+00:00",
+      "started_at": "2026-11-07T14:17:05.067128+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,15 +78,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 81459,
+      "duration_ms": 57150,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-07T13:19:33.276669+00:00",
+      "finished_at": "2026-11-07T14:19:17.706778+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -102,7 +102,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T13:18:11.817258+00:00",
+      "started_at": "2026-11-07T14:18:20.556523+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -114,10 +114,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 138613,
+      "duration_ms": 76234,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-07T13:21:51.889277+00:00",
+      "finished_at": "2026-11-07T14:20:33.940962+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -239,7 +239,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T13:19:33.276733+00:00",
+      "started_at": "2026-11-07T14:19:17.706849+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -251,10 +251,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 125811,
+      "duration_ms": 83274,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-07T13:23:57.700613+00:00",
+      "finished_at": "2026-11-07T14:21:57.214924+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -476,7 +476,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T13:21:51.889339+00:00",
+      "started_at": "2026-11-07T14:20:33.941026+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -488,10 +488,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 28096,
+      "duration_ms": 31466,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-07T13:24:25.796752+00:00",
+      "finished_at": "2026-11-07T14:22:28.681375+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -512,7 +512,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T13:23:57.700674+00:00",
+      "started_at": "2026-11-07T14:21:57.214987+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -524,10 +524,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 67513,
+      "duration_ms": 87992,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-07T13:25:33.309540+00:00",
+      "finished_at": "2026-11-07T14:23:56.673100+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -574,7 +574,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T13:24:25.796812+00:00",
+      "started_at": "2026-11-07T14:22:28.681439+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -583,24 +583,40 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Mint condition",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 2350.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "Mike_AI_Tech",
+            "shipping_usd": 0.0,
+            "source": "Swappa",
+            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+            "tax_status": "",
+            "title": "Mac mini 2024 M4 Pro 64GB 512GB SSD 10GbE",
+            "total_usd": 2350.0,
+            "url": "https://swappa.com/listing/view/LAJS61858",
+            "verified_at": "2026-11-07T14:25:39.334329+00:00",
+            "why_good": "Complete working Apple Mac mini with M4 Pro chip and 64GB unified memory, 512GB SSD, active purchase listing, and free US shipping."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 127656,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-07T13:27:40.965866+00:00",
-      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
-      "max_price_usd": 2500,
-      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 0,
-      "raw_count": 0,
-      "recently_verified_deals": [
+      "deals": [
         {
           "availability": "available",
           "cartridge": "",
           "condition": "Mint condition",
-          "confidence": 0.97,
+          "confidence": 0.98,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -615,12 +631,23 @@
           "source": "Swappa",
           "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
           "tax_status": "",
-          "title": "Mac Mini M4 Pro 64Gb - 12C/16C - 512Gb SSD - 10 GbE Ethernet (upgraded)",
+          "title": "Mac mini 2024 M4 Pro 64GB 512GB SSD 10GbE",
           "total_usd": 2350.0,
           "url": "https://swappa.com/listing/view/LAJS61858",
-          "verified_at": "2026-11-07T10:27:14.159486+00:00",
-          "why_good": "Working Apple Mac mini with M4 Pro 12-core chip and 64 GB unified memory; mint condition, active purchase listing, and free US shipping."
-        },
+          "verified_at": "2026-11-07T14:25:39.334329+00:00",
+          "why_good": "Complete working Apple Mac mini with M4 Pro chip and 64GB unified memory, 512GB SSD, active purchase listing, and free US shipping."
+        }
+      ],
+      "duration_ms": 102662,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-07T14:25:39.334797+00:00",
+      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
+      "max_price_usd": 2500,
+      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
+      "normalized_count": 1,
+      "raw_count": 1,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -651,20 +678,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Mint condition",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 2350.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "Mike_AI_Tech",
+            "shipping_usd": 0.0,
+            "source": "Swappa",
+            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+            "tax_status": "",
+            "title": "Mac mini 2024 M4 Pro 64GB 512GB SSD 10GbE",
+            "total_usd": 2350.0,
+            "url": "https://swappa.com/listing/view/LAJS61858",
+            "verified_at": "2026-11-07T14:25:39.334329+00:00",
+            "why_good": "Complete working Apple Mac mini with M4 Pro chip and 64GB unified memory, 512GB SSD, active purchase listing, and free US shipping."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-07T13:25:33.309603+00:00",
+      "started_at": "2026-11-07T14:23:56.673162+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     }
   ]
 }
