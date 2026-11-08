@@ -10,17 +10,17 @@
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
   "dry_run": false,
-  "exit_code": 1,
-  "finished_at": "2026-11-08T16:25:36.364036+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-11-08T17:26:36.856620+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 7; exit code: 1",
+    "Scan scope: complete; selected targets: 7; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=2; normalized=2; verified=2",
+    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=1",
+    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 7: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0"
+    "Target 6: status=ok; error=none; raw=2; normalized=0; verified=0",
+    "Target 7: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-08T16:17:05.261073+00:00",
+  "started_at": "2026-11-08T17:17:05.879904+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 64504,
+      "duration_ms": 71571,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-08T16:18:09.767189+00:00",
+      "finished_at": "2026-11-08T17:18:17.453577+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-08T16:17:05.263353+00:00",
+      "started_at": "2026-11-08T17:17:05.882460+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 51788,
+      "duration_ms": 90141,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-08T16:19:01.555123+00:00",
+      "finished_at": "2026-11-08T17:19:47.594631+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,7 +102,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-08T16:18:09.767262+00:00",
+      "started_at": "2026-11-08T17:18:17.453648+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -111,24 +111,40 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 448.99,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Stunomma Sports",
+            "shipping_usd": 0.0,
+            "source": "Stunomma",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "PMC BRONZE 223REM 55GR FMJ 1000 Rounds Free Shipping! 223A",
+            "total_usd": 448.99,
+            "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
+            "verified_at": "2026-11-08T17:21:07.928720+00:00",
+            "why_good": "New factory-loaded PMC .223 Remington FMJ, exactly 1000 rounds, 7 in stock, active add-to-cart action, and unconditional free shipping on case orders. Sales tax is separate."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 64382,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-11-08T16:20:05.937441+00:00",
-      "id": "223-556-1000-rounds-under-470",
-      "max_price_usd": 470,
-      "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
-      "recently_verified_deals": [
+      "deals": [
         {
           "availability": "available",
           "cartridge": "223_556",
           "condition": "New",
-          "confidence": 0.99,
+          "confidence": 0.98,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -143,12 +159,23 @@
           "source": "Stunomma",
           "target_id": "223-556-1000-rounds-under-470",
           "tax_status": "sales tax excluded; amount unknown",
-          "title": "PMC Bronze 223 Rem 55gr FMJ 1000 Rounds Free Shipping",
+          "title": "PMC BRONZE 223REM 55GR FMJ 1000 Rounds Free Shipping! 223A",
           "total_usd": 448.99,
           "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
-          "verified_at": "2026-11-08T10:20:42.867807+00:00",
-          "why_good": "Exact 1000-round PMC .223 Remington factory FMJ case, listed in stock with unconditional free shipping on case orders; sales tax, if applicable, is separate."
-        },
+          "verified_at": "2026-11-08T17:21:07.928720+00:00",
+          "why_good": "New factory-loaded PMC .223 Remington FMJ, exactly 1000 rounds, 7 in stock, active add-to-cart action, and unconditional free shipping on case orders. Sales tax is separate."
+        }
+      ],
+      "duration_ms": 80335,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-08T17:21:07.929513+00:00",
+      "id": "223-556-1000-rounds-under-470",
+      "max_price_usd": 470,
+      "name": ".223 / 5.56, 1000 rounds, under US$470",
+      "normalized_count": 1,
+      "raw_count": 1,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "223_556",
@@ -204,20 +231,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "223_556",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "current_cash_price",
+            "price_usd": 448.99,
+            "product_category": "factory_ammunition",
+            "round_count": 1000,
+            "selected_quantity_label": "1000 rounds",
+            "selected_variant": "",
+            "seller": "Stunomma Sports",
+            "shipping_usd": 0.0,
+            "source": "Stunomma",
+            "target_id": "223-556-1000-rounds-under-470",
+            "tax_status": "sales tax excluded; amount unknown",
+            "title": "PMC BRONZE 223REM 55GR FMJ 1000 Rounds Free Shipping! 223A",
+            "total_usd": 448.99,
+            "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
+            "verified_at": "2026-11-08T17:21:07.928720+00:00",
+            "why_good": "New factory-loaded PMC .223 Remington FMJ, exactly 1000 rounds, 7 in stock, active add-to-cart action, and unconditional free shipping on case orders. Sales tax is separate."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-08T16:19:01.555189+00:00",
+      "started_at": "2026-11-08T17:19:47.594696+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -228,7 +279,7 @@
             "availability": "available",
             "cartridge": "",
             "condition": "Used",
-            "confidence": 0.78,
+            "confidence": 0.86,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -246,33 +297,8 @@
             "title": "Fitbit Luxe Fitness and Wellness Tracker",
             "total_usd": 36.83,
             "url": "https://www.ebay.com/itm/358781389369",
-            "verified_at": "2026-11-08T16:22:07.042456+00:00",
-            "why_good": "Working Fitbit Luxe with Buy It Now and verified USPS shipping."
-          },
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used; running smoothly",
-            "confidence": 0.8,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 32.47,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Rookie Lemon",
-            "shipping_usd": 6.99,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe FB422 Gray Band Heart Rate Fitness Tracker Watch 7 1/4\" NO CHARGER",
-            "total_usd": 39.46,
-            "url": "https://www.ebay.com/itm/357860473410",
-            "verified_at": "2026-11-08T16:22:16.453961+00:00",
-            "why_good": "Working Fitbit Luxe with active Buy It Now and numeric US shipping."
+            "verified_at": "2026-11-08T17:22:22.703145+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64."
           }
         ]
       },
@@ -281,7 +307,7 @@
           "availability": "available",
           "cartridge": "",
           "condition": "Used",
-          "confidence": 0.78,
+          "confidence": 0.86,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -299,44 +325,19 @@
           "title": "Fitbit Luxe Fitness and Wellness Tracker",
           "total_usd": 36.83,
           "url": "https://www.ebay.com/itm/358781389369",
-          "verified_at": "2026-11-08T16:22:07.042456+00:00",
-          "why_good": "Working Fitbit Luxe with Buy It Now and verified USPS shipping."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used; running smoothly",
-          "confidence": 0.8,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 32.47,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Rookie Lemon",
-          "shipping_usd": 6.99,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe FB422 Gray Band Heart Rate Fitness Tracker Watch 7 1/4\" NO CHARGER",
-          "total_usd": 39.46,
-          "url": "https://www.ebay.com/itm/357860473410",
-          "verified_at": "2026-11-08T16:22:16.453961+00:00",
-          "why_good": "Working Fitbit Luxe with active Buy It Now and numeric US shipping."
+          "verified_at": "2026-11-08T17:22:22.703145+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64."
         }
       ],
-      "duration_ms": 130517,
+      "duration_ms": 74774,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-08T16:22:16.454547+00:00",
+      "finished_at": "2026-11-08T17:22:22.703719+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -537,6 +538,31 @@
           "url": "https://www.ebay.com/itm/137022316689",
           "verified_at": "2026-11-08T15:23:01.897820+00:00",
           "why_good": "Exact Fitbit Luxe tracker listing with active Buy It Now, numeric US shipping, and tested-working condition."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used; running smoothly",
+          "confidence": 0.8,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 32.47,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Rookie Lemon",
+          "shipping_usd": 6.99,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe FB422 Gray Band Heart Rate Fitness Tracker Watch 7 1/4\" NO CHARGER",
+          "total_usd": 39.46,
+          "url": "https://www.ebay.com/itm/357860473410",
+          "verified_at": "2026-11-08T16:22:16.453961+00:00",
+          "why_good": "Working Fitbit Luxe with active Buy It Now and numeric US shipping."
         }
       ],
       "regional_summary": {
@@ -547,7 +573,7 @@
             "availability": "available",
             "cartridge": "",
             "condition": "Used",
-            "confidence": 0.78,
+            "confidence": 0.86,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -565,22 +591,22 @@
             "title": "Fitbit Luxe Fitness and Wellness Tracker",
             "total_usd": 36.83,
             "url": "https://www.ebay.com/itm/358781389369",
-            "verified_at": "2026-11-08T16:22:07.042456+00:00",
-            "why_good": "Working Fitbit Luxe with Buy It Now and verified USPS shipping."
+            "verified_at": "2026-11-08T17:22:22.703145+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64."
           }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-08T16:20:05.937504+00:00",
+      "started_at": "2026-11-08T17:21:07.929974+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 2
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -589,10 +615,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 63931,
+      "duration_ms": 37223,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-08T16:23:20.494963+00:00",
+      "finished_at": "2026-11-08T17:22:59.927366+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -613,7 +639,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-08T16:22:16.564057+00:00",
+      "started_at": "2026-11-08T17:22:22.704499+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -625,15 +651,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 42169,
+      "duration_ms": 86040,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-08T16:24:02.664330+00:00",
+      "finished_at": "2026-11-08T17:24:25.967573+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
       "normalized_count": 0,
-      "raw_count": 0,
+      "raw_count": 2,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -649,7 +675,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-08T16:23:20.495028+00:00",
+      "started_at": "2026-11-08T17:22:59.927426+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -661,15 +687,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 93699,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-11-08T16:25:36.363698+00:00",
+      "duration_ms": 130889,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-08T17:26:36.856295+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -736,9 +762,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-08T16:24:02.664389+00:00",
-      "status": "incomplete",
-      "verification_error_count": 1,
+      "started_at": "2026-11-08T17:24:25.967634+00:00",
+      "status": "ok",
+      "verification_error_count": 0,
       "verified_count": 0
     }
   ]
