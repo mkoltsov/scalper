@@ -11,16 +11,16 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-09T07:26:06.585829+00:00",
+  "finished_at": "2026-11-09T08:26:02.092655+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=1",
+    "Target 4: status=ok; error=none; raw=2; normalized=2; verified=2",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 7: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0"
+    "Target 7: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-09T07:17:05.388599+00:00",
+  "started_at": "2026-11-09T08:17:04.928981+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 94321,
+      "duration_ms": 77692,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-09T07:18:39.712107+00:00",
+      "finished_at": "2026-11-09T08:18:22.622961+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T07:17:05.390899+00:00",
+      "started_at": "2026-11-09T08:17:04.931248+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 77212,
+      "duration_ms": 54500,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-09T07:19:56.924160+00:00",
+      "finished_at": "2026-11-09T08:19:17.123195+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,7 +102,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T07:18:39.712173+00:00",
+      "started_at": "2026-11-09T08:18:22.623053+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -114,10 +114,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 57475,
+      "duration_ms": 76852,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-09T07:20:54.399344+00:00",
+      "finished_at": "2026-11-09T08:20:33.975679+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -214,7 +214,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T07:19:56.924222+00:00",
+      "started_at": "2026-11-09T08:19:17.123259+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -227,8 +227,8 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used; fully operational",
-            "confidence": 0.94,
+            "condition": "Used",
+            "confidence": 0.88,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -246,8 +246,33 @@
             "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
             "total_usd": 32.99,
             "url": "https://www.ebay.com/itm/135741011661",
-            "verified_at": "2026-11-09T07:22:26.421790+00:00",
-            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64."
+            "verified_at": "2026-11-09T08:22:18.286512+00:00",
+            "why_good": "Buy It Now Fitbit Luxe tracker with explicit $8 US shipping and active purchase action."
+          },
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used, tested",
+            "confidence": 0.96,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 49.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "paexp-81",
+            "shipping_usd": 9.14,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness Plus Wellness Tracker - TESTED",
+            "total_usd": 59.13,
+            "url": "https://www.ebay.com/itm/156562037830",
+            "verified_at": "2026-11-09T08:22:27.738336+00:00",
+            "why_good": "Explicitly tested working Fitbit Luxe with Buy It Now and numeric US shipping."
           }
         ]
       },
@@ -255,8 +280,8 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Used; fully operational",
-          "confidence": 0.94,
+          "condition": "Used",
+          "confidence": 0.88,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -274,19 +299,44 @@
           "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
           "total_usd": 32.99,
           "url": "https://www.ebay.com/itm/135741011661",
-          "verified_at": "2026-11-09T07:22:26.421790+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64."
+          "verified_at": "2026-11-09T08:22:18.286512+00:00",
+          "why_good": "Buy It Now Fitbit Luxe tracker with explicit $8 US shipping and active purchase action."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used, tested",
+          "confidence": 0.96,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 49.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "paexp-81",
+          "shipping_usd": 9.14,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Plus Wellness Tracker - TESTED",
+          "total_usd": 59.13,
+          "url": "https://www.ebay.com/itm/156562037830",
+          "verified_at": "2026-11-09T08:22:27.738336+00:00",
+          "why_good": "Explicitly tested working Fitbit Luxe with Buy It Now and numeric US shipping."
         }
       ],
-      "duration_ms": 97969,
+      "duration_ms": 113764,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-09T07:22:32.367920+00:00",
+      "finished_at": "2026-11-09T08:22:27.739658+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 3,
-      "raw_count": 3,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -491,31 +541,6 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Used; tested, pre-owned condition",
-          "confidence": 0.96,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 49.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "paexp-81",
-          "shipping_usd": 9.14,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Plus Wellness Tracker - TESTED",
-          "total_usd": 59.13,
-          "url": "https://www.ebay.com/itm/156562037830",
-          "verified_at": "2026-11-09T05:21:13.093603+00:00",
-          "why_good": "Exact Fitbit Luxe tracker, tested working, active Buy It Now, and numeric US shipping keeps total below $64 before tax."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
           "condition": "New other; tested and working",
           "confidence": 0.95,
           "delivery_country": "United States",
@@ -546,8 +571,8 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used; fully operational",
-            "confidence": 0.94,
+            "condition": "Used",
+            "confidence": 0.88,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -565,22 +590,22 @@
             "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
             "total_usd": 32.99,
             "url": "https://www.ebay.com/itm/135741011661",
-            "verified_at": "2026-11-09T07:22:26.421790+00:00",
-            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64."
+            "verified_at": "2026-11-09T08:22:18.286512+00:00",
+            "why_good": "Buy It Now Fitbit Luxe tracker with explicit $8 US shipping and active purchase action."
           }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T07:20:54.399402+00:00",
+      "started_at": "2026-11-09T08:20:33.975743+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 2
     },
     {
       "deal_groups": {
@@ -589,10 +614,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 29296,
+      "duration_ms": 69437,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-09T07:23:01.664843+00:00",
+      "finished_at": "2026-11-09T08:23:37.181088+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -613,7 +638,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T07:22:32.368647+00:00",
+      "started_at": "2026-11-09T08:22:27.743743+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -625,10 +650,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 74942,
+      "duration_ms": 74221,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-09T07:24:16.606538+00:00",
+      "finished_at": "2026-11-09T08:24:51.402516+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -649,7 +674,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T07:23:01.664958+00:00",
+      "started_at": "2026-11-09T08:23:37.181159+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -661,15 +686,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 109979,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-11-09T07:26:06.585502+00:00",
+      "duration_ms": 70690,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-11-09T08:26:02.092328+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -736,9 +761,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T07:24:16.606598+00:00",
+      "started_at": "2026-11-09T08:24:51.402577+00:00",
       "status": "incomplete",
-      "verification_error_count": 1,
+      "verification_error_count": 0,
       "verified_count": 0
     }
   ]
