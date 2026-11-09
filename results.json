@@ -10,17 +10,17 @@
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
   "dry_run": false,
-  "exit_code": 0,
-  "finished_at": "2026-11-09T15:25:54.311564+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-11-09T16:27:23.423198+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 7; exit code: 0",
+    "Scan scope: complete; selected targets: 7; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 4: status=ok; error=none; raw=2; normalized=2; verified=1",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 7: status=ok; error=none; raw=1; normalized=1; verified=1"
+    "Target 7: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-09T15:17:05.005905+00:00",
+  "started_at": "2026-11-09T16:17:05.665031+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 98976,
+      "duration_ms": 98927,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-09T15:18:43.983891+00:00",
+      "finished_at": "2026-11-09T16:18:44.593941+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T15:17:05.008169+00:00",
+      "started_at": "2026-11-09T16:17:05.667279+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 68215,
+      "duration_ms": 75021,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-09T15:19:52.198954+00:00",
+      "finished_at": "2026-11-09T16:19:59.614840+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,7 +102,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T15:18:43.983964+00:00",
+      "started_at": "2026-11-09T16:18:44.594010+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -114,10 +114,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 50780,
+      "duration_ms": 84386,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-09T15:20:42.979370+00:00",
+      "finished_at": "2026-11-09T16:21:24.001067+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -164,7 +164,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T15:19:52.199030+00:00",
+      "started_at": "2026-11-09T16:19:59.614907+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -173,44 +173,71 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used; tested, visible cosmetic scratches",
+            "confidence": 0.95,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 31.95,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "6x01010011",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
+            "total_usd": 31.95,
+            "url": "https://www.ebay.com/itm/307009751717",
+            "verified_at": "2026-11-09T16:23:46.833435+00:00",
+            "why_good": "Exact Fitbit Luxe tracker, tested and functional, with active Buy It Now and free US shipping."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 93424,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-09T15:22:16.403350+00:00",
-      "id": "fitbit-luxe-under-64",
-      "max_price_usd": 64,
-      "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
-      "recently_verified_deals": [
+      "deals": [
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Used; running smoothly",
-          "confidence": 0.8,
+          "condition": "Used; tested, visible cosmetic scratches",
+          "confidence": 0.95,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
           "price_basis": "",
-          "price_usd": 32.47,
+          "price_usd": 31.95,
           "product_category": "",
           "round_count": null,
           "selected_quantity_label": "",
           "selected_variant": "",
-          "seller": "Rookie Lemon",
-          "shipping_usd": 6.99,
+          "seller": "6x01010011",
+          "shipping_usd": 0.0,
           "source": "eBay",
           "target_id": "fitbit-luxe-under-64",
           "tax_status": "",
-          "title": "Fitbit Luxe FB422 Gray Band Heart Rate Fitness Tracker Watch 7 1/4\" NO CHARGER",
-          "total_usd": 39.46,
-          "url": "https://www.ebay.com/itm/357860473410",
-          "verified_at": "2026-11-08T16:22:16.453961+00:00",
-          "why_good": "Working Fitbit Luxe with active Buy It Now and numeric US shipping."
-        },
+          "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
+          "total_usd": 31.95,
+          "url": "https://www.ebay.com/itm/307009751717",
+          "verified_at": "2026-11-09T16:23:46.833435+00:00",
+          "why_good": "Exact Fitbit Luxe tracker, tested and functional, with active Buy It Now and free US shipping."
+        }
+      ],
+      "duration_ms": 145847,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-09T16:23:49.847921+00:00",
+      "id": "fitbit-luxe-under-64",
+      "max_price_usd": 64,
+      "name": "Fitbit Luxe under US$64",
+      "normalized_count": 2,
+      "raw_count": 2,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -441,20 +468,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used; tested, visible cosmetic scratches",
+            "confidence": 0.95,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 31.95,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "6x01010011",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness Tracker Heart Rate Monitor Pink Coral w/ Charger - Tested",
+            "total_usd": 31.95,
+            "url": "https://www.ebay.com/itm/307009751717",
+            "verified_at": "2026-11-09T16:23:46.833435+00:00",
+            "why_good": "Exact Fitbit Luxe tracker, tested and functional, with active Buy It Now and free US shipping."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T15:20:42.979439+00:00",
+      "started_at": "2026-11-09T16:21:24.001146+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -463,10 +514,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 28444,
+      "duration_ms": 47482,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-09T15:22:44.847013+00:00",
+      "finished_at": "2026-11-09T16:24:37.330072+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -487,7 +538,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T15:22:16.403424+00:00",
+      "started_at": "2026-11-09T16:23:49.848435+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -499,10 +550,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 103505,
+      "duration_ms": 89193,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-09T15:24:28.351643+00:00",
+      "finished_at": "2026-11-09T16:26:06.522635+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -549,7 +600,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T15:22:44.847078+00:00",
+      "started_at": "2026-11-09T16:24:37.330134+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -558,65 +609,13 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New",
-            "confidence": 0.99,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 2490.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "A2ZeMart",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-            "tax_status": "",
-            "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
-            "total_usd": 2490.0,
-            "url": "https://www.ebay.com/itm/168814092983",
-            "verified_at": "2026-11-09T15:25:54.309740+00:00",
-            "why_good": "Complete new Apple Mac mini with M4 Pro chip and 64 GB unified memory; active Buy It Now listing with free US shipping."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "New",
-          "confidence": 0.99,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 2490.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "A2ZeMart",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-          "tax_status": "",
-          "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
-          "total_usd": 2490.0,
-          "url": "https://www.ebay.com/itm/168814092983",
-          "verified_at": "2026-11-09T15:25:54.309740+00:00",
-          "why_good": "Complete new Apple Mac mini with M4 Pro chip and 64 GB unified memory; active Buy It Now listing with free US shipping."
-        }
-      ],
-      "duration_ms": 85959,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-09T15:25:54.310379+00:00",
+      "deals": [],
+      "duration_ms": 76900,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-11-09T16:27:23.422876+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
@@ -647,50 +646,51 @@
           "url": "https://www.ebay.com/itm/168818106269",
           "verified_at": "2026-11-09T03:27:06.639120+00:00",
           "why_good": "Buy It Now listing explicitly identifies an Apple Mac mini with M4 Pro and 64 GB RAM; complete new computer with free direct US shipping, total $2,490 before tax."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "New",
+          "confidence": 0.99,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 2490.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "A2ZeMart",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+          "tax_status": "",
+          "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
+          "total_usd": 2490.0,
+          "url": "https://www.ebay.com/itm/168814092983",
+          "verified_at": "2026-11-09T15:25:54.309740+00:00",
+          "why_good": "Complete new Apple Mac mini with M4 Pro chip and 64 GB unified memory; active Buy It Now listing with free US shipping."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New",
-            "confidence": 0.99,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 2490.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "A2ZeMart",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-            "tax_status": "",
-            "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
-            "total_usd": 2490.0,
-            "url": "https://www.ebay.com/itm/168814092983",
-            "verified_at": "2026-11-09T15:25:54.309740+00:00",
-            "why_good": "Complete new Apple Mac mini with M4 Pro chip and 64 GB unified memory; active Buy It Now listing with free US shipping."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-09T15:24:28.351704+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
-      "verified_count": 1
+      "started_at": "2026-11-09T16:26:06.522697+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
+      "verified_count": 0
     }
   ]
 }
