@@ -11,13 +11,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-11T17:26:34.543766+00:00",
+  "finished_at": "2026-11-11T18:27:40.401808+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0",
+    "Target 2: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 3: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0",
+    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 7: status=ok; error=none; raw=0; normalized=0; verified=0"
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-11T17:17:05.630294+00:00",
+  "started_at": "2026-11-11T18:17:05.478659+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 73290,
+      "duration_ms": 81758,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-11T17:18:18.922816+00:00",
+      "finished_at": "2026-11-11T18:18:27.239160+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-11T17:17:05.632926+00:00",
+      "started_at": "2026-11-11T18:17:05.480967+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,15 +78,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 91609,
+      "duration_ms": 83026,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-11T17:19:50.532102+00:00",
+      "finished_at": "2026-11-11T18:19:50.265102+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -102,7 +102,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-11T17:18:18.922884+00:00",
+      "started_at": "2026-11-11T18:18:27.239224+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -114,41 +114,16 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 73296,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-11-11T17:21:03.827649+00:00",
+      "duration_ms": 130127,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-11-11T18:22:00.392096+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "223_556",
-          "condition": "New",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "current_cash_price",
-          "price_usd": 448.99,
-          "product_category": "factory_ammunition",
-          "round_count": 1000,
-          "selected_quantity_label": "1000 rounds",
-          "selected_variant": "",
-          "seller": "Stunomma Sports",
-          "shipping_usd": 0.0,
-          "source": "Stunomma",
-          "target_id": "223-556-1000-rounds-under-470",
-          "tax_status": "sales tax excluded; amount unknown",
-          "title": "PMC BRONZE 223REM 55GR FMJ 1000 Rounds Free Shipping! 223A",
-          "total_usd": 448.99,
-          "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
-          "verified_at": "2026-11-10T18:22:08.887025+00:00",
-          "why_good": "New factory-loaded .223 Remington FMJ, exactly 1000 rounds, in stock, with unconditional free shipping; sales tax excluded separately."
-        },
         {
           "availability": "available",
           "cartridge": "223_556",
@@ -214,22 +189,74 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-11T17:19:50.532167+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
+      "started_at": "2026-11-11T18:19:50.265170+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
       "verified_count": 0
     },
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used; fully operational",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 54.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "hakuinternational",
+            "shipping_usd": 5.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
+            "total_usd": 59.0,
+            "url": "https://www.ebay.com/itm/277403999856",
+            "verified_at": "2026-11-11T18:23:35.694166+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 86231,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-11-11T17:22:30.059114+00:00",
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used; fully operational",
+          "confidence": 0.86,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 54.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "hakuinternational",
+          "shipping_usd": 5.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
+          "total_usd": 59.0,
+          "url": "https://www.ebay.com/itm/277403999856",
+          "verified_at": "2026-11-11T18:23:35.694166+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64."
+        }
+      ],
+      "duration_ms": 95303,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-11T18:23:35.694738+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -365,31 +392,6 @@
           "availability": "available",
           "cartridge": "",
           "condition": "Used",
-          "confidence": 0.95,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 54.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "hakuinternational",
-          "shipping_usd": 5.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
-          "total_usd": 59.0,
-          "url": "https://www.ebay.com/itm/277403999856",
-          "verified_at": "2026-11-11T13:23:27.289573+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now and verified $5 US shipping."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
           "confidence": 0.97,
           "delivery_country": "United States",
           "market_label": "US",
@@ -416,20 +418,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used; fully operational",
+            "confidence": 0.86,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 54.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "hakuinternational",
+            "shipping_usd": 5.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
+            "total_usd": 59.0,
+            "url": "https://www.ebay.com/itm/277403999856",
+            "verified_at": "2026-11-11T18:23:35.694166+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, numeric US shipping, and total below $64."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-11T17:21:03.827728+00:00",
-      "status": "incomplete",
-      "verification_error_count": 1,
-      "verified_count": 0
+      "started_at": "2026-11-11T18:22:00.392160+00:00",
+      "status": "ok",
+      "verification_error_count": 0,
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -438,10 +464,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 76823,
+      "duration_ms": 72373,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-11T17:23:46.882295+00:00",
+      "finished_at": "2026-11-11T18:24:48.068222+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -462,7 +488,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-11T17:22:30.059190+00:00",
+      "started_at": "2026-11-11T18:23:35.695536+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -474,10 +500,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 46307,
+      "duration_ms": 51290,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-11T17:24:33.189255+00:00",
+      "finished_at": "2026-11-11T18:25:39.358112+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -498,7 +524,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-11T17:23:46.882354+00:00",
+      "started_at": "2026-11-11T18:24:48.068280+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -510,10 +536,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 121354,
+      "duration_ms": 121043,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-11T17:26:34.543358+00:00",
+      "finished_at": "2026-11-11T18:27:40.401515+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
@@ -560,7 +586,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-11T17:24:33.189314+00:00",
+      "started_at": "2026-11-11T18:25:39.358172+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
