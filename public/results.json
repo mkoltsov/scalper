@@ -10,14 +10,14 @@
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
   "dry_run": false,
-  "exit_code": 1,
-  "finished_at": "2026-11-12T10:25:25.597895+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-11-12T11:26:21.223328+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 7; exit code: 1",
-    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Scan scope: complete; selected targets: 7; exit code: 0",
+    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=1; normalized=1; verified=1",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 4: status=ok; error=none; raw=2; normalized=2; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 7: status=ok; error=none; raw=0; normalized=0; verified=0"
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-12T10:17:05.783121+00:00",
+  "started_at": "2026-11-12T11:17:05.606550+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 54723,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-11-12T10:18:00.507890+00:00",
+      "duration_ms": 77294,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-12T11:18:22.902486+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,8 +66,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-12T10:17:05.785446+00:00",
-      "status": "incomplete",
+      "started_at": "2026-11-12T11:17:05.608819+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 17463,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-11-12T10:18:17.970468+00:00",
+      "duration_ms": 62485,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-12T11:19:25.387878+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,8 +102,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-12T10:18:00.507957+00:00",
-      "status": "incomplete",
+      "started_at": "2026-11-12T11:18:22.902553+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -116,7 +116,7 @@
             "availability": "available",
             "cartridge": "223_556",
             "condition": "New",
-            "confidence": 0.96,
+            "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -126,7 +126,7 @@
             "round_count": 1000,
             "selected_quantity_label": "1000 rounds",
             "selected_variant": "",
-            "seller": "Stunomma Sports",
+            "seller": "Stunomma",
             "shipping_usd": 0.0,
             "source": "Stunomma",
             "target_id": "223-556-1000-rounds-under-470",
@@ -134,8 +134,8 @@
             "title": "PMC BRONZE 223REM 55GR FMJ 1000 Rounds Free Shipping! 223A",
             "total_usd": 448.99,
             "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
-            "verified_at": "2026-11-12T10:20:12.130658+00:00",
-            "why_good": "New factory-loaded .223 Remington FMJ, exactly 1000 rounds, in stock with active Add to cart, and unconditional free shipping on case orders. Sales tax excluded and shown separately at checkout."
+            "verified_at": "2026-11-12T11:21:05.701228+00:00",
+            "why_good": "Exactly 1000 rounds of new .223 Remington factory-loaded FMJ; in stock with active purchase action and unconditional free shipping on case orders. Sales tax is separate and excluded."
           }
         ]
       },
@@ -144,7 +144,7 @@
           "availability": "available",
           "cartridge": "223_556",
           "condition": "New",
-          "confidence": 0.96,
+          "confidence": 0.98,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -154,7 +154,7 @@
           "round_count": 1000,
           "selected_quantity_label": "1000 rounds",
           "selected_variant": "",
-          "seller": "Stunomma Sports",
+          "seller": "Stunomma",
           "shipping_usd": 0.0,
           "source": "Stunomma",
           "target_id": "223-556-1000-rounds-under-470",
@@ -162,14 +162,14 @@
           "title": "PMC BRONZE 223REM 55GR FMJ 1000 Rounds Free Shipping! 223A",
           "total_usd": 448.99,
           "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
-          "verified_at": "2026-11-12T10:20:12.130658+00:00",
-          "why_good": "New factory-loaded .223 Remington FMJ, exactly 1000 rounds, in stock with active Add to cart, and unconditional free shipping on case orders. Sales tax excluded and shown separately at checkout."
+          "verified_at": "2026-11-12T11:21:05.701228+00:00",
+          "why_good": "Exactly 1000 rounds of new .223 Remington factory-loaded FMJ; in stock with active purchase action and unconditional free shipping on case orders. Sales tax is separate and excluded."
         }
       ],
-      "duration_ms": 114161,
+      "duration_ms": 100314,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-12T10:20:12.131373+00:00",
+      "finished_at": "2026-11-12T11:21:05.701912+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -184,7 +184,7 @@
             "availability": "available",
             "cartridge": "223_556",
             "condition": "New",
-            "confidence": 0.96,
+            "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -194,7 +194,7 @@
             "round_count": 1000,
             "selected_quantity_label": "1000 rounds",
             "selected_variant": "",
-            "seller": "Stunomma Sports",
+            "seller": "Stunomma",
             "shipping_usd": 0.0,
             "source": "Stunomma",
             "target_id": "223-556-1000-rounds-under-470",
@@ -202,8 +202,8 @@
             "title": "PMC BRONZE 223REM 55GR FMJ 1000 Rounds Free Shipping! 223A",
             "total_usd": 448.99,
             "url": "https://stunomma.com/product/pmc-brnz-223rem-55gr-fmj-1000-223a/",
-            "verified_at": "2026-11-12T10:20:12.130658+00:00",
-            "why_good": "New factory-loaded .223 Remington FMJ, exactly 1000 rounds, in stock with active Add to cart, and unconditional free shipping on case orders. Sales tax excluded and shown separately at checkout."
+            "verified_at": "2026-11-12T11:21:05.701228+00:00",
+            "why_good": "Exactly 1000 rounds of new .223 Remington factory-loaded FMJ; in stock with active purchase action and unconditional free shipping on case orders. Sales tax is separate and excluded."
           }
         },
         "counts": {
@@ -214,7 +214,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-12T10:18:17.970540+00:00",
+      "started_at": "2026-11-12T11:19:25.387941+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
@@ -226,15 +226,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 115282,
+      "duration_ms": 101147,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-12T10:22:07.414027+00:00",
+      "finished_at": "2026-11-12T11:22:46.849716+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -401,7 +401,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-12T10:20:12.131796+00:00",
+      "started_at": "2026-11-12T11:21:05.702309+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -413,10 +413,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 57278,
+      "duration_ms": 35978,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-12T10:23:04.692016+00:00",
+      "finished_at": "2026-11-12T11:23:22.827908+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -437,7 +437,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-12T10:22:07.414091+00:00",
+      "started_at": "2026-11-12T11:22:46.849779+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -449,10 +449,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 45348,
+      "duration_ms": 81870,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-12T10:23:50.040444+00:00",
+      "finished_at": "2026-11-12T11:24:44.698387+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -473,7 +473,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-12T10:23:04.692064+00:00",
+      "started_at": "2026-11-12T11:23:22.827968+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -485,10 +485,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 95557,
+      "duration_ms": 96524,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-12T10:25:25.597625+00:00",
+      "finished_at": "2026-11-12T11:26:21.222865+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
@@ -535,7 +535,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-12T10:23:50.040507+00:00",
+      "started_at": "2026-11-12T11:24:44.698446+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
