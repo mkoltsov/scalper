@@ -11,16 +11,16 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-14T05:24:33.853009+00:00",
+  "finished_at": "2026-11-14T06:23:40.591028+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 2: status=error; error=search_failed; raw=0; normalized=0; verified=0",
     "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 4: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=0",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=3; normalized=3; verified=1",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 7: status=ok; error=none; raw=1; normalized=1; verified=1"
+    "Target 7: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-14T05:17:05.346819+00:00",
+  "started_at": "2026-11-14T06:17:05.305436+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 52477,
+      "duration_ms": 77800,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T05:17:57.826061+00:00",
+      "finished_at": "2026-11-14T06:18:23.107929+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T05:17:05.349103+00:00",
+      "started_at": "2026-11-14T06:17:05.307687+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 62003,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-11-14T05:18:59.828950+00:00",
+      "duration_ms": 22639,
+      "empty_message": "Search failed. No conclusion about current availability.",
+      "error_code": "search_failed",
+      "finished_at": "2026-11-14T06:18:45.746521+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,9 +102,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T05:17:57.826128+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
+      "started_at": "2026-11-14T06:18:23.107997+00:00",
+      "status": "error",
       "verified_count": 0
     },
     {
@@ -114,10 +113,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 34825,
+      "duration_ms": 18161,
       "empty_message": "Search did not run every configured query. No conclusion about current availability.",
       "error_code": "search_incomplete",
-      "finished_at": "2026-11-14T05:19:34.653773+00:00",
+      "finished_at": "2026-11-14T06:19:03.911584+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -164,7 +163,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T05:18:59.829016+00:00",
+      "started_at": "2026-11-14T06:18:45.750850+00:00",
       "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
@@ -173,18 +172,70 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used",
+            "confidence": 0.95,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 24.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "The Short Dog 2023",
+            "shipping_usd": 8.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
+            "total_usd": 32.99,
+            "url": "https://www.ebay.com/itm/135741011661",
+            "verified_at": "2026-11-14T06:20:53.712363+00:00",
+            "why_good": "Fitbit Luxe tracker with active Buy It Now, numeric USPS shipping, and operational used-item condition; sales tax not included."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 120602,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.95,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 24.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "The Short Dog 2023",
+          "shipping_usd": 8.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
+          "total_usd": 32.99,
+          "url": "https://www.ebay.com/itm/135741011661",
+          "verified_at": "2026-11-14T06:20:53.712363+00:00",
+          "why_good": "Fitbit Luxe tracker with active Buy It Now, numeric USPS shipping, and operational used-item condition; sales tax not included."
+        }
+      ],
+      "duration_ms": 112554,
       "empty_message": "Some listing checks failed. This scan is incomplete.",
       "error_code": "verification_incomplete",
-      "finished_at": "2026-11-14T05:21:35.256244+00:00",
+      "finished_at": "2026-11-14T06:20:56.465812+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 3,
+      "raw_count": 3,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -210,31 +261,6 @@
           "url": "https://www.ebay.com/p/19046142600?iid=126618244766",
           "verified_at": "2026-11-13T10:21:25.104980+00:00",
           "why_good": "Listing explicitly states working condition and shows numeric US shipping with active Buy It Now."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.86,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 24.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "The Short Dog 2023",
-          "shipping_usd": 8.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
-          "total_usd": 32.99,
-          "url": "https://www.ebay.com/itm/135741011661",
-          "verified_at": "2026-11-13T18:24:39.017184+00:00",
-          "why_good": "Active Buy It Now Fitbit Luxe listing with visible $8 US shipping; total is under $64 before sales tax."
         },
         {
           "availability": "available",
@@ -291,20 +317,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used",
+            "confidence": 0.95,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 24.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "The Short Dog 2023",
+            "shipping_usd": 8.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe - Fitness & Wellness Activity Tracker FB422 Heart Rate Monitor Gold",
+            "total_usd": 32.99,
+            "url": "https://www.ebay.com/itm/135741011661",
+            "verified_at": "2026-11-14T06:20:53.712363+00:00",
+            "why_good": "Fitbit Luxe tracker with active Buy It Now, numeric USPS shipping, and operational used-item condition; sales tax not included."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T05:19:34.653833+00:00",
+      "started_at": "2026-11-14T06:19:03.911650+00:00",
       "status": "incomplete",
       "verification_error_count": 1,
-      "verified_count": 0
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -313,10 +363,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 33002,
+      "duration_ms": 45795,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T05:22:08.258274+00:00",
+      "finished_at": "2026-11-14T06:21:42.261335+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -337,7 +387,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T05:21:35.256311+00:00",
+      "started_at": "2026-11-14T06:20:56.466553+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -349,10 +399,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 70072,
+      "duration_ms": 31586,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T05:23:18.330548+00:00",
+      "finished_at": "2026-11-14T06:22:13.847017+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -399,7 +449,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T05:22:08.258358+00:00",
+      "started_at": "2026-11-14T06:21:42.261398+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -408,35 +458,19 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New",
-            "confidence": 0.98,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 2490.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "A2ZeMart",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-            "tax_status": "",
-            "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
-            "total_usd": 2490.0,
-            "url": "https://www.ebay.com/itm/168814092983",
-            "verified_at": "2026-11-14T05:24:33.851662+00:00",
-            "why_good": "Buy It Now listing explicitly shows Apple Mac mini with Apple M4 Pro chip and 64 GB RAM; brand new, complete desktop, free US FedEx shipping, total $2490 before tax."
-          }
-        ]
+        "us": []
       },
-      "deals": [
+      "deals": [],
+      "duration_ms": 86744,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-14T06:23:40.590774+00:00",
+      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
+      "max_price_usd": 2500,
+      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
+      "normalized_count": 0,
+      "raw_count": 0,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -463,58 +497,24 @@
           "why_good": "Buy It Now listing explicitly shows Apple Mac mini with Apple M4 Pro chip and 64 GB RAM; brand new, complete desktop, free US FedEx shipping, total $2490 before tax."
         }
       ],
-      "duration_ms": 75522,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-14T05:24:33.852171+00:00",
-      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
-      "max_price_usd": 2500,
-      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 1,
-      "raw_count": 1,
-      "recently_verified_deals": [],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New",
-            "confidence": 0.98,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 2490.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "A2ZeMart",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-            "tax_status": "",
-            "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
-            "total_usd": 2490.0,
-            "url": "https://www.ebay.com/itm/168814092983",
-            "verified_at": "2026-11-14T05:24:33.851662+00:00",
-            "why_good": "Buy It Now listing explicitly shows Apple Mac mini with Apple M4 Pro chip and 64 GB RAM; brand new, complete desktop, free US FedEx shipping, total $2490 before tax."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T05:23:18.330610+00:00",
+      "started_at": "2026-11-14T06:22:13.847114+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     }
   ]
 }
