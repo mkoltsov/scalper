@@ -11,13 +11,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-14T18:25:04.163792+00:00",
+  "finished_at": "2026-11-14T19:24:26.095367+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=1",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 7: status=ok; error=none; raw=0; normalized=0; verified=0"
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-14T18:17:05.227303+00:00",
+  "started_at": "2026-11-14T19:17:05.449244+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 78068,
+      "duration_ms": 60861,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T18:18:23.297457+00:00",
+      "finished_at": "2026-11-14T19:18:06.312693+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T18:17:05.229621+00:00",
+      "started_at": "2026-11-14T19:17:05.451465+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 58100,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-11-14T18:19:21.397101+00:00",
+      "duration_ms": 19556,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-11-14T19:18:25.868242+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,8 +102,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T18:18:23.297525+00:00",
-      "status": "ok",
+      "started_at": "2026-11-14T19:18:06.312761+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -114,10 +114,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 44214,
+      "duration_ms": 95740,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-14T18:20:05.611158+00:00",
+      "finished_at": "2026-11-14T19:20:01.608296+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -164,7 +164,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T18:19:21.397167+00:00",
+      "started_at": "2026-11-14T19:18:25.868304+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -173,18 +173,70 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used",
+            "confidence": 0.9,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 38.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "Renew Tech",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite (FB422BKBK)",
+            "total_usd": 38.99,
+            "url": "https://www.ebay.com/p/5050869704?iid=237000029074",
+            "verified_at": "2026-11-14T19:21:34.494167+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now action and explicit free shipping."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 64787,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.9,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 38.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Renew Tech",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite (FB422BKBK)",
+          "total_usd": 38.99,
+          "url": "https://www.ebay.com/p/5050869704?iid=237000029074",
+          "verified_at": "2026-11-14T19:21:34.494167+00:00",
+          "why_good": "Working Fitbit Luxe with active Buy It Now action and explicit free shipping."
+        }
+      ],
+      "duration_ms": 92886,
       "empty_message": "Some listing checks failed. This scan is incomplete.",
       "error_code": "verification_incomplete",
-      "finished_at": "2026-11-14T18:21:10.398274+00:00",
+      "finished_at": "2026-11-14T19:21:34.494795+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -266,20 +318,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used",
+            "confidence": 0.9,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 38.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "Renew Tech",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit - Luxe Fitness & Wellness Tracker - Graphite (FB422BKBK)",
+            "total_usd": 38.99,
+            "url": "https://www.ebay.com/p/5050869704?iid=237000029074",
+            "verified_at": "2026-11-14T19:21:34.494167+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now action and explicit free shipping."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T18:20:05.611218+00:00",
+      "started_at": "2026-11-14T19:20:01.608355+00:00",
       "status": "incomplete",
       "verification_error_count": 1,
-      "verified_count": 0
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -288,10 +364,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 53485,
+      "duration_ms": 45057,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T18:22:03.883182+00:00",
+      "finished_at": "2026-11-14T19:22:19.552392+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -312,7 +388,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T18:21:10.398336+00:00",
+      "started_at": "2026-11-14T19:21:34.495628+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -324,10 +400,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 64256,
+      "duration_ms": 71024,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T18:23:08.139527+00:00",
+      "finished_at": "2026-11-14T19:23:30.576622+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -348,7 +424,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T18:22:03.883242+00:00",
+      "started_at": "2026-11-14T19:22:19.552450+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -360,10 +436,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 116024,
+      "duration_ms": 55518,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T18:25:04.163544+00:00",
+      "finished_at": "2026-11-14T19:24:26.095121+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
@@ -410,7 +486,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T18:23:08.139585+00:00",
+      "started_at": "2026-11-14T19:23:30.576683+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
