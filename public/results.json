@@ -11,11 +11,11 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-14T11:22:34.136168+00:00",
+  "finished_at": "2026-11-14T12:24:57.458999+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 4: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-14T11:17:05.662538+00:00",
+  "started_at": "2026-11-14T12:17:05.521295+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 80900,
+      "duration_ms": 65113,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T11:18:26.564957+00:00",
+      "finished_at": "2026-11-14T12:18:10.636416+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T11:17:05.664784+00:00",
+      "started_at": "2026-11-14T12:17:05.523526+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 18343,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-11-14T11:18:44.907767+00:00",
+      "duration_ms": 41138,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-14T12:18:51.773966+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,8 +102,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T11:18:26.565027+00:00",
-      "status": "incomplete",
+      "started_at": "2026-11-14T12:18:10.636483+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -114,10 +114,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 36523,
+      "duration_ms": 55495,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-14T11:19:21.430337+00:00",
+      "finished_at": "2026-11-14T12:19:47.269040+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -138,7 +138,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T11:18:44.907830+00:00",
+      "started_at": "2026-11-14T12:18:51.774029+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -150,10 +150,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 43236,
+      "duration_ms": 48855,
       "empty_message": "Some listing checks failed. This scan is incomplete.",
       "error_code": "verification_incomplete",
-      "finished_at": "2026-11-14T11:20:04.666165+00:00",
+      "finished_at": "2026-11-14T12:20:36.124205+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -250,7 +250,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T11:19:21.430398+00:00",
+      "started_at": "2026-11-14T12:19:47.269110+00:00",
       "status": "incomplete",
       "verification_error_count": 1,
       "verified_count": 0
@@ -262,10 +262,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 51397,
+      "duration_ms": 35467,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T11:20:56.063613+00:00",
+      "finished_at": "2026-11-14T12:21:11.590950+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -286,7 +286,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T11:20:04.666228+00:00",
+      "started_at": "2026-11-14T12:20:36.124269+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -298,10 +298,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 49534,
+      "duration_ms": 140380,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T11:21:45.597862+00:00",
+      "finished_at": "2026-11-14T12:23:31.970803+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -348,7 +348,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T11:20:56.063671+00:00",
+      "started_at": "2026-11-14T12:21:11.591008+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -360,10 +360,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 48538,
+      "duration_ms": 85488,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T11:22:34.135933+00:00",
+      "finished_at": "2026-11-14T12:24:57.458770+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
@@ -410,7 +410,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T11:21:45.597921+00:00",
+      "started_at": "2026-11-14T12:23:31.970863+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
