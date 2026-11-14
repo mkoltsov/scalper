@@ -11,16 +11,16 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-14T08:23:32.053053+00:00",
+  "finished_at": "2026-11-14T09:24:36.050375+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=0",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=3; normalized=3; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 7: status=ok; error=none; raw=0; normalized=0; verified=0"
+    "Target 7: status=ok; error=none; raw=1; normalized=1; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-14T08:17:05.964777+00:00",
+  "started_at": "2026-11-14T09:17:05.793084+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 60167,
+      "duration_ms": 66639,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T08:18:06.134850+00:00",
+      "finished_at": "2026-11-14T09:18:12.433792+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T08:17:05.967443+00:00",
+      "started_at": "2026-11-14T09:17:05.795349+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 22792,
+      "duration_ms": 19180,
       "empty_message": "Search did not run every configured query. No conclusion about current availability.",
       "error_code": "search_incomplete",
-      "finished_at": "2026-11-14T08:18:28.927206+00:00",
+      "finished_at": "2026-11-14T09:18:31.614312+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,7 +102,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T08:18:06.134925+00:00",
+      "started_at": "2026-11-14T09:18:12.433867+00:00",
       "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
@@ -114,10 +114,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 51728,
+      "duration_ms": 63204,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-14T08:19:20.655026+00:00",
+      "finished_at": "2026-11-14T09:19:34.818229+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -164,7 +164,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T08:18:28.927270+00:00",
+      "started_at": "2026-11-14T09:18:31.614375+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -176,15 +176,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 100988,
+      "duration_ms": 90325,
       "empty_message": "Some listing checks failed. This scan is incomplete.",
       "error_code": "verification_incomplete",
-      "finished_at": "2026-11-14T08:21:01.643232+00:00",
+      "finished_at": "2026-11-14T09:21:05.143733+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 3,
+      "raw_count": 3,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -301,7 +301,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T08:19:20.655085+00:00",
+      "started_at": "2026-11-14T09:19:34.818289+00:00",
       "status": "incomplete",
       "verification_error_count": 1,
       "verified_count": 0
@@ -313,10 +313,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 29456,
+      "duration_ms": 39915,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T08:21:31.098826+00:00",
+      "finished_at": "2026-11-14T09:21:45.058627+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -337,7 +337,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T08:21:01.643295+00:00",
+      "started_at": "2026-11-14T09:21:05.143809+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -349,10 +349,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 42458,
+      "duration_ms": 66435,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-14T08:22:13.557224+00:00",
+      "finished_at": "2026-11-14T09:22:51.493458+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -399,7 +399,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T08:21:31.098886+00:00",
+      "started_at": "2026-11-14T09:21:45.058688+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -408,19 +408,35 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 2490.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "A2ZeMart",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+            "tax_status": "",
+            "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
+            "total_usd": 2490.0,
+            "url": "https://www.ebay.com/itm/168814092983",
+            "verified_at": "2026-11-14T09:24:36.048659+00:00",
+            "why_good": "Complete new Apple Mac mini with M4 Pro chip and 64 GB RAM; active Buy It Now listing with unconditional free US shipping, totaling $2,490 before tax."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 78496,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-14T08:23:32.052764+00:00",
-      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
-      "max_price_usd": 2500,
-      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 0,
-      "raw_count": 0,
-      "recently_verified_deals": [
+      "deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -443,28 +459,62 @@
           "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
           "total_usd": 2490.0,
           "url": "https://www.ebay.com/itm/168814092983",
-          "verified_at": "2026-11-14T05:24:33.851662+00:00",
-          "why_good": "Buy It Now listing explicitly shows Apple Mac mini with Apple M4 Pro chip and 64 GB RAM; brand new, complete desktop, free US FedEx shipping, total $2490 before tax."
+          "verified_at": "2026-11-14T09:24:36.048659+00:00",
+          "why_good": "Complete new Apple Mac mini with M4 Pro chip and 64 GB RAM; active Buy It Now listing with unconditional free US shipping, totaling $2,490 before tax."
         }
       ],
+      "duration_ms": 104556,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-14T09:24:36.049353+00:00",
+      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
+      "max_price_usd": 2500,
+      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
+      "normalized_count": 1,
+      "raw_count": 1,
+      "recently_verified_deals": [],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "New",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 2490.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "A2ZeMart",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+            "tax_status": "",
+            "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
+            "total_usd": 2490.0,
+            "url": "https://www.ebay.com/itm/168814092983",
+            "verified_at": "2026-11-14T09:24:36.048659+00:00",
+            "why_good": "Complete new Apple Mac mini with M4 Pro chip and 64 GB RAM; active Buy It Now listing with unconditional free US shipping, totaling $2,490 before tax."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-14T08:22:13.557285+00:00",
+      "started_at": "2026-11-14T09:22:51.493519+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 1
     }
   ]
 }
