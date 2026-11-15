@@ -49,8 +49,8 @@
     <header>
       <div class="eyebrow">Live deal monitor</div>
       <h1>Scalper Results</h1>
-      <p>Latest run: 2026-11-15T22:26:26.580825+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
-      <p class="error">1 target scan(s) failed or are incomplete.</p>
+      <p>Latest run: 2026-11-15T23:24:40.925236+00:00. Results include only listings that passed availability, shipping, price, and direct-listing checks.</p>
+      <p class="error">3 target scan(s) failed or are incomplete.</p>
       <nav>
         <a href="#results">Results</a>
         <a href="#add-target">Add target</a>
@@ -73,10 +73,10 @@
             <section class="target">
               <div class="target-head">
                 <h1>9x19 / 9mm, 1000 rounds, under US$257</h1>
-                <span>Scan complete · 0 verified matches</span>
+                <span>Scan incomplete · 0 verified matches</span>
               </div>
 
-              <p class="empty">No currently verified offer qualified.</p>
+              <p class="empty">Search did not run every configured query. No conclusion about current availability.</p>
             </section>
 
             <section class="target">
@@ -91,10 +91,53 @@
             <section class="target">
               <div class="target-head">
                 <h1>Fitbit Luxe under US$64</h1>
-                <span>Scan incomplete · 0 verified matches</span>
+                <span>Scan incomplete · 1 verified match</span>
+              </div>
+                    <p class="error">Some listing checks failed. This scan is incomplete.</p>
+
+              <div class="market-summary">
+
+                <div class="metric">
+                  <span>US best</span>
+                  <strong>$40.29</strong>
+                  <small>eBay</small>
+                </div>
+
+
+                <div class="metric">
+                  <span>EU best</span>
+                  <strong>No match</strong>
+                  <small>Latest run</small>
+                </div>
+
+
+                <div class="metric">
+                  <span>EU premium</span>
+                  <strong>Needs both</strong>
+                  <small>US and EU match required</small>
+                </div>
+
               </div>
 
-              <p class="empty">Some listing checks failed. This scan is incomplete.</p><div class="region-group recently-verified"><h2>Recently verified · not confirmed in this scan</h2><p class="empty">These offers passed listing checks within the past 24 hours, but this scan did not rediscover them. Check the listing before buying.</p>
+              <div class="region-group">
+                <h2>US</h2>
+
+                <article class="deal">
+                  <div class="meta"><span class="badge">US</span> eBay · $40.29 · United States</div>
+                  <h2><a href="https://www.ebay.com/itm/365689955256" rel="nofollow noopener">Fitbit Luxe Activity Tracker - Beige Band with Charger, Small</a></h2>
+                  <p>Used; eBay condition states fully operational and functions as intended</p>
+<p>Item $31.99 · Shipping $8.30 · Total $40.29</p>
+<p>Verified 2026-11-15T23:21:20.139588+00:00</p>
+                  <p>Active Buy It Now listing for the exact Fitbit Luxe model with visible USPS shipping charge and total below $64 before tax.</p>
+                </article>
+
+              </div>
+
+              <div class="region-group">
+                <h2>EU/Europe</h2>
+                <p class="empty">No qualifying listings in this market.</p>
+              </div>
+    <div class="region-group recently-verified"><h2>Recently verified · not confirmed in this scan</h2><p class="empty">These offers passed listing checks within the past 24 hours, but this scan did not rediscover them. Check the listing before buying.</p>
                 <article class="deal">
                   <div class="meta"><span class="badge">US</span> eBay · $59.98 · United States</div>
                   <h2><a href="https://www.ebay.com/itm/126618244766" rel="nofollow noopener">Fitbit Luxe Activity Tracker FB422BKBK Black Band Used Working</a></h2>
@@ -157,10 +200,10 @@
             <section class="target">
               <div class="target-head">
                 <h1>Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500</h1>
-                <span>Scan complete · 0 verified matches</span>
+                <span>Scan incomplete · 0 verified matches</span>
               </div>
 
-              <p class="empty">No available qualifying listings found in the latest run.</p><div class="region-group recently-verified"><h2>Recently verified · not confirmed in this scan</h2><p class="empty">These offers passed listing checks within the past 24 hours, but this scan did not rediscover them. Check the listing before buying.</p>
+              <p class="empty">Search did not run every configured query. No conclusion about current availability.</p><div class="region-group recently-verified"><h2>Recently verified · not confirmed in this scan</h2><p class="empty">These offers passed listing checks within the past 24 hours, but this scan did not rediscover them. Check the listing before buying.</p>
                 <article class="deal">
                   <div class="meta"><span class="badge">US</span> eBay · $2490.00 · United States</div>
                   <h2><a href="https://www.ebay.com/itm/168814092983" rel="nofollow noopener">Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New</a></h2>
@@ -233,12 +276,12 @@
       </div>
       <pre>Scan scope: complete; selected targets: 7; exit code: 1
 Target 1: status=ok; error=none; raw=0; normalized=0; verified=0
-Target 2: status=ok; error=none; raw=0; normalized=0; verified=0
+Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0
 Target 3: status=ok; error=none; raw=0; normalized=0; verified=0
-Target 4: status=incomplete; error=verification_incomplete; raw=3; normalized=3; verified=0
+Target 4: status=incomplete; error=verification_incomplete; raw=3; normalized=3; verified=1
 Target 5: status=ok; error=none; raw=0; normalized=0; verified=0
 Target 6: status=ok; error=none; raw=0; normalized=0; verified=0
-Target 7: status=ok; error=none; raw=0; normalized=0; verified=0</pre>
+Target 7: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0</pre>
     </section>
   </main>
   <script src="app.js"></script>
