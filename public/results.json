@@ -11,15 +11,15 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-16T19:26:52.552447+00:00",
+  "finished_at": "2026-11-16T20:25:27.347258+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=0",
+    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=1",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=1; normalized=1; verified=1",
+    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 7: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
   "schema_version": 2,
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-16T19:17:05.207729+00:00",
+  "started_at": "2026-11-16T20:17:05.103998+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 65894,
+      "duration_ms": 98289,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-16T19:18:11.104539+00:00",
+      "finished_at": "2026-11-16T20:18:43.395587+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-16T19:17:05.210243+00:00",
+      "started_at": "2026-11-16T20:17:05.106282+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 28573,
+      "duration_ms": 91158,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-16T19:18:39.677202+00:00",
+      "finished_at": "2026-11-16T20:20:14.553471+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,7 +102,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-16T19:18:11.104604+00:00",
+      "started_at": "2026-11-16T20:18:43.395656+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -114,10 +114,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 89810,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-11-16T19:20:09.487086+00:00",
+      "duration_ms": 19725,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-11-16T20:20:34.278607+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -138,8 +138,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-16T19:18:39.677268+00:00",
-      "status": "ok",
+      "started_at": "2026-11-16T20:20:14.553533+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -147,13 +147,65 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "New other; tested and working; 30-day warranty",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 59.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "thegreatdealz16",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
+            "total_usd": 59.99,
+            "url": "https://www.ebay.com/itm/117148205137",
+            "verified_at": "2026-11-16T20:21:53.289695+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, free US delivery, and verified working condition."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 150155,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "New other; tested and working; 30-day warranty",
+          "confidence": 0.97,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 59.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "thegreatdealz16",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
+          "total_usd": 59.99,
+          "url": "https://www.ebay.com/itm/117148205137",
+          "verified_at": "2026-11-16T20:21:53.289695+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, free US delivery, and verified working condition."
+        }
+      ],
+      "duration_ms": 79315,
       "empty_message": "Some listing checks failed. This scan is incomplete.",
       "error_code": "verification_incomplete",
-      "finished_at": "2026-11-16T19:22:39.642364+00:00",
+      "finished_at": "2026-11-16T20:21:53.593663+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -238,31 +290,6 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "New other; tested and working",
-          "confidence": 0.99,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 59.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "thegreatdealz16",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
-          "total_usd": 59.99,
-          "url": "https://www.ebay.com/itm/117148205137",
-          "verified_at": "2026-11-16T12:22:17.545735+00:00",
-          "why_good": "Exact Fitbit Luxe listing with Buy It Now, more than 10 available, tested working condition, and free US delivery."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
           "condition": "Used",
           "confidence": 0.93,
           "delivery_country": "United States",
@@ -315,20 +342,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "New other; tested and working; 30-day warranty",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 59.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "thegreatdealz16",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
+            "total_usd": 59.99,
+            "url": "https://www.ebay.com/itm/117148205137",
+            "verified_at": "2026-11-16T20:21:53.289695+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, free US delivery, and verified working condition."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-16T19:20:09.487149+00:00",
+      "started_at": "2026-11-16T20:20:34.278666+00:00",
       "status": "incomplete",
       "verification_error_count": 1,
-      "verified_count": 0
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -337,10 +388,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 40534,
+      "duration_ms": 48242,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-16T19:23:20.176746+00:00",
+      "finished_at": "2026-11-16T20:22:41.836275+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -361,7 +412,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-16T19:22:39.642427+00:00",
+      "started_at": "2026-11-16T20:21:53.594497+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -370,35 +421,19 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New",
-            "confidence": 0.9,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 156.33,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Optical-Fire",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-            "tax_status": "",
-            "title": "Zulisy S6-GM 6 MOA Red Dot Sight for Full Size Gen 4-5 Glock 17 MOS Direct Mount",
-            "total_usd": 156.33,
-            "url": "https://www.ebay.com/itm/397863886397",
-            "verified_at": "2026-11-16T19:25:15.432676+00:00",
-            "why_good": "Complete new red-dot optic with Buy It Now, more than 10 available, and explicit free US shipping. Manufacturer listing confirms S6-GM direct-mount compatibility with Gen 4/5 full-size Glock MOS pistols including G19: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos. Sales tax may apply separately at checkout."
-          }
-        ]
+        "us": []
       },
-      "deals": [
+      "deals": [],
+      "duration_ms": 45556,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-16T20:23:27.392368+00:00",
+      "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
+      "max_price_usd": 190,
+      "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
+      "normalized_count": 0,
+      "raw_count": 0,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -425,58 +460,24 @@
           "why_good": "Complete new red-dot optic with Buy It Now, more than 10 available, and explicit free US shipping. Manufacturer listing confirms S6-GM direct-mount compatibility with Gen 4/5 full-size Glock MOS pistols including G19: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos. Sales tax may apply separately at checkout."
         }
       ],
-      "duration_ms": 115257,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-16T19:25:15.433453+00:00",
-      "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-      "max_price_usd": 190,
-      "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
-      "normalized_count": 1,
-      "raw_count": 1,
-      "recently_verified_deals": [],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New",
-            "confidence": 0.9,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 156.33,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "Optical-Fire",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-            "tax_status": "",
-            "title": "Zulisy S6-GM 6 MOA Red Dot Sight for Full Size Gen 4-5 Glock 17 MOS Direct Mount",
-            "total_usd": 156.33,
-            "url": "https://www.ebay.com/itm/397863886397",
-            "verified_at": "2026-11-16T19:25:15.432676+00:00",
-            "why_good": "Complete new red-dot optic with Buy It Now, more than 10 available, and explicit free US shipping. Manufacturer listing confirms S6-GM direct-mount compatibility with Gen 4/5 full-size Glock MOS pistols including G19: https://www.zulisyoptics.com/products/zulisy-s6-gm-large-window-6-moa-red-dot-sight-for-glock-17-19-mos-gen-4-5-direct-mount-does-not-fit-g43x-mos-or-g48-mos. Sales tax may apply separately at checkout."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-16T19:23:20.176805+00:00",
+      "started_at": "2026-11-16T20:22:41.836334+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     },
     {
       "deal_groups": {
@@ -485,10 +486,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 97118,
+      "duration_ms": 119955,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-16T19:26:52.552177+00:00",
+      "finished_at": "2026-11-16T20:25:27.346910+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
@@ -560,7 +561,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-16T19:25:15.434448+00:00",
+      "started_at": "2026-11-16T20:23:27.392426+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
