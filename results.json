@@ -11,12 +11,12 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-18T18:24:16.167525+00:00",
+  "finished_at": "2026-11-18T19:24:53.387379+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=2; normalized=2; verified=0",
     "Target 4: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-18T18:17:05.199761+00:00",
+  "started_at": "2026-11-18T19:17:05.070870+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 89297,
+      "duration_ms": 63377,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-18T18:18:34.499381+00:00",
+      "finished_at": "2026-11-18T19:18:08.449833+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T18:17:05.202051+00:00",
+      "started_at": "2026-11-18T19:17:05.073344+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 40373,
+      "duration_ms": 73556,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-18T18:19:14.872585+00:00",
+      "finished_at": "2026-11-18T19:19:22.005853+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,7 +102,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T18:18:34.499448+00:00",
+      "started_at": "2026-11-18T19:18:08.449902+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -114,15 +114,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 25306,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-11-18T18:19:40.178656+00:00",
+      "duration_ms": 51971,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-18T19:20:13.976415+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -164,8 +164,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T18:19:14.872646+00:00",
-      "status": "incomplete",
+      "started_at": "2026-11-18T19:19:22.005918+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -176,10 +176,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 72233,
+      "duration_ms": 50902,
       "empty_message": "Some listing checks failed. This scan is incomplete.",
       "error_code": "verification_incomplete",
-      "finished_at": "2026-11-18T18:20:52.411269+00:00",
+      "finished_at": "2026-11-18T19:21:04.878113+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -376,7 +376,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T18:19:40.178714+00:00",
+      "started_at": "2026-11-18T19:20:13.976476+00:00",
       "status": "incomplete",
       "verification_error_count": 1,
       "verified_count": 0
@@ -388,10 +388,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 30603,
+      "duration_ms": 42347,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-18T18:21:23.014395+00:00",
+      "finished_at": "2026-11-18T19:21:47.224965+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -412,7 +412,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T18:20:52.411331+00:00",
+      "started_at": "2026-11-18T19:21:04.878177+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -424,10 +424,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 71959,
+      "duration_ms": 40104,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-18T18:22:34.973540+00:00",
+      "finished_at": "2026-11-18T19:22:27.329278+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -448,7 +448,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T18:21:23.014466+00:00",
+      "started_at": "2026-11-18T19:21:47.225026+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -462,7 +462,7 @@
             "availability": "available",
             "cartridge": "",
             "condition": "Used",
-            "confidence": 0.94,
+            "confidence": 0.96,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -480,8 +480,8 @@
             "title": "Mac Mini 2024 M4 Pro - 12C CPU - 64GB RAM - 512GB SSD - 10GbE - Apple Warrantee!",
             "total_usd": 2487.5,
             "url": "https://www.ebay.com/itm/860132547971",
-            "verified_at": "2026-11-18T18:24:16.031468+00:00",
-            "why_good": "Complete working Apple Mac mini with Apple M4 Pro chip and 64 GB RAM; active Buy It Now listing with direct US delivery for $38.50, totaling $2,487.50 before tax."
+            "verified_at": "2026-11-18T19:24:53.385700+00:00",
+            "why_good": "Buy It Now listing for a working Apple Mac mini with Apple M4 Pro chip and 64 GB RAM; direct US delivery is $38.50, totaling $2,487.50 before tax."
           }
         ]
       },
@@ -490,7 +490,7 @@
           "availability": "available",
           "cartridge": "",
           "condition": "Used",
-          "confidence": 0.94,
+          "confidence": 0.96,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -508,14 +508,14 @@
           "title": "Mac Mini 2024 M4 Pro - 12C CPU - 64GB RAM - 512GB SSD - 10GbE - Apple Warrantee!",
           "total_usd": 2487.5,
           "url": "https://www.ebay.com/itm/860132547971",
-          "verified_at": "2026-11-18T18:24:16.031468+00:00",
-          "why_good": "Complete working Apple Mac mini with Apple M4 Pro chip and 64 GB RAM; active Buy It Now listing with direct US delivery for $38.50, totaling $2,487.50 before tax."
+          "verified_at": "2026-11-18T19:24:53.385700+00:00",
+          "why_good": "Buy It Now listing for a working Apple Mac mini with Apple M4 Pro chip and 64 GB RAM; direct US delivery is $38.50, totaling $2,487.50 before tax."
         }
       ],
-      "duration_ms": 101058,
+      "duration_ms": 146057,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-18T18:24:16.032043+00:00",
+      "finished_at": "2026-11-18T19:24:53.386267+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
@@ -581,7 +581,7 @@
             "availability": "available",
             "cartridge": "",
             "condition": "Used",
-            "confidence": 0.94,
+            "confidence": 0.96,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -599,8 +599,8 @@
             "title": "Mac Mini 2024 M4 Pro - 12C CPU - 64GB RAM - 512GB SSD - 10GbE - Apple Warrantee!",
             "total_usd": 2487.5,
             "url": "https://www.ebay.com/itm/860132547971",
-            "verified_at": "2026-11-18T18:24:16.031468+00:00",
-            "why_good": "Complete working Apple Mac mini with Apple M4 Pro chip and 64 GB RAM; active Buy It Now listing with direct US delivery for $38.50, totaling $2,487.50 before tax."
+            "verified_at": "2026-11-18T19:24:53.385700+00:00",
+            "why_good": "Buy It Now listing for a working Apple Mac mini with Apple M4 Pro chip and 64 GB RAM; direct US delivery is $38.50, totaling $2,487.50 before tax."
           }
         },
         "counts": {
@@ -611,7 +611,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T18:22:34.973603+00:00",
+      "started_at": "2026-11-18T19:22:27.329337+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
