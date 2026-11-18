@@ -11,13 +11,13 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-18T01:24:56.259029+00:00",
+  "finished_at": "2026-11-18T02:25:36.589156+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=incomplete; error=verification_incomplete; raw=3; normalized=3; verified=1",
-    "Target 4: status=incomplete; error=verification_incomplete; raw=3; normalized=3; verified=1",
+    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 7: status=ok; error=none; raw=1; normalized=1; verified=1"
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-18T01:17:05.642633+00:00",
+  "started_at": "2026-11-18T02:17:05.149869+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 76858,
+      "duration_ms": 87501,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-18T01:18:22.502297+00:00",
+      "finished_at": "2026-11-18T02:18:32.653343+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T01:17:05.644893+00:00",
+      "started_at": "2026-11-18T02:17:05.152086+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 38003,
+      "duration_ms": 105986,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-18T01:19:00.504987+00:00",
+      "finished_at": "2026-11-18T02:20:18.639563+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,7 +102,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T01:18:22.502370+00:00",
+      "started_at": "2026-11-18T02:18:32.653412+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -111,35 +111,19 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "223_556",
-            "condition": "New factory-loaded, brass-cased FMJ",
-            "confidence": 0.98,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "current_cash_price",
-            "price_usd": 460.0,
-            "product_category": "factory_ammunition",
-            "round_count": 1000,
-            "selected_quantity_label": "1000 rounds",
-            "selected_variant": "",
-            "seller": "Velocity Ammunition Sales",
-            "shipping_usd": 0.0,
-            "source": "Velocity Ammunition Sales",
-            "target_id": "223-556-1000-rounds-under-470",
-            "tax_status": "sales tax excluded; amount unknown",
-            "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
-            "total_usd": 460.0,
-            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
-            "verified_at": "2026-11-18T01:20:36.069683+00:00",
-            "why_good": "Exactly 1000 rounds, factory-new 5.56 NATO, 100+ in stock, and free shipping on ammo orders over $200."
-          }
-        ]
+        "us": []
       },
-      "deals": [
+      "deals": [],
+      "duration_ms": 20815,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-11-18T02:20:39.454333+00:00",
+      "id": "223-556-1000-rounds-under-470",
+      "max_price_usd": 470,
+      "name": ".223 / 5.56, 1000 rounds, under US$470",
+      "normalized_count": 0,
+      "raw_count": 0,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "223_556",
@@ -166,127 +150,41 @@
           "why_good": "Exactly 1000 rounds, factory-new 5.56 NATO, 100+ in stock, and free shipping on ammo orders over $200."
         }
       ],
-      "duration_ms": 98225,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-11-18T01:20:38.730444+00:00",
-      "id": "223-556-1000-rounds-under-470",
-      "max_price_usd": 470,
-      "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 3,
-      "raw_count": 3,
-      "recently_verified_deals": [],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "223_556",
-            "condition": "New factory-loaded, brass-cased FMJ",
-            "confidence": 0.98,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "current_cash_price",
-            "price_usd": 460.0,
-            "product_category": "factory_ammunition",
-            "round_count": 1000,
-            "selected_quantity_label": "1000 rounds",
-            "selected_variant": "",
-            "seller": "Velocity Ammunition Sales",
-            "shipping_usd": 0.0,
-            "source": "Velocity Ammunition Sales",
-            "target_id": "223-556-1000-rounds-under-470",
-            "tax_status": "sales tax excluded; amount unknown",
-            "title": "5.56 NATO \u2013 First Breach 55 Grain Full Metal Jacket \u2013 1000 Rounds Bulk",
-            "total_usd": 460.0,
-            "url": "https://www.velocityammosales.com/products/5-56-nato-first-breach-55-grain-full-metal-jacket-1000-rounds/",
-            "verified_at": "2026-11-18T01:20:36.069683+00:00",
-            "why_good": "Exactly 1000 rounds, factory-new 5.56 NATO, 100+ in stock, and free shipping on ammo orders over $200."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T01:19:00.505073+00:00",
+      "started_at": "2026-11-18T02:20:18.639630+00:00",
       "status": "incomplete",
-      "verification_error_count": 1,
-      "verified_count": 1
+      "verification_error_count": 0,
+      "verified_count": 0
     },
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.91,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 52.99,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "The AG Liquidations",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite -Used",
-            "total_usd": 52.99,
-            "url": "https://www.ebay.com/itm/405277533544",
-            "verified_at": "2026-11-18T01:21:56.861500+00:00",
-            "why_good": "Active Buy It Now listing with free USPS Ground Advantage shipping and eBay's fully operational used-condition definition."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.91,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 52.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "The AG Liquidations",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite -Used",
-          "total_usd": 52.99,
-          "url": "https://www.ebay.com/itm/405277533544",
-          "verified_at": "2026-11-18T01:21:56.861500+00:00",
-          "why_good": "Active Buy It Now listing with free USPS Ground Advantage shipping and eBay's fully operational used-condition definition."
-        }
-      ],
-      "duration_ms": 78132,
+      "deals": [],
+      "duration_ms": 99386,
       "empty_message": "Some listing checks failed. This scan is incomplete.",
       "error_code": "verification_incomplete",
-      "finished_at": "2026-11-18T01:21:56.862974+00:00",
+      "finished_at": "2026-11-18T02:22:18.840090+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 3,
-      "raw_count": 3,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -437,50 +335,51 @@
           "url": "https://www.ebay.com/itm/388824700316",
           "verified_at": "2026-11-17T23:21:57.165926+00:00",
           "why_good": "Seller explicitly states good working condition; active Buy It Now and visible $8.13 USPS shipping. Pre-tax total is $63.12. Sales tax excluded."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.91,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 52.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "The AG Liquidations",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite -Used",
+          "total_usd": 52.99,
+          "url": "https://www.ebay.com/itm/405277533544",
+          "verified_at": "2026-11-18T01:21:56.861500+00:00",
+          "why_good": "Active Buy It Now listing with free USPS Ground Advantage shipping and eBay's fully operational used-condition definition."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Used",
-            "confidence": 0.91,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 52.99,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "The AG Liquidations",
-            "shipping_usd": 0.0,
-            "source": "eBay",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite -Used",
-            "total_usd": 52.99,
-            "url": "https://www.ebay.com/itm/405277533544",
-            "verified_at": "2026-11-18T01:21:56.861500+00:00",
-            "why_good": "Active Buy It Now listing with free USPS Ground Advantage shipping and eBay's fully operational used-condition definition."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T01:20:38.730869+00:00",
+      "started_at": "2026-11-18T02:20:39.454408+00:00",
       "status": "incomplete",
       "verification_error_count": 1,
-      "verified_count": 1
+      "verified_count": 0
     },
     {
       "deal_groups": {
@@ -489,10 +388,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 33228,
+      "duration_ms": 37334,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-18T01:22:30.092914+00:00",
+      "finished_at": "2026-11-18T02:22:56.174187+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -513,7 +412,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T01:21:56.865008+00:00",
+      "started_at": "2026-11-18T02:22:18.840158+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -525,10 +424,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 80481,
+      "duration_ms": 77767,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-18T01:23:50.573644+00:00",
+      "finished_at": "2026-11-18T02:24:13.941377+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -549,7 +448,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T01:22:30.092976+00:00",
+      "started_at": "2026-11-18T02:22:56.174249+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -563,30 +462,91 @@
             "availability": "available",
             "cartridge": "",
             "condition": "New",
-            "confidence": 0.97,
+            "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 2490.0,
+            "price_usd": 2499.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "A2ZeMart",
+            "seller": "Sanduo",
             "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
-            "total_usd": 2490.0,
-            "url": "https://www.ebay.com/itm/168814092983",
-            "verified_at": "2026-11-18T01:24:56.256788+00:00",
-            "why_good": "Buy It Now listing explicitly identifies an Apple Mac mini with an M4 Pro chip and 64 GB installed RAM, plus 512 GB SSD; brand new with free US shipping."
+            "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB 10GB G1KZFLL/A Sealed",
+            "total_usd": 2499.99,
+            "url": "https://www.ebay.com/itm/327297453598",
+            "verified_at": "2026-11-18T02:25:36.587524+00:00",
+            "why_good": "Complete new Apple Mac mini with M4 Pro 14-core CPU and 64GB unified memory; Buy It Now available with free US delivery."
           }
         ]
       },
       "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "New",
+          "confidence": 0.99,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 2499.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Sanduo",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+          "tax_status": "",
+          "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB 10GB G1KZFLL/A Sealed",
+          "total_usd": 2499.99,
+          "url": "https://www.ebay.com/itm/327297453598",
+          "verified_at": "2026-11-18T02:25:36.587524+00:00",
+          "why_good": "Complete new Apple Mac mini with M4 Pro 14-core CPU and 64GB unified memory; Buy It Now available with free US delivery."
+        }
+      ],
+      "duration_ms": 82647,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-18T02:25:36.588092+00:00",
+      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
+      "max_price_usd": 2500,
+      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
+      "normalized_count": 1,
+      "raw_count": 1,
+      "recently_verified_deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 2490.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "A2ZeMart",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+          "tax_status": "",
+          "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
+          "total_usd": 2490.0,
+          "url": "https://www.ebay.com/itm/168818106269",
+          "verified_at": "2026-11-17T14:26:00.601510+00:00",
+          "why_good": "Buy It Now listing for a complete new Apple Mac mini with M4 Pro chip and 64 GB RAM, with free US shipping; total is $2,490 before tax."
+        },
         {
           "availability": "available",
           "cartridge": "",
@@ -613,67 +573,6 @@
           "why_good": "Buy It Now listing explicitly identifies an Apple Mac mini with an M4 Pro chip and 64 GB installed RAM, plus 512 GB SSD; brand new with free US shipping."
         }
       ],
-      "duration_ms": 65684,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-18T01:24:56.257510+00:00",
-      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
-      "max_price_usd": 2500,
-      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 1,
-      "raw_count": 1,
-      "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "New",
-          "confidence": 0.99,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 2499.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Sanduo",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-          "tax_status": "",
-          "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB 10GB G1KZFLL/A Sealed",
-          "total_usd": 2499.99,
-          "url": "https://www.ebay.com/itm/327297453598",
-          "verified_at": "2026-11-17T07:24:04.502422+00:00",
-          "why_good": "Complete sealed Apple Mac mini with M4 Pro 14-core chip and 64 GB unified memory; free 2\u20134 day US delivery; buy-it-now available."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "New",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 2490.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "A2ZeMart",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-          "tax_status": "",
-          "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
-          "total_usd": 2490.0,
-          "url": "https://www.ebay.com/itm/168818106269",
-          "verified_at": "2026-11-17T14:26:00.601510+00:00",
-          "why_good": "Buy It Now listing for a complete new Apple Mac mini with M4 Pro chip and 64 GB RAM, with free US shipping; total is $2,490 before tax."
-        }
-      ],
       "regional_summary": {
         "best": {
           "eu": null,
@@ -682,26 +581,26 @@
             "availability": "available",
             "cartridge": "",
             "condition": "New",
-            "confidence": 0.97,
+            "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 2490.0,
+            "price_usd": 2499.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "A2ZeMart",
+            "seller": "Sanduo",
             "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac Mini M4 Pro 12-Core CPU 64GB RAM 512GB SSD Brand New",
-            "total_usd": 2490.0,
-            "url": "https://www.ebay.com/itm/168814092983",
-            "verified_at": "2026-11-18T01:24:56.256788+00:00",
-            "why_good": "Buy It Now listing explicitly identifies an Apple Mac mini with an M4 Pro chip and 64 GB installed RAM, plus 512 GB SSD; brand new with free US shipping."
+            "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB 10GB G1KZFLL/A Sealed",
+            "total_usd": 2499.99,
+            "url": "https://www.ebay.com/itm/327297453598",
+            "verified_at": "2026-11-18T02:25:36.587524+00:00",
+            "why_good": "Complete new Apple Mac mini with M4 Pro 14-core CPU and 64GB unified memory; Buy It Now available with free US delivery."
           }
         },
         "counts": {
@@ -712,7 +611,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-18T01:23:50.573706+00:00",
+      "started_at": "2026-11-18T02:24:13.941439+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
