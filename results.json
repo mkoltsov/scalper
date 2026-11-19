@@ -11,7 +11,7 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-19T08:23:00.249096+00:00",
+  "finished_at": "2026-11-19T09:25:48.340619+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
@@ -20,7 +20,7 @@
     "Target 4: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 7: status=ok; error=none; raw=1; normalized=0; verified=0"
+    "Target 7: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-19T08:17:05.337282+00:00",
+  "started_at": "2026-11-19T09:17:05.769163+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 64375,
+      "duration_ms": 68690,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-19T08:18:09.714882+00:00",
+      "finished_at": "2026-11-19T09:18:14.462370+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-19T08:17:05.339501+00:00",
+      "started_at": "2026-11-19T09:17:05.772539+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 61896,
+      "duration_ms": 44996,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-19T08:19:11.610643+00:00",
+      "finished_at": "2026-11-19T09:18:59.458353+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,7 +102,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-19T08:18:09.714950+00:00",
+      "started_at": "2026-11-19T09:18:14.462438+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -114,10 +114,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 31809,
+      "duration_ms": 75593,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-19T08:19:43.419291+00:00",
+      "finished_at": "2026-11-19T09:20:15.051469+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -138,7 +138,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-19T08:19:11.610730+00:00",
+      "started_at": "2026-11-19T09:18:59.458426+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -150,41 +150,16 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 43906,
+      "duration_ms": 67546,
       "empty_message": "Some listing checks failed. This scan is incomplete.",
       "error_code": "verification_incomplete",
-      "finished_at": "2026-11-19T08:20:27.325528+00:00",
+      "finished_at": "2026-11-19T09:21:22.597301+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
       "normalized_count": 1,
       "raw_count": 1,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.93,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 54.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "hakuinternational",
-          "shipping_usd": 5.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Tracker FB422 Heart Rate Sleep SpO2 Waterproof Bluetooth GPS",
-          "total_usd": 59.0,
-          "url": "https://www.ebay.com/itm/277403999856",
-          "verified_at": "2026-11-18T09:21:50.969286+00:00",
-          "why_good": "Exact Fitbit Luxe FB422 tracker, active Buy It Now listing, and explicit $5 US shipping."
-        },
         {
           "availability": "available",
           "cartridge": "",
@@ -225,7 +200,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-19T08:19:43.419350+00:00",
+      "started_at": "2026-11-19T09:20:15.051545+00:00",
       "status": "incomplete",
       "verification_error_count": 1,
       "verified_count": 0
@@ -237,10 +212,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 32819,
+      "duration_ms": 34295,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-19T08:21:00.144913+00:00",
+      "finished_at": "2026-11-19T09:21:56.892698+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -261,7 +236,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-19T08:20:27.325592+00:00",
+      "started_at": "2026-11-19T09:21:22.597365+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -273,10 +248,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 44373,
+      "duration_ms": 53213,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-19T08:21:44.517808+00:00",
+      "finished_at": "2026-11-19T09:22:50.105315+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -297,7 +272,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-19T08:21:00.144975+00:00",
+      "started_at": "2026-11-19T09:21:56.892758+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -309,15 +284,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 75731,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-19T08:23:00.248840+00:00",
+      "duration_ms": 178235,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-11-19T09:25:48.340411+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 0,
-      "raw_count": 1,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -409,9 +384,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-19T08:21:44.517868+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
+      "started_at": "2026-11-19T09:22:50.105374+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
       "verified_count": 0
     }
   ]
