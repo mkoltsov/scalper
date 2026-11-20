@@ -11,16 +11,16 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-20T07:24:09.731244+00:00",
+  "finished_at": "2026-11-20T08:23:51.150357+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 1",
-    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0",
+    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 7: status=incomplete; error=search_incomplete; raw=1; normalized=1; verified=1"
+    "Target 7: status=ok; error=none; raw=1; normalized=1; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-20T07:17:05.374938+00:00",
+  "started_at": "2026-11-20T08:17:05.832344+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 76382,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-20T07:18:21.760579+00:00",
+      "duration_ms": 69046,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-11-20T08:18:14.880483+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,8 +66,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T07:17:05.378266+00:00",
-      "status": "ok",
+      "started_at": "2026-11-20T08:17:05.834610+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 16141,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-11-20T07:18:37.901945+00:00",
+      "duration_ms": 84721,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-20T08:19:39.601716+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,8 +102,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T07:18:21.760645+00:00",
-      "status": "incomplete",
+      "started_at": "2026-11-20T08:18:14.880554+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -114,10 +114,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 40322,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-11-20T07:19:18.224139+00:00",
+      "duration_ms": 16756,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-11-20T08:19:56.357244+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -138,8 +138,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T07:18:37.902009+00:00",
-      "status": "ok",
+      "started_at": "2026-11-20T08:19:39.601781+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -150,10 +150,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 82364,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-11-20T07:20:40.588410+00:00",
+      "duration_ms": 72943,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-20T08:21:09.299764+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -300,9 +300,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T07:19:18.224198+00:00",
-      "status": "incomplete",
-      "verification_error_count": 1,
+      "started_at": "2026-11-20T08:19:56.357307+00:00",
+      "status": "ok",
+      "verification_error_count": 0,
       "verified_count": 0
     },
     {
@@ -312,10 +312,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 37442,
+      "duration_ms": 47538,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-20T07:21:18.030745+00:00",
+      "finished_at": "2026-11-20T08:21:56.837861+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -336,7 +336,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T07:20:40.588473+00:00",
+      "started_at": "2026-11-20T08:21:09.299861+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -348,10 +348,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 52774,
+      "duration_ms": 47043,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-20T07:22:10.805009+00:00",
+      "finished_at": "2026-11-20T08:22:43.881397+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -372,7 +372,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T07:21:18.030807+00:00",
+      "started_at": "2026-11-20T08:21:56.837980+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -385,31 +385,67 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used",
+            "condition": "New",
             "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 2449.0,
+            "price_usd": 2499.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "mikeleiter",
-            "shipping_usd": 38.5,
+            "seller": "Sanduo",
+            "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Mac Mini 2024 M4 Pro - 12C CPU - 64GB RAM - 512GB SSD - 10GbE - Apple Warrantee!",
-            "total_usd": 2487.5,
-            "url": "https://www.ebay.com/itm/860132547971",
-            "verified_at": "2026-11-20T07:24:09.729267+00:00",
-            "why_good": "Complete working Apple Mac mini with explicit Apple M4 Pro chip and 64 GB RAM; Buy It Now active, US$38.50 direct US delivery, total US$2,487.50 before tax."
+            "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB 10GB G1KZFLL/A Sealed",
+            "total_usd": 2499.99,
+            "url": "https://www.ebay.com/itm/327297453598",
+            "verified_at": "2026-11-20T08:23:51.148754+00:00",
+            "why_good": "New, buyable Apple Mac mini with M4 Pro 14-core chip and 64 GB unified memory; free US delivery; total is $2,499.99 before sales tax."
           }
         ]
       },
       "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "New",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 2499.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Sanduo",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+          "tax_status": "",
+          "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB 10GB G1KZFLL/A Sealed",
+          "total_usd": 2499.99,
+          "url": "https://www.ebay.com/itm/327297453598",
+          "verified_at": "2026-11-20T08:23:51.148754+00:00",
+          "why_good": "New, buyable Apple Mac mini with M4 Pro 14-core chip and 64 GB unified memory; free US delivery; total is $2,499.99 before sales tax."
+        }
+      ],
+      "duration_ms": 67268,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-20T08:23:51.149381+00:00",
+      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
+      "max_price_usd": 2500,
+      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
+      "normalized_count": 1,
+      "raw_count": 1,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -436,42 +472,6 @@
           "why_good": "Complete working Apple Mac mini with explicit Apple M4 Pro chip and 64 GB RAM; Buy It Now active, US$38.50 direct US delivery, total US$2,487.50 before tax."
         }
       ],
-      "duration_ms": 118925,
-      "empty_message": "",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-11-20T07:24:09.729981+00:00",
-      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
-      "max_price_usd": 2500,
-      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 1,
-      "raw_count": 1,
-      "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "New",
-          "confidence": 0.99,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 2499.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Sanduo",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-          "tax_status": "",
-          "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB 10GB G1KZFLL/A Sealed",
-          "total_usd": 2499.99,
-          "url": "https://www.ebay.com/itm/327297453598",
-          "verified_at": "2026-11-19T21:25:37.669904+00:00",
-          "why_good": "New sealed Mac mini with M4 Pro 14-core CPU and 64 GB unified memory; active Buy It Now listing with unconditional free US delivery. Total is $2,499.99 before tax."
-        }
-      ],
       "regional_summary": {
         "best": {
           "eu": null,
@@ -479,27 +479,27 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Used",
+            "condition": "New",
             "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 2449.0,
+            "price_usd": 2499.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "mikeleiter",
-            "shipping_usd": 38.5,
+            "seller": "Sanduo",
+            "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Mac Mini 2024 M4 Pro - 12C CPU - 64GB RAM - 512GB SSD - 10GbE - Apple Warrantee!",
-            "total_usd": 2487.5,
-            "url": "https://www.ebay.com/itm/860132547971",
-            "verified_at": "2026-11-20T07:24:09.729267+00:00",
-            "why_good": "Complete working Apple Mac mini with explicit Apple M4 Pro chip and 64 GB RAM; Buy It Now active, US$38.50 direct US delivery, total US$2,487.50 before tax."
+            "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB 10GB G1KZFLL/A Sealed",
+            "total_usd": 2499.99,
+            "url": "https://www.ebay.com/itm/327297453598",
+            "verified_at": "2026-11-20T08:23:51.148754+00:00",
+            "why_good": "New, buyable Apple Mac mini with M4 Pro 14-core chip and 64 GB unified memory; free US delivery; total is $2,499.99 before sales tax."
           }
         },
         "counts": {
@@ -510,8 +510,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T07:22:10.805069+00:00",
-      "status": "incomplete",
+      "started_at": "2026-11-20T08:22:43.881458+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
     }
