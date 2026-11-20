@@ -11,16 +11,16 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-20T17:23:15.747539+00:00",
+  "finished_at": "2026-11-20T18:25:26.234312+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 1",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 4: status=incomplete; error=verification_incomplete; raw=3; normalized=3; verified=0",
+    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=4; normalized=4; verified=1",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 7: status=ok; error=none; raw=0; normalized=0; verified=0"
+    "Target 6: status=ok; error=none; raw=1; normalized=0; verified=0",
+    "Target 7: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-20T17:17:05.613564+00:00",
+  "started_at": "2026-11-20T18:17:05.254056+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 67414,
+      "duration_ms": 73416,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-20T17:18:13.029238+00:00",
+      "finished_at": "2026-11-20T18:18:18.672637+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T17:17:05.615795+00:00",
+      "started_at": "2026-11-20T18:17:05.256259+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 46601,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-11-20T17:18:59.630541+00:00",
+      "duration_ms": 90996,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-20T18:19:49.668674+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,8 +102,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T17:18:13.029396+00:00",
-      "status": "incomplete",
+      "started_at": "2026-11-20T18:18:18.672708+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -114,10 +114,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 17302,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-11-20T17:19:16.932722+00:00",
+      "duration_ms": 32590,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-20T18:20:22.258881+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -138,8 +138,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T17:18:59.630604+00:00",
-      "status": "incomplete",
+      "started_at": "2026-11-20T18:19:49.668742+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -147,18 +147,70 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used; good condition, charger included",
+            "confidence": 0.93,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 37.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "hakuinternational",
+            "shipping_usd": 5.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite",
+            "total_usd": 42.0,
+            "url": "https://www.ebay.com/itm/277508512568",
+            "verified_at": "2026-11-20T18:21:40.178670+00:00",
+            "why_good": "Working Fitbit Luxe tracker with Buy It Now and explicit $5 US shipping."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 99689,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used; good condition, charger included",
+          "confidence": 0.93,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 37.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "hakuinternational",
+          "shipping_usd": 5.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite",
+          "total_usd": 42.0,
+          "url": "https://www.ebay.com/itm/277508512568",
+          "verified_at": "2026-11-20T18:21:40.178670+00:00",
+          "why_good": "Working Fitbit Luxe tracker with Buy It Now and explicit $5 US shipping."
+        }
+      ],
+      "duration_ms": 83987,
       "empty_message": "Some listing checks failed. This scan is incomplete.",
       "error_code": "verification_incomplete",
-      "finished_at": "2026-11-20T17:20:56.622191+00:00",
+      "finished_at": "2026-11-20T18:21:46.245889+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 3,
-      "raw_count": 3,
+      "normalized_count": 4,
+      "raw_count": 4,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -340,20 +392,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used; good condition, charger included",
+            "confidence": 0.93,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 37.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "hakuinternational",
+            "shipping_usd": 5.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness/Wellness Tracker GPS Stress Management Black/Graphite",
+            "total_usd": 42.0,
+            "url": "https://www.ebay.com/itm/277508512568",
+            "verified_at": "2026-11-20T18:21:40.178670+00:00",
+            "why_good": "Working Fitbit Luxe tracker with Buy It Now and explicit $5 US shipping."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T17:19:16.932787+00:00",
+      "started_at": "2026-11-20T18:20:22.258940+00:00",
       "status": "incomplete",
       "verification_error_count": 1,
-      "verified_count": 0
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -362,10 +438,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 38025,
+      "duration_ms": 31173,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-20T17:21:34.647549+00:00",
+      "finished_at": "2026-11-20T18:22:17.419265+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -386,7 +462,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T17:20:56.622297+00:00",
+      "started_at": "2026-11-20T18:21:46.246414+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -398,15 +474,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 48250,
+      "duration_ms": 76164,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-20T17:22:22.897627+00:00",
+      "finished_at": "2026-11-20T18:23:33.583608+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
       "normalized_count": 0,
-      "raw_count": 0,
+      "raw_count": 1,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -422,7 +498,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T17:21:34.647609+00:00",
+      "started_at": "2026-11-20T18:22:17.419324+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -431,18 +507,70 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "New",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 2499.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "Sanduo",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+            "tax_status": "",
+            "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB Sealed",
+            "total_usd": 2499.99,
+            "url": "https://www.ebay.com/itm/327297453598",
+            "verified_at": "2026-11-20T18:25:26.232974+00:00",
+            "why_good": "New sealed Apple Mac mini with M4 Pro 14-core chip and 64GB unified memory, Buy It Now available, and free US delivery."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 52850,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-20T17:23:15.747281+00:00",
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "New",
+          "confidence": 0.97,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 2499.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Sanduo",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+          "tax_status": "",
+          "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB Sealed",
+          "total_usd": 2499.99,
+          "url": "https://www.ebay.com/itm/327297453598",
+          "verified_at": "2026-11-20T18:25:26.232974+00:00",
+          "why_good": "New sealed Apple Mac mini with M4 Pro 14-core chip and 64GB unified memory, Buy It Now available, and free US delivery."
+        }
+      ],
+      "duration_ms": 112650,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-11-20T18:25:26.233560+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -468,51 +596,50 @@
           "url": "https://www.ebay.com/itm/860132547971",
           "verified_at": "2026-11-20T07:24:09.729267+00:00",
           "why_good": "Complete working Apple Mac mini with explicit Apple M4 Pro chip and 64 GB RAM; Buy It Now active, US$38.50 direct US delivery, total US$2,487.50 before tax."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "New",
-          "confidence": 0.99,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 2499.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Sanduo",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-          "tax_status": "",
-          "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB 10GB G1KZFLL/A Sealed",
-          "total_usd": 2499.99,
-          "url": "https://www.ebay.com/itm/327297453598",
-          "verified_at": "2026-11-20T14:25:11.369614+00:00",
-          "why_good": "Sealed Apple Mac mini with M4 Pro 14-core chip and 64 GB unified memory; Buy It Now available with free US delivery."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "New",
+            "confidence": 0.97,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 2499.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "Sanduo",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+            "tax_status": "",
+            "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB Sealed",
+            "total_usd": 2499.99,
+            "url": "https://www.ebay.com/itm/327297453598",
+            "verified_at": "2026-11-20T18:25:26.232974+00:00",
+            "why_good": "New sealed Apple Mac mini with M4 Pro 14-core chip and 64GB unified memory, Buy It Now available, and free US delivery."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T17:22:22.897691+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
-      "verified_count": 0
+      "started_at": "2026-11-20T18:23:33.583667+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
+      "verified_count": 1
     }
   ]
 }
