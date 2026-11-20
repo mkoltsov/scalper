@@ -11,16 +11,16 @@
   ],
   "dry_run": false,
   "exit_code": 1,
-  "finished_at": "2026-11-20T00:25:41.267810+00:00",
+  "finished_at": "2026-11-20T01:24:53.585740+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 1",
-    "Target 1: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=3; normalized=3; verified=2",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=1; normalized=0; verified=0",
-    "Target 7: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0"
+    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 7: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-20T00:17:05.156219+00:00",
+  "started_at": "2026-11-20T01:17:06.122238+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 62264,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-11-20T00:18:07.422923+00:00",
+      "duration_ms": 71765,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-20T01:18:17.889404+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,8 +66,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T00:17:05.158508+00:00",
-      "status": "incomplete",
+      "started_at": "2026-11-20T01:17:06.124477+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 55567,
+      "duration_ms": 113775,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-20T00:19:02.989623+00:00",
+      "finished_at": "2026-11-20T01:20:11.664048+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,7 +102,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T00:18:07.422992+00:00",
+      "started_at": "2026-11-20T01:18:17.889488+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -114,15 +114,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 87890,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-11-20T00:20:30.879794+00:00",
+      "duration_ms": 47734,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-20T01:20:59.397779+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -138,27 +138,129 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T00:19:02.989689+00:00",
-      "status": "incomplete",
-      "verification_error_count": 2,
+      "started_at": "2026-11-20T01:20:11.664116+00:00",
+      "status": "ok",
+      "verification_error_count": 0,
       "verified_count": 0
     },
     {
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used",
+            "confidence": 0.96,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 35.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "The AG Liquidations",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Activity Tracker - Black/Graphite Stainless Steel",
+            "total_usd": 35.99,
+            "url": "https://www.ebay.com/p/19046142600?iid=405562349768",
+            "verified_at": "2026-11-20T01:22:02.834341+00:00",
+            "why_good": "Working Fitbit Luxe tracker with active Buy It Now, free US delivery, and total under $64."
+          },
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used",
+            "confidence": 0.95,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 47.69,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "The AG Liquidations",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Activity Tracker - Black/Graphite Stainless Steel",
+            "total_usd": 47.69,
+            "url": "https://www.ebay.com/p/19046142600?iid=405277533544",
+            "verified_at": "2026-11-20T01:22:09.769590+00:00",
+            "why_good": "Fitbit Luxe tracker with active Buy It Now, free US delivery, and total under $64."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 97428,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-20T00:22:08.308236+00:00",
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.96,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 35.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "The AG Liquidations",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Activity Tracker - Black/Graphite Stainless Steel",
+          "total_usd": 35.99,
+          "url": "https://www.ebay.com/p/19046142600?iid=405562349768",
+          "verified_at": "2026-11-20T01:22:02.834341+00:00",
+          "why_good": "Working Fitbit Luxe tracker with active Buy It Now, free US delivery, and total under $64."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used",
+          "confidence": 0.95,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 47.69,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "The AG Liquidations",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Activity Tracker - Black/Graphite Stainless Steel",
+          "total_usd": 47.69,
+          "url": "https://www.ebay.com/p/19046142600?iid=405277533544",
+          "verified_at": "2026-11-20T01:22:09.769590+00:00",
+          "why_good": "Fitbit Luxe tracker with active Buy It Now, free US delivery, and total under $64."
+        }
+      ],
+      "duration_ms": 70718,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-11-20T01:22:10.116004+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 3,
+      "raw_count": 3,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -215,20 +317,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used",
+            "confidence": 0.96,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 35.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "The AG Liquidations",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Activity Tracker - Black/Graphite Stainless Steel",
+            "total_usd": 35.99,
+            "url": "https://www.ebay.com/p/19046142600?iid=405562349768",
+            "verified_at": "2026-11-20T01:22:02.834341+00:00",
+            "why_good": "Working Fitbit Luxe tracker with active Buy It Now, free US delivery, and total under $64."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T00:20:30.879883+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
-      "verified_count": 0
+      "started_at": "2026-11-20T01:20:59.397839+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
+      "verified_count": 2
     },
     {
       "deal_groups": {
@@ -237,10 +363,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 35998,
+      "duration_ms": 33756,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-20T00:22:44.306326+00:00",
+      "finished_at": "2026-11-20T01:22:43.873409+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -261,7 +387,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T00:22:08.308299+00:00",
+      "started_at": "2026-11-20T01:22:10.117512+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -273,15 +399,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 79749,
+      "duration_ms": 38153,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-20T00:24:04.055108+00:00",
+      "finished_at": "2026-11-20T01:23:22.026643+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
       "normalized_count": 0,
-      "raw_count": 1,
+      "raw_count": 0,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -297,7 +423,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T00:22:44.306385+00:00",
+      "started_at": "2026-11-20T01:22:43.873484+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -309,15 +435,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 97212,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-11-20T00:25:41.267570+00:00",
+      "duration_ms": 91559,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-11-20T01:24:53.585495+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -384,9 +510,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T00:24:04.055205+00:00",
+      "started_at": "2026-11-20T01:23:22.026722+00:00",
       "status": "incomplete",
-      "verification_error_count": 1,
+      "verification_error_count": 0,
       "verified_count": 0
     }
   ]
