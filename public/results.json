@@ -10,17 +10,17 @@
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
   "dry_run": false,
-  "exit_code": 1,
-  "finished_at": "2026-11-20T05:24:07.634711+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-11-20T06:26:11.495778+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 7; exit code: 1",
+    "Scan scope: complete; selected targets: 7; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=1; normalized=1; verified=1",
+    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=1; normalized=1; verified=0",
+    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=1",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 7: status=ok; error=none; raw=1; normalized=0; verified=0"
+    "Target 6: status=ok; error=none; raw=1; normalized=0; verified=0",
+    "Target 7: status=ok; error=none; raw=1; normalized=1; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-20T05:17:06.425599+00:00",
+  "started_at": "2026-11-20T06:17:05.838096+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 70170,
+      "duration_ms": 59775,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-20T05:18:16.598227+00:00",
+      "finished_at": "2026-11-20T06:18:05.614746+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T05:17:06.427808+00:00",
+      "started_at": "2026-11-20T06:17:05.840293+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 17774,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-11-20T05:18:34.372410+00:00",
+      "duration_ms": 89985,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-20T06:19:35.599969+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,8 +102,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T05:18:16.598319+00:00",
-      "status": "incomplete",
+      "started_at": "2026-11-20T06:18:05.614817+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -114,15 +114,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 59832,
+      "duration_ms": 106685,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-20T05:19:34.204217+00:00",
+      "finished_at": "2026-11-20T06:21:22.285294+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -138,7 +138,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T05:18:34.372474+00:00",
+      "started_at": "2026-11-20T06:19:35.600166+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -151,27 +151,27 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "New other; tested and working",
-            "confidence": 0.96,
+            "condition": "Used, tested",
+            "confidence": 0.97,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 59.99,
+            "price_usd": 49.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "thegreatdealz16",
-            "shipping_usd": 0.0,
+            "seller": "paexp-81",
+            "shipping_usd": 9.14,
             "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
-            "total_usd": 59.99,
-            "url": "https://www.ebay.com/itm/117148205137",
-            "verified_at": "2026-11-20T05:20:49.929653+00:00",
-            "why_good": "Working Fitbit Luxe with active Buy It Now, more than 10 available, and free US delivery."
+            "title": "Fitbit Luxe Fitness Plus Wellness Tracker - TESTED",
+            "total_usd": 59.13,
+            "url": "https://www.ebay.com/itm/156562037830",
+            "verified_at": "2026-11-20T06:22:55.185845+00:00",
+            "why_good": "Exact tested Fitbit Luxe tracker with active Buy It Now and visible USPS shipping charge."
           }
         ]
       },
@@ -179,44 +179,8 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "New other; tested and working",
-          "confidence": 0.96,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 59.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "thegreatdealz16",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
-          "total_usd": 59.99,
-          "url": "https://www.ebay.com/itm/117148205137",
-          "verified_at": "2026-11-20T05:20:49.929653+00:00",
-          "why_good": "Working Fitbit Luxe with active Buy It Now, more than 10 available, and free US delivery."
-        }
-      ],
-      "duration_ms": 75726,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-20T05:20:49.930404+00:00",
-      "id": "fitbit-luxe-under-64",
-      "max_price_usd": 64,
-      "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
-      "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used; tested",
-          "confidence": 0.9,
+          "condition": "Used, tested",
+          "confidence": 0.97,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -234,9 +198,20 @@
           "title": "Fitbit Luxe Fitness Plus Wellness Tracker - TESTED",
           "total_usd": 59.13,
           "url": "https://www.ebay.com/itm/156562037830",
-          "verified_at": "2026-11-19T12:21:27.866459+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with active Buy It Now, tested condition, and visible numeric US shipping below the limit."
-        },
+          "verified_at": "2026-11-20T06:22:55.185845+00:00",
+          "why_good": "Exact tested Fitbit Luxe tracker with active Buy It Now and visible USPS shipping charge."
+        }
+      ],
+      "duration_ms": 95948,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-20T06:22:58.233791+00:00",
+      "id": "fitbit-luxe-under-64",
+      "max_price_usd": 64,
+      "name": "Fitbit Luxe under US$64",
+      "normalized_count": 3,
+      "raw_count": 3,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -311,6 +286,31 @@
           "url": "https://www.ebay.com/itm/358090237033",
           "verified_at": "2026-11-20T03:21:41.560301+00:00",
           "why_good": "Working Fitbit Luxe with active Buy It Now, numeric US shipping, and total below $64."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "New other; tested and working",
+          "confidence": 0.96,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 59.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "thegreatdealz16",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
+          "total_usd": 59.99,
+          "url": "https://www.ebay.com/itm/117148205137",
+          "verified_at": "2026-11-20T05:20:49.929653+00:00",
+          "why_good": "Working Fitbit Luxe with active Buy It Now, more than 10 available, and free US delivery."
         }
       ],
       "regional_summary": {
@@ -320,27 +320,27 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "New other; tested and working",
-            "confidence": 0.96,
+            "condition": "Used, tested",
+            "confidence": 0.97,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 59.99,
+            "price_usd": 49.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "thegreatdealz16",
-            "shipping_usd": 0.0,
+            "seller": "paexp-81",
+            "shipping_usd": 9.14,
             "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
-            "total_usd": 59.99,
-            "url": "https://www.ebay.com/itm/117148205137",
-            "verified_at": "2026-11-20T05:20:49.929653+00:00",
-            "why_good": "Working Fitbit Luxe with active Buy It Now, more than 10 available, and free US delivery."
+            "title": "Fitbit Luxe Fitness Plus Wellness Tracker - TESTED",
+            "total_usd": 59.13,
+            "url": "https://www.ebay.com/itm/156562037830",
+            "verified_at": "2026-11-20T06:22:55.185845+00:00",
+            "why_good": "Exact tested Fitbit Luxe tracker with active Buy It Now and visible USPS shipping charge."
           }
         },
         "counts": {
@@ -351,7 +351,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T05:19:34.204285+00:00",
+      "started_at": "2026-11-20T06:21:22.285354+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
@@ -363,10 +363,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 30788,
+      "duration_ms": 39921,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-20T05:21:20.719384+00:00",
+      "finished_at": "2026-11-20T06:23:38.156069+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -387,7 +387,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T05:20:49.931453+00:00",
+      "started_at": "2026-11-20T06:22:58.235016+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -399,15 +399,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 71385,
+      "duration_ms": 68161,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-20T05:22:32.104614+00:00",
+      "finished_at": "2026-11-20T06:24:46.317463+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
       "normalized_count": 0,
-      "raw_count": 0,
+      "raw_count": 1,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -423,7 +423,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T05:21:20.719451+00:00",
+      "started_at": "2026-11-20T06:23:38.156127+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -435,14 +435,14 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 95530,
+      "duration_ms": 85178,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-20T05:24:07.634367+00:00",
+      "finished_at": "2026-11-20T06:26:11.495534+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 0,
+      "normalized_count": 1,
       "raw_count": 1,
       "recently_verified_deals": [
         {
@@ -510,7 +510,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-20T05:22:32.104684+00:00",
+      "started_at": "2026-11-20T06:24:46.317523+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
