@@ -1,26 +1,22 @@
 {
-  "config_sha256": "1f4e6ce54aea6c8a93a6f528cb02eb986016b20252eece8886d57f0f8cca827b",
+  "config_sha256": "78bbe73f69ca2deee996cfe8c8aa2e974b99b88ea4bb41e651e9b9d0720cda1d",
   "configured_target_ids": [
     "sb-tactical-sbt-btfa-under-120",
     "9mm-1000-rounds-under-257",
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64",
-    "ch-mos-dmo-glock-under-196",
-    "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-22T17:26:32.804195+00:00",
+  "finished_at": "2026-11-22T19:22:47.404790+00:00",
   "logs": [
-    "Scan scope: complete; selected targets: 7; exit code: 0",
+    "Scan scope: complete; selected targets: 5; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 4: status=ok; error=none; raw=3; normalized=3; verified=1",
-    "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 7: status=ok; error=none; raw=2; normalized=2; verified=1"
+    "Target 5: status=ok; error=none; raw=1; normalized=1; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -29,11 +25,9 @@
     "9mm-1000-rounds-under-257",
     "223-556-1000-rounds-under-470",
     "fitbit-luxe-under-64",
-    "ch-mos-dmo-glock-under-196",
-    "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-22T17:17:02.857071+00:00",
+  "started_at": "2026-11-22T19:17:02.730552+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +36,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 40186,
+      "duration_ms": 59565,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-22T17:17:43.045442+00:00",
+      "finished_at": "2026-11-22T19:18:02.298574+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +60,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-22T17:17:02.859338+00:00",
+      "started_at": "2026-11-22T19:17:02.733669+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +72,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 80693,
+      "duration_ms": 63447,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-22T17:19:03.738792+00:00",
+      "finished_at": "2026-11-22T19:19:05.745953+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,7 +96,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-22T17:17:43.045512+00:00",
+      "started_at": "2026-11-22T19:18:02.298665+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -114,10 +108,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 111011,
+      "duration_ms": 54613,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-22T17:20:54.750269+00:00",
+      "finished_at": "2026-11-22T19:20:00.358682+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -138,7 +132,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-22T17:19:03.738860+00:00",
+      "started_at": "2026-11-22T19:19:05.746024+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -151,27 +145,27 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "New",
-            "confidence": 0.97,
+            "condition": "Used",
+            "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 52.99,
+            "price_usd": 30.55,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "Price Cut Mart",
+            "seller": "RambozSales",
             "shipping_usd": 0.0,
-            "source": "Price Cut Mart",
+            "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe Fitness & Wellness Tracker Smart Watch, 120 Hour Battery Life, 1 Each",
-            "total_usd": 52.99,
-            "url": "https://pricecutmart.com/products/fitbit-luxe-fitness-and-wellness-tracker-smart-watch-120-hour-battery",
-            "verified_at": "2026-11-22T17:23:20.536311+00:00",
-            "why_good": "Fitbit Luxe tracker with active Buy Now action, free US shipping, and total under $64."
+            "title": "Fitbit Luxe Blue Fitness Activity Tracker Lunar White Band Working Code C16",
+            "total_usd": 30.55,
+            "url": "https://www.ebay.com/itm/198625547452",
+            "verified_at": "2026-11-22T19:21:22.170908+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now and unconditional free US shipping."
           }
         ]
       },
@@ -179,33 +173,33 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "New",
-          "confidence": 0.97,
+          "condition": "Used",
+          "confidence": 0.99,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
           "price_basis": "",
-          "price_usd": 52.99,
+          "price_usd": 30.55,
           "product_category": "",
           "round_count": null,
           "selected_quantity_label": "",
           "selected_variant": "",
-          "seller": "Price Cut Mart",
+          "seller": "RambozSales",
           "shipping_usd": 0.0,
-          "source": "Price Cut Mart",
+          "source": "eBay",
           "target_id": "fitbit-luxe-under-64",
           "tax_status": "",
-          "title": "Fitbit Luxe Fitness & Wellness Tracker Smart Watch, 120 Hour Battery Life, 1 Each",
-          "total_usd": 52.99,
-          "url": "https://pricecutmart.com/products/fitbit-luxe-fitness-and-wellness-tracker-smart-watch-120-hour-battery",
-          "verified_at": "2026-11-22T17:23:20.536311+00:00",
-          "why_good": "Fitbit Luxe tracker with active Buy Now action, free US shipping, and total under $64."
+          "title": "Fitbit Luxe Blue Fitness Activity Tracker Lunar White Band Working Code C16",
+          "total_usd": 30.55,
+          "url": "https://www.ebay.com/itm/198625547452",
+          "verified_at": "2026-11-22T19:21:22.170908+00:00",
+          "why_good": "Working Fitbit Luxe with active Buy It Now and unconditional free US shipping."
         }
       ],
-      "duration_ms": 150796,
+      "duration_ms": 87222,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-22T17:23:25.546520+00:00",
+      "finished_at": "2026-11-22T19:21:27.580722+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -265,31 +259,6 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Used; working",
-          "confidence": 0.99,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 30.55,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "RambozSales",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Blue Fitness Activity Tracker Lunar White Band Working Code C16",
-          "total_usd": 30.55,
-          "url": "https://www.ebay.com/itm/198625547452",
-          "verified_at": "2026-11-22T07:21:50.783042+00:00",
-          "why_good": "Working Fitbit Luxe with active Buy It Now, free US shipping, and very low total."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
           "condition": "Used - Good",
           "confidence": 0.98,
           "delivery_country": "United States",
@@ -336,6 +305,31 @@
           "url": "https://www.mercari.com/us/item/m96903482149/",
           "verified_at": "2026-11-22T13:22:27.442790+00:00",
           "why_good": "Tested working Fitbit Luxe with active Buy Now action and explicit US shipping."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "New",
+          "confidence": 0.97,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 52.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Price Cut Mart",
+          "shipping_usd": 0.0,
+          "source": "Price Cut Mart",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness & Wellness Tracker Smart Watch, 120 Hour Battery Life, 1 Each",
+          "total_usd": 52.99,
+          "url": "https://pricecutmart.com/products/fitbit-luxe-fitness-and-wellness-tracker-smart-watch-120-hour-battery",
+          "verified_at": "2026-11-22T17:23:20.536311+00:00",
+          "why_good": "Fitbit Luxe tracker with active Buy Now action, free US shipping, and total under $64."
         }
       ],
       "regional_summary": {
@@ -345,27 +339,27 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "New",
-            "confidence": 0.97,
+            "condition": "Used",
+            "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 52.99,
+            "price_usd": 30.55,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "Price Cut Mart",
+            "seller": "RambozSales",
             "shipping_usd": 0.0,
-            "source": "Price Cut Mart",
+            "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe Fitness & Wellness Tracker Smart Watch, 120 Hour Battery Life, 1 Each",
-            "total_usd": 52.99,
-            "url": "https://pricecutmart.com/products/fitbit-luxe-fitness-and-wellness-tracker-smart-watch-120-hour-battery",
-            "verified_at": "2026-11-22T17:23:20.536311+00:00",
-            "why_good": "Fitbit Luxe tracker with active Buy Now action, free US shipping, and total under $64."
+            "title": "Fitbit Luxe Blue Fitness Activity Tracker Lunar White Band Working Code C16",
+            "total_usd": 30.55,
+            "url": "https://www.ebay.com/itm/198625547452",
+            "verified_at": "2026-11-22T19:21:22.170908+00:00",
+            "why_good": "Working Fitbit Luxe with active Buy It Now and unconditional free US shipping."
           }
         },
         "counts": {
@@ -376,108 +370,10 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-22T17:20:54.750348+00:00",
+      "started_at": "2026-11-22T19:20:00.358750+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
-        "us": []
-      },
-      "deals": [],
-      "duration_ms": 35307,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-22T17:24:00.856745+00:00",
-      "id": "ch-mos-dmo-glock-under-196",
-      "max_price_usd": 196,
-      "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
-      "normalized_count": 0,
-      "raw_count": 0,
-      "recently_verified_deals": [],
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": null
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 0
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      },
-      "started_at": "2026-11-22T17:23:25.549649+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
-      "verified_count": 0
-    },
-    {
-      "deal_groups": {
-        "eu": [],
-        "other": [],
-        "us": []
-      },
-      "deals": [],
-      "duration_ms": 84449,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-22T17:25:25.305995+00:00",
-      "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-      "max_price_usd": 190,
-      "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
-      "normalized_count": 0,
-      "raw_count": 0,
-      "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "New retail listing",
-          "confidence": 0.93,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 140.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Top Gun Sights",
-          "shipping_usd": 0.0,
-          "source": "Top Gun Sights",
-          "target_id": "glock-19-gen5-mos-direct-mount-optic-under-190",
-          "tax_status": "",
-          "title": "Holosun SCS MOS Green Reflex Sight for Glock Handguns",
-          "total_usd": 140.0,
-          "url": "https://topgunsights.com/product/holosun-scs-mos-green-reflex-sight-for-glock-handguns/",
-          "verified_at": "2026-11-22T03:26:01.871543+00:00",
-          "why_good": "Complete Holosun SCS-M-GR green reflex optic; exact page shows 89 in stock, Add to cart/Buy now, $140 price, and unconditional free shipping because orders over $59 qualify. Holosun manufacturer documentation confirms direct mounting without an adapter plate and specifically lists G19 Gen5 MOS fitment: https://www.holosun.com/products/scs-m-gr"
-        }
-      ],
-      "regional_summary": {
-        "best": {
-          "eu": null,
-          "other": null,
-          "us": null
-        },
-        "counts": {
-          "eu": 0,
-          "other": 0,
-          "us": 0
-        },
-        "eu_premium_percent": null,
-        "eu_premium_usd": null
-      },
-      "started_at": "2026-11-22T17:24:00.856806+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
-      "verified_count": 0
     },
     {
       "deal_groups": {
@@ -487,8 +383,8 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint",
-            "confidence": 0.98,
+            "condition": "Mint condition, used",
+            "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -503,11 +399,11 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD",
+            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD, 1GbE - Mint",
             "total_usd": 2220.0,
             "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-22T17:26:30.128161+00:00",
-            "why_good": "Complete working Mac mini with Apple M4 Pro 14-core chip and 64GB RAM; mint condition, active purchase listing, and free UPS Ground shipping in the CONUS."
+            "verified_at": "2026-11-22T19:22:47.401904+00:00",
+            "why_good": "Complete working Apple Mac mini with M4 Pro 14-core chip and 64GB unified memory; free UPS Ground shipping in the CONUS and active purchase listing."
           }
         ]
       },
@@ -515,8 +411,8 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Mint",
-          "confidence": 0.98,
+          "condition": "Mint condition, used",
+          "confidence": 0.99,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -531,22 +427,22 @@
           "source": "Swappa",
           "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
           "tax_status": "",
-          "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD",
+          "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD, 1GbE - Mint",
           "total_usd": 2220.0,
           "url": "https://swappa.com/listing/view/LAMH80693",
-          "verified_at": "2026-11-22T17:26:30.128161+00:00",
-          "why_good": "Complete working Mac mini with Apple M4 Pro 14-core chip and 64GB RAM; mint condition, active purchase listing, and free UPS Ground shipping in the CONUS."
+          "verified_at": "2026-11-22T19:22:47.401904+00:00",
+          "why_good": "Complete working Apple Mac mini with M4 Pro 14-core chip and 64GB unified memory; free UPS Ground shipping in the CONUS and active purchase listing."
         }
       ],
-      "duration_ms": 67497,
+      "duration_ms": 79819,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-22T17:26:32.803064+00:00",
+      "finished_at": "2026-11-22T19:22:47.402700+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -555,8 +451,8 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint",
-            "confidence": 0.98,
+            "condition": "Mint condition, used",
+            "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -571,11 +467,11 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD",
+            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD, 1GbE - Mint",
             "total_usd": 2220.0,
             "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-22T17:26:30.128161+00:00",
-            "why_good": "Complete working Mac mini with Apple M4 Pro 14-core chip and 64GB RAM; mint condition, active purchase listing, and free UPS Ground shipping in the CONUS."
+            "verified_at": "2026-11-22T19:22:47.401904+00:00",
+            "why_good": "Complete working Apple Mac mini with M4 Pro 14-core chip and 64GB unified memory; free UPS Ground shipping in the CONUS and active purchase listing."
           }
         },
         "counts": {
@@ -586,7 +482,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-22T17:25:25.306057+00:00",
+      "started_at": "2026-11-22T19:21:27.583484+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
