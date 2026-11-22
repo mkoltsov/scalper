@@ -11,16 +11,16 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-22T11:24:12.982337+00:00",
+  "finished_at": "2026-11-22T13:25:05.089254+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 7; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=4; normalized=4; verified=0",
+    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=2",
     "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 6: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 7: status=ok; error=none; raw=2; normalized=2; verified=1"
+    "Target 7: status=ok; error=none; raw=1; normalized=1; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -33,7 +33,7 @@
     "glock-19-gen5-mos-direct-mount-optic-under-190",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-22T11:17:02.873986+00:00",
+  "started_at": "2026-11-22T13:17:03.863213+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -42,10 +42,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 40858,
+      "duration_ms": 48081,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-22T11:17:43.733927+00:00",
+      "finished_at": "2026-11-22T13:17:51.946234+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -66,7 +66,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-22T11:17:02.876339+00:00",
+      "started_at": "2026-11-22T13:17:03.865500+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -78,10 +78,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 82233,
+      "duration_ms": 84118,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-22T11:19:05.966953+00:00",
+      "finished_at": "2026-11-22T13:19:16.064203+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -102,7 +102,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-22T11:17:43.733993+00:00",
+      "started_at": "2026-11-22T13:17:51.946301+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -114,10 +114,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 66905,
+      "duration_ms": 79163,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-22T11:20:12.871850+00:00",
+      "finished_at": "2026-11-22T13:20:35.226827+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -138,7 +138,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-22T11:19:05.967020+00:00",
+      "started_at": "2026-11-22T13:19:16.064269+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -147,18 +147,120 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used - Good",
+            "confidence": 0.99,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 29.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "BoneCrypt@user245177687",
+            "shipping_usd": 7.99,
+            "source": "Mercari",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness Tracker Black w/ Charger Tested & Working",
+            "total_usd": 36.99,
+            "url": "https://www.mercari.com/us/item/m96903482149/",
+            "verified_at": "2026-11-22T13:22:27.442790+00:00",
+            "why_good": "Tested working Fitbit Luxe with active Buy Now action and explicit US shipping."
+          },
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used - Good",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 38.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "getsteezy",
+            "shipping_usd": 7.39,
+            "source": "Mercari",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness & Wellness Tracker - Black - Multiple Bands & Charger",
+            "total_usd": 45.39,
+            "url": "https://www.mercari.com/us/item/m22028950369/",
+            "verified_at": "2026-11-22T13:22:19.655219+00:00",
+            "why_good": "Exact Fitbit Luxe tracker with active Buy Now action and visible US shipping charge."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 107640,
+      "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used - Good",
+          "confidence": 0.99,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 29.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "BoneCrypt@user245177687",
+          "shipping_usd": 7.99,
+          "source": "Mercari",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness Tracker Black w/ Charger Tested & Working",
+          "total_usd": 36.99,
+          "url": "https://www.mercari.com/us/item/m96903482149/",
+          "verified_at": "2026-11-22T13:22:27.442790+00:00",
+          "why_good": "Tested working Fitbit Luxe with active Buy Now action and explicit US shipping."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Used - Good",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 38.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "getsteezy",
+          "shipping_usd": 7.39,
+          "source": "Mercari",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness & Wellness Tracker - Black - Multiple Bands & Charger",
+          "total_usd": 45.39,
+          "url": "https://www.mercari.com/us/item/m22028950369/",
+          "verified_at": "2026-11-22T13:22:19.655219+00:00",
+          "why_good": "Exact Fitbit Luxe tracker with active Buy Now action and visible US shipping charge."
+        }
+      ],
+      "duration_ms": 112217,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-22T11:22:00.512107+00:00",
+      "finished_at": "2026-11-22T13:22:27.443426+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 4,
-      "raw_count": 4,
+      "normalized_count": 3,
+      "raw_count": 3,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -234,56 +336,6 @@
           "url": "https://www.mercari.com/us/item/m17532645882/",
           "verified_at": "2026-11-22T03:23:34.396481+00:00",
           "why_good": "Working Fitbit Luxe listing with active Buy now action and visible US shipping charge."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used - Good",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 38.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "getsteezy",
-          "shipping_usd": 7.39,
-          "source": "Mercari",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness & Wellness Tracker - Black - Multiple Bands & Charger",
-          "total_usd": 45.39,
-          "url": "https://www.mercari.com/us/item/m22028950369/",
-          "verified_at": "2026-11-22T03:23:43.413963+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with active purchase controls and visible US shipping charge."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used - Good",
-          "confidence": 0.99,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 29.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "BoneCrypt",
-          "shipping_usd": 7.99,
-          "source": "Mercari",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness Tracker Black w/ Charger Tested & Working",
-          "total_usd": 36.99,
-          "url": "https://www.mercari.com/us/item/m96903482149/",
-          "verified_at": "2026-11-22T03:23:51.462606+00:00",
-          "why_good": "Explicitly tested and working Fitbit Luxe with active Buy now action and numeric US shipping."
         },
         {
           "availability": "available",
@@ -365,20 +417,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used - Good",
+            "confidence": 0.99,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 29.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "BoneCrypt@user245177687",
+            "shipping_usd": 7.99,
+            "source": "Mercari",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness Tracker Black w/ Charger Tested & Working",
+            "total_usd": 36.99,
+            "url": "https://www.mercari.com/us/item/m96903482149/",
+            "verified_at": "2026-11-22T13:22:27.442790+00:00",
+            "why_good": "Tested working Fitbit Luxe with active Buy Now action and explicit US shipping."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-22T11:20:12.871913+00:00",
+      "started_at": "2026-11-22T13:20:35.226889+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 0
+      "verified_count": 2
     },
     {
       "deal_groups": {
@@ -387,10 +463,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 33262,
+      "duration_ms": 45108,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-22T11:22:33.774082+00:00",
+      "finished_at": "2026-11-22T13:23:12.557476+00:00",
       "id": "ch-mos-dmo-glock-under-196",
       "max_price_usd": 196,
       "name": "C&H MOS-DMO Glock direct-mount optic under US$196",
@@ -411,7 +487,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-22T11:22:00.512175+00:00",
+      "started_at": "2026-11-22T13:22:27.449539+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -423,10 +499,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 37616,
+      "duration_ms": 54930,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-22T11:23:11.390272+00:00",
+      "finished_at": "2026-11-22T13:24:07.487234+00:00",
       "id": "glock-19-gen5-mos-direct-mount-optic-under-190",
       "max_price_usd": 190,
       "name": "Glock 19 Gen5 MOS direct-mount optic under US$190",
@@ -473,7 +549,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-22T11:22:33.774143+00:00",
+      "started_at": "2026-11-22T13:23:12.557553+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -487,7 +563,7 @@
             "availability": "available",
             "cartridge": "",
             "condition": "Mint condition",
-            "confidence": 0.99,
+            "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -502,11 +578,11 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) M4 Pro 14-core CPU/20-core GPU, 64GB RAM, 1TB SSD, 1GbE - Mint",
+            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD - Mint",
             "total_usd": 2220.0,
             "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-22T11:24:09.227729+00:00",
-            "why_good": "Working Apple Mac mini (2024) with M4 Pro 14-core chip and 64GB RAM; active listing, free CONUS shipping, total $2,220 before tax."
+            "verified_at": "2026-11-22T13:25:05.086753+00:00",
+            "why_good": "Complete working Apple Mac mini (2024) with M4 Pro 14-core chip and 64GB RAM, 1TB SSD, mint condition, erased to remove Find My Mac lock, and free UPS Ground shipping in the CONUS. Total is $2,220 before sales tax."
           }
         ]
       },
@@ -515,7 +591,7 @@
           "availability": "available",
           "cartridge": "",
           "condition": "Mint condition",
-          "confidence": 0.99,
+          "confidence": 0.98,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -530,22 +606,22 @@
           "source": "Swappa",
           "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
           "tax_status": "",
-          "title": "Apple Mac mini (2024) M4 Pro 14-core CPU/20-core GPU, 64GB RAM, 1TB SSD, 1GbE - Mint",
+          "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD - Mint",
           "total_usd": 2220.0,
           "url": "https://swappa.com/listing/view/LAMH80693",
-          "verified_at": "2026-11-22T11:24:09.227729+00:00",
-          "why_good": "Working Apple Mac mini (2024) with M4 Pro 14-core chip and 64GB RAM; active listing, free CONUS shipping, total $2,220 before tax."
+          "verified_at": "2026-11-22T13:25:05.086753+00:00",
+          "why_good": "Complete working Apple Mac mini (2024) with M4 Pro 14-core chip and 64GB RAM, 1TB SSD, mint condition, erased to remove Find My Mac lock, and free UPS Ground shipping in the CONUS. Total is $2,220 before sales tax."
         }
       ],
-      "duration_ms": 61590,
+      "duration_ms": 57600,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-22T11:24:12.979849+00:00",
+      "finished_at": "2026-11-22T13:25:05.087460+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 1,
+      "raw_count": 1,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -555,7 +631,7 @@
             "availability": "available",
             "cartridge": "",
             "condition": "Mint condition",
-            "confidence": 0.99,
+            "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -570,11 +646,11 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) M4 Pro 14-core CPU/20-core GPU, 64GB RAM, 1TB SSD, 1GbE - Mint",
+            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD - Mint",
             "total_usd": 2220.0,
             "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-22T11:24:09.227729+00:00",
-            "why_good": "Working Apple Mac mini (2024) with M4 Pro 14-core chip and 64GB RAM; active listing, free CONUS shipping, total $2,220 before tax."
+            "verified_at": "2026-11-22T13:25:05.086753+00:00",
+            "why_good": "Complete working Apple Mac mini (2024) with M4 Pro 14-core chip and 64GB RAM, 1TB SSD, mint condition, erased to remove Find My Mac lock, and free UPS Ground shipping in the CONUS. Total is $2,220 before sales tax."
           }
         },
         "counts": {
@@ -585,7 +661,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-22T11:23:11.390334+00:00",
+      "started_at": "2026-11-22T13:24:07.487295+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
