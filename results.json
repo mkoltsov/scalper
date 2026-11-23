@@ -9,14 +9,14 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-23T17:25:29.722435+00:00",
+  "finished_at": "2026-11-23T19:23:57.441008+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 5; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=0",
-    "Target 5: status=ok; error=none; raw=1; normalized=1; verified=1"
+    "Target 4: status=ok; error=none; raw=5; normalized=5; verified=1",
+    "Target 5: status=ok; error=none; raw=2; normalized=2; verified=2"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -27,7 +27,7 @@
     "fitbit-luxe-under-64",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-23T17:17:02.786179+00:00",
+  "started_at": "2026-11-23T19:17:02.883540+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -36,10 +36,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 49686,
+      "duration_ms": 61356,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-23T17:17:52.475282+00:00",
+      "finished_at": "2026-11-23T19:18:04.241570+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -60,7 +60,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T17:17:02.789106+00:00",
+      "started_at": "2026-11-23T19:17:02.885769+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -72,10 +72,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 132154,
+      "duration_ms": 80899,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-23T17:20:04.629360+00:00",
+      "finished_at": "2026-11-23T19:19:25.140358+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -96,7 +96,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T17:17:52.475352+00:00",
+      "started_at": "2026-11-23T19:18:04.241640+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -108,10 +108,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 113020,
+      "duration_ms": 74566,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-23T17:21:57.649741+00:00",
+      "finished_at": "2026-11-23T19:20:39.706317+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -132,7 +132,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T17:20:04.629456+00:00",
+      "started_at": "2026-11-23T19:19:25.140423+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -141,44 +141,71 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used; working",
+            "confidence": 0.99,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 39.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "shm71hdz",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Activity Fitness & Wellness Heart Rate Tracker S/L Band * WORKING *",
+            "total_usd": 39.0,
+            "url": "https://www.ebay.com/itm/147646381130",
+            "verified_at": "2026-11-23T19:22:27.300637+00:00",
+            "why_good": "Exact working Fitbit Luxe with active Buy It Now and free USPS Ground Advantage delivery; sales tax is separate."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 144649,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-11-23T17:24:22.299155+00:00",
-      "id": "fitbit-luxe-under-64",
-      "max_price_usd": 64,
-      "name": "Fitbit Luxe under US$64",
-      "normalized_count": 2,
-      "raw_count": 2,
-      "recently_verified_deals": [
+      "deals": [
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Used",
+          "condition": "Used; working",
           "confidence": 0.99,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
           "price_basis": "",
-          "price_usd": 30.55,
+          "price_usd": 39.0,
           "product_category": "",
           "round_count": null,
           "selected_quantity_label": "",
           "selected_variant": "",
-          "seller": "RambozSales",
+          "seller": "shm71hdz",
           "shipping_usd": 0.0,
           "source": "eBay",
           "target_id": "fitbit-luxe-under-64",
           "tax_status": "",
-          "title": "Fitbit Luxe Blue Fitness Activity Tracker Lunar White Band Working Code C16",
-          "total_usd": 30.55,
-          "url": "https://www.ebay.com/itm/198625547452",
-          "verified_at": "2026-11-22T19:21:22.170908+00:00",
-          "why_good": "Working Fitbit Luxe with active Buy It Now and unconditional free US shipping."
-        },
+          "title": "Fitbit Luxe Activity Fitness & Wellness Heart Rate Tracker S/L Band * WORKING *",
+          "total_usd": 39.0,
+          "url": "https://www.ebay.com/itm/147646381130",
+          "verified_at": "2026-11-23T19:22:27.300637+00:00",
+          "why_good": "Exact working Fitbit Luxe with active Buy It Now and free USPS Ground Advantage delivery; sales tax is separate."
+        }
+      ],
+      "duration_ms": 110363,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-23T19:22:30.069311+00:00",
+      "id": "fitbit-luxe-under-64",
+      "max_price_usd": 64,
+      "name": "Fitbit Luxe under US$64",
+      "normalized_count": 5,
+      "raw_count": 5,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -303,51 +330,50 @@
           "url": "https://pricecutmart.com/products/fitbit-luxe-fitness-and-wellness-tracker-smart-watch-120-hour-battery",
           "verified_at": "2026-11-23T09:22:54.013961+00:00",
           "why_good": "Working Fitbit Luxe tracker listing with active Buy Now action, free U.S. shipping on this order, and total under $64 before tax."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.97,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 39.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "shm71hdz",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Activity Fitness & Wellness Heart Rate Tracker S/L Band * WORKING *",
-          "total_usd": 39.0,
-          "url": "https://www.ebay.com/itm/147646381130",
-          "verified_at": "2026-11-23T11:22:59.319722+00:00",
-          "why_good": "Explicitly working Fitbit Luxe with active Buy It Now and free US delivery."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Used; working",
+            "confidence": 0.99,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 39.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "shm71hdz",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Activity Fitness & Wellness Heart Rate Tracker S/L Band * WORKING *",
+            "total_usd": 39.0,
+            "url": "https://www.ebay.com/itm/147646381130",
+            "verified_at": "2026-11-23T19:22:27.300637+00:00",
+            "why_good": "Exact working Fitbit Luxe with active Buy It Now and free USPS Ground Advantage delivery; sales tax is separate."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T17:21:57.649804+00:00",
-      "status": "incomplete",
-      "verification_error_count": 1,
-      "verified_count": 0
+      "started_at": "2026-11-23T19:20:39.706407+00:00",
+      "status": "ok",
+      "verification_error_count": 0,
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -357,7 +383,7 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint condition",
+            "condition": "Mint",
             "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
@@ -373,11 +399,36 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) M4 Pro 14-core CPU/20-core GPU, 64GB RAM, 1TB SSD, 1GbE - Mint",
+            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD - Mint",
             "total_usd": 2220.0,
             "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-23T17:25:29.719116+00:00",
-            "why_good": "Complete working Mac mini with Apple M4 Pro 14-core chip and 64GB RAM; free UPS Ground shipping in the CONUS; active listing priced below $2500."
+            "verified_at": "2026-11-23T19:23:53.191161+00:00",
+            "why_good": "Complete working Mac mini with M4 Pro 14-core chip and 64 GB RAM; free UPS Ground shipping in the CONUS; $2,220 total before tax."
+          },
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "Mint",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 2472.0,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "JUMINOX",
+            "shipping_usd": 0.0,
+            "source": "Swappa",
+            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+            "tax_status": "",
+            "title": "Mac Mini M4P/64/1TB/10GBE",
+            "total_usd": 2472.0,
+            "url": "https://swappa.com/listing/view/LAMK60528",
+            "verified_at": "2026-11-23T19:23:57.437749+00:00",
+            "why_good": "Complete tested Mac mini with M4 Pro 14-core chip and 64 GB RAM; free UPS/USPS shipping within the United States; $2,472 total before tax."
           }
         ]
       },
@@ -385,7 +436,7 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Mint condition",
+          "condition": "Mint",
           "confidence": 0.99,
           "delivery_country": "United States",
           "market_label": "US",
@@ -401,22 +452,47 @@
           "source": "Swappa",
           "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
           "tax_status": "",
-          "title": "Apple Mac mini (2024) M4 Pro 14-core CPU/20-core GPU, 64GB RAM, 1TB SSD, 1GbE - Mint",
+          "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD - Mint",
           "total_usd": 2220.0,
           "url": "https://swappa.com/listing/view/LAMH80693",
-          "verified_at": "2026-11-23T17:25:29.719116+00:00",
-          "why_good": "Complete working Mac mini with Apple M4 Pro 14-core chip and 64GB RAM; free UPS Ground shipping in the CONUS; active listing priced below $2500."
+          "verified_at": "2026-11-23T19:23:53.191161+00:00",
+          "why_good": "Complete working Mac mini with M4 Pro 14-core chip and 64 GB RAM; free UPS Ground shipping in the CONUS; $2,220 total before tax."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Mint",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 2472.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "JUMINOX",
+          "shipping_usd": 0.0,
+          "source": "Swappa",
+          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+          "tax_status": "",
+          "title": "Mac Mini M4P/64/1TB/10GBE",
+          "total_usd": 2472.0,
+          "url": "https://swappa.com/listing/view/LAMK60528",
+          "verified_at": "2026-11-23T19:23:57.437749+00:00",
+          "why_good": "Complete tested Mac mini with M4 Pro 14-core chip and 64 GB RAM; free UPS/USPS shipping within the United States; $2,472 total before tax."
         }
       ],
-      "duration_ms": 67421,
+      "duration_ms": 87366,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-23T17:25:29.719799+00:00",
+      "finished_at": "2026-11-23T19:23:57.438442+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -442,31 +518,6 @@
           "url": "https://www.ebay.com/itm/327297453598",
           "verified_at": "2026-11-23T11:24:20.132445+00:00",
           "why_good": "Complete sealed Apple Mac mini with M4 Pro chip and 64GB unified memory; active Buy It Now, free US delivery, total $2,499.99."
-        },
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Mint",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 2472.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "JUMINOX",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-          "tax_status": "",
-          "title": "Mac Mini M4P/64/1TB/10GBE",
-          "total_usd": 2472.0,
-          "url": "https://swappa.com/listing/view/LAMK60528",
-          "verified_at": "2026-11-23T15:24:30.372064+00:00",
-          "why_good": "Complete working Apple Mac mini with Apple M4 Pro 14-core chip and 64GB RAM, fully tested, with explicit free UPS/USPS US shipping and active Buy action."
         }
       ],
       "regional_summary": {
@@ -476,7 +527,7 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint condition",
+            "condition": "Mint",
             "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
@@ -492,25 +543,25 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) M4 Pro 14-core CPU/20-core GPU, 64GB RAM, 1TB SSD, 1GbE - Mint",
+            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD - Mint",
             "total_usd": 2220.0,
             "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-23T17:25:29.719116+00:00",
-            "why_good": "Complete working Mac mini with Apple M4 Pro 14-core chip and 64GB RAM; free UPS Ground shipping in the CONUS; active listing priced below $2500."
+            "verified_at": "2026-11-23T19:23:53.191161+00:00",
+            "why_good": "Complete working Mac mini with M4 Pro 14-core chip and 64 GB RAM; free UPS Ground shipping in the CONUS; $2,220 total before tax."
           }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 2
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T17:24:22.299286+00:00",
+      "started_at": "2026-11-23T19:22:30.072086+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 2
     }
   ]
 }
