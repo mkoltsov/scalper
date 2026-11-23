@@ -9,14 +9,14 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-23T15:24:30.380354+00:00",
+  "finished_at": "2026-11-23T17:25:29.722435+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 5; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=0",
-    "Target 5: status=ok; error=none; raw=2; normalized=2; verified=2"
+    "Target 4: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=0",
+    "Target 5: status=ok; error=none; raw=1; normalized=1; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -27,7 +27,7 @@
     "fitbit-luxe-under-64",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-23T15:17:02.799059+00:00",
+  "started_at": "2026-11-23T17:17:02.786179+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -36,10 +36,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 106584,
+      "duration_ms": 49686,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-23T15:18:49.385573+00:00",
+      "finished_at": "2026-11-23T17:17:52.475282+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -60,7 +60,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T15:17:02.801312+00:00",
+      "started_at": "2026-11-23T17:17:02.789106+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -72,10 +72,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 75902,
+      "duration_ms": 132154,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-23T15:20:05.287526+00:00",
+      "finished_at": "2026-11-23T17:20:04.629360+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -96,7 +96,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T15:18:49.385645+00:00",
+      "started_at": "2026-11-23T17:17:52.475352+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -108,10 +108,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 87562,
+      "duration_ms": 113020,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-23T15:21:32.849874+00:00",
+      "finished_at": "2026-11-23T17:21:57.649741+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -132,7 +132,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T15:20:05.287594+00:00",
+      "started_at": "2026-11-23T17:20:04.629456+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -144,15 +144,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 107633,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-23T15:23:20.482722+00:00",
+      "duration_ms": 144649,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-11-23T17:24:22.299155+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 3,
-      "raw_count": 3,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -344,9 +344,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T15:21:32.849970+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
+      "started_at": "2026-11-23T17:21:57.649804+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
       "verified_count": 0
     },
     {
@@ -357,7 +357,7 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint",
+            "condition": "Mint condition",
             "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
@@ -373,36 +373,11 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) - M4 Pro (14-core CPU/20-core GPU), 64GB RAM, 1TB SSD, 1GbE - Mint",
+            "title": "Apple Mac mini (2024) M4 Pro 14-core CPU/20-core GPU, 64GB RAM, 1TB SSD, 1GbE - Mint",
             "total_usd": 2220.0,
             "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-23T15:24:25.793116+00:00",
-            "why_good": "Complete working Apple Mac mini with Apple M4 Pro 14-core chip and 64GB RAM, free UPS Ground shipping in the CONUS, active purchase listing."
-          },
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Mint",
-            "confidence": 0.98,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 2472.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "JUMINOX",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-            "tax_status": "",
-            "title": "Mac Mini M4P/64/1TB/10GBE",
-            "total_usd": 2472.0,
-            "url": "https://swappa.com/listing/view/LAMK60528",
-            "verified_at": "2026-11-23T15:24:30.372064+00:00",
-            "why_good": "Complete working Apple Mac mini with Apple M4 Pro 14-core chip and 64GB RAM, fully tested, with explicit free UPS/USPS US shipping and active Buy action."
+            "verified_at": "2026-11-23T17:25:29.719116+00:00",
+            "why_good": "Complete working Mac mini with Apple M4 Pro 14-core chip and 64GB RAM; free UPS Ground shipping in the CONUS; active listing priced below $2500."
           }
         ]
       },
@@ -410,7 +385,7 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Mint",
+          "condition": "Mint condition",
           "confidence": 0.99,
           "delivery_country": "United States",
           "market_label": "US",
@@ -426,11 +401,47 @@
           "source": "Swappa",
           "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
           "tax_status": "",
-          "title": "Apple Mac mini (2024) - M4 Pro (14-core CPU/20-core GPU), 64GB RAM, 1TB SSD, 1GbE - Mint",
+          "title": "Apple Mac mini (2024) M4 Pro 14-core CPU/20-core GPU, 64GB RAM, 1TB SSD, 1GbE - Mint",
           "total_usd": 2220.0,
           "url": "https://swappa.com/listing/view/LAMH80693",
-          "verified_at": "2026-11-23T15:24:25.793116+00:00",
-          "why_good": "Complete working Apple Mac mini with Apple M4 Pro 14-core chip and 64GB RAM, free UPS Ground shipping in the CONUS, active purchase listing."
+          "verified_at": "2026-11-23T17:25:29.719116+00:00",
+          "why_good": "Complete working Mac mini with Apple M4 Pro 14-core chip and 64GB RAM; free UPS Ground shipping in the CONUS; active listing priced below $2500."
+        }
+      ],
+      "duration_ms": 67421,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-23T17:25:29.719799+00:00",
+      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
+      "max_price_usd": 2500,
+      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
+      "normalized_count": 1,
+      "raw_count": 1,
+      "recently_verified_deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "New",
+          "confidence": 0.99,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 2499.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Sanduo",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+          "tax_status": "",
+          "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB 10GB G1KZFLL/A Sealed",
+          "total_usd": 2499.99,
+          "url": "https://www.ebay.com/itm/327297453598",
+          "verified_at": "2026-11-23T11:24:20.132445+00:00",
+          "why_good": "Complete sealed Apple Mac mini with M4 Pro chip and 64GB unified memory; active Buy It Now, free US delivery, total $2,499.99."
         },
         {
           "availability": "available",
@@ -458,42 +469,6 @@
           "why_good": "Complete working Apple Mac mini with Apple M4 Pro 14-core chip and 64GB RAM, fully tested, with explicit free UPS/USPS US shipping and active Buy action."
         }
       ],
-      "duration_ms": 69890,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-23T15:24:30.372977+00:00",
-      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
-      "max_price_usd": 2500,
-      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 2,
-      "raw_count": 2,
-      "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "New",
-          "confidence": 0.99,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 2499.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "Sanduo",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-          "tax_status": "",
-          "title": "Apple Mac Mini M4 Pro 14C CPU/20C GPU 64GB Memory 512GB 10GB G1KZFLL/A Sealed",
-          "total_usd": 2499.99,
-          "url": "https://www.ebay.com/itm/327297453598",
-          "verified_at": "2026-11-23T11:24:20.132445+00:00",
-          "why_good": "Complete sealed Apple Mac mini with M4 Pro chip and 64GB unified memory; active Buy It Now, free US delivery, total $2,499.99."
-        }
-      ],
       "regional_summary": {
         "best": {
           "eu": null,
@@ -501,7 +476,7 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint",
+            "condition": "Mint condition",
             "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
@@ -517,25 +492,25 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) - M4 Pro (14-core CPU/20-core GPU), 64GB RAM, 1TB SSD, 1GbE - Mint",
+            "title": "Apple Mac mini (2024) M4 Pro 14-core CPU/20-core GPU, 64GB RAM, 1TB SSD, 1GbE - Mint",
             "total_usd": 2220.0,
             "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-23T15:24:25.793116+00:00",
-            "why_good": "Complete working Apple Mac mini with Apple M4 Pro 14-core chip and 64GB RAM, free UPS Ground shipping in the CONUS, active purchase listing."
+            "verified_at": "2026-11-23T17:25:29.719116+00:00",
+            "why_good": "Complete working Mac mini with Apple M4 Pro 14-core chip and 64GB RAM; free UPS Ground shipping in the CONUS; active listing priced below $2500."
           }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T15:23:20.482783+00:00",
+      "started_at": "2026-11-23T17:24:22.299286+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 2
+      "verified_count": 1
     }
   ]
 }
