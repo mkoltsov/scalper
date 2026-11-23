@@ -9,13 +9,13 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-23T21:23:28.848782+00:00",
+  "finished_at": "2026-11-23T23:23:16.696991+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 5; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=incomplete; error=verification_incomplete; raw=1; normalized=1; verified=0",
+    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=1",
     "Target 5: status=ok; error=none; raw=2; normalized=1; verified=1"
   ],
   "schema_version": 2,
@@ -27,7 +27,7 @@
     "fitbit-luxe-under-64",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-23T21:17:02.690737+00:00",
+  "started_at": "2026-11-23T23:17:02.860734+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -36,10 +36,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 61471,
+      "duration_ms": 44764,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-23T21:18:04.164911+00:00",
+      "finished_at": "2026-11-23T23:17:47.627612+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -60,7 +60,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T21:17:02.693728+00:00",
+      "started_at": "2026-11-23T23:17:02.863235+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -72,10 +72,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 42473,
+      "duration_ms": 99163,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-23T21:18:46.637441+00:00",
+      "finished_at": "2026-11-23T23:19:26.790194+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -96,7 +96,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T21:18:04.164986+00:00",
+      "started_at": "2026-11-23T23:17:47.627680+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -108,10 +108,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 58205,
+      "duration_ms": 62352,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-23T21:19:44.842180+00:00",
+      "finished_at": "2026-11-23T23:20:29.142288+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -132,7 +132,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T21:18:46.637504+00:00",
+      "started_at": "2026-11-23T23:19:26.790260+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -141,24 +141,40 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": []
+        "us": [
+          {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "New other; tested and working",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 59.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "thegreatdealz16",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
+            "total_usd": 59.99,
+            "url": "https://www.ebay.com/itm/117148205137",
+            "verified_at": "2026-11-23T23:22:13.615720+00:00",
+            "why_good": "Tested working Fitbit Luxe with active Buy It Now and free US delivery."
+          }
+        ]
       },
-      "deals": [],
-      "duration_ms": 126375,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-11-23T21:21:51.217128+00:00",
-      "id": "fitbit-luxe-under-64",
-      "max_price_usd": 64,
-      "name": "Fitbit Luxe under US$64",
-      "normalized_count": 1,
-      "raw_count": 1,
-      "recently_verified_deals": [
+      "deals": [
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "New other (see details), tested and working",
-          "confidence": 0.95,
+          "condition": "New other; tested and working",
+          "confidence": 0.98,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -176,9 +192,20 @@
           "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
           "total_usd": 59.99,
           "url": "https://www.ebay.com/itm/117148205137",
-          "verified_at": "2026-11-22T23:22:21.037063+00:00",
-          "why_good": "Working Fitbit Luxe with active Buy It Now purchase action and free US delivery under the $64 limit."
-        },
+          "verified_at": "2026-11-23T23:22:13.615720+00:00",
+          "why_good": "Tested working Fitbit Luxe with active Buy It Now and free US delivery."
+        }
+      ],
+      "duration_ms": 106947,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-23T23:22:16.089161+00:00",
+      "id": "fitbit-luxe-under-64",
+      "max_price_usd": 64,
+      "name": "Fitbit Luxe under US$64",
+      "normalized_count": 3,
+      "raw_count": 3,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -309,20 +336,44 @@
         "best": {
           "eu": null,
           "other": null,
-          "us": null
+          "us": {
+            "availability": "available",
+            "cartridge": "",
+            "condition": "New other; tested and working",
+            "confidence": 0.98,
+            "delivery_country": "United States",
+            "market_label": "US",
+            "market_region": "us",
+            "price_basis": "",
+            "price_usd": 59.99,
+            "product_category": "",
+            "round_count": null,
+            "selected_quantity_label": "",
+            "selected_variant": "",
+            "seller": "thegreatdealz16",
+            "shipping_usd": 0.0,
+            "source": "eBay",
+            "target_id": "fitbit-luxe-under-64",
+            "tax_status": "",
+            "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
+            "total_usd": 59.99,
+            "url": "https://www.ebay.com/itm/117148205137",
+            "verified_at": "2026-11-23T23:22:13.615720+00:00",
+            "why_good": "Tested working Fitbit Luxe with active Buy It Now and free US delivery."
+          }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 0
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T21:19:44.842241+00:00",
-      "status": "incomplete",
-      "verification_error_count": 1,
-      "verified_count": 0
+      "started_at": "2026-11-23T23:20:29.142349+00:00",
+      "status": "ok",
+      "verification_error_count": 0,
+      "verified_count": 1
     },
     {
       "deal_groups": {
@@ -332,7 +383,7 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint condition",
+            "condition": "Mint",
             "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
@@ -348,11 +399,11 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Mac Mini M4 Pro 14-core, 64GB RAM, 1TB SSD, 10GbE",
+            "title": "Mac Mini M4P/64/1TB/10GBE",
             "total_usd": 2472.0,
             "url": "https://swappa.com/listing/view/LAMK60528",
-            "verified_at": "2026-11-23T21:23:28.846727+00:00",
-            "why_good": "Complete tested Mac mini with Apple M4 Pro 14-core chip and 64GB RAM; free US shipping."
+            "verified_at": "2026-11-23T23:23:16.691177+00:00",
+            "why_good": "Complete working Mac mini with M4 Pro, 64 GB RAM, and 1 TB SSD; active purchase listing with unconditional free US shipping. Seller states all devices are fully tested and ready for reuse."
           }
         ]
       },
@@ -360,7 +411,7 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Mint condition",
+          "condition": "Mint",
           "confidence": 0.98,
           "delivery_country": "United States",
           "market_label": "US",
@@ -376,17 +427,17 @@
           "source": "Swappa",
           "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
           "tax_status": "",
-          "title": "Mac Mini M4 Pro 14-core, 64GB RAM, 1TB SSD, 10GbE",
+          "title": "Mac Mini M4P/64/1TB/10GBE",
           "total_usd": 2472.0,
           "url": "https://swappa.com/listing/view/LAMK60528",
-          "verified_at": "2026-11-23T21:23:28.846727+00:00",
-          "why_good": "Complete tested Mac mini with Apple M4 Pro 14-core chip and 64GB RAM; free US shipping."
+          "verified_at": "2026-11-23T23:23:16.691177+00:00",
+          "why_good": "Complete working Mac mini with M4 Pro, 64 GB RAM, and 1 TB SSD; active purchase listing with unconditional free US shipping. Seller states all devices are fully tested and ready for reuse."
         }
       ],
-      "duration_ms": 97630,
+      "duration_ms": 60600,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-23T21:23:28.847213+00:00",
+      "finished_at": "2026-11-23T23:23:16.691669+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
@@ -451,7 +502,7 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint condition",
+            "condition": "Mint",
             "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
@@ -467,11 +518,11 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Mac Mini M4 Pro 14-core, 64GB RAM, 1TB SSD, 10GbE",
+            "title": "Mac Mini M4P/64/1TB/10GBE",
             "total_usd": 2472.0,
             "url": "https://swappa.com/listing/view/LAMK60528",
-            "verified_at": "2026-11-23T21:23:28.846727+00:00",
-            "why_good": "Complete tested Mac mini with Apple M4 Pro 14-core chip and 64GB RAM; free US shipping."
+            "verified_at": "2026-11-23T23:23:16.691177+00:00",
+            "why_good": "Complete working Mac mini with M4 Pro, 64 GB RAM, and 1 TB SSD; active purchase listing with unconditional free US shipping. Seller states all devices are fully tested and ready for reuse."
           }
         },
         "counts": {
@@ -482,7 +533,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-23T21:21:51.217238+00:00",
+      "started_at": "2026-11-23T23:22:16.091729+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
