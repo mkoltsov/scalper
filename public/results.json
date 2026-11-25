@@ -9,14 +9,14 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-25T07:23:37.619935+00:00",
+  "finished_at": "2026-11-25T09:24:42.918193+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 5; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=0",
-    "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 5: status=ok; error=none; raw=1; normalized=1; verified=1"
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
+    "Target 4: status=incomplete; error=verification_incomplete; raw=3; normalized=3; verified=0",
+    "Target 5: status=ok; error=none; raw=2; normalized=2; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -27,7 +27,7 @@
     "fitbit-luxe-under-64",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-25T07:17:03.565664+00:00",
+  "started_at": "2026-11-25T09:17:02.783612+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -36,10 +36,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 37084,
+      "duration_ms": 48194,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-25T07:17:40.652207+00:00",
+      "finished_at": "2026-11-25T09:17:50.980093+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -60,7 +60,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T07:17:03.567854+00:00",
+      "started_at": "2026-11-25T09:17:02.786214+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -72,10 +72,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 73255,
+      "duration_ms": 55412,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-25T07:18:53.907395+00:00",
+      "finished_at": "2026-11-25T09:18:46.392041+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -96,7 +96,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T07:17:40.652278+00:00",
+      "started_at": "2026-11-25T09:17:50.980164+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -108,15 +108,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 147568,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-11-25T07:21:21.475354+00:00",
+      "duration_ms": 118475,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-25T09:20:44.867309+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 2,
-      "raw_count": 2,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -132,9 +132,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T07:18:53.907462+00:00",
-      "status": "incomplete",
-      "verification_error_count": 2,
+      "started_at": "2026-11-25T09:18:46.392107+00:00",
+      "status": "ok",
+      "verification_error_count": 0,
       "verified_count": 0
     },
     {
@@ -144,15 +144,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 41864,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-25T07:22:03.339487+00:00",
+      "duration_ms": 140731,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-11-25T09:23:05.596528+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 3,
+      "raw_count": 3,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -269,9 +269,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T07:21:21.475407+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
+      "started_at": "2026-11-25T09:20:44.867374+00:00",
+      "status": "incomplete",
+      "verification_error_count": 1,
       "verified_count": 0
     },
     {
@@ -282,27 +282,27 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint",
-            "confidence": 0.98,
+            "condition": "New",
+            "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 2153.0,
+            "price_usd": 2499.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "Steve D.",
+            "seller": "TPS LLC",
             "shipping_usd": 0.0,
-            "source": "Swappa",
+            "source": "eBay",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD",
-            "total_usd": 2153.0,
-            "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-25T07:23:37.617908+00:00",
-            "why_good": "Complete working Mac mini with M4 Pro 14-core chip and 64GB unified memory, 1TB SSD, mint condition, erased to remove Find My Mac lock, and unconditional free CONUS shipping."
+            "title": "Mac Mini M4 Pro 14C/20C 64GB 1TB SSD 10GB Ethernet - Apple 1 Year Warranty",
+            "total_usd": 2499.99,
+            "url": "https://www.ebay.com/itm/206369038988",
+            "verified_at": "2026-11-25T09:24:39.561549+00:00",
+            "why_good": "Complete new Apple Mac mini with M4 Pro chip and 64 GB RAM, active Buy It Now listing, free US delivery."
           }
         ]
       },
@@ -310,38 +310,38 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Mint",
-          "confidence": 0.98,
+          "condition": "New",
+          "confidence": 0.99,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
           "price_basis": "",
-          "price_usd": 2153.0,
+          "price_usd": 2499.99,
           "product_category": "",
           "round_count": null,
           "selected_quantity_label": "",
           "selected_variant": "",
-          "seller": "Steve D.",
+          "seller": "TPS LLC",
           "shipping_usd": 0.0,
-          "source": "Swappa",
+          "source": "eBay",
           "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
           "tax_status": "",
-          "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD",
-          "total_usd": 2153.0,
-          "url": "https://swappa.com/listing/view/LAMH80693",
-          "verified_at": "2026-11-25T07:23:37.617908+00:00",
-          "why_good": "Complete working Mac mini with M4 Pro 14-core chip and 64GB unified memory, 1TB SSD, mint condition, erased to remove Find My Mac lock, and unconditional free CONUS shipping."
+          "title": "Mac Mini M4 Pro 14C/20C 64GB 1TB SSD 10GB Ethernet - Apple 1 Year Warranty",
+          "total_usd": 2499.99,
+          "url": "https://www.ebay.com/itm/206369038988",
+          "verified_at": "2026-11-25T09:24:39.561549+00:00",
+          "why_good": "Complete new Apple Mac mini with M4 Pro chip and 64 GB RAM, active Buy It Now listing, free US delivery."
         }
       ],
-      "duration_ms": 94279,
+      "duration_ms": 96319,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-25T07:23:37.618384+00:00",
+      "finished_at": "2026-11-25T09:24:41.917883+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 1,
-      "raw_count": 1,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -392,6 +392,31 @@
           "url": "https://swappa.com/listing/view/LAMK60528",
           "verified_at": "2026-11-25T03:22:12.332910+00:00",
           "why_good": "Complete working Apple Mac mini with M4 Pro chip and 64GB RAM, explicitly listed as mint and fully tested, with free UPS/USPS shipping within the United States."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Mint",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 2153.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "Steve D.",
+          "shipping_usd": 0.0,
+          "source": "Swappa",
+          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+          "tax_status": "",
+          "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD",
+          "total_usd": 2153.0,
+          "url": "https://swappa.com/listing/view/LAMH80693",
+          "verified_at": "2026-11-25T07:23:37.617908+00:00",
+          "why_good": "Complete working Mac mini with M4 Pro 14-core chip and 64GB unified memory, 1TB SSD, mint condition, erased to remove Find My Mac lock, and unconditional free CONUS shipping."
         }
       ],
       "regional_summary": {
@@ -401,27 +426,27 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint",
-            "confidence": 0.98,
+            "condition": "New",
+            "confidence": 0.99,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 2153.0,
+            "price_usd": 2499.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "Steve D.",
+            "seller": "TPS LLC",
             "shipping_usd": 0.0,
-            "source": "Swappa",
+            "source": "eBay",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD",
-            "total_usd": 2153.0,
-            "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-25T07:23:37.617908+00:00",
-            "why_good": "Complete working Mac mini with M4 Pro 14-core chip and 64GB unified memory, 1TB SSD, mint condition, erased to remove Find My Mac lock, and unconditional free CONUS shipping."
+            "title": "Mac Mini M4 Pro 14C/20C 64GB 1TB SSD 10GB Ethernet - Apple 1 Year Warranty",
+            "total_usd": 2499.99,
+            "url": "https://www.ebay.com/itm/206369038988",
+            "verified_at": "2026-11-25T09:24:39.561549+00:00",
+            "why_good": "Complete new Apple Mac mini with M4 Pro chip and 64 GB RAM, active Buy It Now listing, free US delivery."
           }
         },
         "counts": {
@@ -432,7 +457,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T07:22:03.339550+00:00",
+      "started_at": "2026-11-25T09:23:05.598747+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
