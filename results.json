@@ -9,13 +9,13 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-25T05:23:37.849689+00:00",
+  "finished_at": "2026-11-25T07:23:37.619935+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 5; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=incomplete; error=verification_incomplete; raw=4; normalized=4; verified=0",
+    "Target 3: status=incomplete; error=verification_incomplete; raw=2; normalized=2; verified=0",
+    "Target 4: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 5: status=ok; error=none; raw=1; normalized=1; verified=1"
   ],
   "schema_version": 2,
@@ -27,7 +27,7 @@
     "fitbit-luxe-under-64",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-25T05:17:03.683948+00:00",
+  "started_at": "2026-11-25T07:17:03.565664+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -36,10 +36,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 47295,
+      "duration_ms": 37084,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-25T05:17:50.980718+00:00",
+      "finished_at": "2026-11-25T07:17:40.652207+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -60,7 +60,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T05:17:03.686210+00:00",
+      "started_at": "2026-11-25T07:17:03.567854+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -72,10 +72,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 82025,
+      "duration_ms": 73255,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-25T05:19:13.005499+00:00",
+      "finished_at": "2026-11-25T07:18:53.907395+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -96,7 +96,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T05:17:50.980787+00:00",
+      "started_at": "2026-11-25T07:17:40.652278+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -108,15 +108,15 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 83499,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-11-25T05:20:36.504546+00:00",
+      "duration_ms": 147568,
+      "empty_message": "Some listing checks failed. This scan is incomplete.",
+      "error_code": "verification_incomplete",
+      "finished_at": "2026-11-25T07:21:21.475354+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
-      "normalized_count": 0,
-      "raw_count": 0,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [],
       "regional_summary": {
         "best": {
@@ -132,9 +132,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T05:19:13.005565+00:00",
-      "status": "ok",
-      "verification_error_count": 0,
+      "started_at": "2026-11-25T07:18:53.907462+00:00",
+      "status": "incomplete",
+      "verification_error_count": 2,
       "verified_count": 0
     },
     {
@@ -144,41 +144,16 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 116607,
-      "empty_message": "Some listing checks failed. This scan is incomplete.",
-      "error_code": "verification_incomplete",
-      "finished_at": "2026-11-25T05:22:33.111706+00:00",
+      "duration_ms": 41864,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-25T07:22:03.339487+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 4,
-      "raw_count": 4,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used",
-          "confidence": 0.98,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 39.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "shm71hdz",
-          "shipping_usd": 0.0,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Activity Fitness & Wellness Heart Rate Tracker S/L Band * WORKING *",
-          "total_usd": 39.0,
-          "url": "https://www.ebay.com/itm/147646381130",
-          "verified_at": "2026-11-24T05:23:46.268339+00:00",
-          "why_good": "Listing identifies a working Fitbit Luxe, has active Buy It Now, and explicitly offers free US shipping."
-        },
         {
           "availability": "available",
           "cartridge": "",
@@ -294,9 +269,9 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T05:20:36.504609+00:00",
-      "status": "incomplete",
-      "verification_error_count": 2,
+      "started_at": "2026-11-25T07:21:21.475407+00:00",
+      "status": "ok",
+      "verification_error_count": 0,
       "verified_count": 0
     },
     {
@@ -307,7 +282,7 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint condition",
+            "condition": "Mint",
             "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
@@ -323,11 +298,11 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Mac mini 2024 - 1TB, 64GB, Apple M4 Pro 14-core",
+            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD",
             "total_usd": 2153.0,
             "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-25T05:23:37.846907+00:00",
-            "why_good": "Complete working Apple Mac mini with M4 Pro 14-core chip and 64GB RAM, explicitly listed with free UPS Ground shipping in the CONUS; erased to remove Find My Mac lock."
+            "verified_at": "2026-11-25T07:23:37.617908+00:00",
+            "why_good": "Complete working Mac mini with M4 Pro 14-core chip and 64GB unified memory, 1TB SSD, mint condition, erased to remove Find My Mac lock, and unconditional free CONUS shipping."
           }
         ]
       },
@@ -335,7 +310,7 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Mint condition",
+          "condition": "Mint",
           "confidence": 0.98,
           "delivery_country": "United States",
           "market_label": "US",
@@ -351,17 +326,17 @@
           "source": "Swappa",
           "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
           "tax_status": "",
-          "title": "Mac mini 2024 - 1TB, 64GB, Apple M4 Pro 14-core",
+          "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD",
           "total_usd": 2153.0,
           "url": "https://swappa.com/listing/view/LAMH80693",
-          "verified_at": "2026-11-25T05:23:37.846907+00:00",
-          "why_good": "Complete working Apple Mac mini with M4 Pro 14-core chip and 64GB RAM, explicitly listed with free UPS Ground shipping in the CONUS; erased to remove Find My Mac lock."
+          "verified_at": "2026-11-25T07:23:37.617908+00:00",
+          "why_good": "Complete working Mac mini with M4 Pro 14-core chip and 64GB unified memory, 1TB SSD, mint condition, erased to remove Find My Mac lock, and unconditional free CONUS shipping."
         }
       ],
-      "duration_ms": 64736,
+      "duration_ms": 94279,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-25T05:23:37.847484+00:00",
+      "finished_at": "2026-11-25T07:23:37.618384+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
@@ -426,7 +401,7 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint condition",
+            "condition": "Mint",
             "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
@@ -442,11 +417,11 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Mac mini 2024 - 1TB, 64GB, Apple M4 Pro 14-core",
+            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD",
             "total_usd": 2153.0,
             "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-25T05:23:37.846907+00:00",
-            "why_good": "Complete working Apple Mac mini with M4 Pro 14-core chip and 64GB RAM, explicitly listed with free UPS Ground shipping in the CONUS; erased to remove Find My Mac lock."
+            "verified_at": "2026-11-25T07:23:37.617908+00:00",
+            "why_good": "Complete working Mac mini with M4 Pro 14-core chip and 64GB unified memory, 1TB SSD, mint condition, erased to remove Find My Mac lock, and unconditional free CONUS shipping."
           }
         },
         "counts": {
@@ -457,7 +432,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T05:22:33.111780+00:00",
+      "started_at": "2026-11-25T07:22:03.339550+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
