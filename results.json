@@ -9,14 +9,14 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-25T11:24:42.005155+00:00",
+  "finished_at": "2026-11-25T13:24:02.125480+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 5; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 4: status=ok; error=none; raw=2; normalized=2; verified=1",
-    "Target 5: status=ok; error=none; raw=2; normalized=1; verified=1"
+    "Target 5: status=ok; error=none; raw=0; normalized=0; verified=0"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -27,7 +27,7 @@
     "fitbit-luxe-under-64",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-25T11:17:02.426938+00:00",
+  "started_at": "2026-11-25T13:17:02.944069+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -36,10 +36,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 43199,
+      "duration_ms": 41140,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-25T11:17:45.627870+00:00",
+      "finished_at": "2026-11-25T13:17:44.085801+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -60,7 +60,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T11:17:02.429141+00:00",
+      "started_at": "2026-11-25T13:17:02.946312+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -72,10 +72,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 82332,
+      "duration_ms": 74743,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-25T11:19:07.960021+00:00",
+      "finished_at": "2026-11-25T13:18:58.828654+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -96,7 +96,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T11:17:45.627939+00:00",
+      "started_at": "2026-11-25T13:17:44.085871+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -108,10 +108,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 97109,
+      "duration_ms": 105867,
       "empty_message": "No currently verified offer qualified.",
       "error_code": null,
-      "finished_at": "2026-11-25T11:20:45.068746+00:00",
+      "finished_at": "2026-11-25T13:20:44.695463+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -132,7 +132,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T11:19:07.960088+00:00",
+      "started_at": "2026-11-25T13:18:58.828719+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -145,27 +145,27 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "New other; tested and working",
+            "condition": "Used",
             "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 59.99,
+            "price_usd": 34.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "thegreatdealz16",
+            "seller": "PayMore Dayton South",
             "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
-            "total_usd": 59.99,
-            "url": "https://www.ebay.com/itm/117148205137",
-            "verified_at": "2026-11-25T11:23:38.608131+00:00",
-            "why_good": "Working Fitbit Luxe with active Buy It Now and unconditional free US delivery."
+            "title": "Fitbit Luxe Special Edition 40mm Activity Tracker FB422",
+            "total_usd": 34.99,
+            "url": "https://www.ebay.com/itm/366729151876",
+            "verified_at": "2026-11-25T13:22:45.108133+00:00",
+            "why_good": "Working Fitbit Luxe tracker with active Buy It Now and free US delivery."
           }
         ]
       },
@@ -173,33 +173,33 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "New other; tested and working",
+          "condition": "Used",
           "confidence": 0.98,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
           "price_basis": "",
-          "price_usd": 59.99,
+          "price_usd": 34.99,
           "product_category": "",
           "round_count": null,
           "selected_quantity_label": "",
           "selected_variant": "",
-          "seller": "thegreatdealz16",
+          "seller": "PayMore Dayton South",
           "shipping_usd": 0.0,
           "source": "eBay",
           "target_id": "fitbit-luxe-under-64",
           "tax_status": "",
-          "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
-          "total_usd": 59.99,
-          "url": "https://www.ebay.com/itm/117148205137",
-          "verified_at": "2026-11-25T11:23:38.608131+00:00",
-          "why_good": "Working Fitbit Luxe with active Buy It Now and unconditional free US delivery."
+          "title": "Fitbit Luxe Special Edition 40mm Activity Tracker FB422",
+          "total_usd": 34.99,
+          "url": "https://www.ebay.com/itm/366729151876",
+          "verified_at": "2026-11-25T13:22:45.108133+00:00",
+          "why_good": "Working Fitbit Luxe tracker with active Buy It Now and free US delivery."
         }
       ],
-      "duration_ms": 173540,
+      "duration_ms": 123561,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-25T11:23:38.608816+00:00",
+      "finished_at": "2026-11-25T13:22:48.256295+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
@@ -305,6 +305,31 @@
           "url": "https://pricecutmart.com/products/fitbit-luxe-fitness-and-wellness-tracker-smart-watch-120-hour-battery",
           "verified_at": "2026-11-25T01:21:41.889768+00:00",
           "why_good": "Exact Fitbit Luxe tracker with active Add to cart and Buy now actions; free U.S. shipping applies because the order exceeds $45."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "New other; tested and working",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 59.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "thegreatdealz16",
+          "shipping_usd": 0.0,
+          "source": "eBay",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
+          "total_usd": 59.99,
+          "url": "https://www.ebay.com/itm/117148205137",
+          "verified_at": "2026-11-25T11:23:38.608131+00:00",
+          "why_good": "Working Fitbit Luxe with active Buy It Now and unconditional free US delivery."
         }
       ],
       "regional_summary": {
@@ -314,27 +339,27 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "New other; tested and working",
+            "condition": "Used",
             "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 59.99,
+            "price_usd": 34.99,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "thegreatdealz16",
+            "seller": "PayMore Dayton South",
             "shipping_usd": 0.0,
             "source": "eBay",
             "target_id": "fitbit-luxe-under-64",
             "tax_status": "",
-            "title": "Fitbit Luxe Fitness and Wellness Tracker Black - Stress Management, Sleep",
-            "total_usd": 59.99,
-            "url": "https://www.ebay.com/itm/117148205137",
-            "verified_at": "2026-11-25T11:23:38.608131+00:00",
-            "why_good": "Working Fitbit Luxe with active Buy It Now and unconditional free US delivery."
+            "title": "Fitbit Luxe Special Edition 40mm Activity Tracker FB422",
+            "total_usd": 34.99,
+            "url": "https://www.ebay.com/itm/366729151876",
+            "verified_at": "2026-11-25T13:22:45.108133+00:00",
+            "why_good": "Working Fitbit Luxe tracker with active Buy It Now and free US delivery."
           }
         },
         "counts": {
@@ -345,7 +370,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T11:20:45.068808+00:00",
+      "started_at": "2026-11-25T13:20:44.695554+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
@@ -354,70 +379,18 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Mint",
-            "confidence": 0.97,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 2472.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "JUMINOX",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-            "tax_status": "",
-            "title": "Mac Mini M4P/64/1TB/10GBE",
-            "total_usd": 2472.0,
-            "url": "https://swappa.com/listing/view/LAMK60528",
-            "verified_at": "2026-11-25T11:24:42.003282+00:00",
-            "why_good": "Working Mac mini with M4 Pro chip and 64GB RAM, fully tested, free US shipping, and active purchase action."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Mint",
-          "confidence": 0.97,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 2472.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "JUMINOX",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-          "tax_status": "",
-          "title": "Mac Mini M4P/64/1TB/10GBE",
-          "total_usd": 2472.0,
-          "url": "https://swappa.com/listing/view/LAMK60528",
-          "verified_at": "2026-11-25T11:24:42.003282+00:00",
-          "why_good": "Working Mac mini with M4 Pro chip and 64GB RAM, fully tested, free US shipping, and active purchase action."
-        }
-      ],
-      "duration_ms": 63392,
+      "deals": [],
+      "duration_ms": 73866,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-25T11:24:42.003779+00:00",
+      "finished_at": "2026-11-25T13:24:02.125093+00:00",
       "id": "mac-mini-studio-m4-plus-64gb-under-2500",
       "max_price_usd": 2500,
       "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 1,
-      "raw_count": 2,
+      "normalized_count": 0,
+      "raw_count": 0,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -493,50 +466,51 @@
           "url": "https://www.ebay.com/itm/206369038988",
           "verified_at": "2026-11-25T09:24:39.561549+00:00",
           "why_good": "Complete new Apple Mac mini with M4 Pro chip and 64 GB RAM, active Buy It Now listing, free US delivery."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Mint",
+          "confidence": 0.97,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 2472.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "JUMINOX",
+          "shipping_usd": 0.0,
+          "source": "Swappa",
+          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+          "tax_status": "",
+          "title": "Mac Mini M4P/64/1TB/10GBE",
+          "total_usd": 2472.0,
+          "url": "https://swappa.com/listing/view/LAMK60528",
+          "verified_at": "2026-11-25T11:24:42.003282+00:00",
+          "why_good": "Working Mac mini with M4 Pro chip and 64GB RAM, fully tested, free US shipping, and active purchase action."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Mint",
-            "confidence": 0.97,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 2472.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "JUMINOX",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-            "tax_status": "",
-            "title": "Mac Mini M4P/64/1TB/10GBE",
-            "total_usd": 2472.0,
-            "url": "https://swappa.com/listing/view/LAMK60528",
-            "verified_at": "2026-11-25T11:24:42.003282+00:00",
-            "why_good": "Working Mac mini with M4 Pro chip and 64GB RAM, fully tested, free US shipping, and active purchase action."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-25T11:23:38.612328+00:00",
+      "started_at": "2026-11-25T13:22:48.259316+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     }
   ]
 }
