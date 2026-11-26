@@ -9,14 +9,14 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-26T19:21:28.854039+00:00",
+  "finished_at": "2026-11-26T21:22:02.150027+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 5; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
-    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
     "Target 4: status=ok; error=none; raw=2; normalized=2; verified=0",
-    "Target 5: status=ok; error=none; raw=1; normalized=1; verified=1"
+    "Target 5: status=ok; error=none; raw=3; normalized=2; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -27,7 +27,7 @@
     "fitbit-luxe-under-64",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-26T19:17:02.839304+00:00",
+  "started_at": "2026-11-26T21:17:02.363784+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -36,10 +36,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 45697,
+      "duration_ms": 54367,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-26T19:17:48.538356+00:00",
+      "finished_at": "2026-11-26T21:17:56.733259+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -60,7 +60,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-26T19:17:02.841544+00:00",
+      "started_at": "2026-11-26T21:17:02.366017+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -72,10 +72,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 18048,
+      "duration_ms": 23125,
       "empty_message": "Search did not run every configured query. No conclusion about current availability.",
       "error_code": "search_incomplete",
-      "finished_at": "2026-11-26T19:18:06.586832+00:00",
+      "finished_at": "2026-11-26T21:18:19.857882+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -96,7 +96,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-26T19:17:48.538424+00:00",
+      "started_at": "2026-11-26T21:17:56.733328+00:00",
       "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
@@ -108,10 +108,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 18630,
-      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
-      "error_code": "search_incomplete",
-      "finished_at": "2026-11-26T19:18:25.216791+00:00",
+      "duration_ms": 31669,
+      "empty_message": "No currently verified offer qualified.",
+      "error_code": null,
+      "finished_at": "2026-11-26T21:18:51.526445+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -132,8 +132,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-26T19:18:06.586896+00:00",
-      "status": "incomplete",
+      "started_at": "2026-11-26T21:18:19.857953+00:00",
+      "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -144,41 +144,16 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 122675,
+      "duration_ms": 94304,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-26T19:20:27.891423+00:00",
+      "finished_at": "2026-11-26T21:20:25.830618+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
       "normalized_count": 2,
       "raw_count": 2,
       "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Used; fully operational per eBay condition definition",
-          "confidence": 0.93,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 39.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "KingKandyGoods",
-          "shipping_usd": 10.2,
-          "source": "eBay",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Activity Tracker - Beige Band with Charger, Small",
-          "total_usd": 50.19,
-          "url": "https://www.ebay.com/itm/365689955256",
-          "verified_at": "2026-11-25T19:21:55.847851+00:00",
-          "why_good": "Exact Fitbit Luxe tracker with charger, active Buy It Now, numeric US shipping, and total below $64."
-        },
         {
           "availability": "available",
           "cartridge": "",
@@ -269,7 +244,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-26T19:18:25.216851+00:00",
+      "started_at": "2026-11-26T21:18:51.526510+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -282,31 +257,67 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint",
+            "condition": "Mint condition",
             "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 2121.0,
+            "price_usd": 2472.0,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "Steve D.",
+            "seller": "JUMINOX",
             "shipping_usd": 0.0,
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD, Mint",
-            "total_usd": 2121.0,
-            "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-26T19:21:28.850796+00:00",
-            "why_good": "Complete working Mac mini with explicit Apple M4 Pro 14-core chip and 64GB RAM, mint condition, active listing, and free UPS Ground shipping throughout the continental United States."
+            "title": "Mac Mini M4P/64/1TB/10GBE",
+            "total_usd": 2472.0,
+            "url": "https://swappa.com/listing/view/LAMK60528",
+            "verified_at": "2026-11-26T21:22:02.147781+00:00",
+            "why_good": "Mint fully tested Apple Mac mini with M4 Pro 14-core CPU, 64GB RAM, 1TB SSD, active Buy action, and free US shipping; total is $2472 before sales tax."
           }
         ]
       },
       "deals": [
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "Mint condition",
+          "confidence": 0.98,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 2472.0,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "JUMINOX",
+          "shipping_usd": 0.0,
+          "source": "Swappa",
+          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
+          "tax_status": "",
+          "title": "Mac Mini M4P/64/1TB/10GBE",
+          "total_usd": 2472.0,
+          "url": "https://swappa.com/listing/view/LAMK60528",
+          "verified_at": "2026-11-26T21:22:02.147781+00:00",
+          "why_good": "Mint fully tested Apple Mac mini with M4 Pro 14-core CPU, 64GB RAM, 1TB SSD, active Buy action, and free US shipping; total is $2472 before sales tax."
+        }
+      ],
+      "duration_ms": 96318,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-26T21:22:02.148231+00:00",
+      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
+      "max_price_usd": 2500,
+      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
+      "normalized_count": 2,
+      "raw_count": 3,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -333,42 +344,6 @@
           "why_good": "Complete working Mac mini with explicit Apple M4 Pro 14-core chip and 64GB RAM, mint condition, active listing, and free UPS Ground shipping throughout the continental United States."
         }
       ],
-      "duration_ms": 60960,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-26T19:21:28.851407+00:00",
-      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
-      "max_price_usd": 2500,
-      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 1,
-      "raw_count": 1,
-      "recently_verified_deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "Mint condition",
-          "confidence": 0.97,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 2472.0,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "JUMINOX",
-          "shipping_usd": 0.0,
-          "source": "Swappa",
-          "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-          "tax_status": "",
-          "title": "Mac Mini M4P/64/1TB/10GBE",
-          "total_usd": 2472.0,
-          "url": "https://swappa.com/listing/view/LAMK60528",
-          "verified_at": "2026-11-26T17:25:38.106630+00:00",
-          "why_good": "Working Apple Mac mini with M4 Pro and 64GB RAM; fully tested, active listing, and unconditional free US shipping."
-        }
-      ],
       "regional_summary": {
         "best": {
           "eu": null,
@@ -376,27 +351,27 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint",
+            "condition": "Mint condition",
             "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
             "price_basis": "",
-            "price_usd": 2121.0,
+            "price_usd": 2472.0,
             "product_category": "",
             "round_count": null,
             "selected_quantity_label": "",
             "selected_variant": "",
-            "seller": "Steve D.",
+            "seller": "JUMINOX",
             "shipping_usd": 0.0,
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD, Mint",
-            "total_usd": 2121.0,
-            "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-26T19:21:28.850796+00:00",
-            "why_good": "Complete working Mac mini with explicit Apple M4 Pro 14-core chip and 64GB RAM, mint condition, active listing, and free UPS Ground shipping throughout the continental United States."
+            "title": "Mac Mini M4P/64/1TB/10GBE",
+            "total_usd": 2472.0,
+            "url": "https://swappa.com/listing/view/LAMK60528",
+            "verified_at": "2026-11-26T21:22:02.147781+00:00",
+            "why_good": "Mint fully tested Apple Mac mini with M4 Pro 14-core CPU, 64GB RAM, 1TB SSD, active Buy action, and free US shipping; total is $2472 before sales tax."
           }
         },
         "counts": {
@@ -407,7 +382,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-26T19:20:27.891511+00:00",
+      "started_at": "2026-11-26T21:20:25.830679+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 1
