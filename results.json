@@ -9,14 +9,14 @@
   ],
   "dry_run": false,
   "exit_code": 0,
-  "finished_at": "2026-11-26T17:25:41.110584+00:00",
+  "finished_at": "2026-11-26T19:21:28.854039+00:00",
   "logs": [
     "Scan scope: complete; selected targets: 5; exit code: 0",
     "Target 1: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 2: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 3: status=ok; error=none; raw=0; normalized=0; verified=0",
-    "Target 4: status=ok; error=none; raw=3; normalized=3; verified=1",
-    "Target 5: status=ok; error=none; raw=3; normalized=3; verified=2"
+    "Target 2: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 3: status=incomplete; error=search_incomplete; raw=0; normalized=0; verified=0",
+    "Target 4: status=ok; error=none; raw=2; normalized=2; verified=0",
+    "Target 5: status=ok; error=none; raw=1; normalized=1; verified=1"
   ],
   "schema_version": 2,
   "scope": "complete",
@@ -27,7 +27,7 @@
     "fitbit-luxe-under-64",
     "mac-mini-studio-m4-plus-64gb-under-2500"
   ],
-  "started_at": "2026-11-26T17:17:02.716973+00:00",
+  "started_at": "2026-11-26T19:17:02.839304+00:00",
   "targets": [
     {
       "deal_groups": {
@@ -36,10 +36,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 65341,
+      "duration_ms": 45697,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-26T17:18:08.062552+00:00",
+      "finished_at": "2026-11-26T19:17:48.538356+00:00",
       "id": "sb-tactical-sbt-btfa-under-120",
       "max_price_usd": 120,
       "name": "SB Tactical SBT-BTFA buffer tube folding adapter",
@@ -60,7 +60,7 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-26T17:17:02.721503+00:00",
+      "started_at": "2026-11-26T19:17:02.841544+00:00",
       "status": "ok",
       "verification_error_count": 0,
       "verified_count": 0
@@ -72,10 +72,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 88908,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-11-26T17:19:36.970730+00:00",
+      "duration_ms": 18048,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-11-26T19:18:06.586832+00:00",
       "id": "9mm-1000-rounds-under-257",
       "max_price_usd": 257,
       "name": "9x19 / 9mm, 1000 rounds, under US$257",
@@ -96,8 +96,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-26T17:18:08.062637+00:00",
-      "status": "ok",
+      "started_at": "2026-11-26T19:17:48.538424+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -108,10 +108,10 @@
         "us": []
       },
       "deals": [],
-      "duration_ms": 72639,
-      "empty_message": "No currently verified offer qualified.",
-      "error_code": null,
-      "finished_at": "2026-11-26T17:20:49.609645+00:00",
+      "duration_ms": 18630,
+      "empty_message": "Search did not run every configured query. No conclusion about current availability.",
+      "error_code": "search_incomplete",
+      "finished_at": "2026-11-26T19:18:25.216791+00:00",
       "id": "223-556-1000-rounds-under-470",
       "max_price_usd": 470,
       "name": ".223 / 5.56, 1000 rounds, under US$470",
@@ -132,8 +132,8 @@
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-26T17:19:36.970798+00:00",
-      "status": "ok",
+      "started_at": "2026-11-26T19:18:06.586896+00:00",
+      "status": "incomplete",
       "verification_error_count": 0,
       "verified_count": 0
     },
@@ -141,70 +141,18 @@
       "deal_groups": {
         "eu": [],
         "other": [],
-        "us": [
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New retail listing",
-            "confidence": 0.9,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 52.99,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "",
-            "shipping_usd": 0.0,
-            "source": "Price Cut Mart",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness & Wellness Tracker Smart Watch, 120 Hour Battery Life, 1 Each",
-            "total_usd": 52.99,
-            "url": "https://pricecutmart.com/products/fitbit-luxe-fitness-and-wellness-tracker-smart-watch-120-hour-battery",
-            "verified_at": "2026-11-26T17:23:57.421678+00:00",
-            "why_good": "Active Buy Now listing with unconditional free US shipping on orders over $45."
-          }
-        ]
+        "us": []
       },
-      "deals": [
-        {
-          "availability": "available",
-          "cartridge": "",
-          "condition": "New retail listing",
-          "confidence": 0.9,
-          "delivery_country": "United States",
-          "market_label": "US",
-          "market_region": "us",
-          "price_basis": "",
-          "price_usd": 52.99,
-          "product_category": "",
-          "round_count": null,
-          "selected_quantity_label": "",
-          "selected_variant": "",
-          "seller": "",
-          "shipping_usd": 0.0,
-          "source": "Price Cut Mart",
-          "target_id": "fitbit-luxe-under-64",
-          "tax_status": "",
-          "title": "Fitbit Luxe Fitness & Wellness Tracker Smart Watch, 120 Hour Battery Life, 1 Each",
-          "total_usd": 52.99,
-          "url": "https://pricecutmart.com/products/fitbit-luxe-fitness-and-wellness-tracker-smart-watch-120-hour-battery",
-          "verified_at": "2026-11-26T17:23:57.421678+00:00",
-          "why_good": "Active Buy Now listing with unconditional free US shipping on orders over $45."
-        }
-      ],
-      "duration_ms": 195362,
+      "deals": [],
+      "duration_ms": 122675,
       "empty_message": "",
       "error_code": null,
-      "finished_at": "2026-11-26T17:24:04.971683+00:00",
+      "finished_at": "2026-11-26T19:20:27.891423+00:00",
       "id": "fitbit-luxe-under-64",
       "max_price_usd": 64,
       "name": "Fitbit Luxe under US$64",
-      "normalized_count": 3,
-      "raw_count": 3,
+      "normalized_count": 2,
+      "raw_count": 2,
       "recently_verified_deals": [
         {
           "availability": "available",
@@ -280,50 +228,51 @@
           "url": "https://www.ebay.com/p/5050869704?iid=236800371983",
           "verified_at": "2026-11-26T13:22:39.807254+00:00",
           "why_good": "Working Fitbit Luxe with active Buy It Now and free US shipping."
+        },
+        {
+          "availability": "available",
+          "cartridge": "",
+          "condition": "New retail listing",
+          "confidence": 0.9,
+          "delivery_country": "United States",
+          "market_label": "US",
+          "market_region": "us",
+          "price_basis": "",
+          "price_usd": 52.99,
+          "product_category": "",
+          "round_count": null,
+          "selected_quantity_label": "",
+          "selected_variant": "",
+          "seller": "",
+          "shipping_usd": 0.0,
+          "source": "Price Cut Mart",
+          "target_id": "fitbit-luxe-under-64",
+          "tax_status": "",
+          "title": "Fitbit Luxe Fitness & Wellness Tracker Smart Watch, 120 Hour Battery Life, 1 Each",
+          "total_usd": 52.99,
+          "url": "https://pricecutmart.com/products/fitbit-luxe-fitness-and-wellness-tracker-smart-watch-120-hour-battery",
+          "verified_at": "2026-11-26T17:23:57.421678+00:00",
+          "why_good": "Active Buy Now listing with unconditional free US shipping on orders over $45."
         }
       ],
       "regional_summary": {
         "best": {
           "eu": null,
           "other": null,
-          "us": {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "New retail listing",
-            "confidence": 0.9,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 52.99,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "",
-            "shipping_usd": 0.0,
-            "source": "Price Cut Mart",
-            "target_id": "fitbit-luxe-under-64",
-            "tax_status": "",
-            "title": "Fitbit Luxe Fitness & Wellness Tracker Smart Watch, 120 Hour Battery Life, 1 Each",
-            "total_usd": 52.99,
-            "url": "https://pricecutmart.com/products/fitbit-luxe-fitness-and-wellness-tracker-smart-watch-120-hour-battery",
-            "verified_at": "2026-11-26T17:23:57.421678+00:00",
-            "why_good": "Active Buy Now listing with unconditional free US shipping on orders over $45."
-          }
+          "us": null
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 1
+          "us": 0
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-26T17:20:49.609708+00:00",
+      "started_at": "2026-11-26T19:18:25.216851+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 1
+      "verified_count": 0
     },
     {
       "deal_groups": {
@@ -333,8 +282,8 @@
           {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint condition",
-            "confidence": 0.99,
+            "condition": "Mint",
+            "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -349,36 +298,11 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) - M4 Pro 14-core, 64GB RAM, 1TB SSD, 1GbE - Mint",
+            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD, Mint",
             "total_usd": 2121.0,
             "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-26T17:25:34.188482+00:00",
-            "why_good": "Working Apple Mac mini with M4 Pro and 64GB RAM; free CONUS shipping and explicit Find My Mac lock removal."
-          },
-          {
-            "availability": "available",
-            "cartridge": "",
-            "condition": "Mint condition",
-            "confidence": 0.97,
-            "delivery_country": "United States",
-            "market_label": "US",
-            "market_region": "us",
-            "price_basis": "",
-            "price_usd": 2472.0,
-            "product_category": "",
-            "round_count": null,
-            "selected_quantity_label": "",
-            "selected_variant": "",
-            "seller": "JUMINOX",
-            "shipping_usd": 0.0,
-            "source": "Swappa",
-            "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
-            "tax_status": "",
-            "title": "Mac Mini M4P/64/1TB/10GBE",
-            "total_usd": 2472.0,
-            "url": "https://swappa.com/listing/view/LAMK60528",
-            "verified_at": "2026-11-26T17:25:38.106630+00:00",
-            "why_good": "Working Apple Mac mini with M4 Pro and 64GB RAM; fully tested, active listing, and unconditional free US shipping."
+            "verified_at": "2026-11-26T19:21:28.850796+00:00",
+            "why_good": "Complete working Mac mini with explicit Apple M4 Pro 14-core chip and 64GB RAM, mint condition, active listing, and free UPS Ground shipping throughout the continental United States."
           }
         ]
       },
@@ -386,8 +310,8 @@
         {
           "availability": "available",
           "cartridge": "",
-          "condition": "Mint condition",
-          "confidence": 0.99,
+          "condition": "Mint",
+          "confidence": 0.98,
           "delivery_country": "United States",
           "market_label": "US",
           "market_region": "us",
@@ -402,12 +326,23 @@
           "source": "Swappa",
           "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
           "tax_status": "",
-          "title": "Apple Mac mini (2024) - M4 Pro 14-core, 64GB RAM, 1TB SSD, 1GbE - Mint",
+          "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD, Mint",
           "total_usd": 2121.0,
           "url": "https://swappa.com/listing/view/LAMH80693",
-          "verified_at": "2026-11-26T17:25:34.188482+00:00",
-          "why_good": "Working Apple Mac mini with M4 Pro and 64GB RAM; free CONUS shipping and explicit Find My Mac lock removal."
-        },
+          "verified_at": "2026-11-26T19:21:28.850796+00:00",
+          "why_good": "Complete working Mac mini with explicit Apple M4 Pro 14-core chip and 64GB RAM, mint condition, active listing, and free UPS Ground shipping throughout the continental United States."
+        }
+      ],
+      "duration_ms": 60960,
+      "empty_message": "",
+      "error_code": null,
+      "finished_at": "2026-11-26T19:21:28.851407+00:00",
+      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
+      "max_price_usd": 2500,
+      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
+      "normalized_count": 1,
+      "raw_count": 1,
+      "recently_verified_deals": [
         {
           "availability": "available",
           "cartridge": "",
@@ -434,16 +369,6 @@
           "why_good": "Working Apple Mac mini with M4 Pro and 64GB RAM; fully tested, active listing, and unconditional free US shipping."
         }
       ],
-      "duration_ms": 96132,
-      "empty_message": "",
-      "error_code": null,
-      "finished_at": "2026-11-26T17:25:41.107192+00:00",
-      "id": "mac-mini-studio-m4-plus-64gb-under-2500",
-      "max_price_usd": 2500,
-      "name": "Apple Mac mini / Mac Studio M4+, 64+ GB memory, under US$2500",
-      "normalized_count": 3,
-      "raw_count": 3,
-      "recently_verified_deals": [],
       "regional_summary": {
         "best": {
           "eu": null,
@@ -451,8 +376,8 @@
           "us": {
             "availability": "available",
             "cartridge": "",
-            "condition": "Mint condition",
-            "confidence": 0.99,
+            "condition": "Mint",
+            "confidence": 0.98,
             "delivery_country": "United States",
             "market_label": "US",
             "market_region": "us",
@@ -467,25 +392,25 @@
             "source": "Swappa",
             "target_id": "mac-mini-studio-m4-plus-64gb-under-2500",
             "tax_status": "",
-            "title": "Apple Mac mini (2024) - M4 Pro 14-core, 64GB RAM, 1TB SSD, 1GbE - Mint",
+            "title": "Apple Mac mini (2024) M4 Pro 14-core, 64GB RAM, 1TB SSD, Mint",
             "total_usd": 2121.0,
             "url": "https://swappa.com/listing/view/LAMH80693",
-            "verified_at": "2026-11-26T17:25:34.188482+00:00",
-            "why_good": "Working Apple Mac mini with M4 Pro and 64GB RAM; free CONUS shipping and explicit Find My Mac lock removal."
+            "verified_at": "2026-11-26T19:21:28.850796+00:00",
+            "why_good": "Complete working Mac mini with explicit Apple M4 Pro 14-core chip and 64GB RAM, mint condition, active listing, and free UPS Ground shipping throughout the continental United States."
           }
         },
         "counts": {
           "eu": 0,
           "other": 0,
-          "us": 2
+          "us": 1
         },
         "eu_premium_percent": null,
         "eu_premium_usd": null
       },
-      "started_at": "2026-11-26T17:24:04.974920+00:00",
+      "started_at": "2026-11-26T19:20:27.891511+00:00",
       "status": "ok",
       "verification_error_count": 0,
-      "verified_count": 2
+      "verified_count": 1
     }
   ]
 }
